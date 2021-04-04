@@ -12,6 +12,8 @@ class Character(commands.Cog):
             self.ougis = dict((k.lower(), v) for k, v in json.load(ougiFile).items())
         with open('data/skill.json', 'r') as skillFile:
             self.skills = dict((k.lower(), v) for k, v in json.load(skillFile).items())
+        with open('data/supportskill.json', 'r') as supportSkillFile:
+            self.supportSkills = dict((k.lower(), v) for k, v in json.load(supportSkillFile).items())
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -40,11 +42,12 @@ class Character(commands.Cog):
             version = charVersion['name']
             charOugi = self.ougis[name][version]
             charSkill = self.skills[name][version]
+            charSupport = self.supportSkills[name][version]
             name = name.title()
 
-            msg = f'{self.emojis["Rarity"][charVersion["rarity"]]} **{name} ({version})**'
+            title = f'{self.emojis["Rarity"][charVersion["rarity"]]} **{name} ({version})**'
 
-            title = f'{self.emojis["Element"][charVersion["element"]]} **{charVersion["element"]}** {self.emojis["Type"][charVersion["type"]]} **{charVersion["type"]}**\n'
+            title += f'\n{self.emojis["Element"][charVersion["element"]]} **{charVersion["element"]}** {self.emojis["Type"][charVersion["type"]]} **{charVersion["type"]}**\n'
             for specialty in charVersion['specialties']:
                 title += f'{self.emojis["Specialty"][specialty]} **{specialty}** '
 
@@ -74,6 +77,19 @@ class Character(commands.Cog):
                 skillEmbed.title = skillName
                 skillEmbed.description = skillText
                 skillEmbed.set_image(url=charVersion['image'])
+                skillEmbed.set_thumbnail(url=skill['thumbnail'])
+                embedList.append(skillEmbed)
+
+            for skill in charSupport:
+                skillEmbed = discord.Embed()
+                skillText = ''
+                for text in skill['text']:
+                    skillText += text + '\n'
+                skillName = f'{skill["name"]}'
+                skillEmbed.title = skillName
+                skillEmbed.description = skillText
+                skillEmbed.set_image(url=charVersion['image'])
+                skillEmbed.set_thumbnail(url=skill['thumbnail'])
                 embedList.append(skillEmbed)
 
 
