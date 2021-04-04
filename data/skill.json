@@ -3,6 +3,7 @@
         "SSR" : [
             {
                 "name" : "Girl of Steel",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/56_3.png",
                 "type" : "Buff",
                 "cooldown" : 6,
                 "text" : [
@@ -13,6 +14,7 @@
             },
             {
                 "name" : "Tallyho",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/911_1.png",
                 "type" : "Attack",
                 "cooldown" : 6,
                 "text" : [
@@ -24,6 +26,7 @@
             },
             {
                 "name" : "Still Alive",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/912_3.png",
                 "type" : "Buff",
                 "cooldown" : 9,
                 "text" : [
@@ -35,47 +38,51 @@
         "Summer" : [
             {
                 "name" : "Sunburn",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1212_3.png",
                 "type" : "Buff",
                 "cooldown" : 8,
                 "text" : [
-                    "- All Water Allies gain **Sunburn** and **Deluge Crest**.",
+                    "- All Water Allies gain <:status_special_buff_sunburn:828371336405188689> **Sunburn** and <:status_deluge_crest:828371406722039879> **Deluge Crest**.",
                     "- Consume __**80%**__ of Current HP. Will activate even if Kolulu has 1 HP.",
-                    "- **Sunburn**: 5 Turn, **50%** **Unique** ATK Up, **100%** DEF Up, **30%** DA Up, **15%*** TA Up"
+                    "- <:status_special_buff_sunburn:828371336405188689> **Sunburn**: 5 Turn, **50%** **Unique** ATK Up, **100%** DEF Up, **30%** DA Up, **15%*** TA Up"
                 ]
             },
             {
                 "name" : "Tallyho",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1213_1.png",
                 "type" : "Attack",
                 "cooldown" : 6,
                 "text" : [
                     "- **6**-hit, __**100%**__ Water Damage (Damage cap: **130,000** per hit).",
-                    "- Inflict **20% DEF Down** and **Blinded**.",
-                    "- Become **Tallyho, Auguste!** if Kolulu has **3 or more Deluge Crests.**",
-                    "- **20% DEF Down**: 180s",
-                    "- **Blinded**: 180s"
+                    "- Inflict  <:status_defdown_global:828371408363061298> **20% DEF Down** and <:status_blind_global:828371406487552082> **Blinded**.",
+                    "- Become **Tallyho, Auguste!** if Kolulu has <:status_deluge_crest:828371406722039879> **3 or more Deluge Crests.**",
+                    "- <:status_defdown_global:828371408363061298> **20% DEF Down**: 180s",
+                    "- <:status_blind_global:828371406487552082>**Blinded**: 180s"
                 ]
             },
             {
                 "name" : "Tallyho, Auguste!",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1213_1.png",
                 "type" : "Attack",
                 "cooldown" : 6,
                 "text" : [
                     "- **12**-hit, __**100%**__ Water Damage (Damage cap: **130,000** per hit).",
-                    "- Inflict **25% DEF Down** and **Blinded**. All Allies gain **Jammed**.",
-                    "- **25% DEF Down**: 180s",
-                    "- **Blinded**: 180s",
-                    "- **Jammed**: 3 Turns, **10%-20%**. Stack additively with **Brilliant Shine**'s **Jammed**."
+                    "- Inflict <:status_defdown_global:828371408363061298> **25% DEF Down** and <:status_blind_global:828371406487552082> **Blinded**. All Allies gain <:status_jammed:828371406936997919> **Jammed**.",
+                    "- <:status_defdown_global:828371408363061298> **25% DEF Down**: 180s",
+                    "- <:status_blind_global:828371406487552082> **Blinded**: 180s",
+                    "- <:status_jammed:828371406936997919> **Jammed**: 3 Turns, **10%-20%**. Stack additively with <:skill_brilliant_shine:828375406846672948> **Brilliant Shine**'s <:status_jammed:828371406936997919> **Jammed**."
                 ]
             },
             {
                 "name" : "Brilliant Shine",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1214_3.png",
                 "type" : "Buff",
                 "cooldown" : 8,
                 "text" : [
-                    "- Gain **10% Uplifted** and **Unchallenged (2 times)**.",
-                    "- When **below 25% HP**, also gain **Shield (3000)** and **Jammed**.",
-                    "- **10% Uplifted**: 5 Turns",
-                    "- **Jammed**: 5 Turns, **30%-90%**. Stack additively with **Tallyho, Auguste!**'s **Jammed**."
+                    "- Gain <:status_uplift:828371407720808468> **10% Uplifted** and <:status_unchallenged:828371407351447643> **Unchallenged (2 times)**.",
+                    "- When **below 25% HP**, also gain <:status_shield:828371407091662859> **Shield (3000)** and <:status_jammed:828371406936997919> **Jammed**.",
+                    "- <:status_uplift:828371407720808468> **10% Uplifted**: 5 Turns",
+                    "- <:status_jammed:828371406936997919> **Jammed**: 5 Turns, **30%-90%**. Stack additively with <:skill_tallyho:828376332873891870> **Tallyho, Auguste!**'s jammed :status_jammed: : <:status_jammed:828371406936997919> **Jammed**."
                 ]
             }
         ]
