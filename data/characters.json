@@ -1,0 +1,39 @@
+{
+    "Kolulu" : {
+        "jp" : "コルル",
+        "gender" : "Female",
+        "va" : "Miku Ito",
+        "versions" : [
+            {
+                "name" : "SSR",
+                "thumbnail" : "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040222000_01.jpg",
+                "rarity" : "SSR",
+                "hp" : 950,
+                "atk" : 11100,
+                "race" : "Human",
+                "element" : "Dark",
+                "style" : "Special",
+                "specialties" : [
+                    "Spear"
+                ],
+                "recruitment" : "Premium Draw",
+                "weapon" : "Vagabond"
+            },
+            {
+                "name" : "Summer",
+                "thumbnail" : "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040283000_01.jpg",
+                "rarity" : "SSR",
+                "hp" : 1160,
+                "atk" : 10050,
+                "race" : "Human",
+                "element" : "Water",
+                "style" : "Special",
+                "specialties" : [
+                    "Spear"
+                ],
+                "recruitment" : "Summer Premium Draw",
+                "weapon" : "Much Ado"
+            }
+        ]
+    }
+}
