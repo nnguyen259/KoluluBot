@@ -5,36 +5,28 @@ from dotenv import load_dotenv
 load_dotenv()
 
 bot = commands.Bot('?gbf ')
+modules = ['character']
 
 @bot.event
 async def on_ready():
-    global chars
-    with open('data/characters.json', 'r') as charFile:
-        chars = json.load(charFile)
+    for module in modules:
+        bot.load_extension(f'cogs.{module}')
     print('Bot is ready.')
 
-@bot.command()
-async def char(ctx, name, version=None):
-    if name in chars:
-        outChar = None
-        if not version:
-            outChar = chars[name]['versions'][0]
-            version = chars[name]['versions'][0]['name']
-        else:
-            for alt in chars[name]['versions']:
-                if alt['name'] == version:
-                    outChar = alt
-                    break
-        if not outChar:
-            outChar = chars[name]['versions'][0]
-            version = chars[name]['versions'][0]['name']
+@bot.command(hidden=True)
+async def load(ctx, module):
+    bot.load_extension(f'cogs.{module}')
+    await ctx.send(f'Module {module} loaded.')
 
-        embed = discord.Embed()
-        embed.title = name + ' (' + version + ')'
-        embed.description = '**HP:** ' + str(outChar['hp']) + '\t**ATK:** ' + str(outChar['atk']) + '\n**Race:** ' + outChar['race'] + '\t**Style:** ' + outChar['style']
-        embed.set_thumbnail(url=outChar['thumbnail'])
-        await ctx.send(embed=embed)
-    else:
-        await ctx.send('Character not found!')
+@bot.command()
+async def unload(ctx, module):
+    bot.unload_extension(f'cogs.{module}')
+    await ctx.send(f'Module {module} unloaded.')
+
+@bot.command()
+async def reload(ctx, module):
+    bot.unload_extension(f'cogs.{module}')
+    bot.load_extension(f'cogs.{module}')
+    await ctx.send(f'Module {module} reloaded.')
 
 bot.run(os.getenv('token'))
