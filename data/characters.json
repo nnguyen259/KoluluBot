@@ -6,6 +6,8 @@
         "versions" : [
             {
                 "name" : "SSR",
+                "wiki" : "https://gbf.wiki/Kolulu",
+                "series" : [], 
                 "thumbnail" : "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040222000_01.jpg",
                 "image" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040222000_01.png",
                 "rarity" : "SSR",
@@ -22,6 +24,8 @@
             },
             {
                 "name" : "Summer",
+                "wiki" : "https://gbf.wiki/Kolulu_(Summer)",
+                "series" : ["Summer"],
                 "thumbnail" : "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040283000_01.jpg",
                 "image" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040283000_01.png",
                 "rarity" : "SSR",

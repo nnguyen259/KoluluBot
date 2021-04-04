@@ -1,4 +1,4 @@
-import discord, json
+import discord, json, DiscordUtils
 from discord.ext import commands
 
 class Character(commands.Cog):
@@ -55,22 +55,36 @@ class Character(commands.Cog):
             for ougiText in charOugi['text']:
                 ougi += ougiText + '\n'
 
-            embed = discord.Embed()
-            embed.title = title
-            embed.description = description
-            embed.set_thumbnail(url=charVersion['thumbnail'])
-            embed.set_image(url=charVersion['image'])
+            embedList = []
 
-            embed.add_field(name=f'Charge Attack: {charOugi["name"]}', value=ougi, inline=False)
+            mainEmbed = discord.Embed()
+            mainEmbed.title = title
+            mainEmbed.description = description
+            mainEmbed.set_thumbnail(url=charVersion['thumbnail'])
+            mainEmbed.set_image(url=charVersion['image'])
+            mainEmbed.add_field(name=f'Charge Attack: {charOugi["name"]}', value=ougi, inline=False)
+            embedList.append(mainEmbed)
 
             for skill in charSkill:
+                skillEmbed = discord.Embed()
                 skillText = ''
                 for text in skill['text']:
                     skillText += text + '\n'
-                name = f'{self.emojis["Skill"][skill["type"]]} {skill["name"]} ({skill["cooldown"]}T)'
-                embed.add_field(name=name, value=skillText, inline=False)
+                skillName = f'{self.emojis["Skill"][skill["type"]]} {skill["name"]} ({skill["cooldown"]}T)'
+                skillEmbed.title = skillName
+                skillEmbed.description = skillText
+                skillEmbed.set_image(url=charVersion['image'])
+                embedList.append(skillEmbed)
 
-            await ctx.send(msg, embed=embed)
+
+            paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
+            paginator.add_reaction('⏮️', "first")
+            paginator.add_reaction('⏪', "back")
+            paginator.add_reaction('🔐', "lock")
+            paginator.add_reaction('⏩', "next")
+            paginator.add_reaction('⏭️', "last")
+
+            await paginator.run(embedList)
         else:
             await ctx.send('Character not found!')
 
