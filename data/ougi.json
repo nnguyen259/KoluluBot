@@ -3,15 +3,15 @@
         "SSR": {
             "name": "Stone Breaker",
             "text": [
-                "- __**450%**__ Damage (Damage Cap: **1,685,000**). **+30% Damage/+10% Damage Cap** against ***Blinded*** foe.",
-                "- Activate **Tallyho**. Will activate even if skill is on cooldown. Will not put skill on cooldown if it is available."
+                "- __**450%**__ Damage (Damage Cap: **1,685,000**). **+30% Damage/+10% Damage Cap** against <:status_blind_global:828371406487552082>/<:status_blind_local:828382023419953163> ***Blinded*** foe.",
+                "- Activate <:skill_tallyho_0:828384440647942164> **Tallyho**.. Will activate even if skill is on cooldown. Will not put skill on cooldown if it is available."
             ]
         },
         "Summer": {
             "name": "Rumble Breaker",
             "text": [
-                "- __**450%**__ Damage (Damage Cap: **1,685,000**). **+30% Damage/+10% Damage Cap** against ***Blinded*** foe.",
-                "- End cooldown for **Sunburn**."
+                "- __**450%**__ Damage (Damage Cap: **1,685,000**). **+30% Damage/+10% Damage Cap** against <:status_blind_global:828371406487552082>/<:status_blind_local:828382023419953163> ***Blinded*** foe.",
+                "- End cooldown for <:status_special_buff_sunburn:828371336405188689> **Sunburn**."
             ]
         }
     }

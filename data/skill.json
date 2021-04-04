@@ -7,9 +7,9 @@
                 "type" : "Buff",
                 "cooldown" : 6,
                 "text" : [
-                    "- Gain **Substitute (All-Ally)** and **100%/50% Armored**.",
-                    "- **Substitute (All-Ally)**: 1 Turn",
-                    "- **100%/50% Armored**: 1 Turn"
+                    "- Gain <:status_substitute_all_allies:828382023419691069> **Substitute (All-Ally)** and <:status_armored:828382023776206888> **100%/50% Armored**.",
+                    "- <:status_substitute_all_allies:828382023419691069> **Substitute (All-Ally)**: 1 Turn",
+                    "- <:status_armored:828382023776206888> **100%/50% Armored**: 1 Turn"
                 ]
             },
             {
@@ -19,9 +19,9 @@
                 "cooldown" : 6,
                 "text" : [
                     "- **6**-hit, __**100%**__ Dark Damage (Damage cap: **135,000** per hit).",
-                    "- Inflict **10% DEF Down** (Stackable / Max: **30%**) and **Blinded**.",
-                    "- **10% DEF Down** (Stackable / Max: **30%**): 180s",
-                    "- **Blinded**: 3 Turns"
+                    "- Inflict <:status_defdown_stackable:828382023726268465> **10% DEF Down** (Stackable / Max: **30%**) and <:status_blind_local:828382023419953163> **Blinded**.",
+                    "- <:status_defdown_stackable:828382023726268465> **10% DEF Down** (Stackable / Max: **30%**): 180s",
+                    "- <:status_blind_local:828382023419953163> **Blinded**: 3 Turns"
                 ]
             },
             {
@@ -42,9 +42,9 @@
                 "type" : "Buff",
                 "cooldown" : 8,
                 "text" : [
-                    "- All Water Allies gain <:status_special_buff_sunburn:828371336405188689> **Sunburn** and <:status_deluge_crest:828371406722039879> **Deluge Crest**.",
+                    "- All Water Allies gain <:skill_special_buff_sunburn:828385636360519713> **Sunburn** and <:status_deluge_crest:828371406722039879> **Deluge Crest**.",
                     "- Consume __**80%**__ of Current HP. Will activate even if Kolulu has 1 HP.",
-                    "- <:status_special_buff_sunburn:828371336405188689> **Sunburn**: 5 Turn, **50%** **Unique** ATK Up, **100%** DEF Up, **30%** DA Up, **15%*** TA Up"
+                    "- <:skill_special_buff_sunburn:828385636360519713>  **Sunburn**: 5 Turn, **50%** **Unique** ATK Up, **100%** DEF Up, **30%** DA Up, **15%*** TA Up"
                 ]
             },
             {
@@ -55,7 +55,7 @@
                 "text" : [
                     "- **6**-hit, __**100%**__ Water Damage (Damage cap: **130,000** per hit).",
                     "- Inflict  <:status_defdown_global:828371408363061298> **20% DEF Down** and <:status_blind_global:828371406487552082> **Blinded**.",
-                    "- Become **Tallyho, Auguste!** if Kolulu has <:status_deluge_crest:828371406722039879> **3 or more Deluge Crests.**",
+                    "- Become **Tallyho, Auguste!** if Kolulu has  **3 or more** <:status_deluge_crest:828371406722039879> **Deluge Crests.**",
                     "- <:status_defdown_global:828371408363061298> **20% DEF Down**: 180s",
                     "- <:status_blind_global:828371406487552082>**Blinded**: 180s"
                 ]
@@ -70,7 +70,7 @@
                     "- Inflict <:status_defdown_global:828371408363061298> **25% DEF Down** and <:status_blind_global:828371406487552082> **Blinded**. All Allies gain <:status_jammed:828371406936997919> **Jammed**.",
                     "- <:status_defdown_global:828371408363061298> **25% DEF Down**: 180s",
                     "- <:status_blind_global:828371406487552082> **Blinded**: 180s",
-                    "- <:status_jammed:828371406936997919> **Jammed**: 3 Turns, **10%-20%**. Stack additively with <:skill_brilliant_shine:828375406846672948> **Brilliant Shine**'s <:status_jammed:828371406936997919> **Jammed**."
+                    "- <:status_jammed:828371406936997919> **Jammed**: 3 Turns, **10%-20%**. Stack additively with <:skill_brilliant_shine:828385636067180546> **Brilliant Shine**'s <:status_jammed:828371406936997919> **Jammed**."
                 ]
             },
             {
@@ -82,7 +82,7 @@
                     "- Gain <:status_uplift:828371407720808468> **10% Uplifted** and <:status_unchallenged:828371407351447643> **Unchallenged (2 times)**.",
                     "- When **below 25% HP**, also gain <:status_shield:828371407091662859> **Shield (3000)** and <:status_jammed:828371406936997919> **Jammed**.",
                     "- <:status_uplift:828371407720808468> **10% Uplifted**: 5 Turns",
-                    "- <:status_jammed:828371406936997919> **Jammed**: 5 Turns, **30%-90%**. Stack additively with <:skill_tallyho:828376332873891870> **Tallyho, Auguste!**'s jammed :status_jammed: : <:status_jammed:828371406936997919> **Jammed**."
+                    "- <:status_jammed:828371406936997919> **Jammed**: 5 Turns, **30%-90%**. Stack additively with <:skill_tallyho:828385636989534258> **Tallyho, Auguste!**'s jammed <:status_jammed:828371406936997919> **Jammed**."
                 ]
             }
         ]
