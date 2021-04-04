@@ -12,7 +12,7 @@
                 "atk" : 11100,
                 "race" : "Human",
                 "element" : "Dark",
-                "style" : "Special",
+                "type" : "Special",
                 "specialties" : [
                     "Spear"
                 ],
@@ -27,7 +27,7 @@
                 "atk" : 10050,
                 "race" : "Human",
                 "element" : "Water",
-                "style" : "Special",
+                "type" : "Special",
                 "specialties" : [
                     "Spear"
                 ],
