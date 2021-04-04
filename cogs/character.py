@@ -19,9 +19,6 @@ class Character(commands.Cog):
 
     @commands.command()
     async def char(self, ctx, name : str, version=None):
-        if not name:
-            await ctx.send('No name specified for character.')
-            return
         name = name.lower()
         if name in self.chars:
             char = self.chars[name]
@@ -46,7 +43,7 @@ class Character(commands.Cog):
                 title += f'{self.emojis["Specialty"][specialty]} **{specialty}** '
 
             description = f'{self.emojis["Gender"][char["gender"]]} **{char["gender"]}** {self.emojis["Race"][charVersion["race"]]} **{charVersion["race"]}**'
-            description += f'\nHP: {charVersion["hp"]} ATK: {charVersion["atk"]}'
+            description += f'\n{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* \n{self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
 
             embed = discord.Embed()
             embed.title = title
