@@ -1,0 +1,53 @@
+{
+    "Kolulu" : {
+        "SSR" : [
+            {
+                "name" : "Fated Spear",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "text" : [
+                    "- Increase **Fated Spear** level by 1 upon being targeted (Max: **5**).",
+                    "- Gain **Supplemental Damage** based on **Fated Spear** level.",
+                    "- **Supplemental Damage**: 1% HP/10,000 Damage per level"
+                ]
+            },
+            {
+                "name" : "Reason to Live",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "text" : [
+                    "- Boost to **ATK (Unique)** and **DEF** based on how low HP is.",
+                    "- Starts battle with **Lethal Attack Dodged (1 time).**",
+                    "- **ATK**: 0%-45%",
+                    "- **DEF**: 0%-75%"
+                ]
+            },
+            {
+                "name" : "EMP",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png",
+                "text" : [
+                    "- Boost to **DEF** and **Hostility**.",
+                    "- **DEF**: 5%/8%/10%",
+                    "- **Hostility**: +?/+?/+10"
+                ]
+            }
+        ],
+        "Summer" : [
+            {
+                "name" : "Ironclad Beach Bum",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "text" : [
+                    "- **When HP<25%**: **Guarantee triple attacks** and **20% Bonus Water DMG**.",
+                    "- **Withstand Lethal Attack** (Consume **3 Deluge Crests**, leaves 1 HP)."
+                ]
+            },
+            {
+                "name" : "Taste the Sea",
+                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "text" : [
+                    "- **Supplement Water allies' damage** based on their number of **Deluge Crest**.",
+                    "- Take effect even when Kolulu is a sub ally.",
+                    "- **Supplemental Damage**: 4,000/**Deluge Crest**"
+                ]
+            }
+        ]
+    }
+}
