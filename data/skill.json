@@ -30,7 +30,7 @@
                 "type" : "Buff",
                 "cooldown" : 9,
                 "text" : [
-                    "- Gain **Instant Charge** and **Reset Cooldowns** for **Girl of Steel** and **Tallyho**.",
+                    "- Gain **Instant Charge** and **Reset Cooldowns** for <:skill_girl_of_steel:828395507151142962> **Girl of Steel** and <:skill_tallyho_0:828384440647942164> **Tallyho**.",
                     "- Consume __**30%**__ of Max HP. Cannot be used if HP is too low."
                 ]
             }
@@ -55,7 +55,7 @@
                 "text" : [
                     "- **6**-hit, __**100%**__ Water Damage (Damage cap: **130,000** per hit).",
                     "- Inflict  <:status_defdown_global:828371408363061298> **20% DEF Down** and <:status_blind_global:828371406487552082> **Blinded**.",
-                    "- Become **Tallyho, Auguste!** if Kolulu has  **3 or more** <:status_deluge_crest:828371406722039879> **Deluge Crests.**",
+                    "- Becomes **Tallyho, Auguste!** if Kolulu has  **3 or more** <:status_deluge_crest:828371406722039879> **Deluge Crests.**",
                     "- <:status_defdown_global:828371408363061298> **20% DEF Down**: 180s",
                     "- <:status_blind_global:828371406487552082>**Blinded**: 180s"
                 ]
