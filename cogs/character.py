@@ -8,6 +8,10 @@ class Character(commands.Cog):
             self.chars = dict((k.lower(), v) for k, v in json.load(charFile).items())
         with open('data/emoji.json', 'r') as emojiFile:
             self.emojis = json.load(emojiFile)
+        with open('data/ougi.json', 'r') as ougiFile:
+            self.ougis = dict((k.lower(), v) for k, v in json.load(ougiFile).items())
+        with open('data/skill.json', 'r') as skillFile:
+            self.skills = dict((k.lower(), v) for k, v in json.load(skillFile).items())
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -34,6 +38,8 @@ class Character(commands.Cog):
                 charVersion = self.chars[name]['versions'][0]
                         
             version = charVersion['name']
+            charOugi = self.ougis[name][version]
+            charSkill = self.skills[name][version]
             name = name.title()
 
             msg = f'{self.emojis["Rarity"][charVersion["rarity"]]} **{name} ({version})**'
@@ -45,10 +51,25 @@ class Character(commands.Cog):
             description = f'{self.emojis["Gender"][char["gender"]]} **{char["gender"]}** {self.emojis["Race"][charVersion["race"]]} **{charVersion["race"]}**'
             description += f'\n{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* \n{self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
 
+            ougi = ''
+            for ougiText in charOugi['text']:
+                ougi += ougiText + '\n'
+
             embed = discord.Embed()
             embed.title = title
             embed.description = description
             embed.set_thumbnail(url=charVersion['thumbnail'])
+            embed.set_image(url=charVersion['image'])
+
+            embed.add_field(name=f'Charge Attack: {charOugi["name"]}', value=ougi, inline=False)
+
+            for skill in charSkill:
+                skillText = ''
+                for text in skill['text']:
+                    skillText += text + '\n'
+                name = f'{self.emojis["Skill"][skill["type"]]} {skill["name"]} ({skill["cooldown"]}T)'
+                embed.add_field(name=name, value=skillText, inline=False)
+
             await ctx.send(msg, embed=embed)
         else:
             await ctx.send('Character not found!')

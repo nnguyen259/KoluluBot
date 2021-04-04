@@ -47,5 +47,11 @@
     "Stat" : {
         "Atk" : "<:stat_atk_v2:828322167263199242>",
         "Hp" : "<:stat_hp_v2:828321906611847199>"
+    },
+    "Skill" : {
+        "Buff" : "<:element_light:828258246673301515>",
+        "Debuff" : "<:element_water:828258246690734142>",
+        "Attack" : "<:element_fire:828259315190202401>",
+        "Heal" : "<:element_wind:828258247051444224>"
     }
 }

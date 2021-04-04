@@ -1,0 +1,18 @@
+{
+    "Kolulu": {
+        "SSR": {
+            "name": "Stone Breaker",
+            "text": [
+                "- __**450%**__ Damage (Damage Cap: **1,685,000**). **+30% Damage/+10% Damage Cap** against ***Blinded*** foe.",
+                "- Activate **Tallyho**. Will activate even if skill is on cooldown. Will not put skill on cooldown if it is available."
+            ]
+        },
+        "Summer": {
+            "name": "Rumble Breaker",
+            "text": [
+                "- __**450%**__ Damage (Damage Cap: **1,685,000**). **+30% Damage/+10% Damage Cap** against ***Blinded*** foe.",
+                "- End cooldown for **Sunburn**."
+            ]
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "Kolulu" : {
+        "SSR" : [
+            {
+                "name" : "Girl of Steel",
+                "type" : "Buff",
+                "cooldown" : 6,
+                "text" : [
+                    "- Gain **Substitute (All-Ally)** and **100%/50% Armored**.",
+                    "- **Substitute (All-Ally)**: 1 Turn",
+                    "- **100%/50% Armored**: 1 Turn"
+                ]
+            },
+            {
+                "name" : "Tallyho",
+                "type" : "Attack",
+                "cooldown" : 6,
+                "text" : [
+                    "- **6**-hit, __**100%**__ Dark Damage (Damage cap: **135,000** per hit).",
+                    "- Inflict **10% DEF Down** (Stackable / Max: **30%**) and **Blinded**.",
+                    "- **10% DEF Down** (Stackable / Max: **30%**): 180s",
+                    "- **Blinded**: 3 Turns"
+                ]
+            },
+            {
+                "name" : "Still Alive",
+                "type" : "Buff",
+                "cooldown" : 9,
+                "text" : [
+                    "- Gain **Instant Charge** and **Reset Cooldowns** for **Girl of Steel** and **Tallyho**.",
+                    "- Consume __**30%**__ of Max HP. Cannot be used if HP is too low."
+                ]
+            }
+        ],
+        "Summer" : [
+            {
+                "name" : "Sunburn",
+                "type" : "Buff",
+                "cooldown" : 8,
+                "text" : [
+                    "- All Water Allies gain **Sunburn** and **Deluge Crest**.",
+                    "- Consume __**80%**__ of Current HP. Will activate even if Kolulu has 1 HP.",
+                    "- **Sunburn**: 5 Turn, **50%** **Unique** ATK Up, **100%** DEF Up, **30%** DA Up, **15%*** TA Up"
+                ]
+            },
+            {
+                "name" : "Tallyho",
+                "type" : "Attack",
+                "cooldown" : 6,
+                "text" : [
+                    "- **6**-hit, __**100%**__ Water Damage (Damage cap: **130,000** per hit).",
+                    "- Inflict **20% DEF Down** and **Blinded**.",
+                    "- Become **Tallyho, Auguste!** if Kolulu has **3 or more Deluge Crests.**",
+                    "- **20% DEF Down**: 180s",
+                    "- **Blinded**: 180s"
+                ]
+            },
+            {
+                "name" : "Tallyho, Auguste!",
+                "type" : "Attack",
+                "cooldown" : 6,
+                "text" : [
+                    "- **12**-hit, __**100%**__ Water Damage (Damage cap: **130,000** per hit).",
+                    "- Inflict **25% DEF Down** and **Blinded**. All Allies gain **Jammed**.",
+                    "- **25% DEF Down**: 180s",
+                    "- **Blinded**: 180s",
+                    "- **Jammed**: 3 Turns, **10%-20%**. Stack additively with **Brilliant Shine**'s **Jammed**."
+                ]
+            },
+            {
+                "name" : "Brilliant Shine",
+                "type" : "Buff",
+                "cooldown" : 8,
+                "text" : [
+                    "- Gain **10% Uplifted** and **Unchallenged (2 times)**.",
+                    "- When **below 25% HP**, also gain **Shield (3000)** and **Jammed**.",
+                    "- **10% Uplifted**: 5 Turns",
+                    "- **Jammed**: 5 Turns, **30%-90%**. Stack additively with **Tallyho, Auguste!**'s **Jammed**."
+                ]
+            }
+        ]
+    }
+}
