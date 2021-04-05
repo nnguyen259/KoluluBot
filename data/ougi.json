@@ -1,18 +1,272 @@
 {
-    "Kolulu": {
-        "SSR": {
-            "name": "Stone Breaker",
-            "text": [
-                "- __**450%**__ Damage (Damage Cap: **1,685,000**). **+30% Damage/+10% Damage Cap** against <:status_blind_global:828371406487552082>/<:status_blind_local:828382023419953163> ***Blinded*** foe.",
-                "- Activate <:skill_tallyho_0:828384440647942164> **Tallyho**.. Will activate even if skill is on cooldown. Will not put skill on cooldown if it is available."
+   "Abby":{
+      "BASE":[
+         {
+            "name":"Raging Axe Slash",
+            "text":[
+               "450%Massive Fire damage to a foe.[1]Extend Raging Arm DX's buff durations by 2 turns."
             ]
-        },
-        "Summer": {
-            "name": "Rumble Breaker",
-            "text": [
-                "- __**450%**__ Damage (Damage Cap: **1,685,000**). **+30% Damage/+10% Damage Cap** against <:status_blind_global:828371406487552082>/<:status_blind_local:828382023419953163> ***Blinded*** foe.",
-                "- End cooldown for <:status_special_buff_sunburn:828371336405188689> **Sunburn**."
+         }
+      ]
+   },
+   "Agielba":{
+      "BASE":[
+         {
+            "name":"Final Dawn",
+            "text":[
+               "Massive Fire damage to a foe.Gain 100% / 80% ArmoredChance of lowering DMG takenStrength: 100% chance of taking 80% less damage.Duration: 0.5 turnsApplied during the attack phase.On the next turn, it'll have 0 turns remaining. for 0.5 turns."
             ]
-        }
-    }
+         }
+      ]
+   },
+   "Baal":{
+      "BASE":[
+         {
+            "name":"Amplified Resonance",
+            "text":[
+               "Massive Earth damage to a foe.All allies gain 30% C.B. DMG UpChain burst DMG is boostedStrength: 30% and 10% C.B. DMG Cap UpChain Burst DMG Cap BoostedStrength: 10%.[1](Restore 100 + 20% HP of allies with SessionMultiattack rate, DEF, and hostility are boosted / Deals bonus earth DMG for one-foe attacks (Can't be removed) [Healing cap: 2500].)"
+            ]
+         }
+      ]
+   },
+   "Baotorda":{
+      "SSR":[
+         {
+            "name":"Heavenly Retribution",
+            "text":[
+               "450%Massive Light damage to a foe.300% Bonus Light damage (Damage cap: ~295,000).[1]"
+            ]
+         }
+      ]
+   },
+   "Beatrix":{
+      "BASE":[
+         {
+            "name":"Immortal Assault",
+            "text":[
+               "Massive Dark damage to a foe.Gain 1-hit UnchallengedNext DMG received will be ineffectiveDuration: Indefinite."
+            ]
+         }
+      ],
+      "Earth":[
+         {
+            "name":"Immortal Raid",
+            "text":[
+               "1250%Unworldly Earth damage to a foe (Damage cap: ~2,420,000).[1]Activate Answerer's Splatter.Gain Guaranteed TAGuaranteed triple attack regardless of Triple Attack Lowered debuffsDuration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining..(Consumes Immortal BlueBonus Earth DMG effect while in effect / Charge attack can be used (Consumed upon charge attack / Can't be removed) to activate.)"
+            ]
+         }
+      ]
+   },
+   "Charlotta":{
+      "Light":[
+         {
+            "name":"Brilliant Moon",
+            "text":[
+               "Massive Light damage to a foe.Gain Counters on Dodge (2 times)Dodge and counter one-ally attacksStrength: 150%Duration: 1.5 turnsCounter attacks grant 5% charge bar per hit.Applied during the attack phase.On the next turn, it'll have 1 turn remaining..(Gain 30% Bonus Light DMGDeals bonus light DMG for one-foe one-ally attacksStrength: 30%Duration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining. when Holy KnightATK, DMG cap, and multiattack rate are boosted (Can't be removed) lvl is 5)[1]"
+            ]
+         }
+      ]
+   },
+   "Chat_Noir":{
+      "BASE":[
+         {
+            "name":"Phantom Thief",
+            "text":[
+               "Massive Water damage to a foe.(Forewarning or Riddle gives 'em a show they'll never forget!)"
+            ]
+         }
+      ]
+   },
+   "Clarisse":{
+      "BASE":[
+         {
+            "name":"Alchemic Flare",
+            "text":[
+               "Massive Fire damage to a foe.Inflict 10% Debuff Res. DownDebuff resistance is loweredStrength: 10%Base Accuracy: 90%Duration: 180 seconds."
+            ]
+         }
+      ],
+      "Light":[
+         {
+            "name":"Juggernaut Sphere",
+            "text":[
+               "Massive Light damage to a foe.Gain 2 DissolutionUse 1 charge per skill activation (Recover upon C.A. / Max: 3 charges)Duration: Indefinite.All allies gain 10% UpliftedCharge bar is boosted on every turnStrength: 10%Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining..[1]"
+            ]
+         }
+      ]
+   },
+   "Dante":{
+      "BASE":[
+         {
+            "name":"Capricieux Avalanche",
+            "text":[
+               "Massive Earth damage to a foe (Boost to damage based on how high HP is).Additional effect when 1 Black Cat Fancy1 is consumed upon one-foe attack (Restores every 5 turns) is consumed: 500% Bonus Earth damage (Damage cap: ~630,000).[1]"
+            ]
+         }
+      ]
+   },
+   "Danua":{
+      "SSR":[
+         {
+            "name":"Puppet Sheol",
+            "text":[
+               "450%Massive Light damage to a foe.Inflict PetrifiedStops enemy's charge diamonds from filling.Base Accuracy: 90%Duration: 3.5 turnsLocal status effectApplied during the attack phase.On the next turn, it'll have 3 turns remaining..[1]"
+            ]
+         }
+      ]
+   },
+   "De_La_Fille":{
+      "BASE":[
+         {
+            "name":"Seventh Agony",
+            "text":[
+               "550%Massive Light damage to a foe.[1]All allies gain Mirror Image (1 time)Next one-to-one attack received will be ineffective(Effect removed on next all-foe all-ally attack)Duration: Indefinite."
+            ]
+         },
+         {
+            "name":"After 5\u2605:Seventh Dispersion",
+            "text":[
+               "600%Massive Light damage to a foe.All allies gain Mirror Image (1 time)Next one-to-one attack received will be ineffective(Effect removed on next all-foe all-ally attack)Duration: Indefinite and 70% / 30% ArmoredChance of lowering DMG takenStrength: 70% chance of taking 30% less damage.Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining..[1]"
+            ]
+         }
+      ],
+      "Earth":[
+         {
+            "name":"Seventh Blight",
+            "text":[
+               "Massive Earth damage to a foe.Gain 30% DEF UpDEF is boostedStrength: 30%Duration: 4 turns."
+            ]
+         }
+      ]
+   },
+   "Diantha":{
+      "BASE":[
+         {
+            "name":"Bloomin' Five Flowers",
+            "text":[
+               "Restore Earth allies' HP (Healing cap: 2500).[1]Remove 1 debuff from all Earth allies.Extend Earth allies' HypeATK is boosted by 2 turns."
+            ]
+         }
+      ]
+   },
+   "Dorothy":{
+      "DUO":[
+         {
+            "name":"Dorothy:Grim Flame",
+            "text":[
+               "450% Light damage to a foe.Inflict 30-40% DA DownDouble attack rate is loweredStrength: 30-40%Duration: 180 seconds.[1]"
+            ]
+         },
+         {
+            "name":"Claudia:Fullmetal Impact",
+            "text":[
+               "450% Light damage to a foe.Inflict 10% DEF DownDEF is loweredStrength: 10%Duration: 180 seconds.[1]"
+            ]
+         },
+         {
+            "name":"200% Charge Bar and Servant's Oath:Checkmaid",
+            "text":[
+               "1250% Light damage to a foe (Damage cap: ~2,900,000).Inflict 30-40% DA DownDouble attack rate is loweredStrength: 30-40%Duration: 180 seconds and 10% DEF DownDEF is loweredStrength: 10%Duration: 180 seconds.All allies gain 30% C.B. DMG Cap UpChain Burst DMG Cap BoostedStrength: 30%.[1][2]"
+            ]
+         }
+      ]
+   },
+   "Claudia":{
+      "DUO":[
+         {
+            "name":"Dorothy:Grim Flame",
+            "text":[
+               "450% Light damage to a foe.Inflict 30-40% DA DownDouble attack rate is loweredStrength: 30-40%Duration: 180 seconds.[1]"
+            ]
+         },
+         {
+            "name":"Claudia:Fullmetal Impact",
+            "text":[
+               "450% Light damage to a foe.Inflict 10% DEF DownDEF is loweredStrength: 10%Duration: 180 seconds.[1]"
+            ]
+         },
+         {
+            "name":"200% Charge Bar and Servant's Oath:Checkmaid",
+            "text":[
+               "1250% Light damage to a foe (Damage cap: ~2,900,000).Inflict 30-40% DA DownDouble attack rate is loweredStrength: 30-40%Duration: 180 seconds and 10% DEF DownDEF is loweredStrength: 10%Duration: 180 seconds.All allies gain 30% C.B. DMG Cap UpChain Burst DMG Cap BoostedStrength: 30%.[1][2]"
+            ]
+         }
+      ]
+   },
+   "Gawain":{
+      "BASE":[
+         {
+            "name":"Flash Flurry",
+            "text":[
+               "450%Massive Wind damage to a foe."
+            ]
+         },
+         {
+            "name":"After 5\u2605:Flashstorm Destruction",
+            "text":[
+               "500%Massive Wind damage to a foe.All allies gain Shield (1500)Next ATK received will be ineffective for a fixed amountStrength: 1500Duration: Indefinite."
+            ]
+         }
+      ],
+      "Light":[
+         {
+            "name":"Spontaneous Indiscretion",
+            "text":[
+               "450%Massive Light damage to a foe. (50% boost to C.A. damage and 30% boost to C.A. damage cap when below 25% HP.)[1]Activate Puncture."
+            ]
+         }
+      ]
+   },
+   "Ghandagoza":{
+      "BASE":[
+         {
+            "name":"Fist of the Red Lotus",
+            "text":[
+               "Massive Fire damage to a foe.Gain 30% / 30% Critical Hit Rate UpAttacks made with elemental superiority have a chance to deal boosted DMGStrength: 30% chance of dealing 30% more damage.Duration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining..Consume all Eternal RageATK and C.A. specs are boosted (Can't be removed) stacks."
+            ]
+         },
+         {
+            "name":"After 5\u2605:Fist of Hair-Raising Fury",
+            "text":[
+               "Massive Fire damage to a foe.Gain 30% / 30% Critical Hit Rate UpAttacks made with elemental superiority have a chance to deal boosted DMGStrength: 30% chance of dealing 30% more damage.Duration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining. and ArmoredChance of lowering DMG takenDuration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining..Consume all Eternal RageATK and C.A. specs are boosted (Can't be removed) stacks."
+            ]
+         }
+      ]
+   },
+   "Lucio":{
+      "BASE":[
+         {
+            "name":"Paradise Lost",
+            "text":[
+               "Massive Light damage to a foe.Gain 30% Light ATK UpLight ATK is boostedStrength: 30%Duration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining. and Crown of AshesNext Out of the Ashes activates twiceDuration: Indefinite (Next use of Out of the Ashes activates twice)."
+            ]
+         }
+      ],
+      "Summer":[
+         {
+            "name":"Paradise Lost",
+            "text":[
+               "450%Massive Water damage to a foe.All allies gain RefreshHP is restored on every turnStrength: 10% of max HP (Healing cap: 1000)Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining. and 10% UpliftedCharge bar is boosted on every turnStrength: 10%Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining..[1]"
+            ]
+         }
+      ]
+   },
+   "Zooey":{
+      "Grand":[
+         {
+            "name":"Gamma Ray",
+            "text":[
+               "450%Massive Dark damage to a foe.[1]"
+            ]
+         }
+      ],
+      "BASE":[
+         {
+            "name":"Gamma Ray",
+            "text":[
+               "Massive Light damage to a foe.Gain Shield (2000)Next ATK received will be ineffective for a fixed amountStrength: 2000Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining.."
+            ]
+         }
+      ]
+   }
 }

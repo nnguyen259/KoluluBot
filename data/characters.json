@@ -1,45 +1,701 @@
 {
-    "Kolulu" : {
-        "jp" : "コルル",
-        "gender" : "Female",
-        "va" : "Miku Ito",
-        "versions" : [
-            {
-                "name" : "SSR",
-                "wiki" : "https://gbf.wiki/Kolulu",
-                "series" : [], 
-                "thumbnail" : "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040222000_01.jpg",
-                "image" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040222000_01.png",
-                "rarity" : "SSR",
-                "hp" : 950,
-                "atk" : 11100,
-                "race" : "Human",
-                "element" : "Dark",
-                "type" : "Special",
-                "specialties" : [
-                    "Spear"
-                ],
-                "recruitment" : "Premium Draw",
-                "weapon" : "Vagabond"
-            },
-            {
-                "name" : "Summer",
-                "wiki" : "https://gbf.wiki/Kolulu_(Summer)",
-                "series" : ["Summer"],
-                "thumbnail" : "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040283000_01.jpg",
-                "image" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040283000_01.png",
-                "rarity" : "SSR",
-                "hp" : 1160,
-                "atk" : 10050,
-                "race" : "Human",
-                "element" : "Water",
-                "type" : "Special",
-                "specialties" : [
-                    "Spear"
-                ],
-                "recruitment" : "Summer Premium Draw",
-                "weapon" : "Much Ado"
-            }
-        ]
-    }
+   "Abby":{
+      "BASE":{
+         "id":"3040284000",
+         "jpname":"\u30a2\u30d3\u30fc",
+         "name":"Abby",
+         "gender":"Female",
+         "5star":null,
+         "rarity":"SSR",
+         "element":"Fire",
+         "type":"Attack",
+         "race":"Human",
+         "va":[
+            "Emiri Kat\u014d"
+         ],
+         "profile":"There once was a lumberjack who had a giant axe. She was friends with a bear who had a giant heart. The lumberjack was very strong, and she could drive away anything that threatened to tear her and the bear apart. But little did she know that friendships do not crack from without so often as they crumble from within...",
+         "series":[
+            
+         ],
+         "hp":"1,100",
+         "atk":"10,500",
+         "specialties":[
+            "Axe"
+         ],
+         "weapon":"Tiny Logger's Axe",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040284000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040284000_01.png"
+      }
+   },
+   "Agielba":{
+      "BASE":{
+         "id":"3040017000",
+         "jpname":"\u30a2\u30ae\u30a8\u30eb\u30d0",
+         "name":"Agielba",
+         "gender":"Male",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Fire",
+         "type":"Defense",
+         "race":"Draph",
+         "va":[
+            "Unsh\u014d Ishizuka",
+            "Koji Ishii"
+         ],
+         "profile":"This agent has no equal, and he never fails to fulfill a contract. His employers sing his name unto the heavens. Though he may appear cold-hearted, his heart is filled with warmth when he looks at his beloved daughter.",
+         "series":[
+            
+         ],
+         "hp":"2,110",
+         "atk":"7,920",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Thunder Dirk Jove",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040017000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040017000_01.png"
+      }
+   },
+   "Baal":{
+      "BASE":{
+         "id":"3040215000",
+         "jpname":"\u30d0\u30a2\u30eb",
+         "name":"Baal",
+         "gender":"Male",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Earth",
+         "type":"Balanced",
+         "race":"Primal",
+         "va":[
+            "Kensho Ono"
+         ],
+         "profile":"Thunder rings out from the storm; the Sky Realm is filled with sonorous but cruel resonance. Possessed of the power to hear and follow such elemental melodies, he seeks out a long-lost piece of himself. Across his capricious journey, his encounters with mortals have caused his heart to reverberate with inspiration renewed.",
+         "series":[
+            
+         ],
+         "hp":"1,540",
+         "atk":"8,320",
+         "specialties":[
+            "Harp",
+            "Axe"
+         ],
+         "weapon":"Spymur's Clause",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040215000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040215000_01.png"
+      }
+   },
+   "Baotorda":{
+      "SSR":{
+         "id":"3040124000",
+         "jpname":"\u30d0\u30a6\u30bf\u30aa\u30fc\u30c0",
+         "name":"Baotorda",
+         "gender":"Male",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Defense",
+         "race":"Draph",
+         "va":[
+            "Ryouta Takeuchi"
+         ],
+         "profile":"Forever pure, forever righteous, the noble holy knight dons a new suit of armor. No matter how sublime the glory he finds, nothing will ever sully his pure heart, which is as clear as the meaning of the sword he wields.",
+         "series":[
+            
+         ],
+         "hp":"2,300",
+         "atk":"7,420",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Symbol of Justice",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040124000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040124000_01.png"
+      }
+   },
+   "Beatrix":{
+      "BASE":{
+         "id":"3040070000",
+         "jpname":"\u30d9\u30a2\u30c8\u30ea\u30af\u30b9",
+         "name":"Beatrix",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Dark",
+         "type":"Special",
+         "race":"Human",
+         "va":[
+            "Aya Hirano"
+         ],
+         "profile":"Despite being robbed of a promising future, she never despairs and continues to fight on alone. Having crossed paths with a sword that devours causality, she eventually comes into her own as an outstanding swordswoman who never stays down no matter how many times she is knocked out.",
+         "series":[
+            
+         ],
+         "hp":"1,300",
+         "atk":"9,250",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Gram",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040070000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040070000_01.png"
+      },
+      "Earth":{
+         "id":"3040328000",
+         "jpname":"\u30d9\u30a2\u30c8\u30ea\u30af\u30b9",
+         "name":"Beatrix",
+         "gender":"Female",
+         "5star":null,
+         "rarity":"SSR",
+         "element":"Earth",
+         "type":"Special",
+         "race":"Human",
+         "va":[
+            "Aya Hirano"
+         ],
+         "profile":"Sometimes down but never for the count, this blaze of ultramarine fury finally reclaims her beloved partner. Together, they'll devour the surging karma running rampant throughout the skies.",
+         "series":[
+            
+         ],
+         "hp":"1,250",
+         "atk":"8,950",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Embrasque Demiclone",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040328000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040328000_01.png"
+      }
+   },
+   "Charlotta":{
+      "Light":{
+         "id":"3040194000",
+         "jpname":"\u30b7\u30e3\u30eb\u30ed\u30c3\u30c6",
+         "name":"Charlotta",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Attack",
+         "race":"Harvin",
+         "va":[
+            "Kaori Nazuka"
+         ],
+         "profile":"O little knight, you who command an order so honorable! May the holy heart in your breast be forever righteous, never turning away from virtue!",
+         "series":[
+            
+         ],
+         "hp":"1,110",
+         "atk":"10,350",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Claidheamh Soluis",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040194000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040194000_01.png"
+      }
+   },
+   "Chat_Noir":{
+      "BASE":{
+         "id":"3040093000",
+         "jpname":"\u30b7\u30e3\u30ce\u30ef\u30fc\u30eb",
+         "name":"Chat Noir",
+         "gender":"Male",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Water",
+         "type":"Special",
+         "race":"Human",
+         "va":[
+            "Yoshitsugu Matsuoka"
+         ],
+         "profile":"As an exceptional thief and master of impeccable disguises, he often undertakes fantastical capers to garner the attention of the world. Once his target is set\u2014which he announces with a letter covered in sweet perfume\u2014no treasure is safe.",
+         "series":[
+            
+         ],
+         "hp":"1,300",
+         "atk":"8,700",
+         "specialties":[
+            "Staff",
+            "Dagger"
+         ],
+         "weapon":"Phantom Thief Blade",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040093000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040093000_01.png"
+      }
+   },
+   "Clarisse":{
+      "BASE":{
+         "id":"3040046000",
+         "jpname":"\u30af\u30e9\u30ea\u30b9",
+         "name":"Clarisse",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Fire",
+         "type":"Special",
+         "race":"Human",
+         "va":[
+            "Ayane Sakura"
+         ],
+         "profile":"This lovely young genius is the heir to an ancient bloodline. Exhausted with the workload, she dropped her studies and headed out into the blue yonder. Knowing how much her family counted on her she sometimes struggles with her choice\u2014but quickly forgets all that stuffy stuff and gets back to enjoying her freedom.",
+         "series":[
+            
+         ],
+         "hp":"1,380",
+         "atk":"8,480",
+         "specialties":[
+            "Staff"
+         ],
+         "weapon":"Mobius Strip",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040046000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040046000_01.png"
+      },
+      "Light":{
+         "id":"3040121000",
+         "jpname":"\u30af\u30e9\u30ea\u30b9",
+         "name":"Clarisse",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Attack",
+         "race":"Human",
+         "va":[
+            "Ayane Sakura"
+         ],
+         "profile":"A young lady who has awoken to her power to disintegrate everything in creation. Donning a new outfit to match her newfound power, she resolves to rebel against her predetermined fate\u2014deviating from a path established in past bloodlines and choosing to go down another without hesitation. Come what may, she will grasp her desired future on her own accord.",
+         "series":[
+            
+         ],
+         "hp":"1,300",
+         "atk":"9,500",
+         "specialties":[
+            "Staff"
+         ],
+         "weapon":"Fusion Mobius",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040121000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040121000_01.png"
+      }
+   },
+   "Dante":{
+      "BASE":{
+         "id":"3040205000",
+         "jpname":"\u30c0\u30fc\u30f3\u30c8&\u30d5\u30e9\u30a4\u30cf\u30a4\u30c8",
+         "name":"Dante and Freiheit",
+         "gender":"Male",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Earth",
+         "type":"Attack",
+         "race":"Human",
+         "va":[
+            "Takanori Hoshino",
+            "Makoto Furukawa"
+         ],
+         "profile":"The cat-revering mage watches in awe the ways of an aloof warrior cat. Will learning from this feline wonder lead to the freedom that Dante has always sought, or will it break new ground in his cat-loving ways? Either way, Dante is always ready to give his all in order to learn everything there is to learn from the almighty pets.",
+         "series":[
+            
+         ],
+         "hp":"1,250",
+         "atk":"9,750",
+         "specialties":[
+            "Staff",
+            "Melee"
+         ],
+         "weapon":"Neko Punch Pro",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040205000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040205000_01.png"
+      }
+   },
+   "Danua":{
+      "SSR":{
+         "id":"3040256000",
+         "jpname":"\u30c0\u30cc\u30a2",
+         "name":"Danua",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Special",
+         "race":"Draph",
+         "va":[
+            "Nozomi Sasaki"
+         ],
+         "profile":"Finally mustering the courage to take matters into her own hands, the girl regains the twin dolls she had grown so attached to. The shining threads affixed to her left arm will pave the way forward not only for her dolls, but also for herself.",
+         "series":[
+            
+         ],
+         "hp":"1,380",
+         "atk":"9,820",
+         "specialties":[
+            "Dagger",
+            "Axe"
+         ],
+         "weapon":"Spectral Cleaver",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040256000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040256000_01.png"
+      }
+   },
+   "De_La_Fille":{
+      "BASE":{
+         "id":"3040004000",
+         "jpname":"\u30ec\u30fb\u30d5\u30a3\u30fc\u30a8",
+         "name":"De La Fille",
+         "gender":"Female",
+         "5star":"Yes",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Heal",
+         "race":"Human",
+         "va":[
+            "Chiwa Saito"
+         ],
+         "profile":"Daughter of a noble, De La Fille prides herself on her near-flawless gem collection. She sets out on the sky in search of the one shimmering gem that slipped through her grasp.",
+         "series":[
+            
+         ],
+         "hp":"1,600",
+         "atk":"6,400",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Kerykeion",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040004000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040004000_01.png"
+      },
+      "Earth":{
+         "id":"3040113000",
+         "jpname":"\u30ec\u30fb\u30d5\u30a3\u30fc\u30a8",
+         "name":"De La Fille",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Earth",
+         "type":"Heal",
+         "race":"Human",
+         "va":[
+            "Chiwa Saito"
+         ],
+         "profile":"For the sake of inspiring a dear friend to fight, this lover-of-gems dons a dazzling dress stitched by her own hands. As a shining symbol of encouragement, the dress sparkles ever more brilliantly with De La Fille's undaunted faith in good friends.",
+         "series":[
+            
+         ],
+         "hp":"1,910",
+         "atk":"5,800",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Thyrsus",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040113000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040113000_01.png"
+      }
+   },
+   "Diantha":{
+      "BASE":{
+         "id":"3040296000",
+         "jpname":"\u30c7\u30a3\u30a2\u30f3\u30b5",
+         "name":"Diantha",
+         "gender":"Female",
+         "5star":null,
+         "rarity":"SSR",
+         "element":"Earth",
+         "type":"Heal",
+         "race":"Human",
+         "va":[
+            "Inori Minase"
+         ],
+         "profile":"A fresh gust of wind picks up five blossoms, carrying them through the skies to a distant land. The soil feels and smells different here, but they must flourish. Pray that their roots take. Pray that their petals bloom along the road that climbs forever, into the future.",
+         "series":[
+            
+         ],
+         "hp":"1,750",
+         "atk":"6,500",
+         "specialties":[
+            "Harp"
+         ],
+         "weapon":"Brand New Melody",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040296000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040296000_01.png"
+      }
+   },
+   "Dorothy":{
+      "DUO":{
+         "id":"3040134000",
+         "jpname":"\u30b5\u30fc\u30f4\u30a1\u30f3\u30c4 \u30c9\u30ed\u30b7\u30fc\uff06\u30af\u30e9\u30a6\u30c7\u30a3\u30a2",
+         "name":"Dorothy and Claudia",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Special",
+         "race":"Human",
+         "va":[
+            "Sora Amamiya",
+            "Miho Arakawa"
+         ],
+         "profile":"The two separated maids at long last reunite and embark on their promised journey. Equipped with iron fists to go along with flames of passion, this caretaking duo is sure to overcome any obstacle in the pursuit of their queen.",
+         "series":[
+            
+         ],
+         "hp":"1,400",
+         "atk":"9,300",
+         "specialties":[
+            "Gun",
+            "Melee"
+         ],
+         "weapon":"Gothic Cutlery",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040134000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040134000_01.png"
+      }
+   },
+   "Claudia":{
+      "DUO":{
+         "id":"3040134000",
+         "jpname":"\u30b5\u30fc\u30f4\u30a1\u30f3\u30c4 \u30c9\u30ed\u30b7\u30fc\uff06\u30af\u30e9\u30a6\u30c7\u30a3\u30a2",
+         "name":"Dorothy and Claudia",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Special",
+         "race":"Human",
+         "va":[
+            "Sora Amamiya",
+            "Miho Arakawa"
+         ],
+         "profile":"The two separated maids at long last reunite and embark on their promised journey. Equipped with iron fists to go along with flames of passion, this caretaking duo is sure to overcome any obstacle in the pursuit of their queen.",
+         "series":[
+            
+         ],
+         "hp":"1,400",
+         "atk":"9,300",
+         "specialties":[
+            "Gun",
+            "Melee"
+         ],
+         "weapon":"Gothic Cutlery",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040134000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040134000_01.png"
+      }
+   },
+   "Gawain":{
+      "BASE":{
+         "id":"3040000000",
+         "jpname":"\u30ac\u30a6\u30a7\u30a4\u30f3",
+         "name":"Gawain",
+         "gender":"Male",
+         "5star":"Yes",
+         "rarity":"SSR",
+         "element":"Wind",
+         "type":"Defense",
+         "race":"Human",
+         "va":[
+            "Tomokazu Seki"
+         ],
+         "profile":"Gawain trusted in his own strength a little too much and drew his blade on an incredibly powerful opponent. In order to remove the resulting curse, he must perform several good deeds. But it seems the meaning of these deeds is lost on him\u2014it does not appear the curse will lift anytime soon.",
+         "series":[
+            
+         ],
+         "hp":"1,760",
+         "atk":"7,200",
+         "specialties":[
+            "Axe",
+            "Spear"
+         ],
+         "weapon":"Windflash",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040000000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040000000_01.png"
+      },
+      "Light":{
+         "id":"3040298000",
+         "jpname":"\u30ac\u30a6\u30a7\u30a4\u30f3",
+         "name":"Gawain",
+         "gender":"Male",
+         "5star":null,
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Attack",
+         "race":"Human",
+         "va":[
+            "Tomokazu Seki"
+         ],
+         "profile":"The hubristic side of this man is dead, replaced by a selfless knight who leaps to his country's aid. Reformed through his travels with caring friends, he wins back the trust of his homeland citizens, and walks the path of true heroism.",
+         "series":[
+            
+         ],
+         "hp":"1,150",
+         "atk":"10,250",
+         "specialties":[
+            "Spear",
+            "Axe"
+         ],
+         "weapon":"Tabarzin",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040298000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040298000_01.png"
+      }
+   },
+   "Ghandagoza":{
+      "BASE":{
+         "id":"3040052000",
+         "jpname":"\u30ac\u30f3\u30c0\u30b4\u30a6\u30b6",
+         "name":"Ghandagoza",
+         "gender":"Male",
+         "5star":"Yes",
+         "rarity":"SSR",
+         "element":"Fire",
+         "type":"Attack",
+         "race":"Draph",
+         "va":[
+            "Yanada Kiyoyuki"
+         ],
+         "profile":"It's been decades since Ghandagoza left home dreaming of becoming the world's greatest warrior\u2014 and his journey continues! But know this! One day, his name will go down in history as the greatest brawler that ever lived!",
+         "series":[
+            
+         ],
+         "hp":"1,350",
+         "atk":"10,080",
+         "specialties":[
+            "Melee"
+         ],
+         "weapon":"Brahma Gauntlet",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040052000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040052000_01.png"
+      }
+   },
+   "Lucio":{
+      "BASE":{
+         "id":"3040106000",
+         "jpname":"\u30eb\u30b7\u30aa",
+         "name":"Lucio",
+         "gender":"Male",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Balanced",
+         "race":"Other",
+         "va":[
+            "Takahiro Sakurai"
+         ],
+         "profile":"Distressed by an imminent crisis facing the world, this young man is compelled to reveal the truth about the Crimson Horizon. His true identity, including his background as a former actor, leaves much to doubt. But what is clear is that his radiant looks will charm any crowd.",
+         "series":[
+            "grand"
+         ],
+         "hp":"1,660",
+         "atk":"7,700",
+         "specialties":[
+            "Katana",
+            "Sabre"
+         ],
+         "weapon":"Eden",
+         "recruitment":"Flash Gala",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040106000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040106000_01.png"
+      },
+      "Summer":{
+         "id":"3040286000",
+         "jpname":"\u30eb\u30b7\u30aa",
+         "name":"Lucio",
+         "gender":"Male",
+         "5star":null,
+         "rarity":"SSR",
+         "element":"Water",
+         "type":"Balanced",
+         "race":"Other",
+         "va":[
+            "Takahiro Sakurai"
+         ],
+         "profile":"A handsome young man shrouded in mystery stands on the shore awaiting the dawn. His expression tinged with sorrow, he prays a silent prayer to his master. Though he possesses the power to make miracles, the trial he has been given cannot be so easily overcome.",
+         "series":[
+            "summer"
+         ],
+         "hp":"1,700",
+         "atk":"7,800",
+         "specialties":[
+            "Katana",
+            "Sabre"
+         ],
+         "weapon":"Dayspring",
+         "recruitment":"Summer Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040286000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040286000_01.png"
+      }
+   },
+   "Zooey":{
+      "Grand":{
+         "id":"3040092000",
+         "jpname":"\u30be\u30fc\u30a4",
+         "name":"Zooey",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Dark",
+         "type":"Special",
+         "race":"Primal",
+         "va":[
+            "Ami Koshimizu"
+         ],
+         "profile":"This young girl who keeps the balance in the skies descends upon the cerulean seas in a lovely swimsuit. She sets her responsibilities aside for a brief respite with dear friends.",
+         "series":[
+            "summer",
+            "grand"
+         ],
+         "hp":"1,180",
+         "atk":"9,200",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Cute Ribbon",
+         "recruitment":"Flash Gala",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040092000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040092000_01.png"
+      },
+      "BASE":{
+         "id":"3040150000",
+         "jpname":"\u30be\u30fc\u30a4",
+         "name":"Zooey",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Balanced",
+         "race":"Primal",
+         "va":[
+            "Ami Koshimizu"
+         ],
+         "profile":"The world is in the midst of impending jeopardy\u2014a disaster that only this arbitrator's true form can stop. But will her excessive empathy for the people interfere with her duty?",
+         "series":[
+            
+         ],
+         "hp":"1,460",
+         "atk":"8,700",
+         "specialties":[
+            "Gun"
+         ],
+         "weapon":"Ruler of Fate",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040150000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040150000_01.png"
+      }
+   }
 }

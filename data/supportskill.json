@@ -1,53 +1,527 @@
 {
-    "Kolulu" : {
-        "SSR" : [
-            {
-                "name" : "Fated Spear",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
-                "text" : [
-                    "- Increase **Fated Spear** level by 1 upon being targeted (Max: **5**).",
-                    "- Gain **Supplemental Damage** based on **Fated Spear** level.",
-                    "- **Supplemental Damage**: 1% HP/10,000 Damage per level"
-                ]
-            },
-            {
-                "name" : "Reason to Live",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
-                "text" : [
-                    "- Boost to **ATK (Unique)** and **DEF** based on how low HP is.",
-                    "- Starts battle with **Lethal Attack Dodged (1 time).**",
-                    "- **ATK**: 0%-45%",
-                    "- **DEF**: 0%-75%"
-                ]
-            },
-            {
-                "name" : "EMP",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png",
-                "text" : [
-                    "- Boost to **DEF** and **Hostility**.",
-                    "- **DEF**: 5%/8%/10%",
-                    "- **Hostility**: +?/+?/+10"
-                ]
-            }
-        ],
-        "Summer" : [
-            {
-                "name" : "Ironclad Beach Bum",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
-                "text" : [
-                    "- **When HP<25%**: **Guarantee triple attacks** and **20% Bonus Water DMG**.",
-                    "- **Withstand Lethal Attack** (Consume **3 Deluge Crests**, leaves 1 HP)."
-                ]
-            },
-            {
-                "name" : "Taste the Sea",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
-                "text" : [
-                    "- **Supplement Water allies' damage** based on their number of **Deluge Crest**.",
-                    "- Take effect even when Kolulu is a sub ally.",
-                    "- **Supplemental Damage**: 4,000/**Deluge Crest**"
-                ]
-            }
-        ]
-    }
+   "Abby":{
+      "BASE":[
+         {
+            "name":"Eat My Axe!",
+            "thumbnail":"W",
+            "text":[
+               "When Abby has StrengthATK is greatly boosted based on how high HP is before attacking: 30% boost to C.A. damage, 10% boost to C.A. damage cap, and refresh effect (Healing cap: 500).[1]"
+            ]
+         },
+         {
+            "name":"Split 'Em in Two!",
+            "thumbnail":"I",
+            "text":[
+               "Big boost to all allies' ATK based on how high Abby's HP is."
+            ]
+         }
+      ]
+   },
+   "Agielba":{
+      "BASE":[
+         {
+            "name":"Broad-Minded",
+            "thumbnail":"W",
+            "text":[
+               "Boost to hostility. 30% boost to DEF.[4]Starts battle with Lethal Attack Dodged (1 time)Can withstand lethal DMG (Leaves 1 HP / Can't be removed)."
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"I",
+            "text":[
+               "Slight chance to counter upon taking damage."
+            ]
+         }
+      ]
+   },
+   "Baal":{
+      "BASE":[
+         {
+            "name":"Dual Leads",
+            "thumbnail":"W",
+            "text":[
+               "While SessionMultiattack rate, DEF, and hostility are boosted / Deals bonus earth DMG for one-foe attacks (Can't be removed) is in effect: 50% boost to double attack rate, 25% boost to triple attack rate, 100% boost to DEF, boost to hostility, and 20% Bonus Earth DMG effect.[2](Grants the same effects to an ally with SessionMultiattack rate, DEF, and hostility are boosted / Deals bonus earth DMG for one-foe attacks (Can't be removed) effect.)"
+            ]
+         },
+         {
+            "name":"Resonance",
+            "thumbnail":"I",
+            "text":[
+               "ResonanceGrants buffs to all allies upon chain burst activation based on Resonance lvl (Can't be removed) lvl rises by 1 upon chain burst activation (Max: 3).Buffs to all allies upon chain burst activation based on Resonance lvl."
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Water DMG reduction to all allies."
+            ]
+         }
+      ]
+   },
+   "Baotorda":{
+      "SSR":[
+         {
+            "name":"Bulwark",
+            "thumbnail":"W",
+            "text":[
+               "While BulwarkHostility and DEF are boosted / Speed up charge bar upon taking DMG (Can't be removed) is active:Boost to hostility and 200% boost to defense specs. Also gain DivineC.A. DMG and C.A. DMG cap is boosted based on Divine lvl (1 time / Can't be removed) upon taking damage, boosting C.A. damage and C.A. damage cap (Max: DivineC.A. DMG and C.A. DMG cap is boosted based on Divine lvl (1 time / Can't be removed))."
+            ]
+         },
+         {
+            "name":"Gendarme",
+            "thumbnail":"I",
+            "text":[
+               "50% chance of taking 30% less damage.[2]"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Boost to charge bar at end of turn when Bulwark is in effect"
+            ]
+         }
+      ]
+   },
+   "Beatrix":{
+      "BASE":[
+         {
+            "name":"Embrasque Pact",
+            "thumbnail":"W",
+            "text":[
+               "Boost to Beatrix's multiattack rate and dodge rate based on how low HP is."
+            ]
+         },
+         {
+            "name":"Delta Clock",
+            "thumbnail":"I",
+            "text":[
+               "Clock hands moves upon dealing triple attacks (Max: 3) (Boost to C.A. specs based on clock hands' position)."
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Slight chance to dodge all attacks from foes"
+            ]
+         }
+      ],
+      "Earth":[
+         {
+            "name":"Embrasque Resonance",
+            "thumbnail":"W",
+            "text":[
+               "Charge bar fills up 20% slower.[1]Guaranteed double attacks and 50% boost to triple attack rate.[1]Big boost to Earth allies' ATK based on how low Beatrix's HP is."
+            ]
+         },
+         {
+            "name":"Delta Clock",
+            "thumbnail":"I",
+            "text":[
+               "Move the clock hand upon triple attacks (Max: 3 times).When Beatrix's HP is 50% or below: Gain Immortal BlueBonus Earth DMG effect while in effect / Charge attack can be used (Consumed upon charge attack / Can't be removed)."
+            ]
+         }
+      ]
+   },
+   "Charlotta":{
+      "Light":[
+         {
+            "name":"Noble Battlestep",
+            "thumbnail":"W",
+            "text":[
+               "Boost to ATK, damage cap, and multiattack rate based on Holy KnightATK, DMG cap, and multiattack rate are boosted (Can't be removed)Multiplier: UniqueDuration: Indefinite lvl.(Holy Knight lvl rises every turn by 1 and lowers by 2 upon taking damage / Max: 5)[1]"
+            ]
+         },
+         {
+            "name":"Graceful Order",
+            "thumbnail":"I",
+            "text":[
+               "100% boost to debuff resistance of Light allies with UnchallengedNext DMG received will be ineffective.[2]"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Chance to inflict 5% ATK Down (Stackable / Max: 10%)ATK is lowered (Stackable)Strength: 5% (Max: 10%)Duration: 180 seconds with every one-foe attack."
+            ]
+         }
+      ]
+   },
+   "Chat_Noir":{
+      "BASE":[
+         {
+            "name":"Thief's Tenet",
+            "thumbnail":"W",
+            "text":[
+               "20% boost to ATKUnique modifier and 20% boost to DEF when Chat Noir has ForewarningForewarning is in effect.[1]"
+            ]
+         },
+         {
+            "name":"Don't Trust Your Eyes",
+            "thumbnail":"I",
+            "text":[
+               "100% boost to double attack rate and 25% boost to triple attack rate when Chat Noir has RiddleNext two one-ally attack received will be ineffective(Effect removed on next all-ally attack)Duration: 3 turns.[2]"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Gain Bonus Elemental DMG effect when Forewarning or Riddle is in effect"
+            ]
+         }
+      ]
+   },
+   "Clarisse":{
+      "BASE":[
+         {
+            "name":"Who's the Fairest? I Am!",
+            "thumbnail":"W",
+            "text":[
+               "5% boost to debuff success rate for all allies.[1]"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"I",
+            "text":[
+               "Slight chance to deal fire DMG to all foes upon charge attack"
+            ]
+         }
+      ],
+      "Light":[
+         {
+            "name":"Dissolution is the Solution!",
+            "thumbnail":"W",
+            "text":[
+               "20% boost to ATKUnique modifier when Clarisse has at least 1 DissolutionUse 1 charge per skill activation (Recover upon C.A. / Max: 3 charges).(Starts battle with 3 DissolutionUse 1 charge per skill activation (Recover upon C.A. / Max: 3 charges) [Max: 3 charges].)[2]"
+            ]
+         },
+         {
+            "name":"Nothing a Little Kaboom Won't Solve!",
+            "thumbnail":"I",
+            "text":[
+               "Based on number of buffs: Boost to C.A. damage, C.A. damage cap, and charge bar gain."
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Boost to debuff success rate when not debuffed"
+            ]
+         }
+      ]
+   },
+   "Dante":{
+      "BASE":[
+         {
+            "name":"Eye of the Cat",
+            "thumbnail":"W",
+            "text":[
+               "Restore 5 Black Cat Fancy1 is consumed upon one-foe attack (Restores every 5 turns) every 5 turns.30% boost to ATKUnique modifier and 30% boost to DEF when Dante has Black Cat Fancy.(Starts battle with 5 Black Cat Fancy1 is consumed upon one-foe attack (Restores every 5 turns) [Max: 5].)"
+            ]
+         },
+         {
+            "name":"Attack and Supply",
+            "thumbnail":"I",
+            "text":[
+               "When Dante has Black Cat Fancy1 is consumed upon one-foe attack (Restores every 5 turns):Fights alongside Freiheit.Chance for Freiheit to grant random buffs to all allies.(1 Black Cat Fancy1 is consumed upon one-foe attack (Restores every 5 turns) is consumed upon every one-foe attack.)"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Chance to not consume Black Cat Fancy1 is consumed upon one-foe attack (Restores every 5 turns) upon one-foe attacks."
+            ]
+         }
+      ]
+   },
+   "Danua":{
+      "SSR":[
+         {
+            "name":"Conjoined",
+            "thumbnail":"W",
+            "text":[
+               "5% boost to all allies' debuff success rate.[1]"
+            ]
+         },
+         {
+            "name":"Notlage",
+            "thumbnail":"I",
+            "text":[
+               "Boost to Danua's ATK based on how low HP is.Withstand lethal turn-based damage (Leaves 1 HP)."
+            ]
+         }
+      ]
+   },
+   "De_La_Fille":{
+      "BASE":[
+         {
+            "name":"Glimmering Barrier",
+            "thumbnail":"W",
+            "text":[
+               "When De La Fille has ShieldNext ATK received will be ineffective for a fixed amount: 100% boost to debuff resistance.[2]"
+            ]
+         },
+         {
+            "name":"Seven Jewel Radiance",
+            "thumbnail":"I",
+            "text":[
+               "Boost to Light allies' healing specs based on their number of Aurora CrestLight magic is amplified (Max: 5 / Can't be removed).(Takes effect even when De La Fille is a sub ally.)"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Boost to all allies' healing cap."
+            ]
+         }
+      ],
+      "Earth":[
+         {
+            "name":"Dressed to Impress",
+            "thumbnail":"W",
+            "text":[
+               "30% reduced DEF, but less likely to be attacked.[1]"
+            ]
+         },
+         {
+            "name":"Look What I've Found...",
+            "thumbnail":"I",
+            "text":[
+               "Chance to get casino chips at the end of the battle"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Boost to all allies' healing cap"
+            ]
+         }
+      ]
+   },
+   "Diantha":{
+      "BASE":[
+         {
+            "name":"Ballet of the Blossoms",
+            "thumbnail":"W",
+            "text":[
+               "Bonus Earth DMG effect to all allies based on their HypeATK is boosted lvl."
+            ]
+         },
+         {
+            "name":"Never Ending Fantasy",
+            "thumbnail":"I",
+            "text":[
+               "5% boost to Earth MC's damage cap.[1](Takes effect even when Diantha is a sub ally.)"
+            ]
+         }
+      ]
+   },
+   "Dorothy":{
+      "DUO":[
+         {
+            "name":"Loyal Handmaidens",
+            "thumbnail":"W",
+            "text":[
+               "Dorothy: One-foe attacks become all-foe attacks.Claudia: Chance to inflict 5% DEF Down (Stackable / Max: 20%)DEF is lowered (Stackable)Strength: 5% (Max: 20%)Duration: 180 seconds with every one-foe attack.[1]"
+            ]
+         },
+         {
+            "name":"Servant Synergy",
+            "thumbnail":"I",
+            "text":[
+               "Has a maximum charge bar limit of 200%.(Joint charge attack activates by using up Servant's OathATK is boosted (Can't be removed) and 200% of charge bar.)"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Boost to charge bar upon using skill"
+            ]
+         }
+      ]
+   },
+   "Claudia":{
+      "DUO":[
+         {
+            "name":"Loyal Handmaidens",
+            "thumbnail":"W",
+            "text":[
+               "Dorothy: One-foe attacks become all-foe attacks.Claudia: Chance to inflict 5% DEF Down (Stackable / Max: 20%)DEF is lowered (Stackable)Strength: 5% (Max: 20%)Duration: 180 seconds with every one-foe attack.[1]"
+            ]
+         },
+         {
+            "name":"Servant Synergy",
+            "thumbnail":"I",
+            "text":[
+               "Has a maximum charge bar limit of 200%.(Joint charge attack activates by using up Servant's OathATK is boosted (Can't be removed) and 200% of charge bar.)"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Boost to charge bar upon using skill"
+            ]
+         }
+      ]
+   },
+   "Gawain":{
+      "BASE":[
+         {
+            "name":"Use It or Lose It",
+            "thumbnail":"W",
+            "text":[
+               "Boost to Gawain's ATKUnique modifier and DEF based on how low HP is"
+            ]
+         },
+         {
+            "name":"Noble Guardian",
+            "thumbnail":"I",
+            "text":[
+               "Lessen all allies' Earth damage taken by 10%."
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Chance to lower foe's ATK with every one-foe attack (Stackable)"
+            ]
+         }
+      ],
+      "Light":[
+         {
+            "name":"Freed of Restraint",
+            "thumbnail":"W",
+            "text":[
+               "Charge bar fills up 25% slower.Deals 10% more damage for normal attacks.20% Bonus Light DMG effect when below 25% HP.[1]"
+            ]
+         },
+         {
+            "name":"Knight's Resolution",
+            "thumbnail":"I",
+            "text":[
+               "Starts battle with Lethal Attack Dodged (1 time)Can withstand lethal DMG (Leaves 1 HP)Duration: Indefinite.Big boost to all allies' ATKUnique modifier based on how low Gawain's HP is.[1]"
+            ]
+         }
+      ]
+   },
+   "Ghandagoza":{
+      "BASE":[
+         {
+            "name":"Eternal Rage",
+            "thumbnail":"W",
+            "text":[
+               "10% boost to melee-specialty allies' double attack rate.[1]"
+            ]
+         },
+         {
+            "name":"Unrivaled Fighter",
+            "thumbnail":"I",
+            "text":[
+               "Gain 1 Eternal RageATK and C.A. specs are boosted (Can't be removed) stack (Max: 10) with every attack."
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Chance to boost ATK with every one-foe attack (Stackable)"
+            ]
+         }
+      ]
+   },
+   "Lucio":{
+      "BASE":[
+         {
+            "name":"The Morning Star",
+            "thumbnail":"W",
+            "text":[
+               "3% boost to Lucio's Bonus Light DMG effect per turn passed (Max: 30%).3% reduced Dark DEF per turn passed (Max: -30%).[1][2]"
+            ]
+         },
+         {
+            "name":"Wings of Justice",
+            "thumbnail":"I",
+            "text":[
+               "Wings of JusticeMultiattack rate is boosted based on Wings of Justice lvl (Can't be removed) lvl rises by 1 upon triple attack (Max: 6).(Boost to multiattack rate based on Wings of JusticeMultiattack rate is boosted based on Wings of Justice lvl (Can't be removed) lvl. Sharp boost to stats at lvl 6.)"
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Restore all allies' HP upon using charge attack."
+            ]
+         }
+      ],
+      "Summer":[
+         {
+            "name":"Coffee for Me Too, Please",
+            "thumbnail":"W",
+            "text":[
+               "Immunity to SleepCan't attack and takes big DMG (Ends upon taking DMG)Takes 25% more damage.Restore 5% of Lucio's max HP every 3 turns.[1]Gain 1 Coffee BreakGranted coffee breaks (Max: 5 / Can't be removed)Duration: Indefinite every 3 turns."
+            ]
+         },
+         {
+            "name":"Upon the Speaker's Palm",
+            "thumbnail":"I",
+            "text":[
+               "Gain 1 Coffee BreakGranted coffee breaks (Max: 5 / Can't be removed)Duration: Indefinite upon using skills (Max: 5).(Boost to C.A. specs based on number of Coffee Breaks.)"
+            ]
+         }
+      ]
+   },
+   "Zooey":{
+      "Grand":[
+         {
+            "name":"Envoy of Mediation",
+            "thumbnail":"W",
+            "text":[
+               "Boost to stats based on number of different elements among allies."
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"I",
+            "text":[
+               "Gain Mirror ImageNext one-to-one attack received will be ineffective(Effect removed on next all-foe all-ally attack) upon taking big DMG."
+            ]
+         }
+      ],
+      "BASE":[
+         {
+            "name":"Peacemaker's Tears",
+            "thumbnail":"W",
+            "text":[
+               "1-turn cut to skill standby and cooldown for Last Wish upon being targeted by an ally's buff skill or healing skill."
+            ]
+         },
+         {
+            "name":"Primal Pulse",
+            "thumbnail":"I",
+            "text":[
+               "Boost to critical hit rate and dodge rate based on number of turns passed."
+            ]
+         },
+         {
+            "name":"Extended Mastery Support Skill",
+            "thumbnail":"P",
+            "text":[
+               "Increase the boost to dodge rate effect."
+            ]
+         }
+      ]
+   }
 }

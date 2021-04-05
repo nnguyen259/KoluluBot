@@ -1,90 +1,230 @@
 {
-    "Kolulu" : {
-        "SSR" : [
-            {
-                "name" : "Girl of Steel",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/56_3.png",
-                "type" : "Buff",
-                "cooldown" : 6,
-                "text" : [
-                    "- Gain <:status_substitute_all_allies:828382023419691069> **Substitute (All-Ally)** and <:status_armored:828382023776206888> **100%/50% Armored**.",
-                    "- <:status_substitute_all_allies:828382023419691069> **Substitute (All-Ally)**: 1 Turn",
-                    "- <:status_armored:828382023776206888> **100%/50% Armored**: 1 Turn"
-                ]
-            },
-            {
-                "name" : "Tallyho",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/911_1.png",
-                "type" : "Attack",
-                "cooldown" : 6,
-                "text" : [
-                    "- **6**-hit, __**100%**__ Dark Damage (Damage cap: **135,000** per hit).",
-                    "- Inflict <:status_defdown_stackable:828382023726268465> **10% DEF Down** (Stackable / Max: **30%**) and <:status_blind_local:828382023419953163> **Blinded**.",
-                    "- <:status_defdown_stackable:828382023726268465> **10% DEF Down** (Stackable / Max: **30%**): 180s",
-                    "- <:status_blind_local:828382023419953163> **Blinded**: 3 Turns"
-                ]
-            },
-            {
-                "name" : "Still Alive",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/912_3.png",
-                "type" : "Buff",
-                "cooldown" : 9,
-                "text" : [
-                    "- Gain **Instant Charge** and **Reset Cooldowns** for **Girl of Steel** and **Tallyho**.",
-                    "- Consume __**30%**__ of Max HP. Cannot be used if HP is too low."
-                ]
-            }
-        ],
-        "Summer" : [
-            {
-                "name" : "Sunburn",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1212_3.png",
-                "type" : "Buff",
-                "cooldown" : 8,
-                "text" : [
-                    "- All Water Allies gain <:skill_special_buff_sunburn:828385636360519713> **Sunburn** and <:status_deluge_crest:828371406722039879> **Deluge Crest**.",
-                    "- Consume __**80%**__ of Current HP. Will activate even if Kolulu has 1 HP.",
-                    "- <:skill_special_buff_sunburn:828385636360519713>  **Sunburn**: 5 Turn, **50%** **Unique** ATK Up, **100%** DEF Up, **30%** DA Up, **15%*** TA Up"
-                ]
-            },
-            {
-                "name" : "Tallyho",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1213_1.png",
-                "type" : "Attack",
-                "cooldown" : 6,
-                "text" : [
-                    "- **6**-hit, __**100%**__ Water Damage (Damage cap: **130,000** per hit).",
-                    "- Inflict  <:status_defdown_global:828371408363061298> **20% DEF Down** and <:status_blind_global:828371406487552082> **Blinded**.",
-                    "- Become **Tallyho, Auguste!** if Kolulu has  **3 or more** <:status_deluge_crest:828371406722039879> **Deluge Crests.**",
-                    "- <:status_defdown_global:828371408363061298> **20% DEF Down**: 180s",
-                    "- <:status_blind_global:828371406487552082>**Blinded**: 180s"
-                ]
-            },
-            {
-                "name" : "Tallyho, Auguste!",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1213_1.png",
-                "type" : "Attack",
-                "cooldown" : 6,
-                "text" : [
-                    "- **12**-hit, __**100%**__ Water Damage (Damage cap: **130,000** per hit).",
-                    "- Inflict <:status_defdown_global:828371408363061298> **25% DEF Down** and <:status_blind_global:828371406487552082> **Blinded**. All Allies gain <:status_jammed:828371406936997919> **Jammed**.",
-                    "- <:status_defdown_global:828371408363061298> **25% DEF Down**: 180s",
-                    "- <:status_blind_global:828371406487552082> **Blinded**: 180s",
-                    "- <:status_jammed:828371406936997919> **Jammed**: 3 Turns, **10%-20%**. Stack additively with <:skill_brilliant_shine:828385636067180546> **Brilliant Shine**'s <:status_jammed:828371406936997919> **Jammed**."
-                ]
-            },
-            {
-                "name" : "Brilliant Shine",
-                "thumbnail" : "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1214_3.png",
-                "type" : "Buff",
-                "cooldown" : 8,
-                "text" : [
-                    "- Gain <:status_uplift:828371407720808468> **10% Uplifted** and <:status_unchallenged:828371407351447643> **Unchallenged (2 times)**.",
-                    "- When **below 25% HP**, also gain <:status_shield:828371407091662859> **Shield (3000)** and <:status_jammed:828371406936997919> **Jammed**.",
-                    "- <:status_uplift:828371407720808468> **10% Uplifted**: 5 Turns",
-                    "- <:status_jammed:828371406936997919> **Jammed**: 5 Turns, **30%-90%**. Stack additively with <:skill_tallyho:828385636989534258> **Tallyho, Auguste!**'s jammed <:status_jammed:828371406936997919> **Jammed**."
-                ]
-            }
-        ]
-    }
+   "Abby":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Agielba":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Baal":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Baotorda":{
+      "SSR":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Beatrix":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ],
+      "Earth":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Charlotta":{
+      "Light":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Chat_Noir":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Clarisse":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ],
+      "Light":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Dante":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Danua":{
+      "SSR":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "De_La_Fille":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ],
+      "Earth":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Diantha":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Dorothy":{
+      "DUO":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Claudia":{
+      "DUO":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Gawain":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ],
+      "Light":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Ghandagoza":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Lucio":{
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ],
+      "Summer":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   },
+   "Zooey":{
+      "Grand":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ],
+      "BASE":[
+         {
+            "name":null,
+            "text":[
+               
+            ]
+         }
+      ]
+   }
 }
