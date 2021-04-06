@@ -1,8 +1,5 @@
-import discord, os, json
+import discord, os
 from discord.ext import commands
-from dotenv import load_dotenv
-
-load_dotenv()
 
 bot = commands.Bot('?gbf ')
 modules = ['character']
@@ -29,4 +26,4 @@ async def reload(ctx, module):
     bot.load_extension(f'cogs.{module}')
     await ctx.send(f'Module {module} reloaded.')
 
-bot.run(os.getenv('token'))
+bot.run(os.getenv('DISCORD_TOKEN'))

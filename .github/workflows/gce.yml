@@ -23,6 +23,7 @@ env:
   PROJECT_ID: ${{ secrets.GCE_PROJECT }}
   GCE_INSTANCE: kolulu-bot
   GCE_INSTANCE_ZONE: us-central1-a
+  DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 
 jobs:
   setup-build-publish-deploy:
@@ -60,3 +61,4 @@ jobs:
         gcloud compute instances update-container "$GCE_INSTANCE" \
           --zone "$GCE_INSTANCE_ZONE" \
           --container-image "gcr.io/$PROJECT_ID/$GCE_INSTANCE-image:$GITHUB_SHA"
+          --container-env=[DISCORD_TOKEN=$DISCORD_TOKEN]

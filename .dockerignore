@@ -1,5 +1,2 @@
-env
 .gitignore
 .github
-.env
-__pycache__
