@@ -1,11 +1,11 @@
 {
    "Abby":{
-      "Base":{
+      "BASE":{
          "id":"3040284000",
          "jpname":"\u30a2\u30d3\u30fc",
          "name":"Abby",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Fire",
          "type":"Attack",
@@ -29,7 +29,7 @@
       }
    },
    "Agielba":{
-      "Base":{
+      "BASE":{
          "id":"3040017000",
          "jpname":"\u30a2\u30ae\u30a8\u30eb\u30d0",
          "name":"Agielba",
@@ -59,7 +59,7 @@
       }
    },
    "Aglovale":{
-      "Base":{
+      "BASE":{
          "id":"3040192000",
          "jpname":"\u30a2\u30b0\u30ed\u30f4\u30a1\u30eb",
          "name":"Aglovale",
@@ -86,12 +86,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040192000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040192000_01.png"
       },
-      "Valentine":{
+      "VALENTINE":{
          "id":"3040322000",
          "jpname":"\u30a2\u30b0\u30ed\u30f4\u30a1\u30eb",
          "name":"Aglovale",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Attack",
@@ -115,7 +115,7 @@
       }
    },
    "Albert":{
-      "Base":{
+      "BASE":{
          "id":"3040045000",
          "jpname":"\u30a2\u30eb\u30d9\u30fc\u30eb",
          "name":"Albert",
@@ -142,12 +142,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040045000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040045000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040290000",
          "jpname":"\u30a2\u30eb\u30d9\u30fc\u30eb",
          "name":"Albert",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Attack",
@@ -171,7 +171,7 @@
       }
    },
    "Aletheia":{
-      "Base":{
+      "BASE":{
          "id":"3040002000",
          "jpname":"\u30a2\u30ec\u30fc\u30c6\u30a3\u30a2",
          "name":"Aletheia",
@@ -201,7 +201,7 @@
       }
    },
    "Aliza":{
-      "Base":{
+      "BASE":{
          "id":"3040083000",
          "jpname":"\u30a2\u30ea\u30fc\u30b6",
          "name":"Aliza",
@@ -232,7 +232,7 @@
          "id":"3040233000",
          "jpname":"\u52c7\u8005\u3068\u59eb\u541b \u30b9\u30bf\u30f3\uff06\u30a2\u30ea\u30fc\u30b6",
          "name":"Stan and Aliza",
-         "gender":"undefined: tell Mai who this is",
+         "gender":"Male/Female",
          "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
@@ -259,7 +259,7 @@
       }
    },
    "Altair":{
-      "Base":{
+      "BASE":{
          "id":"3040001000",
          "jpname":"\u30a2\u30eb\u30bf\u30a4\u30eb",
          "name":"Altair",
@@ -288,7 +288,7 @@
       }
    },
    "Amira":{
-      "Base":{
+      "BASE":{
          "id":"3040051000",
          "jpname":"\u30a2\u30fc\u30df\u30e9",
          "name":"Amira",
@@ -315,12 +315,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040051000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040051000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040287000",
          "jpname":"\u30a2\u30fc\u30df\u30e9",
          "name":"Amira",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Dark",
          "type":"Balanced",
@@ -344,7 +344,7 @@
       }
    },
    "Anne":{
-      "Base":{
+      "BASE":{
          "id":"3040132000",
          "jpname":"\u30a2\u30f3",
          "name":"Anne",
@@ -374,7 +374,7 @@
       }
    },
    "Anthuria":{
-      "Base":{
+      "BASE":{
          "id":"3040103000",
          "jpname":"\u30a2\u30f3\u30b9\u30ea\u30a2",
          "name":"Anthuria",
@@ -402,7 +402,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040103000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040103000_01.png"
       },
-      "Yukata":{
+      "YUKATA":{
          "id":"3040228000",
          "jpname":"\u30a2\u30f3\u30b9\u30ea\u30a2",
          "name":"Anthuria",
@@ -432,7 +432,7 @@
       }
    },
    "Aoidos":{
-      "Base":{
+      "BASE":{
          "id":"3040076000",
          "jpname":"\u30a2\u30aa\u30a4\u30c9\u30b9",
          "name":"Aoidos",
@@ -462,7 +462,7 @@
       }
    },
    "Arriet":{
-      "Base":{
+      "BASE":{
          "id":"3040058000",
          "jpname":"\u30a2\u30f3\u30ea\u30a8\u30c3\u30c8",
          "name":"Arriet",
@@ -491,7 +491,7 @@
       }
    },
    "Arulumaya":{
-      "Base":{
+      "BASE":{
          "id":"3040019000",
          "jpname":"\u30a2\u30eb\u30eb\u30e1\u30a4\u30e4",
          "name":"Arulumaya",
@@ -518,7 +518,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040019000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040019000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040104000",
          "jpname":"\u30a2\u30eb\u30eb\u30e1\u30a4\u30e4",
          "name":"Arulumaya",
@@ -547,7 +547,7 @@
       }
    },
    "Athena":{
-      "Base":{
+      "BASE":{
          "id":"3040202000",
          "jpname":"\u30a2\u30c6\u30ca",
          "name":"Athena",
@@ -576,7 +576,7 @@
       }
    },
    "Ayer":{
-      "Base":{
+      "BASE":{
          "id":"3040084000",
          "jpname":"\u30a2\u30a4\u30eb",
          "name":"Ayer",
@@ -605,7 +605,7 @@
       }
    },
    "Azazel":{
-      "Base":{
+      "BASE":{
          "id":"3040137000",
          "jpname":"\u30a2\u30b6\u30bc\u30eb",
          "name":"Azazel",
@@ -633,12 +633,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040137000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040137000_01.png"
       },
-      "Halloween":{
+      "HALLOWEEN":{
          "id":"3040300000",
          "jpname":"\u30a2\u30b6\u30bc\u30eb",
          "name":"Azazel",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Fire",
          "type":"Attack",
@@ -663,7 +663,7 @@
       }
    },
    "Baal":{
-      "Base":{
+      "BASE":{
          "id":"3040215000",
          "jpname":"\u30d0\u30a2\u30eb",
          "name":"Baal",
@@ -693,7 +693,7 @@
       }
    },
    "Baotorda":{
-      "SSR":{
+      "BASE":{
          "id":"3040124000",
          "jpname":"\u30d0\u30a6\u30bf\u30aa\u30fc\u30c0",
          "name":"Baotorda",
@@ -722,7 +722,7 @@
       }
    },
    "Beatrix":{
-      "Base":{
+      "BASE":{
          "id":"3040070000",
          "jpname":"\u30d9\u30a2\u30c8\u30ea\u30af\u30b9",
          "name":"Beatrix",
@@ -749,12 +749,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040070000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040070000_01.png"
       },
-      "Earth":{
+      "EARTH":{
          "id":"3040328000",
          "jpname":"\u30d9\u30a2\u30c8\u30ea\u30af\u30b9",
          "name":"Beatrix",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Special",
@@ -776,7 +776,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040328000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040328000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040110000",
          "jpname":"\u30d9\u30a2\u30c8\u30ea\u30af\u30b9",
          "name":"Beatrix",
@@ -805,7 +805,7 @@
       }
    },
    "Cagliostro":{
-      "Base":{
+      "BASE":{
          "id":"3040009000",
          "jpname":"\u30ab\u30ea\u30aa\u30b9\u30c8\u30ed",
          "name":"Cagliostro",
@@ -832,7 +832,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040009000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040009000_01.png"
       },
-      "Dark":{
+      "DARK":{
          "id":"3040120000",
          "jpname":"\u30ab\u30ea\u30aa\u30b9\u30c8\u30ed",
          "name":"Cagliostro",
@@ -859,12 +859,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040120000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040120000_01.png"
       },
-      "Grand":{
+      "GRAND":{
          "id":"3040320000",
          "jpname":"\u30ab\u30ea\u30aa\u30b9\u30c8\u30ed",
          "name":"Cagliostro",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Special",
@@ -886,7 +886,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040320000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040320000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040225000",
          "jpname":"\u30ab\u30ea\u30aa\u30b9\u30c8\u30ed",
          "name":"Cagliostro",
@@ -913,7 +913,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040225000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040225000_01.png"
       },
-      "Halloween":{
+      "HALLOWEEN":{
          "id":"3040062000",
          "jpname":"\u30ab\u30ea\u30aa\u30b9\u30c8\u30ed",
          "name":"Cagliostro",
@@ -942,7 +942,7 @@
       }
    },
    "Carmelina":{
-      "Base":{
+      "BASE":{
          "id":"3040042000",
          "jpname":"\u30ab\u30eb\u30e1\u30ea\u30fc\u30ca",
          "name":"Carmelina",
@@ -971,7 +971,7 @@
       }
    },
    "Catherine":{
-      "Base":{
+      "BASE":{
          "id":"3040074000",
          "jpname":"\u30ad\u30e3\u30b5\u30ea\u30f3",
          "name":"Catherine",
@@ -1000,12 +1000,12 @@
       }
    },
    "Cerberus":{
-      "Base":{
+      "BASE":{
          "id":"3040016000",
          "jpname":"\u30b1\u30eb\u30d9\u30ed\u30b9",
          "name":"Cerberus",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Dark",
          "type":"Special",
@@ -1029,7 +1029,7 @@
       }
    },
    "Charlotta":{
-      "Base":{
+      "BASE":{
          "id":"3040010000",
          "jpname":"\u30b7\u30e3\u30eb\u30ed\u30c3\u30c6",
          "name":"Charlotta",
@@ -1056,7 +1056,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040010000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040010000_01.png"
       },
-      "Light":{
+      "LIGHT":{
          "id":"3040194000",
          "jpname":"\u30b7\u30e3\u30eb\u30ed\u30c3\u30c6",
          "name":"Charlotta",
@@ -1083,7 +1083,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040194000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040194000_01.png"
       },
-      "Halloween":{
+      "HALLOWEEN":{
          "id":"3040020000",
          "jpname":"\u30b7\u30e3\u30eb\u30ed\u30c3\u30c6",
          "name":"Charlotta",
@@ -1111,8 +1111,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040020000_01.png"
       }
    },
-   "Chat_Noir":{
-      "Base":{
+   "Chat Noir":{
+      "BASE":{
          "id":"3040093000",
          "jpname":"\u30b7\u30e3\u30ce\u30ef\u30fc\u30eb",
          "name":"Chat Noir",
@@ -1142,7 +1142,7 @@
       }
    },
    "Clarisse":{
-      "Base":{
+      "BASE":{
          "id":"3040046000",
          "jpname":"\u30af\u30e9\u30ea\u30b9",
          "name":"Clarisse",
@@ -1169,7 +1169,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040046000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040046000_01.png"
       },
-      "Light":{
+      "LIGHT":{
          "id":"3040121000",
          "jpname":"\u30af\u30e9\u30ea\u30b9",
          "name":"Clarisse",
@@ -1196,7 +1196,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040121000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040121000_01.png"
       },
-      "Valentine":{
+      "VALENTINE":{
          "id":"3040206000",
          "jpname":"\u30af\u30e9\u30ea\u30b9",
          "name":"Clarisse",
@@ -1223,7 +1223,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040206000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040206000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040067000",
          "jpname":"\u30af\u30e9\u30ea\u30b9",
          "name":"Clarisse",
@@ -1252,7 +1252,7 @@
       }
    },
    "Colossus":{
-      "Base":{
+      "BASE":{
          "id":"3040235000",
          "jpname":"\u30b3\u30ed\u30c3\u30b5\u30b9",
          "name":"Colossus",
@@ -1282,7 +1282,7 @@
       }
    },
    "Cucouroux":{
-      "SSR":{
+      "BASE":{
          "id":"3040159000",
          "jpname":"\u30af\u30af\u30eb",
          "name":"Cucouroux",
@@ -1311,7 +1311,7 @@
       }
    },
    "Dante":{
-      "DUO":{
+      "BASE":{
          "id":"3040205000",
          "jpname":"\u30c0\u30fc\u30f3\u30c8&\u30d5\u30e9\u30a4\u30cf\u30a4\u30c8",
          "name":"Dante and Freiheit",
@@ -1342,7 +1342,7 @@
       }
    },
    "Freiheit":{
-      "DUO":{
+      "BASE":{
          "id":"3040205000",
          "jpname":"\u30c0\u30fc\u30f3\u30c8&\u30d5\u30e9\u30a4\u30cf\u30a4\u30c8",
          "name":"Dante and Freiheit",
@@ -1373,35 +1373,7 @@
       }
    },
    "Danua":{
-      "SSR":{
-         "id":"3040256000",
-         "jpname":"\u30c0\u30cc\u30a2",
-         "name":"Danua",
-         "gender":"Female",
-         "5star":"No",
-         "rarity":"SSR",
-         "element":"Light",
-         "type":"Special",
-         "race":"Draph",
-         "va":[
-            "Nozomi Sasaki"
-         ],
-         "profile":"Finally mustering the courage to take matters into her own hands, the girl regains the twin dolls she had grown so attached to. The shining threads affixed to her left arm will pave the way forward not only for her dolls, but also for herself.",
-         "series":[
-            
-         ],
-         "hp":"1,380",
-         "atk":"9,820",
-         "specialties":[
-            "Dagger",
-            "Axe"
-         ],
-         "weapon":"Spectral Cleaver",
-         "recruitment":"Premium Draw",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040256000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040256000_01.png"
-      },
-      "Summer":{
+      "SUMMER":{
          "id":"3040055000",
          "jpname":"\u30c0\u30cc\u30a2",
          "name":"Danua",
@@ -1428,7 +1400,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040055000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040055000_01.png"
       },
-      "Halloween":{
+      "HALLOWEEN":{
          "id":"3040135000",
          "jpname":"\u30c0\u30cc\u30a2",
          "name":"Danua",
@@ -1454,10 +1426,38 @@
          "recruitment":"Halloween Premium Draw",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040135000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040135000_01.png"
+      },
+      "BASE":{
+         "id":"3040256000",
+         "jpname":"\u30c0\u30cc\u30a2",
+         "name":"Danua",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Special",
+         "race":"Draph",
+         "va":[
+            "Nozomi Sasaki"
+         ],
+         "profile":"Finally mustering the courage to take matters into her own hands, the girl regains the twin dolls she had grown so attached to. The shining threads affixed to her left arm will pave the way forward not only for her dolls, but also for herself.",
+         "series":[
+            
+         ],
+         "hp":"1,380",
+         "atk":"9,820",
+         "specialties":[
+            "Dagger",
+            "Axe"
+         ],
+         "weapon":"Spectral Cleaver",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040256000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040256000_01.png"
       }
    },
-   "De_La_Fille":{
-      "Base":{
+   "De La Fille":{
+      "BASE":{
          "id":"3040004000",
          "jpname":"\u30ec\u30fb\u30d5\u30a3\u30fc\u30a8",
          "name":"De La Fille",
@@ -1484,7 +1484,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040004000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040004000_01.png"
       },
-      "Earth":{
+      "EARTH":{
          "id":"3040113000",
          "jpname":"\u30ec\u30fb\u30d5\u30a3\u30fc\u30a8",
          "name":"De La Fille",
@@ -1511,7 +1511,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040113000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040113000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040014000",
          "jpname":"\u30ec\u30fb\u30d5\u30a3\u30fc\u30a8",
          "name":"De La Fille",
@@ -1540,12 +1540,12 @@
       }
    },
    "Diantha":{
-      "Base":{
+      "BASE":{
          "id":"3040296000",
          "jpname":"\u30c7\u30a3\u30a2\u30f3\u30b5",
          "name":"Diantha",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Heal",
@@ -1567,7 +1567,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040296000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040296000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040129000",
          "jpname":"\u30c7\u30a3\u30a2\u30f3\u30b5",
          "name":"Diantha",
@@ -1596,7 +1596,7 @@
       }
    },
    "Dorothy":{
-      "DUO":{
+      "BASE":{
          "id":"3040134000",
          "jpname":"\u30b5\u30fc\u30f4\u30a1\u30f3\u30c4 \u30c9\u30ed\u30b7\u30fc\uff06\u30af\u30e9\u30a6\u30c7\u30a3\u30a2",
          "name":"Dorothy and Claudia",
@@ -1627,7 +1627,7 @@
       }
    },
    "Claudia":{
-      "DUO":{
+      "BASE":{
          "id":"3040134000",
          "jpname":"\u30b5\u30fc\u30f4\u30a1\u30f3\u30c4 \u30c9\u30ed\u30b7\u30fc\uff06\u30af\u30e9\u30a6\u30c7\u30a3\u30a2",
          "name":"Dorothy and Claudia",
@@ -1658,7 +1658,7 @@
       }
    },
    "Drang":{
-      "Base":{
+      "BASE":{
          "id":"3040269000",
          "jpname":"\u30c9\u30e9\u30f3\u30af",
          "name":"Drang",
@@ -1685,7 +1685,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040269000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040269000_01.png"
       },
-      "Grand":{
+      "GRAND":{
          "id":"3040119000",
          "jpname":"\u30c9\u30e9\u30f3\u30af",
          "name":"Drang",
@@ -1714,7 +1714,7 @@
       }
    },
    "Eustace":{
-      "Base":{
+      "BASE":{
          "id":"3040069000",
          "jpname":"\u30e6\u30fc\u30b9\u30c6\u30b9",
          "name":"Eustace",
@@ -1741,7 +1741,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040069000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040069000_01.png"
       },
-      "Dark":{
+      "DARK":{
          "id":"3040198000",
          "jpname":"\u30e6\u30fc\u30b9\u30c6\u30b9",
          "name":"Eustace",
@@ -1769,7 +1769,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040198000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040198000_01.png"
       },
-      "Halloween":{
+      "HALLOWEEN":{
          "id":"3040099000",
          "jpname":"\u30e6\u30fc\u30b9\u30c6\u30b9",
          "name":"Eustace",
@@ -1798,12 +1798,12 @@
       }
    },
    "Farrah":{
-      "DUO":{
+      "BASE":{
          "id":"3040325000",
          "jpname":"\u540c\u671f\u7d44 \u30d5\u30a1\u30e9\uff06\u30e6\u30fc\u30ea",
          "name":"Farrah and Juri",
-         "gender":"undefined: tell Mai who this is",
-         "5star":null,
+         "gender":"Male/Female",
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Balanced",
@@ -1828,12 +1828,12 @@
       }
    },
    "Juri":{
-      "DUO":{
+      "BASE":{
          "id":"3040325000",
          "jpname":"\u540c\u671f\u7d44 \u30d5\u30a1\u30e9\uff06\u30e6\u30fc\u30ea",
          "name":"Farrah and Juri",
-         "gender":"undefined: tell Mai who this is",
-         "5star":null,
+         "gender":"Male/Female",
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Balanced",
@@ -1858,12 +1858,12 @@
       }
    },
    "Feather":{
-      "SSR":{
+      "BASE":{
          "id":"3040304000",
          "jpname":"\u30d5\u30a7\u30b6\u30fc",
          "name":"Feather",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Attack",
@@ -1887,7 +1887,7 @@
       }
    },
    "Feena":{
-      "Base":{
+      "BASE":{
          "id":"3040061000",
          "jpname":"\u30d5\u30a3\u30fc\u30ca",
          "name":"Feena",
@@ -1916,34 +1916,7 @@
       }
    },
    "Ferry":{
-      "SSR":{
-         "id":"3040073000",
-         "jpname":"\u30d5\u30a7\u30ea",
-         "name":"Ferry",
-         "gender":"Female",
-         "5star":"No",
-         "rarity":"SSR",
-         "element":"Light",
-         "type":"Balanced",
-         "race":"Erune",
-         "va":[
-            "Madoka Yonezawa"
-         ],
-         "profile":"Given a mission from the verdant nature, this young girl sets out on a journey where she crosses paths with an evil spirit. Having lost even its spiritual form, she recalls the time she lost her own way and responds to the evil spirit's howls of despair, giving it a name.",
-         "series":[
-            
-         ],
-         "hp":"1,420",
-         "atk":"7,450",
-         "specialties":[
-            "Dagger"
-         ],
-         "weapon":"Ethereal Lasher",
-         "recruitment":"Premium Draw",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040073000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040073000_01.png"
-      },
-      "Grand":{
+      "GRAND":{
          "id":"3040209000",
          "jpname":"\u30d5\u30a7\u30ea",
          "name":"Ferry",
@@ -1969,15 +1942,42 @@
          "recruitment":"Premium Gala",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040209000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040209000_01.png"
+      },
+      "BASE":{
+         "id":"3040073000",
+         "jpname":"\u30d5\u30a7\u30ea",
+         "name":"Ferry",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Balanced",
+         "race":"Erune",
+         "va":[
+            "Madoka Yonezawa"
+         ],
+         "profile":"Given a mission from the verdant nature, this young girl sets out on a journey where she crosses paths with an evil spirit. Having lost even its spiritual form, she recalls the time she lost her own way and responds to the evil spirit's howls of despair, giving it a name.",
+         "series":[
+            
+         ],
+         "hp":"1,420",
+         "atk":"7,450",
+         "specialties":[
+            "Dagger"
+         ],
+         "weapon":"Ethereal Lasher",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040073000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040073000_01.png"
       }
    },
    "Filene":{
-      "Base":{
+      "BASE":{
          "id":"3040314000",
          "jpname":"\u30d5\u30a3\u30eb\u30ec\u30a4\u30f3",
          "name":"Filene",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Special",
@@ -2001,12 +2001,12 @@
       }
    },
    "Fiorito":{
-      "Base":{
+      "BASE":{
          "id":"3040305000",
          "jpname":"\u30d5\u30a3\u30aa\u30ea\u30c8",
          "name":"Fiorito",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Attack",
@@ -2030,12 +2030,12 @@
       }
    },
    "Florence":{
-      "Base":{
+      "BASE":{
          "id":"3040299000",
          "jpname":"\u30d5\u30ed\u30ec\u30f3\u30b9",
          "name":"Florence",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Special",
@@ -2059,7 +2059,7 @@
       }
    },
    "Forte":{
-      "Base":{
+      "BASE":{
          "id":"3040086000",
          "jpname":"\u30d5\u30a9\u30eb\u30c6",
          "name":"Forte",
@@ -2088,7 +2088,7 @@
       }
    },
    "Freezie":{
-      "Base":{
+      "BASE":{
          "id":"3040182000",
          "jpname":"\u30d5\u30fc\u3061\u3083\u3093",
          "name":"Freezie",
@@ -2117,7 +2117,7 @@
       }
    },
    "Gawain":{
-      "Base":{
+      "BASE":{
          "id":"3040000000",
          "jpname":"\u30ac\u30a6\u30a7\u30a4\u30f3",
          "name":"Gawain",
@@ -2145,12 +2145,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040000000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040000000_01.png"
       },
-      "Light":{
+      "LIGHT":{
          "id":"3040298000",
          "jpname":"\u30ac\u30a6\u30a7\u30a4\u30f3",
          "name":"Gawain",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Attack",
@@ -2175,7 +2175,7 @@
       }
    },
    "Ghandagoza":{
-      "Base":{
+      "BASE":{
          "id":"3040052000",
          "jpname":"\u30ac\u30f3\u30c0\u30b4\u30a6\u30b6",
          "name":"Ghandagoza",
@@ -2204,7 +2204,7 @@
       }
    },
    "Grea":{
-      "Base":{
+      "BASE":{
          "id":"3040130000",
          "jpname":"\u30b0\u30ec\u30a2",
          "name":"Grea",
@@ -2231,7 +2231,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040130000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040130000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040179000",
          "jpname":"\u30b0\u30ec\u30a2",
          "name":"Grea",
@@ -2260,7 +2260,7 @@
       }
    },
    "Hallessena":{
-      "Base":{
+      "BASE":{
          "id":"3040079000",
          "jpname":"\u30cf\u30ec\u30bc\u30ca",
          "name":"Hallessena",
@@ -2287,7 +2287,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040079000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040079000_01.png"
       },
-      "Halloween":{
+      "HALLOWEEN":{
          "id":"3040240000",
          "jpname":"\u30cf\u30ec\u30bc\u30ca",
          "name":"Hallessena",
@@ -2316,7 +2316,7 @@
       }
    },
    "Heles":{
-      "Base":{
+      "BASE":{
          "id":"3040060000",
          "jpname":"\u30d8\u30eb\u30a8\u30b9",
          "name":"Heles",
@@ -2343,7 +2343,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040060000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040060000_01.png"
       },
-      "Wind":{
+      "WIND":{
          "id":"3040208000",
          "jpname":"\u30d8\u30eb\u30a8\u30b9",
          "name":"Heles",
@@ -2370,7 +2370,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040208000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040208000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040091000",
          "jpname":"\u30d8\u30eb\u30a8\u30b9",
          "name":"Heles",
@@ -2399,7 +2399,7 @@
       }
    },
    "Herja":{
-      "SSR":{
+      "BASE":{
          "id":"3040271000",
          "jpname":"\u30d8\u30ea\u30e4",
          "name":"Herja",
@@ -2428,7 +2428,7 @@
       }
    },
    "Illnott":{
-      "Base":{
+      "BASE":{
          "id":"3040277000",
          "jpname":"\u30a4\u30eb\u30ce\u30fc\u30c8",
          "name":"Illnott",
@@ -2457,7 +2457,7 @@
       }
    },
    "Ilsa":{
-      "Base":{
+      "BASE":{
          "id":"3040148000",
          "jpname":"\u30a4\u30eb\u30b6",
          "name":"Ilsa",
@@ -2485,7 +2485,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040148000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040148000_01.png"
       },
-      "Light":{
+      "LIGHT":{
          "id":"3040258000",
          "jpname":"\u30a4\u30eb\u30b6",
          "name":"Ilsa",
@@ -2513,7 +2513,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040258000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040258000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040177000",
          "jpname":"\u30a4\u30eb\u30b6",
          "name":"Ilsa",
@@ -2543,12 +2543,12 @@
       }
    },
    "Isaac":{
-      "Base":{
+      "BASE":{
          "id":"3040327000",
          "jpname":"\u30a2\u30a4\u30b6\u30c3\u30af",
          "name":"Isaac",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Defense",
@@ -2573,7 +2573,7 @@
       }
    },
    "Izmir":{
-      "Base":{
+      "BASE":{
          "id":"3040100000",
          "jpname":"\u30a4\u30b7\u30e5\u30df\u30fc\u30eb",
          "name":"Izmir",
@@ -2600,7 +2600,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040100000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040100000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040126000",
          "jpname":"\u30a4\u30b7\u30e5\u30df\u30fc\u30eb",
          "name":"Izmir",
@@ -2628,8 +2628,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040126000_01.png"
       }
    },
-   "Jeanne_d'Arc":{
-      "Base":{
+   "Jeanne d'Arc":{
+      "BASE":{
          "id":"3040040000",
          "jpname":"\u30b8\u30e3\u30f3\u30cc\u30c0\u30eb\u30af",
          "name":"Jeanne d'Arc",
@@ -2657,7 +2657,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040040000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040040000_01.png"
       },
-      "Dark":{
+      "DARK":{
          "id":"3040080000",
          "jpname":"\u30b8\u30e3\u30f3\u30cc\u30c0\u30eb\u30af",
          "name":"Jeanne d'Arc",
@@ -2684,7 +2684,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040080000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040080000_01.png"
       },
-      "Grand":{
+      "GRAND":{
          "id":"3040245000",
          "jpname":"\u30b8\u30e3\u30f3\u30cc\u30c0\u30eb\u30af",
          "name":"Jeanne d'Arc",
@@ -2712,7 +2712,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040245000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040245000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040154000",
          "jpname":"\u30b8\u30e3\u30f3\u30cc\u30c0\u30eb\u30af",
          "name":"Jeanne d'Arc",
@@ -2741,7 +2741,7 @@
       }
    },
    "Jin":{
-      "Base":{
+      "BASE":{
          "id":"3040257000",
          "jpname":"\u30b8\u30f3",
          "name":"Jin",
@@ -2770,7 +2770,7 @@
       }
    },
    "Juliet":{
-      "Base":{
+      "BASE":{
          "id":"3040096000",
          "jpname":"\u30b8\u30e5\u30ea\u30a8\u30c3\u30c8",
          "name":"Juliet",
@@ -2797,12 +2797,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040096000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040096000_01.png"
       },
-      "Water":{
+      "WATER":{
          "id":"3040293000",
          "jpname":"\u30b8\u30e5\u30ea\u30a8\u30c3\u30c8",
          "name":"Juliet",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Balanced",
@@ -2826,7 +2826,7 @@
       }
    },
    "Kolulu":{
-      "Base":{
+      "BASE":{
          "id":"3040222000",
          "jpname":"\u30b3\u30eb\u30eb",
          "name":"Kolulu",
@@ -2853,12 +2853,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040222000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040222000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040283000",
          "jpname":"\u30b3\u30eb\u30eb",
          "name":"Kolulu",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Special",
@@ -2882,7 +2882,7 @@
       }
    },
    "Korwa":{
-      "Base":{
+      "BASE":{
          "id":"3040081000",
          "jpname":"\u30b3\u30eb\u30ef",
          "name":"Korwa",
@@ -2909,7 +2909,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040081000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040081000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040127000",
          "jpname":"\u30b3\u30eb\u30ef",
          "name":"Korwa",
@@ -2938,7 +2938,7 @@
       }
    },
    "Kou":{
-      "Base":{
+      "BASE":{
          "id":"3040242000",
          "jpname":"\u30b3\u30a6",
          "name":"Kou",
@@ -2968,7 +2968,7 @@
       }
    },
    "Ladiva":{
-      "SSR":{
+      "BASE":{
          "id":"3040217000",
          "jpname":"\u30d5\u30a1\u30b9\u30c6\u30a3\u30d0",
          "name":"Ladiva",
@@ -2996,8 +2996,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040217000_01.png"
       }
    },
-   "Lady_Grey":{
-      "Base":{
+   "Lady Grey":{
+      "BASE":{
          "id":"3040005000",
          "jpname":"\u30ec\u30c7\u30a3\u30fb\u30b0\u30ec\u30a4",
          "name":"Lady Grey",
@@ -3025,7 +3025,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040005000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040005000_01.png"
       },
-      "Halloween":{
+      "HALLOWEEN":{
          "id":"3040189000",
          "jpname":"\u30ec\u30c7\u30a3\u30fb\u30b0\u30ec\u30a4",
          "name":"Lady Grey",
@@ -3054,8 +3054,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040189000_01.png"
       }
    },
-   "Lady_Katapillar":{
-      "DUO":{
+   "Lady Katapillar":{
+      "BASE":{
          "id":"3040116000",
          "jpname":"\u30ad\u30e3\u30bf\u30d4\u30e9\u3068\u30f4\u30a3\u30fc\u30e9",
          "name":"Lady Katapillar and Vira",
@@ -3115,34 +3115,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040116000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040116000_01.png"
       },
-      "SSR":{
-         "id":"3040043000",
-         "jpname":"\u30f4\u30a3\u30fc\u30e9",
-         "name":"Vira",
-         "gender":"Female",
-         "5star":"Yes",
-         "rarity":"SSR",
-         "element":"Dark",
-         "type":"Attack",
-         "race":"Human",
-         "va":[
-            "Asami Imai"
-         ],
-         "profile":"The knight of the primal beasts has returned to Vira's side to grant her even greater power, drawn as it was to her dark, burning passions. Crazed by her obsession, she uses her primal energies to cut down all who dare approach the object of her affection.",
-         "series":[
-            
-         ],
-         "hp":"1,280",
-         "atk":"8,960",
-         "specialties":[
-            "Sabre"
-         ],
-         "weapon":"Lyst Sin",
-         "recruitment":"Premium Draw",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040043000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040043000_01.png"
-      },
-      "Wind":{
+      "WIND":{
          "id":"3040211000",
          "jpname":"\u30f4\u30a3\u30fc\u30e9",
          "name":"Vira",
@@ -3170,7 +3143,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040211000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040211000_01.png"
       },
-      "Grand":{
+      "GRAND":{
          "id":"3040141000",
          "jpname":"\u30f4\u30a3\u30fc\u30e9",
          "name":"Vira",
@@ -3198,7 +3171,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040141000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040141000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040053000",
          "jpname":"\u30f4\u30a3\u30fc\u30e9",
          "name":"Vira",
@@ -3225,7 +3198,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040053000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040053000_01.png"
       },
-      "Promo":{
+      "PROMO":{
          "id":"3040243000",
          "jpname":"\u30f4\u30a3\u30fc\u30e9",
          "name":"Vira",
@@ -3251,15 +3224,42 @@
          "recruitment":"Granblue Fantasy: The Animation BD/DVD Season 2 - Vol. 1",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040243000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040243000_01.png"
+      },
+      "BASE":{
+         "id":"3040043000",
+         "jpname":"\u30f4\u30a3\u30fc\u30e9",
+         "name":"Vira",
+         "gender":"Female",
+         "5star":"Yes",
+         "rarity":"SSR",
+         "element":"Dark",
+         "type":"Attack",
+         "race":"Human",
+         "va":[
+            "Asami Imai"
+         ],
+         "profile":"The knight of the primal beasts has returned to Vira's side to grant her even greater power, drawn as it was to her dark, burning passions. Crazed by her obsession, she uses her primal energies to cut down all who dare approach the object of her affection.",
+         "series":[
+            
+         ],
+         "hp":"1,280",
+         "atk":"8,960",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Lyst Sin",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040043000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040043000_01.png"
       }
    },
    "Lamretta":{
-      "SSR":{
+      "BASE":{
          "id":"3040319000",
          "jpname":"\u30e9\u30e0\u30ec\u30c3\u30c0",
          "name":"Lamretta",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Special",
@@ -3283,7 +3283,7 @@
       }
    },
    "Lancelot":{
-      "Base":{
+      "BASE":{
          "id":"3040023000",
          "jpname":"\u30e9\u30f3\u30b9\u30ed\u30c3\u30c8",
          "name":"Lancelot",
@@ -3311,7 +3311,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040023000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040023000_01.png"
       },
-      "Wind":{
+      "WIND":{
          "id":"3040140000",
          "jpname":"\u30e9\u30f3\u30b9\u30ed\u30c3\u30c8",
          "name":"Lancelot",
@@ -3399,7 +3399,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040191000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040191000_01.png"
       },
-      "SSR":{
+      "BASE":{
          "id":"3040117000",
          "jpname":"\u30f4\u30a7\u30a4\u30f3",
          "name":"Vane",
@@ -3429,7 +3429,34 @@
       }
    },
    "Lecia":{
-      "Water":{
+      "GRAND":{
+         "id":"3040101000",
+         "jpname":"\u30ea\u30fc\u30b7\u30e3",
+         "name":"Lecia",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Wind",
+         "type":"Balanced",
+         "race":"Human",
+         "va":[
+            "Ayako Kawasumi"
+         ],
+         "profile":"After leaving her friends and returning to where she belongs, Lecia is assigned a grand responsibility by her father. Though plagued with doubt and wracked with worry, it proves to be an experience of profound personal growth. May this white-winged defender of the skies fly ever onward.",
+         "series":[
+            "grand"
+         ],
+         "hp":"1,900",
+         "atk":"8,500",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Reunion",
+         "recruitment":"Premium Gala",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040101000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040101000_01.png"
+      },
+      "BASE":{
          "id":"3040263000",
          "jpname":"\u30ea\u30fc\u30b7\u30e3",
          "name":"Lecia",
@@ -3456,37 +3483,10 @@
          "recruitment":"Premium Draw",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040263000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040263000_01.png"
-      },
-      "Grand":{
-         "id":"3040101000",
-         "jpname":"\u30ea\u30fc\u30b7\u30e3",
-         "name":"Lecia",
-         "gender":"Female",
-         "5star":"No",
-         "rarity":"SSR",
-         "element":"Wind",
-         "type":"Balanced",
-         "race":"Human",
-         "va":[
-            "Ayako Kawasumi"
-         ],
-         "profile":"After leaving her friends and returning to where she belongs, Lecia is assigned a grand responsibility by her father. Though plagued with doubt and wracked with worry, it proves to be an experience of profound personal growth. May this white-winged defender of the skies fly ever onward.",
-         "series":[
-            "grand"
-         ],
-         "hp":"1,900",
-         "atk":"8,500",
-         "specialties":[
-            "Sabre"
-         ],
-         "weapon":"Reunion",
-         "recruitment":"Premium Gala",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040101000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040101000_01.png"
       }
    },
    "Lennah":{
-      "Base":{
+      "BASE":{
          "id":"3040021000",
          "jpname":"\u30ec\u30ca",
          "name":"Lennah",
@@ -3514,8 +3514,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040021000_01.png"
       }
    },
-   "Levin_Sisters":{
-      "Base":{
+   "Levin Sisters":{
+      "BASE":{
          "id":"3040193000",
          "jpname":"\u30ec\u30f4\u30a3\u30aa\u30f3\u59c9\u59b9 \u30de\u30a4\u30e0\uff06\u30df\u30a4\u30e0\uff06\u30e1\u30a4\u30e0",
          "name":"Levin Sisters",
@@ -3545,7 +3545,7 @@
       }
    },
    "Lilele":{
-      "Base":{
+      "BASE":{
          "id":"3040066000",
          "jpname":"\u30ea\u30eb\u30eb",
          "name":"Lilele",
@@ -3574,7 +3574,7 @@
       }
    },
    "Lily":{
-      "Base":{
+      "BASE":{
          "id":"3040007000",
          "jpname":"\u30ea\u30ea\u30a3",
          "name":"Lily",
@@ -3601,12 +3601,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040007000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040007000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040311000",
          "jpname":"\u30ea\u30ea\u30a3",
          "name":"Lily",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Heal",
@@ -3630,7 +3630,7 @@
       }
    },
    "Lucius":{
-      "SSR":{
+      "BASE":{
          "id":"3040254000",
          "jpname":"\u30eb\u30b7\u30a6\u30b9",
          "name":"Lucius",
@@ -3660,7 +3660,7 @@
       }
    },
    "Lunalu":{
-      "SSR":{
+      "BASE":{
          "id":"3040172000",
          "jpname":"\u30eb\u30ca\u30fc\u30eb",
          "name":"Lunalu",
@@ -3688,8 +3688,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040172000_01.png"
       }
    },
-   "Macula_Marius":{
-      "Base":{
+   "Macula Marius":{
+      "BASE":{
          "id":"3040213000",
          "jpname":"\u30de\u30ad\u30e5\u30e9\u30fb\u30de\u30ea\u30a6\u30b9",
          "name":"Macula Marius",
@@ -3718,7 +3718,7 @@
       }
    },
    "Magisa":{
-      "Base":{
+      "BASE":{
          "id":"3040011000",
          "jpname":"\u30de\u30ae\u30b5",
          "name":"Magisa",
@@ -3746,7 +3746,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040011000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040011000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040247000",
          "jpname":"\u30de\u30ae\u30b5",
          "name":"Magisa",
@@ -3776,7 +3776,7 @@
       }
    },
    "Marquiares":{
-      "Base":{
+      "BASE":{
          "id":"3040108000",
          "jpname":"\u30de\u30eb\u30ad\u30a2\u30ec\u30b9",
          "name":"Marquiares",
@@ -3805,7 +3805,7 @@
       }
    },
    "Medusa":{
-      "Base":{
+      "BASE":{
          "id":"3040214000",
          "jpname":"\u30e1\u30c9\u30a5\u30fc\u30b5",
          "name":"Medusa",
@@ -3832,7 +3832,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040214000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040214000_01.png"
       },
-      "Valentine":{
+      "VALENTINE":{
          "id":"3040151000",
          "jpname":"\u30e1\u30c9\u30a5\u30fc\u30b5",
          "name":"Medusa",
@@ -3859,7 +3859,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040151000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040151000_01.png"
       },
-      "Promo":{
+      "PROMO":{
          "id":"3040123000",
          "jpname":"\u30e1\u30c9\u30a5\u30fc\u30b5",
          "name":"Medusa",
@@ -3888,7 +3888,7 @@
       }
    },
    "Melissabelle":{
-      "Base":{
+      "BASE":{
          "id":"3040102000",
          "jpname":"\u30e1\u30ea\u30c3\u30b5\u30d9\u30eb",
          "name":"Melissabelle",
@@ -3916,7 +3916,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040102000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040102000_01.png"
       },
-      "Valentine":{
+      "VALENTINE":{
          "id":"3040207000",
          "jpname":"\u30e1\u30ea\u30c3\u30b5\u30d9\u30eb",
          "name":"Melissabelle",
@@ -3946,7 +3946,7 @@
       }
    },
    "Melleau":{
-      "Base":{
+      "BASE":{
          "id":"3040022000",
          "jpname":"\u30e1\u30eb\u30a5",
          "name":"Melleau",
@@ -3976,7 +3976,7 @@
       }
    },
    "Metera":{
-      "Base":{
+      "BASE":{
          "id":"3040012000",
          "jpname":"\u30e1\u30fc\u30c6\u30e9",
          "name":"Metera",
@@ -4003,7 +4003,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040012000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040012000_01.png"
       },
-      "Fire":{
+      "FIRE":{
          "id":"3040072000",
          "jpname":"\u30e1\u30fc\u30c6\u30e9",
          "name":"Metera",
@@ -4030,7 +4030,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040072000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040072000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040195000",
          "jpname":"\u30e1\u30fc\u30c6\u30e9",
          "name":"Metera",
@@ -4059,7 +4059,7 @@
       }
    },
    "Milleore":{
-      "DUO":{
+      "BASE":{
          "id":"3040272000",
          "jpname":"\u963f\u543d\u306e\u7834\u5f13 \u30df\u30e9\u30aa\u30eb\uff06\u30b6\u30fc\u30ea\u30ea\u30e3\u30aa\u30fc",
          "name":"Milleore and Sahli Lao",
@@ -4089,8 +4089,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040272000_01.png"
       }
    },
-   "Sahli_Lao":{
-      "DUO":{
+   "Sahli Lao":{
+      "BASE":{
          "id":"3040272000",
          "jpname":"\u963f\u543d\u306e\u7834\u5f13 \u30df\u30e9\u30aa\u30eb\uff06\u30b6\u30fc\u30ea\u30ea\u30e3\u30aa\u30fc",
          "name":"Milleore and Sahli Lao",
@@ -4121,12 +4121,12 @@
       }
    },
    "Mireille":{
-      "DUO":{
+      "BASE":{
          "id":"3040302000",
          "jpname":"\u30df\u30ec\u30a4\u30e6\uff06\u30ea\u30bc\u30c3\u30c8",
          "name":"Mireille and Risette",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Attack",
@@ -4152,12 +4152,12 @@
       }
    },
    "Risette":{
-      "DUO":{
+      "BASE":{
          "id":"3040302000",
          "jpname":"\u30df\u30ec\u30a4\u30e6\uff06\u30ea\u30bc\u30c3\u30c8",
          "name":"Mireille and Risette",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Attack",
@@ -4183,12 +4183,12 @@
       }
    },
    "Mishra":{
-      "SSR":{
+      "BASE":{
          "id":"3040317000",
          "jpname":"\u30de\u30a4\u30b7\u30a7\u30e9",
          "name":"Mishra",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Special",
@@ -4212,7 +4212,7 @@
       }
    },
    "Morrigna":{
-      "Base":{
+      "BASE":{
          "id":"3040218000",
          "jpname":"\u30d0\u30a4\u30f4\u30ab\u30cf",
          "name":"Morrigna",
@@ -4243,12 +4243,12 @@
       }
    },
    "Naoise":{
-      "Base":{
+      "BASE":{
          "id":"3040281000",
          "jpname":"\u30ce\u30a4\u30b7\u30e5",
          "name":"Naoise",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Special",
@@ -4271,7 +4271,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040281000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040281000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040178000",
          "jpname":"\u30ce\u30a4\u30b7\u30e5",
          "name":"Naoise",
@@ -4300,7 +4300,7 @@
       }
    },
    "Narmaya":{
-      "Base":{
+      "BASE":{
          "id":"3040063000",
          "jpname":"\u30ca\u30eb\u30e1\u30a2",
          "name":"Narmaya",
@@ -4327,7 +4327,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040063000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040063000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040089000",
          "jpname":"\u30ca\u30eb\u30e1\u30a2",
          "name":"Narmaya",
@@ -4354,7 +4354,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040089000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040089000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040249000",
          "jpname":"\u30ca\u30eb\u30e1\u30a2",
          "name":"Narmaya",
@@ -4383,12 +4383,12 @@
       }
    },
    "Nectar":{
-      "Base":{
+      "BASE":{
          "id":"3040318000",
          "jpname":"\u30cd\u30af\u30bf\u30eb",
          "name":"Nectar",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Attack",
@@ -4413,7 +4413,7 @@
       }
    },
    "Nemone":{
-      "Base":{
+      "BASE":{
          "id":"3040085000",
          "jpname":"\u30cd\u30e2\u30cd",
          "name":"Nemone",
@@ -4441,12 +4441,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040085000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040085000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040306000",
          "jpname":"\u30cd\u30e2\u30cd",
          "name":"Nemone",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Fire",
          "type":"Balanced",
@@ -4471,7 +4471,7 @@
       }
    },
    "Nezahualpilli":{
-      "Base":{
+      "BASE":{
          "id":"3040003000",
          "jpname":"\u30cd\u30c4\u30a1\u30ef\u30eb\u30d4\u30ea",
          "name":"Nezahualpilli",
@@ -4500,7 +4500,7 @@
       }
    },
    "Nicholas":{
-      "Base":{
+      "BASE":{
          "id":"3040156000",
          "jpname":"\u30b7\u30ed\u30a6",
          "name":"Nicholas",
@@ -4527,12 +4527,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040156000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040156000_01.png"
       },
-      "Light":{
+      "LIGHT":{
          "id":"3040315000",
          "jpname":"\u30b7\u30ed\u30a6",
          "name":"Nicholas",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Attack",
@@ -4557,12 +4557,12 @@
       }
    },
    "Pengy":{
-      "SSR":{
+      "BASE":{
          "id":"3040282000",
          "jpname":"\u30da\u30f3\u30ae\u30fc",
          "name":"Pengy",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Attack",
@@ -4587,7 +4587,7 @@
       }
    },
    "Percival":{
-      "Base":{
+      "BASE":{
          "id":"3040050000",
          "jpname":"\u30d1\u30fc\u30b7\u30f4\u30a1\u30eb",
          "name":"Percival",
@@ -4614,7 +4614,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040050000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040050000_01.png"
       },
-      "Light":{
+      "LIGHT":{
          "id":"3040279000",
          "jpname":"\u30d1\u30fc\u30b7\u30f4\u30a1\u30eb",
          "name":"Percival",
@@ -4641,7 +4641,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040279000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040279000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040090000",
          "jpname":"\u30d1\u30fc\u30b7\u30f4\u30a1\u30eb",
          "name":"Percival",
@@ -4670,7 +4670,7 @@
       }
    },
    "Petra":{
-      "SSR":{
+      "BASE":{
          "id":"3040047000",
          "jpname":"\u30da\u30c8\u30e9",
          "name":"Petra",
@@ -4699,7 +4699,7 @@
       }
    },
    "Predator":{
-      "SSR":{
+      "BASE":{
          "id":"3040278000",
          "jpname":"\u30d7\u30ec\u30c7\u30bf\u30fc",
          "name":"Predator",
@@ -4728,7 +4728,7 @@
       }
    },
    "Razia":{
-      "Base":{
+      "BASE":{
          "id":"3040109000",
          "jpname":"\u30e9\u30b9\u30c6\u30a3\u30ca",
          "name":"Razia",
@@ -4758,7 +4758,7 @@
       }
    },
    "Robomi":{
-      "Base":{
+      "BASE":{
          "id":"3040155000",
          "jpname":"\u30ed\u30dc\u30df",
          "name":"Robomi",
@@ -4787,7 +4787,7 @@
       }
    },
    "Romeo":{
-      "Base":{
+      "BASE":{
          "id":"3040098000",
          "jpname":"\u30ed\u30df\u30aa",
          "name":"Romeo",
@@ -4817,7 +4817,34 @@
       }
    },
    "Rosamia":{
-      "SSR":{
+      "YUKATA":{
+         "id":"3040289000",
+         "jpname":"\u30ed\u30b6\u30df\u30a2",
+         "name":"Rosamia",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Light",
+         "type":"Balanced",
+         "race":"Human",
+         "va":[
+            "Yui Ishikawa"
+         ],
+         "profile":"Concealing her cursed mask beneath one more festive, this young woman chances a night of summer amusements. Blessed with warm memories of summertime with her family, she feels right at home at any festival.",
+         "series":[
+            "yukata"
+         ],
+         "hp":"1,595",
+         "atk":"8,025",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Official's Jitte",
+         "recruitment":"Summer Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040289000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040289000_01.png"
+      },
+      "BASE":{
          "id":"3040087000",
          "jpname":"\u30ed\u30b6\u30df\u30a2",
          "name":"Rosamia",
@@ -4843,37 +4870,10 @@
          "recruitment":"Premium Draw",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040087000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040087000_01.png"
-      },
-      "Yukata":{
-         "id":"3040289000",
-         "jpname":"\u30ed\u30b6\u30df\u30a2",
-         "name":"Rosamia",
-         "gender":"Female",
-         "5star":null,
-         "rarity":"SSR",
-         "element":"Light",
-         "type":"Balanced",
-         "race":"Human",
-         "va":[
-            "Yui Ishikawa"
-         ],
-         "profile":"Concealing her cursed mask beneath one more festive, this young woman chances a night of summer amusements. Blessed with warm memories of summertime with her family, she feels right at home at any festival.",
-         "series":[
-            "yukata"
-         ],
-         "hp":"1,595",
-         "atk":"8,025",
-         "specialties":[
-            "Sabre"
-         ],
-         "weapon":"Official's Jitte",
-         "recruitment":"Summer Premium Draw",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040289000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040289000_01.png"
       }
    },
    "Sara":{
-      "Base":{
+      "BASE":{
          "id":"3040041000",
          "jpname":"\u30b5\u30e9",
          "name":"Sara",
@@ -4900,7 +4900,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040041000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040041000_01.png"
       },
-      "Light":{
+      "LIGHT":{
          "id":"3040236000",
          "jpname":"\u30b5\u30e9",
          "name":"Sara",
@@ -4929,7 +4929,7 @@
       }
    },
    "Sarunan":{
-      "Base":{
+      "BASE":{
          "id":"3040008000",
          "jpname":"\u30b5\u30eb\u30ca\u30fc\u30f3",
          "name":"Sarunan",
@@ -4956,7 +4956,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040008000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040008000_01.png"
       },
-      "Dark":{
+      "DARK":{
          "id":"3040048000",
          "jpname":"\u30b5\u30eb\u30ca\u30fc\u30f3",
          "name":"Sarunan",
@@ -4985,7 +4985,7 @@
       }
    },
    "Satyr":{
-      "Base":{
+      "BASE":{
          "id":"3040280000",
          "jpname":"\u30b5\u30c6\u30e5\u30ed\u30b9",
          "name":"Satyr",
@@ -5015,7 +5015,7 @@
       }
    },
    "Scathacha":{
-      "Base":{
+      "BASE":{
          "id":"3040122000",
          "jpname":"\u30b9\u30ab\u30fc\u30b5\u30cf",
          "name":"Scathacha",
@@ -5042,7 +5042,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040122000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040122000_01.png"
       },
-      "Valentine":{
+      "VALENTINE":{
          "id":"3040260000",
          "jpname":"\u30b9\u30ab\u30fc\u30b5\u30cf",
          "name":"Scathacha",
@@ -5071,7 +5071,7 @@
       }
    },
    "Selfira":{
-      "Base":{
+      "BASE":{
          "id":"3040175000",
          "jpname":"\u30bb\u30ec\u30d5\u30a3\u30e9",
          "name":"Selfira",
@@ -5100,7 +5100,7 @@
       }
    },
    "Sen":{
-      "SSR":{
+      "BASE":{
          "id":"3040204000",
          "jpname":"\u30bb\u30f3",
          "name":"Sen",
@@ -5129,7 +5129,7 @@
       }
    },
    "Seruel":{
-      "Base":{
+      "BASE":{
          "id":"3040013000",
          "jpname":"\u30bb\u30eb\u30a8\u30eb",
          "name":"Seruel",
@@ -5156,7 +5156,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040013000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040013000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040250000",
          "jpname":"\u30bb\u30eb\u30a8\u30eb",
          "name":"Seruel",
@@ -5186,7 +5186,7 @@
       }
    },
    "Shitori":{
-      "Base":{
+      "BASE":{
          "id":"3040244000",
          "jpname":"\u30b7\u30c8\u30ea",
          "name":"Shitori",
@@ -5216,7 +5216,7 @@
       }
    },
    "Shura":{
-      "Base":{
+      "BASE":{
          "id":"3040273000",
          "jpname":"\u30b7\u30e5\u30e9",
          "name":"Shura",
@@ -5245,7 +5245,7 @@
       }
    },
    "Siegfried":{
-      "Base":{
+      "BASE":{
          "id":"3040025000",
          "jpname":"\u30b8\u30fc\u30af\u30d5\u30ea\u30fc\u30c8",
          "name":"Siegfried",
@@ -5273,7 +5273,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040025000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040025000_01.png"
       },
-      "Fire":{
+      "FIRE":{
          "id":"3040237000",
          "jpname":"\u30b8\u30fc\u30af\u30d5\u30ea\u30fc\u30c8",
          "name":"Siegfried",
@@ -5301,7 +5301,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040237000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040237000_01.png"
       },
-      "Yukata":{
+      "YUKATA":{
          "id":"3040128000",
          "jpname":"\u30b8\u30fc\u30af\u30d5\u30ea\u30fc\u30c8",
          "name":"Siegfried",
@@ -5331,7 +5331,7 @@
       }
    },
    "Silva":{
-      "Base":{
+      "BASE":{
          "id":"3040049000",
          "jpname":"\u30b7\u30eb\u30f4\u30a1",
          "name":"Silva",
@@ -5358,7 +5358,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040049000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040049000_01.png"
       },
-      "Light":{
+      "LIGHT":{
          "id":"3040187000",
          "jpname":"\u30b7\u30eb\u30f4\u30a1",
          "name":"Silva",
@@ -5385,12 +5385,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040187000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040187000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040291000",
          "jpname":"\u30b7\u30eb\u30f4\u30a1",
          "name":"Silva",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Attack",
@@ -5414,7 +5414,7 @@
       }
    },
    "Societte":{
-      "Base":{
+      "BASE":{
          "id":"3040044000",
          "jpname":"\u30bd\u30b7\u30a8",
          "name":"Societte",
@@ -5442,7 +5442,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040044000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040044000_01.png"
       },
-      "Fire":{
+      "FIRE":{
          "id":"3040095000",
          "jpname":"\u30bd\u30b7\u30a8",
          "name":"Societte",
@@ -5470,7 +5470,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040095000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040095000_01.png"
       },
-      "Wind":{
+      "WIND":{
          "id":"3040241000",
          "jpname":"\u30bd\u30b7\u30a8",
          "name":"Societte",
@@ -5500,7 +5500,7 @@
       }
    },
    "Sophia":{
-      "Base":{
+      "BASE":{
          "id":"3040024000",
          "jpname":"\u30bd\u30d5\u30a3\u30a2",
          "name":"Sophia",
@@ -5529,7 +5529,7 @@
       }
    },
    "Soriz":{
-      "SSR":{
+      "BASE":{
          "id":"3040170000",
          "jpname":"\u30bd\u30ea\u30c3\u30ba",
          "name":"Soriz",
@@ -5558,11 +5558,11 @@
       }
    },
    "Stan":{
-      "DUO":{
+      "BASE":{
          "id":"3040233000",
          "jpname":"\u52c7\u8005\u3068\u59eb\u541b \u30b9\u30bf\u30f3\uff06\u30a2\u30ea\u30fc\u30b6",
          "name":"Stan and Aliza",
-         "gender":"undefined: tell Mai who this is",
+         "gender":"Male/Female",
          "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
@@ -5589,7 +5589,7 @@
       }
    },
    "Sturm":{
-      "Base":{
+      "BASE":{
          "id":"3040268000",
          "jpname":"\u30b9\u30c4\u30eb\u30e0",
          "name":"Sturm",
@@ -5616,7 +5616,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040268000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040268000_01.png"
       },
-      "Grand":{
+      "GRAND":{
          "id":"3040115000",
          "jpname":"\u30b9\u30c4\u30eb\u30e0",
          "name":"Sturm",
@@ -5645,12 +5645,12 @@
       }
    },
    "Sutera":{
-      "SSR":{
+      "BASE":{
          "id":"3040303000",
          "jpname":"\u30b9\u30fc\u30c6\u30e9",
          "name":"Sutera",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Attack",
@@ -5674,7 +5674,7 @@
       }
    },
    "Tabina":{
-      "Base":{
+      "BASE":{
          "id":"3040234000",
          "jpname":"\u30bf\u30f4\u30a3\u30fc\u30ca",
          "name":"Tabina",
@@ -5704,7 +5704,7 @@
       }
    },
    "Tanya":{
-      "SSR":{
+      "BASE":{
          "id":"3040203000",
          "jpname":"\u30bf\u30fc\u30cb\u30e3",
          "name":"Tanya",
@@ -5733,7 +5733,7 @@
       }
    },
    "Therese":{
-      "SSR":{
+      "BASE":{
          "id":"3040149000",
          "jpname":"\u30c6\u30ec\u30fc\u30ba",
          "name":"Therese",
@@ -5762,7 +5762,7 @@
       }
    },
    "Tiamat":{
-      "Base":{
+      "BASE":{
          "id":"3040152000",
          "jpname":"\u30c6\u30a3\u30a2\u30de\u30c8",
          "name":"Tiamat",
@@ -5792,7 +5792,7 @@
       }
    },
    "Tsubasa":{
-      "Base":{
+      "BASE":{
          "id":"3040180000",
          "jpname":"\u30c4\u30d0\u30b5",
          "name":"Tsubasa",
@@ -5821,7 +5821,7 @@
       }
    },
    "Vania":{
-      "Base":{
+      "BASE":{
          "id":"3040057000",
          "jpname":"\u30f4\u30a1\u30f3\u30d4\u30a3",
          "name":"Vania",
@@ -5880,7 +5880,7 @@
       }
    },
    "Malinda":{
-      "DUO":{
+      "BASE":{
          "id":"3040264000",
          "jpname":"\u98db\u7adc\u3068\u5438\u8840\u59eb \u30f4\u30a1\u30f3\u30d4\u30a3\uff06\u30d9\u30b9",
          "name":"Vania and Malinda",
@@ -5911,7 +5911,7 @@
       }
    },
    "Vaseraga":{
-      "Base":{
+      "BASE":{
          "id":"3040029000",
          "jpname":"\u30d0\u30b6\u30e9\u30ac",
          "name":"Vaseraga",
@@ -5938,7 +5938,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040029000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040029000_01.png"
       },
-      "Earth":{
+      "EARTH":{
          "id":"3040146000",
          "jpname":"\u30d0\u30b6\u30e9\u30ac",
          "name":"Vaseraga",
@@ -5965,12 +5965,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040146000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040146000_01.png"
       },
-      "Fire":{
+      "FIRE":{
          "id":"3040324000",
          "jpname":"\u30d0\u30b6\u30e9\u30ac",
          "name":"Vaseraga",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Fire",
          "type":"Attack",
@@ -5994,7 +5994,7 @@
       }
    },
    "Veight":{
-      "Base":{
+      "BASE":{
          "id":"3040094000",
          "jpname":"\u30f4\u30a1\u30a4\u30c8",
          "name":"Veight",
@@ -6023,11 +6023,11 @@
       }
    },
    "Wulf":{
-      "DUO":{
+      "BASE":{
          "id":"3040174000",
          "jpname":"\u30a6\u30fc\u30d5\u3068\u30ec\u30cb\u30fc",
          "name":"Wulf and Renie",
-         "gender":"undefined: tell Mai who this is",
+         "gender":"Male/Female",
          "5star":"No",
          "rarity":"SSR",
          "element":"Dark",
@@ -6054,11 +6054,11 @@
       }
    },
    "Renie":{
-      "DUO":{
+      "BASE":{
          "id":"3040174000",
          "jpname":"\u30a6\u30fc\u30d5\u3068\u30ec\u30cb\u30fc",
          "name":"Wulf and Renie",
-         "gender":"undefined: tell Mai who this is",
+         "gender":"Male/Female",
          "5star":"No",
          "rarity":"SSR",
          "element":"Dark",
@@ -6085,7 +6085,7 @@
       }
    },
    "Yggdrasil":{
-      "Base":{
+      "BASE":{
          "id":"3040125000",
          "jpname":"\u30e6\u30b0\u30c9\u30e9\u30b7\u30eb",
          "name":"Yggdrasil",
@@ -6114,7 +6114,7 @@
       }
    },
    "Yngwie":{
-      "Base":{
+      "BASE":{
          "id":"3040088000",
          "jpname":"\u30a4\u30f3\u30b0\u30f4\u30a7\u30a4",
          "name":"Yngwie",
@@ -6144,35 +6144,7 @@
       }
    },
    "Yodarha":{
-      "SSR":{
-         "id":"3040064000",
-         "jpname":"\u30e8\u30c0\u30eb\u30e9\u30fc\u30cf",
-         "name":"Yodarha",
-         "gender":"Male",
-         "5star":"No",
-         "rarity":"SSR",
-         "element":"Water",
-         "type":"Attack",
-         "race":"Harvin",
-         "va":[
-            "Shigeru Chiba"
-         ],
-         "profile":"Betrayed by his dear apprentice, this bladesman renounced the mortal world. His faith would only be restored when a certain young person came to lead him back to civilization. He finally cast off his angler's disguise when his apprentice's long-lost sword reappeared.",
-         "series":[
-            
-         ],
-         "hp":"1,150",
-         "atk":"9,580",
-         "specialties":[
-            "Sabre",
-            "Katana"
-         ],
-         "weapon":"Fudo-Kuniyuki",
-         "recruitment":"Premium Draw",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040064000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040064000_01.png"
-      },
-      "Wind":{
+      "WIND":{
          "id":"3040259000",
          "jpname":"\u30e8\u30c0\u30eb\u30e9\u30fc\u30cf",
          "name":"Yodarha",
@@ -6199,10 +6171,38 @@
          "recruitment":"Premium Draw",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040259000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040259000_01.png"
+      },
+      "BASE":{
+         "id":"3040064000",
+         "jpname":"\u30e8\u30c0\u30eb\u30e9\u30fc\u30cf",
+         "name":"Yodarha",
+         "gender":"Male",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Water",
+         "type":"Attack",
+         "race":"Harvin",
+         "va":[
+            "Shigeru Chiba"
+         ],
+         "profile":"Betrayed by his dear apprentice, this bladesman renounced the mortal world. His faith would only be restored when a certain young person came to lead him back to civilization. He finally cast off his angler's disguise when his apprentice's long-lost sword reappeared.",
+         "series":[
+            
+         ],
+         "hp":"1,150",
+         "atk":"9,580",
+         "specialties":[
+            "Sabre",
+            "Katana"
+         ],
+         "weapon":"Fudo-Kuniyuki",
+         "recruitment":"Premium Draw",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040064000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040064000_01.png"
       }
    },
    "Yuel":{
-      "Base":{
+      "BASE":{
          "id":"3040006000",
          "jpname":"\u30e6\u30a8\u30eb",
          "name":"Yuel",
@@ -6230,7 +6230,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040006000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040006000_01.png"
       },
-      "Water":{
+      "WATER":{
          "id":"3040138000",
          "jpname":"\u30e6\u30a8\u30eb",
          "name":"Yuel",
@@ -6258,7 +6258,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040138000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040138000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040210000",
          "jpname":"\u30e6\u30a8\u30eb",
          "name":"Yuel",
@@ -6288,7 +6288,7 @@
       }
    },
    "Yuisis":{
-      "Base":{
+      "BASE":{
          "id":"3040105000",
          "jpname":"\u30e6\u30a4\u30b7\u30b9",
          "name":"Yuisis",
@@ -6316,7 +6316,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040105000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040105000_01.png"
       },
-      "Fire":{
+      "FIRE":{
          "id":"3040253000",
          "jpname":"\u30e6\u30a4\u30b7\u30b9",
          "name":"Yuisis",
@@ -6346,7 +6346,7 @@
       }
    },
    "Yurius":{
-      "Base":{
+      "BASE":{
          "id":"3040199000",
          "jpname":"\u30e6\u30ea\u30a6\u30b9",
          "name":"Yurius",
@@ -6376,7 +6376,7 @@
       }
    },
    "Zahlhamelina":{
-      "Base":{
+      "BASE":{
          "id":"3040075000",
          "jpname":"\u30b6\u30eb\u30cf\u30e1\u30ea\u30ca",
          "name":"Zahlhamelina",
@@ -6405,12 +6405,12 @@
       }
    },
    "Zehek":{
-      "SSR":{
+      "BASE":{
          "id":"3040316000",
          "jpname":"\u30bc\u30d8\u30af",
          "name":"Zehek",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Dark",
          "type":"Special",
@@ -6435,7 +6435,7 @@
       }
    },
    "Zeta":{
-      "Base":{
+      "BASE":{
          "id":"3040028000",
          "jpname":"\u30bc\u30bf",
          "name":"Zeta",
@@ -6462,7 +6462,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040028000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040028000_01.png"
       },
-      "Dark":{
+      "DARK":{
          "id":"3040112000",
          "jpname":"\u30bc\u30bf",
          "name":"Zeta",
@@ -6489,12 +6489,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040112000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040112000_01.png"
       },
-      "Water":{
+      "WATER":{
          "id":"3040323000",
          "jpname":"\u30bc\u30bf",
          "name":"Zeta",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Attack",
@@ -6516,12 +6516,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040323000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040323000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040056000",
          "jpname":"\u30bc\u30bf",
          "name":"Zeta",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Light",
          "type":"Attack",
@@ -6547,7 +6547,7 @@
          "id":"3040239000",
          "jpname":"\u771f\u7d05\u3068\u51a5\u95c7 \u30bc\u30bf\uff06\u30d0\u30b6\u30e9\u30ac",
          "name":"Zeta and Vaseraga",
-         "gender":"undefined: tell Mai who this is",
+         "gender":"Male/Female",
          "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
@@ -6574,7 +6574,7 @@
       }
    },
    "Zooey":{
-      "Base":{
+      "BASE":{
          "id":"3040150000",
          "jpname":"\u30be\u30fc\u30a4",
          "name":"Zooey",
@@ -6601,7 +6601,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040150000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040150000_01.png"
       },
-      "Grand":{
+      "GRAND":{
          "id":"3040092000",
          "jpname":"\u30be\u30fc\u30a4",
          "name":"Zooey",
@@ -6629,7 +6629,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040092000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040092000_01.png"
       },
-      "Promo":{
+      "PROMO":{
          "id":"3040078000",
          "jpname":"\u30be\u30fc\u30a4",
          "name":"Zooey",
@@ -6657,8 +6657,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040078000_01.png"
       }
    },
-   "Aqours_First-Years":{
-      "Base":{
+   "Aqours First-Years":{
+      "BASE":{
          "id":"3040184000",
          "jpname":"\u6d25\u5cf6\u5584\u5b50\uff06\u56fd\u6728\u7530\u82b1\u4e38\uff06\u9ed2\u6fa4\u30eb\u30d3\u30a3",
          "name":"Aqours First-Years",
@@ -6688,8 +6688,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040184000_01.png"
       }
    },
-   "Aqours_Second-Years":{
-      "Base":{
+   "Aqours Second-Years":{
+      "BASE":{
          "id":"3040183000",
          "jpname":"\u685c\u5185\u68a8\u5b50\uff06\u9ad8\u6d77\u5343\u6b4c\uff06\u6e21\u8fba \u66dc",
          "name":"Aqours Second-Years",
@@ -6720,8 +6720,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040183000_01.png"
       }
    },
-   "Aqours_Third-Years":{
-      "Base":{
+   "Aqours Third-Years":{
+      "BASE":{
          "id":"3040185000",
          "jpname":"\u677e\u6d66\u679c\u5357\uff06\u9ed2\u6fa4\u30c0\u30a4\u30e4\uff06\u5c0f\u539f\u97a0\u8389",
          "name":"Aqours Third-Years",
@@ -6752,8 +6752,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040185000_01.png"
       }
    },
-   "Bobobo-bo_Bo-bobo":{
-      "Base":{
+   "Bobobo-bo Bo-bobo":{
+      "BASE":{
          "id":"3040331000",
          "jpname":"\u30dc\u30dc\u30dc\u30fc\u30dc\u30fb\u30dc\u30fc\u30dc\u30dc",
          "name":"Bobobo-bo Bo-bobo",
@@ -6783,7 +6783,7 @@
       }
    },
    "Cassius":{
-      "Event_SSR":{
+      "BASE":{
          "id":"3040326000",
          "jpname":"\u30ab\u30b7\u30a6\u30b9",
          "name":"Cassius",
@@ -6812,8 +6812,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040326000_01.png"
       }
    },
-   "Kallen_Kouzuki":{
-      "Base":{
+   "Kallen Kouzuki":{
+      "BASE":{
          "id":"3040221000",
          "jpname":"\u7d05\u6708\u30ab\u30ec\u30f3",
          "name":"Kallen Kouzuki",
@@ -6842,7 +6842,7 @@
       }
    },
    "Karyl":{
-      "Base":{
+      "BASE":{
          "id":"3040216000",
          "jpname":"\u30ad\u30e3\u30eb",
          "name":"Karyl",
@@ -6871,7 +6871,7 @@
       }
    },
    "Kokkoro":{
-      "Base":{
+      "BASE":{
          "id":"3040201000",
          "jpname":"\u30b3\u30c3\u30b3\u30ed",
          "name":"Kokkoro",
@@ -6899,8 +6899,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040201000_01.png"
       }
    },
-   "Lelouch_Lamperouge":{
-      "Base":{
+   "Lelouch Lamperouge":{
+      "BASE":{
          "id":"3040219000",
          "jpname":"\u30eb\u30eb\u30fc\u30b7\u30e5\u30fb\u30e9\u30f3\u30da\u30eb\u30fc\u30b8",
          "name":"Lelouch Lamperouge",
@@ -6930,7 +6930,7 @@
       }
    },
    "Pecorine":{
-      "Base":{
+      "BASE":{
          "id":"3040200000",
          "jpname":"\u30da\u30b3\u30ea\u30fc\u30cc",
          "name":"Pecorine",
@@ -6959,7 +6959,7 @@
       }
    },
    "Sandalphon":{
-      "Event":{
+      "EVENT":{
          "id":"3040153000",
          "jpname":"\u30b5\u30f3\u30c0\u30eb\u30d5\u30a9\u30f3",
          "name":"Sandalphon",
@@ -6987,12 +6987,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040153000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040153000_01.png"
       },
-      "Base":{
+      "BASE":{
          "id":"3040312000",
          "jpname":"\u30b5\u30f3\u30c0\u30eb\u30d5\u30a9\u30f3",
          "name":"Sandalphon",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Special",
@@ -7016,7 +7016,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040312000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040312000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040224000",
          "jpname":"\u30b5\u30f3\u30c0\u30eb\u30d5\u30a9\u30f3",
          "name":"Sandalphon",
@@ -7046,7 +7046,7 @@
       }
    },
    "Seox":{
-      "Event":{
+      "EVENT":{
          "id":"3040262000",
          "jpname":"\u30b7\u30b9",
          "name":"Seox",
@@ -7073,7 +7073,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040262000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040262000_01.png"
       },
-      "Base":{
+      "BASE":{
          "id":"3040035000",
          "jpname":"\u30b7\u30b9",
          "name":"Seox",
@@ -7101,8 +7101,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040035000_01.png"
       }
    },
-   "Suzaku_Kururugi":{
-      "Base":{
+   "Suzaku Kururugi":{
+      "BASE":{
          "id":"3040220000",
          "jpname":"\u67a2\u6728\u30b9\u30b6\u30af",
          "name":"Suzaku Kururugi",
@@ -7131,13 +7131,13 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040220000_01.png"
       }
    },
-   "\u00ce\u0153's_First-Years":{
-      "Base":{
+   "\u00ce\u0153's First-Years":{
+      "BASE":{
          "id":null,
          "jpname":null,
          "name":null,
          "gender":null,
-         "5star":null,
+         "5star":"No",
          "rarity":null,
          "element":null,
          "type":null,
@@ -7156,13 +7156,13 @@
          "image":"ERROR. CONTACT MAI."
       }
    },
-   "\u00ce\u0153's_Second-Years":{
-      "Base":{
+   "\u00ce\u0153's Second-Years":{
+      "BASE":{
          "id":null,
          "jpname":null,
          "name":null,
          "gender":null,
-         "5star":null,
+         "5star":"No",
          "rarity":null,
          "element":null,
          "type":null,
@@ -7181,13 +7181,13 @@
          "image":"ERROR. CONTACT MAI."
       }
    },
-   "\u00ce\u0153's_Third-Years":{
-      "Base":{
+   "\u00ce\u0153's Third-Years":{
+      "BASE":{
          "id":null,
          "jpname":null,
          "name":null,
          "gender":null,
-         "5star":null,
+         "5star":"No",
          "rarity":null,
          "element":null,
          "type":null,
@@ -7207,7 +7207,7 @@
       }
    },
    "Alexiel":{
-      "Base":{
+      "BASE":{
          "id":"3040158000",
          "jpname":"\u30d6\u30ed\u30fc\u30c7\u30a3\u30a2",
          "name":"Alexiel",
@@ -7235,7 +7235,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040158000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040158000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040232000",
          "jpname":"\u30d6\u30ed\u30fc\u30c7\u30a3\u30a2",
          "name":"Alexiel",
@@ -7264,8 +7264,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040232000_01.png"
       }
    },
-   "Black_Knight":{
-      "Base":{
+   "Black Knight":{
+      "BASE":{
          "id":"3040082000",
          "jpname":"\u9ed2\u9a0e\u58eb",
          "name":"Black Knight",
@@ -7323,7 +7323,7 @@
       }
    },
    "Cain":{
-      "Grand":{
+      "BASE":{
          "id":"3040171000",
          "jpname":"\u30ab\u30a4\u30f3",
          "name":"Cain",
@@ -7352,7 +7352,7 @@
       }
    },
    "Eugen":{
-      "Grand":{
+      "BASE":{
          "id":"3040077000",
          "jpname":"\u30aa\u30a4\u30b2\u30f3",
          "name":"Eugen",
@@ -7382,7 +7382,7 @@
       }
    },
    "Europa":{
-      "Base":{
+      "BASE":{
          "id":"3040190000",
          "jpname":"\u30a8\u30a6\u30ed\u30da",
          "name":"Europa",
@@ -7409,7 +7409,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040190000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040190000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040226000",
          "jpname":"\u30a8\u30a6\u30ed\u30da",
          "name":"Europa",
@@ -7437,13 +7437,13 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040226000_01.png"
       }
    },
-   "Golden_Knight":{
-      "Base":{
+   "Golden Knight":{
+      "BASE":{
          "id":"3040297000",
          "jpname":"\u9ec4\u91d1\u306e\u9a0e\u58eb",
          "name":"Golden Knight",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Attack",
@@ -7467,7 +7467,7 @@
       }
    },
    "Grimnir":{
-      "Base":{
+      "BASE":{
          "id":"3040212000",
          "jpname":"\u30b0\u30ea\u30fc\u30e0\u30cb\u30eb",
          "name":"Grimnir",
@@ -7495,7 +7495,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040212000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040212000_01.png"
       },
-      "Valentine":{
+      "VALENTINE":{
          "id":"3040261000",
          "jpname":"\u30b0\u30ea\u30fc\u30e0\u30cb\u30eb",
          "name":"Grimnir",
@@ -7524,8 +7524,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040261000_01.png"
       }
    },
-   "Helel_ben_Shalem":{
-      "Base":{
+   "Helel ben Shalem":{
+      "BASE":{
          "id":"3040251000",
          "jpname":"\u30d8\u30ec\u30eb\u30fb\u30d9\u30f3\u30fb\u30b7\u30e3\u30ec\u30e0",
          "name":"Helel ben Shalem",
@@ -7555,34 +7555,7 @@
       }
    },
    "Io":{
-      "Grand":{
-         "id":"3040065000",
-         "jpname":"\u30a4\u30aa",
-         "name":"Io",
-         "gender":"Female",
-         "5star":"Yes",
-         "rarity":"SSR",
-         "element":"Light",
-         "type":"Balanced",
-         "race":"Human",
-         "va":[
-            "Yukari Tamura"
-         ],
-         "profile":"As she criss-crosses the sky, this apprentice mage recollects her master's words. She is coming into herself like a bud bursting into flower.",
-         "series":[
-            "grand"
-         ],
-         "hp":"1,770",
-         "atk":"7,700",
-         "specialties":[
-            "Staff"
-         ],
-         "weapon":"Gambanteinn",
-         "recruitment":"Premium Gala",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040065000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040065000_01.png"
-      },
-      "Summer":{
+      "SUMMER":{
          "id":"3040015000",
          "jpname":"\u30a4\u30aa",
          "name":"Io",
@@ -7608,37 +7581,37 @@
          "recruitment":"Summer Premium Draw",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040015000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040015000_01.png"
-      }
-   },
-   "Katalina":{
-      "Grand":{
-         "id":"3040054000",
-         "jpname":"\u30ab\u30bf\u30ea\u30ca",
-         "name":"Katalina",
+      },
+      "BASE":{
+         "id":"3040065000",
+         "jpname":"\u30a4\u30aa",
+         "name":"Io",
          "gender":"Female",
          "5star":"Yes",
          "rarity":"SSR",
-         "element":"Water",
+         "element":"Light",
          "type":"Balanced",
          "race":"Human",
          "va":[
-            "Miyuki Sawashiro"
+            "Yukari Tamura"
          ],
-         "profile":"This knight has left the Empire behind her, and now stands opposed to everything she once stood for. Bidding farewell to former allies, she dons the armor of her new role\u2014knight protector. She raises her face to the sky, and swears that she will show her charge that great wide world.",
+         "profile":"As she criss-crosses the sky, this apprentice mage recollects her master's words. She is coming into herself like a bud bursting into flower.",
          "series":[
             "grand"
          ],
-         "hp":"1,980",
-         "atk":"8,100",
+         "hp":"1,770",
+         "atk":"7,700",
          "specialties":[
-            "Sabre"
+            "Staff"
          ],
-         "weapon":"Murgleis",
+         "weapon":"Gambanteinn",
          "recruitment":"Premium Gala",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040054000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040054000_01.png"
-      },
-      "Promo":{
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040065000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040065000_01.png"
+      }
+   },
+   "Katalina":{
+      "PROMO":{
          "id":"3040118000",
          "jpname":"\u30ab\u30bf\u30ea\u30ca",
          "name":"Katalina",
@@ -7664,15 +7637,42 @@
          "recruitment":"Granblue Fantasy: The Animation BD/DVD Vol. 1Siero's Special Pick TicketLinks Pick Ticket",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040118000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040118000_01.png"
+      },
+      "BASE":{
+         "id":"3040054000",
+         "jpname":"\u30ab\u30bf\u30ea\u30ca",
+         "name":"Katalina",
+         "gender":"Female",
+         "5star":"Yes",
+         "rarity":"SSR",
+         "element":"Water",
+         "type":"Balanced",
+         "race":"Human",
+         "va":[
+            "Miyuki Sawashiro"
+         ],
+         "profile":"This knight has left the Empire behind her, and now stands opposed to everything she once stood for. Bidding farewell to former allies, she dons the armor of her new role\u2014knight protector. She raises her face to the sky, and swears that she will show her charge that great wide world.",
+         "series":[
+            "grand"
+         ],
+         "hp":"1,980",
+         "atk":"8,100",
+         "specialties":[
+            "Sabre"
+         ],
+         "weapon":"Murgleis",
+         "recruitment":"Premium Gala",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040054000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040054000_01.png"
       }
    },
    "Leona":{
-      "Grand":{
+      "BASE":{
          "id":"3040285000",
          "jpname":"\u30ec\u30aa\u30ca",
          "name":"Leona",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Attack",
@@ -7696,7 +7696,7 @@
       }
    },
    "Lucio":{
-      "Base":{
+      "BASE":{
          "id":"3040106000",
          "jpname":"\u30eb\u30b7\u30aa",
          "name":"Lucio",
@@ -7724,12 +7724,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040106000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040106000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040286000",
          "jpname":"\u30eb\u30b7\u30aa",
          "name":"Lucio",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Balanced",
@@ -7754,7 +7754,7 @@
       }
    },
    "Monika":{
-      "Grand":{
+      "GRAND":{
          "id":"3040238000",
          "jpname":"\u30e2\u30cb\u30ab",
          "name":"Monika",
@@ -7782,12 +7782,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040238000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040238000_01.png"
       },
-      "Valentine":{
+      "VALENTINE":{
          "id":"3040321000",
          "jpname":"\u30e2\u30cb\u30ab",
          "name":"Monika",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
          "type":"Balanced",
@@ -7810,7 +7810,7 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040321000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040321000_01.png"
       },
-      "Base":{
+      "BASE":{
          "id":"3040186000",
          "jpname":"\u30e2\u30cb\u30ab",
          "name":"Monika",
@@ -7840,7 +7840,7 @@
       }
    },
    "Mugen":{
-      "Base":{
+      "BASE":{
          "id":"3040267000",
          "jpname":"\u30e0\u30b2\u30f3",
          "name":"Mugen",
@@ -7870,7 +7870,7 @@
       }
    },
    "Noa":{
-      "Grand":{
+      "BASE":{
          "id":"3040255000",
          "jpname":"\u30ce\u30a2",
          "name":"Noa",
@@ -7900,7 +7900,7 @@
       }
    },
    "Olivia":{
-      "Base":{
+      "BASE":{
          "id":"3040145000",
          "jpname":"\u30aa\u30ea\u30f4\u30a3\u30a8",
          "name":"Olivia",
@@ -7929,7 +7929,7 @@
       }
    },
    "Orchid":{
-      "Base":{
+      "BASE":{
          "id":"3040111000",
          "jpname":"\u30aa\u30fc\u30ad\u30b9",
          "name":"Orchid",
@@ -7959,7 +7959,7 @@
       }
    },
    "Pholia":{
-      "Base":{
+      "BASE":{
          "id":"3040181000",
          "jpname":"\u30d5\u30a9\u30ea\u30a2",
          "name":"Pholia",
@@ -7990,7 +7990,7 @@
       }
    },
    "Rackam":{
-      "Grand":{
+      "BASE":{
          "id":"3040059000",
          "jpname":"\u30e9\u30ab\u30e0",
          "name":"Rackam",
@@ -8019,7 +8019,7 @@
       }
    },
    "Rei":{
-      "Base":{
+      "BASE":{
          "id":"3040265000",
          "jpname":"\u30ec\u30a4",
          "name":"Rei",
@@ -8049,7 +8049,7 @@
       }
    },
    "Reinhardtzar":{
-      "Grand":{
+      "BASE":{
          "id":"3040274000",
          "jpname":"\u30e9\u30a4\u30f3\u30cf\u30eb\u30b6",
          "name":"Reinhardtzar",
@@ -8078,34 +8078,7 @@
       }
    },
    "Rosetta":{
-      "Grand":{
-         "id":"3040068000",
-         "jpname":"\u30ed\u30bc\u30c3\u30bf",
-         "name":"Rosetta",
-         "gender":"Female",
-         "5star":null,
-         "rarity":"SSR",
-         "element":"Wind",
-         "type":"Special",
-         "race":"Primal",
-         "va":[
-            "Rie Tanaka"
-         ],
-         "profile":"Rosetta smiles cryptically on her journey through the skyways. For each land through which this uniter of past and present passes, the future is made a little brighter.",
-         "series":[
-            "grand"
-         ],
-         "hp":"2,000",
-         "atk":"7,500",
-         "specialties":[
-            "Dagger"
-         ],
-         "weapon":"Love Eternal",
-         "recruitment":"Premium Gala",
-         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040068000_01.jpg",
-         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040068000_01.png"
-      },
-      "Summer":{
+      "SUMMER":{
          "id":"3040176000",
          "jpname":"\u30ed\u30bc\u30c3\u30bf",
          "name":"Rosetta",
@@ -8132,12 +8105,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040176000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040176000_01.png"
       },
-      "Halloween":{
+      "HALLOWEEN":{
          "id":"3040301000",
          "jpname":"\u30ed\u30bc\u30c3\u30bf",
          "name":"Rosetta",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Defense",
@@ -8160,12 +8133,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040301000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040301000_01.png"
       },
-      "Holiday":{
+      "HOLIDAY":{
          "id":"3040026000",
          "jpname":"\u30ed\u30bc\u30c3\u30bf",
          "name":"Rosetta",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Dark",
          "type":"Heal",
@@ -8186,10 +8159,37 @@
          "recruitment":"Holiday Premium Draw",
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040026000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040026000_01.png"
+      },
+      "BASE":{
+         "id":"3040068000",
+         "jpname":"\u30ed\u30bc\u30c3\u30bf",
+         "name":"Rosetta",
+         "gender":"Female",
+         "5star":"No",
+         "rarity":"SSR",
+         "element":"Wind",
+         "type":"Special",
+         "race":"Primal",
+         "va":[
+            "Rie Tanaka"
+         ],
+         "profile":"Rosetta smiles cryptically on her journey through the skyways. For each land through which this uniter of past and present passes, the future is made a little brighter.",
+         "series":[
+            "grand"
+         ],
+         "hp":"2,000",
+         "atk":"7,500",
+         "specialties":[
+            "Dagger"
+         ],
+         "weapon":"Love Eternal",
+         "recruitment":"Premium Gala",
+         "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040068000_01.jpg",
+         "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040068000_01.png"
       }
    },
    "Shiva":{
-      "Base":{
+      "BASE":{
          "id":"3040196000",
          "jpname":"\u30b7\u30f4\u30a1",
          "name":"Shiva",
@@ -8219,7 +8219,7 @@
       }
    },
    "Andira":{
-      "Base":{
+      "BASE":{
          "id":"3040071000",
          "jpname":"\u30a2\u30f3\u30c1\u30e9",
          "name":"Andira",
@@ -8247,12 +8247,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040071000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040071000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040330000",
          "jpname":null,
          "name":"Andira",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Balanced",
@@ -8278,7 +8278,7 @@
       }
    },
    "Anila":{
-      "Base":{
+      "BASE":{
          "id":"3040027000",
          "jpname":"\u30a2\u30cb\u30e9",
          "name":"Anila",
@@ -8306,12 +8306,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040027000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040027000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040288000",
          "jpname":"\u30a2\u30cb\u30e9",
          "name":"Anila",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Special",
@@ -8337,12 +8337,12 @@
       }
    },
    "Catura":{
-      "Base":{
+      "BASE":{
          "id":"3040313000",
          "jpname":"\u30b7\u30e3\u30c8\u30e9",
          "name":"Catura",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Attack",
@@ -8367,7 +8367,7 @@
       }
    },
    "Kumbhira":{
-      "Base":{
+      "BASE":{
          "id":"3040197000",
          "jpname":"\u30af\u30d3\u30e9",
          "name":"Kumbhira",
@@ -8395,12 +8395,12 @@
          "thumbnail":"http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040197000_01.jpg",
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040197000_01.png"
       },
-      "Summer":{
+      "SUMMER":{
          "id":"3040329000",
          "jpname":"\u30af\u30d3\u30e9",
          "name":"Kumbhira",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Fire",
          "type":"Attack",
@@ -8426,7 +8426,7 @@
       }
    },
    "Mahira":{
-      "Base":{
+      "BASE":{
          "id":"3040107000",
          "jpname":"\u30de\u30ad\u30e9",
          "name":"Mahira",
@@ -8456,7 +8456,7 @@
       }
    },
    "Vajra":{
-      "Base":{
+      "BASE":{
          "id":"3040147000",
          "jpname":"\u30f4\u30a1\u30b8\u30e9",
          "name":"Vajra",
@@ -8486,7 +8486,7 @@
       }
    },
    "Vikala":{
-      "Base":{
+      "BASE":{
          "id":"3040252000",
          "jpname":"\u30d3\u30ab\u30e9",
          "name":"Vikala",
@@ -8516,7 +8516,7 @@
       }
    },
    "Halluel":{
-      "DUO":{
+      "BASE":{
          "id":"3040223000",
          "jpname":"\u30cf\u30fc\u30eb\u30fc\u30c8\u30fb\u30de\u30fc\u30eb\u30fc\u30c8",
          "name":"Halluel and Malluel",
@@ -8544,8 +8544,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040223000_01.png"
       }
    },
-   "Malluel_(Summer)":{
-      "DUO":{
+   "Malluel (Summer)":{
+      "BASE":{
          "id":"3040223000",
          "jpname":"\u30cf\u30fc\u30eb\u30fc\u30c8\u30fb\u30de\u30fc\u30eb\u30fc\u30c8",
          "name":"Halluel and Malluel",
@@ -8574,7 +8574,7 @@
       }
    },
    "Jessica":{
-      "Yukata":{
+      "BASE":{
          "id":"3040227000",
          "jpname":"\u30b8\u30a7\u30b7\u30ab",
          "name":"Jessica",
@@ -8603,12 +8603,12 @@
       }
    },
    "Mimlemel":{
-      "Summer":{
+      "BASE":{
          "id":"3040292000",
          "jpname":"\u30df\u30e0\u30eb\u30e1\u30e2\u30eb",
          "name":"Mimlemel",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Fire",
          "type":"Special",
@@ -8633,7 +8633,7 @@
       }
    },
    "Teena":{
-      "Summer":{
+      "BASE":{
          "id":"3040266000",
          "jpname":"\u30c6\u30a3\u30ca",
          "name":"Teena",
@@ -8661,12 +8661,12 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040266000_01.png"
       }
    },
-   "Vaseraga_(Halloween)":{
-      "DUO":{
+   "Vaseraga (Halloween)":{
+      "BASE":{
          "id":"3040239000",
          "jpname":"\u771f\u7d05\u3068\u51a5\u95c7 \u30bc\u30bf\uff06\u30d0\u30b6\u30e9\u30ac",
          "name":"Zeta and Vaseraga",
-         "gender":"undefined: tell Mai who this is",
+         "gender":"Male/Female",
          "5star":"No",
          "rarity":"SSR",
          "element":"Earth",
@@ -8693,7 +8693,7 @@
       }
    },
    "Mary":{
-      "Holiday":{
+      "BASE":{
          "id":"3040143000",
          "jpname":"\u30de\u30ea\u30fc",
          "name":"Mary",
@@ -8722,7 +8722,7 @@
       }
    },
    "Meteon":{
-      "Holiday":{
+      "BASE":{
          "id":"3040246000",
          "jpname":"\u30df\u30e5\u30aa\u30f3",
          "name":"Meteon",
@@ -8752,12 +8752,12 @@
       }
    },
    "Mirin":{
-      "Holiday":{
+      "BASE":{
          "id":"3040307000",
          "jpname":"\u30df\u30ea\u30f3",
          "name":"Mirin",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Balanced",
@@ -8781,7 +8781,7 @@
       }
    },
    "Christina":{
-      "Base":{
+      "BASE":{
          "id":"3040018000",
          "jpname":"\u30af\u30ea\u30b9\u30c6\u30a3\u30fc\u30ca",
          "name":"Christina",
@@ -8810,8 +8810,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040018000_01.png"
       }
    },
-   "Conan_Edogawa":{
-      "Base":{
+   "Conan Edogawa":{
+      "BASE":{
          "id":"3040157000",
          "jpname":"\u6c5f\u6238\u5ddd\u30b3\u30ca\u30f3",
          "name":"Conan Edogawa",
@@ -8840,8 +8840,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040157000_01.png"
       }
    },
-   "Cure_Black":{
-      "DUO":{
+   "Cure Black":{
+      "BASE":{
          "id":"3040188000",
          "jpname":"\u30d7\u30ea\u30ad\u30e5\u30a2 \u30ad\u30e5\u30a2\u30d6\u30e9\u30c3\u30af\uff06\u30ad\u30e5\u30a2\u30db\u30ef\u30a4\u30c8",
          "name":"Cure Black and Cure White",
@@ -8870,8 +8870,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040188000_01.png"
       }
    },
-   "Cure_White":{
-      "DUO":{
+   "Cure White":{
+      "BASE":{
          "id":"3040188000",
          "jpname":"\u30d7\u30ea\u30ad\u30e5\u30a2 \u30ad\u30e5\u30a2\u30d6\u30e9\u30c3\u30af\uff06\u30ad\u30e5\u30a2\u30db\u30ef\u30a4\u30c8",
          "name":"Cure Black and Cure White",
@@ -8901,7 +8901,7 @@
       }
    },
    "Gachapin":{
-      "Base":{
+      "BASE":{
          "id":"3040248000",
          "jpname":"\u30ac\u30c1\u30e3\u30d4\u30f3",
          "name":"Gachapin",
@@ -8928,13 +8928,13 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040248000_01.png"
       }
    },
-   "Hiro_Ryugasaki":{
-      "Base":{
+   "Hiro Ryugasaki":{
+      "BASE":{
          "id":"3040294000",
          "jpname":"\u7adc\u30f6\u5d0e\u30d2\u30a4\u30ed",
          "name":"Hiro Ryugasaki",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Fire",
          "type":"Attack",
@@ -8958,7 +8958,7 @@
       }
    },
    "Joker":{
-      "Base":{
+      "BASE":{
          "id":"3040173000",
          "jpname":"\u30b8\u30e7\u30fc\u30ab\u30fc",
          "name":"Joker",
@@ -8987,8 +8987,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040173000_01.png"
       }
    },
-   "Kaede_Takagaki":{
-      "Base":{
+   "Kaede Takagaki":{
+      "BASE":{
          "id":"3040276000",
          "jpname":"\u9ad8\u57a3\u6953",
          "name":"Kaede Takagaki",
@@ -9017,13 +9017,13 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040276000_01.png"
       }
    },
-   "Kyojuro_Rengoku":{
-      "Base":{
+   "Kyojuro Rengoku":{
+      "BASE":{
          "id":"3040309000",
          "jpname":"\u7149\u7344\u674f\u5bff\u90ce",
          "name":"Kyojuro Rengoku",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Fire",
          "type":"Attack",
@@ -9047,7 +9047,7 @@
       }
    },
    "Levi":{
-      "Base":{
+      "BASE":{
          "id":"3040142000",
          "jpname":"\u30ea\u30f4\u30a1\u30a4",
          "name":"Levi",
@@ -9076,8 +9076,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040142000_01.png"
       }
    },
-   "Mikazuki_Munechika":{
-      "Base":{
+   "Mikazuki Munechika":{
+      "BASE":{
          "id":"3040131000",
          "jpname":"\u4e09\u65e5\u6708\u5b97\u8fd1",
          "name":"Mikazuki Munechika",
@@ -9105,13 +9105,13 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040131000_01.png"
       }
    },
-   "Mimori_Amamiya":{
-      "Base":{
+   "Mimori Amamiya":{
+      "BASE":{
          "id":"3040295000",
          "jpname":"\u5929\u5bae\u30df\u30e2\u30ea",
          "name":"Mimori Amamiya",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Balanced",
@@ -9134,8 +9134,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040295000_01.png"
       }
    },
-   "New_Generations":{
-      "Base":{
+   "New Generations":{
+      "BASE":{
          "id":"3040275000",
          "jpname":"\u6e0b\u8c37\u51db\uff06\u5cf6\u6751\u536f\u6708\uff06\u672c\u7530\u672a\u592e",
          "name":"New Generations",
@@ -9166,8 +9166,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040275000_01.png"
       }
    },
-   "Sakura_Kinomoto":{
-      "Base":{
+   "Sakura Kinomoto":{
+      "BASE":{
          "id":"3040136000",
          "jpname":"\u6728\u4e4b\u672c\u685c",
          "name":"Sakura Kinomoto",
@@ -9195,13 +9195,13 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040136000_01.png"
       }
    },
-   "Shinobu_Kocho":{
-      "Base":{
+   "Shinobu Kocho":{
+      "BASE":{
          "id":"3040310000",
          "jpname":"\u80e1\u8776\u3057\u306e\u3076",
          "name":"Shinobu Kocho",
          "gender":"Female",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Wind",
          "type":"Heal",
@@ -9224,13 +9224,13 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040310000_01.png"
       }
    },
-   "Tanjiro,_Nezuko,_Zenitsu,":{
-      "DUO":{
+   "Tanjiro, Nezuko, Zenitsu,":{
+      "BASE":{
          "id":"3040308000",
          "jpname":"\u7ac8\u9580\u70ad\u6cbb\u90ce\uff06\u7ac8\u9580\u79b0\u8c46\u5b50\uff06\u6211\u59bb\u5584\u9038\uff06\u5634\u5e73\u4f0a\u4e4b\u52a9",
          "name":"Tanjiro, Nezuko, Zenitsu, and Inosuke",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Balanced",
@@ -9257,12 +9257,12 @@
       }
    },
    "Inosuke":{
-      "DUO":{
+      "BASE":{
          "id":"3040308000",
          "jpname":"\u7ac8\u9580\u70ad\u6cbb\u90ce\uff06\u7ac8\u9580\u79b0\u8c46\u5b50\uff06\u6211\u59bb\u5584\u9038\uff06\u5634\u5e73\u4f0a\u4e4b\u52a9",
          "name":"Tanjiro, Nezuko, Zenitsu, and Inosuke",
          "gender":"Male",
-         "5star":null,
+         "5star":"No",
          "rarity":"SSR",
          "element":"Water",
          "type":"Balanced",
@@ -9289,7 +9289,7 @@
       }
    },
    "Orchis":{
-      "DUO":{
+      "BASE":{
          "id":"3040270000",
          "jpname":"\u30a8\u30eb\u30b9\u30c6\u306e\u8981 \u9ed2\u9a0e\u58eb&\u30aa\u30eb\u30ad\u30b9",
          "name":"Black Knight and Orchis",
@@ -9318,8 +9318,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040270000_01.png"
       }
    },
-   "Charioce_XVII":{
-      "Base":{
+   "Charioce XVII":{
+      "BASE":{
          "id":"3040144000",
          "jpname":"\u30b7\u30e3\u30ea\u30aa\u30b917\u4e16",
          "name":"Charioce XVII",
@@ -9347,8 +9347,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040144000_01.png"
       }
    },
-   "Nina_Drango":{
-      "Base":{
+   "Nina Drango":{
+      "BASE":{
          "id":"3040133000",
          "jpname":"\u30cb\u30fc\u30ca\u30fb\u30c9\u30e9\u30f3\u30b4",
          "name":"Nina Drango",
@@ -9377,7 +9377,7 @@
       }
    },
    "Anre":{
-      "Base":{
+      "BASE":{
          "id":"3040030000",
          "jpname":"\u30a6\u30fc\u30ce",
          "name":"Anre",
@@ -9406,7 +9406,7 @@
       }
    },
    "Eahta":{
-      "Base":{
+      "BASE":{
          "id":"3040037000",
          "jpname":"\u30aa\u30af\u30c8\u30fc",
          "name":"Eahta",
@@ -9435,7 +9435,7 @@
       }
    },
    "Feower":{
-      "Base":{
+      "BASE":{
          "id":"3040033000",
          "jpname":"\u30ab\u30c8\u30eb",
          "name":"Feower",
@@ -9464,7 +9464,7 @@
       }
    },
    "Fif":{
-      "Base":{
+      "BASE":{
          "id":"3040034000",
          "jpname":"\u30d5\u30e5\u30f3\u30d5",
          "name":"Fif",
@@ -9493,7 +9493,7 @@
       }
    },
    "Niyon":{
-      "Base":{
+      "BASE":{
          "id":"3040038000",
          "jpname":"\u30cb\u30aa",
          "name":"Niyon",
@@ -9522,7 +9522,7 @@
       }
    },
    "Seofon":{
-      "Base":{
+      "BASE":{
          "id":"3040036000",
          "jpname":"\u30b7\u30a8\u30c6",
          "name":"Seofon",
@@ -9551,7 +9551,7 @@
       }
    },
    "Threo":{
-      "Base":{
+      "BASE":{
          "id":"3040032000",
          "jpname":"\u30b5\u30e9\u30fc\u30b5",
          "name":"Threo",
@@ -9581,7 +9581,7 @@
       }
    },
    "Tien":{
-      "Base":{
+      "BASE":{
          "id":"3040039000",
          "jpname":"\u30a8\u30c3\u30bb\u30eb",
          "name":"Tien",
@@ -9610,7 +9610,7 @@
       }
    },
    "Tweyen":{
-      "Base":{
+      "BASE":{
          "id":"3040031000",
          "jpname":"\u30bd\u30fc\u30f3",
          "name":"Tweyen",
@@ -9639,7 +9639,7 @@
       }
    },
    "Alanaan":{
-      "Base":{
+      "BASE":{
          "id":"3040167000",
          "jpname":"\u30a2\u30e9\u30ca\u30f3",
          "name":"Alanaan",
@@ -9668,7 +9668,7 @@
       }
    },
    "Caim":{
-      "Base":{
+      "BASE":{
          "id":"3040164000",
          "jpname":"\u30ab\u30a4\u30e0",
          "name":"Caim",
@@ -9698,7 +9698,7 @@
       }
    },
    "Estarriola":{
-      "Base":{
+      "BASE":{
          "id":"3040163000",
          "jpname":"\u30a8\u30b9\u30bf\u30ea\u30aa\u30e9",
          "name":"Estarriola",
@@ -9727,7 +9727,7 @@
       }
    },
    "Fraux":{
-      "Base":{
+      "BASE":{
          "id":"3040161000",
          "jpname":"\u30d5\u30e9\u30a6",
          "name":"Fraux",
@@ -9756,7 +9756,7 @@
       }
    },
    "Geisenborger":{
-      "Base":{
+      "BASE":{
          "id":"3040162000",
          "jpname":"\u30ac\u30a4\u30bc\u30f3\u30dc\u30fc\u30ac",
          "name":"Geisenborger",
@@ -9785,7 +9785,7 @@
       }
    },
    "Haaselia":{
-      "Base":{
+      "BASE":{
          "id":"3040168000",
          "jpname":"\u30cf\u30fc\u30bc\u30ea\u30fc\u30e9",
          "name":"Haaselia",
@@ -9815,7 +9815,7 @@
       }
    },
    "Katzelia":{
-      "Base":{
+      "BASE":{
          "id":"3040166000",
          "jpname":"\u30ab\u30c3\u30c4\u30a7\u30ea\u30fc\u30e9",
          "name":"Katzelia",
@@ -9844,7 +9844,7 @@
       }
    },
    "Lobelia":{
-      "Base":{
+      "BASE":{
          "id":"3040165000",
          "jpname":"\u30ed\u30d9\u30ea\u30a2",
          "name":"Lobelia",
@@ -9873,8 +9873,8 @@
          "image":"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040165000_01.png"
       }
    },
-   "Maria_Theresa":{
-      "Base":{
+   "Maria Theresa":{
+      "BASE":{
          "id":"3040160000",
          "jpname":"\u30de\u30ea\u30a2\u30fb\u30c6\u30ec\u30b5",
          "name":"Maria Theresa",
@@ -9904,7 +9904,7 @@
       }
    },
    "Nier":{
-      "Base":{
+      "BASE":{
          "id":"3040169000",
          "jpname":"\u30cb\u30fc\u30a2",
          "name":"Nier",
