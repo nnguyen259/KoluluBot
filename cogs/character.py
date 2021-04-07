@@ -1,4 +1,4 @@
-import discord, json, DiscordUtils
+import discord, json, DiscordUtils, traceback
 from discord.ext import commands
 
 class Character(commands.Cog):
@@ -19,31 +19,22 @@ class Character(commands.Cog):
     async def on_ready(self):
         print('Character module is ready.')
 
-    @commands.Cog.listener()
-    async def on_command_error(self, ctx, error):
-        await ctx.send(f'Something went wrong.\nError: {error}')
-
     @commands.command()
     async def char(self, ctx, name : str, version=None):
         name = name.lower()
+        if version:
+            version = version.upper()
         if name in self.chars:
             char = self.chars[name]
             charVersion = None
-            if not version:
-                charVersion = self.chars[name]['versions'][0]
+            if not version or version not in char:
+                version = 'BASE'
+                charVersion = char['BASE']
             else:
-                for alt in self.chars[name]['versions']:
-                    if alt['name'].lower() == version.lower():
-                        charVersion = alt
-                        break
-            if not charVersion:
-                charVersion = self.chars[name]['versions'][0]
-                        
-            version = charVersion['name']
-            charOugi = self.ougis[name][version]
-            charSkill = self.skills[name][version]
-            charSupport = self.supportSkills[name][version]
+                charVersion = char[version]
+            
             name = name.title()
+            version = version.title()
 
             title = f'{self.emojis["Rarity"][charVersion["rarity"]]} **{name} ({version})**'
 
@@ -51,46 +42,22 @@ class Character(commands.Cog):
             for specialty in charVersion['specialties']:
                 title += f'{self.emojis["Specialty"][specialty]} **{specialty}** '
 
-            description = f'{self.emojis["Gender"][char["gender"]]} **{char["gender"]}** {self.emojis["Race"][charVersion["race"]]} **{charVersion["race"]}**'
+            description = f'{self.emojis["Gender"][charVersion["gender"]]} **{charVersion["gender"]}** {self.emojis["Race"][charVersion["race"]]} **{charVersion["race"]}**'
             description += f'\n{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* \n{self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
 
-            ougi = ''
-            for ougiText in charOugi['text']:
-                ougi += ougiText + '\n'
+            profile = f'{charVersion["profile"]}'
+            misc = f'JP Name: {charVersion["jpname"]} \nVA: {charVersion["va"]}'
 
             embedList = []
 
             mainEmbed = discord.Embed()
             mainEmbed.title = title
             mainEmbed.description = description
+            mainEmbed.add_field(name='Profile', value=profile, inline=False)
+            mainEmbed.add_field(name='Misc.', value=misc, inline=False)
             mainEmbed.set_thumbnail(url=charVersion['thumbnail'])
             mainEmbed.set_image(url=charVersion['image'])
-            mainEmbed.add_field(name=f'Charge Attack: {charOugi["name"]}', value=ougi, inline=False)
             embedList.append(mainEmbed)
-
-            for skill in charSkill:
-                skillEmbed = discord.Embed()
-                skillText = ''
-                for text in skill['text']:
-                    skillText += text + '\n'
-                skillName = f'{self.emojis["Skill"][skill["type"]]} {skill["name"]} ({skill["cooldown"]}T)'
-                skillEmbed.title = skillName
-                skillEmbed.description = skillText
-                skillEmbed.set_image(url=charVersion['image'])
-                skillEmbed.set_thumbnail(url=skill['thumbnail'])
-                embedList.append(skillEmbed)
-
-            for skill in charSupport:
-                skillEmbed = discord.Embed()
-                skillText = ''
-                for text in skill['text']:
-                    skillText += text + '\n'
-                skillName = f'{skill["name"]}'
-                skillEmbed.title = skillName
-                skillEmbed.description = skillText
-                skillEmbed.set_image(url=charVersion['image'])
-                skillEmbed.set_thumbnail(url=skill['thumbnail'])
-                embedList.append(skillEmbed)
 
 
             paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
@@ -103,6 +70,11 @@ class Character(commands.Cog):
             await paginator.run(embedList)
         else:
             await ctx.send('Character not found!')
+    
+    @char.error
+    async def char_error(self, ctx, error):
+        print(traceback.format_exc())
+        await ctx.send(f'Something went wrong.\nError: {error}')
 
 def setup(client):
     client.add_cog(Character(client))
