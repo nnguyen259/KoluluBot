@@ -53,5 +53,18 @@
         "Debuff" : "<:element_water:828258246690734142>",
         "Attack" : "<:element_fire:828259315190202401>",
         "Heal" : "<:element_wind:828258247051444224>"
+    },
+    "Series" : {
+        "12generals" : "<:series_12_generals:829048165050744843>",
+        "eternals" : "<:series_eternals:829048165629427722>",
+        "evokers" : "<:series_evokers:829048165495603211>",
+        "fantasy" : "<:series_fantasy:829048165508317205>",
+        "grand" : "<:series_grand:829048165905727488>",
+        "halloween" : "<:series_halloweeen:829048166087000072>",
+        "holiday" : "<:series_holiday:829048166232883271>",
+        "summer" : "<:series_summer:829048166007439361>",
+        "yukata" : "<:series_yukata:829048166804094996>",
+        "tie-in" : "<:series_tie_in:829048166489653248>",
+        "valentine" : "<:series_valentine:829048166590578729>",
     }
 }
