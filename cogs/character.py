@@ -37,24 +37,25 @@ class Character(commands.Cog):
             version = version.title()
 
             title = f'{self.emojis["Rarity"][charVersion["rarity"]]} **{name} ({version})**'
+            description = f'**JP**: {charVersion["jpname"]}\n'
+            description += f'**VA**: {", ".join(charVersion["va"])}'
 
-            title += f'\n{self.emojis["Element"][charVersion["element"]]} **{charVersion["element"]}** {self.emojis["Type"][charVersion["type"]]} **{charVersion["type"]}**\n'
+            information = f'\n{self.emojis["Element"][charVersion["element"]]} **{charVersion["element"]}** {self.emojis["Type"][charVersion["type"]]} **{charVersion["type"]}**\n'
             for specialty in charVersion['specialties']:
-                title += f'{self.emojis["Specialty"][specialty]} **{specialty}** '
+                information += f'{self.emojis["Specialty"][specialty]} **{specialty}**  '
 
-            description = f'{self.emojis["Gender"][charVersion["gender"]]} **{charVersion["gender"]}** {self.emojis["Race"][charVersion["race"]]} **{charVersion["race"]}**'
-            description += f'\n{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* \n{self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
+            information += f'\n{self.emojis["Gender"][charVersion["gender"]]} **{charVersion["gender"]}** {self.emojis["Race"][charVersion["race"]]} **{charVersion["race"]}** \n'
+            information += f'{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* {self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
 
             profile = f'{charVersion["profile"]}'
-            misc = f'JP Name: {charVersion["jpname"]} \nVA: {charVersion["va"]}'
 
             embedList = []
 
             mainEmbed = discord.Embed()
             mainEmbed.title = title
             mainEmbed.description = description
+            mainEmbed.add_field(name='Basic Info.', value=information, inline=False)
             mainEmbed.add_field(name='Profile', value=profile, inline=False)
-            mainEmbed.add_field(name='Misc.', value=misc, inline=False)
             mainEmbed.set_thumbnail(url=charVersion['thumbnail'])
             mainEmbed.set_image(url=charVersion['image'])
             embedList.append(mainEmbed)
