@@ -396,7 +396,7 @@
         ]
     },
     "Baotorda": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Heavenly Retribution",
                 "text": [
@@ -524,7 +524,7 @@
         ]
     },
     "Cain": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Taiji Takedown",
                 "text": [
@@ -544,7 +544,7 @@
         ]
     },
     "Cassius": {
-        "EVENT_SSR": [
+        "BASE": [
             {
                 "name": "Lunar Eclipse",
                 "text": [
@@ -692,7 +692,7 @@
         ]
     },
     "Claudia": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Dorothy:Grim Flame",
                 "text": [
@@ -734,7 +734,7 @@
         ]
     },
     "Cucouroux": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Bombard Blitz",
                 "text": [
@@ -744,7 +744,7 @@
         ]
     },
     "Cure Black": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Pretty Cure Marble Screw",
                 "text": [
@@ -754,7 +754,7 @@
         ]
     },
     "Cure White": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Pretty Cure Marble Screw",
                 "text": [
@@ -764,7 +764,7 @@
         ]
     },
     "Dante": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Capricieux Avalanche",
                 "text": [
@@ -774,19 +774,19 @@
         ]
     },
     "Danua": {
+        "BASE": [
+            {
+                "name": "Puppet Sheol",
+                "text": [
+                    "  Light damage to a foe.Inflict [Status Petrified 3.png] **Petrified**. "
+                ]
+            }
+        ],
         "HALLOWEEN": [
             {
                 "name": "Grand Guignol",
                 "text": [
                     "  Fire damage to a foe. Inflict [Status DebuffResDown.png] **5% Debuff Res. Down (Stack / Max: 30%)**. "
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "name": "Puppet Sheol",
-                "text": [
-                    "  Light damage to a foe.Inflict [Status Petrified 3.png] **Petrified**. "
                 ]
             }
         ],
@@ -850,7 +850,7 @@
         ]
     },
     "Dorothy": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Dorothy:Grim Flame",
                 "text": [
@@ -916,7 +916,7 @@
         ]
     },
     "Eugen": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Die Jaegerkanone",
                 "text": [
@@ -976,7 +976,7 @@
         ]
     },
     "Farrah": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Rending Twin Blades",
                 "text": [
@@ -986,7 +986,7 @@
         ]
     },
     "Feather": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Raging Blast Knuckle",
                 "text": [
@@ -1028,19 +1028,19 @@
         ]
     },
     "Ferry": {
+        "BASE": [
+            {
+                "name": "Aetheryte Onslaught",
+                "text": [
+                    " Massive Light damage to a foe. "
+                ]
+            }
+        ],
         "GRAND": [
             {
                 "name": "Aetheryte Requiescat",
                 "text": [
                     " Massive Dark damage to a foe.All allies gain [Status DarkAtkUp.png] **30% Dark ATK Up** and [Status DoubleUp.png] **30% DA Up**. "
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "name": "Aetheryte Onslaught",
-                "text": [
-                    " Massive Light damage to a foe. "
                 ]
             }
         ]
@@ -1128,7 +1128,7 @@
         ]
     },
     "Freiheit": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Capricieux Avalanche",
                 "text": [
@@ -1278,7 +1278,7 @@
         ]
     },
     "Halluel": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Pain Eternal",
                 "text": [
@@ -1324,7 +1324,7 @@
         ]
     },
     "Herja": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Mercenary Blade",
                 "text": [
@@ -1380,7 +1380,7 @@
         ]
     },
     "Inosuke": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Hinokami Kagura Dance",
                 "text": [
@@ -1390,7 +1390,7 @@
         ]
     },
     "Io": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Crystal Gust",
                 "text": [
@@ -1488,7 +1488,7 @@
         ]
     },
     "Jessica": {
-        "YUKATA": [
+        "BASE": [
             {
                 "name": "Bluehendes Licht",
                 "text": [
@@ -1536,7 +1536,7 @@
         ]
     },
     "Juri": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Rending Twin Blades",
                 "text": [
@@ -1576,7 +1576,7 @@
         ]
     },
     "Katalina": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Blades of Diamond",
                 "text": [
@@ -1694,7 +1694,7 @@
         ]
     },
     "Ladiva": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Love-Serving Bomb",
                 "text": [
@@ -1728,7 +1728,7 @@
         ]
     },
     "Lady Katapillar": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Rocket Punch",
                 "text": [
@@ -1738,7 +1738,7 @@
         ]
     },
     "Lamretta": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Lam Goes Wham",
                 "text": [
@@ -1780,7 +1780,7 @@
         ]
     },
     "Lecia": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Twilight Blade",
                 "text": [
@@ -1830,7 +1830,7 @@
         ]
     },
     "Leona": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Lion's Maw",
                 "text": [
@@ -1922,7 +1922,7 @@
         ]
     },
     "Lucius": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Severing Swordsweep",
                 "text": [
@@ -1932,7 +1932,7 @@
         ]
     },
     "Lunalu": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Cataclysmic Storybook",
                 "text": [
@@ -1992,7 +1992,7 @@
         ]
     },
     "Malinda": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Drakenadem",
                 "text": [
@@ -2002,7 +2002,7 @@
         ]
     },
     "Malluel (Summer)": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Pain Eternal",
                 "text": [
@@ -2032,7 +2032,7 @@
         ]
     },
     "Mary": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "name": "Holy Star",
                 "text": [
@@ -2102,7 +2102,7 @@
         ]
     },
     "Meteon": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "name": "Sonic Celebration",
                 "text": [
@@ -2154,7 +2154,7 @@
         ]
     },
     "Milleore": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Velos Storm",
                 "text": [
@@ -2164,7 +2164,7 @@
         ]
     },
     "Mimlemel": {
-        "SUMMER": [
+        "BASE": [
             {
                 "name": "????",
                 "text": [
@@ -2184,7 +2184,7 @@
         ]
     },
     "Mireille": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Expiation",
                 "text": [
@@ -2194,7 +2194,7 @@
         ]
     },
     "Mirin": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "name": "Winter Winds, Rimy Conquest",
                 "text": [
@@ -2204,7 +2204,7 @@
         ]
     },
     "Mishra": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Rune Sylphate",
                 "text": [
@@ -2448,7 +2448,7 @@
         ]
     },
     "Noa": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Sacred Globe",
                 "text": [
@@ -2484,7 +2484,7 @@
         ]
     },
     "Orchis": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Obsidian Moonlight",
                 "text": [
@@ -2504,7 +2504,7 @@
         ]
     },
     "Pengy": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Ultimate Colorful Special",
                 "text": [
@@ -2546,7 +2546,7 @@
         ]
     },
     "Petra": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Oblivion of the Winds",
                 "text": [
@@ -2566,7 +2566,7 @@
         ]
     },
     "Predator": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Thousand Claws",
                 "text": [
@@ -2576,7 +2576,7 @@
         ]
     },
     "Rackam": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Demolishing Drive",
                 "text": [
@@ -2612,7 +2612,7 @@
         ]
     },
     "Reinhardtzar": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Infernal Ignition",
                 "text": [
@@ -2622,7 +2622,7 @@
         ]
     },
     "Renie": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Hollow Blast",
                 "text": [
@@ -2632,7 +2632,7 @@
         ]
     },
     "Risette": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Expiation",
                 "text": [
@@ -2668,7 +2668,7 @@
         ]
     },
     "Rosamia": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Talismancy: Void Strike",
                 "text": [
@@ -2686,7 +2686,7 @@
         ]
     },
     "Rosetta": {
-        "GRAND": [
+        "BASE": [
             {
                 "name": "Endless Rose",
                 "text": [
@@ -2720,7 +2720,7 @@
         ]
     },
     "Sahli Lao": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Velos Storm",
                 "text": [
@@ -2858,7 +2858,7 @@
         ]
     },
     "Sen": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Kitty-Cat Hurricane Slash",
                 "text": [
@@ -3084,7 +3084,7 @@
         ]
     },
     "Soriz": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Tectonic Rush",
                 "text": [
@@ -3100,7 +3100,7 @@
         ]
     },
     "Stan": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Flaming Tempest",
                 "text": [
@@ -3128,7 +3128,7 @@
         ]
     },
     "Sutera": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Piercing Wind Shear",
                 "text": [
@@ -3158,7 +3158,7 @@
         ]
     },
     "Tanjiro, Nezuko, Zenitsu,": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Hinokami Kagura Dance",
                 "text": [
@@ -3168,7 +3168,7 @@
         ]
     },
     "Tanya": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Raven's Shadow",
                 "text": [
@@ -3178,7 +3178,7 @@
         ]
     },
     "Teena": {
-        "SUMMER": [
+        "BASE": [
             {
                 "name": "Lambent Flame",
                 "text": [
@@ -3188,7 +3188,7 @@
         ]
     },
     "Therese": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Maelstrom Blaze",
                 "text": [
@@ -3318,15 +3318,7 @@
         ]
     },
     "Vane": {
-        "DUO": [
-            {
-                "name": "Zwei Fluegel",
-                "text": [
-                    " Massive Fire damage to a foe.Activate Weiss Drachen. "
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "name": "Loewenbein: Jagd",
                 "text": [
@@ -3337,6 +3329,14 @@
                 "name": "After 5\u2605:Loewenbein: Jagd ++",
                 "text": [
                     " 450% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**.  500% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**.Gain [Status 4038.png] **Double Beat**. (Next Heroic Beat activates twice.) "
+                ]
+            }
+        ],
+        "DUO": [
+            {
+                "name": "Zwei Fluegel",
+                "text": [
+                    " Massive Fire damage to a foe.Activate Weiss Drachen. "
                 ]
             }
         ]
@@ -3398,7 +3398,7 @@
         ]
     },
     "Vaseraga (Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Abyssal Wall",
                 "text": [
@@ -3446,6 +3446,26 @@
         ]
     },
     "Vira": {
+        "BASE": [
+            {
+                "name": "Overpower",
+                "text": [
+                    "  Dark damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Overpower ++",
+                "text": [
+                    "  Dark damage to a foe.   Dark damage to a foe. "
+                ]
+            },
+            {
+                "name": "Luminiera Merge:Affection Abyss",
+                "text": [
+                    "  Dark damage to a foe.   Dark damage to a foe.  500% Dark damage to a foe (Damage cap: ~1,685,000) and; 250% Light damage to a foe (Damage cap: ~350,000).1-turn cut to Vira's skill cooldowns. "
+                ]
+            }
+        ],
         "DUO": [
             {
                 "name": "Rocket Punch",
@@ -3470,26 +3490,6 @@
                 ]
             }
         ],
-        "SSR": [
-            {
-                "name": "Overpower",
-                "text": [
-                    "  Dark damage to a foe. "
-                ]
-            },
-            {
-                "name": "After 5\u2605:Overpower ++",
-                "text": [
-                    "  Dark damage to a foe.   Dark damage to a foe. "
-                ]
-            },
-            {
-                "name": "Luminiera Merge:Affection Abyss",
-                "text": [
-                    "  Dark damage to a foe.   Dark damage to a foe.  500% Dark damage to a foe (Damage cap: ~1,685,000) and; 250% Light damage to a foe (Damage cap: ~350,000).1-turn cut to Vira's skill cooldowns. "
-                ]
-            }
-        ],
         "SUMMER": [
             {
                 "name": "Frantic Thrust",
@@ -3508,7 +3508,7 @@
         ]
     },
     "Wulf": {
-        "DUO": [
+        "BASE": [
             {
                 "name": "Hollow Blast",
                 "text": [
@@ -3556,7 +3556,7 @@
         ]
     },
     "Yodarha": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Ultimate Flash",
                 "text": [
@@ -3650,7 +3650,7 @@
         ]
     },
     "Zehek": {
-        "SSR": [
+        "BASE": [
             {
                 "name": "Valiant Edge",
                 "text": [
