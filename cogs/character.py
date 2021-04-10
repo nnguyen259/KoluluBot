@@ -41,18 +41,22 @@ class Character(commands.Cog):
             for series in charVersion['series']:
                 title += f'{self.emojis["Series"][series]}'
             if (version != 'Base'):
-                title +=f'**{name} ({version})**'
+                title +=f'**{charVersion["name"]} ({version})**'
             else:
-                title +=f'**{name}**'
+                title +=f'**{charVersion["name"]}**'
             description = f'**JP**: {charVersion["jpname"]}\n'
             description += f'**VA**: {", ".join(charVersion["va"])}'
 
             information = f'\n{self.emojis["Element"][charVersion["element"]]} **{charVersion["element"]}** {self.emojis["Type"][charVersion["type"]]} **{charVersion["type"]}**\n'
             for specialty in charVersion['specialties']:
                 information += f'{self.emojis["Specialty"][specialty]} **{specialty}**  '
-
-            information += f'\n{self.emojis["Gender"][charVersion["gender"]]} **{charVersion["gender"]}** {self.emojis["Race"][charVersion["race"]]} **{charVersion["race"]}** \n'
-            information += f'{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* {self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
+            information += '\n'
+            for gender in charVersion['gender']:
+                information += f'{self.emojis["Gender"][gender]} **{gender}**  '
+            information += '\n'
+            for race in charVersion['race']:
+                information += f'{self.emojis["Race"][race]} **{race}**  '
+            information += f'\n{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* {self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
 
             profile = f'{charVersion["profile"]}'
 
