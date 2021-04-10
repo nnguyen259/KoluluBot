@@ -35,7 +35,12 @@ class Character(commands.Cog):
             
             name = name.title()
             version = version.title()
+            if (version == 'Base'):
+                version_display = ''
+            else:
+                version_display = version
 
+            
             title = f'{self.emojis["Rarity"][charVersion["rarity"]]} **{name} ({version})**'
             description = f'**JP**: {charVersion["jpname"]}\n'
             description += f'**VA**: {", ".join(charVersion["va"])}'
