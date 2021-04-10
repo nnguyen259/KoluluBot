@@ -32,18 +32,18 @@ class Character(commands.Cog):
                 charVersion = char['BASE']
             else:
                 charVersion = char[version]
-
+            
             name = name.title()
             version = version.title()
-            if (version == 'Base'):
-                version_display = ''
-            else:
-                version_display = version
+
 
             title = f'{self.emojis["Rarity"][charVersion["rarity"]]}'
             for series in charVersion['series']:
                 title += f'{self.emojis["Series"][series]}'
-            title +=f'**{name} ({version})**'
+            if (version != 'Base'):
+                title +=f'**{name} ({version})**'
+            else:
+                title +=f'**{name}**'
             description = f'**JP**: {charVersion["jpname"]}\n'
             description += f'**VA**: {", ".join(charVersion["va"])}'
 
@@ -78,7 +78,7 @@ class Character(commands.Cog):
             await paginator.run(embedList)
         else:
             await ctx.send('Character not found!')
-
+    
     @char.error
     async def char_error(self, ctx, error):
         print(traceback.format_exc())
