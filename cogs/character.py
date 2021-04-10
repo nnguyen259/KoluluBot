@@ -32,11 +32,11 @@ class Character(commands.Cog):
                 charVersion = char['BASE']
             else:
                 charVersion = char[version]
-            
+            charOugi= self.ougis[name.lower()][version]
             name = name.title()
             version = version.title()
-
-
+            embedList = []
+            #Main embed
             title = f'{self.emojis["Rarity"][charVersion["rarity"]]}'
             for series in charVersion['series']:
                 title += f'{self.emojis["Series"][series]}'
@@ -56,8 +56,6 @@ class Character(commands.Cog):
 
             profile = f'{charVersion["profile"]}'
 
-            embedList = []
-
             mainEmbed = discord.Embed()
             mainEmbed.title = title
             mainEmbed.description = description
@@ -67,6 +65,17 @@ class Character(commands.Cog):
             mainEmbed.set_image(url=charVersion['image'])
             embedList.append(mainEmbed)
 
+            #Ougi embed
+            ougiEmbed = discord.Embed()
+            ougiDescription = ''
+            for ougiList in charOugi:
+                for ougiText in ougiList["text"]:
+                    ougiDescription += ougiText + '\n'
+                    ougiEmbed.add_field(name=f'**{ougiList["name"]}**:', value=ougiDescription, inline=False)
+            ougiEmbed.title="Charge Attack"
+            ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
+            ougiEmbed.set_image(url=charVersion['image'])
+            embedList.append(ougiEmbed)
 
             paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
             paginator.add_reaction('⏮️', "first")
@@ -78,7 +87,7 @@ class Character(commands.Cog):
             await paginator.run(embedList)
         else:
             await ctx.send('Character not found!')
-    
+
     @char.error
     async def char_error(self, ctx, error):
         print(traceback.format_exc())
