@@ -1,272 +1,3745 @@
 {
-   "Abby":{
-      "BASE":[
-         {
-            "name":"Raging Axe Slash",
-            "text":[
-               "450%Massive Fire damage to a foe.[1]Extend Raging Arm DX's buff durations by 2 turns."
-            ]
-         }
-      ]
-   },
-   "Agielba":{
-      "BASE":[
-         {
-            "name":"Final Dawn",
-            "text":[
-               "Massive Fire damage to a foe.Gain 100% / 80% ArmoredChance of lowering DMG takenStrength: 100% chance of taking 80% less damage.Duration: 0.5 turnsApplied during the attack phase.On the next turn, it'll have 0 turns remaining. for 0.5 turns."
-            ]
-         }
-      ]
-   },
-   "Baal":{
-      "BASE":[
-         {
-            "name":"Amplified Resonance",
-            "text":[
-               "Massive Earth damage to a foe.All allies gain 30% C.B. DMG UpChain burst DMG is boostedStrength: 30% and 10% C.B. DMG Cap UpChain Burst DMG Cap BoostedStrength: 10%.[1](Restore 100 + 20% HP of allies with SessionMultiattack rate, DEF, and hostility are boosted / Deals bonus earth DMG for one-foe attacks (Can't be removed) [Healing cap: 2500].)"
-            ]
-         }
-      ]
-   },
-   "Baotorda":{
-      "SSR":[
-         {
-            "name":"Heavenly Retribution",
-            "text":[
-               "450%Massive Light damage to a foe.300% Bonus Light damage (Damage cap: ~295,000).[1]"
-            ]
-         }
-      ]
-   },
-   "Beatrix":{
-      "BASE":[
-         {
-            "name":"Immortal Assault",
-            "text":[
-               "Massive Dark damage to a foe.Gain 1-hit UnchallengedNext DMG received will be ineffectiveDuration: Indefinite."
-            ]
-         }
-      ],
-      "Earth":[
-         {
-            "name":"Immortal Raid",
-            "text":[
-               "1250%Unworldly Earth damage to a foe (Damage cap: ~2,420,000).[1]Activate Answerer's Splatter.Gain Guaranteed TAGuaranteed triple attack regardless of Triple Attack Lowered debuffsDuration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining..(Consumes Immortal BlueBonus Earth DMG effect while in effect / Charge attack can be used (Consumed upon charge attack / Can't be removed) to activate.)"
-            ]
-         }
-      ]
-   },
-   "Charlotta":{
-      "Light":[
-         {
-            "name":"Brilliant Moon",
-            "text":[
-               "Massive Light damage to a foe.Gain Counters on Dodge (2 times)Dodge and counter one-ally attacksStrength: 150%Duration: 1.5 turnsCounter attacks grant 5% charge bar per hit.Applied during the attack phase.On the next turn, it'll have 1 turn remaining..(Gain 30% Bonus Light DMGDeals bonus light DMG for one-foe one-ally attacksStrength: 30%Duration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining. when Holy KnightATK, DMG cap, and multiattack rate are boosted (Can't be removed) lvl is 5)[1]"
-            ]
-         }
-      ]
-   },
-   "Chat_Noir":{
-      "BASE":[
-         {
-            "name":"Phantom Thief",
-            "text":[
-               "Massive Water damage to a foe.(Forewarning or Riddle gives 'em a show they'll never forget!)"
-            ]
-         }
-      ]
-   },
-   "Clarisse":{
-      "BASE":[
-         {
-            "name":"Alchemic Flare",
-            "text":[
-               "Massive Fire damage to a foe.Inflict 10% Debuff Res. DownDebuff resistance is loweredStrength: 10%Base Accuracy: 90%Duration: 180 seconds."
-            ]
-         }
-      ],
-      "Light":[
-         {
-            "name":"Juggernaut Sphere",
-            "text":[
-               "Massive Light damage to a foe.Gain 2 DissolutionUse 1 charge per skill activation (Recover upon C.A. / Max: 3 charges)Duration: Indefinite.All allies gain 10% UpliftedCharge bar is boosted on every turnStrength: 10%Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining..[1]"
-            ]
-         }
-      ]
-   },
-   "Dante":{
-      "BASE":[
-         {
-            "name":"Capricieux Avalanche",
-            "text":[
-               "Massive Earth damage to a foe (Boost to damage based on how high HP is).Additional effect when 1 Black Cat Fancy1 is consumed upon one-foe attack (Restores every 5 turns) is consumed: 500% Bonus Earth damage (Damage cap: ~630,000).[1]"
-            ]
-         }
-      ]
-   },
-   "Danua":{
-      "SSR":[
-         {
-            "name":"Puppet Sheol",
-            "text":[
-               "450%Massive Light damage to a foe.Inflict PetrifiedStops enemy's charge diamonds from filling.Base Accuracy: 90%Duration: 3.5 turnsLocal status effectApplied during the attack phase.On the next turn, it'll have 3 turns remaining..[1]"
-            ]
-         }
-      ]
-   },
-   "De_La_Fille":{
-      "BASE":[
-         {
-            "name":"Seventh Agony",
-            "text":[
-               "550%Massive Light damage to a foe.[1]All allies gain Mirror Image (1 time)Next one-to-one attack received will be ineffective(Effect removed on next all-foe all-ally attack)Duration: Indefinite."
-            ]
-         },
-         {
-            "name":"After 5\u2605:Seventh Dispersion",
-            "text":[
-               "600%Massive Light damage to a foe.All allies gain Mirror Image (1 time)Next one-to-one attack received will be ineffective(Effect removed on next all-foe all-ally attack)Duration: Indefinite and 70% / 30% ArmoredChance of lowering DMG takenStrength: 70% chance of taking 30% less damage.Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining..[1]"
-            ]
-         }
-      ],
-      "Earth":[
-         {
-            "name":"Seventh Blight",
-            "text":[
-               "Massive Earth damage to a foe.Gain 30% DEF UpDEF is boostedStrength: 30%Duration: 4 turns."
-            ]
-         }
-      ]
-   },
-   "Diantha":{
-      "BASE":[
-         {
-            "name":"Bloomin' Five Flowers",
-            "text":[
-               "Restore Earth allies' HP (Healing cap: 2500).[1]Remove 1 debuff from all Earth allies.Extend Earth allies' HypeATK is boosted by 2 turns."
-            ]
-         }
-      ]
-   },
-   "Dorothy":{
-      "DUO":[
-         {
-            "name":"Dorothy:Grim Flame",
-            "text":[
-               "450% Light damage to a foe.Inflict 30-40% DA DownDouble attack rate is loweredStrength: 30-40%Duration: 180 seconds.[1]"
-            ]
-         },
-         {
-            "name":"Claudia:Fullmetal Impact",
-            "text":[
-               "450% Light damage to a foe.Inflict 10% DEF DownDEF is loweredStrength: 10%Duration: 180 seconds.[1]"
-            ]
-         },
-         {
-            "name":"200% Charge Bar and Servant's Oath:Checkmaid",
-            "text":[
-               "1250% Light damage to a foe (Damage cap: ~2,900,000).Inflict 30-40% DA DownDouble attack rate is loweredStrength: 30-40%Duration: 180 seconds and 10% DEF DownDEF is loweredStrength: 10%Duration: 180 seconds.All allies gain 30% C.B. DMG Cap UpChain Burst DMG Cap BoostedStrength: 30%.[1][2]"
-            ]
-         }
-      ]
-   },
-   "Claudia":{
-      "DUO":[
-         {
-            "name":"Dorothy:Grim Flame",
-            "text":[
-               "450% Light damage to a foe.Inflict 30-40% DA DownDouble attack rate is loweredStrength: 30-40%Duration: 180 seconds.[1]"
-            ]
-         },
-         {
-            "name":"Claudia:Fullmetal Impact",
-            "text":[
-               "450% Light damage to a foe.Inflict 10% DEF DownDEF is loweredStrength: 10%Duration: 180 seconds.[1]"
-            ]
-         },
-         {
-            "name":"200% Charge Bar and Servant's Oath:Checkmaid",
-            "text":[
-               "1250% Light damage to a foe (Damage cap: ~2,900,000).Inflict 30-40% DA DownDouble attack rate is loweredStrength: 30-40%Duration: 180 seconds and 10% DEF DownDEF is loweredStrength: 10%Duration: 180 seconds.All allies gain 30% C.B. DMG Cap UpChain Burst DMG Cap BoostedStrength: 30%.[1][2]"
-            ]
-         }
-      ]
-   },
-   "Gawain":{
-      "BASE":[
-         {
-            "name":"Flash Flurry",
-            "text":[
-               "450%Massive Wind damage to a foe."
-            ]
-         },
-         {
-            "name":"After 5\u2605:Flashstorm Destruction",
-            "text":[
-               "500%Massive Wind damage to a foe.All allies gain Shield (1500)Next ATK received will be ineffective for a fixed amountStrength: 1500Duration: Indefinite."
-            ]
-         }
-      ],
-      "Light":[
-         {
-            "name":"Spontaneous Indiscretion",
-            "text":[
-               "450%Massive Light damage to a foe. (50% boost to C.A. damage and 30% boost to C.A. damage cap when below 25% HP.)[1]Activate Puncture."
-            ]
-         }
-      ]
-   },
-   "Ghandagoza":{
-      "BASE":[
-         {
-            "name":"Fist of the Red Lotus",
-            "text":[
-               "Massive Fire damage to a foe.Gain 30% / 30% Critical Hit Rate UpAttacks made with elemental superiority have a chance to deal boosted DMGStrength: 30% chance of dealing 30% more damage.Duration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining..Consume all Eternal RageATK and C.A. specs are boosted (Can't be removed) stacks."
-            ]
-         },
-         {
-            "name":"After 5\u2605:Fist of Hair-Raising Fury",
-            "text":[
-               "Massive Fire damage to a foe.Gain 30% / 30% Critical Hit Rate UpAttacks made with elemental superiority have a chance to deal boosted DMGStrength: 30% chance of dealing 30% more damage.Duration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining. and ArmoredChance of lowering DMG takenDuration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining..Consume all Eternal RageATK and C.A. specs are boosted (Can't be removed) stacks."
-            ]
-         }
-      ]
-   },
-   "Lucio":{
-      "BASE":[
-         {
-            "name":"Paradise Lost",
-            "text":[
-               "Massive Light damage to a foe.Gain 30% Light ATK UpLight ATK is boostedStrength: 30%Duration: 3.5 turnsApplied during the attack phase.On the next turn, it'll have 3 turns remaining. and Crown of AshesNext Out of the Ashes activates twiceDuration: Indefinite (Next use of Out of the Ashes activates twice)."
-            ]
-         }
-      ],
-      "Summer":[
-         {
-            "name":"Paradise Lost",
-            "text":[
-               "450%Massive Water damage to a foe.All allies gain RefreshHP is restored on every turnStrength: 10% of max HP (Healing cap: 1000)Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining. and 10% UpliftedCharge bar is boosted on every turnStrength: 10%Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining..[1]"
-            ]
-         }
-      ]
-   },
-   "Zooey":{
-      "Grand":[
-         {
-            "name":"Gamma Ray",
-            "text":[
-               "450%Massive Dark damage to a foe.[1]"
-            ]
-         }
-      ],
-      "BASE":[
-         {
-            "name":"Gamma Ray",
-            "text":[
-               "Massive Light damage to a foe.Gain Shield (2000)Next ATK received will be ineffective for a fixed amountStrength: 2000Duration: 2.5 turnsApplied during the attack phase.On the next turn, it'll have 2 turns remaining.."
-            ]
-         }
-      ]
-   }
+    "Abby": {
+        "BASE": [
+            {
+                "name": "Raging Axe Slash",
+                "text": [
+                    "  Fire damage to a foe.Extend Raging Arm DX's buff durations by 2 turns. "
+                ]
+            }
+        ]
+    },
+    "Agielba": {
+        "BASE": [
+            {
+                "name": "Final Dawn",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status Armored.png] **100% / 80% Armored** for . "
+                ]
+            }
+        ]
+    },
+    "Aglovale": {
+        "BASE": [
+            {
+                "name": "Silberne Welt",
+                "text": [
+                    "  Water damage to a foe. (20% boost to  when affected by [Status WaterAtkUp.png] **Water ATK Up**.)Restore 20% of Aglovale's HP (Healing cap: 2000). "
+                ]
+            }
+        ],
+        "VALENTINE": [
+            {
+                "name": "Gefrorene Welt",
+                "text": [
+                    "  Light damage to a foe.1-turn cut to Aglovale's skill cooldowns.100% Bonus Light damage to a foe for each [Status Aurora Crest.png] **Aurora Crest** (Damage cap: ~120,000 per hit / Max: 5 hits). "
+                ]
+            }
+        ]
+    },
+    "Alanaan": {
+        "BASE": [
+            {
+                "name": "Benedictio Solis",
+                "text": [
+                    " Massive Fire damage to a foe. (50% boost to C.A. damage and 20% boost to  C.A. damage cap when the field effect [Status Sun-Touched Paradise.png] **Sun-Touched Paradise** is active.) "
+                ]
+            }
+        ]
+    },
+    "Albert": {
+        "BASE": [
+            {
+                "name": "Lord of Blitz",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Bonus Damage.png] **20% Bonus Light DMG**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Levin Annihilation",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Bonus Damage.png] **20% Bonus Light DMG**.  Massive Light damage to a foe.Gain [Status Bonus Damage.png] **30% Bonus Light DMG** and [Status Lightning's Judgment.png] **Lightning's Judgment** (Next use of Electron Blade activates twice). "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Levin Barrage",
+                "text": [
+                    "  Wind damage to a foe.Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**.Raise [Status 6947.png] **Thunderswift** lvl by 3. "
+                ]
+            }
+        ]
+    },
+    "Aletheia": {
+        "BASE": [
+            {
+                "name": "Swordsweep",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Celerity.png] **Celerity** and [Status Velocity.png] **Velocity**. "
+                ]
+            }
+        ]
+    },
+    "Alexiel": {
+        "BASE": [
+            {
+                "name": "Mirror-Blade Helix",
+                "text": [
+                    " Massive Earth damage to a foe and remove 1 buff. Deploy 1 [Status Mirror-Blade 1.png] **Mirror-Blade**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Mirror-Blade Helix",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Marked for Death Hildebrand.png] **Marked for Death**. "
+                ]
+            }
+        ]
+    },
+    "Aliza": {
+        "BASE": [
+            {
+                "name": "Fangs of the Dragon",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status CriticalUp.png] **50% / 80% Critical Hit Rate Up**. "
+                ]
+            }
+        ],
+        "DUO": [
+            {
+                "name": "Flaming Tempest",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**.[Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1.( Buff increased to [Status Bonus Damage.png] **50% Bonus Wind DMG**.) "
+                ]
+            }
+        ]
+    },
+    "Altair": {
+        "BASE": [
+            {
+                "name": "Rune Engrave",
+                "text": [
+                    " Massive Water damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Untergang Rune",
+                "text": [
+                    " Massive Water damage to a foe.  Massive Water damage to a foe.All Water allies gain [Status CriticalUpWater.png] **70% / 20% Critical Hit Rate Up**. "
+                ]
+            }
+        ]
+    },
+    "Amira": {
+        "BASE": [
+            {
+                "name": "Avantesia",
+                "text": [
+                    " 450% Light damage to a foe. "
+                ]
+            },
+            {
+                "name": "Half-God Half-Demon mode:Inhuman Rampage",
+                "text": [
+                    " 450% Light damage to a foe.  500% Light damage to a foe (Damage cap: ~1,685,000) and;  Dark damage to a foe (Damage cap: ~350,000).1-turn cut to Amira's skill cooldowns. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Valley of the Damned",
+                "text": [
+                    "  Dark damage to a foe (Damage cap: ~1,960,000) and;325% Light damage to a foe (Damage cap: ~500,000).Consume 3 [Status 69371.png] **Satiety** lvls.(Can only be used when [Status 69371.png] **Satiety** lvl is 3 or above.) "
+                ]
+            }
+        ]
+    },
+    "Andira": {
+        "BASE": [
+            {
+                "name": "Gilded Heaven Strike",
+                "text": [
+                    "  Wind damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Infinite Monkey Hands: Baboon Blast",
+                "text": [
+                    "  Wind damage to a foe.   Wind damage to a foe and remove 1 buff. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Soaring Monkey: Walloping Wave",
+                "text": [
+                    "  Water damage to a foe.2-turn cut to Land of Lotuses's cooldown.(400% Bonus Water damage to a foe with [Status 7113.png] **Mizuzaru** [Damage cap: ~635,000].) "
+                ]
+            }
+        ]
+    },
+    "Anila": {
+        "BASE": [
+            {
+                "name": "Gilded Heaven Strike",
+                "text": [
+                    "  Fire damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Fury of the Ram",
+                "text": [
+                    "  Fire damage to a foe.   Fire damage to a foe.  All allies gain [Status Shield.png] **Shield (1000)**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Flock to the Future",
+                "text": [
+                    "  Wind damage to a foe.Gain [Status 6945.png] **Ram Rondo**. (Next First Initiation affects all allies.)End cooldown for First Initiation "
+                ]
+            }
+        ]
+    },
+    "Anne": {
+        "BASE": [
+            {
+                "name": "Deterrent Thrust",
+                "text": [
+                    " Massive Water damage to a foe.Restore 2 [Status Spirit (Anne) 1.png] **Spirit** stacks. "
+                ]
+            }
+        ]
+    },
+    "Anre": {
+        "BASE": [
+            {
+                "name": "Astralance: Everto",
+                "text": [
+                    "  Water damage to a foe.Inflict . "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Thousand-Spear Void",
+                "text": [
+                    "  Water damage to a foe.Inflict .   Water damage to a foe.Inflict .All allies gain [Status Strength.png] **Strength** and [Status Shield.png] **Shield (2000)**. "
+                ]
+            },
+            {
+                "name": "After Stage 1 Transcendence:True Spear: Righteous Annihilation",
+                "text": [
+                    "  Water damage to a foe.Inflict .   Water damage to a foe.Inflict .All allies gain [Status Strength.png] **Strength** and [Status Shield.png] **Shield (2000)**.   Water damage to a foe.Inflict .All allies gain [Status Strength.png] **Strength**, [Status Shield.png] **Shield (2000)**, and [Status Drain.png] **Drain**. "
+                ]
+            }
+        ]
+    },
+    "Anthuria": {
+        "BASE": [
+            {
+                "name": "Rosso Passione",
+                "text": [
+                    "  Fire damage to a foe.Activate Dance of Delirium. "
+                ]
+            }
+        ],
+        "YUKATA": [
+            {
+                "name": "Passione Perpetua",
+                "text": [
+                    " Massive Dark damage to a foe.Extend [Status Ardent Dance.png] **Ardent Dance**'s duration by 3 turns. "
+                ]
+            }
+        ]
+    },
+    "Aoidos": {
+        "BASE": [
+            {
+                "name": "Heavens On Fire",
+                "text": [
+                    "  Fire damage to a foe.Extend the duration of [Status Hype1.png] **Hype** on Aoidos by 2 turns. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Heavens o' Misery",
+                "text": [
+                    "  Fire damage to a foe.Extend the duration of [Status Hype1.png] **Hype** on Aoidos by 2 turns.   Fire damage to a foe.Extend the duration of [Status Hype1.png] **Hype** on all Fire allies by 2 turns. "
+                ]
+            }
+        ]
+    },
+    "Aqours First-Years": {
+        "BASE": [
+            {
+                "name": "Waku-Waku-Week!",
+                "text": [
+                    " Massive Earth damage to a foe.All allies gain [Status EarthAtkUp.png] **15% Earth ATK Up**.Restore 20% of all allies' HP (Healing cap: 500). "
+                ]
+            }
+        ]
+    },
+    "Aqours Second-Years": {
+        "BASE": [
+            {
+                "name": "Daisuki Dattara Daijoubu!",
+                "text": [
+                    " Massive Water damage to a foe.All allies gain [Status WaterAtkUp.png] **15% Water ATK Up**.Restore 20% of all allies' HP (Healing cap: 500). "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Daisuki Dattara Daijoubu! ++",
+                "text": [
+                    " Massive Water damage to a foe.All allies gain [Status WaterAtkUp.png] **15% Water ATK Up**.Restore 20% of all allies' HP (Healing cap: 500).  Massive Water damage to a foe.All allies gain [Status WaterAtkUp.png] **15% Water ATK Up** and [Status FireResUp.png] **20% Fire DMG Lowered**.Restore 20% of all allies' HP (Healing cap: 500). "
+                ]
+            }
+        ]
+    },
+    "Aqours Third-Years": {
+        "BASE": [
+            {
+                "name": "G Senjono Cinderella",
+                "text": [
+                    " Massive Fire damage to a foe.All allies gain [Status FireAtkUp.png] **15% Fire ATK Up**.Restore 20% of all allies' HP (Healing cap: 500). "
+                ]
+            }
+        ]
+    },
+    "Arriet": {
+        "BASE": [
+            {
+                "name": "Alluring Melody",
+                "text": [
+                    " Massive Wind damage to a foe.Inflict [Status Sleep 3.png] **Sleep**. "
+                ]
+            }
+        ]
+    },
+    "Arulumaya": {
+        "BASE": [
+            {
+                "name": "Selene Legacy",
+                "text": [
+                    " Massive Earth damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Selene Timoria",
+                "text": [
+                    " Massive Earth damage to a foe.  Massive Earth damage to a foe.Gaze into Crystal Ball and can reuse End Gaze.All allies gain [Status Uplift.png] **Charge Bar +10%**. "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "Selene Legacy",
+                "text": [
+                    " Massive Water damage to a foe.Gain a random color sparkle and can reuse End Gaze. "
+                ]
+            }
+        ]
+    },
+    "Athena": {
+        "BASE": [
+            {
+                "name": "Minerva Thrust",
+                "text": [
+                    " Massive Fire damage to a foe.  All allies gain [Status FireAtkUp.png] **15% Fire ATK Up** and [Status Armored.png] **70% / 30% Armored**. "
+                ]
+            }
+        ]
+    },
+    "Ayer": {
+        "BASE": [
+            {
+                "name": "Deadly Sin",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Bonus Damage.png] **50% Bonus Earth DMG**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Beat the Wall",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Bonus Damage.png] **50% Bonus Earth DMG**.  Massive Earth damage to a foe.Gain [Status Bonus Damage.png] **50% Bonus Earth DMG** and [Status TripleUp.png] **Guaranteed TA**. "
+                ]
+            }
+        ]
+    },
+    "Azazel": {
+        "BASE": [
+            {
+                "name": "Scapegoat",
+                "text": [
+                    " 450% Dark damage to a foe.Gain [Status Mirror Image.png] **Mirror Image (1 time)**. "
+                ]
+            }
+        ],
+        "HALLOWEEN": [
+            {
+                "name": "Grigori's Inferno",
+                "text": [
+                    "  Fire damage to a foe. (30% boost to C.A. damage and 10% boost to C.A. damage cap against foes with .)Inflict [Status Blind 2.png] **Blinded**. "
+                ]
+            }
+        ]
+    },
+    "Baal": {
+        "BASE": [
+            {
+                "name": "Amplified Resonance",
+                "text": [
+                    " Massive Earth damage to a foe.All allies gain [Status Defiance.png] **30% C.B. DMG Up** and [Status CB DMG Cap Up.png] **10% C.B. DMG Cap Up**.(Restore 100 + 20% HP of allies with [Status Session.png] **Session** [Healing cap: 2500].) "
+                ]
+            }
+        ]
+    },
+    "Baotorda": {
+        "SSR": [
+            {
+                "name": "Heavenly Retribution",
+                "text": [
+                    "  Light damage to a foe.300% Bonus Light damage (Damage cap: ~295,000). "
+                ]
+            }
+        ]
+    },
+    "Beatrix": {
+        "BASE": [
+            {
+                "name": "Immortal Assault",
+                "text": [
+                    " Massive Dark damage to a foe.Gain 1-hit [Status Repel.png] **Unchallenged**. "
+                ]
+            }
+        ],
+        "EARTH": [
+            {
+                "name": "Immortal Raid",
+                "text": [
+                    "  Earth damage to a foe (Damage cap: ~2,420,000).Activate Answerer's Splatter.Gain [Status TripleUp.png] **Guaranteed TA**.(Consumes [Status 7098.png] **Immortal Blue** to activate.) "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Immortal Assault",
+                "text": [
+                    "  Fire damage to a foe.Gain [Status Dodge 1.png] **Dodge All (1 time)**. "
+                ]
+            }
+        ]
+    },
+    "Black Knight": {
+        "BASE": [
+            {
+                "name": "Obsidian Moonlight",
+                "text": [
+                    " Massive Dark damage to a foe.Remove 1 debuff from Black Knight. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Sword of Delusion",
+                "text": [
+                    " Massive Dark damage to a foe.Remove 1 debuff from Black Knight.  Massive Dark damage to a foe.Remove all debuffs from Black Knight.Gain [Status Moonshade.png] **Moonshade**. (Next Quadspell activates twice.) "
+                ]
+            }
+        ],
+        "DUO": [
+            {
+                "name": "Obsidian Moonlight",
+                "text": [
+                    "  Dark damage to a foe.Activate Drain. "
+                ]
+            }
+        ]
+    },
+    "Bobobo-bo Bo-bobo": {
+        "BASE": [
+            {
+                "name": "Nose Hair Twister",
+                "text": [
+                    "  Light damage to a foe.100% Bonus damage based on [Status 71091.png] **Wig Out** lvl (Damage cap: ~100,000 per hit [Max: 8 hits]). "
+                ]
+            }
+        ]
+    },
+    "Cagliostro": {
+        "BASE": [
+            {
+                "name": "Ars Magna",
+                "text": [
+                    " Massive Earth damage to a foe.All allies gain [Status EarthAtkUp.png] **25% Earth ATK Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Ars Magna ++",
+                "text": [
+                    " Massive Earth damage to a foe.All allies gain [Status EarthAtkUp.png] **25% Earth ATK Up**.  Massive Earth damage to a foe.All allies gain [Status EarthAtkUp.png] **25% Earth ATK Up**.Cagliostro also gains [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)** and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**. "
+                ]
+            }
+        ],
+        "DARK": [
+            {
+                "name": "Opus Magna",
+                "text": [
+                    " Massive Dark damage to a foe.1-turn cut to Cagliostro's skill cooldown. "
+                ]
+            }
+        ],
+        "GRAND": [
+            {
+                "name": "Ars Magna",
+                "text": [
+                    " Massive Light damage to a foeConsume all [Status 70781.png] **Truth** lvls to boost C.A. specs. "
+                ]
+            }
+        ],
+        "HALLOWEEN": [
+            {
+                "name": "Ars Magna",
+                "text": [
+                    " Massive Dark damage to a foe.Boost to C.A. specs based on number of [Status Oblivion Crest.png] **Oblivion Crest**. All allies also gain [Status Uplift.png] **Charge Bar +10%**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Aqua Magna",
+                "text": [
+                    " Massive Water damage to a foe.Cagliostro gains [Status Deluge Crest 1.png] **Deluge Crest**.All allies gain [Status Keen.png] **Keen**. "
+                ]
+            }
+        ]
+    },
+    "Caim": {
+        "BASE": [
+            {
+                "name": "Golden Dawn",
+                "text": [
+                    " Massive Earth damage to a foe.Caim's third skill resets to Blank Face. "
+                ]
+            }
+        ]
+    },
+    "Cain": {
+        "GRAND": [
+            {
+                "name": "Taiji Takedown",
+                "text": [
+                    " Massive Earth damage to a foe.Extend the duration of [Status Instantaneity.png] **Instantaneity** on all allies by 2 turns. "
+                ]
+            }
+        ]
+    },
+    "Carmelina": {
+        "BASE": [
+            {
+                "name": "Dreadbringer",
+                "text": [
+                    "  Wind damage to a foe.All allies gain [Status Mirror Image.png] **Mirror Image (1 time)**. "
+                ]
+            }
+        ]
+    },
+    "Cassius": {
+        "EVENT_SSR": [
+            {
+                "name": "Lunar Eclipse",
+                "text": [
+                    " Massive Dark damage to a foe.Gain [Status DmgUp.png] **Supplemental DMG**. "
+                ]
+            }
+        ]
+    },
+    "Catherine": {
+        "BASE": [
+            {
+                "name": "Kiss of Death",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status TripleUp.png] **Guaranteed TA**. "
+                ]
+            }
+        ]
+    },
+    "Catura": {
+        "BASE": [
+            {
+                "name": "Gilded Heaven Strike",
+                "text": [
+                    "  Wind damage to a foe.3-turn cut to Catura's skill cooldowns. "
+                ]
+            }
+        ]
+    },
+    "Cerberus": {
+        "BASE": [
+            {
+                "name": "Triple Damnation",
+                "text": [
+                    " Massive Dark damage to a foe.Gain [Status TripleUp.png] **50% TA Up**. "
+                ]
+            }
+        ]
+    },
+    "Charioce XVII": {
+        "BASE": [
+            {
+                "name": "A Farewell to Arms",
+                "text": [
+                    " Unworldly Fire damage to a foe and remove 3 buffs. Charioce XVII self-inflicts [Status Forbidden Price.png] **Forbidden Price**. (Can only be used when [Status Dromos.png] **Dromos** is active) "
+                ]
+            }
+        ]
+    },
+    "Charlotta": {
+        "BASE": [
+            {
+                "name": "Noble Execution",
+                "text": [
+                    "  Water damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Noble Execution ++",
+                "text": [
+                    "  Water damage to a foe.   Water damage to a foe.400% Bonus Water damage (Damage cap: ~635,000). "
+                ]
+            }
+        ],
+        "HALLOWEEN": [
+            {
+                "name": "Judgement Rush",
+                "text": [
+                    " Massive Light damage to a foe. (50% boost to C.A. damage and 20% boost to C.A. damage cap against foes with [Status Pumpkin.png] **Pumpkin** effect.)Restore Charlotta's HP (Healing cap: 2000). "
+                ]
+            }
+        ],
+        "LIGHT": [
+            {
+                "name": "Brilliant Moon",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Counter.png] **Counters on Dodge (2 times)**.(Gain [Status Bonus Damage.png] **30% Bonus Light DMG** when [Status Holy Knight Lvl 1.png] **Holy Knight** lvl is 5) "
+                ]
+            }
+        ]
+    },
+    "Chat Noir": {
+        "BASE": [
+            {
+                "name": "Phantom Thief",
+                "text": [
+                    " Massive Water damage to a foe.() "
+                ]
+            }
+        ]
+    },
+    "Christina": {
+        "BASE": [
+            {
+                "name": "Empress Squall",
+                "text": [
+                    "  Wind damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Empress's Affection",
+                "text": [
+                    "  Wind damage to a foe.   Wind damage to a foe.Gain [Status TripleUp.png] **Guaranteed TA** and [Status Bonus Damage.png] **50% Bonus Wind DMG**. "
+                ]
+            }
+        ]
+    },
+    "Clarisse": {
+        "BASE": [
+            {
+                "name": "Alchemic Flare",
+                "text": [
+                    " Massive Fire damage to a foe.Inflict [Status DebuffResDown.png] **10% Debuff Res. Down**. "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "Normal mode:Alchemic Flare",
+                "text": [
+                    " Massive Earth damage to a foe.Raise [Status Alpha Decay 1.png] **\u03b1 Decay** and [Status Beta Decay 1.png] **\u03b2 Decay** stacks by 3. "
+                ]
+            },
+            {
+                "name": "Radioactive mode:Neutron Star",
+                "text": [
+                    " Massive Earth damage to a foe.Raise [Status Alpha Decay 1.png] **\u03b1 Decay** and [Status Beta Decay 1.png] **\u03b2 Decay** stacks by 3.  Massive Earth damage to a foe. the [Status Atomic Collapse 1.png] **Atomic Collapse**  based on [Status Alpha Decay 1.png] **\u03b1 Decay** and [Status Beta Decay 1.png] **\u03b2 Decay** stacks. (Max lvl: 5) "
+                ]
+            }
+        ],
+        "LIGHT": [
+            {
+                "name": "Juggernaut Sphere",
+                "text": [
+                    " Massive Light damage to a foe.Gain 2 [Status Dissolution 1.png] **Dissolution**.All allies gain [Status Uplift.png] **10% Uplifted**. "
+                ]
+            }
+        ],
+        "VALENTINE": [
+            {
+                "name": "Alkahest Sphere",
+                "text": [
+                    " Massive Dark damage to a foe.Inflict [Status Gravity.png] **Delay**. Also deal 999,999 plain damage. "
+                ]
+            }
+        ]
+    },
+    "Claudia": {
+        "DUO": [
+            {
+                "name": "Dorothy:Grim Flame",
+                "text": [
+                    " 450% Light damage to a foe.Inflict [Status DoubleDown.png] **30-40% DA Down**. "
+                ]
+            },
+            {
+                "name": "Claudia:Fullmetal Impact",
+                "text": [
+                    " 450% Light damage to a foe.Inflict [Status DoubleDown.png] **30-40% DA Down**.  450% Light damage to a foe.Inflict [Status DefenseDown.png] **10% DEF Down**. "
+                ]
+            },
+            {
+                "name": "200% Charge Bar and Servant's Oath:Checkmaid",
+                "text": [
+                    " 450% Light damage to a foe.Inflict [Status DoubleDown.png] **30-40% DA Down**.  450% Light damage to a foe.Inflict [Status DefenseDown.png] **10% DEF Down**.  1250% Light damage to a foe (Damage cap: ~2,900,000).Inflict [Status DoubleDown.png] **30-40% DA Down** and [Status DefenseDown.png] **10% DEF Down**.All allies gain [Status CB DMG Cap Up.png] **30% C.B. DMG Cap Up**. "
+                ]
+            }
+        ]
+    },
+    "Colossus": {
+        "BASE": [
+            {
+                "name": "Ground Shatter",
+                "text": [
+                    "  Fire damage to a foe (Damage cap: ~3,350,000) and remove 2 buffs.(Can only be used when charge bar is at 200%.) "
+                ]
+            }
+        ]
+    },
+    "Conan Edogawa": {
+        "BASE": [
+            {
+                "name": "Kicking Enhancement Shoes",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%**. "
+                ]
+            }
+        ]
+    },
+    "Cucouroux": {
+        "SSR": [
+            {
+                "name": "Bombard Blitz",
+                "text": [
+                    " Massive Water damage to a foe and inflict [Status Inert 1.png] **Inert** for 0.5-1.5 turn. "
+                ]
+            }
+        ]
+    },
+    "Cure Black": {
+        "DUO": [
+            {
+                "name": "Pretty Cure Marble Screw",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Uplift.png] **Charge Bar +10%**.(Consumes all [Status Miracle Lights 1.png] **Miracle Lights**.) "
+                ]
+            }
+        ]
+    },
+    "Cure White": {
+        "DUO": [
+            {
+                "name": "Pretty Cure Marble Screw",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Uplift.png] **Charge Bar +10%**.(Consumes all [Status Miracle Lights 1.png] **Miracle Lights**.) "
+                ]
+            }
+        ]
+    },
+    "Dante": {
+        "DUO": [
+            {
+                "name": "Capricieux Avalanche",
+                "text": [
+                    " Massive Earth damage to a foe (Boost to damage based on how high HP is). 500% Bonus Earth damage (Damage cap: ~630,000). "
+                ]
+            }
+        ]
+    },
+    "Danua": {
+        "HALLOWEEN": [
+            {
+                "name": "Grand Guignol",
+                "text": [
+                    "  Fire damage to a foe. Inflict [Status DebuffResDown.png] **5% Debuff Res. Down (Stack / Max: 30%)**. "
+                ]
+            }
+        ],
+        "SSR": [
+            {
+                "name": "Puppet Sheol",
+                "text": [
+                    "  Light damage to a foe.Inflict [Status Petrified 3.png] **Petrified**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Grand Guignol",
+                "text": [
+                    " Massive Dark damage to a foe.Inflict [Status Petrified 3.png] **Petrified**. "
+                ]
+            }
+        ]
+    },
+    "De La Fille": {
+        "BASE": [
+            {
+                "name": "Seventh Agony",
+                "text": [
+                    "  Light damage to a foe.All allies gain [Status Mirror Image.png] **Mirror Image (1 time)**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Seventh Dispersion",
+                "text": [
+                    "  Light damage to a foe.All allies gain [Status Mirror Image.png] **Mirror Image (1 time)**.   Light damage to a foe.All allies gain [Status Mirror Image.png] **Mirror Image (1 time)** and [Status Armored.png] **70% / 30% Armored**. "
+                ]
+            }
+        ],
+        "EARTH": [
+            {
+                "name": "Seventh Blight",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status DefenseUp.png] **30% DEF Up**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Seventh Agony",
+                "text": [
+                    " Massive Light damage to a foe.All allies gain [Status Armored.png] **70% / 30% Armored**. "
+                ]
+            }
+        ]
+    },
+    "Diantha": {
+        "BASE": [
+            {
+                "name": "Bloomin' Five Flowers",
+                "text": [
+                    " Restore Earth allies' HP (Healing cap: 2500).Remove 1 debuff from all Earth allies.Extend Earth allies' [Status Hype1.png] **Hype** by 2 turns. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Idol on the Beach",
+                "text": [
+                    " Restore 10% of all allies' HP (Healing cap: 2500).All allies gain [Status Bonus Damage.png] **10% Bonus Water DMG** and [Status Tlepilli Glow.png] **Tlepilli Glow**. "
+                ]
+            }
+        ]
+    },
+    "Dorothy": {
+        "DUO": [
+            {
+                "name": "Dorothy:Grim Flame",
+                "text": [
+                    " 450% Light damage to a foe.Inflict [Status DoubleDown.png] **30-40% DA Down**. "
+                ]
+            },
+            {
+                "name": "Claudia:Fullmetal Impact",
+                "text": [
+                    " 450% Light damage to a foe.Inflict [Status DoubleDown.png] **30-40% DA Down**.  450% Light damage to a foe.Inflict [Status DefenseDown.png] **10% DEF Down**. "
+                ]
+            },
+            {
+                "name": "200% Charge Bar and Servant's Oath:Checkmaid",
+                "text": [
+                    " 450% Light damage to a foe.Inflict [Status DoubleDown.png] **30-40% DA Down**.  450% Light damage to a foe.Inflict [Status DefenseDown.png] **10% DEF Down**.  1250% Light damage to a foe (Damage cap: ~2,900,000).Inflict [Status DoubleDown.png] **30-40% DA Down** and [Status DefenseDown.png] **10% DEF Down**.All allies gain [Status CB DMG Cap Up.png] **30% C.B. DMG Cap Up**. "
+                ]
+            }
+        ]
+    },
+    "Drang": {
+        "BASE": [
+            {
+                "name": "Wrecking the Sphere",
+                "text": [
+                    "  Fire damage to a foe.Gain [Status Dodge 1.png] **Dodge All (1 time)**. "
+                ]
+            }
+        ],
+        "GRAND": [
+            {
+                "name": "Unhappy Hour",
+                "text": [
+                    " Massive Water damage to a foe.Inflict [Status FireAtkDown.png] **10% Fire ATK Down** and [Status WaterResDown.png] **10% Water DEF Down**. "
+                ]
+            }
+        ]
+    },
+    "Eahta": {
+        "BASE": [
+            {
+                "name": "Almighty Flurry",
+                "text": [
+                    "  Earth damage to a foe.Inflict [Status Death.png] **Lethal Hit**.Eahta gains [Status TripleUp.png] **50% TA Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Almighty Passage",
+                "text": [
+                    "  Earth damage to a foe.Inflict [Status Death.png] **Lethal Hit**.Eahta gains [Status TripleUp.png] **50% TA Up**.   Earth damage to a foe.Inflict [Status Death.png] **Lethal Hit**.Eahta gains [Status DoubleUp.png] **50% DA Up** and [Status TripleUp.png] **50% TA Up**.All allies gain [Status EarthAtkUp.png] **20% Earth ATK Up**. "
+                ]
+            }
+        ]
+    },
+    "Estarriola": {
+        "BASE": [
+            {
+                "name": "Eternal Reverie",
+                "text": [
+                    " Unworldly Wind damage to a foe.All Wind allies gain [Status Defiance.png] **20% ATK Up (1 time)**.(Consumes [Status 7090.png] **Hermit's Awakening** to activate.) "
+                ]
+            }
+        ]
+    },
+    "Eugen": {
+        "GRAND": [
+            {
+                "name": "Die Jaegerkanone",
+                "text": [
+                    " Massive Earth damage to a foe.All allies gain [Status EarthAtkUp.png] **30% Earth ATK Up** and [Status DoubleUp.png] **30% DA Up**. "
+                ]
+            }
+        ]
+    },
+    "Europa": {
+        "BASE": [
+            {
+                "name": "Taurus Blight",
+                "text": [
+                    " Massive Water damage to a foe.All allies gain [Status Aldebaran's Afterglow.png] **Aldebaran's Afterglow**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Taurus Blight",
+                "text": [
+                    " Massive Water damage to a foe.100% Bonus Water damage based on number of [Status Starry Waters.png] **Starry Waters** (Damage cap: ~110,000 per hit / Max: 5 hits).Gain [Status TripleUp.png] **Guaranteed TA**. "
+                ]
+            }
+        ]
+    },
+    "Eustace": {
+        "BASE": [
+            {
+                "name": "Dead-End Shot",
+                "text": [
+                    " Massive Earth damage to a foe.Inflict [Status AttackDown.png] **25% ATK Down**.Reset [Status Loaded0.png] **Loaded** lvl. "
+                ]
+            }
+        ],
+        "DARK": [
+            {
+                "name": "Acidrage Howl",
+                "text": [
+                    "  Dark damage to a foe.  Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**. Reset [Status Loaded0.png] **Loaded** lvl. 300% Bonus Dark damage (Damage cap: ~630,000). "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Dead-End Fall",
+                "text": [
+                    "  Dark damage to a foe.  Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**. Reset [Status Loaded0.png] **Loaded** lvl. 300% Bonus Dark damage (Damage cap: ~630,000).   Dark damage to a foe.Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**.2-turn cut to Eustace's skill cooldowns.Reset [Status Loaded0.png] **Loaded** lvl. Bonus Dark damage based on [Status Loaded0.png] **Loaded** lvl. "
+                ]
+            }
+        ],
+        "HALLOWEEN": [
+            {
+                "name": "Dead-End Shot",
+                "text": [
+                    " Massive Earth damage to a foe.Inflict [Status Blind.png] **Blinded**.Reset [Status Loaded0.png] **Loaded** lvl. "
+                ]
+            }
+        ]
+    },
+    "Farrah": {
+        "DUO": [
+            {
+                "name": "Rending Twin Blades",
+                "text": [
+                    "  Light damage to a foe.(100% Bonus Light damage based on [Status 7093.png] **Deft Sword** lvl and [Status 7094.png] **Deft Shield** lvl [Damage cap: ~65,000 / Max: 10 hits].) "
+                ]
+            }
+        ]
+    },
+    "Feather": {
+        "SSR": [
+            {
+                "name": "Raging Blast Knuckle",
+                "text": [
+                    " Massive Light damage to a foe.100% Bonus Light damage based on [Status 7000.png] **Azure Fist** lvl (Max: 5 hits; Damage cap: ~100,000 per hit). "
+                ]
+            }
+        ]
+    },
+    "Feena": {
+        "BASE": [
+            {
+                "name": "Invincible Crusher",
+                "text": [
+                    " 450% Wind damage to a foe. All allies gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**. "
+                ]
+            }
+        ]
+    },
+    "Feower": {
+        "BASE": [
+            {
+                "name": "Memento Mori",
+                "text": [
+                    "  Water damage to a foe.Inflict [Status Gravity.png] **Delay**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Memento Vita",
+                "text": [
+                    "  Water damage to a foe.Inflict [Status Gravity.png] **Delay**.   Water damage to a foe.Inflict [Status Gravity.png] **Delay**.All allies gain [Status DoubleUp.png] **35% DA Up** and [Status TripleUp.png] **35% TA Up**. "
+                ]
+            },
+            {
+                "name": "After Stage 1 Transcendence:Mors Certa",
+                "text": [
+                    "  Water damage to a foe.Inflict [Status Gravity.png] **Delay**.   Water damage to a foe.Inflict [Status Gravity.png] **Delay**.All allies gain [Status DoubleUp.png] **35% DA Up** and [Status TripleUp.png] **35% TA Up**.   Water damage to a foe.Inflict [Status Gravity.png] **Delay**.All allies gain [Status DoubleUp.png] **35% DA Up**, [Status TripleUp.png] **35% TA Up**, and [Status Bonus Damage.png] **10% Bonus Water DMG**. "
+                ]
+            }
+        ]
+    },
+    "Ferry": {
+        "GRAND": [
+            {
+                "name": "Aetheryte Requiescat",
+                "text": [
+                    " Massive Dark damage to a foe.All allies gain [Status DarkAtkUp.png] **30% Dark ATK Up** and [Status DoubleUp.png] **30% DA Up**. "
+                ]
+            }
+        ],
+        "SSR": [
+            {
+                "name": "Aetheryte Onslaught",
+                "text": [
+                    " Massive Light damage to a foe. "
+                ]
+            }
+        ]
+    },
+    "Fif": {
+        "BASE": [
+            {
+                "name": "Big Bang",
+                "text": [
+                    " Massive Light damage to a foe and remove 1 buff. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:True Big Bang",
+                "text": [
+                    " Massive Light damage to a foe and remove 1 buff.  Massive Light damage to a foe and remove 1 buff.Inflict [Status DarkAtkDown.png] **30% Dark ATK Down**, [Status DoubleDown.png] **100% DA Down**, and [Status TripleDown.png] **TA Down**. "
+                ]
+            }
+        ]
+    },
+    "Filene": {
+        "BASE": [
+            {
+                "name": "Stille Weiss",
+                "text": [
+                    "  Water damage to a foe.Extend the duration of [Status 7032.png] **Silvery Snow** on allies by 2 turns.(400% Bonus Water damage to foes with [Status 7031.png] **Whitefrost Whisper** [Damage cap: ~630,000].) "
+                ]
+            }
+        ]
+    },
+    "Fiorito": {
+        "BASE": [
+            {
+                "name": "Muscolo Fioritura",
+                "text": [
+                    " Massive Earth damage to a foe and remove 1 buff. "
+                ]
+            }
+        ]
+    },
+    "Florence": {
+        "BASE": [
+            {
+                "name": "Nature's Retribution",
+                "text": [
+                    "  Wind damage to a foe and remove 1 buff.Gain [Status Typhoon Crest 1.png] **Typhoon Crest**. "
+                ]
+            }
+        ]
+    },
+    "Forte": {
+        "BASE": [
+            {
+                "name": "Dragonbrood Demonspear",
+                "text": [
+                    " Massive Dark damage to a foe.Gain [Status Double Lashwave.png] **Double Lashwave**. (Next use of Blackwyrm Lash activates twice.) "
+                ]
+            }
+        ]
+    },
+    "Fraux": {
+        "BASE": [
+            {
+                "name": "Power Conflagration",
+                "text": [
+                    " Massive Fire damage to a foe.Inflict [Status Red Heat 3.png] **Red Heat**. "
+                ]
+            }
+        ]
+    },
+    "Freezie": {
+        "BASE": [
+            {
+                "name": "Normal mode:Binding Kill Shot",
+                "text": [
+                    " Massive Dark damage to a foe.  Gain [Status DoubleUp.png] **DA Up**. "
+                ]
+            },
+            {
+                "name": "Dark Mutation mode:Touchdown",
+                "text": [
+                    " Massive Dark damage to a foe.  Gain [Status DoubleUp.png] **DA Up**.   Dark damage to a foe (Damage cap: ~). "
+                ]
+            }
+        ]
+    },
+    "Freiheit": {
+        "DUO": [
+            {
+                "name": "Capricieux Avalanche",
+                "text": [
+                    " Massive Earth damage to a foe (Boost to damage based on how high HP is). 500% Bonus Earth damage (Damage cap: ~630,000). "
+                ]
+            }
+        ]
+    },
+    "Gachapin": {
+        "BASE": [
+            {
+                "name": "Gachapin Sword",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status DoubleUp.png] **35% DA Up** and [Status TripleUp.png] **35% TA Up**. "
+                ]
+            }
+        ]
+    },
+    "Gawain": {
+        "BASE": [
+            {
+                "name": "Flash Flurry",
+                "text": [
+                    "  Wind damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Flashstorm Destruction",
+                "text": [
+                    "  Wind damage to a foe.   Wind damage to a foe.All allies gain [Status Shield.png] **Shield (1500)**. "
+                ]
+            }
+        ],
+        "LIGHT": [
+            {
+                "name": "Spontaneous Indiscretion",
+                "text": [
+                    "  Light damage to a foe. (50% boost to C.A. damage and 30% boost to C.A. damage cap when below 25% HP.)Activate Puncture. "
+                ]
+            }
+        ]
+    },
+    "Geisenborger": {
+        "BASE": [
+            {
+                "name": "Howitzer Fist",
+                "text": [
+                    "  Light damage to a foe. Gain [Status Divinity.png] **Divinity**. "
+                ]
+            }
+        ]
+    },
+    "Ghandagoza": {
+        "BASE": [
+            {
+                "name": "Fist of the Red Lotus",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**.Consume all [Status Eternal Rage 1.png] **Eternal Rage** stacks. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Fist of Hair-Raising Fury",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**.Consume all [Status Eternal Rage 1.png] **Eternal Rage** stacks.  Massive Fire damage to a foe.Gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up** and [Status Armored.png] **Armored**.Consume all [Status Eternal Rage 1.png] **Eternal Rage** stacks. "
+                ]
+            }
+        ]
+    },
+    "Golden Knight": {
+        "BASE": [
+            {
+                "name": "Starless Twilight Slash",
+                "text": [
+                    "  Earth damage to a foe.1-turn cut to Golden Knight's skill cooldowns. "
+                ]
+            }
+        ]
+    },
+    "Grea": {
+        "BASE": [
+            {
+                "name": "Cleaving Madness",
+                "text": [
+                    " Massive Fire damage to a foe. (50% boost to C.A. damage and 20% boost to C.A. damage cap against foes with [Status Dracoforce 1.png] **Dracoforce**.) "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Cleaving Madness",
+                "text": [
+                    " Massive Water damage to a foe. (50% boost to C.A. damage and 20% boost to C.A. damage cap against foes with [Status Dracoforce 1.png] **Dracoforce**.)Gain [Status Uplift.png] **Charge Bar +20%**. "
+                ]
+            }
+        ]
+    },
+    "Grimnir": {
+        "BASE": [
+            {
+                "name": "Holy Ray of Purification",
+                "text": [
+                    " Massive Wind damage to a foe.Extend the duration of [Status Tempest of Annihilation.png] **Tempest of Annihilation** by 2 turns. "
+                ]
+            }
+        ],
+        "VALENTINE": [
+            {
+                "name": "Grace of the Radiant",
+                "text": [
+                    " All allies gain a 4000-damage [Status Shield.png] **Shield (4000)**.All Wind allies gain [Status CriticalUpWind.png] **100% / 30% Critical Hit Rate Up** and [Status Keen.png] **Keen**.Raise Grimnir's [Status 67961.png] **Cyclone** lvl by 2. "
+                ]
+            }
+        ]
+    },
+    "Haaselia": {
+        "BASE": [
+            {
+                "name": "Mondlicht",
+                "text": [
+                    " Massive Water damage to a foe.All Water allies gain [Status Crescent Moon.png] **Crescent Moon**. "
+                ]
+            }
+        ]
+    },
+    "Hallessena": {
+        "BASE": [
+            {
+                "name": "Insane Style",
+                "text": [
+                    " Massive Earth damage to a foe. (Boost to C.A. specs based on [Status Divine Death Saw of Death.png] **Divine Death Saw of Death** lvl.) "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Psycho's Path",
+                "text": [
+                    " Massive Earth damage to a foe. (Boost to C.A. specs based on [Status Divine Death Saw of Death.png] **Divine Death Saw of Death** lvl.)  Massive Earth damage to a foe. (Boost to C.A. specs based on [Status Divine Death Saw of Death.png] **Divine Death Saw of Death** lvl.)Crazy is as crazy does! (Gain [Status HypeUp.png] **High Tension**. Ends upon taking damage.) "
+                ]
+            }
+        ],
+        "HALLOWEEN": [
+            {
+                "name": "Night of Crazy Insanity",
+                "text": [
+                    " Massive Light damage to a foe. (Deal Bonus Light DMG based on [Status Party All Night 1.png] **Party All Night** lvl [Max: 5].)Crazy boo-tiful! (Gain [Status HypeUp.png] **High Tension**. Ends upon taking non-Plain damage.) "
+                ]
+            }
+        ]
+    },
+    "Halluel": {
+        "DUO": [
+            {
+                "name": "Pain Eternal",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Aurora Crest 1.png] **Aurora Crest**.( All allies also gain [Status Shield.png] **Shield (2000)**.) "
+                ]
+            }
+        ]
+    },
+    "Helel ben Shalem": {
+        "BASE": [
+            {
+                "name": "Chaos Legion",
+                "text": [
+                    " Massive Dark damage to a foe. (700% Bonus Dark damage to a foe with [Status Dusky Verdict.png] **Dusky Verdict** [Damage cap: ~1,160,000].)All allies gain [Status DarkAtkUp.png] **30% Dark ATK Up**. "
+                ]
+            }
+        ]
+    },
+    "Heles": {
+        "BASE": [
+            {
+                "name": "Eidel Siege",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status Second Brew.png] **Second Brew**. (Next use of Autumnal activates twice.) "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Eidel Siege",
+                "text": [
+                    " Massive Light damage to a foe.Inflict [Status Charm 2.png] **Charmed**.All allies gain [Status Uplift.png] **Charge Bar +10%**. "
+                ]
+            }
+        ],
+        "WIND": [
+            {
+                "name": "Adedo Dualuca",
+                "text": [
+                    " Massive Wind damage to a foe. (20% boost  when Heles is affected by [Status WindAtkUp.png] **Wind ATK Up**.)Gain [Status WindAtkUp.png] **30% Wind ATK Up**. "
+                ]
+            }
+        ]
+    },
+    "Herja": {
+        "SSR": [
+            {
+                "name": "Mercenary Blade",
+                "text": [
+                    "  Earth damage to a foe. Activate Stalwart Sword without consuming [Status 68491.png] **Steadfast** lvl. "
+                ]
+            }
+        ]
+    },
+    "Hiro Ryugasaki": {
+        "BASE": [
+            {
+                "name": "Roar! Ignis Dragon!",
+                "text": [
+                    "  Fire damage to a foe.Gain [Status FireAtkUp.png] **50% Fire ATK Up**. "
+                ]
+            }
+        ]
+    },
+    "Illnott": {
+        "BASE": [
+            {
+                "name": "Kill the City",
+                "text": [
+                    "  Fire damage to a foe.Gain 1 [Status 6864.png] **Piece**.( All additional effects activate. Consumes all [Status 68643.png] **Piece**.) "
+                ]
+            }
+        ]
+    },
+    "Ilsa": {
+        "BASE": [
+            {
+                "name": "Burst Erasure",
+                "text": [
+                    " Massive Earth damage to a foe.Inflict [Status DA Down 2.png] **DA Down**.Reload all [Status Bullets 9.png] **Bullets**. "
+                ]
+            }
+        ],
+        "LIGHT": [
+            {
+                "name": "Burst Removal",
+                "text": [
+                    " Massive Light damage to a foe.End cooldown for Ilsa's linked skills.Gain 1 [Status 6788.png] **War Funds**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Burst Erasure",
+                "text": [
+                    " Massive Fire damage to a foe.Inflict . "
+                ]
+            }
+        ]
+    },
+    "Inosuke": {
+        "DUO": [
+            {
+                "name": "Hinokami Kagura Dance",
+                "text": [
+                    "  Water damage to a foe.Raise Tanjiro's [Status 7012.png] **Kagura** lvl by 1 (Max: 5).( Bonus 999,999 plain damage to foe.) "
+                ]
+            }
+        ]
+    },
+    "Io": {
+        "GRAND": [
+            {
+                "name": "Crystal Gust",
+                "text": [
+                    "  Light damage to a foe. (Boost to C.A. damage and C.A. damage cap based on [Status Mystic Vortex 1.png] **Mystic Vortex** lvl.) based on [Status Mystic Vortex 1.png] **Mystic Vortex** lvl.Consumes all [Status Mystic Vortex 1.png] **Mystic Vortex** lvl. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Elemental Evolution",
+                "text": [
+                    "  Light damage to a foe. (Boost to C.A. damage and C.A. damage cap based on [Status Mystic Vortex 1.png] **Mystic Vortex** lvl.) based on [Status Mystic Vortex 1.png] **Mystic Vortex** lvl.Consumes all [Status Mystic Vortex 1.png] **Mystic Vortex** lvl.   Light damage to a foe. (Boost to C.A. damage and C.A. damage cap based on [Status Mystic Vortex 1.png] **Mystic Vortex** lvl.) based on [Status Mystic Vortex 1.png] **Mystic Vortex** lvl.Consumes 1 [Status Mystic Vortex 1.png] **Mystic Vortex** lvl. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Elemental Cascade",
+                "text": [
+                    " Massive Fire damage to a foe.All Fire allies gain [Status CriticalUpFire.png] **60% / 20% Critical Hit Rate Up**. "
+                ]
+            }
+        ]
+    },
+    "Isaac": {
+        "BASE": [
+            {
+                "name": "Handy-Dandy Excavation",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Shield.png] **Shield (6000)**.End cooldown for Thermal Blade. "
+                ]
+            }
+        ]
+    },
+    "Izmir": {
+        "BASE": [
+            {
+                "name": "Lyod Blast",
+                "text": [
+                    "  Water damage to a foe.Consumes all [Status Icy Blade1.png] **Icy Blade**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Metel' Blast",
+                "text": [
+                    "  Water damage to a foe.Consumes all [Status Icy Blade1.png] **Icy Blade**.   Water damage to a foe. All other Water allies gain 1 [Status 6976 1.png] **Dream Blade** (Max: 2). "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Lyod Blast",
+                "text": [
+                    " Massive Water damage to a foe.Consume all [Status Icy Blade1.png] **Icy Blade**. "
+                ]
+            }
+        ]
+    },
+    "Jeanne d'Arc": {
+        "BASE": [
+            {
+                "name": "Holy Spear Marte",
+                "text": [
+                    " Massive Light damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Holy Spear Marte ++",
+                "text": [
+                    " Massive Light damage to a foe.  Massive Light damage to a foe.All allies gain [Status LightAtkUp.png] **20% Light ATK Up** and [Status Dark Cut 20.png] **20% Dark Cut**. "
+                ]
+            }
+        ],
+        "DARK": [
+            {
+                "name": "Reverse Shift",
+                "text": [
+                    " Massive Dark damage to a foe.All allies gain [Status DarkAtkUp.png] **20% Dark ATK Up** and [Status Light Cut 20.png] **20% Light Cut**. "
+                ]
+            }
+        ],
+        "GRAND": [
+            {
+                "name": "Sauveur Eclatant",
+                "text": [
+                    "  Light damage to a foe.Gain [Status Holy Banner.png] **Holy Banner**. (Next Sanctify affects all allies.)End cooldown for Sanctify. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Fierte Jolie",
+                "text": [
+                    " Massive Wind damage to a foe.All allies gain [Status WindAtkUp.png] **20% Wind ATK Up** and [Status Earth Cut 20.png] **20% Earth Cut**. "
+                ]
+            }
+        ]
+    },
+    "Jessica": {
+        "YUKATA": [
+            {
+                "name": "Bluehendes Licht",
+                "text": [
+                    " Massive Earth damage to a foe.Inflict [Status Blind.png] **Blinded**.Remove 1 debuff from all allies. "
+                ]
+            }
+        ]
+    },
+    "Jin": {
+        "BASE": [
+            {
+                "name": "Blade of Enlightenment",
+                "text": [
+                    "  Earth damage to a foe. (Boost to C.A. specs based on [Status Martial Spirit.png] **Martial Spirit** lvl.)Gain [Status Uplift.png] **10% Uplifted**. "
+                ]
+            }
+        ]
+    },
+    "Joker": {
+        "BASE": [
+            {
+                "name": "All-Out Attack",
+                "text": [
+                    " Massive Dark damage to a foe (Boost to C.A. DMG based on how low foe's HP is). "
+                ]
+            }
+        ]
+    },
+    "Juliet": {
+        "BASE": [
+            {
+                "name": "Luce della Salvezza",
+                "text": [
+                    "  Light damage to a foe. Also deal 300% Bonus Light damage (Damage cap: ~635,000). "
+                ]
+            }
+        ],
+        "WATER": [
+            {
+                "name": "Luce dell'Amore",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Deluge Crest 1.png] **Deluge Crest**.( Also deal 300% Bonus Water damage [Damage cap: ~630,000].) "
+                ]
+            }
+        ]
+    },
+    "Juri": {
+        "DUO": [
+            {
+                "name": "Rending Twin Blades",
+                "text": [
+                    "  Light damage to a foe.(100% Bonus Light damage based on [Status 7093.png] **Deft Sword** lvl and [Status 7094.png] **Deft Shield** lvl [Damage cap: ~65,000 / Max: 10 hits].) "
+                ]
+            }
+        ]
+    },
+    "Kaede Takagaki": {
+        "BASE": [
+            {
+                "name": "Divine Breeze",
+                "text": [
+                    "  Wind damage to a foe.All allies gain [Status Heal.png] **Refresh**. "
+                ]
+            }
+        ]
+    },
+    "Kallen Kouzuki": {
+        "BASE": [
+            {
+                "name": "Radiant Wave Surger",
+                "text": [
+                    " Massive Fire damage to a foe. (Boost to C.A. specs based on [Status Radiant Wave 1.png] **Radiant Wave** lvl.)Self-inflict [Status DefenseDown.png] **30% DEF Down**.Reset [Status Radiant Wave 1.png] **Radiant Wave** lvl. "
+                ]
+            }
+        ]
+    },
+    "Karyl": {
+        "BASE": [
+            {
+                "name": "Grim Burst",
+                "text": [
+                    " Massive Dark damage to a foe.Gain [Status Chaos Grimoire.png] **Chaos Grimoire**. "
+                ]
+            }
+        ]
+    },
+    "Katalina": {
+        "GRAND": [
+            {
+                "name": "Blades of Diamond",
+                "text": [
+                    " Massive Water damage to a foe.All allies gain [Status WaterAtkUp.png] **30% Water ATK Up** and [Status DoubleUp.png] **30% DA Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Blades of Frost II",
+                "text": [
+                    " Massive Water damage to a foe.All allies gain [Status WaterAtkUp.png] **30% Water ATK Up** and [Status DoubleUp.png] **30% DA Up**.  Massive Water damage to a foe.All allies gain [Status WaterAtkUp.png] **30% Water ATK Up**, [Status DoubleUp.png] **30% DA Up**, and [Status TripleUp.png] **20% TA Up**. "
+                ]
+            }
+        ],
+        "PROMO": [
+            {
+                "name": "Blades of Peril",
+                "text": [
+                    " Massive Dark damage to a foe. "
+                ]
+            }
+        ]
+    },
+    "Katzelia": {
+        "BASE": [
+            {
+                "name": "Orbital Breeze",
+                "text": [
+                    "  Wind damage to a foe.All allies gain [Status EarthResUp.png] **20% Earth DMG Lowered** and [Status Earth Switch.png] **Earth Switch**. "
+                ]
+            }
+        ]
+    },
+    "Kokkoro": {
+        "BASE": [
+            {
+                "name": "Aurora",
+                "text": [
+                    " Restore 10% of all allies' HP (Healing cap: 2500).All allies gain [Status WindAtkUp.png] **25% Wind ATK Up** and [Status Spirits' Shelter.png] **Spirits' Shelter**. "
+                ]
+            }
+        ]
+    },
+    "Kolulu": {
+        "BASE": [
+            {
+                "name": "Stone Breaker",
+                "text": [
+                    " Massive Dark damage to a foe. (30% boost to C.A. damage and 10% boost to C.A. damage cap against foes with  effect.)Activate Tallyho. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Rumble Breaker",
+                "text": [
+                    "  Water damage to a foe. (30% boost to C.A. damage and 10% boost to C.A. damage cap against foes with  effect.)End cooldown for Sunburn. "
+                ]
+            }
+        ]
+    },
+    "Korwa": {
+        "BASE": [
+            {
+                "name": "Blanche Fil",
+                "text": [
+                    "  [Status Esprit.png] **Esprit**, [Status Astuce.png] **Astuce**, and [Status Col.png] **Col** buffs on all allies.(Consumes all [Status Fil1.png] **Fil**.) "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Blanche Fil",
+                "text": [
+                    " Restore 10% of Wind allies' HP (Healing cap: 2500).  All Wind allies gain [Status Bonus Damage.png] **10% Bonus Wind DMG**. Gain 3 [Status Fil1.png] **Fil** and 1 [Status Idea 1.png] **Idea**. "
+                ]
+            }
+        ]
+    },
+    "Kou": {
+        "BASE": [
+            {
+                "name": "Ebon Dance: Kage-Zakura",
+                "text": [
+                    " Massive Dark damage to a foe.Inflict [Status SA DMG Lowered 2.png] **20% Special Attack DMG Lowered**.Gain [Status Ake-Zakura.png] **Ake-Zakura**: Next Ninth Dance: Akezome affects all allies. "
+                ]
+            }
+        ]
+    },
+    "Kumbhira": {
+        "BASE": [
+            {
+                "name": "Gilded Heaven Strike",
+                "text": [
+                    " Massive Light damage to a foe.  Restore 20% of Kumbhira's HP (Healing cap: 4000).  Gain [Status Razorback Lance 1.png] **Razorback Lance**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Majestic Boarder",
+                "text": [
+                    "  Fire damage to a foe.End cooldown for Splashing Brilliance.Gain [Status Drain.png] **Drain**. "
+                ]
+            }
+        ]
+    },
+    "Kyojuro Rengoku": {
+        "BASE": [
+            {
+                "name": "Ninth Form: Rengoku",
+                "text": [
+                    "  Fire damage to a foe.End cooldown for First Form: Unknowing Fire.(Consumes [Status 7013.png] **Resolve** to activate.) "
+                ]
+            }
+        ]
+    },
+    "Ladiva": {
+        "SSR": [
+            {
+                "name": "Love-Serving Bomb",
+                "text": [
+                    " Massive Earth damage to a foe. (50% boost to C.A. damage and 20% boost to C.A. damage cap against foes with [Status Grapple.png] **Grapple**.)End Love Grapple's cooldown. "
+                ]
+            }
+        ]
+    },
+    "Lady Grey": {
+        "BASE": [
+            {
+                "name": "Forbidden Lover",
+                "text": [
+                    "  Dark damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Death March",
+                "text": [
+                    "  Dark damage to a foe.   Dark damage to a foe.400% Bonus Dark damage against a [Status Poison.png] **Poisoned** foe (Damage cap: ~630,000). "
+                ]
+            }
+        ],
+        "HALLOWEEN": [
+            {
+                "name": "Sweet Death Waltz",
+                "text": [
+                    " Massive Dark damage to a foe.All allies gain [Status Strength.png] **Strength**. "
+                ]
+            }
+        ]
+    },
+    "Lady Katapillar": {
+        "DUO": [
+            {
+                "name": "Rocket Punch",
+                "text": [
+                    " Massive Water damage to a foe.Inflict [Status DoubleDown.png] **30-40% DA Down**.Gain [Status Uplift.png] **10% Uplifted** for 3 turns. "
+                ]
+            }
+        ]
+    },
+    "Lamretta": {
+        "SSR": [
+            {
+                "name": "Lam Goes Wham",
+                "text": [
+                    "  Earth damage to a foe.Gain [Status Bonus Damage.png] **60% Bonus Earth DMG (1 time)**. "
+                ]
+            }
+        ]
+    },
+    "Lancelot": {
+        "BASE": [
+            {
+                "name": "Weissfluegel",
+                "text": [
+                    "  Water damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Weissfluegel ++",
+                "text": [
+                    "  Water damage to a foe.   Water damage to a foe. Gain [Status DoubleImpulse.png] **Double Impulse**. (Next use of Blade Impulse activates twice.) "
+                ]
+            }
+        ],
+        "DUO": [
+            {
+                "name": "Zwei Fluegel",
+                "text": [
+                    " Massive Fire damage to a foe.Activate Weiss Drachen. "
+                ]
+            }
+        ],
+        "WIND": [
+            {
+                "name": "Eidesfluegel",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. "
+                ]
+            }
+        ]
+    },
+    "Lecia": {
+        "GRAND": [
+            {
+                "name": "Twilight Blade",
+                "text": [
+                    " Massive Wind damage to a foe.Remove 1 buff from all foes. "
+                ]
+            }
+        ],
+        "WATER": [
+            {
+                "name": "Daybreak Sword",
+                "text": [
+                    "  Water damage to a foe.Replenish [Status 6804.png] **Enforcer's Zeal** by 2.Gain [Status Skill DMG Cap Up Stack.png] **20% Skill DMG Cap Up (Stackable / Max: 60%)**. "
+                ]
+            },
+            {
+                "name": "Ready... Aim...:Radiant Order",
+                "text": [
+                    "  Water damage to a foe.Replenish [Status 6804.png] **Enforcer's Zeal** by 2.Gain [Status Skill DMG Cap Up Stack.png] **20% Skill DMG Cap Up (Stackable / Max: 60%)**.   Water damage to a foe (Damage cap: ~2,900,000) and remove 3 buffs.(Consumes [Status 6805.png] **Ready... Aim...**) "
+                ]
+            }
+        ]
+    },
+    "Lelouch Lamperouge": {
+        "BASE": [
+            {
+                "name": "Hadron Cannon",
+                "text": [
+                    " Massive Dark damage to a foe.All allies gain [Status Uplift.png] **Charge Bar +10%**. "
+                ]
+            }
+        ]
+    },
+    "Lennah": {
+        "BASE": [
+            {
+                "name": "Le Jardin de Fleurs",
+                "text": [
+                    " Massive Wind damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:L'Enfer des Fleurs",
+                "text": [
+                    " Massive Wind damage to a foe.  Massive Wind damage to a foe.Inflict [Status Spirit Blossom 1.png] **Spirit Blossom** (Max lvl: 2). "
+                ]
+            }
+        ]
+    },
+    "Leona": {
+        "GRAND": [
+            {
+                "name": "Lion's Maw",
+                "text": [
+                    "  Earth damage to a foe.100% Bonus Earth damage to a foe based on [Status 6919.png] **Pride of One** lvl (Damage cap: ~130,000 per hit / Max: 5 hits).All allies gain [Status Keen.png] **Keen**. "
+                ]
+            }
+        ]
+    },
+    "Levi": {
+        "BASE": [
+            {
+                "name": "Klingenwirbel",
+                "text": [
+                    " Massive Wind damage to a foe. Boost to damage based on number of [Status Blade 1.png] **Blade** stacks. "
+                ]
+            }
+        ]
+    },
+    "Levin Sisters": {
+        "BASE": [
+            {
+                "name": "Lightning Strikes Thrice",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status TripleUp.png] **Guaranteed TA**. "
+                ]
+            }
+        ]
+    },
+    "Lilele": {
+        "BASE": [
+            {
+                "name": "Sparkling Performance",
+                "text": [
+                    " Massive Water damage to a foe.Inflict [Status Charm.png] **Charmed**. "
+                ]
+            }
+        ]
+    },
+    "Lily": {
+        "BASE": [
+            {
+                "name": "Frozen Vision",
+                "text": [
+                    " Massive Water damage to a foe.All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Frozen Bloom",
+                "text": [
+                    " Massive Water damage to a foe.All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**.  Massive Water damage to a foe. (50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with [Status Glaciate 1.png] **Glaciate**.)All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**. "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "Frozen Twinkle",
+                "text": [
+                    "  Light damage to a foe.Remove 1 debuff from all allies. "
+                ]
+            }
+        ]
+    },
+    "Lobelia": {
+        "BASE": [
+            {
+                "name": "L'Ouverture de la Douleur",
+                "text": [
+                    "  Earth damage to a foe.500% Bonus Earth damage (Damage cap: ~630,000). "
+                ]
+            }
+        ]
+    },
+    "Lucio": {
+        "BASE": [
+            {
+                "name": "Paradise Lost",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status LightAtkUp.png] **30% Light ATK Up** and [Status Crown of Ashes.png] **Crown of Ashes** (Next use of Out of the Ashes activates twice). "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Paradise Lost",
+                "text": [
+                    "  Water damage to a foe.All allies gain [Status Heal.png] **Refresh** and [Status Uplift.png] **10% Uplifted**. "
+                ]
+            }
+        ]
+    },
+    "Lucius": {
+        "SSR": [
+            {
+                "name": "Severing Swordsweep",
+                "text": [
+                    "  Dark damage to a foe.Inflict [Status Burned.png] **Burned (9000)**.Gain [Status Immolating Incision.png] **Immolating Incision** and [Status Rushing Riposte.png] **Rushing Riposte** (Next Whitefire Blade and Demon-Crush activate twice). "
+                ]
+            }
+        ]
+    },
+    "Lunalu": {
+        "SSR": [
+            {
+                "name": "Cataclysmic Storybook",
+                "text": [
+                    " Gain 1 [Status Page 1.png] **Page** stack.All allies gain [Status Uplift.png] **Charge Bar +10%**. "
+                ]
+            }
+        ]
+    },
+    "Macula Marius": {
+        "BASE": [
+            {
+                "name": "Jotunheim",
+                "text": [
+                    " Massive Water damage to a foe.Inflict [Status Crystallize 1.png] **Crystallize**.Restore 20% of all allies' HP (Healing cap: 1200). "
+                ]
+            }
+        ]
+    },
+    "Magisa": {
+        "BASE": [
+            {
+                "name": "Meteor Storm",
+                "text": [
+                    " Massive Fire damage to a foe. Inflict [Status FireResDown.png] **10% Fire DEF Down** on all foes. "
+                ]
+            },
+            {
+                "name": "Morax Summoned:Massive Meteor Storm",
+                "text": [
+                    " Massive Fire damage to a foe. Inflict [Status FireResDown.png] **10% Fire DEF Down** on all foes.  Massive Fire damage to a foe.Deal 300% bonus Fire damage to all foes (Damage cap: ~300,000). Inflict [Status FireResDown.png] **10% Fire DEF Down** on all foes. "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "Malleus Caelestis",
+                "text": [
+                    "  Earth damage to a foe.Activate O Holy Night Ray. "
+                ]
+            }
+        ]
+    },
+    "Mahira": {
+        "BASE": [
+            {
+                "name": "Gilded Heaven Strike",
+                "text": [
+                    "  Earth damage to a foe.All allies gain 5 stacks of [Status DrumBeats1.png] **Drum Beat**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Infowlible Insight",
+                "text": [
+                    "  Earth damage to a foe.All allies gain 5 stacks of [Status DrumBeats1.png] **Drum Beat**.   Earth damage to a foe.All allies gain 5 stacks of [Status DrumBeats1.png] **Drum Beat**.Extend [Status ZealOfTheFeather.png] **Zeal of the Feather**'s duration on all allies by 2 turns. "
+                ]
+            }
+        ]
+    },
+    "Malinda": {
+        "DUO": [
+            {
+                "name": "Drakenadem",
+                "text": [
+                    "  Water damage to a foe (Damage cap: ~2,160,000).Restore 20% of Vania and Malinda's HP (Healing cap: 1500).Consume 2 [Status 6798.png] **Dragon Fruit**.(Can only be used with 2 or more [Status 6798.png] **Dragon Fruit**) "
+                ]
+            }
+        ]
+    },
+    "Malluel (Summer)": {
+        "DUO": [
+            {
+                "name": "Pain Eternal",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Aurora Crest 1.png] **Aurora Crest**.( All allies also gain [Status Shield.png] **Shield (2000)**.) "
+                ]
+            }
+        ]
+    },
+    "Maria Theresa": {
+        "BASE": [
+            {
+                "name": "Nobile Convinzione",
+                "text": [
+                    "  Water damage to a foe. (50% boost to C.A. damage and 20% boost to C.A. damage cap against foes with [Status Unrighteousness (Local) 1.png] **Unrighteousness**.) "
+                ]
+            }
+        ]
+    },
+    "Marquiares": {
+        "BASE": [
+            {
+                "name": "Earth, Wind, and Fire",
+                "text": [
+                    " Massive Dark damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%**. "
+                ]
+            }
+        ]
+    },
+    "Mary": {
+        "HOLIDAY": [
+            {
+                "name": "Holy Star",
+                "text": [
+                    " Massive Light damage to a foe.Activate Snowdrop. "
+                ]
+            }
+        ]
+    },
+    "Medusa": {
+        "BASE": [
+            {
+                "name": "Supreme Medusiana",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (2 times)**. "
+                ]
+            }
+        ],
+        "PROMO": [
+            {
+                "name": "Petrifying Stare",
+                "text": [
+                    " Massive Earth damage to a foe.Inflict [Status Stared Stiff 1.png] **Stared Stiff** for . "
+                ]
+            }
+        ],
+        "VALENTINE": [
+            {
+                "name": "Magically Delicious Medusa",
+                "text": [
+                    "  Earth damage to a foe.Activate Magical Medusiana. "
+                ]
+            }
+        ]
+    },
+    "Melissabelle": {
+        "BASE": [
+            {
+                "name": "Capillus Ataxia",
+                "text": [
+                    " Massive Wind damage to a foe.2-turn cut to skill cooldown. "
+                ]
+            }
+        ],
+        "VALENTINE": [
+            {
+                "name": "Capillus Ataxia",
+                "text": [
+                    " Massive Light damage to a foe.Activate Get Over Hair. "
+                ]
+            }
+        ]
+    },
+    "Melleau": {
+        "BASE": [
+            {
+                "name": "Areus Prosbole",
+                "text": [
+                    "  Earth damage to a foe.Gain [Status TripleUp.png] **Guaranteed TA**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Akua Lanakila",
+                "text": [
+                    "  Earth damage to a foe.Gain [Status TripleUp.png] **Guaranteed TA**.   Earth damage to a foe.Activate Impelliteri.Gain [Status HealUp.png] **Recovery Cap Boosted (1000)**. "
+                ]
+            }
+        ]
+    },
+    "Meteon": {
+        "HOLIDAY": [
+            {
+                "name": "Sonic Celebration",
+                "text": [
+                    "  Wind damage to a foe.Raise [Status Comet 1.png] **Comet** lvl by 1 (Max: 2). "
+                ]
+            }
+        ]
+    },
+    "Metera": {
+        "BASE": [
+            {
+                "name": "Rapid Pulverize",
+                "text": [
+                    " Massive Wind damage to a foe.Gain 1 [Status Aetherial Shaft 1.png] **Aetherial Shaft** stack. (Next skill activates twice upon use.) "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Gleaming Pulverize",
+                "text": [
+                    " Massive Wind damage to a foe.Gain 1 [Status Aetherial Shaft 1.png] **Aetherial Shaft** stack. (Next skill activates twice upon use.)  Massive Wind damage to a foe.Gain 2 [Status Aetherial Shaft 1.png] **Aetherial Shaft** stacks. (Next skill activates twice upon use.) "
+                ]
+            }
+        ],
+        "FIRE": [
+            {
+                "name": "Dense Caress",
+                "text": [
+                    "  Fire damage to a foe.  200% Bonus Fire damage (Damage cap: ~700,000). "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "Dense Caress",
+                "text": [
+                    " Massive Light damage to a foe.  200% Bonus Light damage (Damage cap: ~580,000). "
+                ]
+            }
+        ]
+    },
+    "Mikazuki Munechika": {
+        "BASE": [
+            {
+                "name": "Mikazuki Munechika",
+                "text": [
+                    " Massive Light damage to a foe. Gain [Status DoubleUp.png] **100% DA Up**. "
+                ]
+            }
+        ]
+    },
+    "Milleore": {
+        "DUO": [
+            {
+                "name": "Velos Storm",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Dodge.png] **Dodge Rate Up**. "
+                ]
+            }
+        ]
+    },
+    "Mimlemel": {
+        "SUMMER": [
+            {
+                "name": "????",
+                "text": [
+                    "  Fire damage to a foe (Damage cap: ~2,420,000).Mimlemel faints. (Self-inflict [Status Stun.png] **Stunned**.) "
+                ]
+            }
+        ]
+    },
+    "Mimori Amamiya": {
+        "BASE": [
+            {
+                "name": "Fly, My Fairies!",
+                "text": [
+                    "  Wind damage to a foe.1-turn cut to Mimori's skill cooldowns. "
+                ]
+            }
+        ]
+    },
+    "Mireille": {
+        "DUO": [
+            {
+                "name": "Expiation",
+                "text": [
+                    "  Earth damage to a foe.Activate Force de la Sagesse. "
+                ]
+            }
+        ]
+    },
+    "Mirin": {
+        "HOLIDAY": [
+            {
+                "name": "Winter Winds, Rimy Conquest",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Counter.png] **Counters on Dodge (2 times)** and 1 [Status 7010.png] **Mikan Orange**. "
+                ]
+            }
+        ]
+    },
+    "Mishra": {
+        "SSR": [
+            {
+                "name": "Rune Sylphate",
+                "text": [
+                    "  Light damage to a foe.All allies gain [Status Revitalize.png] **Revitalize**. "
+                ]
+            }
+        ]
+    },
+    "Monika": {
+        "BASE": [
+            {
+                "name": "Violet Squallslash",
+                "text": [
+                    " Massive Wind damage to a foe.1-turn cut to Monika's skill cooldowns. "
+                ]
+            }
+        ],
+        "GRAND": [
+            {
+                "name": "Archon Squallchain",
+                "text": [
+                    " Massive Wind damage to a foe.Activate . "
+                ]
+            }
+        ],
+        "VALENTINE": [
+            {
+                "name": "Lovely Sky Hurricane",
+                "text": [
+                    "  Earth damage to a foe.End cooldown for Monika's skills.Activate . "
+                ]
+            }
+        ]
+    },
+    "Morrigna": {
+        "BASE": [
+            {
+                "name": "Triad Wings",
+                "text": [
+                    " Massive Wind damage to a foe.All allies gain [Status WindAtkUp.png] **20% Wind ATK Up** and [Status Earth Cut 20.png] **20% Earth Cut**. "
+                ]
+            }
+        ]
+    },
+    "Mugen": {
+        "BASE": [
+            {
+                "name": "Full-Swing Mugen",
+                "text": [
+                    "  Fire damage to a foe.End cooldown for Song of Innocence. "
+                ]
+            },
+            {
+                "name": "Rampage mode:Ballistic Big Boy",
+                "text": [
+                    "  Fire damage to a foe.End cooldown for Song of Innocence.   Fire damage to a foe (Damage cap: ~3,000,000). "
+                ]
+            }
+        ]
+    },
+    "Naoise": {
+        "BASE": [
+            {
+                "name": "Bogha Baisti",
+                "text": [
+                    "  Wind damage to a foe.All allies gain [Status WindAtkUp.png] **15% Wind ATK Up**, [Status DoubleUp.png] **15% DA Up**, and [Status TripleUp.png] **15% TA Up**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Areadbhar",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Lumen Lance.png] **Lumen Lance**. "
+                ]
+            }
+        ]
+    },
+    "Narmaya": {
+        "BASE": [
+            {
+                "name": "Dawnfly stance:Dawnfly Dance",
+                "text": [
+                    "  Dark damage to a foe.Gain [Status AttackUpStack.png] **15% ATK Up (Stackable / Max: 50%)**. "
+                ]
+            },
+            {
+                "name": "Freeflutter stance:Freeflutter Dance",
+                "text": [
+                    "  Dark damage to a foe.Gain [Status AttackUpStack.png] **15% ATK Up (Stackable / Max: 50%)**.   Dark damage to a foe.Remove [Status DefenseDown.png] **20% DEF Down** from Narmaya. "
+                ]
+            },
+            {
+                "name": "After 5\u2605 - Dawnfly stance:Dawnfly Dance II",
+                "text": [
+                    "  Dark damage to a foe.Gain [Status AttackUpStack.png] **15% ATK Up (Stackable / Max: 50%)**.   Dark damage to a foe.Remove [Status DefenseDown.png] **20% DEF Down** from Narmaya.   Dark damage to a foe.Gain [Status AttackUpStack.png] **15% ATK Up (Stackable / Max: 50%)** and [Status DarkAtkUp.png] **30% Dark ATK Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605 - Freeflutter stance:Freeflutter Dance II",
+                "text": [
+                    "  Dark damage to a foe.Gain [Status AttackUpStack.png] **15% ATK Up (Stackable / Max: 50%)**.   Dark damage to a foe.Remove [Status DefenseDown.png] **20% DEF Down** from Narmaya.   Dark damage to a foe.Gain [Status AttackUpStack.png] **15% ATK Up (Stackable / Max: 50%)** and [Status DarkAtkUp.png] **30% Dark ATK Up**.   Dark damage to a foe.Remove [Status DefenseDown.png] **20% DEF Down** from Narmaya.Gain [Status Mirror Image.png] **Mirror Image (2 times)**. "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "One with Nature",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (2 times)**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "True Self",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Dodge 1.png] **Dodge All (1 time)**. "
+                ]
+            }
+        ]
+    },
+    "Nectar": {
+        "BASE": [
+            {
+                "name": "Heavenly Piercer",
+                "text": [
+                    "  Wind damage to a foe (Damage cap: ~2,900,000).Extend [Status 7072.png] **Mana Flow**'s duration by 2 turns.(Can only be used during [Status 7072.png] **Mana Flow**.) "
+                ]
+            }
+        ]
+    },
+    "Nemone": {
+        "BASE": [
+            {
+                "name": "Gaia Zimos",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status DoubleUp.png] **DA Up**. "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "Gaia Dora",
+                "text": [
+                    " Massive Fire damage to a foe.Special buffs to all allies based on my Nemo Power!(All allies gain [Status 7008.png] **Gilded by Gaia**. Boost to effect based on [Status 7009 10.png] **Nemo Power**.) "
+                ]
+            }
+        ]
+    },
+    "New Generations": {
+        "BASE": [
+            {
+                "name": "Miracle Revolution",
+                "text": [
+                    "  Light damage to a foe.End cooldown for New Generations's linked skills. "
+                ]
+            }
+        ]
+    },
+    "Nezahualpilli": {
+        "BASE": [
+            {
+                "name": "Sol Ruptura",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Sol Ruptura ++",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%**.  Massive Wind damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%** and [Status Bonus Damage.png] **20% Bonus Wind DMG**. "
+                ]
+            }
+        ]
+    },
+    "Nicholas": {
+        "BASE": [
+            {
+                "name": "Infinistrike",
+                "text": [
+                    " Massive Dark damage to a foe. Gain [Status Octoblade.png] **Octoblade**: Next Bio Blade deals damage twice. "
+                ]
+            }
+        ],
+        "LIGHT": [
+            {
+                "name": "Normal mode:Hyper Lightning Slash",
+                "text": [
+                    "  Light damage to a foe.Activate Hyper Gigante Blade. "
+                ]
+            },
+            {
+                "name": "Grand God Kaiser mode:Kaiser Catastronesis",
+                "text": [
+                    "  Light damage to a foe.Activate Hyper Gigante Blade.   Light damage to a foe (Damage cap: ~6,600,000).Also deal 70% Fire, Water, Earth, Wind, and Dark damage (Damage cap: ~270,000 each).Gain [Status Defiance.png] **50% Sharp ATK Up (1 time)**. "
+                ]
+            }
+        ]
+    },
+    "Nier": {
+        "BASE": [
+            {
+                "name": "Klagen Totentanz",
+                "text": [
+                    "  Dark damage to a foe. Boost to C.A. specs based on how low [Status Love's Redemption 13.png] **Love's Redemption** is. "
+                ]
+            }
+        ]
+    },
+    "Nina Drango": {
+        "BASE": [
+            {
+                "name": "Normal form:Bounty Bind",
+                "text": [
+                    " Massive Fire damage to a foe. "
+                ]
+            },
+            {
+                "name": "Dragon form:Line of Fire",
+                "text": [
+                    " Massive Fire damage to a foe.  Massive Fire damage to a foe.Gain [Status TripleUp.png] **Guaranteed TA**. "
+                ]
+            }
+        ]
+    },
+    "Niyon": {
+        "BASE": [
+            {
+                "name": "Nebulosa Frojd",
+                "text": [
+                    "  Wind damage to a foe.100% bonus Wind damage to all foes (Damage cap: ~200,000). Inflict [Status Charm.png] **Charmed** on all foes. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Vintergatan Svala",
+                "text": [
+                    "  Wind damage to a foe.100% bonus Wind damage to all foes (Damage cap: ~200,000). Inflict [Status Charm.png] **Charmed** on all foes.   Wind damage to a foe.100% bonus Wind damage to all foes (Damage cap: ~200,000). Inflict [Status Charm.png] **Charmed** on all foes.Extend the duration of [Status Harmonics.png] **Harmonics** and [Status Sharping.png] **Sharping** on all allies by 3 turns. "
+                ]
+            }
+        ]
+    },
+    "Noa": {
+        "GRAND": [
+            {
+                "name": "Sacred Globe",
+                "text": [
+                    "  Light damage to a foe.All allies gain [Status DoubleUp.png] **30% DA Up** and [Status Uplift.png] **30% Charge Bar Gain Up**. "
+                ]
+            }
+        ]
+    },
+    "Olivia": {
+        "BASE": [
+            {
+                "name": "Dark Fallen Sword",
+                "text": [
+                    "  Dark damage to a foe.Gain [Status DarkAtkUp.png] **30% Dark ATK Up** and [Status Soul Blades.png] **Soul Blades**. (Next use of Peccatum Mortale activates twice.) "
+                ]
+            }
+        ]
+    },
+    "Orchid": {
+        "BASE": [
+            {
+                "name": "Endbringer",
+                "text": [
+                    "  Dark damage to a foe.Fully recover [Status Puppet Strings.png] **Puppet Strings**' shield endurance. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Verdict Bringer",
+                "text": [
+                    "  Dark damage to a foe.Fully recover [Status Puppet Strings.png] **Puppet Strings**' shield endurance.   Dark damage to a foe.Fully recover [Status Puppet Strings.png] **Puppet Strings**' shield endurance.End cooldown for Oblivion. "
+                ]
+            }
+        ]
+    },
+    "Orchis": {
+        "DUO": [
+            {
+                "name": "Obsidian Moonlight",
+                "text": [
+                    "  Dark damage to a foe.Activate Drain. "
+                ]
+            }
+        ]
+    },
+    "Pecorine": {
+        "BASE": [
+            {
+                "name": "Princess Strike",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Armored.png] **100% / 30% Armored**. "
+                ]
+            }
+        ]
+    },
+    "Pengy": {
+        "SSR": [
+            {
+                "name": "Ultimate Colorful Special",
+                "text": [
+                    "  Earth damage to a foe. ( based on [Status 6912.png] **P-EN**.)Consumes all [Status 6912.png] **P-EN**. "
+                ]
+            }
+        ]
+    },
+    "Percival": {
+        "BASE": [
+            {
+                "name": "Lohenwolf",
+                "text": [
+                    "  Fire damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Lohenwolf ++",
+                "text": [
+                    "  Fire damage to a foe.   Fire damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%** and [Status Anzuenden.png] **Anzuenden**. (Next use of Zerreissen activates twice.) "
+                ]
+            }
+        ],
+        "LIGHT": [
+            {
+                "name": "Edelflamme",
+                "text": [
+                    "  Light damage to a foe.End cooldown for Koenig Wurde. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Lohenwolf",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status Anzuenden.png] **Anzuenden**. (Next use of Zerreissen activates twice.) "
+                ]
+            }
+        ]
+    },
+    "Petra": {
+        "SSR": [
+            {
+                "name": "Oblivion of the Winds",
+                "text": [
+                    " Massive Wind damage to a foe.All Wind allies gain [Status CriticalUpWind.png] **??% / 20% Critical Hit Rate Up**. "
+                ]
+            }
+        ]
+    },
+    "Pholia": {
+        "BASE": [
+            {
+                "name": "Elegant Ruby",
+                "text": [
+                    " Massive Water damage to a foe.All allies gain [Status Shield.png] **Shield (2000)**.Fully recover [Status White Veil.png] **White Veil**'s endurance. "
+                ]
+            }
+        ]
+    },
+    "Predator": {
+        "SSR": [
+            {
+                "name": "Thousand Claws",
+                "text": [
+                    "  Dark damage to a foe.Gain [Status Counter.png] **Counters on Dodge (2 times)**. "
+                ]
+            }
+        ]
+    },
+    "Rackam": {
+        "GRAND": [
+            {
+                "name": "Demolishing Drive",
+                "text": [
+                    " Massive Fire damage to a foe.All allies gain [Status FireAtkUp.png] **30% Fire ATK Up** and [Status DoubleUp.png] **30% DA Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Naval Strike",
+                "text": [
+                    " Massive Fire damage to a foe.All allies gain [Status FireAtkUp.png] **30% Fire ATK Up** and [Status DoubleUp.png] **30% DA Up**.  Massive Fire damage to a foe.All allies gain  [Status FireAtkUp.png] **30% Fire ATK Up**, [Status DoubleUp.png] **30% DA Up**, and [Status CriticalUp.png] **80% / 20% Critical Hit Rate Up**. "
+                ]
+            }
+        ]
+    },
+    "Razia": {
+        "BASE": [
+            {
+                "name": "Seismische Welle",
+                "text": [
+                    " Massive Earth damage to a foe. Gain 3 [Status Flash Point 1.png] **Flash Point** stacks. "
+                ]
+            }
+        ]
+    },
+    "Rei": {
+        "BASE": [
+            {
+                "name": "Clairvoyant Bliss",
+                "text": [
+                    " Remove 1 buff from a foe.Inflict [Status 6803.png] **Celestial Vision**, [Status DebuffResDown.png] **15% Debuff Res. Down**, [Status LightAtkDown.png] **30% Light ATK Down**, [Status DoubleDown.png] **100% DA Down**, and [Status TripleDown.png] **30% TA Down**. "
+                ]
+            }
+        ]
+    },
+    "Reinhardtzar": {
+        "GRAND": [
+            {
+                "name": "Infernal Ignition",
+                "text": [
+                    "  Fire damage to a foe.Gain [Status 6856.png] **Allegiance**. (Next Cloak of Flame affects all allies.)1-turn cut to Cloak of Flame's cooldown. "
+                ]
+            }
+        ]
+    },
+    "Renie": {
+        "DUO": [
+            {
+                "name": "Hollow Blast",
+                "text": [
+                    " Massive Dark damage to a foe.Restore 20% of caster's HP (Healing cap: 2000).Remove 3 [Status Lone Wolf Scar 1.png] **Lone Wolf Scar** stacks. "
+                ]
+            }
+        ]
+    },
+    "Risette": {
+        "DUO": [
+            {
+                "name": "Expiation",
+                "text": [
+                    "  Earth damage to a foe.Activate Force de la Sagesse. "
+                ]
+            }
+        ]
+    },
+    "Robomi": {
+        "BASE": [
+            {
+                "name": "Hyper Sonic Smasher",
+                "text": [
+                    "  Light damage to a foe (Damage cap: ~2,150,000). Uses 3 [Status Power Cells (Robomi) 1.png] **Power Cells**.(Can only be used when [Status Power Cells (Robomi) 1.png] **Power Cells** are at 3 or above.) "
+                ]
+            }
+        ]
+    },
+    "Romeo": {
+        "BASE": [
+            {
+                "name": "Alba di Verona",
+                "text": [
+                    "  Water damage to a foe. ( Also deal 300% Bonus Water damage [Damage cap: ~630,000].) "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Sole di Verona",
+                "text": [
+                    "  Water damage to a foe. ( Also deal 300% Bonus Water damage [Damage cap: ~630,000].)   Water damage to a foe.Gain [Status Skill DMG Cap Up Stack.png] **10% Skill DMG Cap Up (Stackable / Max: 30%)**.Activate Lama Acuta. "
+                ]
+            }
+        ]
+    },
+    "Rosamia": {
+        "SSR": [
+            {
+                "name": "Talismancy: Void Strike",
+                "text": [
+                    "  Light damage to a foe.  400% Bonus Light damage to enemy if [Status CursedMask.png] **Curse of the Mask** is active (Damage cap: ~1,160,000).  Self-inflict [Status CursedMask.png] **Curse of the Mask** for 4 turns. "
+                ]
+            }
+        ],
+        "YUKATA": [
+            {
+                "name": "Talismancy: Radiant Strike",
+                "text": [
+                    "  Light damage to a foe.End cooldown for Fireblossom Talisman.Gain [Status Aurora Crest 1.png] **Aurora Crest**. "
+                ]
+            }
+        ]
+    },
+    "Rosetta": {
+        "GRAND": [
+            {
+                "name": "Endless Rose",
+                "text": [
+                    " Massive Wind damage to a foe. All allies gain [Status DebuffSuccessUp.png] **20% Debuff Success Boosted**. Gain [Status DefenseUp.png] **20% DEF Up**. "
+                ]
+            }
+        ],
+        "HALLOWEEN": [
+            {
+                "name": "Phantom Rose",
+                "text": [
+                    "  Water damage to a foe.Restore 5 [Status 6982.png] **Petals of Sapphire**. "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "Sullen Rose",
+                "text": [
+                    " Massive Dark damage to a foe.All allies gain [Status Armored.png] **70% / 30% Armored**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Seaside Rose",
+                "text": [
+                    " Massive Earth damage to a foe.Inflict [Status Poison.png] **Poisoned (20000)** and [Status Charm.png] **Charmed**. "
+                ]
+            }
+        ]
+    },
+    "Sahli Lao": {
+        "DUO": [
+            {
+                "name": "Velos Storm",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Dodge.png] **Dodge Rate Up**. "
+                ]
+            }
+        ]
+    },
+    "Sakura Kinomoto": {
+        "BASE": [
+            {
+                "name": "Windy",
+                "text": [
+                    " Inflict [Status 1241 31.png] **Chains of Binding** and [Status DoubleDown.png] **100% DA Down** on a foe.All other allies gain [Status Uplift.png] **Charge Bar +10%**. "
+                ]
+            }
+        ]
+    },
+    "Sandalphon": {
+        "BASE": [
+            {
+                "name": "Ain Soph Aur",
+                "text": [
+                    "  Earth damage to a foe.Gain [Status 7039.png] **Blessed**. (Next Ecliptica activates twice.) "
+                ]
+            }
+        ],
+        "EVENT": [
+            {
+                "name": "Ain Soph Aur",
+                "text": [
+                    " Massive Light damage to a foe.Inflict [Status Bell of War 1.png] **Bell of War**.Also gain [Status White Wing.png] **White Wing**. "
+                ]
+            },
+            {
+                "name": "If White WingNext charge attack changes to Paradise Lost (Can't be removed) is active:Paradise Lost",
+                "text": [
+                    " Massive Light damage to a foe.Inflict [Status Bell of War 1.png] **Bell of War**.Also gain [Status White Wing.png] **White Wing**.  Massive Light damage to a foe.Inflict [Status Bell of War 1.png] **Bell of War**.Consume [Status White Wing.png] **White Wing**.Gain [Status LightAtkUp.png] **40% Light ATK Up**, [Status Bonus Damage.png] **40% Bonus Light DMG**, and [Status Eden's Exile.png] **Eden's Exile**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Ain Soph Aur",
+                "text": [
+                    " Massive Water damage to a foe.Inflict [Status Bell of War 1.png] **Bell of War**. All allies also gain [Status Bonus Damage.png] **10% Bonus Water DMG**. "
+                ]
+            }
+        ]
+    },
+    "Sara": {
+        "BASE": [
+            {
+                "name": "Post-Trauma",
+                "text": [
+                    " Massive Earth damage to a foe.All allies except Sara gain [Status Shield.png] **Shield (1200)**. "
+                ]
+            }
+        ],
+        "LIGHT": [
+            {
+                "name": "Cor Fidelis",
+                "text": [
+                    " Massive Light damage to a foe.Remove all debuffs from Sara. (Tonitrua activates when not debuffed.) "
+                ]
+            }
+        ]
+    },
+    "Sarunan": {
+        "BASE": [
+            {
+                "name": "Innocent Desire",
+                "text": [
+                    " Massive Light damage to a foe.All allies gain [Status LightAtkUp.png] **25% Light ATK Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Eternal Desire",
+                "text": [
+                    " Massive Light damage to a foe.All allies gain [Status LightAtkUp.png] **25% Light ATK Up**.  Massive Light damage to a foe.All allies gain [Status LightAtkUp.png] **25% Light ATK Up**.Gain [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)** and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**. "
+                ]
+            }
+        ],
+        "DARK": [
+            {
+                "name": "Dissonant Desire",
+                "text": [
+                    " Massive Dark damage to a foe. Gain [Status Jammed.png] **Jammed**. "
+                ]
+            }
+        ]
+    },
+    "Satyr": {
+        "BASE": [
+            {
+                "name": "Pheltronan",
+                "text": [
+                    "  Fire damage to a foe.Gain 2 [Status 68851.png] **Twinkle Star**. "
+                ]
+            }
+        ]
+    },
+    "Scathacha": {
+        "BASE": [
+            {
+                "name": "Cloich Tabaill",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Dragon's Fury.png] **Dragon's Fury**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Lia Talma",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Dragon's Fury.png] **Dragon's Fury**.  Massive Wind damage to a foe.Gain [Status Dragon's Fury.png] **Dragon's Fury**.End Power Seeker's cooldown. "
+                ]
+            }
+        ],
+        "VALENTINE": [
+            {
+                "name": "Tathlum Flambe",
+                "text": [
+                    " Massive Fire damage to a foe.Gain 1 [Status 67781.png] **Sprinkles**.All allies gain [Status Jammed.png] **Jammed**. "
+                ]
+            }
+        ]
+    },
+    "Selfira": {
+        "BASE": [
+            {
+                "name": "Symphonie Reveuse",
+                "text": [
+                    " Massive Wind damage to a foe.  All allies gain [Status Revitalize.png] **Revitalize**. "
+                ]
+            }
+        ]
+    },
+    "Sen": {
+        "SSR": [
+            {
+                "name": "Kitty-Cat Hurricane Slash",
+                "text": [
+                    " Massive Wind damage to a foe. (Boost to C.A. specs based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl.) Also gain [Status Bonus Damage.png] **30% Bonus Wind DMG**. "
+                ]
+            }
+        ]
+    },
+    "Seofon": {
+        "BASE": [
+            {
+                "name": "Diez Mil Espadas",
+                "text": [
+                    " Massive Wind damage to a foe.All allies gain [Status AttackUp.png] **30% ATK Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Cien Mil Espadas",
+                "text": [
+                    " Massive Wind damage to a foe.All allies gain [Status AttackUp.png] **30% ATK Up**.  Massive Wind damage to a foe.All allies gain [Status AttackUp.png] **30% ATK Up**.Seofon gains [Status Repel.png] **Unchallenged (1 time)**. "
+                ]
+            }
+        ]
+    },
+    "Seox": {
+        "BASE": [
+            {
+                "name": "Void Claws: Terminus",
+                "text": [
+                    " Massive Dark damage to a foe.Gain [Status Mirror Image.png] **Mirror Image (2 times)**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Three Thousand and One Talons",
+                "text": [
+                    " Massive Dark damage to a foe.Gain [Status Mirror Image.png] **Mirror Image (2 times)**.  Massive Dark damage to a foe.Gain [Status Mirror Image.png] **Mirror Image (2 times)** and [Status Dodge 1.png] **Dodge All (1 time)**. "
+                ]
+            }
+        ],
+        "EVENT": [
+            {
+                "name": "Empty Hand, Enlightened Fist",
+                "text": [
+                    "  Dark damage to a foe.Gain [Status Dodge 1.png] **Dodge All (1 time)**.( 30% boost to C.A. damage and 10% boost to C.A. damage cap.) "
+                ]
+            }
+        ]
+    },
+    "Seruel": {
+        "BASE": [
+            {
+                "name": "Redbranch Cycle",
+                "text": [
+                    "  Light damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Redbranch Cycle ++",
+                "text": [
+                    "  Light damage to a foe.   Light damage to a foe.All Light allies gain [Status CriticalUpLight.png] **70% / 20% Critical Hit Rate Up**. "
+                ]
+            }
+        ],
+        "HOLIDAY": [
+            {
+                "name": "Ibormeith Solas",
+                "text": [
+                    " Massive Wind damage to a foe.All allies gain [Status Shield.png] **Shield (2000)**.Seruel gains [Status Typhoon Crest 1.png] **Typhoon Crest**. "
+                ]
+            }
+        ]
+    },
+    "Shinobu Kocho": {
+        "BASE": [
+            {
+                "name": "Butterfly Dance: Caprice",
+                "text": [
+                    "  Wind damage to a foe. (30% boost to C.A. damage and 10% boost to C.A. damage cap against foes with [Status Poison.png] **Poisoned**.)Slight chance to inflict [Status Death.png] **Lethal Hit**. "
+                ]
+            }
+        ]
+    },
+    "Shitori": {
+        "BASE": [
+            {
+                "name": "Thunderous Star Piercer",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%**. "
+                ]
+            }
+        ]
+    },
+    "Shiva": {
+        "BASE": [
+            {
+                "name": "Awaken Inner Eye",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status Defiance.png] **25% ATK Up (1 time)** and [Status Inner Eye.png] **Inner Eye**. "
+                ]
+            },
+            {
+                "name": "If Inner EyeNext charge attack's DMG and DMG cap will be boosted (Can't be removed)Strength: 190% C.A. DMG Up, 90% C.A. DMG Cap Up is active:Mahakala",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status Defiance.png] **25% ATK Up (1 time)** and [Status Inner Eye.png] **Inner Eye**.  Massive Fire damage to a foe.Consume [Status Inner Eye.png] **Inner Eye**. "
+                ]
+            }
+        ]
+    },
+    "Shura": {
+        "BASE": [
+            {
+                "name": "Florescent Gale",
+                "text": [
+                    "  Water damage to a foe (Damage cap: ~2,400,000).Gain [Status 3100.png] **Aquablossom**.(Consumes [Status 6851.png] **Flourishing Prowess** instead of charge bar to activate.) "
+                ]
+            }
+        ]
+    },
+    "Siegfried": {
+        "BASE": [
+            {
+                "name": "Schwarze Faenge",
+                "text": [
+                    "  Earth damage to a foe.Bonus Earth damage to foe in Break mode. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Schwarze Faenge ++",
+                "text": [
+                    "  Earth damage to a foe.Bonus Earth damage to foe in Break mode.   Earth damage to a foe.400% Bonus Earth damage (Damage cap: ~635,000). "
+                ]
+            }
+        ],
+        "FIRE": [
+            {
+                "name": "Gewaltfaenge",
+                "text": [
+                    " Massive Fire damage to a foe.Activate Verdrangen.Restore 20% of Siegfried's HP (Healing cap: 1500). "
+                ]
+            }
+        ],
+        "YUKATA": [
+            {
+                "name": "Schwarze Faenge",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Nothung.png] **Black Dragon Claw**. "
+                ]
+            }
+        ]
+    },
+    "Silva": {
+        "BASE": [
+            {
+                "name": "Funeral Bullet",
+                "text": [
+                    " Massive Water damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Burying Bullet",
+                "text": [
+                    " Massive Water damage to a foe.  Massive Water damage to a foe.Gain [Status Dodge.png] **20% Dodge Rate Up**.2-turn cut to Silva's skill cooldowns. "
+                ]
+            }
+        ],
+        "LIGHT": [
+            {
+                "name": "Zeruch Shot",
+                "text": [
+                    " Massive Light damage to a foe. (50% boost to C.A. damage and 20% boost to C.A. damage cap against foes with [Status Weak Point 1.png] **Weak Point**.)Gain [Status Uplift.png] **Charge Bar +20%**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Zeruch Shot",
+                "text": [
+                    "  Earth damage to a foe and remove 1 buff.Inflict [Status Gravity.png] **Delay**. "
+                ]
+            }
+        ]
+    },
+    "Societte": {
+        "BASE": [
+            {
+                "name": "Alabaster Dance: Tenka",
+                "text": [
+                    "  Water damage to a foe.Gain [Status 4013.png] **Yonagi Rite**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Alabaster Dance: Houjou",
+                "text": [
+                    "  Water damage to a foe.Gain [Status 4013.png] **Yonagi Rite**.   Water damage to a foe.Gain [Status 4013.png] **Yonagi Rite**.All allies gain [Status Mirror Image.png] **Mirror Image (1 time)**. "
+                ]
+            }
+        ],
+        "FIRE": [
+            {
+                "name": "Alabaster Dance: Zuika",
+                "text": [
+                    " Massive Fire damage to a foe. All allies gain [Status Bonus Damage.png] **10% Bonus Fire DMG**. "
+                ]
+            }
+        ],
+        "WIND": [
+            {
+                "name": "Purification Dance: Jouka",
+                "text": [
+                    " Massive Wind damage to a foe.Inflict [Status Foxflame 3.png] **Foxflame**.(Restores 20% HP of allies with [Status Nasori Rite.png] **Nasori Rite** [Healing cap: 2500].) "
+                ]
+            }
+        ]
+    },
+    "Sophia": {
+        "BASE": [
+            {
+                "name": "Lebensstrahl",
+                "text": [
+                    " Restore 10% of all allies' HP (Healing cap: 2500). All allies gain [Status LightAtkUp.png] **25% Light ATK Up**, [Status DarkResUp.png] **20% Dark DMG Lowered**, and  [Status Uplift.png] **10% Uplifted**. "
+                ]
+            }
+        ]
+    },
+    "Soriz": {
+        "SSR": [
+            {
+                "name": "Tectonic Rush",
+                "text": [
+                    "  Earth damage to a foe. Gain [Status Strength.png] **Strength**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
+                "text": [
+                    "  Earth damage to a foe. Gain [Status Strength.png] **Strength**.   Earth damage to a foe.Gain [Status Strength.png] **Strength** and [Status 6952.png] **Fundoshi Fist**. "
+                ]
+            }
+        ]
+    },
+    "Stan": {
+        "DUO": [
+            {
+                "name": "Flaming Tempest",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**.[Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1.( Buff increased to [Status Bonus Damage.png] **50% Bonus Wind DMG**.) "
+                ]
+            }
+        ]
+    },
+    "Sturm": {
+        "BASE": [
+            {
+                "name": "The Walker",
+                "text": [
+                    "  Water damage to a foe.Inflict [Status Burned.png] **Burned (9000)**, [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**, and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**. "
+                ]
+            }
+        ],
+        "GRAND": [
+            {
+                "name": "Hell's Angel",
+                "text": [
+                    " Massive Fire damage to a foe.Gain [Status Double Blitz.png] **Double Blitz**. (Next Blitzkrieg activates twice.) "
+                ]
+            }
+        ]
+    },
+    "Sutera": {
+        "SSR": [
+            {
+                "name": "Piercing Wind Shear",
+                "text": [
+                    "  Wind damage to a foe.All allies gain [Status DamageCapUp.png] **10% DMG Cap Up (1 time)**. "
+                ]
+            }
+        ]
+    },
+    "Suzaku Kururugi": {
+        "BASE": [
+            {
+                "name": "Curse of Geass",
+                "text": [
+                    " Massive Wind damage to a foe. (50% boost to C.A. damage and 40% boost to C.A. damage cap when [Status Geass of Absolute Obedience Active.png] **Geass of Absolute Obedience (Active)** is in effect.)End MVS's cooldown. "
+                ]
+            }
+        ]
+    },
+    "Tabina": {
+        "BASE": [
+            {
+                "name": "Raqsat Al-Habi",
+                "text": [
+                    " Massive Fire damage to a foe. (40% boost to C.A. damage and 20% boost to C.A. damage cap against foes with [Status Eayan Al-Ramal 1.png] **Eayan Al-Ramal**.)Extend [Status Eayan Al-Ramal 1.png] **Eayan Al-Ramal**'s duration by 2 turns. "
+                ]
+            }
+        ]
+    },
+    "Tanjiro, Nezuko, Zenitsu,": {
+        "DUO": [
+            {
+                "name": "Hinokami Kagura Dance",
+                "text": [
+                    "  Water damage to a foe.Raise Tanjiro's [Status 7012.png] **Kagura** lvl by 1 (Max: 5).( Bonus 999,999 plain damage to foe.) "
+                ]
+            }
+        ]
+    },
+    "Tanya": {
+        "SSR": [
+            {
+                "name": "Raven's Shadow",
+                "text": [
+                    " Massive Dark damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%** and 2 [Status Knife 1.png] **Knife**. "
+                ]
+            }
+        ]
+    },
+    "Teena": {
+        "SUMMER": [
+            {
+                "name": "Lambent Flame",
+                "text": [
+                    "  Fire damage to a foe.Gain [Status Hellfire Crest 1.png] **Hellfire Crest**, [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)**, and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**. "
+                ]
+            }
+        ]
+    },
+    "Therese": {
+        "SSR": [
+            {
+                "name": "Maelstrom Blaze",
+                "text": [
+                    " Massive Fire damage to a foe. Gain [Status Uplift.png] **Charge Bar +10%**. "
+                ]
+            }
+        ]
+    },
+    "Threo": {
+        "BASE": [
+            {
+                "name": "Axe form:Astro Divergence",
+                "text": [
+                    "  Earth damage to a foe.Swap to Sword form. "
+                ]
+            },
+            {
+                "name": "Sword form:Meteor Thrust",
+                "text": [
+                    "  Earth damage to a foe.Swap to Sword form.   Earth damage to a foe.Deal 999,999 bonus plain damage.Swap to Axe form. "
+                ]
+            },
+            {
+                "name": "After 5\u2605 - Axe form:Astro Destruction",
+                "text": [
+                    "  Earth damage to a foe.Swap to Sword form.   Earth damage to a foe.Deal 999,999 bonus plain damage.Swap to Axe form.   Earth damage to a foe.Gain [Status EarthAtkUp.png] **20% Earth ATK Up**.Swap to Sword form. "
+                ]
+            },
+            {
+                "name": "After 5\u2605 - Sword form:Annihilation Nova",
+                "text": [
+                    "  Earth damage to a foe.Swap to Sword form.   Earth damage to a foe.Deal 999,999 bonus plain damage.Swap to Axe form.   Earth damage to a foe.Gain [Status EarthAtkUp.png] **20% Earth ATK Up**.Swap to Sword form.   Earth damage to a foe.Deal  bonus plain damage.Swap to Axe form. "
+                ]
+            },
+            {
+                "name": "After Stage 1 Transcendence - Axe form:Origin Breaker",
+                "text": [
+                    "  Earth damage to a foe.Swap to Sword form.   Earth damage to a foe.Deal 999,999 bonus plain damage.Swap to Axe form.   Earth damage to a foe.Gain [Status EarthAtkUp.png] **20% Earth ATK Up**.Swap to Sword form.   Earth damage to a foe.Deal  bonus plain damage.Swap to Axe form.   Earth damage to a foe and remove 1 buff.Gain [Status EarthAtkUp.png] **20% Earth ATK Up**.Swap to Sword form. "
+                ]
+            },
+            {
+                "name": "After Stage 1 Transcendence - Sword form:Regression to Zero",
+                "text": [
+                    "  Earth damage to a foe.Swap to Sword form.   Earth damage to a foe.Deal 999,999 bonus plain damage.Swap to Axe form.   Earth damage to a foe.Gain [Status EarthAtkUp.png] **20% Earth ATK Up**.Swap to Sword form.   Earth damage to a foe.Deal  bonus plain damage.Swap to Axe form.   Earth damage to a foe and remove 1 buff.Gain [Status EarthAtkUp.png] **20% Earth ATK Up**.Swap to Sword form.   Earth damage to a foe.Deal  bonus plain damage.Swap to Axe form. "
+                ]
+            }
+        ]
+    },
+    "Tiamat": {
+        "BASE": [
+            {
+                "name": "Aerial Blitz",
+                "text": [
+                    "  Wind damage to a foe.Gain [Status TripleUp.png] **100% TA Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Tempest",
+                "text": [
+                    "  Wind damage to a foe.Gain [Status TripleUp.png] **100% TA Up**.   Wind damage to a foe.Gain [Status TripleUp.png] **100% TA Up** and [Status Typhoon Crest 1.png] **Typhoon Crest**. "
+                ]
+            }
+        ]
+    },
+    "Tien": {
+        "BASE": [
+            {
+                "name": "Danza Macabra",
+                "text": [
+                    " Massive Fire damage to a foe.Inflict [Status Blind.png] **Blinded**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Danza Cremazione",
+                "text": [
+                    " Massive Fire damage to a foe.Inflict [Status Blind.png] **Blinded**.  Massive Fire damage to a foe.Inflict [Status Red Spider Lily.png] **Red Spider Lily**.All allies gain [Status Skill DMG Cap Up.png] **20% Skill DMG Cap Up**. "
+                ]
+            }
+        ]
+    },
+    "Tsubasa": {
+        "BASE": [
+            {
+                "name": "Red Heat Crash",
+                "text": [
+                    " Massive Fire damage to a foe.All allies gain [Status FireAtkUp.png] **25% Fire ATK Up**. "
+                ]
+            }
+        ]
+    },
+    "Tweyen": {
+        "BASE": [
+            {
+                "name": "Astral Howser",
+                "text": [
+                    "  Light damage to a foe.Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed**.) "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Asteroid Jaeger",
+                "text": [
+                    "  Light damage to a foe.Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed**.)   Light damage to a foe.Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed**.)All allies gain [Status CriticalUp.png] **100% / 50% Critical Hit Rate Up**. "
+                ]
+            },
+            {
+                "name": "After Stage 1 Transcendence:Stellar Termination",
+                "text": [
+                    "  Light damage to a foe.Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed**.)   Light damage to a foe.Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed**.)All allies gain [Status CriticalUp.png] **100% / 50% Critical Hit Rate Up**.   Light damage to a foe.Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed** and deals damage twice.)All allies gain [Status CriticalUp.png] **100% / 50% Critical Hit Rate Up**.End cooldown for Clincher. "
+                ]
+            }
+        ]
+    },
+    "Vajra": {
+        "BASE": [
+            {
+                "name": "Gilded Heaven Strike",
+                "text": [
+                    "  Water damage to a foe.  All allies gain 1 [Status Loyalty Eternal 0.png] **Loyalty Eternal** stack. (Effect enhanced for each stack.) "
+                ]
+            },
+            {
+                "name": "After 5\u2605: Dogged Innocence",
+                "text": [
+                    "  Water damage to a foe.  All allies gain 1 [Status Loyalty Eternal 0.png] **Loyalty Eternal** stack. (Effect enhanced for each stack.)   Water damage to a foe and remove 1 buff.  All allies gain 1 [Status Loyalty Eternal 0.png] **Loyalty Eternal** stack. (Effect enhanced for each stack.) "
+                ]
+            }
+        ]
+    },
+    "Vane": {
+        "DUO": [
+            {
+                "name": "Zwei Fluegel",
+                "text": [
+                    " Massive Fire damage to a foe.Activate Weiss Drachen. "
+                ]
+            }
+        ],
+        "SSR": [
+            {
+                "name": "Loewenbein: Jagd",
+                "text": [
+                    " 450% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Loewenbein: Jagd ++",
+                "text": [
+                    " 450% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**.  500% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**.Gain [Status 4038.png] **Double Beat**. (Next Heroic Beat activates twice.) "
+                ]
+            }
+        ]
+    },
+    "Vania": {
+        "BASE": [
+            {
+                "name": "Purification by Blood",
+                "text": [
+                    " Massive Dark damage to a foe. (50% boost to C.A. damage against foes with [Status Charm.png] **Charmed**.) "
+                ]
+            },
+            {
+                "name": "After 5\u2605: Bloody Absorption",
+                "text": [
+                    " Massive Dark damage to a foe. (50% boost to C.A. damage against foes with [Status Charm.png] **Charmed**.)  Massive Dark damage to a foe. (50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with [Status Charm.png] **Charmed**.)Gain 2 [Status Vampyr Drop 1.png] **Vampyr Drop** (Max: 2). "
+                ]
+            }
+        ],
+        "DUO": [
+            {
+                "name": "Drakenadem",
+                "text": [
+                    "  Water damage to a foe (Damage cap: ~2,160,000).Restore 20% of Vania and Malinda's HP (Healing cap: 1500).Consume 2 [Status 6798.png] **Dragon Fruit**.(Can only be used with 2 or more [Status 6798.png] **Dragon Fruit**) "
+                ]
+            }
+        ]
+    },
+    "Vaseraga": {
+        "BASE": [
+            {
+                "name": "Bloody Moon",
+                "text": [
+                    " Massive Dark damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Carnage Moon",
+                "text": [
+                    " Massive Dark damage to a foe.  Massive Dark damage to a foe.Gain [Status Aubade Grynoth.png] **Aubade Grynoth**. "
+                ]
+            }
+        ],
+        "EARTH": [
+            {
+                "name": "Savage Rampage",
+                "text": [
+                    " Massive Earth damage to a foe. Gain [Status To the Bone.png] **To the Bone** (Next use of Batallions of Fear deals 300%-1400% damage [Damage cap: ~1,500,000]). "
+                ]
+            }
+        ],
+        "FIRE": [
+            {
+                "name": "Destroy Moon",
+                "text": [
+                    "  Fire damage to a foe.End cooldown for No Pain.Restore 30% of Vaseraga's HP.(Can only be used when below 25% HP.) "
+                ]
+            }
+        ]
+    },
+    "Vaseraga (Halloween)": {
+        "DUO": [
+            {
+                "name": "Abyssal Wall",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (2 times)**. "
+                ]
+            }
+        ]
+    },
+    "Veight": {
+        "BASE": [
+            {
+                "name": "Bleeding Edge",
+                "text": [
+                    " Massive Dark damage to a foe.Gain [Status Dodge.png] **10% Dodge Rate Up**. "
+                ]
+            },
+            {
+                "name": "Inner Fire",
+                "text": [
+                    " 6-hit Dark damage to random foes (Damage cap: ~120,000 per hit).Inflict [Status DoubleDown.png] **DA Down** and [Status TripleDown.png] **TA Down** on all foes.Damage increased to 100% per hit. "
+                ]
+            },
+            {
+                "name": "Noble Blood",
+                "text": [
+                    " 6-hit Dark damage to random foes (Damage cap: ~120,000 per hit).Inflict [Status DoubleDown.png] **DA Down** and [Status TripleDown.png] **TA Down** on all foes.Damage increased to 100% per hit.  Gain [Status VeightAwaken 2.png] **Awakening**, When damaged twice, [Status VeightAwaken 2.png] **Awakening** is removed and Veight self-inflicts [Status VeightBacklash.png] **Backlash** for 1 turn. "
+                ]
+            },
+            {
+                "name": "Scarlet Slayer",
+                "text": [
+                    " 6-hit Dark damage to random foes (Damage cap: ~120,000 per hit).Inflict [Status DoubleDown.png] **DA Down** and [Status TripleDown.png] **TA Down** on all foes.Damage increased to 100% per hit.  Gain [Status VeightAwaken 2.png] **Awakening**, When damaged twice, [Status VeightAwaken 2.png] **Awakening** is removed and Veight self-inflicts [Status VeightBacklash.png] **Backlash** for 1 turn.  Fill 1  on a foe.If successful, all allies gain [Status Defiance.png] **20% C.A. DMG Up**. "
+                ]
+            }
+        ]
+    },
+    "Vikala": {
+        "BASE": [
+            {
+                "name": "Gilded Heaven Strike",
+                "text": [
+                    "  Dark damage to a foe.Gain [Status Dodge 1.png] **Dodge All (1 time)**. "
+                ]
+            }
+        ]
+    },
+    "Vira": {
+        "DUO": [
+            {
+                "name": "Rocket Punch",
+                "text": [
+                    " Massive Water damage to a foe.Inflict [Status DoubleDown.png] **30-40% DA Down**.Gain [Status Uplift.png] **10% Uplifted** for 3 turns. "
+                ]
+            }
+        ],
+        "GRAND": [
+            {
+                "name": "Iliad Vision",
+                "text": [
+                    " Massive Light damage to a foe. Restore 6 [Status Bit 1.png] **Bit** stacks. "
+                ]
+            }
+        ],
+        "PROMO": [
+            {
+                "name": "Blades of Ardor",
+                "text": [
+                    " Massive Fire damage to a foe.1-turn cut to Vira's skill cooldown. "
+                ]
+            }
+        ],
+        "SSR": [
+            {
+                "name": "Overpower",
+                "text": [
+                    "  Dark damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Overpower ++",
+                "text": [
+                    "  Dark damage to a foe.   Dark damage to a foe. "
+                ]
+            },
+            {
+                "name": "Luminiera Merge:Affection Abyss",
+                "text": [
+                    "  Dark damage to a foe.   Dark damage to a foe.  500% Dark damage to a foe (Damage cap: ~1,685,000) and; 250% Light damage to a foe (Damage cap: ~350,000).1-turn cut to Vira's skill cooldowns. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Frantic Thrust",
+                "text": [
+                    " 400% Earth damage to a foe (Damage cap: ~1,685,000) and; 250% Dark damage to a foe (Damage cap: ~350,000).Inflict [Status Charm 2.png] **Charmed**.2-turn cut to Vira's skill cooldown. "
+                ]
+            }
+        ],
+        "WIND": [
+            {
+                "name": "Ancillary Destruction",
+                "text": [
+                    " Massive Wind damage to a foe.Activate Nitro Force. "
+                ]
+            }
+        ]
+    },
+    "Wulf": {
+        "DUO": [
+            {
+                "name": "Hollow Blast",
+                "text": [
+                    " Massive Dark damage to a foe.Restore 20% of caster's HP (Healing cap: 2000).Remove 3 [Status Lone Wolf Scar 1.png] **Lone Wolf Scar** stacks. "
+                ]
+            }
+        ]
+    },
+    "Yggdrasil": {
+        "BASE": [
+            {
+                "name": "Axis Mundi",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%**. "
+                ]
+            }
+        ]
+    },
+    "Yngwie": {
+        "BASE": [
+            {
+                "name": "Normal mode:Red Hot Guardian",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Uplift.png] **Charge Bar +50%**.Switch into Tough Guy mode. "
+                ]
+            },
+            {
+                "name": "After 5\u2605 - Normal mode:Red Hot Guardian ++",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Uplift.png] **Charge Bar +50%**.Switch into Tough Guy mode.   Water damage to a foe.Gain [Status Uplift.png] **Charge Bar +50%** and [Status TripleUp.png] **Guaranteed TA**.Switch into Tough Guy mode. "
+                ]
+            },
+            {
+                "name": "Tough Guy mode:Full Metal Sights",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Uplift.png] **Charge Bar +50%**.Switch into Tough Guy mode.   Water damage to a foe.Gain [Status Uplift.png] **Charge Bar +50%** and [Status TripleUp.png] **Guaranteed TA**.Switch into Tough Guy mode.   Water damage to a foe.End Tough Guy mode. "
+                ]
+            },
+            {
+                "name": "After 5\u2605 - Tough Guy mode:Full Metal Cannon",
+                "text": [
+                    "  Water damage to a foe.Gain [Status Uplift.png] **Charge Bar +50%**.Switch into Tough Guy mode.   Water damage to a foe.Gain [Status Uplift.png] **Charge Bar +50%** and [Status TripleUp.png] **Guaranteed TA**.Switch into Tough Guy mode.   Water damage to a foe.End Tough Guy mode.   Water damage to a foe.End Tough Guy mode. "
+                ]
+            }
+        ]
+    },
+    "Yodarha": {
+        "SSR": [
+            {
+                "name": "Ultimate Flash",
+                "text": [
+                    " Massive Water damage to a foe. Consumes all remaining [Status TripleShroud1.png] **Triple Shrouded** and deals 333,333 plain damage for each Triple Shroud consumed (Max: 999,999). "
+                ]
+            }
+        ],
+        "WIND": [
+            {
+                "name": "Swift Judgment",
+                "text": [
+                    "  Wind damage to a foe.Gain [Status Bonus Damage.png] **Bonus Wind DMG** based on number of [Status 1414 1.png] **Triple Shroud**. "
+                ]
+            }
+        ]
+    },
+    "Yuel": {
+        "BASE": [
+            {
+                "name": "Rise of the Blood-Moon",
+                "text": [
+                    " Massive Fire damage to a foe. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Crimson Dance: Yugetsu",
+                "text": [
+                    " Massive Fire damage to a foe.  Massive Fire damage to a foe.Gain [Status DamageCapUp.png] **15% DMG Cap Up**, [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)**, and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Crimson Dance: Hanaarashi",
+                "text": [
+                    " Massive Wind damage to a foe.All allies gain [Status Bonus Damage.png] **10% Bonus Wind DMG**.Deal 999,999 bonus Plain damage to a foe with [Status Foxflame 1.png] **Foxflame**. "
+                ]
+            }
+        ],
+        "WATER": [
+            {
+                "name": "Crimson Dance: Rinnen-aratame",
+                "text": [
+                    " Massive Water damage to a foe.Inflict [Status DefenseDown.png] **15% DEF Down** and . "
+                ]
+            }
+        ]
+    },
+    "Yuisis": {
+        "BASE": [
+            {
+                "name": "Starslayer mode:Skyblade Starslayer",
+                "text": [
+                    " 450% Wind damage to a foe.Gain [Status Drain.png] **Drain**.Raise [Status Chivalry1.png] **Chivalry** lvl by 1. "
+                ]
+            },
+            {
+                "name": "Heavensbane mode:Skyblade Heavensbane",
+                "text": [
+                    " 450% Wind damage to a foe.Gain [Status Drain.png] **Drain**.Raise [Status Chivalry1.png] **Chivalry** lvl by 1.  450% Wind damage to a foe.Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**.Raise [Status Chivalry1.png] **Chivalry** lvl by 1. "
+                ]
+            }
+        ],
+        "FIRE": [
+            {
+                "name": "Skyblade Shadowstitch",
+                "text": [
+                    "  Fire damage to a foe.Gain [Status Jammed.png] **Jammed**. Also gain [Status Shield.png] **Shield (3000)**. "
+                ]
+            }
+        ]
+    },
+    "Yurius": {
+        "BASE": [
+            {
+                "name": "Duke Lamina",
+                "text": [
+                    " Massive Wind damage to a foe.Gain [Status Uplift.png] **Charge Bar +20%**. "
+                ]
+            }
+        ]
+    },
+    "Zahlhamelina": {
+        "BASE": [
+            {
+                "name": "Alexander Plasma",
+                "text": [
+                    " Massive Fire damage to a foe. (50% boost to C.A. damage and 20% boost to C.A. damage cap when the field effect [Status Flare.png] **Flare** is active.)All allies gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**. "
+                ]
+            }
+        ]
+    },
+    "Zehek": {
+        "SSR": [
+            {
+                "name": "Valiant Edge",
+                "text": [
+                    "  Dark damage to a foe.  Activate Blade of Evil's Seal.  Gain [Status Drain.png] **Drain**. "
+                ]
+            }
+        ]
+    },
+    "Zeta": {
+        "BASE": [
+            {
+                "name": "Resolute Strike",
+                "text": [
+                    "  Fire damage to a foe.Gain [Status CriticalUp.png] **70% / 20% Critical Hit Rate Up**. "
+                ]
+            },
+            {
+                "name": "After 5\u2605:Sirius Roar",
+                "text": [
+                    "  Fire damage to a foe.Gain [Status CriticalUp.png] **70% / 20% Critical Hit Rate Up**.   Fire damage to a foe. (50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with [Status Arvess Fermare 1.png] **Arvess Fermare**.) Gain [Status CriticalUp.png] **70% / 20% Critical Hit Rate Up**. "
+                ]
+            }
+        ],
+        "DARK": [
+            {
+                "name": "Solar Spike",
+                "text": [
+                    " Massive Dark damage to a foe.All allies gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**. "
+                ]
+            }
+        ],
+        "DUO": [
+            {
+                "name": "Abyssal Wall",
+                "text": [
+                    " Massive Earth damage to a foe.Gain [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (2 times)**. "
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "name": "Resolute Strike",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Uplift.png] **30% Charge Bar Gain Up**. "
+                ]
+            }
+        ],
+        "WATER": [
+            {
+                "name": "Sirius Nova: Last Dive",
+                "text": [
+                    "  Water damage to a foe (Damage cap: ~2,420,000).Gain [Status Uplift.png] **Charge Bar +30%**.Activate Spear of Arvess.(Consumes 15% of max HP.) "
+                ]
+            }
+        ]
+    },
+    "Zooey": {
+        "BASE": [
+            {
+                "name": "Gamma Ray",
+                "text": [
+                    " Massive Light damage to a foe.Gain [Status Shield.png] **Shield (2000)**. "
+                ]
+            }
+        ],
+        "GRAND": [
+            {
+                "name": "Gamma Ray",
+                "text": [
+                    "  Dark damage to a foe. "
+                ]
+            }
+        ],
+        "PROMO": [
+            {
+                "name": "Gamma Ray",
+                "text": [
+                    " Massive Light damage to a foe.Remove [Status AggroUpArrow.png] **Hostility Up (Stackable)** caused by Spinning Slash. "
+                ]
+            }
+        ]
+    },
+    "\u00ce\u0153's First-Years": {
+        "BASE": []
+    },
+    "\u00ce\u0153's Second-Years": {
+        "BASE": []
+    },
+    "\u00ce\u0153's Third-Years": {
+        "BASE": []
+    }
 }
