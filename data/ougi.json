@@ -112,7 +112,7 @@
             {
                 "name": "Flaming Tempest",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. [Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1. ( Buff increased to [Status Bonus Damage.png] **50% Bonus Wind DMG**. )"
+                    "Massive Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. [Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1. (When [Status Steel and Dust 1.png] **Steel & Dust** is at 5: Buff increased to [Status Bonus Damage.png] **50% Bonus Wind DMG**. )"
                 ]
             }
         ]
@@ -500,7 +500,7 @@
             {
                 "name": "Ars Magna",
                 "text": [
-                    "Massive Dark damage to a foe. Boost to C. A. specs based on number of [Status Oblivion Crest.png] **Oblivion Crest**. All allies also gain [Status Uplift.png] **Charge Bar +10%**."
+                    "Massive Dark damage to a foe. Boost to C. A. specs based on number of [Status Oblivion Crest.png] **Oblivion Crest**. From 8th turn onward: All allies also gain [Status Uplift.png] **Charge Bar +10%**."
                 ]
             }
         ],
@@ -630,7 +630,7 @@
             {
                 "name": "Phantom Thief",
                 "text": [
-                    "Massive Water damage to a foe. ()"
+                    "Massive Water damage to a foe. (Forewarning or Riddle gives 'em a show they'll never forget!)"
                 ]
             }
         ]
@@ -686,7 +686,7 @@
             {
                 "name": "Alkahest Sphere",
                 "text": [
-                    "Massive Dark damage to a foe. Inflict [Status Gravity.png] **Delay**. Also deal 999,999 plain damage."
+                    "Massive Dark damage to a foe. Inflict [Status Gravity.png] **Delay**. From 10th turn onward: Also deal 999,999 plain damage."
                 ]
             }
         ]
@@ -768,7 +768,7 @@
             {
                 "name": "Capricieux Avalanche",
                 "text": [
-                    "Massive Earth damage to a foe (Boost to damage based on how high HP is). 500% Bonus Earth damage (Damage cap: ~630,000)."
+                    "Massive Earth damage to a foe (Boost to damage based on how high HP is). Additional effect when 1 [Status Black Cat Fancy 1.png] **Black Cat Fancy** is consumed: 500% Bonus Earth damage (Damage cap: ~630,000)."
                 ]
             }
         ]
@@ -956,13 +956,13 @@
             {
                 "name": "Acidrage Howl",
                 "text": [
-                    "450% Dark damage to a foe. Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**. Reset [Status Loaded0.png] **Loaded** lvl. 300% Bonus Dark damage (Damage cap: ~630,000)."
+                    "450% Dark damage to a foe. Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**. Reset [Status Loaded0.png] **Loaded** lvl. When [Status Aubade du Flamek.png] **Aubade du Flamek** is consumed: 300% Bonus Dark damage (Damage cap: ~630,000)."
                 ]
             },
             {
                 "name": "After 5\u2605:Dead-End Fall",
                 "text": [
-                    "500% Dark damage to a foe. Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**. 2-turn cut to Eustace's skill cooldowns. Reset [Status Loaded0.png] **Loaded** lvl. Bonus Dark damage based on [Status Loaded0.png] **Loaded** lvl."
+                    "500% Dark damage to a foe. Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**. 2-turn cut to Eustace's skill cooldowns. Reset [Status Loaded0.png] **Loaded** lvl. When [Status Aubade du Flamek.png] **Aubade du Flamek** is consumed: Bonus Dark damage based on [Status Loaded0.png] **Loaded** lvl."
                 ]
             }
         ],
@@ -1132,7 +1132,7 @@
             {
                 "name": "Capricieux Avalanche",
                 "text": [
-                    "Massive Earth damage to a foe (Boost to damage based on how high HP is). 500% Bonus Earth damage (Damage cap: ~630,000)."
+                    "Massive Earth damage to a foe (Boost to damage based on how high HP is). Additional effect when 1 [Status Black Cat Fancy 1.png] **Black Cat Fancy** is consumed: 500% Bonus Earth damage (Damage cap: ~630,000)."
                 ]
             }
         ]
@@ -1282,7 +1282,7 @@
             {
                 "name": "Pain Eternal",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Aurora Crest 1.png] **Aurora Crest**. ( All allies also gain [Status Shield.png] **Shield (2000)**. )"
+                    "Massive Light damage to a foe. Gain [Status Aurora Crest 1.png] **Aurora Crest**. (When [Status Limiter Break.png] **Limiter Break** is in effect: All allies also gain [Status Shield.png] **Shield (2000)**. )"
                 ]
             }
         ]
@@ -1328,7 +1328,7 @@
             {
                 "name": "Mercenary Blade",
                 "text": [
-                    "450% Earth damage to a foe. Activate Stalwart Sword without consuming [Status 68491.png] **Steadfast** lvl."
+                    "450% Earth damage to a foe. When [Status 68491.png] **Steadfast** lvl is 5 or above: Activate Stalwart Sword without consuming [Status 68491.png] **Steadfast** lvl."
                 ]
             }
         ]
@@ -1348,7 +1348,7 @@
             {
                 "name": "Kill the City",
                 "text": [
-                    "450% Fire damage to a foe. Gain 1 [Status 6864.png] **Piece**. ( All additional effects activate. Consumes all [Status 68643.png] **Piece**. )"
+                    "450% Fire damage to a foe. Gain 1 [Status 6864.png] **Piece**. (When at 3 [Status 6864.png] **Piece**: All additional effects activate. Consumes all [Status 68643.png] **Piece**. )"
                 ]
             }
         ]
@@ -1384,7 +1384,7 @@
             {
                 "name": "Hinokami Kagura Dance",
                 "text": [
-                    "450% Water damage to a foe. Raise Tanjiro's [Status 7012.png] **Kagura** lvl by 1 (Max: 5). ( Bonus 999,999 plain damage to foe. )"
+                    "450% Water damage to a foe. Raise Tanjiro's [Status 7012.png] **Kagura** lvl by 1 (Max: 5). (When consuming 5 [Status 7012.png] **Kagura** lvls: Bonus 999,999 plain damage to foe. )"
                 ]
             }
         ]
@@ -1434,7 +1434,7 @@
             {
                 "name": "After 5\u2605:Metel' Blast",
                 "text": [
-                    "500% Water damage to a foe. All other Water allies gain 1 [Status 6976 1.png] **Dream Blade** (Max: 2)."
+                    "500% Water damage to a foe. When 5 [Status Icy Blade1.png] **Icy Blade** is consumed: All other Water allies gain 1 [Status 6976 1.png] **Dream Blade** (Max: 2)."
                 ]
             }
         ],
@@ -1522,7 +1522,7 @@
             {
                 "name": "Luce della Salvezza",
                 "text": [
-                    "450% Light damage to a foe. Also deal 300% Bonus Light damage (Damage cap: ~635,000)."
+                    "450% Light damage to a foe. When 1 [Status Spirit Shroud 1.png] **Spirit Shroud** is consumed: Also deal 300% Bonus Light damage (Damage cap: ~635,000)."
                 ]
             }
         ],
@@ -1530,7 +1530,7 @@
             {
                 "name": "Luce dell'Amore",
                 "text": [
-                    "450% Water damage to a foe. Gain [Status Deluge Crest 1.png] **Deluge Crest**. ( Also deal 300% Bonus Water damage [Damage cap: ~630,000]. )"
+                    "450% Water damage to a foe. Gain [Status Deluge Crest 1.png] **Deluge Crest**. (When 1 [Status Spirit Shroud 1.png] **Spirit** is consumed: Also deal 300% Bonus Water damage [Damage cap: ~630,000]. )"
                 ]
             }
         ]
@@ -2006,7 +2006,7 @@
             {
                 "name": "Pain Eternal",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Aurora Crest 1.png] **Aurora Crest**. ( All allies also gain [Status Shield.png] **Shield (2000)**. )"
+                    "Massive Light damage to a foe. Gain [Status Aurora Crest 1.png] **Aurora Crest**. (When [Status Limiter Break.png] **Limiter Break** is in effect: All allies also gain [Status Shield.png] **Shield (2000)**. )"
                 ]
             }
         ]
@@ -2130,7 +2130,7 @@
             {
                 "name": "Dense Caress",
                 "text": [
-                    "450% Fire damage to a foe. 200% Bonus Fire damage (Damage cap: ~700,000)."
+                    "450% Fire damage to a foe. Consume 1 [Status Aetherial Seal1.png] **Aetherial Seal**: 200% Bonus Fire damage (Damage cap: ~700,000)."
                 ]
             }
         ],
@@ -2138,7 +2138,7 @@
             {
                 "name": "Dense Caress",
                 "text": [
-                    "Massive Light damage to a foe. 200% Bonus Light damage (Damage cap: ~580,000)."
+                    "Massive Light damage to a foe. Consume 1 [Status Aetherial Seal (Holiday) 1.png] **Aetherial Seal**: 200% Bonus Light damage (Damage cap: ~580,000)."
                 ]
             }
         ]
@@ -2656,7 +2656,7 @@
             {
                 "name": "Alba di Verona",
                 "text": [
-                    "450% Water damage to a foe. ( Also deal 300% Bonus Water damage [Damage cap: ~630,000]. )"
+                    "450% Water damage to a foe. (When 1 [Status Spirit1.png] **Spirit** is consumed: Also deal 300% Bonus Water damage [Damage cap: ~630,000]. )"
                 ]
             },
             {
@@ -2690,7 +2690,7 @@
             {
                 "name": "Endless Rose",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status DebuffSuccessUp.png] **20% Debuff Success Boosted**. Gain [Status DefenseUp.png] **20% DEF Up**."
+                    "Massive Wind damage to a foe. If Rose Barrier is released: All allies gain [Status DebuffSuccessUp.png] **20% Debuff Success Boosted**. If Rose Barrier is active: Gain [Status DefenseUp.png] **20% DEF Up**."
                 ]
             }
         ],
@@ -2766,7 +2766,7 @@
             {
                 "name": "Ain Soph Aur",
                 "text": [
-                    "Massive Water damage to a foe. Inflict [Status Bell of War 1.png] **Bell of War**. All allies also gain [Status Bonus Damage.png] **10% Bonus Water DMG**."
+                    "Massive Water damage to a foe. Inflict [Status Bell of War 1.png] **Bell of War**. Consume 1 [Status Coffee Break.png] **Coffee Break**: All allies also gain [Status Bonus Damage.png] **10% Bonus Water DMG**."
                 ]
             }
         ]
@@ -2862,7 +2862,7 @@
             {
                 "name": "Kitty-Cat Hurricane Slash",
                 "text": [
-                    "Massive Wind damage to a foe. (Boost to C. A. specs based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl. ) Also gain [Status Bonus Damage.png] **30% Bonus Wind DMG**."
+                    "Massive Wind damage to a foe. (Boost to C. A. specs based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl. )When [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl is 5: Also gain [Status Bonus Damage.png] **30% Bonus Wind DMG**."
                 ]
             }
         ]
@@ -2902,7 +2902,7 @@
             {
                 "name": "Empty Hand, Enlightened Fist",
                 "text": [
-                    "450% Dark damage to a foe. Gain [Status Dodge 1.png] **Dodge All (1 time)**. ( 30% boost to C. A. damage and 10% boost to C. A. damage cap. )"
+                    "450% Dark damage to a foe. Gain [Status Dodge 1.png] **Dodge All (1 time)**. (When Seox has [Status 6790.png] **Savage Claw** or [Status 6790 2.png] **Feral Intuition**: 30% boost to C. A. damage and 10% boost to C. A. damage cap. )"
                 ]
             }
         ]
@@ -3104,7 +3104,7 @@
             {
                 "name": "Flaming Tempest",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. [Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1. ( Buff increased to [Status Bonus Damage.png] **50% Bonus Wind DMG**. )"
+                    "Massive Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. [Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1. (When [Status Steel and Dust 1.png] **Steel & Dust** is at 5: Buff increased to [Status Bonus Damage.png] **50% Bonus Wind DMG**. )"
                 ]
             }
         ]
@@ -3162,7 +3162,7 @@
             {
                 "name": "Hinokami Kagura Dance",
                 "text": [
-                    "450% Water damage to a foe. Raise Tanjiro's [Status 7012.png] **Kagura** lvl by 1 (Max: 5). ( Bonus 999,999 plain damage to foe. )"
+                    "450% Water damage to a foe. Raise Tanjiro's [Status 7012.png] **Kagura** lvl by 1 (Max: 5). (When consuming 5 [Status 7012.png] **Kagura** lvls: Bonus 999,999 plain damage to foe. )"
                 ]
             }
         ]
@@ -3606,7 +3606,7 @@
             {
                 "name": "Skyblade Shadowstitch",
                 "text": [
-                    "450% Fire damage to a foe. Gain [Status Jammed.png] **Jammed**. Also gain [Status Shield.png] **Shield (3000)**."
+                    "450% Fire damage to a foe. Gain [Status Jammed.png] **Jammed**. When below 25% HP: Also gain [Status Shield.png] **Shield (3000)**."
                 ]
             }
         ]
