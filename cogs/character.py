@@ -75,11 +75,9 @@ class Character(commands.Cog):
 
             #Ougi embed
             ougiEmbed = discord.Embed()
-            ougiDescription = ''
             for ougiList in charOugi:
                 for ougiText in ougiList["text"]:
-                    ougiDescription += ougiText + '\n'
-                    ougiEmbed.add_field(name=f'**{ougiList["name"]}**:', value=ougiDescription, inline=False)
+                    ougiEmbed.add_field(name=f'**{ougiList["name"]}**:', value=f'{ougiText} \n', inline=False)
             ougiEmbed.title="Charge Attack"
             ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
             ougiEmbed.set_image(url=charVersion['image'])

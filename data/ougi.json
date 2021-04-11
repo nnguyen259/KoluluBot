@@ -14,7 +14,7 @@
             {
                 "name": "Final Dawn",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status Armored.png] **100% / 80% Armored** for ."
+                    "Massive Fire damage to a foe. Gain <:status_armored:828382023776206888> **100% / 80% Armored** for ."
                 ]
             }
         ]
@@ -24,7 +24,7 @@
             {
                 "name": "Silberne Welt",
                 "text": [
-                    "450% Water damage to a foe. (20% boost to C.A. specs when affected by [Status WaterAtkUp.png] **Water ATK Up**. )Restore 20% of Aglovale's HP (Healing cap: 2000)."
+                    "450% Water damage to a foe. (20% boost to C.A. specs when affected by <:status_water_atkup:830500414494998618> **Water ATK Up**. )Restore 20% of Aglovale's HP (Healing cap: 2000)."
                 ]
             }
         ],
@@ -32,7 +32,7 @@
             {
                 "name": "Gefrorene Welt",
                 "text": [
-                    "450% Light damage to a foe. 1-turn cut to Aglovale's skill cooldowns. 100% Bonus Light damage to a foe for each [Status Aurora Crest.png] **Aurora Crest** (Damage cap: ~120,000 per hit / Max: 5 hits)."
+                    "450% Light damage to a foe. 1-turn cut to Aglovale's skill cooldowns. 100% Bonus Light damage to a foe for each <:status_aurora_crest:828399668513341490> **Aurora Crest** (Damage cap: ~120,000 per hit / Max: 5 hits)."
                 ]
             }
         ]
@@ -52,13 +52,13 @@
             {
                 "name": "Lord of Blitz",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Light DMG**."
+                    "Massive Light damage to a foe. Gain <:status_bonus_damage:830500415844909056> **20% Bonus Light DMG**."
                 ]
             },
             {
                 "name": "After 5\u2605:Levin Annihilation",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Bonus Damage.png] **30% Bonus Light DMG** and [Status Lightning's Judgment.png] **Lightning's Judgment** (Next use of Electron Blade activates twice)."
+                    "Massive Light damage to a foe. Gain <:status_bonus_damage:830500415844909056> **30% Bonus Light DMG** and [Status Lightning's Judgment.png] **Lightning's Judgment** (Next use of Electron Blade activates twice)."
                 ]
             }
         ],
@@ -66,7 +66,7 @@
             {
                 "name": "Levin Barrage",
                 "text": [
-                    "450% Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. Raise [Status 6947.png] **Thunderswift** lvl by 3."
+                    "450% Wind damage to a foe. Gain <:status_bonus_damage:830500415844909056> **20% Bonus Wind DMG**. Raise [Status 6947.png] **Thunderswift** lvl by 3."
                 ]
             }
         ]
@@ -104,7 +104,7 @@
             {
                 "name": "Fangs of the Dragon",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status CriticalUp.png] **50% / 80% Critical Hit Rate Up**."
+                    "Massive Fire damage to a foe. Gain <:status_criticalup:830500417338867825> **50% / 80% Critical Hit Rate Up**."
                 ]
             }
         ],
@@ -112,7 +112,7 @@
             {
                 "name": "Flaming Tempest",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. [Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1. (When [Status Steel and Dust 1.png] **Steel & Dust** is at 5: Buff increased to [Status Bonus Damage.png] **50% Bonus Wind DMG**. )"
+                    "Massive Wind damage to a foe. Gain <:status_bonus_damage:830500415844909056> **20% Bonus Wind DMG**. [Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1. (When [Status Steel and Dust 1.png] **Steel & Dust** is at 5: Buff increased to <:status_bonus_damage:830500415844909056> **50% Bonus Wind DMG**. )"
                 ]
             }
         ]
@@ -192,7 +192,7 @@
             {
                 "name": "After 5\u2605:Fury of the Ram",
                 "text": [
-                    "550% Fire damage to a foe. All allies gain [Status Shield.png] **Shield (1000)**."
+                    "550% Fire damage to a foe. All allies gain <:status_shield:828371407091662859> **Shield (1000)**."
                 ]
             }
         ],
@@ -226,13 +226,13 @@
             {
                 "name": "After 5\u2605:Thousand-Spear Void",
                 "text": [
-                    "500% Water damage to a foe. Inflict **Mode Bar Cut**. All allies gain [Status Strength.png] **Strength** and [Status Shield.png] **Shield (2000)**."
+                    "500% Water damage to a foe. Inflict **Mode Bar Cut**. All allies gain <:status_strength:830500416575635456> **Strength** and <:status_shield:828371407091662859> **Shield (2000)**."
                 ]
             },
             {
                 "name": "After Stage 1 Transcendence:True Spear: Righteous Annihilation",
                 "text": [
-                    "550% Water damage to a foe. Inflict **Mode Bar Cut**. All allies gain [Status Strength.png] **Strength**, [Status Shield.png] **Shield (2000)**, and [Status Drain.png] **Drain**."
+                    "550% Water damage to a foe. Inflict **Mode Bar Cut**. All allies gain <:status_strength:830500416575635456> **Strength**, <:status_shield:828371407091662859> **Shield (2000)**, and [Status Drain.png] **Drain**."
                 ]
             }
         ]
@@ -276,7 +276,7 @@
             {
                 "name": "Waku-Waku-Week!",
                 "text": [
-                    "Massive Earth damage to a foe. All allies gain [Status EarthAtkUp.png] **15% Earth ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
+                    "Massive Earth damage to a foe. All allies gain <:status_earth_atkup:830500414776016956> **15% Earth ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
                 ]
             }
         ]
@@ -286,13 +286,13 @@
             {
                 "name": "Daisuki Dattara Daijoubu!",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status WaterAtkUp.png] **15% Water ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
+                    "Massive Water damage to a foe. All allies gain <:status_water_atkup:830500414494998618> **15% Water ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
                 ]
             },
             {
                 "name": "After 5\u2605:Daisuki Dattara Daijoubu! ++",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status WaterAtkUp.png] **15% Water ATK Up** and [Status FireResUp.png] **20% Fire DMG Lowered**. Restore 20% of all allies' HP (Healing cap: 500)."
+                    "Massive Water damage to a foe. All allies gain <:status_water_atkup:830500414494998618> **15% Water ATK Up** and [Status FireResUp.png] **20% Fire DMG Lowered**. Restore 20% of all allies' HP (Healing cap: 500)."
                 ]
             }
         ]
@@ -302,7 +302,7 @@
             {
                 "name": "G Senjono Cinderella",
                 "text": [
-                    "Massive Fire damage to a foe. All allies gain [Status FireAtkUp.png] **15% Fire ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
+                    "Massive Fire damage to a foe. All allies gain <:status_fire_atkup:830500417032552489>] **15% Fire ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
                 ]
             }
         ]
@@ -328,7 +328,7 @@
             {
                 "name": "After 5\u2605:Selene Timoria",
                 "text": [
-                    "Massive Earth damage to a foe. Gaze into Crystal Ball and can reuse End Gaze. All allies gain [Status Uplift.png] **Charge Bar +10%**."
+                    "Massive Earth damage to a foe. Gaze into Crystal Ball and can reuse End Gaze. All allies gain <:status_uplift:828371407720808468> **Charge Bar +10%**."
                 ]
             }
         ],
@@ -346,7 +346,7 @@
             {
                 "name": "Minerva Thrust",
                 "text": [
-                    "Massive Fire damage to a foe. All allies gain [Status FireAtkUp.png] **15% Fire ATK Up** and [Status Armored.png] **70% / 30% Armored**."
+                    "Massive Fire damage to a foe. All allies gain <:status_fire_atkup:830500417032552489>] **15% Fire ATK Up** and <:status_armored:828382023776206888> **70% / 30% Armored**."
                 ]
             }
         ]
@@ -356,13 +356,13 @@
             {
                 "name": "Deadly Sin",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status Bonus Damage.png] **50% Bonus Earth DMG**."
+                    "Massive Earth damage to a foe. Gain <:status_bonus_damage:830500415844909056> **50% Bonus Earth DMG**."
                 ]
             },
             {
                 "name": "After 5\u2605:Beat the Wall",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status Bonus Damage.png] **50% Bonus Earth DMG** and [Status TripleUp.png] **Guaranteed TA**."
+                    "Massive Earth damage to a foe. Gain <:status_bonus_damage:830500415844909056> **50% Bonus Earth DMG** and <:status_tripleup:830500415044583435> **Guaranteed TA**."
                 ]
             }
         ]
@@ -372,7 +372,7 @@
             {
                 "name": "Scapegoat",
                 "text": [
-                    "450% Dark damage to a foe. Gain [Status Mirror Image.png] **Mirror Image (1 time)**."
+                    "450% Dark damage to a foe. Gain <:status_mirror_image:830500673392476200> **Mirror Image (1 time)**."
                 ]
             }
         ],
@@ -410,7 +410,7 @@
             {
                 "name": "Immortal Assault",
                 "text": [
-                    "Massive Dark damage to a foe. Gain 1-hit [Status Repel.png] **Unchallenged**."
+                    "Massive Dark damage to a foe. Gain 1-hit <:status_unchallenged:828371407351447643> **Unchallenged**."
                 ]
             }
         ],
@@ -418,7 +418,7 @@
             {
                 "name": "Immortal Raid",
                 "text": [
-                    "1250% Earth damage to a foe (Damage cap: ~2,420,000). Activate Answerer's Splatter. Gain [Status TripleUp.png] **Guaranteed TA**. (Consumes [Status 7098.png] **Immortal Blue** to activate. )"
+                    "1250% Earth damage to a foe (Damage cap: ~2,420,000). Activate Answerer's Splatter. Gain <:status_tripleup:830500415044583435> **Guaranteed TA**. (Consumes [Status 7098.png] **Immortal Blue** to activate. )"
                 ]
             }
         ],
@@ -426,7 +426,7 @@
             {
                 "name": "Immortal Assault",
                 "text": [
-                    "450% Fire damage to a foe. Gain [Status Dodge 1.png] **Dodge All (1 time)**."
+                    "450% Fire damage to a foe. Gain <:status_dodge_1:830500672868450304> **Dodge All (1 time)**."
                 ]
             }
         ]
@@ -470,13 +470,13 @@
             {
                 "name": "Ars Magna",
                 "text": [
-                    "Massive Earth damage to a foe. All allies gain [Status EarthAtkUp.png] **25% Earth ATK Up**."
+                    "Massive Earth damage to a foe. All allies gain <:status_earth_atkup:830500414776016956> **25% Earth ATK Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Ars Magna ++",
                 "text": [
-                    "Massive Earth damage to a foe. All allies gain [Status EarthAtkUp.png] **25% Earth ATK Up**. Cagliostro also gains [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)** and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**."
+                    "Massive Earth damage to a foe. All allies gain <:status_earth_atkup:830500414776016956> **25% Earth ATK Up**. Cagliostro also gains <:status_heal:830500416415858688> **50% Healing Up (Stackable / Max: 100%)** and <:status_heal:830500416415858688> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ],
@@ -500,7 +500,7 @@
             {
                 "name": "Ars Magna",
                 "text": [
-                    "Massive Dark damage to a foe. Boost to C. A. specs based on number of [Status Oblivion Crest.png] **Oblivion Crest**. From 8th turn onward: All allies also gain [Status Uplift.png] **Charge Bar +10%**."
+                    "Massive Dark damage to a foe. Boost to C. A. specs based on number of <:status_oblivion_crest:828399670220685332> **Oblivion Crest**. From 8th turn onward: All allies also gain <:status_uplift:828371407720808468> **Charge Bar +10%**."
                 ]
             }
         ],
@@ -508,7 +508,7 @@
             {
                 "name": "Aqua Magna",
                 "text": [
-                    "Massive Water damage to a foe. Cagliostro gains [Status Deluge Crest 1.png] **Deluge Crest**. All allies gain [Status Keen.png] **Keen**."
+                    "Massive Water damage to a foe. Cagliostro gains <:status_deluge_crest:828371406722039879> **Deluge Crest**. All allies gain [Status Keen.png] **Keen**."
                 ]
             }
         ]
@@ -538,7 +538,7 @@
             {
                 "name": "Dreadbringer",
                 "text": [
-                    "450% Wind damage to a foe. All allies gain [Status Mirror Image.png] **Mirror Image (1 time)**."
+                    "450% Wind damage to a foe. All allies gain <:status_mirror_image:830500673392476200> **Mirror Image (1 time)**."
                 ]
             }
         ]
@@ -558,7 +558,7 @@
             {
                 "name": "Kiss of Death",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status TripleUp.png] **Guaranteed TA**."
+                    "Massive Earth damage to a foe. Gain <:status_tripleup:830500415044583435> **Guaranteed TA**."
                 ]
             }
         ]
@@ -578,7 +578,7 @@
             {
                 "name": "Triple Damnation",
                 "text": [
-                    "Massive Dark damage to a foe. Gain [Status TripleUp.png] **50% TA Up**."
+                    "Massive Dark damage to a foe. Gain <:status_tripleup:830500415044583435> **50% TA Up**."
                 ]
             }
         ]
@@ -620,7 +620,7 @@
             {
                 "name": "Brilliant Moon",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Counter.png] **Counters on Dodge (2 times)**. (Gain [Status Bonus Damage.png] **30% Bonus Light DMG** when [Status Holy Knight Lvl 1.png] **Holy Knight** lvl is 5)"
+                    "Massive Light damage to a foe. Gain [Status Counter.png] **Counters on Dodge (2 times)**. (Gain <:status_bonus_damage:830500415844909056> **30% Bonus Light DMG** when [Status Holy Knight Lvl 1.png] **Holy Knight** lvl is 5)"
                 ]
             }
         ]
@@ -646,7 +646,7 @@
             {
                 "name": "After 5\u2605:Empress's Affection",
                 "text": [
-                    "500% Wind damage to a foe. Gain [Status TripleUp.png] **Guaranteed TA** and [Status Bonus Damage.png] **50% Bonus Wind DMG**."
+                    "500% Wind damage to a foe. Gain <:status_tripleup:830500415044583435> **Guaranteed TA** and <:status_bonus_damage:830500415844909056> **50% Bonus Wind DMG**."
                 ]
             }
         ]
@@ -678,7 +678,7 @@
             {
                 "name": "Juggernaut Sphere",
                 "text": [
-                    "Massive Light damage to a foe. Gain 2 [Status Dissolution 1.png] **Dissolution**. All allies gain [Status Uplift.png] **10% Uplifted**."
+                    "Massive Light damage to a foe. Gain 2 [Status Dissolution 1.png] **Dissolution**. All allies gain <:status_uplift:828371407720808468> **10% Uplifted**."
                 ]
             }
         ],
@@ -702,13 +702,13 @@
             {
                 "name": "Claudia:Fullmetal Impact",
                 "text": [
-                    "450% Light damage to a foe. Inflict [Status DefenseDown.png] **10% DEF Down**."
+                    "450% Light damage to a foe. Inflict  <:status_defdown_global:828371408363061298>  **10% DEF Down**."
                 ]
             },
             {
                 "name": "200% Charge Bar and Servant's Oath:Checkmaid",
                 "text": [
-                    "1250% Light damage to a foe (Damage cap: ~2,900,000). Inflict [Status DoubleDown.png] **30-40% DA Down** and [Status DefenseDown.png] **10% DEF Down**. All allies gain [Status CB DMG Cap Up.png] **30% C.B. DMG Cap Up**."
+                    "1250% Light damage to a foe (Damage cap: ~2,900,000). Inflict [Status DoubleDown.png] **30-40% DA Down** and  <:status_defdown_global:828371408363061298>  **10% DEF Down**. All allies gain [Status CB DMG Cap Up.png] **30% C.B. DMG Cap Up**."
                 ]
             }
         ]
@@ -728,7 +728,7 @@
             {
                 "name": "Kicking Enhancement Shoes",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                    "Massive Light damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%**."
                 ]
             }
         ]
@@ -748,7 +748,7 @@
             {
                 "name": "Pretty Cure Marble Screw",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Uplift.png] **Charge Bar +10%**. (Consumes all [Status Miracle Lights 1.png] **Miracle Lights**. )"
+                    "Massive Light damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +10%**. (Consumes all [Status Miracle Lights 1.png] **Miracle Lights**. )"
                 ]
             }
         ]
@@ -758,7 +758,7 @@
             {
                 "name": "Pretty Cure Marble Screw",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Uplift.png] **Charge Bar +10%**. (Consumes all [Status Miracle Lights 1.png] **Miracle Lights**. )"
+                    "Massive Light damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +10%**. (Consumes all [Status Miracle Lights 1.png] **Miracle Lights**. )"
                 ]
             }
         ]
@@ -778,7 +778,7 @@
             {
                 "name": "Puppet Sheol",
                 "text": [
-                    "450% Light damage to a foe. Inflict [Status Petrified 3.png] **Petrified**."
+                    "450% Light damage to a foe. Inflict <:status_petrified_3:830500418814738463> **Petrified**."
                 ]
             }
         ],
@@ -794,7 +794,7 @@
             {
                 "name": "Grand Guignol",
                 "text": [
-                    "Massive Dark damage to a foe. Inflict [Status Petrified 3.png] **Petrified**."
+                    "Massive Dark damage to a foe. Inflict <:status_petrified_3:830500418814738463> **Petrified**."
                 ]
             }
         ]
@@ -804,13 +804,13 @@
             {
                 "name": "Seventh Agony",
                 "text": [
-                    "550% Light damage to a foe. All allies gain [Status Mirror Image.png] **Mirror Image (1 time)**."
+                    "550% Light damage to a foe. All allies gain <:status_mirror_image:830500673392476200> **Mirror Image (1 time)**."
                 ]
             },
             {
                 "name": "After 5\u2605:Seventh Dispersion",
                 "text": [
-                    "600% Light damage to a foe. All allies gain [Status Mirror Image.png] **Mirror Image (1 time)** and [Status Armored.png] **70% / 30% Armored**."
+                    "600% Light damage to a foe. All allies gain <:status_mirror_image:830500673392476200> **Mirror Image (1 time)** and <:status_armored:828382023776206888> **70% / 30% Armored**."
                 ]
             }
         ],
@@ -826,7 +826,7 @@
             {
                 "name": "Seventh Agony",
                 "text": [
-                    "Massive Light damage to a foe. All allies gain [Status Armored.png] **70% / 30% Armored**."
+                    "Massive Light damage to a foe. All allies gain <:status_armored:828382023776206888> **70% / 30% Armored**."
                 ]
             }
         ]
@@ -844,7 +844,7 @@
             {
                 "name": "Idol on the Beach",
                 "text": [
-                    "Restore 10% of all allies' HP (Healing cap: 2500). All allies gain [Status Bonus Damage.png] **10% Bonus Water DMG** and [Status Tlepilli Glow.png] **Tlepilli Glow**."
+                    "Restore 10% of all allies' HP (Healing cap: 2500). All allies gain <:status_bonus_damage:830500415844909056> **10% Bonus Water DMG** and [Status Tlepilli Glow.png] **Tlepilli Glow**."
                 ]
             }
         ]
@@ -860,13 +860,13 @@
             {
                 "name": "Claudia:Fullmetal Impact",
                 "text": [
-                    "450% Light damage to a foe. Inflict [Status DefenseDown.png] **10% DEF Down**."
+                    "450% Light damage to a foe. Inflict  <:status_defdown_global:828371408363061298>  **10% DEF Down**."
                 ]
             },
             {
                 "name": "200% Charge Bar and Servant's Oath:Checkmaid",
                 "text": [
-                    "1250% Light damage to a foe (Damage cap: ~2,900,000). Inflict [Status DoubleDown.png] **30-40% DA Down** and [Status DefenseDown.png] **10% DEF Down**. All allies gain [Status CB DMG Cap Up.png] **30% C.B. DMG Cap Up**."
+                    "1250% Light damage to a foe (Damage cap: ~2,900,000). Inflict [Status DoubleDown.png] **30-40% DA Down** and  <:status_defdown_global:828371408363061298>  **10% DEF Down**. All allies gain [Status CB DMG Cap Up.png] **30% C.B. DMG Cap Up**."
                 ]
             }
         ]
@@ -876,7 +876,7 @@
             {
                 "name": "Wrecking the Sphere",
                 "text": [
-                    "450% Fire damage to a foe. Gain [Status Dodge 1.png] **Dodge All (1 time)**."
+                    "450% Fire damage to a foe. Gain <:status_dodge_1:830500672868450304> **Dodge All (1 time)**."
                 ]
             }
         ],
@@ -894,13 +894,13 @@
             {
                 "name": "Almighty Flurry",
                 "text": [
-                    "450% Earth damage to a foe. Inflict [Status Death.png] **Lethal Hit**. Eahta gains [Status TripleUp.png] **50% TA Up**."
+                    "450% Earth damage to a foe. Inflict [Status Death.png] **Lethal Hit**. Eahta gains <:status_tripleup:830500415044583435> **50% TA Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Almighty Passage",
                 "text": [
-                    "500% Earth damage to a foe. Inflict [Status Death.png] **Lethal Hit**. Eahta gains [Status DoubleUp.png] **50% DA Up** and [Status TripleUp.png] **50% TA Up**. All allies gain [Status EarthAtkUp.png] **20% Earth ATK Up**."
+                    "500% Earth damage to a foe. Inflict [Status Death.png] **Lethal Hit**. Eahta gains <:status_doubleup:830500414977867786> **50% DA Up** and <:status_tripleup:830500415044583435> **50% TA Up**. All allies gain <:status_earth_atkup:830500414776016956> **20% Earth ATK Up**."
                 ]
             }
         ]
@@ -920,7 +920,7 @@
             {
                 "name": "Die Jaegerkanone",
                 "text": [
-                    "Massive Earth damage to a foe. All allies gain [Status EarthAtkUp.png] **30% Earth ATK Up** and [Status DoubleUp.png] **30% DA Up**."
+                    "Massive Earth damage to a foe. All allies gain <:status_earth_atkup:830500414776016956> **30% Earth ATK Up** and <:status_doubleup:830500414977867786> **30% DA Up**."
                 ]
             }
         ]
@@ -938,7 +938,7 @@
             {
                 "name": "Taurus Blight",
                 "text": [
-                    "Massive Water damage to a foe. 100% Bonus Water damage based on number of [Status Starry Waters.png] **Starry Waters** (Damage cap: ~110,000 per hit / Max: 5 hits). Gain [Status TripleUp.png] **Guaranteed TA**."
+                    "Massive Water damage to a foe. 100% Bonus Water damage based on number of [Status Starry Waters.png] **Starry Waters** (Damage cap: ~110,000 per hit / Max: 5 hits). Gain <:status_tripleup:830500415044583435> **Guaranteed TA**."
                 ]
             }
         ]
@@ -956,13 +956,13 @@
             {
                 "name": "Acidrage Howl",
                 "text": [
-                    "450% Dark damage to a foe. Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**. Reset [Status Loaded0.png] **Loaded** lvl. When [Status Aubade du Flamek.png] **Aubade du Flamek** is consumed: 300% Bonus Dark damage (Damage cap: ~630,000)."
+                    "450% Dark damage to a foe. Inflict [Status AttackDown.png] **20% ATK Down** and <:status_blind_global:828371406487552082> **Blinded**. Reset [Status Loaded0.png] **Loaded** lvl. When [Status Aubade du Flamek.png] **Aubade du Flamek** is consumed: 300% Bonus Dark damage (Damage cap: ~630,000)."
                 ]
             },
             {
                 "name": "After 5\u2605:Dead-End Fall",
                 "text": [
-                    "500% Dark damage to a foe. Inflict [Status AttackDown.png] **20% ATK Down** and [Status Blind.png] **Blinded**. 2-turn cut to Eustace's skill cooldowns. Reset [Status Loaded0.png] **Loaded** lvl. When [Status Aubade du Flamek.png] **Aubade du Flamek** is consumed: Bonus Dark damage based on [Status Loaded0.png] **Loaded** lvl."
+                    "500% Dark damage to a foe. Inflict [Status AttackDown.png] **20% ATK Down** and <:status_blind_global:828371406487552082> **Blinded**. 2-turn cut to Eustace's skill cooldowns. Reset [Status Loaded0.png] **Loaded** lvl. When [Status Aubade du Flamek.png] **Aubade du Flamek** is consumed: Bonus Dark damage based on [Status Loaded0.png] **Loaded** lvl."
                 ]
             }
         ],
@@ -970,7 +970,7 @@
             {
                 "name": "Dead-End Shot",
                 "text": [
-                    "Massive Earth damage to a foe. Inflict [Status Blind.png] **Blinded**. Reset [Status Loaded0.png] **Loaded** lvl."
+                    "Massive Earth damage to a foe. Inflict <:status_blind_global:828371406487552082> **Blinded**. Reset [Status Loaded0.png] **Loaded** lvl."
                 ]
             }
         ]
@@ -1000,7 +1000,7 @@
             {
                 "name": "Invincible Crusher",
                 "text": [
-                    "450% Wind damage to a foe. All allies gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**."
+                    "450% Wind damage to a foe. All allies gain <:status_criticalup:830500417338867825> **30% / 30% Critical Hit Rate Up**."
                 ]
             }
         ]
@@ -1016,13 +1016,13 @@
             {
                 "name": "After 5\u2605:Memento Vita",
                 "text": [
-                    "500% Water damage to a foe. Inflict [Status Gravity.png] **Delay**. All allies gain [Status DoubleUp.png] **35% DA Up** and [Status TripleUp.png] **35% TA Up**."
+                    "500% Water damage to a foe. Inflict [Status Gravity.png] **Delay**. All allies gain <:status_doubleup:830500414977867786> **35% DA Up** and <:status_tripleup:830500415044583435> **35% TA Up**."
                 ]
             },
             {
                 "name": "After Stage 1 Transcendence:Mors Certa",
                 "text": [
-                    "550% Water damage to a foe. Inflict [Status Gravity.png] **Delay**. All allies gain [Status DoubleUp.png] **35% DA Up**, [Status TripleUp.png] **35% TA Up**, and [Status Bonus Damage.png] **10% Bonus Water DMG**."
+                    "550% Water damage to a foe. Inflict [Status Gravity.png] **Delay**. All allies gain <:status_doubleup:830500414977867786> **35% DA Up**, <:status_tripleup:830500415044583435> **35% TA Up**, and <:status_bonus_damage:830500415844909056> **10% Bonus Water DMG**."
                 ]
             }
         ]
@@ -1040,7 +1040,7 @@
             {
                 "name": "Aetheryte Requiescat",
                 "text": [
-                    "Massive Dark damage to a foe. All allies gain [Status DarkAtkUp.png] **30% Dark ATK Up** and [Status DoubleUp.png] **30% DA Up**."
+                    "Massive Dark damage to a foe. All allies gain <:status_dark_atkup:830501287153369138> **30% Dark ATK Up** and <:status_doubleup:830500414977867786> **30% DA Up**."
                 ]
             }
         ]
@@ -1086,7 +1086,7 @@
             {
                 "name": "Nature's Retribution",
                 "text": [
-                    "450% Wind damage to a foe and remove 1 buff. Gain [Status Typhoon Crest 1.png] **Typhoon Crest**."
+                    "450% Wind damage to a foe and remove 1 buff. Gain <:status_typhoon_crest:828399669141831691> **Typhoon Crest**."
                 ]
             }
         ]
@@ -1116,7 +1116,7 @@
             {
                 "name": "Normal mode:Binding Kill Shot",
                 "text": [
-                    "Massive Dark damage to a foe. Gain [Status DoubleUp.png] **DA Up**."
+                    "Massive Dark damage to a foe. Gain <:status_doubleup:830500414977867786> **DA Up**."
                 ]
             },
             {
@@ -1142,7 +1142,7 @@
             {
                 "name": "Gachapin Sword",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status DoubleUp.png] **35% DA Up** and [Status TripleUp.png] **35% TA Up**."
+                    "Massive Wind damage to a foe. Gain <:status_doubleup:830500414977867786> **35% DA Up** and <:status_tripleup:830500415044583435> **35% TA Up**."
                 ]
             }
         ]
@@ -1158,7 +1158,7 @@
             {
                 "name": "After 5\u2605:Flashstorm Destruction",
                 "text": [
-                    "500% Wind damage to a foe. All allies gain [Status Shield.png] **Shield (1500)**."
+                    "500% Wind damage to a foe. All allies gain <:status_shield:828371407091662859> **Shield (1500)**."
                 ]
             }
         ],
@@ -1186,13 +1186,13 @@
             {
                 "name": "Fist of the Red Lotus",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**. Consume all [Status Eternal Rage 1.png] **Eternal Rage** stacks."
+                    "Massive Fire damage to a foe. Gain <:status_criticalup:830500417338867825> **30% / 30% Critical Hit Rate Up**. Consume all [Status Eternal Rage 1.png] **Eternal Rage** stacks."
                 ]
             },
             {
                 "name": "After 5\u2605:Fist of Hair-Raising Fury",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up** and [Status Armored.png] **Armored**. Consume all [Status Eternal Rage 1.png] **Eternal Rage** stacks."
+                    "Massive Fire damage to a foe. Gain <:status_criticalup:830500417338867825> **30% / 30% Critical Hit Rate Up** and <:status_armored:828382023776206888> **Armored**. Consume all [Status Eternal Rage 1.png] **Eternal Rage** stacks."
                 ]
             }
         ]
@@ -1220,7 +1220,7 @@
             {
                 "name": "Cleaving Madness",
                 "text": [
-                    "Massive Water damage to a foe. (50% boost to C. A. damage and 20% boost to C. A. damage cap against foes with [Status Dracoforce 1.png] **Dracoforce**. )Gain [Status Uplift.png] **Charge Bar +20%**."
+                    "Massive Water damage to a foe. (50% boost to C. A. damage and 20% boost to C. A. damage cap against foes with [Status Dracoforce 1.png] **Dracoforce**. )Gain <:status_uplift:828371407720808468> **Charge Bar +20%**."
                 ]
             }
         ]
@@ -1238,7 +1238,7 @@
             {
                 "name": "Grace of the Radiant",
                 "text": [
-                    "All allies gain a 4000-damage [Status Shield.png] **Shield (4000)**. All Wind allies gain [Status CriticalUpWind.png] **100% / 30% Critical Hit Rate Up** and [Status Keen.png] **Keen**. Raise Grimnir's [Status 67961.png] **Cyclone** lvl by 2."
+                    "All allies gain a 4000-damage <:status_shield:828371407091662859> **Shield (4000)**. All Wind allies gain [Status CriticalUpWind.png] **100% / 30% Critical Hit Rate Up** and [Status Keen.png] **Keen**. Raise Grimnir's [Status 67961.png] **Cyclone** lvl by 2."
                 ]
             }
         ]
@@ -1282,7 +1282,7 @@
             {
                 "name": "Pain Eternal",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Aurora Crest 1.png] **Aurora Crest**. (When [Status Limiter Break.png] **Limiter Break** is in effect: All allies also gain [Status Shield.png] **Shield (2000)**. )"
+                    "Massive Light damage to a foe. Gain <:status_aurora_crest:828399668513341490> **Aurora Crest**. (When [Status Limiter Break.png] **Limiter Break** is in effect: All allies also gain <:status_shield:828371407091662859> **Shield (2000)**. )"
                 ]
             }
         ]
@@ -1292,7 +1292,7 @@
             {
                 "name": "Chaos Legion",
                 "text": [
-                    "Massive Dark damage to a foe. (700% Bonus Dark damage to a foe with [Status Dusky Verdict.png] **Dusky Verdict** [Damage cap: ~1,160,000]. )All allies gain [Status DarkAtkUp.png] **30% Dark ATK Up**."
+                    "Massive Dark damage to a foe. (700% Bonus Dark damage to a foe with <:status_duskyverdict:830500417917419592> **Dusky Verdict** [Damage cap: ~1,160,000]. )All allies gain <:status_dark_atkup:830501287153369138> **30% Dark ATK Up**."
                 ]
             }
         ]
@@ -1310,7 +1310,7 @@
             {
                 "name": "Eidel Siege",
                 "text": [
-                    "Massive Light damage to a foe. Inflict [Status Charm 2.png] **Charmed**. All allies gain [Status Uplift.png] **Charge Bar +10%**."
+                    "Massive Light damage to a foe. Inflict [Status Charm 2.png] **Charmed**. All allies gain <:status_uplift:828371407720808468> **Charge Bar +10%**."
                 ]
             }
         ],
@@ -1318,7 +1318,7 @@
             {
                 "name": "Adedo Dualuca",
                 "text": [
-                    "Massive Wind damage to a foe. (20% boost C.A. specs when Heles is affected by [Status WindAtkUp.png] **Wind ATK Up**. )Gain [Status WindAtkUp.png] **30% Wind ATK Up**."
+                    "Massive Wind damage to a foe. (20% boost C.A. specs when Heles is affected by <:status_wind_atkup:830501287707017256> **Wind ATK Up**. )Gain <:status_wind_atkup:830501287707017256> **30% Wind ATK Up**."
                 ]
             }
         ]
@@ -1338,7 +1338,7 @@
             {
                 "name": "Roar! Ignis Dragon!",
                 "text": [
-                    "450% Fire damage to a foe. Gain [Status FireAtkUp.png] **50% Fire ATK Up**."
+                    "450% Fire damage to a foe. Gain <:status_fire_atkup:830500417032552489>] **50% Fire ATK Up**."
                 ]
             }
         ]
@@ -1418,7 +1418,7 @@
             {
                 "name": "Handy-Dandy Excavation",
                 "text": [
-                    "450% Water damage to a foe. Gain [Status Shield.png] **Shield (6000)**. End cooldown for Thermal Blade."
+                    "450% Water damage to a foe. Gain <:status_shield:828371407091662859> **Shield (6000)**. End cooldown for Thermal Blade."
                 ]
             }
         ]
@@ -1458,7 +1458,7 @@
             {
                 "name": "After 5\u2605:Holy Spear Marte ++",
                 "text": [
-                    "Massive Light damage to a foe. All allies gain [Status LightAtkUp.png] **20% Light ATK Up** and [Status Dark Cut 20.png] **20% Dark Cut**."
+                    "Massive Light damage to a foe. All allies gain <:status_light_atkup:830501287552352256> **20% Light ATK Up** and [Status Dark Cut 20.png] **20% Dark Cut**."
                 ]
             }
         ],
@@ -1466,7 +1466,7 @@
             {
                 "name": "Reverse Shift",
                 "text": [
-                    "Massive Dark damage to a foe. All allies gain [Status DarkAtkUp.png] **20% Dark ATK Up** and [Status Light Cut 20.png] **20% Light Cut**."
+                    "Massive Dark damage to a foe. All allies gain <:status_dark_atkup:830501287153369138> **20% Dark ATK Up** and [Status Light Cut 20.png] **20% Light Cut**."
                 ]
             }
         ],
@@ -1482,7 +1482,7 @@
             {
                 "name": "Fierte Jolie",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status WindAtkUp.png] **20% Wind ATK Up** and [Status Earth Cut 20.png] **20% Earth Cut**."
+                    "Massive Wind damage to a foe. All allies gain <:status_wind_atkup:830501287707017256> **20% Wind ATK Up** and [Status Earth Cut 20.png] **20% Earth Cut**."
                 ]
             }
         ]
@@ -1492,7 +1492,7 @@
             {
                 "name": "Bluehendes Licht",
                 "text": [
-                    "Massive Earth damage to a foe. Inflict [Status Blind.png] **Blinded**. Remove 1 debuff from all allies."
+                    "Massive Earth damage to a foe. Inflict <:status_blind_global:828371406487552082> **Blinded**. Remove 1 debuff from all allies."
                 ]
             }
         ]
@@ -1502,7 +1502,7 @@
             {
                 "name": "Blade of Enlightenment",
                 "text": [
-                    "450% Earth damage to a foe. (Boost to C. A. specs based on [Status Martial Spirit.png] **Martial Spirit** lvl. )Gain [Status Uplift.png] **10% Uplifted**."
+                    "450% Earth damage to a foe. (Boost to C. A. specs based on [Status Martial Spirit.png] **Martial Spirit** lvl. )Gain <:status_uplift:828371407720808468> **10% Uplifted**."
                 ]
             }
         ]
@@ -1530,7 +1530,7 @@
             {
                 "name": "Luce dell'Amore",
                 "text": [
-                    "450% Water damage to a foe. Gain [Status Deluge Crest 1.png] **Deluge Crest**. (When 1 [Status Spirit Shroud 1.png] **Spirit** is consumed: Also deal 300% Bonus Water damage [Damage cap: ~630,000]. )"
+                    "450% Water damage to a foe. Gain <:status_deluge_crest:828371406722039879> **Deluge Crest**. (When 1 [Status Spirit Shroud 1.png] **Spirit** is consumed: Also deal 300% Bonus Water damage [Damage cap: ~630,000]. )"
                 ]
             }
         ]
@@ -1550,7 +1550,7 @@
             {
                 "name": "Divine Breeze",
                 "text": [
-                    "450% Wind damage to a foe. All allies gain [Status Heal.png] **Refresh**."
+                    "450% Wind damage to a foe. All allies gain <:status_heal:830500416415858688> **Refresh**."
                 ]
             }
         ]
@@ -1560,7 +1560,7 @@
             {
                 "name": "Radiant Wave Surger",
                 "text": [
-                    "Massive Fire damage to a foe. (Boost to C. A. specs based on [Status Radiant Wave 1.png] **Radiant Wave** lvl. )Self-inflict [Status DefenseDown.png] **30% DEF Down**. Reset [Status Radiant Wave 1.png] **Radiant Wave** lvl."
+                    "Massive Fire damage to a foe. (Boost to C. A. specs based on [Status Radiant Wave 1.png] **Radiant Wave** lvl. )Self-inflict  <:status_defdown_global:828371408363061298>  **30% DEF Down**. Reset [Status Radiant Wave 1.png] **Radiant Wave** lvl."
                 ]
             }
         ]
@@ -1580,13 +1580,13 @@
             {
                 "name": "Blades of Diamond",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status WaterAtkUp.png] **30% Water ATK Up** and [Status DoubleUp.png] **30% DA Up**."
+                    "Massive Water damage to a foe. All allies gain <:status_water_atkup:830500414494998618> **30% Water ATK Up** and <:status_doubleup:830500414977867786> **30% DA Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Blades of Frost II",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status WaterAtkUp.png] **30% Water ATK Up**, [Status DoubleUp.png] **30% DA Up**, and [Status TripleUp.png] **20% TA Up**."
+                    "Massive Water damage to a foe. All allies gain <:status_water_atkup:830500414494998618> **30% Water ATK Up**, <:status_doubleup:830500414977867786> **30% DA Up**, and <:status_tripleup:830500415044583435> **20% TA Up**."
                 ]
             }
         ],
@@ -1614,7 +1614,7 @@
             {
                 "name": "Aurora",
                 "text": [
-                    "Restore 10% of all allies' HP (Healing cap: 2500). All allies gain [Status WindAtkUp.png] **25% Wind ATK Up** and [Status Spirits' Shelter.png] **Spirits' Shelter**."
+                    "Restore 10% of all allies' HP (Healing cap: 2500). All allies gain <:status_wind_atkup:830501287707017256> **25% Wind ATK Up** and [Status Spirits' Shelter.png] **Spirits' Shelter**."
                 ]
             }
         ]
@@ -1650,7 +1650,7 @@
             {
                 "name": "Blanche Fil",
                 "text": [
-                    "Restore 10% of Wind allies' HP (Healing cap: 2500). All Wind allies gain [Status Bonus Damage.png] **10% Bonus Wind DMG**. Gain 3 [Status Fil1.png] **Fil** and 1 [Status Idea 1.png] **Idea**."
+                    "Restore 10% of Wind allies' HP (Healing cap: 2500). All Wind allies gain <:status_bonus_damage:830500415844909056> **10% Bonus Wind DMG**. Gain 3 [Status Fil1.png] **Fil** and 1 [Status Idea 1.png] **Idea**."
                 ]
             }
         ]
@@ -1722,7 +1722,7 @@
             {
                 "name": "Sweet Death Waltz",
                 "text": [
-                    "Massive Dark damage to a foe. All allies gain [Status Strength.png] **Strength**."
+                    "Massive Dark damage to a foe. All allies gain <:status_strength:830500416575635456> **Strength**."
                 ]
             }
         ]
@@ -1732,7 +1732,7 @@
             {
                 "name": "Rocket Punch",
                 "text": [
-                    "Massive Water damage to a foe. Inflict [Status DoubleDown.png] **30-40% DA Down**. Gain [Status Uplift.png] **10% Uplifted** for 3 turns."
+                    "Massive Water damage to a foe. Inflict [Status DoubleDown.png] **30-40% DA Down**. Gain <:status_uplift:828371407720808468> **10% Uplifted** for 3 turns."
                 ]
             }
         ]
@@ -1742,7 +1742,7 @@
             {
                 "name": "Lam Goes Wham",
                 "text": [
-                    "450% Earth damage to a foe. Gain [Status Bonus Damage.png] **60% Bonus Earth DMG (1 time)**."
+                    "450% Earth damage to a foe. Gain <:status_bonus_damage:830500415844909056> **60% Bonus Earth DMG (1 time)**."
                 ]
             }
         ]
@@ -1774,7 +1774,7 @@
             {
                 "name": "Eidesfluegel",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**."
+                    "Massive Wind damage to a foe. Gain <:status_bonus_damage:830500415844909056> **20% Bonus Wind DMG**."
                 ]
             }
         ]
@@ -1808,7 +1808,7 @@
             {
                 "name": "Hadron Cannon",
                 "text": [
-                    "Massive Dark damage to a foe. All allies gain [Status Uplift.png] **Charge Bar +10%**."
+                    "Massive Dark damage to a foe. All allies gain <:status_uplift:828371407720808468> **Charge Bar +10%**."
                 ]
             }
         ]
@@ -1854,7 +1854,7 @@
             {
                 "name": "Lightning Strikes Thrice",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status TripleUp.png] **Guaranteed TA**."
+                    "Massive Light damage to a foe. Gain <:status_tripleup:830500415044583435> **Guaranteed TA**."
                 ]
             }
         ]
@@ -1874,13 +1874,13 @@
             {
                 "name": "Frozen Vision",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
+                    "Massive Water damage to a foe. All allies gain <:status_water_atkup:830500414494998618> **25% Water ATK Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Frozen Bloom",
                 "text": [
-                    "Massive Water damage to a foe. (50% boost to C. A. damage and 30% boost to C. A. damage cap against foes with [Status Glaciate 1.png] **Glaciate**. )All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
+                    "Massive Water damage to a foe. (50% boost to C. A. damage and 30% boost to C. A. damage cap against foes with [Status Glaciate 1.png] **Glaciate**. )All allies gain <:status_water_atkup:830500414494998618> **25% Water ATK Up**."
                 ]
             }
         ],
@@ -1908,7 +1908,7 @@
             {
                 "name": "Paradise Lost",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status LightAtkUp.png] **30% Light ATK Up** and [Status Crown of Ashes.png] **Crown of Ashes** (Next use of Out of the Ashes activates twice)."
+                    "Massive Light damage to a foe. Gain <:status_light_atkup:830501287552352256> **30% Light ATK Up** and [Status Crown of Ashes.png] **Crown of Ashes** (Next use of Out of the Ashes activates twice)."
                 ]
             }
         ],
@@ -1916,7 +1916,7 @@
             {
                 "name": "Paradise Lost",
                 "text": [
-                    "450% Water damage to a foe. All allies gain [Status Heal.png] **Refresh** and [Status Uplift.png] **10% Uplifted**."
+                    "450% Water damage to a foe. All allies gain <:status_heal:830500416415858688> **Refresh** and <:status_uplift:828371407720808468> **10% Uplifted**."
                 ]
             }
         ]
@@ -1936,7 +1936,7 @@
             {
                 "name": "Cataclysmic Storybook",
                 "text": [
-                    "Gain 1 [Status Page 1.png] **Page** stack. All allies gain [Status Uplift.png] **Charge Bar +10%**."
+                    "Gain 1 [Status Page 1.png] **Page** stack. All allies gain <:status_uplift:828371407720808468> **Charge Bar +10%**."
                 ]
             }
         ]
@@ -1980,13 +1980,13 @@
             {
                 "name": "Gilded Heaven Strike",
                 "text": [
-                    "500% Earth damage to a foe. All allies gain 5 stacks of [Status DrumBeats1.png] **Drum Beat**."
+                    "500% Earth damage to a foe. All allies gain 5 stacks of <:status_drumbeats:830500416655196171> **Drum Beat**."
                 ]
             },
             {
                 "name": "After 5\u2605:Infowlible Insight",
                 "text": [
-                    "550% Earth damage to a foe. All allies gain 5 stacks of [Status DrumBeats1.png] **Drum Beat**. Extend [Status ZealOfTheFeather.png] **Zeal of the Feather**'s duration on all allies by 2 turns."
+                    "550% Earth damage to a foe. All allies gain 5 stacks of <:status_drumbeats:830500416655196171> **Drum Beat**. Extend <:status_chicken:830500415253512192> **Zeal of the Feather**'s duration on all allies by 2 turns."
                 ]
             }
         ]
@@ -2006,7 +2006,7 @@
             {
                 "name": "Pain Eternal",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Aurora Crest 1.png] **Aurora Crest**. (When [Status Limiter Break.png] **Limiter Break** is in effect: All allies also gain [Status Shield.png] **Shield (2000)**. )"
+                    "Massive Light damage to a foe. Gain <:status_aurora_crest:828399668513341490> **Aurora Crest**. (When [Status Limiter Break.png] **Limiter Break** is in effect: All allies also gain <:status_shield:828371407091662859> **Shield (2000)**. )"
                 ]
             }
         ]
@@ -2026,7 +2026,7 @@
             {
                 "name": "Earth, Wind, and Fire",
                 "text": [
-                    "Massive Dark damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                    "Massive Dark damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%**."
                 ]
             }
         ]
@@ -2046,7 +2046,7 @@
             {
                 "name": "Supreme Medusiana",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (2 times)**."
+                    "Massive Earth damage to a foe. Gain <:status_counter_dodgedmg:830500418454683698> **Counters on Dodge/DMG (2 times)**."
                 ]
             }
         ],
@@ -2090,7 +2090,7 @@
             {
                 "name": "Areus Prosbole",
                 "text": [
-                    "450% Earth damage to a foe. Gain [Status TripleUp.png] **Guaranteed TA**."
+                    "450% Earth damage to a foe. Gain <:status_tripleup:830500415044583435> **Guaranteed TA**."
                 ]
             },
             {
@@ -2148,7 +2148,7 @@
             {
                 "name": "Mikazuki Munechika",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status DoubleUp.png] **100% DA Up**."
+                    "Massive Light damage to a foe. Gain <:status_doubleup:830500414977867786> **100% DA Up**."
                 ]
             }
         ]
@@ -2244,7 +2244,7 @@
             {
                 "name": "Triad Wings",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status WindAtkUp.png] **20% Wind ATK Up** and [Status Earth Cut 20.png] **20% Earth Cut**."
+                    "Massive Wind damage to a foe. All allies gain <:status_wind_atkup:830501287707017256> **20% Wind ATK Up** and [Status Earth Cut 20.png] **20% Earth Cut**."
                 ]
             }
         ]
@@ -2270,7 +2270,7 @@
             {
                 "name": "Bogha Baisti",
                 "text": [
-                    "450% Wind damage to a foe. All allies gain [Status WindAtkUp.png] **15% Wind ATK Up**, [Status DoubleUp.png] **15% DA Up**, and [Status TripleUp.png] **15% TA Up**."
+                    "450% Wind damage to a foe. All allies gain <:status_wind_atkup:830501287707017256> **15% Wind ATK Up**, <:status_doubleup:830500414977867786> **15% DA Up**, and <:status_tripleup:830500415044583435> **15% TA Up**."
                 ]
             }
         ],
@@ -2288,25 +2288,25 @@
             {
                 "name": "Dawnfly stance:Dawnfly Dance",
                 "text": [
-                    "450% Dark damage to a foe. Gain [Status AttackUpStack.png] **15% ATK Up (Stackable / Max: 50%)**."
+                    "450% Dark damage to a foe. Gain <:status_atkup_stackable:830500416680755220>  **15% ATK Up (Stackable / Max: 50%)**."
                 ]
             },
             {
                 "name": "Freeflutter stance:Freeflutter Dance",
                 "text": [
-                    "450% Dark damage to a foe. Remove [Status DefenseDown.png] **20% DEF Down** from Narmaya."
+                    "450% Dark damage to a foe. Remove  <:status_defdown_global:828371408363061298>  **20% DEF Down** from Narmaya."
                 ]
             },
             {
                 "name": "After 5\u2605 - Dawnfly stance:Dawnfly Dance II",
                 "text": [
-                    "500% Dark damage to a foe. Gain [Status AttackUpStack.png] **15% ATK Up (Stackable / Max: 50%)** and [Status DarkAtkUp.png] **30% Dark ATK Up**."
+                    "500% Dark damage to a foe. Gain <:status_atkup_stackable:830500416680755220>  **15% ATK Up (Stackable / Max: 50%)** and <:status_dark_atkup:830501287153369138> **30% Dark ATK Up**."
                 ]
             },
             {
                 "name": "After 5\u2605 - Freeflutter stance:Freeflutter Dance II",
                 "text": [
-                    "500% Dark damage to a foe. Remove [Status DefenseDown.png] **20% DEF Down** from Narmaya. Gain [Status Mirror Image.png] **Mirror Image (2 times)**."
+                    "500% Dark damage to a foe. Remove  <:status_defdown_global:828371408363061298>  **20% DEF Down** from Narmaya. Gain <:status_mirror_image:830500673392476200> **Mirror Image (2 times)**."
                 ]
             }
         ],
@@ -2314,7 +2314,7 @@
             {
                 "name": "One with Nature",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (2 times)**."
+                    "Massive Earth damage to a foe. Gain <:status_counter_dodgedmg:830500418454683698> **Counters on Dodge/DMG (2 times)**."
                 ]
             }
         ],
@@ -2322,7 +2322,7 @@
             {
                 "name": "True Self",
                 "text": [
-                    "450% Water damage to a foe. Gain [Status Dodge 1.png] **Dodge All (1 time)**."
+                    "450% Water damage to a foe. Gain <:status_dodge_1:830500672868450304> **Dodge All (1 time)**."
                 ]
             }
         ]
@@ -2342,7 +2342,7 @@
             {
                 "name": "Gaia Zimos",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status DoubleUp.png] **DA Up**."
+                    "Massive Earth damage to a foe. Gain <:status_doubleup:830500414977867786> **DA Up**."
                 ]
             }
         ],
@@ -2370,13 +2370,13 @@
             {
                 "name": "Sol Ruptura",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                    "Massive Wind damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%**."
                 ]
             },
             {
                 "name": "After 5\u2605:Sol Ruptura ++",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%** and [Status Bonus Damage.png] **20% Bonus Wind DMG**."
+                    "Massive Wind damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%** and <:status_bonus_damage:830500415844909056> **20% Bonus Wind DMG**."
                 ]
             }
         ]
@@ -2426,7 +2426,7 @@
             {
                 "name": "Dragon form:Line of Fire",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status TripleUp.png] **Guaranteed TA**."
+                    "Massive Fire damage to a foe. Gain <:status_tripleup:830500415044583435> **Guaranteed TA**."
                 ]
             }
         ]
@@ -2452,7 +2452,7 @@
             {
                 "name": "Sacred Globe",
                 "text": [
-                    "450% Light damage to a foe. All allies gain [Status DoubleUp.png] **30% DA Up** and [Status Uplift.png] **30% Charge Bar Gain Up**."
+                    "450% Light damage to a foe. All allies gain <:status_doubleup:830500414977867786> **30% DA Up** and <:status_uplift:828371407720808468> **30% Charge Bar Gain Up**."
                 ]
             }
         ]
@@ -2462,7 +2462,7 @@
             {
                 "name": "Dark Fallen Sword",
                 "text": [
-                    "450% Dark damage to a foe. Gain [Status DarkAtkUp.png] **30% Dark ATK Up** and [Status Soul Blades.png] **Soul Blades**. (Next use of Peccatum Mortale activates twice. )"
+                    "450% Dark damage to a foe. Gain <:status_dark_atkup:830501287153369138> **30% Dark ATK Up** and [Status Soul Blades.png] **Soul Blades**. (Next use of Peccatum Mortale activates twice. )"
                 ]
             }
         ]
@@ -2498,7 +2498,7 @@
             {
                 "name": "Princess Strike",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Armored.png] **100% / 30% Armored**."
+                    "Massive Light damage to a foe. Gain <:status_armored:828382023776206888> **100% / 30% Armored**."
                 ]
             }
         ]
@@ -2524,7 +2524,7 @@
             {
                 "name": "After 5\u2605:Lohenwolf ++",
                 "text": [
-                    "500% Fire damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%** and [Status Anzuenden.png] **Anzuenden**. (Next use of Zerreissen activates twice. )"
+                    "500% Fire damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%** and [Status Anzuenden.png] **Anzuenden**. (Next use of Zerreissen activates twice. )"
                 ]
             }
         ],
@@ -2560,7 +2560,7 @@
             {
                 "name": "Elegant Ruby",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status Shield.png] **Shield (2000)**. Fully recover [Status White Veil.png] **White Veil**'s endurance."
+                    "Massive Water damage to a foe. All allies gain <:status_shield:828371407091662859> **Shield (2000)**. Fully recover [Status White Veil.png] **White Veil**'s endurance."
                 ]
             }
         ]
@@ -2580,13 +2580,13 @@
             {
                 "name": "Demolishing Drive",
                 "text": [
-                    "Massive Fire damage to a foe. All allies gain [Status FireAtkUp.png] **30% Fire ATK Up** and [Status DoubleUp.png] **30% DA Up**."
+                    "Massive Fire damage to a foe. All allies gain <:status_fire_atkup:830500417032552489>] **30% Fire ATK Up** and <:status_doubleup:830500414977867786> **30% DA Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Naval Strike",
                 "text": [
-                    "Massive Fire damage to a foe. All allies gain [Status FireAtkUp.png] **30% Fire ATK Up**, [Status DoubleUp.png] **30% DA Up**, and [Status CriticalUp.png] **80% / 20% Critical Hit Rate Up**."
+                    "Massive Fire damage to a foe. All allies gain <:status_fire_atkup:830500417032552489>] **30% Fire ATK Up**, <:status_doubleup:830500414977867786> **30% DA Up**, and <:status_criticalup:830500417338867825> **80% / 20% Critical Hit Rate Up**."
                 ]
             }
         ]
@@ -2680,7 +2680,7 @@
             {
                 "name": "Talismancy: Radiant Strike",
                 "text": [
-                    "450% Light damage to a foe. End cooldown for Fireblossom Talisman. Gain [Status Aurora Crest 1.png] **Aurora Crest**."
+                    "450% Light damage to a foe. End cooldown for Fireblossom Talisman. Gain <:status_aurora_crest:828399668513341490> **Aurora Crest**."
                 ]
             }
         ]
@@ -2706,7 +2706,7 @@
             {
                 "name": "Sullen Rose",
                 "text": [
-                    "Massive Dark damage to a foe. All allies gain [Status Armored.png] **70% / 30% Armored**."
+                    "Massive Dark damage to a foe. All allies gain <:status_armored:828382023776206888> **70% / 30% Armored**."
                 ]
             }
         ],
@@ -2734,7 +2734,7 @@
             {
                 "name": "Windy",
                 "text": [
-                    "Inflict [Status 1241 31.png] **Chains of Binding** and [Status DoubleDown.png] **100% DA Down** on a foe. All other allies gain [Status Uplift.png] **Charge Bar +10%**."
+                    "Inflict [Status 1241 31.png] **Chains of Binding** and [Status DoubleDown.png] **100% DA Down** on a foe. All other allies gain <:status_uplift:828371407720808468> **Charge Bar +10%**."
                 ]
             }
         ]
@@ -2758,7 +2758,7 @@
             {
                 "name": "If White WingNext charge attack changes to Paradise Lost (Can't be removed) is active:Paradise Lost",
                 "text": [
-                    "Massive Light damage to a foe. Inflict [Status Bell of War 1.png] **Bell of War**. Consume [Status White Wing.png] **White Wing**. Gain [Status LightAtkUp.png] **40% Light ATK Up**, [Status Bonus Damage.png] **40% Bonus Light DMG**, and [Status Eden's Exile.png] **Eden's Exile**."
+                    "Massive Light damage to a foe. Inflict [Status Bell of War 1.png] **Bell of War**. Consume [Status White Wing.png] **White Wing**. Gain <:status_light_atkup:830501287552352256> **40% Light ATK Up**, <:status_bonus_damage:830500415844909056> **40% Bonus Light DMG**, and [Status Eden's Exile.png] **Eden's Exile**."
                 ]
             }
         ],
@@ -2766,7 +2766,7 @@
             {
                 "name": "Ain Soph Aur",
                 "text": [
-                    "Massive Water damage to a foe. Inflict [Status Bell of War 1.png] **Bell of War**. Consume 1 [Status Coffee Break.png] **Coffee Break**: All allies also gain [Status Bonus Damage.png] **10% Bonus Water DMG**."
+                    "Massive Water damage to a foe. Inflict [Status Bell of War 1.png] **Bell of War**. Consume 1 [Status Coffee Break.png] **Coffee Break**: All allies also gain <:status_bonus_damage:830500415844909056> **10% Bonus Water DMG**."
                 ]
             }
         ]
@@ -2776,7 +2776,7 @@
             {
                 "name": "Post-Trauma",
                 "text": [
-                    "Massive Earth damage to a foe. All allies except Sara gain [Status Shield.png] **Shield (1200)**."
+                    "Massive Earth damage to a foe. All allies except Sara gain <:status_shield:828371407091662859> **Shield (1200)**."
                 ]
             }
         ],
@@ -2794,13 +2794,13 @@
             {
                 "name": "Innocent Desire",
                 "text": [
-                    "Massive Light damage to a foe. All allies gain [Status LightAtkUp.png] **25% Light ATK Up**."
+                    "Massive Light damage to a foe. All allies gain <:status_light_atkup:830501287552352256> **25% Light ATK Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Eternal Desire",
                 "text": [
-                    "Massive Light damage to a foe. All allies gain [Status LightAtkUp.png] **25% Light ATK Up**. Gain [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)** and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**."
+                    "Massive Light damage to a foe. All allies gain <:status_light_atkup:830501287552352256> **25% Light ATK Up**. Gain <:status_heal:830500416415858688> **50% Healing Up (Stackable / Max: 100%)** and <:status_heal:830500416415858688> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ],
@@ -2808,7 +2808,7 @@
             {
                 "name": "Dissonant Desire",
                 "text": [
-                    "Massive Dark damage to a foe. Gain [Status Jammed.png] **Jammed**."
+                    "Massive Dark damage to a foe. Gain <:status_jammed:828371406936997919> **Jammed**."
                 ]
             }
         ]
@@ -2842,7 +2842,7 @@
             {
                 "name": "Tathlum Flambe",
                 "text": [
-                    "Massive Fire damage to a foe. Gain 1 [Status 67781.png] **Sprinkles**. All allies gain [Status Jammed.png] **Jammed**."
+                    "Massive Fire damage to a foe. Gain 1 [Status 67781.png] **Sprinkles**. All allies gain <:status_jammed:828371406936997919> **Jammed**."
                 ]
             }
         ]
@@ -2862,7 +2862,7 @@
             {
                 "name": "Kitty-Cat Hurricane Slash",
                 "text": [
-                    "Massive Wind damage to a foe. (Boost to C. A. specs based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl. )When [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl is 5: Also gain [Status Bonus Damage.png] **30% Bonus Wind DMG**."
+                    "Massive Wind damage to a foe. (Boost to C. A. specs based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl. )When [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl is 5: Also gain <:status_bonus_damage:830500415844909056> **30% Bonus Wind DMG**."
                 ]
             }
         ]
@@ -2878,7 +2878,7 @@
             {
                 "name": "After 5\u2605:Cien Mil Espadas",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status AttackUp.png] **30% ATK Up**. Seofon gains [Status Repel.png] **Unchallenged (1 time)**."
+                    "Massive Wind damage to a foe. All allies gain [Status AttackUp.png] **30% ATK Up**. Seofon gains <:status_unchallenged:828371407351447643> **Unchallenged (1 time)**."
                 ]
             }
         ]
@@ -2888,13 +2888,13 @@
             {
                 "name": "Void Claws: Terminus",
                 "text": [
-                    "Massive Dark damage to a foe. Gain [Status Mirror Image.png] **Mirror Image (2 times)**."
+                    "Massive Dark damage to a foe. Gain <:status_mirror_image:830500673392476200> **Mirror Image (2 times)**."
                 ]
             },
             {
                 "name": "After 5\u2605:Three Thousand and One Talons",
                 "text": [
-                    "Massive Dark damage to a foe. Gain [Status Mirror Image.png] **Mirror Image (2 times)** and [Status Dodge 1.png] **Dodge All (1 time)**."
+                    "Massive Dark damage to a foe. Gain <:status_mirror_image:830500673392476200> **Mirror Image (2 times)** and <:status_dodge_1:830500672868450304> **Dodge All (1 time)**."
                 ]
             }
         ],
@@ -2902,7 +2902,7 @@
             {
                 "name": "Empty Hand, Enlightened Fist",
                 "text": [
-                    "450% Dark damage to a foe. Gain [Status Dodge 1.png] **Dodge All (1 time)**. (When Seox has [Status 6790.png] **Savage Claw** or [Status 6790 2.png] **Feral Intuition**: 30% boost to C. A. damage and 10% boost to C. A. damage cap. )"
+                    "450% Dark damage to a foe. Gain <:status_dodge_1:830500672868450304> **Dodge All (1 time)**. (When Seox has [Status 6790.png] **Savage Claw** or [Status 6790 2.png] **Feral Intuition**: 30% boost to C. A. damage and 10% boost to C. A. damage cap. )"
                 ]
             }
         ]
@@ -2926,7 +2926,7 @@
             {
                 "name": "Ibormeith Solas",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status Shield.png] **Shield (2000)**. Seruel gains [Status Typhoon Crest 1.png] **Typhoon Crest**."
+                    "Massive Wind damage to a foe. All allies gain <:status_shield:828371407091662859> **Shield (2000)**. Seruel gains <:status_typhoon_crest:828399669141831691> **Typhoon Crest**."
                 ]
             }
         ]
@@ -2946,7 +2946,7 @@
             {
                 "name": "Thunderous Star Piercer",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                    "Massive Light damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%**."
                 ]
             }
         ]
@@ -3028,7 +3028,7 @@
             {
                 "name": "Zeruch Shot",
                 "text": [
-                    "Massive Light damage to a foe. (50% boost to C. A. damage and 20% boost to C. A. damage cap against foes with [Status Weak Point 1.png] **Weak Point**. )Gain [Status Uplift.png] **Charge Bar +20%**."
+                    "Massive Light damage to a foe. (50% boost to C. A. damage and 20% boost to C. A. damage cap against foes with [Status Weak Point 1.png] **Weak Point**. )Gain <:status_uplift:828371407720808468> **Charge Bar +20%**."
                 ]
             }
         ],
@@ -3052,7 +3052,7 @@
             {
                 "name": "After 5\u2605:Alabaster Dance: Houjou",
                 "text": [
-                    "500% Water damage to a foe. Gain [Status 4013.png] **Yonagi Rite**. All allies gain [Status Mirror Image.png] **Mirror Image (1 time)**."
+                    "500% Water damage to a foe. Gain [Status 4013.png] **Yonagi Rite**. All allies gain <:status_mirror_image:830500673392476200> **Mirror Image (1 time)**."
                 ]
             }
         ],
@@ -3060,7 +3060,7 @@
             {
                 "name": "Alabaster Dance: Zuika",
                 "text": [
-                    "Massive Fire damage to a foe. All allies gain [Status Bonus Damage.png] **10% Bonus Fire DMG**."
+                    "Massive Fire damage to a foe. All allies gain <:status_bonus_damage:830500415844909056> **10% Bonus Fire DMG**."
                 ]
             }
         ],
@@ -3078,7 +3078,7 @@
             {
                 "name": "Lebensstrahl",
                 "text": [
-                    "Restore 10% of all allies' HP (Healing cap: 2500). All allies gain [Status LightAtkUp.png] **25% Light ATK Up**, [Status DarkResUp.png] **20% Dark DMG Lowered**, and [Status Uplift.png] **10% Uplifted**."
+                    "Restore 10% of all allies' HP (Healing cap: 2500). All allies gain <:status_light_atkup:830501287552352256> **25% Light ATK Up**, [Status DarkResUp.png] **20% Dark DMG Lowered**, and <:status_uplift:828371407720808468> **10% Uplifted**."
                 ]
             }
         ]
@@ -3088,13 +3088,13 @@
             {
                 "name": "Tectonic Rush",
                 "text": [
-                    "450% Earth damage to a foe. Gain [Status Strength.png] **Strength**."
+                    "450% Earth damage to a foe. Gain <:status_strength:830500416575635456> **Strength**."
                 ]
             },
             {
                 "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
                 "text": [
-                    "500% Earth damage to a foe. Gain [Status Strength.png] **Strength** and [Status 6952.png] **Fundoshi Fist**."
+                    "500% Earth damage to a foe. Gain <:status_strength:830500416575635456> **Strength** and [Status 6952.png] **Fundoshi Fist**."
                 ]
             }
         ]
@@ -3104,7 +3104,7 @@
             {
                 "name": "Flaming Tempest",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. [Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1. (When [Status Steel and Dust 1.png] **Steel & Dust** is at 5: Buff increased to [Status Bonus Damage.png] **50% Bonus Wind DMG**. )"
+                    "Massive Wind damage to a foe. Gain <:status_bonus_damage:830500415844909056> **20% Bonus Wind DMG**. [Status Steel and Dust 1.png] **Steel & Dust** lvl rises by 1. (When [Status Steel and Dust 1.png] **Steel & Dust** is at 5: Buff increased to <:status_bonus_damage:830500415844909056> **50% Bonus Wind DMG**. )"
                 ]
             }
         ]
@@ -3172,7 +3172,7 @@
             {
                 "name": "Raven's Shadow",
                 "text": [
-                    "Massive Dark damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%** and 2 [Status Knife 1.png] **Knife**."
+                    "Massive Dark damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%** and 2 [Status Knife 1.png] **Knife**."
                 ]
             }
         ]
@@ -3182,7 +3182,7 @@
             {
                 "name": "Lambent Flame",
                 "text": [
-                    "450% Fire damage to a foe. Gain [Status Hellfire Crest 1.png] **Hellfire Crest**, [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)**, and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**."
+                    "450% Fire damage to a foe. Gain <:status_hellfire_crest:828399668450951209> **Hellfire Crest**, <:status_heal:830500416415858688> **50% Healing Up (Stackable / Max: 100%)**, and <:status_heal:830500416415858688> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ]
@@ -3192,7 +3192,7 @@
             {
                 "name": "Maelstrom Blaze",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status Uplift.png] **Charge Bar +10%**."
+                    "Massive Fire damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +10%**."
                 ]
             }
         ]
@@ -3214,7 +3214,7 @@
             {
                 "name": "After 5\u2605 - Axe form:Astro Destruction",
                 "text": [
-                    "500% Earth damage to a foe. Gain [Status EarthAtkUp.png] **20% Earth ATK Up**. Swap to Sword form."
+                    "500% Earth damage to a foe. Gain <:status_earth_atkup:830500414776016956> **20% Earth ATK Up**. Swap to Sword form."
                 ]
             },
             {
@@ -3226,7 +3226,7 @@
             {
                 "name": "After Stage 1 Transcendence - Axe form:Origin Breaker",
                 "text": [
-                    "550% Earth damage to a foe and remove 1 buff. Gain [Status EarthAtkUp.png] **20% Earth ATK Up**. Swap to Sword form."
+                    "550% Earth damage to a foe and remove 1 buff. Gain <:status_earth_atkup:830500414776016956> **20% Earth ATK Up**. Swap to Sword form."
                 ]
             },
             {
@@ -3242,13 +3242,13 @@
             {
                 "name": "Aerial Blitz",
                 "text": [
-                    "450% Wind damage to a foe. Gain [Status TripleUp.png] **100% TA Up**."
+                    "450% Wind damage to a foe. Gain <:status_tripleup:830500415044583435> **100% TA Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Tempest",
                 "text": [
-                    "500% Wind damage to a foe. Gain [Status TripleUp.png] **100% TA Up** and [Status Typhoon Crest 1.png] **Typhoon Crest**."
+                    "500% Wind damage to a foe. Gain <:status_tripleup:830500415044583435> **100% TA Up** and <:status_typhoon_crest:828399669141831691> **Typhoon Crest**."
                 ]
             }
         ]
@@ -3258,7 +3258,7 @@
             {
                 "name": "Danza Macabra",
                 "text": [
-                    "Massive Fire damage to a foe. Inflict [Status Blind.png] **Blinded**."
+                    "Massive Fire damage to a foe. Inflict <:status_blind_global:828371406487552082> **Blinded**."
                 ]
             },
             {
@@ -3274,7 +3274,7 @@
             {
                 "name": "Red Heat Crash",
                 "text": [
-                    "Massive Fire damage to a foe. All allies gain [Status FireAtkUp.png] **25% Fire ATK Up**."
+                    "Massive Fire damage to a foe. All allies gain <:status_fire_atkup:830500417032552489>] **25% Fire ATK Up**."
                 ]
             }
         ]
@@ -3290,13 +3290,13 @@
             {
                 "name": "After 5\u2605:Asteroid Jaeger",
                 "text": [
-                    "500% Light damage to a foe. Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed**. )All allies gain [Status CriticalUp.png] **100% / 50% Critical Hit Rate Up**."
+                    "500% Light damage to a foe. Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed**. )All allies gain <:status_criticalup:830500417338867825> **100% / 50% Critical Hit Rate Up**."
                 ]
             },
             {
                 "name": "After Stage 1 Transcendence:Stellar Termination",
                 "text": [
-                    "550% Light damage to a foe. Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed** and deals damage twice. )All allies gain [Status CriticalUp.png] **100% / 50% Critical Hit Rate Up**. End cooldown for Clincher."
+                    "550% Light damage to a foe. Gain [Status Bring the Thunder.png] **Bring the Thunder**. (Next use of Clincher inflicts [Status Paralysis.png] **Paralyzed** and deals damage twice. )All allies gain <:status_criticalup:830500417338867825> **100% / 50% Critical Hit Rate Up**. End cooldown for Clincher."
                 ]
             }
         ]
@@ -3402,7 +3402,7 @@
             {
                 "name": "Abyssal Wall",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (2 times)**."
+                    "Massive Earth damage to a foe. Gain <:status_counter_dodgedmg:830500418454683698> **Counters on Dodge/DMG (2 times)**."
                 ]
             }
         ]
@@ -3422,7 +3422,7 @@
             {
                 "name": "Gilded Heaven Strike",
                 "text": [
-                    "500% Dark damage to a foe. Gain [Status Dodge 1.png] **Dodge All (1 time)**."
+                    "500% Dark damage to a foe. Gain <:status_dodge_1:830500672868450304> **Dodge All (1 time)**."
                 ]
             }
         ]
@@ -3452,7 +3452,7 @@
             {
                 "name": "Rocket Punch",
                 "text": [
-                    "Massive Water damage to a foe. Inflict [Status DoubleDown.png] **30-40% DA Down**. Gain [Status Uplift.png] **10% Uplifted** for 3 turns."
+                    "Massive Water damage to a foe. Inflict [Status DoubleDown.png] **30-40% DA Down**. Gain <:status_uplift:828371407720808468> **10% Uplifted** for 3 turns."
                 ]
             }
         ],
@@ -3504,7 +3504,7 @@
             {
                 "name": "Axis Mundi",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                    "Massive Earth damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%**."
                 ]
             }
         ]
@@ -3514,13 +3514,13 @@
             {
                 "name": "Normal mode:Red Hot Guardian",
                 "text": [
-                    "450% Water damage to a foe. Gain [Status Uplift.png] **Charge Bar +50%**. Switch into Tough Guy mode."
+                    "450% Water damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +50%**. Switch into Tough Guy mode."
                 ]
             },
             {
                 "name": "After 5\u2605 - Normal mode:Red Hot Guardian ++",
                 "text": [
-                    "500% Water damage to a foe. Gain [Status Uplift.png] **Charge Bar +50%** and [Status TripleUp.png] **Guaranteed TA**. Switch into Tough Guy mode."
+                    "500% Water damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +50%** and <:status_tripleup:830500415044583435> **Guaranteed TA**. Switch into Tough Guy mode."
                 ]
             },
             {
@@ -3550,7 +3550,7 @@
             {
                 "name": "Swift Judgment",
                 "text": [
-                    "450% Wind damage to a foe. Gain [Status Bonus Damage.png] **Bonus Wind DMG** based on number of [Status 1414 1.png] **Triple Shroud**."
+                    "450% Wind damage to a foe. Gain <:status_bonus_damage:830500415844909056> **Bonus Wind DMG** based on number of [Status 1414 1.png] **Triple Shroud**."
                 ]
             }
         ]
@@ -3566,7 +3566,7 @@
             {
                 "name": "After 5\u2605:Crimson Dance: Yugetsu",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status DamageCapUp.png] **15% DMG Cap Up**, [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)**, and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**."
+                    "Massive Fire damage to a foe. Gain [Status DamageCapUp.png] **15% DMG Cap Up**, <:status_heal:830500416415858688> **50% Healing Up (Stackable / Max: 100%)**, and <:status_heal:830500416415858688> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ],
@@ -3574,7 +3574,7 @@
             {
                 "name": "Crimson Dance: Hanaarashi",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status Bonus Damage.png] **10% Bonus Wind DMG**. Deal 999,999 bonus Plain damage to a foe with [Status Foxflame 1.png] **Foxflame**."
+                    "Massive Wind damage to a foe. All allies gain <:status_bonus_damage:830500415844909056> **10% Bonus Wind DMG**. Deal 999,999 bonus Plain damage to a foe with [Status Foxflame 1.png] **Foxflame**."
                 ]
             }
         ],
@@ -3582,7 +3582,7 @@
             {
                 "name": "Crimson Dance: Rinnen-aratame",
                 "text": [
-                    "Massive Water damage to a foe. Inflict [Status DefenseDown.png] **15% DEF Down** and **10% Mode Bar Cut**."
+                    "Massive Water damage to a foe. Inflict  <:status_defdown_global:828371408363061298>  **15% DEF Down** and **10% Mode Bar Cut**."
                 ]
             }
         ]
@@ -3598,7 +3598,7 @@
             {
                 "name": "Heavensbane mode:Skyblade Heavensbane",
                 "text": [
-                    "450% Wind damage to a foe. Gain [Status Bonus Damage.png] **20% Bonus Wind DMG**. Raise [Status Chivalry1.png] **Chivalry** lvl by 1."
+                    "450% Wind damage to a foe. Gain <:status_bonus_damage:830500415844909056> **20% Bonus Wind DMG**. Raise [Status Chivalry1.png] **Chivalry** lvl by 1."
                 ]
             }
         ],
@@ -3606,7 +3606,7 @@
             {
                 "name": "Skyblade Shadowstitch",
                 "text": [
-                    "450% Fire damage to a foe. Gain [Status Jammed.png] **Jammed**. When below 25% HP: Also gain [Status Shield.png] **Shield (3000)**."
+                    "450% Fire damage to a foe. Gain <:status_jammed:828371406936997919> **Jammed**. When below 25% HP: Also gain <:status_shield:828371407091662859> **Shield (3000)**."
                 ]
             }
         ]
@@ -3616,7 +3616,7 @@
             {
                 "name": "Duke Lamina",
                 "text": [
-                    "Massive Wind damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                    "Massive Wind damage to a foe. Gain <:status_uplift:828371407720808468> **Charge Bar +20%**."
                 ]
             }
         ]
@@ -3626,7 +3626,7 @@
             {
                 "name": "Alexander Plasma",
                 "text": [
-                    "Massive Fire damage to a foe. (50% boost to C. A. damage and 20% boost to C. A. damage cap when the field effect [Status Flare.png] **Flare** is active. )All allies gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**."
+                    "Massive Fire damage to a foe. (50% boost to C. A. damage and 20% boost to C. A. damage cap when the field effect <:status_flare:830500417720287272> **Flare** is active. )All allies gain <:status_criticalup:830500417338867825> **30% / 30% Critical Hit Rate Up**."
                 ]
             }
         ]
@@ -3646,13 +3646,13 @@
             {
                 "name": "Resolute Strike",
                 "text": [
-                    "450% Fire damage to a foe. Gain [Status CriticalUp.png] **70% / 20% Critical Hit Rate Up**."
+                    "450% Fire damage to a foe. Gain <:status_criticalup:830500417338867825> **70% / 20% Critical Hit Rate Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Sirius Roar",
                 "text": [
-                    "500% Fire damage to a foe. (50% boost to C. A. damage and 30% boost to C. A. damage cap against foes with [Status Arvess Fermare 1.png] **Arvess Fermare**. ) Gain [Status CriticalUp.png] **70% / 20% Critical Hit Rate Up**."
+                    "500% Fire damage to a foe. (50% boost to C. A. damage and 30% boost to C. A. damage cap against foes with [Status Arvess Fermare 1.png] **Arvess Fermare**. ) Gain <:status_criticalup:830500417338867825> **70% / 20% Critical Hit Rate Up**."
                 ]
             }
         ],
@@ -3660,7 +3660,7 @@
             {
                 "name": "Solar Spike",
                 "text": [
-                    "Massive Dark damage to a foe. All allies gain [Status CriticalUp.png] **30% / 30% Critical Hit Rate Up**."
+                    "Massive Dark damage to a foe. All allies gain <:status_criticalup:830500417338867825> **30% / 30% Critical Hit Rate Up**."
                 ]
             }
         ],
@@ -3668,7 +3668,7 @@
             {
                 "name": "Abyssal Wall",
                 "text": [
-                    "Massive Earth damage to a foe. Gain [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (2 times)**."
+                    "Massive Earth damage to a foe. Gain <:status_counter_dodgedmg:830500418454683698> **Counters on Dodge/DMG (2 times)**."
                 ]
             }
         ],
@@ -3676,7 +3676,7 @@
             {
                 "name": "Resolute Strike",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Uplift.png] **30% Charge Bar Gain Up**."
+                    "Massive Light damage to a foe. Gain <:status_uplift:828371407720808468> **30% Charge Bar Gain Up**."
                 ]
             }
         ],
@@ -3684,7 +3684,7 @@
             {
                 "name": "Sirius Nova: Last Dive",
                 "text": [
-                    "1250% Water damage to a foe (Damage cap: ~2,420,000). Gain [Status Uplift.png] **Charge Bar +30%**. Activate Spear of Arvess. (Consumes 15% of max HP. )"
+                    "1250% Water damage to a foe (Damage cap: ~2,420,000). Gain <:status_uplift:828371407720808468> **Charge Bar +30%**. Activate Spear of Arvess. (Consumes 15% of max HP. )"
                 ]
             }
         ]
@@ -3694,7 +3694,7 @@
             {
                 "name": "Gamma Ray",
                 "text": [
-                    "Massive Light damage to a foe. Gain [Status Shield.png] **Shield (2000)**."
+                    "Massive Light damage to a foe. Gain <:status_shield:828371407091662859> **Shield (2000)**."
                 ]
             }
         ],
@@ -3720,7 +3720,7 @@
             {
                 "name": "Kitto Seishun ga Kikoeru",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status WindAtkUp.png] **15% Wind ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
+                    "Massive Wind damage to a foe. All allies gain <:status_wind_atkup:830501287707017256> **15% Wind ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
                 ]
             }
         ]
@@ -3730,7 +3730,7 @@
             {
                 "name": "Bokura wa Ima no Naka de",
                 "text": [
-                    "Massive Light damage to a foe. All allies gain [Status LightAtkUp.png] **15% Light ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
+                    "Massive Light damage to a foe. All allies gain <:status_light_atkup:830501287552352256> **15% Light ATK Up**. Restore 20% of all allies' HP (Healing cap: 500)."
                 ]
             }
         ]
@@ -3740,13 +3740,13 @@
             {
                 "name": "Sore wa Bokutachi no Kiseki",
                 "text": [
-                    "Massive Dark damage to a foe. All allies gain [Status DarkAtkUp.png] **15% Dark ATK Up**. Restore all allies' HP (Healing cap: 500)."
+                    "Massive Dark damage to a foe. All allies gain <:status_dark_atkup:830501287153369138> **15% Dark ATK Up**. Restore all allies' HP (Healing cap: 500)."
                 ]
             },
             {
                 "name": "After 5\u2605:Donna Toki mo Zutto",
                 "text": [
-                    "Massive Dark damage to a foe. All allies gain [Status DarkAtkUp.png] **15% Dark ATK Up** and [Status Heal.png] **Refresh**. Restore all allies' HP (Healing cap: 500)."
+                    "Massive Dark damage to a foe. All allies gain <:status_dark_atkup:830501287153369138> **15% Dark ATK Up** and <:status_heal:830500416415858688> **Refresh**. Restore all allies' HP (Healing cap: 500)."
                 ]
             }
         ]
