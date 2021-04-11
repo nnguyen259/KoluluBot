@@ -5488,37 +5488,6 @@
     "Lecia": {
         "BASE": {
             "5star": "No",
-            "atk": "9,600",
-            "element": "Water",
-            "gender": [
-                "Female"
-            ],
-            "hp": "1,280",
-            "id": "3040263000",
-            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040263000_02.png",
-            "jpname": "\u30ea\u30fc\u30b7\u30e3",
-            "max_evo": "4",
-            "name": "Lecia",
-            "profile": "Dedicated to keeping the peace in the Sky Realm, this young woman is tormented by the difficulty of maintaining her ideals in the face of harsh reality. She walks the path she believes is right with determination stronger than even she realized. May white wings sprout from her back to speed her on her way.",
-            "race": [
-                "Human"
-            ],
-            "rarity": "SSR",
-            "recruitment": "Premium Draw",
-            "series": [],
-            "specialties": [
-                "Sabre",
-                "Gun"
-            ],
-            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040263000_02.jpg",
-            "type": "Attack",
-            "va": [
-                "Ayako Kawasumi"
-            ],
-            "weapon": "Commander's Sidearm"
-        },
-        "GRAND": {
-            "5star": "No",
             "atk": "8,500",
             "element": "Wind",
             "gender": [
@@ -5548,6 +5517,37 @@
                 "Ayako Kawasumi"
             ],
             "weapon": "Reunion"
+        },
+        "WATER": {
+            "5star": "No",
+            "atk": "9,600",
+            "element": "Water",
+            "gender": [
+                "Female"
+            ],
+            "hp": "1,280",
+            "id": "3040263000",
+            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040263000_02.png",
+            "jpname": "\u30ea\u30fc\u30b7\u30e3",
+            "max_evo": "4",
+            "name": "Lecia",
+            "profile": "Dedicated to keeping the peace in the Sky Realm, this young woman is tormented by the difficulty of maintaining her ideals in the face of harsh reality. She walks the path she believes is right with determination stronger than even she realized. May white wings sprout from her back to speed her on her way.",
+            "race": [
+                "Human"
+            ],
+            "rarity": "SSR",
+            "recruitment": "Premium Draw",
+            "series": [],
+            "specialties": [
+                "Sabre",
+                "Gun"
+            ],
+            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040263000_02.jpg",
+            "type": "Attack",
+            "va": [
+                "Ayako Kawasumi"
+            ],
+            "weapon": "Commander's Sidearm"
         }
     },
     "Lelouch_Lamperouge": {
@@ -11208,75 +11208,114 @@
             "weapon": null
         }
     },
-    "\u00ce\u0153's_First-Years": {
+    "\u039c%27s_First-Years": {
         "BASE": {
             "5star": "No",
-            "atk": null,
-            "element": null,
-            "gender": null,
-            "hp": null,
-            "id": null,
-            "image": "ERROR. CONTACT MAI.",
-            "jpname": null,
-            "max_evo": null,
-            "name": null,
-            "profile": null,
-            "race": null,
-            "rarity": null,
-            "recruitment": null,
-            "series": [],
-            "specialties": null,
-            "thumbnail": "ERROR. CONTACT MAI.",
-            "type": null,
-            "va": null,
+            "atk": "7,211",
+            "element": "Wind",
+            "gender": [
+                "Female"
+            ],
+            "hp": "1,641",
+            "id": "3040229000",
+            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040229000_02.png",
+            "jpname": "\u661f\u7a7a \u51db\uff06\u5c0f\u6cc9\u82b1\u967d\uff06\u897f\u6728\u91ce\u771f\u59eb",
+            "max_evo": "4",
+            "name": "\u03bc's First-Years",
+            "profile": "Originally from another world, the girls of \u03bc's ended up here somehow\u2014but that didn't stop them from putting on a concert to convey the emotions hidden within themselves. Their feelings move the hearts of the people and bring smiles to their faces.",
+            "race": [
+                "Human"
+            ],
+            "rarity": "SSR",
+            "recruitment": "Love Live! Door to the Skies",
+            "series": [
+                "tie-in"
+            ],
+            "specialties": [
+                "Harp",
+                "Staff"
+            ],
+            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040229000_02.jpg",
+            "type": "Heal",
+            "va": [
+                "Riho Iida",
+                "Yurika Kubo",
+                "Pile"
+            ],
             "weapon": null
         }
     },
-    "\u00ce\u0153's_Second-Years": {
+    "\u039c%27s_Second-Years": {
         "BASE": {
             "5star": "No",
-            "atk": null,
-            "element": null,
-            "gender": null,
-            "hp": null,
-            "id": null,
-            "image": "ERROR. CONTACT MAI.",
-            "jpname": null,
-            "max_evo": null,
-            "name": null,
-            "profile": null,
-            "race": null,
-            "rarity": null,
-            "recruitment": null,
-            "series": [],
-            "specialties": null,
-            "thumbnail": "ERROR. CONTACT MAI.",
-            "type": null,
-            "va": null,
+            "atk": "8,022",
+            "element": "Light",
+            "gender": [
+                "Female"
+            ],
+            "hp": "1,630",
+            "id": "3040230000",
+            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040230000_02.png",
+            "jpname": "\u5712\u7530\u6d77\u672a\uff06\u9ad8\u5742\u7a42\u4e43\u679c\uff06\u5357\u3053\u3068\u308a",
+            "max_evo": "4",
+            "name": "\u03bc's Second-Years",
+            "profile": "Originally from another world, the girls of \u03bc's ended up here somehow\u2014but that didn't stop them from putting on a concert to make their dream come true. Soon the day will come when their wish is granted and smiles light the faces of the people.",
+            "race": [
+                "Human"
+            ],
+            "rarity": "SSR",
+            "recruitment": "Love Live! Door to the Skies",
+            "series": [
+                "tie-in"
+            ],
+            "specialties": [
+                "Bow",
+                "Staff"
+            ],
+            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040230000_02.jpg",
+            "type": "Balanced",
+            "va": [
+                "Emi Nitta",
+                "Suzuko Mimori",
+                "Aya Uchida"
+            ],
             "weapon": null
         }
     },
-    "\u00ce\u0153's_Third-Years": {
+    "\u039c%27s_Third-Years": {
         "BASE": {
-            "5star": "No",
-            "atk": null,
-            "element": null,
-            "gender": null,
-            "hp": null,
-            "id": null,
-            "image": "ERROR. CONTACT MAI.",
-            "jpname": null,
-            "max_evo": null,
-            "name": null,
-            "profile": null,
-            "race": null,
-            "rarity": null,
-            "recruitment": null,
-            "series": [],
-            "specialties": null,
-            "thumbnail": "ERROR. CONTACT MAI.",
-            "type": null,
-            "va": null,
+            "5star": "Yes",
+            "atk": "6,233",
+            "element": "Dark",
+            "gender": [
+                "Female"
+            ],
+            "hp": "2,219",
+            "id": "3040231000",
+            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040231000_03.png",
+            "jpname": "\u7d62\u702c\u7d75\u91cc\uff06\u77e2\u6fa4\u306b\u3053\uff06\u6771\u689d \u5e0c",
+            "max_evo": "5",
+            "name": "\u03bc's Third-Years",
+            "profile": "Originally from another world, the girls of \u03bc's ended up here somehow\u2014but that didn't stop them from putting on a concert to move toward an even brighter tomorrow. They take off running at full speed, their eyes fixed on a future where everyone is smiling.",
+            "race": [
+                "Human"
+            ],
+            "rarity": "SSR",
+            "recruitment": "Love Live! Door to the Skies",
+            "series": [
+                "tie-in"
+            ],
+            "specialties": [
+                "Harp",
+                "Staff"
+            ],
+            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040231000_03.jpg",
+            "type": "Defense",
+            "va": [
+                "Yoshino Nanjo",
+                "Sora Tokui",
+                "Aina Kusuda"
+            ],
             "weapon": null
         }
     }
