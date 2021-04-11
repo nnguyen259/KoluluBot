@@ -14,6 +14,10 @@ class Character(commands.Cog):
             self.skills = dict((k.lower(), v) for k, v in json.load(skillFile).items())
         with open('data/supportskill.json', 'r') as supportSkillFile:
             self.supportSkills = dict((k.lower(), v) for k, v in json.load(supportSkillFile).items())
+        with open('data/emp.json', 'r') as empFile:
+            self.emps = dict((k.lower(), v) for k, v in json.load(empFile).items())
+        with open('data/empdata.json', 'r') as empDataFile:
+            self.empData = json.load(empDataFile)
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -92,8 +96,54 @@ class Character(commands.Cog):
         else:
             await ctx.send('Character not found!')
 
+    @commands.command()
+    async def emp(self, ctx, name : str, version=None):
+        from PIL import Image
+        import urllib.request, io
+
+        name = name.lower()
+        if version:
+            version = version.upper()
+        if name in self.emps:
+            char = self.emps[name]
+            charVersion = None
+            if not version or version not in char:
+                version = 'BASE'
+                charVersion = char['BASE']
+            else:
+                charVersion = char[version]
+
+            image = Image.new("RGBA", (104*5, 104*len(charVersion)))
+            i = 0
+            for row in charVersion:
+                j = 0
+                rowImage = Image.new("RGBA", (104*5, 104))
+                for emp in row:
+                    id = self.empData[emp]
+                    url = f'http://game-a.granbluefantasy.jp/assets_en/img/sp/zenith/assets/ability/{id}.png'
+                    cellImage = Image.open(urllib.request.urlopen(url))
+                    rowImage.paste(cellImage, (104*j, 0))
+                    j += 1
+                image.paste(rowImage, (0, 104*i))
+                i += 1
+
+            with io.BytesIO() as output:
+                image.save(output, format="PNG")
+                output.seek(0)
+                file = discord.File(fp=output, filename="emp.png")
+
+                embed = discord.Embed()
+                embed.title = self.chars[name][version]['name']
+                embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
+                embed.set_image(url="attachment://emp.png")
+
+                await ctx.send(file=file, embed=embed)
+        else:
+            await ctx.send('Character Not Found!')
+
     @char.error
-    async def char_error(self, ctx, error):
+    @emp.error
+    async def error(self, ctx, error):
         print(traceback.format_exc())
         await ctx.send(f'Something went wrong.\nError: {error}')
 

@@ -1,0 +1,9 @@
+{
+    "Abby" : {
+        "BASE" : [
+            ["ATK", "DEF", "Double_ATK", "Critical_Hit", "CA_DMG"],
+            ["ATK", "DEF", "HP", "Double_ATK", "Critical_Hit"],
+            ["Triple_ATK", "Critical_Hit", "Critical_Hit", "Stamina", "Lock"]
+        ]
+    }
+}
