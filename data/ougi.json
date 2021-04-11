@@ -2872,13 +2872,13 @@
             {
                 "name": "Diez Mil Espadas",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status AttackUp.png] **30% ATK Up**."
+                    "Massive Wind damage to a foe. All allies gain <:status_atkup:830500415321800715> **30% ATK Up**."
                 ]
             },
             {
                 "name": "After 5\u2605:Cien Mil Espadas",
                 "text": [
-                    "Massive Wind damage to a foe. All allies gain [Status AttackUp.png] **30% ATK Up**. Seofon gains <:status_unchallenged:828371407351447643> **Unchallenged (1 time)**."
+                    "Massive Wind damage to a foe. All allies gain <:status_atkup:830500415321800715> **30% ATK Up**. Seofon gains <:status_unchallenged:828371407351447643> **Unchallenged (1 time)**."
                 ]
             }
         ]

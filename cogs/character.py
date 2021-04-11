@@ -131,7 +131,7 @@ class Character(commands.Cog):
                 file = discord.File(fp=output, filename="emp.png")
 
                 embed = discord.Embed()
-                embed.title = self.chars[name][version]['name']
+                embed.title = '__Extended Mastery Perks__'
                 embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
                 embed.set_image(url="attachment://emp.png")
 
