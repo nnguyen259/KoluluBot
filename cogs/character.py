@@ -18,6 +18,8 @@ class Character(commands.Cog):
             self.emps = dict((k.lower(), v) for k, v in json.load(empFile).items())
         with open('data/empdata.json', 'r') as empDataFile:
             self.empData = json.load(empDataFile)
+        with open('data/empdomaindata.json', 'r') as empDomainDataFile:
+            self.empDomainData = json.load(empDomainDataFile)
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -108,7 +110,7 @@ class Character(commands.Cog):
 
     @commands.command()
     async def emp(self, ctx, name : str, version=None):
-        from PIL import Image
+        from PIL import Image, ImageDraw, ImageFont
         import urllib.request, os
 
         name = name.lower()
@@ -131,16 +133,44 @@ class Character(commands.Cog):
                     j = 0
                     rowImage = Image.new("RGBA", (104*5, 104))
                     for emp in row:
-                        id = self.empData[emp]
                         try:
-                            cellImage = Image.open(f'cache/emp/image/normal/{id}.png')
-                            rowImage.paste(cellImage, (104*j, 0))
-                        except Exception:
-                            os.makedirs('cache/emp/image/normal', exist_ok=True)
-                            url = f'http://game-a.granbluefantasy.jp/assets_en/img/sp/zenith/assets/ability/{id}.png'
-                            cellImage = Image.open(urllib.request.urlopen(url))
-                            cellImage.save(f'cache/emp/image/normal/{id}.png')
-                            rowImage.paste(cellImage, (104*j, 0))
+                            id = self.empData[emp]
+                            try:
+                                cellImage = Image.open(f'cache/emp/image/normal/{id}.png')
+                                rowImage.paste(cellImage, (104*j, 0))
+                            except Exception:
+                                os.makedirs('cache/emp/image/normal', exist_ok=True)
+                                url = f'http://game-a.granbluefantasy.jp/assets_en/img/sp/zenith/assets/ability/{id}.png'
+                                cellImage = Image.open(urllib.request.urlopen(url))
+                                cellImage.save(f'cache/emp/image/normal/{id}.png')
+                                rowImage.paste(cellImage, (104*j, 0))
+                        except:
+                            id = self.empDomainData[emp]
+                            if id == 0:
+                                try:
+                                    cellImage = Image.open(f'cache/emp/image/domain/0.png')
+                                    rowImage.paste(cellImage, (104*j, 0))
+                                except Exception:
+                                    os.makedirs('cache/emp/image/domain', exist_ok=True)
+                                    cellImage= Image.new("RGBA", (520, 104))
+                                    domainText = ImageDraw.Draw(cellImage)
+                                    font = ImageFont.truetype("data/Ubuntu-medium.ttf", 50)
+                                    domainText.text((258,52), "Domain of the Evoker", anchor= "mm", font=font)
+                                    cellImage.save(f'cache/emp/image/domain/{id}.png')
+                                    rowImage.paste(cellImage, (104*j, 0))
+
+                            else:
+                                try:
+                                    cellImage = Image.open(f'cache/emp/image/domain/{id}.png')
+                                    rowImage.paste(cellImage, (104*j, 0))
+                                except Exception:
+                                    os.makedirs('cache/emp/image/normal', exist_ok=True)
+                                    url = f'http://game-a.granbluefantasy.jp/assets_en/img/sp/domain_evoker/assets/domain_icon/{id}/i_released.png'
+                                    cellImage = Image.open(urllib.request.urlopen(url))
+                                    cellImage= cellImage.crop((10, 10, 114, 114))
+                                    cellImage.save(f'cache/emp/image/domain/{id}.png')
+                                    rowImage.paste(cellImage, (104*j, 0))
+
                         j += 1
                     image.paste(rowImage, (0, 104*i))
                     i += 1
