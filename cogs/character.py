@@ -45,9 +45,9 @@ class Character(commands.Cog):
             version = version.title()
             embedList = []
             #Main embed
-            title = f'{self.emojis["Rarity"][charVersion["rarity"]]}'
+            title = f'{self.emojis["Rarity"][charVersion["rarity"]]} '
             for series in charVersion['series']:
-                title += f'{self.emojis["Series"][series]}'
+                title += f'{self.emojis["Series"][series]} '
             if (version != 'Base'):
                 title +=f'**{charVersion["name"]} ({version})**'
             else:

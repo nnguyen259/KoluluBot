@@ -13,12 +13,13 @@
         "Other" : "<:race_other:830356838393446411>"
     },
     "Element": {
-        "Fire" : "<:element_fire:830352855973625867>",
-        "Wind" : "<:element_wind:830352060213362728>",
-        "Earth" : "<:element_earth:830352056950325268>",
-        "Water" : "<:element_water:830352059881488405>",
-        "Light" : "<:element_light:830352059994734612>",
-        "Dark" : "<:element_dark:830352057109315585>"
+        "Fire" : "<:element_fire:831295967796920340> ",
+        "Wind" : "<:element_wind:831295968292372530>",
+        "Earth" : "<:element_earth:831295967395184711>",
+        "Water" : "<:element_water:831295968058015784> ",
+        "Light" : "<:element_light:831295968011878491>",
+        "Dark" : "<:element_dark:831295967457181706>",
+        "Any" : "<:element_null:831293180074655864>"
     },
     "Type" : {
         "Attack" : "<:type_attack:830123437933723699>",
@@ -40,9 +41,9 @@
         "Gun" : "<:weapon_gun:828302453001814106>"
     },
     "Rarity" : {
-        "SSR" : "<:rarity_SSR:830122695546765373>",
-        "SR" : "<:rarity_SR:830122695558430740>",
-        "R" : "<:rarity_R:830122694480756737>"
+        "SSR" : "<:rarity_SSR:831297305613303879>",
+        "SR" : "<:rarity_SR:831297305159925822>",
+        "R" : "<:rarity_R:831297305386811442>"
 
     },
     "Stat" : {
