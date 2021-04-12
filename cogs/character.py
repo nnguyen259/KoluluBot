@@ -36,7 +36,9 @@ class Character(commands.Cog):
                 charVersion = char['BASE']
             else:
                 charVersion = char[version]
-            charOugi= self.ougis[name.lower()][version]
+
+            charSupport = self.supportSkills[name.lower()][version]
+            charOugi = self.ougis[name.lower()][version]
             name = name.title()
             version = version.title()
             embedList = []
@@ -82,6 +84,16 @@ class Character(commands.Cog):
             ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
             ougiEmbed.set_image(url=charVersion['image'])
             embedList.append(ougiEmbed)
+
+            #Support skill embed
+            for supportList in charSupport:
+                supportEmbed = discord.Embed()
+                supportEmbed.title =f'{supportList["name"]}:'
+                for supportText in supportList["text"]:
+                    supportEmbed.description= f'{supportText}'
+                    supportEmbed.set_thumbnail(url=f'{supportList["thumbnail"]}')
+                    supportEmbed.set_image(url=charVersion['image'])
+                    embedList.append(supportEmbed)
 
             paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
             paginator.add_reaction('⏮️', "first")
