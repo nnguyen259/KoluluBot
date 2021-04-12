@@ -97,7 +97,7 @@ class Character(commands.Cog):
     @commands.command()
     async def emp(self, ctx, name : str, version=None):
         from PIL import Image
-        import urllib.request, io
+        import urllib.request, os
 
         name = name.lower()
         if version:
@@ -110,37 +110,51 @@ class Character(commands.Cog):
                 charVersion = char['BASE']
             else:
                 charVersion = char[version]
+            try:
+                file = discord.File(f'cache/emp/char/{name}/{version}.png', filename='emp.png')
+            except Exception:
+                image = Image.new("RGBA", (104*5, 104*len(charVersion)))
+                i = 0
+                for row in charVersion:
+                    j = 0
+                    rowImage = Image.new("RGBA", (104*5, 104))
+                    for emp in row:
+                        id = self.empData[emp]
+                        try:
+                            cellImage = Image.open(f'cache/emp/image/normal/{id}.png')
+                            rowImage.paste(cellImage, (104*j, 0))
+                        except Exception:
+                            os.makedirs('cache/emp/image/normal', exist_ok=True)
+                            url = f'http://game-a.granbluefantasy.jp/assets_en/img/sp/zenith/assets/ability/{id}.png'
+                            cellImage = Image.open(urllib.request.urlopen(url))
+                            cellImage.save(f'cache/emp/image/normal/{id}.png')
+                            rowImage.paste(cellImage, (104*j, 0))
+                        j += 1
+                    image.paste(rowImage, (0, 104*i))
+                    i += 1
 
-            image = Image.new("RGBA", (104*5, 104*len(charVersion)))
-            i = 0
-            for row in charVersion:
-                j = 0
-                rowImage = Image.new("RGBA", (104*5, 104))
-                for emp in row:
-                    id = self.empData[emp]
-                    url = f'http://game-a.granbluefantasy.jp/assets_en/img/sp/zenith/assets/ability/{id}.png'
-                    cellImage = Image.open(urllib.request.urlopen(url))
-                    rowImage.paste(cellImage, (104*j, 0))
-                    j += 1
-                image.paste(rowImage, (0, 104*i))
-                i += 1
+                os.makedirs(f'cache/emp/char/{name}', exist_ok=True)
+                image.save(f'cache/emp/char/{name}/{version}.png', format="PNG")
+                file = discord.File(f'cache/emp/char/{name}/{version}.png', filename="emp.png")
 
-            with io.BytesIO() as output:
-                image.save(output, format="PNG")
-                output.seek(0)
-                file = discord.File(fp=output, filename="emp.png")
+            embed = discord.Embed()
+            embed.title = '__Extended Mastery Perks__'
+            embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
+            embed.set_image(url="attachment://emp.png")
 
-                embed = discord.Embed()
-                embed.title = '__Extended Mastery Perks__'
-                embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
-                embed.set_image(url="attachment://emp.png")
-
-                await ctx.send(file=file, embed=embed)
+            await ctx.send(file=file, embed=embed)
         else:
             await ctx.send('Character Not Found!')
 
+    @commands.command(hidden=True)
+    async def refresh(self, ctx):
+        import shutil
+        shutil.rmtree('cache/emp/char', ignore_errors=True)
+        await ctx.send('Removed charcter emp caches.')
+
     @char.error
     @emp.error
+    @refresh.error
     async def error(self, ctx, error):
         print(traceback.format_exc())
         await ctx.send(f'Something went wrong.\nError: {error}')
