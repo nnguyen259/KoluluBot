@@ -112,7 +112,7 @@
         ]
     },
     "Airi_Totoki": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Play Hard, Fight Hard!",
@@ -240,7 +240,7 @@
         ]
     },
     "Alec": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Lightning Blaze",
@@ -338,7 +338,7 @@
         ]
     },
     "Alistair": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -436,7 +436,7 @@
         ]
     },
     "Almeida": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Queen of the Mines",
@@ -574,7 +574,7 @@
         ]
     },
     "Anastasia": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Snow Sprite",
@@ -670,7 +670,7 @@
         ]
     },
     "Ange": {
-        "HALLOWEEN": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Masquerade Prince",
@@ -772,7 +772,7 @@
         ]
     },
     "Anna": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -943,7 +943,7 @@
         ]
     },
     "Anzu_Futaba": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sleepy Dreams",
@@ -1071,7 +1071,7 @@
         ]
     },
     "Arisa": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Elven Bow",
@@ -1111,7 +1111,7 @@
         ]
     },
     "Arthur": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sleeping Dragon",
@@ -1221,7 +1221,7 @@
         ]
     },
     "Arusha": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Librarian",
@@ -1241,7 +1241,7 @@
         ]
     },
     "Aster": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Well Behaved",
@@ -1319,7 +1319,7 @@
         ]
     },
     "Augusta": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Accentato",
@@ -1455,7 +1455,7 @@
         ]
     },
     "Bakura": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -1467,7 +1467,7 @@
         ]
     },
     "Balurga": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -1479,25 +1479,7 @@
         ]
     },
     "Baotorda": {
-        "SR": [
-            {
-                "duration": {},
-                "name": "Purity, Surity, Nobility",
-                "text": [
-                    "Chance to cut damage taken by 30%."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Slight chance to withstand lethal DMG (Leaves 1 HP)"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Bulwark",
@@ -1522,10 +1504,28 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Purity, Surity, Nobility",
+                "text": [
+                    "Chance to cut damage taken by 30%."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to withstand lethal DMG (Leaves 1 HP)"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
         ]
     },
     "Barawa": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "One Tough Detective",
@@ -1735,7 +1735,7 @@
         ]
     },
     "Blazing_Teacher_Elmott": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Implosion",
@@ -1791,7 +1791,7 @@
         ]
     },
     "Bridgette": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pristine Coordination",
@@ -1963,7 +1963,7 @@
         ]
     },
     "Cailana": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -2036,7 +2036,7 @@
         ]
     },
     "Cain": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -2094,7 +2094,7 @@
         ]
     },
     "Camieux": {
-        "EARTH": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -2185,7 +2185,7 @@
         ]
     },
     "Carren": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Funburnt",
@@ -2231,7 +2231,7 @@
         ]
     },
     "Cassius": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Strange Arts",
@@ -2353,7 +2353,7 @@
         ]
     },
     "Cecile": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Accentato",
@@ -2393,7 +2393,7 @@
         ]
     },
     "Ceylan": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "The Mighty Judge",
@@ -2601,7 +2601,7 @@
         ]
     },
     "Chloe": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -2664,7 +2664,7 @@
         ]
     },
     "Chun-Li": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Brilliant Investigator",
@@ -2782,7 +2782,7 @@
         ]
     },
     "Claudia": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Loyal Handmaidens",
@@ -2884,7 +2884,7 @@
         ]
     },
     "Cordelia": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pristine Coordination",
@@ -2922,25 +2922,7 @@
         ]
     },
     "Cucouroux": {
-        "SR": [
-            {
-                "duration": {},
-                "name": "Powder Keg",
-                "text": [
-                    "Boost to Charge Attack damage and Charge Attack damage cap based on number of [Status Powder Keg1.png] **Powder Keg** stacks. Lose 1 [Status Powder Keg1.png] **Powder Keg** upon taking damage."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Chance to get a powder keg upon using Gatling Barrage"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Riflery",
@@ -2965,10 +2947,28 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Powder Keg",
+                "text": [
+                    "Boost to Charge Attack damage and Charge Attack damage cap based on number of [Status Powder Keg1.png] **Powder Keg** stacks. Lose 1 [Status Powder Keg1.png] **Powder Keg** upon taking damage."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to get a powder keg upon using Gatling Barrage"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
         ]
     },
     "Cure_Black": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "We Are Pretty Cure!",
@@ -2996,7 +2996,7 @@
         ]
     },
     "Cure_White": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "We Are Pretty Cure!",
@@ -3024,7 +3024,7 @@
         ]
     },
     "Daetta": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -3054,7 +3054,7 @@
         ]
     },
     "Dante": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Eye of the Cat",
@@ -3126,6 +3126,24 @@
         ]
     },
     "Danua": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Conjoined",
+                "text": [
+                    "5% boost to all allies' debuff success rate."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Notlage",
+                "text": [
+                    "Withstand lethal turn-based damage (Leaves 1 HP)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "HALLOWEEN": [
             {
                 "duration": {},
@@ -3168,24 +3186,6 @@
                     "Slight chance to restore HP with every one-foe attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Conjoined",
-                "text": [
-                    "5% boost to all allies' debuff success rate."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Notlage",
-                "text": [
-                    "Withstand lethal turn-based damage (Leaves 1 HP)."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ],
         "SUMMER": [
@@ -3280,7 +3280,7 @@
         ]
     },
     "Deliford": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -3374,7 +3374,7 @@
         ]
     },
     "Dorothy": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Loyal Handmaidens",
@@ -3474,7 +3474,7 @@
         ]
     },
     "Drusilla": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "I'm Scared...",
@@ -3522,7 +3522,7 @@
         ]
     },
     "Ejaeli": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Mnnnph!",
@@ -3550,7 +3550,7 @@
         ]
     },
     "Elize_Lutus": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pow Hammer",
@@ -3570,7 +3570,7 @@
         ]
     },
     "Elmelaura": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -3582,7 +3582,7 @@
         ]
     },
     "Elmott": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Backdraft",
@@ -3620,7 +3620,7 @@
         ]
     },
     "Elta": {
-        "LIGHT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Ballad of the Blue Yonder",
@@ -3666,7 +3666,7 @@
         ]
     },
     "Erica_Fontaine": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Koubu F2",
@@ -3694,7 +3694,7 @@
         ]
     },
     "Erin": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Crystal Summoner",
@@ -3714,7 +3714,7 @@
         ]
     },
     "Eso": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -3788,7 +3788,7 @@
         ]
     },
     "Eugen": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -3999,7 +3999,7 @@
         ]
     },
     "Ezecrain": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Binding Chains",
@@ -4045,7 +4045,7 @@
         ]
     },
     "Farrah": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Justice Is Here",
@@ -4137,6 +4137,28 @@
         ]
     },
     "Feather": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Blazing-Hot Fighting Spirit",
+                "text": [
+                    ". Guaranteed triple attacks."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {
+                    "Indefinite": [
+                        "[Status 7000.png] **Azure Fist**"
+                    ]
+                },
+                "name": "Push It to the Limit",
+                "text": [
+                    "Raise [Status 7000.png] **Azure Fist** lvl upon triple attack or charge attack (Max: 5). ()"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "HALLOWEEN": [
             {
                 "duration": {},
@@ -4193,28 +4215,6 @@
                     "Chance to boost double attack rate with every one-foe attack (Stackable)"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Blazing-Hot Fighting Spirit",
-                "text": [
-                    ". Guaranteed triple attacks."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {
-                    "Indefinite": [
-                        "[Status 7000.png] **Azure Fist**"
-                    ]
-                },
-                "name": "Push It to the Limit",
-                "text": [
-                    "Raise [Status 7000.png] **Azure Fist** lvl upon triple attack or charge attack (Max: 5). ()"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ]
     },
@@ -4311,6 +4311,24 @@
         ]
     },
     "Ferry": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "I'll Teach You a Lesson",
+                "text": [
+                    "5% / 30% boost to critical hit rate for all allies."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to dodge all attacks from foes"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "GRAND": [
             {
                 "duration": {},
@@ -4369,24 +4387,6 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Slight chance to dodge and counter one-ally attacks"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "I'll Teach You a Lesson",
-                "text": [
-                    "5% / 30% boost to critical hit rate for all allies."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Slight chance to dodge all attacks from foes"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -4483,7 +4483,7 @@
         ]
     },
     "Flesselles": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -4611,7 +4611,7 @@
         ]
     },
     "Freiheit": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Eye of the Cat",
@@ -4639,7 +4639,7 @@
         ]
     },
     "Friday": {
-        "SUMMER": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Lifestyle Revolution",
@@ -4695,7 +4695,7 @@
         ]
     },
     "Galadar": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -4725,7 +4725,7 @@
         ]
     },
     "Garma": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -4787,7 +4787,7 @@
         ]
     },
     "Gayne": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Dancer Step",
@@ -4851,7 +4851,7 @@
         ]
     },
     "Gemini_Sunrise": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rodeo Star",
@@ -4933,7 +4933,7 @@
         ]
     },
     "Goblin_Mage": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Struggle Vision",
@@ -5193,7 +5193,7 @@
         ]
     },
     "Halluel": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sky Courier",
@@ -5221,7 +5221,7 @@
         ]
     },
     "Haohmaru": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Strong Slash",
@@ -5249,7 +5249,7 @@
         ]
     },
     "Hazen": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -5387,7 +5387,7 @@
         ]
     },
     "Helnar": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pick-Up Line",
@@ -5425,6 +5425,24 @@
         ]
     },
     "Herja": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Commander of the Iron Spear",
+                "text": [
+                    "Boost to charge bar (5% / Max: 50%) and raise [Status 68491.png] **Steadfast** lvl (Max: 9) at end of turn based on number of times damage is taken. (Mercenary Instincts activates at end of turn when HP is 50% or below. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Live by the Blade",
+                "text": [
+                    "20% boost to skill damage and 10% boost to skill damage cap for sabre-specialty Earth allies."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "R": [
             {
                 "duration": {},
@@ -5451,24 +5469,6 @@
                     "Boost to triple attack rate when main character is male / Boost to ATK when main character is female"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Commander of the Iron Spear",
-                "text": [
-                    "Boost to charge bar (5% / Max: 50%) and raise [Status 68491.png] **Steadfast** lvl (Max: 9) at end of turn based on number of times damage is taken. (Mercenary Instincts activates at end of turn when HP is 50% or below. )"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Live by the Blade",
-                "text": [
-                    "20% boost to skill damage and 10% boost to skill damage cap for sabre-specialty Earth allies."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ]
     },
@@ -5612,7 +5612,7 @@
         ]
     },
     "Inosuke": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -5644,7 +5644,7 @@
         ]
     },
     "Io": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Crystal Veil",
@@ -5716,7 +5716,7 @@
         ]
     },
     "Ippatsu": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -5838,7 +5838,7 @@
         ]
     },
     "Izuminokami_Kanesada": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Temporal Return",
@@ -5858,7 +5858,7 @@
         ]
     },
     "J.J.": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Do or Die",
@@ -5896,7 +5896,7 @@
         ]
     },
     "Jamil": {
-        "DARK": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Bitter Vengeance",
@@ -5942,7 +5942,7 @@
         ]
     },
     "Jasmine": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -6092,7 +6092,7 @@
         ]
     },
     "Jessica": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sisterly Love",
@@ -6284,7 +6284,7 @@
         ]
     },
     "Joel": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -6318,7 +6318,7 @@
         ]
     },
     "Johann": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Folklorist",
@@ -6384,7 +6384,7 @@
         ]
     },
     "Joy": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Purity of Purpose",
@@ -6462,7 +6462,7 @@
         ]
     },
     "Juri": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Justice Is Here",
@@ -6578,7 +6578,7 @@
         ]
     },
     "Kanako_Mimura": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Fluffy Smile",
@@ -6598,7 +6598,7 @@
         ]
     },
     "Kaoru_Sakuraba": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Intellectual",
@@ -6618,7 +6618,7 @@
         ]
     },
     "Karin": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "V-Trigger",
@@ -6646,7 +6646,7 @@
         ]
     },
     "Karteira": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -6676,7 +6676,7 @@
         ]
     },
     "Karva": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -6734,7 +6734,7 @@
         ]
     },
     "Katalina": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "The Path of Duty",
@@ -6856,7 +6856,7 @@
         ]
     },
     "Keehar": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Reach for the Stars, Young'n",
@@ -7054,7 +7054,7 @@
         ]
     },
     "Koume_Shirasaka": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "That Kid",
@@ -7074,7 +7074,7 @@
         ]
     },
     "Krugne": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -7216,7 +7216,7 @@
         ]
     },
     "La_Coiffe": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -7246,6 +7246,32 @@
         ]
     },
     "Ladiva": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Passionate Pummeling",
+                "text": [
+                    "When targeted by a foe with [Status Grapple.png] **Grapple**: 800% Earth damage to all foes (Damage cap: ~1,150,000). Inflict [Status Gravity.png] **Delay**."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "True Heroism",
+                "text": [
+                    "+10 boost to hostility. (Even more hostility when a foe has [Status Grapple.png] **Grapple**. )20% boost to max HP."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus Elemental DMG effect against foes with [Status Grapple.png] **Grapple**."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "HOLIDAY": [
             {
                 "duration": {},
@@ -7278,32 +7304,6 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Slight chance to counter upon taking DMG"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Passionate Pummeling",
-                "text": [
-                    "When targeted by a foe with [Status Grapple.png] **Grapple**: 800% Earth damage to all foes (Damage cap: ~1,150,000). Inflict [Status Gravity.png] **Delay**."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "True Heroism",
-                "text": [
-                    "+10 boost to hostility. (Even more hostility when a foe has [Status Grapple.png] **Grapple**. )20% boost to max HP."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Bonus Elemental DMG effect against foes with [Status Grapple.png] **Grapple**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -7356,7 +7356,7 @@
         ]
     },
     "Lady_Katapillar": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Front Formation",
@@ -7384,7 +7384,7 @@
         ]
     },
     "Laguna": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Omar's Odyssey",
@@ -7404,6 +7404,24 @@
         ]
     },
     "Lamretta": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Bon Vivant's Hymn",
+                "text": [
+                    "Fully restore [Status 70731.png] **Bon Vivant** and recover from [Status 7074.png] **Wasted** state every 4 turns. (Start battle with 6 [Status 70731.png] **Bon Vivant** [Max: 6]. )When Lamretta has Counter effect: Lamretta deals guaranteed triple attacks."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Ugh, Can't Move...",
+                "text": [
+                    "At end of turn: Consume 1 [Status 70731.png] **Bon Vivant**. Self-inflict [Status 7074.png] **Wasted** if Lamretta has no [Status 70731.png] **Bon Vivant**. While [Status 7074.png] **Wasted** is in effect: 50% hit to DEF, can't attack or use skills, strikes a foe with her bottle, dealing 1000% Earth damage at end of turn (Damage cap: ~1,000,000)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "R": [
             {
                 "duration": {},
@@ -7438,24 +7456,6 @@
                     "Chance to remove a debuff at turn start"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Bon Vivant's Hymn",
-                "text": [
-                    "Fully restore [Status 70731.png] **Bon Vivant** and recover from [Status 7074.png] **Wasted** state every 4 turns. (Start battle with 6 [Status 70731.png] **Bon Vivant** [Max: 6]. )When Lamretta has Counter effect: Lamretta deals guaranteed triple attacks."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Ugh, Can't Move...",
-                "text": [
-                    "At end of turn: Consume 1 [Status 70731.png] **Bon Vivant**. Self-inflict [Status 7074.png] **Wasted** if Lamretta has no [Status 70731.png] **Bon Vivant**. While [Status 7074.png] **Wasted** is in effect: 50% hit to DEF, can't attack or use skills, strikes a foe with her bottle, dealing 1000% Earth damage at end of turn (Damage cap: ~1,000,000)."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ],
         "WATER": [
@@ -7585,7 +7585,7 @@
         ]
     },
     "Lecia": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -7736,7 +7736,7 @@
         ]
     },
     "Leona": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sacrificial Lioness",
@@ -7813,7 +7813,7 @@
         ]
     },
     "Leonora": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -7991,7 +7991,7 @@
         ]
     },
     "Lina": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Enchanting Enchantress",
@@ -8051,7 +8051,7 @@
         ]
     },
     "Lowain": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -8158,6 +8158,32 @@
         ]
     },
     "Lucius": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Inheritor of a Master's Sword",
+                "text": [
+                    "Raise [Status Demon Pursuit.png] **Demon Pursuit** lvl upon using a damage skill (Max: 6). (Boost to ATK and C. A. specs based on Demon Pursuit lvl. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Slashing Barrage",
+                "text": [
+                    "10% boost to double attack rate (Max: 100%) and 3% boost to triple attack rate (Max: 30%) based on turns passed."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to skill damage cap."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "FIRE": [
             {
                 "duration": {},
@@ -8193,36 +8219,10 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Inheritor of a Master's Sword",
-                "text": [
-                    "Raise [Status Demon Pursuit.png] **Demon Pursuit** lvl upon using a damage skill (Max: 6). (Boost to ATK and C. A. specs based on Demon Pursuit lvl. )"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Slashing Barrage",
-                "text": [
-                    "10% boost to double attack rate (Max: 100%) and 3% boost to triple attack rate (Max: 30%) based on turns passed."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Boost to skill damage cap."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
         ]
     },
     "Ludmila": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Teary-Eyed Aim",
@@ -8242,7 +8242,7 @@
         ]
     },
     "Luna": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Necromancy",
@@ -8270,17 +8270,7 @@
         ]
     },
     "Lunalu": {
-        "R": [
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Chance to reuse Facsimile with every one-foe attack"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Deadline",
@@ -8306,6 +8296,16 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to reuse Facsimile with every one-foe attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "SUMMER": [
             {
                 "duration": {},
@@ -8318,7 +8318,7 @@
         ]
     },
     "Lyria": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Harmonious Heart",
@@ -8486,7 +8486,7 @@
         ]
     },
     "Malinda": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -8533,7 +8533,7 @@
         ]
     },
     "Malluel_(Summer)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sky Courier",
@@ -8605,7 +8605,7 @@
         ]
     },
     "Mariah": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Resolute Tenacity",
@@ -8653,7 +8653,7 @@
         ]
     },
     "Mary": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Good Tidings to All!",
@@ -8803,7 +8803,7 @@
         ]
     },
     "Meg": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Crazy about Auguste",
@@ -8925,7 +8925,7 @@
         ]
     },
     "Meteon": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Cobalt Comet",
@@ -9063,7 +9063,7 @@
         ]
     },
     "Mika_Jougasaki": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rosy Heart Full-Throttle",
@@ -9083,7 +9083,7 @@
         ]
     },
     "Mikasa": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Snap Blades",
@@ -9131,7 +9131,7 @@
         ]
     },
     "Miku_Maekawa": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Meow!",
@@ -9151,7 +9151,7 @@
         ]
     },
     "Milla_Maxwell": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Lord of Spirits",
@@ -9171,7 +9171,7 @@
         ]
     },
     "Milleore": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Precision Burst",
@@ -9209,7 +9209,7 @@
         ]
     },
     "Mimlemel": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Runaway Pumpkin",
@@ -9297,7 +9297,7 @@
         ]
     },
     "Mina": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Levin Knight",
@@ -9317,7 +9317,7 @@
         ]
     },
     "Minami_Nitta": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Shy Smile",
@@ -9337,7 +9337,7 @@
         ]
     },
     "Mio_Honda": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Natural Charm",
@@ -9357,7 +9357,7 @@
         ]
     },
     "Mireille": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Kind Homunculus",
@@ -9377,7 +9377,7 @@
         ]
     },
     "Miria_Akagi": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Let's Play Together!",
@@ -9405,7 +9405,7 @@
         ]
     },
     "Mirin": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Only One in All the Skies",
@@ -9477,6 +9477,24 @@
         ]
     },
     "Mishra": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Ancient Rune and Beauty Research",
+                "text": [
+                    "Boost to healing cap of allies with [Status 7058.png] **Incursion Rune** and/or [Status 7059.png] **Fortification Rune**."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Secret Serum",
+                "text": [
+                    "to Light allies with [Status Revitalize.png] **Revitalize**."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -9502,28 +9520,10 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Ancient Rune and Beauty Research",
-                "text": [
-                    "Boost to healing cap of allies with [Status 7058.png] **Incursion Rune** and/or [Status 7059.png] **Fortification Rune**."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Secret Serum",
-                "text": [
-                    "to Light allies with [Status Revitalize.png] **Revitalize**."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            }
         ]
     },
     "Mizuki_Kawashima": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Ice Diva",
@@ -9621,7 +9621,7 @@
         ]
     },
     "Mordred": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sleeping Dragon",
@@ -9649,7 +9649,7 @@
         ]
     },
     "Morphe": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Lucid Dreamers",
@@ -9717,7 +9717,7 @@
         ]
     },
     "Naga": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Deranged Etchings",
@@ -9737,7 +9737,7 @@
         ]
     },
     "Nakoruru": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Weinkaru",
@@ -10045,7 +10045,7 @@
         ]
     },
     "Nene": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Nerves of Steel",
@@ -10312,7 +10312,7 @@
         ]
     },
     "Noa": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "End of the Rainbow",
@@ -10358,7 +10358,7 @@
         ]
     },
     "Norcel": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -10370,7 +10370,7 @@
         ]
     },
     "Novei": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Accentato",
@@ -10464,7 +10464,7 @@
         ]
     },
     "Orchis": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Unwavering Conviction",
@@ -10484,7 +10484,7 @@
         ]
     },
     "Owen": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Runeblade Wielder",
@@ -10504,7 +10504,7 @@
         ]
     },
     "Pamela": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Accentato",
@@ -10524,7 +10524,7 @@
         ]
     },
     "Paris": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {
                     "5": [
@@ -10548,7 +10548,7 @@
         ]
     },
     "Pavidus": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -10588,6 +10588,24 @@
         ]
     },
     "Pengy": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Pengy Energy",
+                "text": [
+                    "Consume 1 [Status 6912.png] **P-EN** on normal attacks:Guaranteed triple attacks. 300% Earth damage to all foes (Damage cap: ~300,000). (10 [Status 6912.png] **P-EN** at battle start. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Suit Overheat",
+                "text": [
+                    "Start 3-turn countdown when [Status 6912.png] **P-EN** is 0 at end of turn. (When count is 0: 700% Earth damage to all foes [Damage cap: ~1,160,000]. Pengy is knocked out. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -10622,24 +10640,6 @@
                     "Chance to gain [Status DefenseUpStack.png] **DEF Up (Stackable)** with every one-foe attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Pengy Energy",
-                "text": [
-                    "Consume 1 [Status 6912.png] **P-EN** on normal attacks:Guaranteed triple attacks. 300% Earth damage to all foes (Damage cap: ~300,000). (10 [Status 6912.png] **P-EN** at battle start. )"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Suit Overheat",
-                "text": [
-                    "Start 3-turn countdown when [Status 6912.png] **P-EN** is 0 at end of turn. (When count is 0: 700% Earth damage to all foes [Damage cap: ~1,160,000]. Pengy is knocked out. )"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ]
     },
@@ -10734,17 +10734,7 @@
         ]
     },
     "Petra": {
-        "R": [
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Slight chance to withstand lethal DMG."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Breeze of Rest",
@@ -10761,10 +10751,20 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to withstand lethal DMG."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
         ]
     },
     "Philosophia": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -10802,7 +10802,7 @@
         ]
     },
     "Phoebe_(Event)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Lucid Dreamers",
@@ -10850,6 +10850,24 @@
         ]
     },
     "Predator": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Vengeful Predator",
+                "text": [
+                    "70% reduced DEF. Guaranteed triple attacks. 40% boost to dodge rate."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Skulking Black Tears",
+                "text": [
+                    "Big boost to all allies' ATK based on how low Predator's HP is."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -10867,28 +10885,10 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Vengeful Predator",
-                "text": [
-                    "70% reduced DEF. Guaranteed triple attacks. 40% boost to dodge rate."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Skulking Black Tears",
-                "text": [
-                    "Big boost to all allies' ATK based on how low Predator's HP is."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            }
         ]
     },
     "Pun-Kin_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Runaway Pumpkin",
@@ -10908,7 +10908,7 @@
         ]
     },
     "Rackam": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sleight of Hand",
@@ -10972,7 +10972,7 @@
         ]
     },
     "Randall": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -11010,7 +11010,7 @@
         ]
     },
     "Ranko_Kanzaki": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Behold My True Power!",
@@ -11038,7 +11038,7 @@
         ]
     },
     "Rashid": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "V-Trigger",
@@ -11120,7 +11120,7 @@
         ]
     },
     "Redluck": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Unparalleled Appetite",
@@ -11168,7 +11168,7 @@
         ]
     },
     "Reinhardtzar": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Soul Flare",
@@ -11206,7 +11206,7 @@
         ]
     },
     "Renie": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Kampfer",
@@ -11238,7 +11238,7 @@
         ]
     },
     "Renie_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "R-Rawr!",
@@ -11262,7 +11262,7 @@
         ]
     },
     "Richard": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Draw of Destiny",
@@ -11312,7 +11312,7 @@
         ]
     },
     "Rika_Jougasaki": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "What a Cute Lil' Belly Button!",
@@ -11332,7 +11332,7 @@
         ]
     },
     "Rin_Shibuya": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Awaiting Battle",
@@ -11352,7 +11352,7 @@
         ]
     },
     "Risette": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Kind Homunculus",
@@ -11372,7 +11372,7 @@
         ]
     },
     "Rita": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Because I'm a Zombie",
@@ -11392,7 +11392,7 @@
         ]
     },
     "Robertina": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Accentato",
@@ -11504,6 +11504,32 @@
         ]
     },
     "Rosamia": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Lost Identity",
+                "text": [
+                    "Maximum HP reduced by 15%. Take a lethal hit without being knocked-out while [Status CursedMask.png] **Curse of the Mask** is active (only occurs once and leaves 1 HP)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Mask Synchronization",
+                "text": [
+                    "Deal 40% Bonus Light damage while [Status CursedMask.png] **Curse of the Mask** is active."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to dodge all attacks from foes."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "R": [
             {
                 "duration": {},
@@ -11532,32 +11558,6 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Lost Identity",
-                "text": [
-                    "Maximum HP reduced by 15%. Take a lethal hit without being knocked-out while [Status CursedMask.png] **Curse of the Mask** is active (only occurs once and leaves 1 HP)."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Mask Synchronization",
-                "text": [
-                    "Deal 40% Bonus Light damage while [Status CursedMask.png] **Curse of the Mask** is active."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Slight chance to dodge all attacks from foes."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
         "YUKATA": [
             {
                 "duration": {},
@@ -11578,7 +11578,7 @@
         ]
     },
     "Rosetta": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rose Queen",
@@ -11695,7 +11695,7 @@
         ]
     },
     "Rosine": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rice Crackers",
@@ -11741,7 +11741,7 @@
         ]
     },
     "Ryan": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -11771,7 +11771,7 @@
         ]
     },
     "Ryu": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "The Lone Truth-Seeker",
@@ -11791,7 +11791,7 @@
         ]
     },
     "Sachiko_Koshimizu": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Self-Proclaimed Cutie",
@@ -11811,7 +11811,7 @@
         ]
     },
     "Sahli_Lao": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Precision Burst",
@@ -11877,7 +11877,7 @@
         ]
     },
     "Sakura_Shinguji": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Koubu MK 2",
@@ -12117,7 +12117,7 @@
         ]
     },
     "Sarya": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Detective's Assistant",
@@ -12271,6 +12271,32 @@
         ]
     },
     "Sen": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Supreme Swipe",
+                "text": [
+                    "Chance of Dodge-and-Counter effect (3 times). (Chance increases based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl. [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl rises by 1 upon dodging [Max: 5]. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Perfect Pounce",
+                "text": [
+                    "Boost to triple attack rate based on number of turns passed"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to ATK upon dodging (Stackable)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "HOLIDAY": [
             {
                 "duration": {},
@@ -12303,32 +12329,6 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Chance to boost double attack rate with every one-foe attack (Stackable)"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Supreme Swipe",
-                "text": [
-                    "Chance of Dodge-and-Counter effect (3 times). (Chance increases based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl. [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl rises by 1 upon dodging [Max: 5]. )"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Perfect Pounce",
-                "text": [
-                    "Boost to triple attack rate based on number of turns passed"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Boost to ATK upon dodging (Stackable)."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -12477,7 +12477,7 @@
         ]
     },
     "Sevastien": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Grandbutler Knows Best",
@@ -12497,7 +12497,7 @@
         ]
     },
     "Sevilbarra": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Adamant Resolve",
@@ -12543,7 +12543,7 @@
         ]
     },
     "Shao": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Over-the-Counter Access",
@@ -12563,7 +12563,7 @@
         ]
     },
     "Shiki_Ichinose": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Genius Trigger",
@@ -12781,7 +12781,7 @@
         ]
     },
     "Sig": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Drunga Pirate Captain",
@@ -12891,7 +12891,7 @@
         ]
     },
     "Skull": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Forefront",
@@ -13067,7 +13067,7 @@
         ]
     },
     "Sophie": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Amnesiac",
@@ -13087,6 +13087,39 @@
         ]
     },
     "Soriz": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Burlier with Age",
+                "text": [
+                    "+10 boost to hostility. 20% boost to max HP. Boost to hostility increased to +30. Boost to max HP increased to 30%. Can use the same damage skill twice in a turn when Macho Ultimatum is used."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {
+                    "Indefinite": [
+                        "[Status Manliness 1.png] **Manliness**",
+                        "[Status Manliness 1.png] **Manliness**",
+                        "[Status Manliness 1.png] **Manliness**",
+                        "[Status Manliness 1.png] **Manliness**"
+                    ]
+                },
+                "name": "Reactive Muscles",
+                "text": [
+                    "[Status Manliness 1.png] **Manliness** lvl rises by 1 upon taking damage (Max: Lvl 10). (Supplement damage dealt based on [Status Manliness 1.png] **Manliness** lvl. )[Status Manliness 1.png] **Manliness** lvl also rises by 1 upon using damage skills. [Status Manliness 1.png] **Manliness** also boosts ATK, DEF, and damage cap."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to end cooldown for Bravado Bullet upon using a charge attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -13122,43 +13155,10 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Burlier with Age",
-                "text": [
-                    "+10 boost to hostility. 20% boost to max HP. Boost to hostility increased to +30. Boost to max HP increased to 30%. Can use the same damage skill twice in a turn when Macho Ultimatum is used."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {
-                    "Indefinite": [
-                        "[Status Manliness 1.png] **Manliness**",
-                        "[Status Manliness 1.png] **Manliness**",
-                        "[Status Manliness 1.png] **Manliness**",
-                        "[Status Manliness 1.png] **Manliness**"
-                    ]
-                },
-                "name": "Reactive Muscles",
-                "text": [
-                    "[Status Manliness 1.png] **Manliness** lvl rises by 1 upon taking damage (Max: Lvl 10). (Supplement damage dealt based on [Status Manliness 1.png] **Manliness** lvl. )[Status Manliness 1.png] **Manliness** lvl also rises by 1 upon using damage skills. [Status Manliness 1.png] **Manliness** also boosts ATK, DEF, and damage cap."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Chance to end cooldown for Bravado Bullet upon using a charge attack"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
         ]
     },
     "Spinnah": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Holiday Spinsthetic",
@@ -13200,7 +13200,7 @@
         ]
     },
     "Stahn_Aileron": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Power Nap",
@@ -13220,7 +13220,7 @@
         ]
     },
     "Stan": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Song of Steel & Dust",
@@ -13284,7 +13284,7 @@
         ]
     },
     "Stumpeye": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Raging Stump",
@@ -13354,7 +13354,7 @@
         ]
     },
     "Suframare": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -13384,6 +13384,28 @@
         ]
     },
     "Sutera": {
+        "BASE": [
+            {
+                "duration": {
+                    "Indefinite": [
+                        "[Status 14811.png] **Jade Diagram**"
+                    ]
+                },
+                "name": "Successor of the Arcane Bow",
+                "text": [
+                    "Gain 1 [Status 14811.png] **Jade Diagram** when an ally uses a damage skill (Max: 3). (When used while at 3:Consumes all Jade Diagram to deal 250% Wind damage to a foe [Damage cap: ~440,000]. Gain [Status Uplift.png] **Charge Bar +20%**. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Refreshing Breeze",
+                "text": [
+                    "Supplement Wind allies' skill damage (Damage cap: 50,000)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -13453,28 +13475,6 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
-        ],
-        "SSR": [
-            {
-                "duration": {
-                    "Indefinite": [
-                        "[Status 14811.png] **Jade Diagram**"
-                    ]
-                },
-                "name": "Successor of the Arcane Bow",
-                "text": [
-                    "Gain 1 [Status 14811.png] **Jade Diagram** when an ally uses a damage skill (Max: 3). (When used while at 3:Consumes all Jade Diagram to deal 250% Wind damage to a foe [Damage cap: ~440,000]. Gain [Status Uplift.png] **Charge Bar +20%**. )"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Refreshing Breeze",
-                "text": [
-                    "Supplement Wind allies' skill damage (Damage cap: 50,000)."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            }
         ]
     },
     "Suzaku_Kururugi": {
@@ -13514,7 +13514,7 @@
         ]
     },
     "Syr": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Dream Chaser",
@@ -13562,7 +13562,7 @@
         ]
     },
     "Tanjiro,_Nezuko,_Zenitsu,": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -13594,35 +13594,7 @@
         ]
     },
     "Tanya": {
-        "R": [
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Dark DMG to all foes upon dodging"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SR": [
-            {
-                "duration": {},
-                "name": "Good Listener",
-                "text": [
-                    "Boost to ATK against foes in Break mode."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Gain Bonus Elemental DMG effect against foes in Break."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -13656,6 +13628,34 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Dark DMG to all foes upon dodging"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Good Listener",
+                "text": [
+                    "Boost to ATK against foes in Break mode."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Gain Bonus Elemental DMG effect against foes in Break."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "SUMMER": [
             {
                 "duration": {},
@@ -13676,7 +13676,7 @@
         ]
     },
     "Tear_Grants": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Cluster Raid",
@@ -13696,7 +13696,7 @@
         ]
     },
     "Teena": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "All-Consuming Flame",
@@ -13760,7 +13760,7 @@
         ]
     },
     "Teru_Tendo": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Physical Stance",
@@ -13780,7 +13780,7 @@
         ]
     },
     "The_Lowain_Bros": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -13804,7 +13804,7 @@
         ]
     },
     "Thelonim": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -13816,6 +13816,28 @@
         ]
     },
     "Therese": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Battle Gown",
+                "text": [
+                    "Boost to dodge rate as HP decreases"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {
+                    "Indefinite": [
+                        "[Status AttackUpStack.png] **ATK Up (Stackable / Max: 30%)**"
+                    ]
+                },
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Gain [Status AttackUpStack.png] **ATK Up (Stackable / Max: 30%)** upon dodging."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -13856,28 +13878,6 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Chance to boost ATK with every one-foe attack (Stackable)"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Battle Gown",
-                "text": [
-                    "Boost to dodge rate as HP decreases"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {
-                    "Indefinite": [
-                        "[Status AttackUpStack.png] **ATK Up (Stackable / Max: 30%)**"
-                    ]
-                },
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Gain [Status AttackUpStack.png] **ATK Up (Stackable / Max: 30%)** upon dodging."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -14004,7 +14004,7 @@
         ]
     },
     "Tsubasa_Kashiwagi": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Mental Stance",
@@ -14056,7 +14056,7 @@
         ]
     },
     "Tyre": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Lady Vira\u2026",
@@ -14094,7 +14094,7 @@
         ]
     },
     "T\u014dru_Amuro": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Inside Fighting",
@@ -14114,7 +14114,7 @@
         ]
     },
     "Ulamnuran": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Circus Clown",
@@ -14134,7 +14134,7 @@
         ]
     },
     "Uzuki_Shimamura": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Perfect Smile",
@@ -14182,6 +14182,32 @@
         ]
     },
     "Vane": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Never Surrender!",
+                "text": [
+                    "30% boost to double attack rate and 30% boost to triple attack rate while Vane has [Status Jammed.png] **Jammed**."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "The Dragon Within",
+                "text": [
+                    "When a foe uses a special attack: Activate Heroic Beat. Extend Vane's buff durations by 1 turn. (Excludes 1-turn buffs. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to DEF when HP is below 50%"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "DUO": [
             {
                 "duration": {
@@ -14247,36 +14273,10 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Never Surrender!",
-                "text": [
-                    "30% boost to double attack rate and 30% boost to triple attack rate while Vane has [Status Jammed.png] **Jammed**."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "The Dragon Within",
-                "text": [
-                    "When a foe uses a special attack: Activate Heroic Beat. Extend Vane's buff durations by 1 turn. (Excludes 1-turn buffs. )"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Boost to DEF when HP is below 50%"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
         ]
     },
     "Vane_(Summer)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -14386,7 +14386,7 @@
         ]
     },
     "Vanzza": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -14480,7 +14480,7 @@
         ]
     },
     "Vaseraga_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Festive Contractors",
@@ -14532,7 +14532,7 @@
         ]
     },
     "Vermeil": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Ephemeral Flash",
@@ -14570,7 +14570,7 @@
         ]
     },
     "Viceroy": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -14632,6 +14632,32 @@
         ]
     },
     "Vira": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Katalina Katalina Katalina",
+                "text": [
+                    "When **Katalina** is a party member:15% boost to ATK and 1-turn cut to skill cooldowns."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Blade of Light",
+                "text": [
+                    "When Luminiera Merge is in effect: , and Uplift effect."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to restore HP with every one-foe attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "DUO": [
             {
                 "duration": {},
@@ -14720,32 +14746,6 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Katalina Katalina Katalina",
-                "text": [
-                    "When **Katalina** is a party member:15% boost to ATK and 1-turn cut to skill cooldowns."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Blade of Light",
-                "text": [
-                    "When Luminiera Merge is in effect: , and Uplift effect."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Slight chance to restore HP with every one-foe attack"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
         "SUMMER": [
             {
                 "duration": {},
@@ -14800,7 +14800,7 @@
         ]
     },
     "Volenna": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sara's Bodyguard",
@@ -14830,7 +14830,7 @@
         ]
     },
     "Walder": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Where's Walder?",
@@ -14880,7 +14880,7 @@
         ]
     },
     "Will": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
@@ -14910,7 +14910,7 @@
         ]
     },
     "Wulf": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "R-Rawr!",
@@ -14934,7 +14934,7 @@
         ]
     },
     "Yaia": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Protect This Smile",
@@ -14984,7 +14984,7 @@
         ]
     },
     "Yamanbagiri_Kunihiro": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Temporal Return",
@@ -15060,17 +15060,7 @@
         ]
     },
     "Yodarha": {
-        "R": [
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Bonus elemental DMG for attacks against foes in overdrive"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Lost for Words",
@@ -15096,6 +15086,16 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus elemental DMG for attacks against foes in overdrive"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "WIND": [
             {
                 "duration": {},
@@ -15116,7 +15116,7 @@
         ]
     },
     "You": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Indigo Fox",
@@ -15144,7 +15144,7 @@
         ]
     },
     "Young_Cat": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pet Me",
@@ -15346,7 +15346,7 @@
         ]
     },
     "Yuri_Lowell": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Dark Enforcer",
@@ -15422,7 +15422,7 @@
         ]
     },
     "Zaja": {
-        "HALLOWEEN": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Warrior of the Night Watch",
@@ -15468,6 +15468,24 @@
         ]
     },
     "Zehek": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Encroaching Magic",
+                "text": [
+                    "When Zehek is debuffed at turn start:Remove 1 debuff and gain 1 [Status 7057.png] **Magic Pulse** (Max: 5). Boost to stats and take damage every turn based on number of [Status 7057.png] **Magic Pulse**."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Dagger of Mixed Blessings",
+                "text": [
+                    "Withstand lethal turn-based damage. Take a lethal hit without being knocked out (Consumes 3 [Status 7057.png] **Magic Pulse**)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -15494,24 +15512,6 @@
                     "Bonus elemental DMG for one-foe attacks against blinded foes"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Encroaching Magic",
-                "text": [
-                    "When Zehek is debuffed at turn start:Remove 1 debuff and gain 1 [Status 7057.png] **Magic Pulse** (Max: 5). Boost to stats and take damage every turn based on number of [Status 7057.png] **Magic Pulse**."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Dagger of Mixed Blessings",
-                "text": [
-                    "Withstand lethal turn-based damage. Take a lethal hit without being knocked out (Consumes 3 [Status 7057.png] **Magic Pulse**)."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ]
     },
