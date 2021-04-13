@@ -1,5 +1,6 @@
 import discord, json, DiscordUtils, traceback
 from discord.ext import commands
+from discord.ext.commands.context import Context
 
 class Character(commands.Cog):
     def __init__(self, client):
@@ -25,8 +26,16 @@ class Character(commands.Cog):
     async def on_ready(self):
         print('Character module is ready.')
 
-    @commands.command()
-    async def char(self, ctx, name : str, version=None):
+    @commands.group(aliases=['c', 'character'])
+    async def char(self, ctx : Context):
+        if ctx.invoked_subcommand is None:
+            args = ctx.message.content.split(' ')[1:]
+            name = args[0]
+            version = args[1] if len(args) > 1 else None
+            await self.info(ctx, name, version)
+
+    @char.command()
+    async def info(self, ctx, name : str, version=None):
         name = name.lower()
         if version:
             version = version.upper()
@@ -38,12 +47,10 @@ class Character(commands.Cog):
                 charVersion = char['BASE']
             else:
                 charVersion = char[version]
-
-            charSupport = self.supportSkills[name.lower()][version]
-            charOugi = self.ougis[name.lower()][version]
             name = name.title()
             version = version.title()
             embedList = []
+
             #Main embed
             title = f'{self.emojis["Rarity"][charVersion["rarity"]]} '
             for series in charVersion['series']:
@@ -77,9 +84,36 @@ class Character(commands.Cog):
             mainEmbed.set_image(url=charVersion['image'])
             embedList.append(mainEmbed)
 
-            #Ougi embed
+            embedList.append(await self.ougi(ctx, name, version, noShow=True))
+            embedList.extend(await self.support(ctx, name, version, noShow=True))
+
+            paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
+            paginator.add_reaction('⏮️', "first")
+            paginator.add_reaction('⏪', "back")
+            paginator.add_reaction('🔐', "lock")
+            paginator.add_reaction('⏩', "next")
+            paginator.add_reaction('⏭️', "last")
+
+            await paginator.run(embedList)
+        else:
+            await ctx.send('Character not found!')
+
+    @char.command()
+    async def ougi(self, ctx, name :str, version=None, noShow=False):
+        name = name.lower()
+        if version:
+            version = version.upper()
+        if name in self.ougis:
+            char = self.ougis[name]
+            charVersion = None
+            if not version or version not in char:
+                version = 'BASE'
+                charVersion = char['BASE']
+            else:
+                charVersion = char[version]
+        
             ougiEmbed = discord.Embed()
-            for ougiList in charOugi:
+            for ougiList in charVersion:
                 for ougiText in ougiList["text"]:
                     ougiEmbed.add_field(name=f'**{ougiList["name"]}**:', value=f'{ougiText} \n', inline=False)
                     if ougiList["duration"]:
@@ -96,31 +130,54 @@ class Character(commands.Cog):
 
             ougiEmbed.title="Charge Attack"
             ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
-            ougiEmbed.set_image(url=charVersion['image'])
-            embedList.append(ougiEmbed)
+            ougiEmbed.set_image(url=self.chars[name][version]['image'])
 
-            #Support skill embed
-            for supportList in charSupport:
+            if noShow:
+                return ougiEmbed
+            else:
+                await ctx.send(embed=ougiEmbed)
+        else:
+            await ctx.send('Character not found!')
+
+    @char.command()
+    async def support(self, ctx, name :str, version=None, noShow=False):
+        name = name.lower()
+        if version:
+            version = version.upper()
+        if name in self.supportSkills:
+            char = self.supportSkills[name]
+            charVersion = None
+            if not version or version not in char:
+                version = 'BASE'
+                charVersion = char['BASE']
+            else:
+                charVersion = char[version]
+        
+            embedList = []
+            for supportList in charVersion:
                 supportEmbed = discord.Embed()
                 supportEmbed.title =f'{supportList["name"]}:'
                 for supportText in supportList["text"]:
                     supportEmbed.description= f'{supportText}'
                     supportEmbed.set_thumbnail(url=f'{supportList["thumbnail"]}')
-                    supportEmbed.set_image(url=charVersion['image'])
+                    supportEmbed.set_image(url=self.chars[name][version]['image'])
                     embedList.append(supportEmbed)
 
-            paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
-            paginator.add_reaction('⏮️', "first")
-            paginator.add_reaction('⏪', "back")
-            paginator.add_reaction('🔐', "lock")
-            paginator.add_reaction('⏩', "next")
-            paginator.add_reaction('⏭️', "last")
+            if noShow:
+                return embedList
+            else:
+                paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
+                paginator.add_reaction('⏮️', "first")
+                paginator.add_reaction('⏪', "back")
+                paginator.add_reaction('🔐', "lock")
+                paginator.add_reaction('⏩', "next")
+                paginator.add_reaction('⏭️', "last")
 
-            await paginator.run(embedList)
+                await paginator.run(embedList)
         else:
             await ctx.send('Character not found!')
 
-    @commands.command()
+    @char.command()
     async def emp(self, ctx, name : str, version=None):
         from PIL import Image, ImageDraw, ImageFont
         import urllib.request, os
@@ -200,17 +257,24 @@ class Character(commands.Cog):
         else:
             await ctx.send('Character Not Found!')
 
-    @commands.command(hidden=True)
+    @char.command(hidden=True)
     async def refresh(self, ctx):
         import shutil
         shutil.rmtree('cache/emp/char', ignore_errors=True)
         await ctx.send('Removed charcter emp caches.')
 
     @char.error
+    @info.error
     @emp.error
-    @refresh.error
-    async def error(self, ctx, error):
-        print(traceback.format_exc())
+    @ougi.error
+    @support.error
+    async def error(self, ctx : Context, error):
+        import logging
+        msg = traceback.format_exc()
+        print(msg)
+        logger = logging.getLogger('discord')
+        logger.error(msg)
+        logger.error(f'Error caused by user {ctx.author} running the command {ctx.message.content}')
         await ctx.send(f'Something went wrong.\nError: {error}')
 
 def setup(client):
