@@ -82,6 +82,18 @@ class Character(commands.Cog):
             for ougiList in charOugi:
                 for ougiText in ougiList["text"]:
                     ougiEmbed.add_field(name=f'**{ougiList["name"]}**:', value=f'{ougiText} \n', inline=False)
+                    if ougiList["duration"]:
+                        duration = ''
+                        for ougiDuration in ougiList["duration"]:
+                            for ougiDurationText in ougiList["duration"][ougiDuration]:
+                                    duration+= f'{ougiDurationText} and'
+                            duration = duration[:-3]
+                            if ougiDuration != "Indefinite":
+                                duration += f': {ougiDuration} turns.\n'
+                            else:
+                                duration += f': {ougiDuration}.\n'
+                        ougiEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
+
             ougiEmbed.title="Charge Attack"
             ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
             ougiEmbed.set_image(url=charVersion['image'])
