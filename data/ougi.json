@@ -55,7 +55,7 @@
         ]
     },
     "Airi_Totoki": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Airi Slash",
@@ -135,7 +135,7 @@
         ]
     },
     "Alec": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Blaze of Thunder",
@@ -192,7 +192,7 @@
         ]
     },
     "Alistair": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "The Final Word",
@@ -254,7 +254,7 @@
         ]
     },
     "Almeida": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Mine Your Manners",
@@ -339,7 +339,7 @@
         ]
     },
     "Anastasia": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Novaya Zvezda",
@@ -386,7 +386,7 @@
         ]
     },
     "Ange": {
-        "HALLOWEEN": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Fleur Tourbillon",
@@ -461,7 +461,7 @@
         ]
     },
     "Anna": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Cursed Blaze",
@@ -559,7 +559,7 @@
         ]
     },
     "Anzu_Futaba": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "1.5": [
@@ -660,7 +660,7 @@
         ]
     },
     "Arisa": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Silver Bolt",
@@ -686,7 +686,7 @@
         ]
     },
     "Arthur": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -746,7 +746,7 @@
         ]
     },
     "Arusha": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pas de Chat",
@@ -757,7 +757,7 @@
         ]
     },
     "Aster": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Blasts of Ennead",
@@ -797,7 +797,7 @@
         ]
     },
     "Augusta": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Merry Rondo",
@@ -889,7 +889,7 @@
         ]
     },
     "Bakura": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Song of Silence",
@@ -900,7 +900,7 @@
         ]
     },
     "Balurga": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Vulcan Bite",
@@ -911,6 +911,15 @@
         ]
     },
     "Baotorda": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Heavenly Retribution",
+                "text": [
+                    "450% Light damage to a foe. 300% Bonus Light damage (Damage cap: ~295,000)."
+                ]
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -919,19 +928,10 @@
                     "Big Light damage to a foe."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Heavenly Retribution",
-                "text": [
-                    "450% Light damage to a foe. 300% Bonus Light damage (Damage cap: ~295,000)."
-                ]
-            }
         ]
     },
     "Barawa": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Beyond Reasoning",
@@ -1054,7 +1054,7 @@
         ]
     },
     "Blazing_Teacher_Elmott": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Hell Pyre's Wake",
@@ -1076,7 +1076,7 @@
         ]
     },
     "Bridgette": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Fendez-Vous a Deux",
@@ -1178,7 +1178,7 @@
         ]
     },
     "Cailana": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rodeo Flip",
@@ -1213,7 +1213,7 @@
         ]
     },
     "Cain": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Taiji Takedown",
@@ -1233,7 +1233,7 @@
         ]
     },
     "Camieux": {
-        "EARTH": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Exploding Shot",
@@ -1293,7 +1293,7 @@
         ]
     },
     "Carren": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sunshine Bloom",
@@ -1313,7 +1313,7 @@
         ]
     },
     "Cassius": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -1386,7 +1386,7 @@
         ]
     },
     "Cecile": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Virtuosa Concerto",
@@ -1412,7 +1412,7 @@
         ]
     },
     "Ceylan": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Lead Halation",
@@ -1510,7 +1510,7 @@
         ]
     },
     "Chloe": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Makeover",
@@ -1557,7 +1557,7 @@
         ]
     },
     "Chun-Li": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Hosenka",
@@ -1620,7 +1620,7 @@
         ]
     },
     "Claudia": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Dorothy:Grim Flame",
@@ -1676,7 +1676,7 @@
         ]
     },
     "Cordelia": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Fendez-Vous a Deux",
@@ -1696,6 +1696,15 @@
         ]
     },
     "Cucouroux": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Bombard Blitz",
+                "text": [
+                    "Massive Water damage to a foe and inflict [Status Inert 1.png] **Inert** for 0. 5-1. 5 turn."
+                ]
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -1704,19 +1713,10 @@
                     "Big Fire damage to a foe. Uses all [Status Powder Keg1.png] **Powder Keg** stacks."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Bombard Blitz",
-                "text": [
-                    "Massive Water damage to a foe and inflict [Status Inert 1.png] **Inert** for 0. 5-1. 5 turn."
-                ]
-            }
         ]
     },
     "Cure_Black": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pretty Cure Marble Screw",
@@ -1727,7 +1727,7 @@
         ]
     },
     "Cure_White": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pretty Cure Marble Screw",
@@ -1738,7 +1738,7 @@
         ]
     },
     "Daetta": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Grinding Bite",
@@ -1758,7 +1758,7 @@
         ]
     },
     "Dante": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Capricieux Avalanche",
@@ -1809,6 +1809,19 @@
         ]
     },
     "Danua": {
+        "BASE": [
+            {
+                "duration": {
+                    "3.5": [
+                        "[Status Petrified 3.png] **Petrified**"
+                    ]
+                },
+                "name": "Puppet Sheol",
+                "text": [
+                    "450% Light damage to a foe. Inflict [Status Petrified 3.png] **Petrified**."
+                ]
+            }
+        ],
         "HALLOWEEN": [
             {
                 "duration": {},
@@ -1835,19 +1848,6 @@
                 "name": "After 5\u2605:Faith Athame",
                 "text": [
                     "Massive Dark damage to a foe. Slight chance to inflict [Status Sleep 3.png] **Sleep**."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {
-                    "3.5": [
-                        "[Status Petrified 3.png] **Petrified**"
-                    ]
-                },
-                "name": "Puppet Sheol",
-                "text": [
-                    "450% Light damage to a foe. Inflict [Status Petrified 3.png] **Petrified**."
                 ]
             }
         ],
@@ -1921,7 +1921,7 @@
         ]
     },
     "Deliford": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Absolute Thrust",
@@ -1975,7 +1975,7 @@
         ]
     },
     "Dorothy": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Dorothy:Grim Flame",
@@ -2033,7 +2033,7 @@
         ]
     },
     "Drusilla": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Shopping Spree",
@@ -2072,7 +2072,7 @@
         ]
     },
     "Ejaeli": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Mahle Fantasia",
@@ -2094,7 +2094,7 @@
         ]
     },
     "Elize_Lutus": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Scary-Go-Round",
@@ -2105,7 +2105,7 @@
         ]
     },
     "Elmelaura": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Blur of Blades",
@@ -2116,7 +2116,7 @@
         ]
     },
     "Elmott": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Blazing Prison",
@@ -2136,7 +2136,7 @@
         ]
     },
     "Elta": {
-        "LIGHT": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -2162,7 +2162,7 @@
         ]
     },
     "Erica_Fontaine": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "5": [
@@ -2177,7 +2177,7 @@
         ]
     },
     "Erin": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Neige Glacier",
@@ -2188,7 +2188,7 @@
         ]
     },
     "Eso": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Axe Tornado",
@@ -2223,7 +2223,7 @@
         ]
     },
     "Eugen": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -2336,7 +2336,7 @@
         ]
     },
     "Ezecrain": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Chain Vengeance",
@@ -2356,7 +2356,7 @@
         ]
     },
     "Farrah": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rending Twin Blades",
@@ -2403,6 +2403,15 @@
         ]
     },
     "Feather": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Raging Blast Knuckle",
+                "text": [
+                    "Massive Light damage to a foe. 100% Bonus Light damage based on [Status 7000.png] **Azure Fist** lvl (Max: 5 hits; Damage cap: ~100,000 per hit)."
+                ]
+            }
+        ],
         "HALLOWEEN": [
             {
                 "duration": {
@@ -2438,15 +2447,6 @@
                 "name": "After 5\u2605:Fist Flash Lightning",
                 "text": [
                     "Massive Light damage to a foe. Gain [Status AttackUpStack.png] **ATK Up (Stackable)**."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Raging Blast Knuckle",
-                "text": [
-                    "Massive Light damage to a foe. 100% Bonus Light damage based on [Status 7000.png] **Azure Fist** lvl (Max: 5 hits; Damage cap: ~100,000 per hit)."
                 ]
             }
         ]
@@ -2527,6 +2527,15 @@
         ]
     },
     "Ferry": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Aetheryte Onslaught",
+                "text": [
+                    "Massive Light damage to a foe."
+                ]
+            }
+        ],
         "GRAND": [
             {
                 "duration": {
@@ -2556,15 +2565,6 @@
                 "name": "Aetheryte Procession",
                 "text": [
                     "Big Light damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Aetheryte Onslaught",
-                "text": [
-                    "Massive Light damage to a foe."
                 ]
             }
         ],
@@ -2623,7 +2623,7 @@
         ]
     },
     "Flesselles": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Canine Fang",
@@ -2701,7 +2701,7 @@
         ]
     },
     "Freiheit": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Capricieux Avalanche",
@@ -2712,7 +2712,7 @@
         ]
     },
     "Friday": {
-        "SUMMER": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Bury the Past",
@@ -2746,7 +2746,7 @@
         ]
     },
     "Galadar": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Brutal Smash",
@@ -2766,7 +2766,7 @@
         ]
     },
     "Garma": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Roiver Gevolt",
@@ -2808,7 +2808,7 @@
         ]
     },
     "Gayne": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sublime Step",
@@ -2845,7 +2845,7 @@
         ]
     },
     "Gemini_Sunrise": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rumbling Wheel",
@@ -2892,7 +2892,7 @@
         ]
     },
     "Goblin_Mage": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sparkling Staff",
@@ -3019,7 +3019,7 @@
         ]
     },
     "Halluel": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -3035,7 +3035,7 @@
         ]
     },
     "Haohmaru": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Tenha Fuujinzan",
@@ -3046,7 +3046,7 @@
         ]
     },
     "Hazen": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Fist of Punishment",
@@ -3122,7 +3122,7 @@
         ]
     },
     "Helnar": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Flaterie Sol",
@@ -3153,6 +3153,15 @@
         ]
     },
     "Herja": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Mercenary Blade",
+                "text": [
+                    "450% Earth damage to a foe. When [Status 68491.png] **Steadfast** lvl is 5 or above: Activate Stalwart Sword without consuming [Status 68491.png] **Steadfast** lvl."
+                ]
+            }
+        ],
         "R": [
             {
                 "duration": {},
@@ -3168,15 +3177,6 @@
                 "name": "Blade Arc",
                 "text": [
                     "Big Earth damage to a foe. Gain [Status AttackUpStack.png] **10% ATK Up (Stackable)**."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Mercenary Blade",
-                "text": [
-                    "450% Earth damage to a foe. When [Status 68491.png] **Steadfast** lvl is 5 or above: Activate Stalwart Sword without consuming [Status 68491.png] **Steadfast** lvl."
                 ]
             }
         ]
@@ -3245,7 +3245,7 @@
         ]
     },
     "Inosuke": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -3260,7 +3260,7 @@
         ]
     },
     "Io": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Crystal Gust",
@@ -3307,7 +3307,7 @@
         ]
     },
     "Ippatsu": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Bamboo Burst",
@@ -3382,7 +3382,7 @@
         ]
     },
     "Izuminokami_Kanesada": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "2": [
@@ -3397,7 +3397,7 @@
         ]
     },
     "J.J.": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Road to Victory",
@@ -3421,7 +3421,7 @@
         ]
     },
     "Jamil": {
-        "DARK": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Istlyja",
@@ -3441,7 +3441,7 @@
         ]
     },
     "Jasmine": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Earth Crash",
@@ -3538,7 +3538,7 @@
         ]
     },
     "Jessica": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Minenwerfer",
@@ -3631,7 +3631,7 @@
         ]
     },
     "Joel": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Hardwave Butterfly",
@@ -3658,7 +3658,7 @@
         ]
     },
     "Johann": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Klesa Nirodha",
@@ -3689,7 +3689,7 @@
         ]
     },
     "Joy": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Ring In the New",
@@ -3724,7 +3724,7 @@
         ]
     },
     "Juri": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rending Twin Blades",
@@ -3783,7 +3783,7 @@
         ]
     },
     "Kanako_Mimura": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Candy Sprites",
@@ -3794,7 +3794,7 @@
         ]
     },
     "Kaoru_Sakuraba": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Supreme Stage",
@@ -3805,7 +3805,7 @@
         ]
     },
     "Karin": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Hadorokushiki Hasha no Kata",
@@ -3816,7 +3816,7 @@
         ]
     },
     "Karteira": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Invisible Hands",
@@ -3836,7 +3836,7 @@
         ]
     },
     "Karva": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Raider Gateway",
@@ -3867,7 +3867,7 @@
         ]
     },
     "Katalina": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -3950,7 +3950,7 @@
         ]
     },
     "Keehar": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Singen Wind",
@@ -4048,7 +4048,7 @@
         ]
     },
     "Koume_Shirasaka": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Miserable Murder Case",
@@ -4059,7 +4059,7 @@
         ]
     },
     "Krugne": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Revolving Dice",
@@ -4127,7 +4127,7 @@
         ]
     },
     "La_Coiffe": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Blooming Scissorwaltz",
@@ -4147,6 +4147,15 @@
         ]
     },
     "Ladiva": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Love-Serving Bomb",
+                "text": [
+                    "Massive Earth damage to a foe. (50% boost to C. A. damage and 20% boost to C. A. damage cap against foes with [Status Grapple.png] **Grapple**. )End Love Grapple's cooldown."
+                ]
+            }
+        ],
         "HOLIDAY": [
             {
                 "duration": {},
@@ -4162,15 +4171,6 @@
                 "name": "Maximum Love Bomb",
                 "text": [
                     "Big Earth damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Love-Serving Bomb",
-                "text": [
-                    "Massive Earth damage to a foe. (50% boost to C. A. damage and 20% boost to C. A. damage cap against foes with [Status Grapple.png] **Grapple**. )End Love Grapple's cooldown."
                 ]
             }
         ]
@@ -4207,7 +4207,7 @@
         ]
     },
     "Lady_Katapillar": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "3": [
@@ -4222,7 +4222,7 @@
         ]
     },
     "Laguna": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Unrivaled",
@@ -4233,6 +4233,19 @@
         ]
     },
     "Lamretta": {
+        "BASE": [
+            {
+                "duration": {
+                    "1": [
+                        "[Status Bonus Damage.png] **60% Bonus Earth DMG (1 time)**"
+                    ]
+                },
+                "name": "Lam Goes Wham",
+                "text": [
+                    "450% Earth damage to a foe. Gain [Status Bonus Damage.png] **60% Bonus Earth DMG (1 time)**."
+                ]
+            }
+        ],
         "R": [
             {
                 "duration": {},
@@ -4248,19 +4261,6 @@
                 "name": "Out of Control",
                 "text": [
                     "Big earth damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {
-                    "1": [
-                        "[Status Bonus Damage.png] **60% Bonus Earth DMG (1 time)**"
-                    ]
-                },
-                "name": "Lam Goes Wham",
-                "text": [
-                    "450% Earth damage to a foe. Gain [Status Bonus Damage.png] **60% Bonus Earth DMG (1 time)**."
                 ]
             }
         ],
@@ -4342,7 +4342,7 @@
         ]
     },
     "Lecia": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Twilight Blade",
@@ -4425,7 +4425,7 @@
         ]
     },
     "Leona": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -4458,7 +4458,7 @@
         ]
     },
     "Leonora": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Izuna Leap",
@@ -4564,7 +4564,7 @@
         ]
     },
     "Lina": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Dragon Slave",
@@ -4586,7 +4586,7 @@
         ]
     },
     "Lowain": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Totally Rad Strat-Meet",
@@ -4647,6 +4647,20 @@
         ]
     },
     "Lucius": {
+        "BASE": [
+            {
+                "duration": {
+                    "Indefinite": [
+                        "[Status Immolating Incision.png] **Immolating Incision**",
+                        "[Status Rushing Riposte.png] **Rushing Riposte**"
+                    ]
+                },
+                "name": "Severing Swordsweep",
+                "text": [
+                    "450% Dark damage to a foe. Inflict [Status Burned.png] **Burned (9000)**. Gain [Status Immolating Incision.png] **Immolating Incision** and [Status Rushing Riposte.png] **Rushing Riposte** (Next Whitefire Blade and Demon-Crush activate twice)."
+                ]
+            }
+        ],
         "FIRE": [
             {
                 "duration": {},
@@ -4671,24 +4685,10 @@
                     "Massive Dark damage to a foe. Inflict [Status Burned.png] **Burned (2000)**. Inflict [Status Death.png] **Lethal Hit**."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "duration": {
-                    "Indefinite": [
-                        "[Status Immolating Incision.png] **Immolating Incision**",
-                        "[Status Rushing Riposte.png] **Rushing Riposte**"
-                    ]
-                },
-                "name": "Severing Swordsweep",
-                "text": [
-                    "450% Dark damage to a foe. Inflict [Status Burned.png] **Burned (9000)**. Gain [Status Immolating Incision.png] **Immolating Incision** and [Status Rushing Riposte.png] **Rushing Riposte** (Next Whitefire Blade and Demon-Crush activate twice)."
-                ]
-            }
         ]
     },
     "Ludmila": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Oops! Misfire!",
@@ -4699,7 +4699,7 @@
         ]
     },
     "Luna": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Phantom Howl",
@@ -4710,21 +4710,21 @@
         ]
     },
     "Lunalu": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Cataclysmic Storybook",
+                "text": [
+                    "Gain 1 [Status Page 1.png] **Page** stack. All allies gain [Status Uplift.png] **Charge Bar +10%**."
+                ]
+            }
+        ],
         "R": [
             {
                 "duration": {},
                 "name": "Calamity Picture",
                 "text": [
                     "Big Dark damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Cataclysmic Storybook",
-                "text": [
-                    "Gain 1 [Status Page 1.png] **Page** stack. All allies gain [Status Uplift.png] **Charge Bar +10%**."
                 ]
             }
         ],
@@ -4739,7 +4739,7 @@
         ]
     },
     "Lyria": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Primeval Dragon",
@@ -4819,7 +4819,7 @@
         ]
     },
     "Malinda": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Drakenadem",
@@ -4850,7 +4850,7 @@
         ]
     },
     "Malluel_(Summer)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -4877,7 +4877,7 @@
         ]
     },
     "Mariah": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Seigebreaker",
@@ -4899,7 +4899,7 @@
         ]
     },
     "Mary": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Holy Star",
@@ -4970,7 +4970,7 @@
         ]
     },
     "Meg": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -5031,7 +5031,7 @@
         ]
     },
     "Meteon": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sonic Meteorite",
@@ -5094,7 +5094,7 @@
         ]
     },
     "Mika_Jougasaki": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pounding Heart",
@@ -5112,7 +5112,7 @@
         ]
     },
     "Mikasa": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Kraft f\u00fcr 100",
@@ -5138,7 +5138,7 @@
         ]
     },
     "Miku_Maekawa": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Meow Meow Meow",
@@ -5149,7 +5149,7 @@
         ]
     },
     "Milla_Maxwell": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -5164,7 +5164,7 @@
         ]
     },
     "Milleore": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -5188,7 +5188,7 @@
         ]
     },
     "Mimlemel": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "????",
@@ -5232,7 +5232,7 @@
         ]
     },
     "Mina": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -5247,7 +5247,7 @@
         ]
     },
     "Minami_Nitta": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -5262,7 +5262,7 @@
         ]
     },
     "Mio_Honda": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Triple Star",
@@ -5280,7 +5280,7 @@
         ]
     },
     "Mireille": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Expiation",
@@ -5291,7 +5291,7 @@
         ]
     },
     "Miria_Akagi": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "1": [
@@ -5306,7 +5306,7 @@
         ]
     },
     "Mirin": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "duration": {
                     "1.5": [
@@ -5363,16 +5363,7 @@
         ]
     },
     "Mishra": {
-        "SR": [
-            {
-                "duration": {},
-                "name": "Rune Portal",
-                "text": [
-                    "Big Water damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -5384,10 +5375,19 @@
                     "450% Light damage to a foe. All allies gain [Status Revitalize.png] **Revitalize**."
                 ]
             }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Rune Portal",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
         ]
     },
     "Mizuki_Kawashima": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Special Mizuki Magic",
@@ -5427,7 +5427,7 @@
         ]
     },
     "Mordred": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -5442,7 +5442,7 @@
         ]
     },
     "Morphe": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -5504,7 +5504,7 @@
         ]
     },
     "Naga": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Stone Ghost",
@@ -5515,7 +5515,7 @@
         ]
     },
     "Nakoruru": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Apefuchi Kamui Rimuse",
@@ -5705,7 +5705,7 @@
         ]
     },
     "Nene": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Sale Savvy",
@@ -5865,7 +5865,7 @@
         ]
     },
     "Noa": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -5901,7 +5901,7 @@
         ]
     },
     "Norcel": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Oopsie\u00a0!",
@@ -5912,7 +5912,7 @@
         ]
     },
     "Novei": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "An die Freude",
@@ -5972,7 +5972,7 @@
         ]
     },
     "Orchis": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Obsidian Moonlight",
@@ -5983,7 +5983,7 @@
         ]
     },
     "Owen": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Mirage Blade",
@@ -5994,7 +5994,7 @@
         ]
     },
     "Pamela": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Graceful Chirp",
@@ -6005,7 +6005,7 @@
         ]
     },
     "Paris": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Trionfo Canzone",
@@ -6016,7 +6016,7 @@
         ]
     },
     "Pavidus": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Salvation by Faith",
@@ -6042,6 +6042,15 @@
         ]
     },
     "Pengy": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Ultimate Colorful Special",
+                "text": [
+                    "450% Earth damage to a foe. ( based on [Status 6912.png] **P-EN**. )Consumes all [Status 6912.png] **P-EN**."
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -6057,15 +6066,6 @@
                 "name": "Colorful Barrage",
                 "text": [
                     "Big Water damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Ultimate Colorful Special",
-                "text": [
-                    "450% Earth damage to a foe. ( based on [Status 6912.png] **P-EN**. )Consumes all [Status 6912.png] **P-EN**."
                 ]
             }
         ]
@@ -6124,16 +6124,7 @@
         ]
     },
     "Petra": {
-        "R": [
-            {
-                "duration": {},
-                "name": "Wind Cross",
-                "text": [
-                    "Big Wind damage to a single enemy."
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -6145,10 +6136,19 @@
                     "Massive Wind damage to a foe. All Wind allies gain [Status CriticalUpWind.png] **??% / 20% Critical Hit Rate Up**."
                 ]
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Wind Cross",
+                "text": [
+                    "Big Wind damage to a single enemy."
+                ]
+            }
         ]
     },
     "Philosophia": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Krypton Pragma",
@@ -6168,7 +6168,7 @@
         ]
     },
     "Phoebe_(Event)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -6214,16 +6214,7 @@
         ]
     },
     "Predator": {
-        "SR": [
-            {
-                "duration": {},
-                "name": "Predator Claw",
-                "text": [
-                    "Big Dark damage to a foe. Reduce [Status Deaths Door 1.png] **Death's Door** lvl by 3"
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "duration": {
                     "1.5": [
@@ -6235,10 +6226,19 @@
                     "450% Dark damage to a foe. Gain [Status Counter.png] **Counters on Dodge (2 times)**."
                 ]
             }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Predator Claw",
+                "text": [
+                    "Big Dark damage to a foe. Reduce [Status Deaths Door 1.png] **Death's Door** lvl by 3"
+                ]
+            }
         ]
     },
     "Pun-Kin_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "????",
@@ -6249,7 +6249,7 @@
         ]
     },
     "Rackam": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -6303,7 +6303,7 @@
         ]
     },
     "Randall": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Fierce Kick",
@@ -6323,7 +6323,7 @@
         ]
     },
     "Ranko_Kanzaki": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Scuro Helfiore",
@@ -6334,7 +6334,7 @@
         ]
     },
     "Rashid": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Altair",
@@ -6365,7 +6365,7 @@
         ]
     },
     "Redluck": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Belly Battle Life",
@@ -6391,7 +6391,7 @@
         ]
     },
     "Reinhardtzar": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -6422,7 +6422,7 @@
         ]
     },
     "Renie": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Hollow Blast",
@@ -6433,7 +6433,7 @@
         ]
     },
     "Renie_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -6448,7 +6448,7 @@
         ]
     },
     "Richard": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Joker Blast",
@@ -6468,7 +6468,7 @@
         ]
     },
     "Rika_Jougasaki": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Doki Doki Rhythm",
@@ -6486,7 +6486,7 @@
         ]
     },
     "Rin_Shibuya": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Iolite Blue",
@@ -6504,7 +6504,7 @@
         ]
     },
     "Risette": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Expiation",
@@ -6515,7 +6515,7 @@
         ]
     },
     "Rita": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Familial Insanity",
@@ -6533,7 +6533,7 @@
         ]
     },
     "Robertina": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rapsodia di Mistero",
@@ -6595,6 +6595,15 @@
         ]
     },
     "Rosamia": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Talismancy: Void Strike",
+                "text": [
+                    "450% Light damage to a foe. 400% Bonus Light damage to enemy if [Status CursedMask.png] **Curse of the Mask** is active (Damage cap: ~1,160,000). Self-inflict [Status CursedMask.png] **Curse of the Mask** for 4 turns."
+                ]
+            }
+        ],
         "R": [
             {
                 "duration": {},
@@ -6613,15 +6622,6 @@
                 ]
             }
         ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Talismancy: Void Strike",
-                "text": [
-                    "450% Light damage to a foe. 400% Bonus Light damage to enemy if [Status CursedMask.png] **Curse of the Mask** is active (Damage cap: ~1,160,000). Self-inflict [Status CursedMask.png] **Curse of the Mask** for 4 turns."
-                ]
-            }
-        ],
         "YUKATA": [
             {
                 "duration": {
@@ -6637,7 +6637,7 @@
         ]
     },
     "Rosetta": {
-        "GRAND": [
+        "BASE": [
             {
                 "duration": {
                     "4": [
@@ -6699,7 +6699,7 @@
         ]
     },
     "Rosine": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Eat Up, Kids!",
@@ -6719,7 +6719,7 @@
         ]
     },
     "Ryan": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Grommet Hatchet",
@@ -6739,7 +6739,7 @@
         ]
     },
     "Ryu": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Metsu Hadoken",
@@ -6750,7 +6750,7 @@
         ]
     },
     "Sachiko_Koshimizu": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Angel Alight",
@@ -6761,7 +6761,7 @@
         ]
     },
     "Sahli_Lao": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -6796,7 +6796,7 @@
         ]
     },
     "Sakura_Shinguji": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rising Sakura",
@@ -6952,7 +6952,7 @@
         ]
     },
     "Sarya": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Keene Gracel",
@@ -7061,6 +7061,19 @@
         ]
     },
     "Sen": {
+        "BASE": [
+            {
+                "duration": {
+                    "3.5": [
+                        "[Status Bonus Damage.png] **30% Bonus Wind DMG**"
+                    ]
+                },
+                "name": "Kitty-Cat Hurricane Slash",
+                "text": [
+                    "Massive Wind damage to a foe. (Boost to C. A. specs based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl. )When [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl is 5: Also gain [Status Bonus Damage.png] **30% Bonus Wind DMG**."
+                ]
+            }
+        ],
         "HOLIDAY": [
             {
                 "duration": {},
@@ -7076,19 +7089,6 @@
                 "name": "Hundred Claw Storm Strike",
                 "text": [
                     "Big Fire damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {
-                    "3.5": [
-                        "[Status Bonus Damage.png] **30% Bonus Wind DMG**"
-                    ]
-                },
-                "name": "Kitty-Cat Hurricane Slash",
-                "text": [
-                    "Massive Wind damage to a foe. (Boost to C. A. specs based on [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl. )When [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl is 5: Also gain [Status Bonus Damage.png] **30% Bonus Wind DMG**."
                 ]
             }
         ]
@@ -7200,7 +7200,7 @@
         ]
     },
     "Sevastien": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Tempete d'Azur",
@@ -7211,7 +7211,7 @@
         ]
     },
     "Sevilbarra": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -7235,7 +7235,7 @@
         ]
     },
     "Shao": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Undead Murk",
@@ -7257,7 +7257,7 @@
         ]
     },
     "Shiki_Ichinose": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Arcane Aroma",
@@ -7370,7 +7370,7 @@
         ]
     },
     "Sig": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Harpoon Bullet",
@@ -7430,7 +7430,7 @@
         ]
     },
     "Skull": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Rain of Bullets",
@@ -7538,7 +7538,7 @@
         ]
     },
     "Sophie": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "2.5": [
@@ -7553,6 +7553,33 @@
         ]
     },
     "Soriz": {
+        "BASE": [
+            {
+                "duration": {
+                    "5.5": [
+                        "[Status Strength.png] **Strength**"
+                    ]
+                },
+                "name": "Tectonic Rush",
+                "text": [
+                    "450% Earth damage to a foe. Gain [Status Strength.png] **Strength**."
+                ]
+            },
+            {
+                "duration": {
+                    "1.5": [
+                        "[Status 6952.png] **Fundoshi Fist**"
+                    ],
+                    "5.5": [
+                        "[Status Strength.png] **Strength**"
+                    ]
+                },
+                "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
+                "text": [
+                    "500% Earth damage to a foe. Gain [Status Strength.png] **Strength** and [Status 6952.png] **Fundoshi Fist**."
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -7581,37 +7608,10 @@
                     "Massive Earth damage to a foe. Gain [Status DoubleUp.png] **DA Up**."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "duration": {
-                    "5.5": [
-                        "[Status Strength.png] **Strength**"
-                    ]
-                },
-                "name": "Tectonic Rush",
-                "text": [
-                    "450% Earth damage to a foe. Gain [Status Strength.png] **Strength**."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5": [
-                        "[Status 6952.png] **Fundoshi Fist**"
-                    ],
-                    "5.5": [
-                        "[Status Strength.png] **Strength**"
-                    ]
-                },
-                "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
-                "text": [
-                    "500% Earth damage to a foe. Gain [Status Strength.png] **Strength** and [Status 6952.png] **Fundoshi Fist**."
-                ]
-            }
         ]
     },
     "Spinnah": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Twisted Revolution",
@@ -7631,7 +7631,7 @@
         ]
     },
     "Stahn_Aileron": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Phoenix",
@@ -7642,7 +7642,7 @@
         ]
     },
     "Stan": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -7676,7 +7676,7 @@
         ]
     },
     "Stumpeye": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "????",
@@ -7711,7 +7711,7 @@
         ]
     },
     "Suframare": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Frost Watch",
@@ -7731,6 +7731,19 @@
         ]
     },
     "Sutera": {
+        "BASE": [
+            {
+                "duration": {
+                    "Indefinite": [
+                        "[Status DamageCapUp.png] **10% DMG Cap Up (1 time)**"
+                    ]
+                },
+                "name": "Piercing Wind Shear",
+                "text": [
+                    "450% Wind damage to a foe. All allies gain [Status DamageCapUp.png] **10% DMG Cap Up (1 time)**."
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -7764,19 +7777,6 @@
                     "Massive Wind damage to a foe. Restore Sutera's HP (Healing cap: 800)."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "duration": {
-                    "Indefinite": [
-                        "[Status DamageCapUp.png] **10% DMG Cap Up (1 time)**"
-                    ]
-                },
-                "name": "Piercing Wind Shear",
-                "text": [
-                    "450% Wind damage to a foe. All allies gain [Status DamageCapUp.png] **10% DMG Cap Up (1 time)**."
-                ]
-            }
         ]
     },
     "Suzaku_Kururugi": {
@@ -7791,7 +7791,7 @@
         ]
     },
     "Syr": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Meteor Ring",
@@ -7813,7 +7813,7 @@
         ]
     },
     "Tanjiro,_Nezuko,_Zenitsu,": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -7828,6 +7828,19 @@
         ]
     },
     "Tanya": {
+        "BASE": [
+            {
+                "duration": {
+                    "Indefinite": [
+                        "[Status Knife 1.png] **Knife**"
+                    ]
+                },
+                "name": "Raven's Shadow",
+                "text": [
+                    "Massive Dark damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%** and 2 [Status Knife 1.png] **Knife**."
+                ]
+            }
+        ],
         "R": [
             {
                 "duration": {},
@@ -7846,19 +7859,6 @@
                 ]
             }
         ],
-        "SSR": [
-            {
-                "duration": {
-                    "Indefinite": [
-                        "[Status Knife 1.png] **Knife**"
-                    ]
-                },
-                "name": "Raven's Shadow",
-                "text": [
-                    "Massive Dark damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%** and 2 [Status Knife 1.png] **Knife**."
-                ]
-            }
-        ],
         "SUMMER": [
             {
                 "duration": {},
@@ -7870,7 +7870,7 @@
         ]
     },
     "Tear_Grants": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -7885,7 +7885,7 @@
         ]
     },
     "Teena": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Ultimate Fire Rage",
@@ -7927,7 +7927,7 @@
         ]
     },
     "Teru_Tendo": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Brightest Star",
@@ -7938,7 +7938,7 @@
         ]
     },
     "The_Lowain_Bros": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Gigantic Beefcake",
@@ -7949,7 +7949,7 @@
         ]
     },
     "Thelonim": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Meteor Gale",
@@ -7960,6 +7960,15 @@
         ]
     },
     "Therese": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Maelstrom Blaze",
+                "text": [
+                    "Massive Fire damage to a foe. Gain [Status Uplift.png] **Charge Bar +10%**."
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -7975,15 +7984,6 @@
                 "name": "Tempest Blades",
                 "text": [
                     "Big Fire damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Maelstrom Blaze",
-                "text": [
-                    "Massive Fire damage to a foe. Gain [Status Uplift.png] **Charge Bar +10%**."
                 ]
             }
         ]
@@ -8109,7 +8109,7 @@
         ]
     },
     "Tsubasa_Kashiwagi": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Shining Runway",
@@ -8163,7 +8163,7 @@
         ]
     },
     "Tyre": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -8187,7 +8187,7 @@
         ]
     },
     "T\u014dru_Amuro": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Combination Blow",
@@ -8198,7 +8198,7 @@
         ]
     },
     "Ulamnuran": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Illusion Dance",
@@ -8216,7 +8216,7 @@
         ]
     },
     "Uzuki_Shimamura": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Pink Lively",
@@ -8260,6 +8260,26 @@
         ]
     },
     "Vane": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Loewenbein: Jagd",
+                "text": [
+                    "450% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**."
+                ]
+            },
+            {
+                "duration": {
+                    "Indefinite": [
+                        "[Status 4038.png] **Double Beat**"
+                    ]
+                },
+                "name": "After 5\u2605:Loewenbein: Jagd ++",
+                "text": [
+                    "500% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**. Gain [Status 4038.png] **Double Beat**. (Next Heroic Beat activates twice. )"
+                ]
+            }
+        ],
         "DUO": [
             {
                 "duration": {},
@@ -8286,30 +8306,10 @@
                     "Big Water damage to a foe."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Loewenbein: Jagd",
-                "text": [
-                    "450% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite": [
-                        "[Status 4038.png] **Double Beat**"
-                    ]
-                },
-                "name": "After 5\u2605:Loewenbein: Jagd ++",
-                "text": [
-                    "500% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**. Gain [Status 4038.png] **Double Beat**. (Next Heroic Beat activates twice. )"
-                ]
-            }
         ]
     },
     "Vane_(Summer)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "0.5": [
@@ -8366,7 +8366,7 @@
         ]
     },
     "Vanzza": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Fist of Ascension",
@@ -8430,7 +8430,7 @@
         ]
     },
     "Vaseraga_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "1.5": [
@@ -8460,7 +8460,7 @@
         ]
     },
     "Vermeil": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Salvator Rosa",
@@ -8480,7 +8480,7 @@
         ]
     },
     "Viceroy": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Vice Driver",
@@ -8515,6 +8515,29 @@
         ]
     },
     "Vira": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Overpower",
+                "text": [
+                    "450% Dark damage to a foe."
+                ]
+            },
+            {
+                "duration": {},
+                "name": "After 5\u2605:Overpower ++",
+                "text": [
+                    "500% Dark damage to a foe."
+                ]
+            },
+            {
+                "duration": {},
+                "name": "Luminiera Merge:Affection Abyss",
+                "text": [
+                    "500% Dark damage to a foe (Damage cap: ~1,685,000) and; 250% Light damage to a foe (Damage cap: ~350,000). 1-turn cut to Vira's skill cooldowns."
+                ]
+            }
+        ],
         "DUO": [
             {
                 "duration": {
@@ -8555,29 +8578,6 @@
                 ]
             }
         ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Overpower",
-                "text": [
-                    "450% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Overpower ++",
-                "text": [
-                    "500% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "Luminiera Merge:Affection Abyss",
-                "text": [
-                    "500% Dark damage to a foe (Damage cap: ~1,685,000) and; 250% Light damage to a foe (Damage cap: ~350,000). 1-turn cut to Vira's skill cooldowns."
-                ]
-            }
-        ],
         "SUMMER": [
             {
                 "duration": {
@@ -8602,7 +8602,7 @@
         ]
     },
     "Volenna": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Conviction Strike",
@@ -8622,7 +8622,7 @@
         ]
     },
     "Walder": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Ultimate Hundred Steelshot",
@@ -8667,7 +8667,7 @@
         ]
     },
     "Will": {
-        "R": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Spatter",
@@ -8694,7 +8694,7 @@
         ]
     },
     "Wulf": {
-        "DUO": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -8709,7 +8709,7 @@
         ]
     },
     "Yaia": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "duration": {
                     "3.5": [
@@ -8754,7 +8754,7 @@
         ]
     },
     "Yamanbagiri_Kunihiro": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {
                     "2": [
@@ -8816,21 +8816,21 @@
         ]
     },
     "Yodarha": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Ultimate Flash",
+                "text": [
+                    "Massive Water damage to a foe. Consumes all remaining [Status TripleShroud1.png] **Triple Shrouded** and deals 333,333 plain damage for each Triple Shroud consumed (Max: 999,999)."
+                ]
+            }
+        ],
         "R": [
             {
                 "duration": {},
                 "name": "Evil Bait",
                 "text": [
                     "Big Water damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {},
-                "name": "Ultimate Flash",
-                "text": [
-                    "Massive Water damage to a foe. Consumes all remaining [Status TripleShroud1.png] **Triple Shrouded** and deals 333,333 plain damage for each Triple Shroud consumed (Max: 999,999)."
                 ]
             }
         ],
@@ -8849,7 +8849,7 @@
         ]
     },
     "You": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -8864,7 +8864,7 @@
         ]
     },
     "Young_Cat": {
-        "EVENT": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Haymaker Cat Punch",
@@ -8988,7 +8988,7 @@
         ]
     },
     "Yuri_Lowell": {
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Savage Wolf Fury",
@@ -9025,7 +9025,7 @@
         ]
     },
     "Zaja": {
-        "HALLOWEEN": [
+        "BASE": [
             {
                 "duration": {
                     "Indefinite": [
@@ -9049,6 +9049,19 @@
         ]
     },
     "Zehek": {
+        "BASE": [
+            {
+                "duration": {
+                    "2.5": [
+                        "[Status Drain.png] **Drain**"
+                    ]
+                },
+                "name": "Valiant Edge",
+                "text": [
+                    "450% Dark damage to a foe. Activate Blade of Evil's Seal. Gain [Status Drain.png] **Drain**."
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -9064,19 +9077,6 @@
                 "name": "Dark Blade",
                 "text": [
                     "Big Dark damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "duration": {
-                    "2.5": [
-                        "[Status Drain.png] **Drain**"
-                    ]
-                },
-                "name": "Valiant Edge",
-                "text": [
-                    "450% Dark damage to a foe. Activate Blade of Evil's Seal. Gain [Status Drain.png] **Drain**."
                 ]
             }
         ]
