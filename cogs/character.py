@@ -111,7 +111,7 @@ class Character(commands.Cog):
                 charVersion = char['BASE']
             else:
                 charVersion = char[version]
-
+        
             ougiEmbed = discord.Embed()
             for ougiList in charVersion:
                 for ougiText in ougiList["text"]:
@@ -120,8 +120,8 @@ class Character(commands.Cog):
                         duration = ''
                         for ougiDuration in ougiList["duration"]:
                             for ougiDurationText in ougiList["duration"][ougiDuration]:
-                                    duration+= f'{ougiDurationText} and '
-                            duration = duration[:-4]
+                                    duration+= f'{ougiDurationText} and'
+                            duration = duration[:-3]
                             if ougiDuration != "Indefinite":
                                 duration += f': {ougiDuration} turns.\n'
                             else:
@@ -152,7 +152,7 @@ class Character(commands.Cog):
                 charVersion = char['BASE']
             else:
                 charVersion = char[version]
-
+        
             embedList = []
             for supportList in charVersion:
                 supportEmbed = discord.Embed()
