@@ -228,12 +228,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6947.png] **Thunderswift**"
+                        "<:status_6947:832604144455254017> **Thunderswift**"
                     ]
                 },
                 "name": "Burning Saber",
                 "text": [
-                    "Multiattacks raise [Status 6947.png] **Thunderswift** lvl based on number of hits (Max: 10).\n(Boost to multiattack rate based on Thunderswift lvl.\nAt 7 or above: Chance to deal quadruple attacks.)\n"
+                    "Multiattacks raise <:status_6947:832604144455254017> **Thunderswift** lvl based on number of hits (Max: 10).\n(Boost to multiattack rate based on Thunderswift lvl.\nAt 7 or above: Chance to deal quadruple attacks.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -559,7 +559,7 @@
                 "duration": {},
                 "name": "I'm Hungry...",
                 "text": [
-                    "[Status 69371.png] **Satiety** lvl is 3 at battle start (Max: 5).\n(At end of turn when Amira's charge bar is 20% or higher: Activate Maximum Overload.)\n"
+                    "<:status_69371:832604145114546217> **Satiety** lvl is 3 at battle start (Max: 5).\n(At end of turn when Amira's charge bar is 20% or higher: Activate Maximum Overload.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -567,7 +567,7 @@
                 "duration": {},
                 "name": "Drifting Gourmand",
                 "text": [
-                    "When [Status 69371.png] **Satiety** lvl is 1 or above: 40% boost to ATK, 300% boost to DEF, boost to hostility, deal multiattacks, and consume [Status 69371.png] **Satiety** lvls to counter based on number of times damage is taken (Max: 5 hits)."
+                    "When <:status_69371:832604145114546217> **Satiety** lvl is 1 or above: 40% boost to ATK, 300% boost to DEF, boost to hostility, deal multiattacks, and consume <:status_69371:832604145114546217> **Satiety** lvls to counter based on number of times damage is taken (Max: 5 hits)."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -658,12 +658,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7115.png] **Golden Band**"
+                        "<:status_7115:832604359048822785> **Golden Band**"
                     ]
                 },
                 "name": "All-Season Fashion",
                 "text": [
-                    "Starts battle with [Status 7115.png] **Golden Band**.\n(Consumed at end of turn if 10th turn or later.\nWhen consumed: Removes all debuffs from Water allies.\nFully restores HP.\nBoosts Andira's multiattack rate.)\n"
+                    "Starts battle with <:status_7115:832604359048822785> **Golden Band**.\n(Consumed at end of turn if 10th turn or later.\nWhen consumed: Removes all debuffs from Water allies.\nFully restores HP.\nBoosts Andira's multiattack rate.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -849,12 +849,12 @@
                 "duration": {
                     "Indefinite": [
                         "<:Status_Lethal_Attack_Dodged:832596749418889226> **Undying (1 time)**",
-                        "[Status 7026.png] **Enlightened One**"
+                        "<:status_7026:832604284729294949> **Enlightened One**"
                     ]
                 },
                 "name": "Enlightened One",
                 "text": [
-                    "Starts battle with <:Status_Lethal_Attack_Dodged:832596749418889226> **Undying (1 time)**.\nAlso starts battle with [Status 7026.png] **Enlightened One**."
+                    "Starts battle with <:Status_Lethal_Attack_Dodged:832596749418889226> **Undying (1 time)**.\nAlso starts battle with <:status_7026:832604284729294949> **Enlightened One**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -1776,7 +1776,7 @@
                 "duration": {},
                 "name": "Our Hair's in Your Hands!",
                 "text": [
-                    "At end of turn in which an ally is almost knocked out:Fully restore Bo-bobo's HP and remove all debuffs.\nRaise <:Status_71091:832575818067738705> **Wig Out** lvl to 8.\nEnd cooldown for all skills.\n(Consume [Status 7110.png] **Our Hair's in Your Hands!**)"
+                    "At end of turn in which an ally is almost knocked out:Fully restore Bo-bobo's HP and remove all debuffs.\nRaise <:Status_71091:832575818067738705> **Wig Out** lvl to 8.\nEnd cooldown for all skills.\n(Consume <:status_7110:832604358893371412> **Our Hair's in Your Hands!**)"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -2346,7 +2346,7 @@
                 "duration": {},
                 "name": "Milky Roll-Out",
                 "text": [
-                    "When in [Status 7043.png] **High Gear**:Guaranteed triple attacks, supplement damage (Max: 50,000), 50% Bonus Wind DMG effect, and 30% reduced DEF."
+                    "When in <:status_7043:832604285442195456> **High Gear**:Guaranteed triple attacks, supplement damage (Max: 50,000), 50% Bonus Wind DMG effect, and 30% reduced DEF."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -4114,7 +4114,7 @@
                 "duration": {},
                 "name": "Beach Activity",
                 "text": [
-                    "When [Status I'm On It!.png] **I'm On It!** is in effect: 30% / 30% Armored effect, charge bar fills up 30% faster, and [Status I'm On It!.png] **I'm On It!** lvl rises by 1 at end of each turn."
+                    "When <:Status_Im_On_It:832766348261589003> **I'm On It!** is in effect: 30% / 30% Armored effect, charge bar fills up 30% faster, and <:Status_Im_On_It:832766348261589003> **I'm On It!** lvl rises by 1 at end of each turn."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -4149,12 +4149,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7000.png] **Azure Fist**"
+                        "<:status_7000:832604279939399682> **Azure Fist**"
                     ]
                 },
                 "name": "Push It to the Limit",
                 "text": [
-                    "Raise [Status 7000.png] **Azure Fist** lvl upon triple attack or charge attack (Max: 5).\n()"
+                    "Raise <:status_7000:832604279939399682> **Azure Fist** lvl upon triple attack or charge attack (Max: 5).\n()"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -4223,12 +4223,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 1292 5 1.png] **Crushed**"
+                        "<:status_1292_5_1:832603101873438721> **Crushed**"
                     ]
                 },
                 "name": "Unrivaled Drill",
                 "text": [
-                    "Raise [Status 1292 5 1.png] **Crushed** lvl by 1 when Feena triple attacks (Max: 3)."
+                    "Raise <:status_1292_5_1:832603101873438721> **Crushed** lvl by 1 when Feena triple attacks (Max: 3)."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -4396,7 +4396,7 @@
                 "duration": {},
                 "name": "Ghostly Summer Bash",
                 "text": [
-                    "Upon using linked skills:Raise [Status 6949.png] **Ectoparty** lvl by 1 (Max: 5).\nBoost to all allies' debuff success rate based on [Status 6949.png] **Ectoparty** lvl."
+                    "Upon using linked skills:Raise <:status_6949:832604144446603278> **Ectoparty** lvl by 1 (Max: 5).\nBoost to all allies' debuff success rate based on <:status_6949:832604144446603278> **Ectoparty** lvl."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -4468,7 +4468,7 @@
                 "duration": {},
                 "name": "Devoting My Entire Being",
                 "text": [
-                    "Trilok Smash activates at end of turn when below 25% HP.\nTake a lethal hit without being knocked out (Consumes 1 [Status 7006.png] **Rosa Pack** / Leaves 1 HP)"
+                    "Trilok Smash activates at end of turn when below 25% HP.\nTake a lethal hit without being knocked out (Consumes 1 <:status_7006:832604280589516840> **Rosa Pack** / Leaves 1 HP)"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -5088,7 +5088,7 @@
                 "duration": {},
                 "name": "I Lied, I Really Wanna Do Valentine's!",
                 "text": [
-                    "Raise [Status 67961.png] **Cyclone** lvl by 1 at end of turn when allies deal damage 30 or more times to the current target in 1 turn."
+                    "Raise <:status_67961:832604008693628990> **Cyclone** lvl by 1 at end of turn when allies deal damage 30 or more times to the current target in 1 turn."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -5478,7 +5478,7 @@
                 "duration": {},
                 "name": "Dragoncraft",
                 "text": [
-                    "Raise [Status 6832.png] **PP** by 1 every turn (Max: 10).\n(Starts battle with 1 [Status 6832.png] **PP**.)\n(When [Status 6832.png] **PP** is 7 or above: Activates Overflow, 50% boost to C.A. damage, and 30% boost to C.A. damage cap.)\n"
+                    "Raise <:status_6832:832604007725400085> **PP** by 1 every turn (Max: 10).\n(Starts battle with 1 <:status_6832:832604007725400085> **PP**.)\n(When <:status_6832:832604007725400085> **PP** is 7 or above: Activates Overflow, 50% boost to C.A. damage, and 30% boost to C.A. damage cap.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -5486,7 +5486,7 @@
                 "duration": {},
                 "name": "Never Too Late to Turn the Tables!",
                 "text": [
-                    "When Hiro is below 25% HP at end of turn:End cooldown for Hiro's skills and gain **Instant Charge**.\n(Consumes [Status 6833.png] **Shadoba Tanoshii!**)"
+                    "When Hiro is below 25% HP at end of turn:End cooldown for Hiro's skills and gain **Instant Charge**.\n(Consumes <:status_6833:832604008023195748> **Shadoba Tanoshii!**)"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -5513,12 +5513,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6864.png] **Piece**"
+                        "<:status_6864:832604143871983646> **Piece**"
                     ]
                 },
                 "name": "Gravity Graffiti",
                 "text": [
-                    "When a foe uses a special attack: Activate Burner Bomb.\nGain 1 [Status 6864.png] **Piece** (Max: 3)."
+                    "When a foe uses a special attack: Activate Burner Bomb.\nGain 1 <:status_6864:832604143871983646> **Piece** (Max: 3)."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -5555,27 +5555,27 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6787.png] **On the Move**",
-                        "[Status 6786.png] **Entrenched**",
-                        "[Status 6787.png] **On the Move**"
+                        "<:status_6787:832603246518075423> **On the Move**",
+                        "<:status_6786:832603246451097612> **Entrenched**",
+                        "<:status_6787:832603246518075423> **On the Move**"
                     ]
                 },
                 "name": "Guerrilla Warfare",
                 "text": [
-                    "When [Status 6786.png] **Entrenched**: 20% boost to all allies' DEF.\nWhen [Status 6787.png] **On the Move**: 15% boost to all allies' dodge rate.\n(Can't be [Status 6786.png] **Entrenched** and [Status 6787.png] **On the Move** at the same time.)\n"
+                    "When <:status_6786:832603246451097612> **Entrenched**: 20% boost to all allies' DEF.\nWhen <:status_6787:832603246518075423> **On the Move**: 15% boost to all allies' dodge rate.\n(Can't be <:status_6786:832603246451097612> **Entrenched** and <:status_6787:832603246518075423> **On the Move** at the same time.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6788.png] **War Funds**",
-                        "[Status 6788.png] **War Funds**"
+                        "<:status_6788:832603246769340427> **War Funds**",
+                        "<:status_6788:832603246769340427> **War Funds**"
                     ]
                 },
                 "name": "Drill Sergeant Turned Quartermaster",
                 "text": [
-                    "3 [Status 6788.png] **War Funds** to Ilsa at battle start (Max: 3).\n(Consumes 1 [Status 6788.png] **War Funds** at end of turn to auto-activate Guns R Us.)\n"
+                    "3 <:status_6788:832603246769340427> **War Funds** to Ilsa at battle start (Max: 3).\n(Consumes 1 <:status_6788:832603246769340427> **War Funds** at end of turn to auto-activate Guns R Us.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -5616,12 +5616,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7012.png] **Kagura**"
+                        "<:status_7012:832604282233815040> **Kagura**"
                     ]
                 },
                 "name": "Hinokami Kagura",
                 "text": [
-                    "Supplemental DMG and boost to attack specs based on [Status 7012.png] **Kagura** lvl.\nRaise [Status 7012.png] **Kagura** lvl by 2 upon using skills.\nStarts battle with <:Status_Lethal_Attack_Dodged:832596749418889226> **Lethal Attack Dodged (1 time)**."
+                    "Supplemental DMG and boost to attack specs based on <:status_7012:832604282233815040> **Kagura** lvl.\nRaise <:status_7012:832604282233815040> **Kagura** lvl by 2 upon using skills.\nStarts battle with <:Status_Lethal_Attack_Dodged:832596749418889226> **Lethal Attack Dodged (1 time)**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -6064,12 +6064,12 @@
             {
                 "duration": {
                     "5": [
-                        "[Status 7024.png] **Salvation**"
+                        "<:status_7024:832604284113125436> **Salvation**"
                     ]
                 },
                 "name": "Ete de la Pucelle",
                 "text": [
-                    "Extend [Status 7024.png] **Salvation**'s duration by 2 turns upon using charge attack."
+                    "Extend <:status_7024:832604284113125436> **Salvation**'s duration by 2 turns upon using charge attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -6298,12 +6298,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6956.png] **Rescue**"
+                        "<:status_6956:832604145063952384> **Rescue**"
                     ]
                 },
                 "name": "Savior by the Sea",
                 "text": [
-                    "Raise [Status 6956.png] **Rescue** lvl by 1 upon using healing skills (Max: 5).\n(Boost to attack specs and healing specs based on [Status 6956.png] **Rescue** lvl)"
+                    "Raise <:status_6956:832604145063952384> **Rescue** lvl by 1 upon using healing skills (Max: 5).\n(Boost to attack specs and healing specs based on <:status_6956:832604145063952384> **Rescue** lvl)"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -6531,7 +6531,7 @@
                 "duration": {},
                 "name": "Verdure Lady",
                 "text": [
-                    "Recover HP each turn (Healing cap: 500).\nGain <:Status_Revitalize:832599167606980638> **10% Charge Boost** if HP is full.\nExtend the duration of [Status 6848.png] **Overflowing Emotions** by 2 turns upon using charge attack."
+                    "Recover HP each turn (Healing cap: 500).\nGain <:Status_Revitalize:832599167606980638> **10% Charge Boost** if HP is full.\nExtend the duration of <:status_6848:832604008450621471> **Overflowing Emotions** by 2 turns upon using charge attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -7196,12 +7196,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7013.png] **Resolve**"
+                        "<:status_7013:832604282738049045> **Resolve**"
                     ]
                 },
                 "name": "Undying Flame",
                 "text": [
-                    "Gain [Status 7013.png] **Resolve** every 4 turns or at end of every turn when below 25% HP.\n10% boost to damage cap with [Status 7013.png] **Resolve**."
+                    "Gain <:status_7013:832604282738049045> **Resolve** every 4 turns or at end of every turn when below 25% HP.\n10% boost to damage cap with <:status_7013:832604282738049045> **Resolve**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -7209,7 +7209,7 @@
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
                 "text": [
-                    "Boost to multiattack rate when Rengoku has [Status 7013.png] **Resolve**."
+                    "Boost to multiattack rate when Rengoku has <:status_7013:832604282738049045> **Resolve**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -7660,12 +7660,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6804.png] **Enforcer's Zeal**"
+                        "<:status_6804:832604007561691166> **Enforcer's Zeal**"
                     ]
                 },
                 "name": "Fourth Fleet, Charge!",
                 "text": [
-                    "4 [Status 6804.png] **Enforcer's Zeal** at battle start (Max: 4).\n10% boost to all allies' skill hit rate."
+                    "4 <:status_6804:832604007561691166> **Enforcer's Zeal** at battle start (Max: 4).\n10% boost to all allies' skill hit rate."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -7741,7 +7741,7 @@
                 "duration": {},
                 "name": "Sacrificial Lioness",
                 "text": [
-                    "Raise [Status 6919.png] **Pride of One** lvl by 1 (Max: 5) and extend the duration of [Status 3110.png] **Crescent** by 1 turn upon critical hits.\n(Boost to ATK based on Pride of One lvl.)\n"
+                    "Raise <:status_6919:832604144145268767> **Pride of One** lvl by 1 (Max: 5) and extend the duration of <:status_3110:832603245201457212> **Crescent** by 1 turn upon critical hits.\n(Boost to ATK based on Pride of One lvl.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -8490,13 +8490,13 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6798.png] **Dragon Fruit**",
-                        "[Status 6798.png] **Dragon Fruit**"
+                        "<:status_6798:832604007066501160> **Dragon Fruit**",
+                        "<:status_6798:832604007066501160> **Dragon Fruit**"
                     ]
                 },
                 "name": "'Cause We're the Best!",
                 "text": [
-                    "Boost to ATK, DMG cap, and multiattack rate, and hit to DEF based on number of [Status 6798.png] **Dragon Fruit**.\n(Gain 1 [Status 6798.png] **Dragon Fruit** each turn.\n2 [Status 6798.png] **Dragon Fruit** at battle start.\n[Max: 5])"
+                    "Boost to ATK, DMG cap, and multiattack rate, and hit to DEF based on number of <:status_6798:832604007066501160> **Dragon Fruit**.\n(Gain 1 <:status_6798:832604007066501160> **Dragon Fruit** each turn.\n2 <:status_6798:832604007066501160> **Dragon Fruit** at battle start.\n[Max: 5])"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -8508,7 +8508,7 @@
                 },
                 "name": "Gyoo...",
                 "text": [
-                    "Upon taking damage: Lose 2 [Status 6798.png] **Dragon Fruit**.\nGain <:Status_AggroDownArrow:832575957197651978> **Hostility Down**."
+                    "Upon taking damage: Lose 2 <:status_6798:832604007066501160> **Dragon Fruit**.\nGain <:Status_AggroDownArrow:832575957197651978> **Hostility Down**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -8780,7 +8780,7 @@
                 "duration": {},
                 "name": "Sweet Enchantment",
                 "text": [
-                    "Boost to C.A. specs based on [Status 6847 1.png] **Sweet Serpent** lvl."
+                    "Boost to C.A. specs based on <:status_6847_1:832604008404615219> **Sweet Serpent** lvl."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -9249,12 +9249,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6762.png] **Surf**"
+                        "<:status_6762:832603246039662632> **Surf**"
                     ]
                 },
                 "name": "Seagliding Turtle",
                 "text": [
-                    "Raise [Status 6762.png] **Surf** lvl by 1 upon using skills (Max: 3).\n(At lvl 3: 30% boost to ATK, 10% boost to damage cap, and deal guaranteed triple attacks.)\n"
+                    "Raise <:status_6762:832603246039662632> **Surf** lvl by 1 upon using skills (Max: 3).\n(At lvl 3: 30% boost to ATK, 10% boost to damage cap, and deal guaranteed triple attacks.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -9274,7 +9274,7 @@
                 "duration": {},
                 "name": "Forestcraft",
                 "text": [
-                    "Raise [Status 6834.png] **Play Count** by 1 when an ally uses a skill (Max: 9 / Resets at end of turn).\n(Boost to Mimori's C.A. specs based on [Status 6834.png] **Play Count**.)\n"
+                    "Raise <:status_6834:832604008245493780> **Play Count** by 1 when an ally uses a skill (Max: 9 / Resets at end of turn).\n(Boost to Mimori's C.A. specs based on <:status_6834:832604008245493780> **Play Count**.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -9410,7 +9410,7 @@
                 "duration": {},
                 "name": "Only One in All the Skies",
                 "text": [
-                    "Has a maximum charge bar limit of 200%.\nStarts battle with 1 [Status 7010.png] **Mikan Orange** (Max: 3)."
+                    "Has a maximum charge bar limit of 200%.\nStarts battle with 1 <:status_7010:832604281596542998> **Mikan Orange** (Max: 3)."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -9769,14 +9769,14 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7009.png] **Yew Arrow**",
-                        "[Status 7009.png] **Yew Arrow**",
-                        "[Status 7009.png] **Yew Arrow**"
+                        "<:status_7009:832604281214337024> **Yew Arrow**",
+                        "<:status_7009:832604281214337024> **Yew Arrow**",
+                        "<:status_7009:832604281214337024> **Yew Arrow**"
                     ]
                 },
                 "name": "Mounted Archery",
                 "text": [
-                    "Refill 4 [Status 7009.png] **Yew Arrow** every 4 turns (Max: 4).\nRefill 1 [Status 7009.png] **Yew Arrow** at end of turn when no damage has been taken.\n(4 [Status 7009.png] **Yew Arrow** at battle start.)\n"
+                    "Refill 4 <:status_7009:832604281214337024> **Yew Arrow** every 4 turns (Max: 4).\nRefill 1 <:status_7009:832604281214337024> **Yew Arrow** at end of turn when no damage has been taken.\n(4 <:status_7009:832604281214337024> **Yew Arrow** at battle start.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -10025,12 +10025,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7009 10.png] **Nemo Power**"
+                        "<:status_7009_10:832604281382371349> **Nemo Power**"
                     ]
                 },
                 "name": "Leave it to Nemo Santa!",
                 "text": [
-                    "I build up [Status 7009 10.png] **Nemo Power** at end of turn if I didn't take damage! (Max: 5)(When [Status 7009 10.png] **Nemo Power** is at max: I activate Roselle Wreath!)"
+                    "I build up <:status_7009_10:832604281382371349> **Nemo Power** at end of turn if I didn't take damage! (Max: 5)(When <:status_7009_10:832604281382371349> **Nemo Power** is at max: I activate Roselle Wreath!)"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -10593,7 +10593,7 @@
                 "duration": {},
                 "name": "Pengy Energy",
                 "text": [
-                    "Consume 1 [Status 6912.png] **P-EN** on normal attacks:Guaranteed triple attacks.\n300% Earth damage to all foes (Damage cap: ~300,000).\n(10 [Status 6912.png] **P-EN** at battle start.)\n"
+                    "Consume 1 <:status_6912:832604144094806076> **P-EN** on normal attacks:Guaranteed triple attacks.\n300% Earth damage to all foes (Damage cap: ~300,000).\n(10 <:status_6912:832604144094806076> **P-EN** at battle start.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -10601,7 +10601,7 @@
                 "duration": {},
                 "name": "Suit Overheat",
                 "text": [
-                    "Start 3-turn countdown when [Status 6912.png] **P-EN** is 0 at end of turn.\n(When count is 0: 700% Earth damage to all foes [Damage cap: ~1,160,000].\nPengy is knocked out.)\n"
+                    "Start 3-turn countdown when <:status_6912:832604144094806076> **P-EN** is 0 at end of turn.\n(When count is 0: 700% Earth damage to all foes [Damage cap: ~1,160,000].\nPengy is knocked out.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -11161,7 +11161,7 @@
                 "duration": {},
                 "name": "Loving Mother",
                 "text": [
-                    "30% boost to C.A. damage and 10% boost to C.A. damage cap for Dark allies against foes with [Status 6803.png] **Celestial Vision**.\n(Takes effect even when Rei is a sub ally.)\n"
+                    "30% boost to C.A. damage and 10% boost to C.A. damage cap for Dark allies against foes with <:status_6803:832604007218151504> **Celestial Vision**.\n(Takes effect even when Rei is a sub ally.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -11250,12 +11250,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6979.png] **Lone Wolf Trick**"
+                        "<:status_6979:832604201959817217> **Lone Wolf Trick**"
                     ]
                 },
                 "name": "Show Me the Candy",
                 "text": [
-                    "When Switching to Main Ally: Raise [Status 6979.png] **Lone Wolf Trick** lvl by 5.\n(Can't be reactivated.)\n"
+                    "When Switching to Main Ally: Raise <:status_6979:832604201959817217> **Lone Wolf Trick** lvl by 5.\n(Can't be reactivated.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -11600,25 +11600,25 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6982.png] **Petals of Sapphire**"
+                        "<:status_6982:832604202282909739> **Petals of Sapphire**"
                     ]
                 },
                 "name": "Blue Rose Queen",
                 "text": [
-                    "While [Status 6981.png] **Midnight Rose Barrier** is in effect: 500% boost to DEF, 100% boost to debuff resistance, Substitute effect (Receives all-ally attacks), and 30% Repel effect.\n(If HP is 50% or less at end of turn:Restore 5 [Status 6982.png] **Petals of Sapphire**.\nEnds cooldown for Midnight Rose Barrier.\nConsumes [Status 6985.png] **Blue Rose Queen**.)\n"
+                    "While <:status_6981:832604202119069748> **Midnight Rose Barrier** is in effect: 500% boost to DEF, 100% boost to debuff resistance, Substitute effect (Receives all-ally attacks), and 30% Repel effect.\n(If HP is 50% or less at end of turn:Restore 5 <:status_6982:832604202282909739> **Petals of Sapphire**.\nEnds cooldown for Midnight Rose Barrier.\nConsumes <:status_6985:832604202878369826> **Blue Rose Queen**.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6982.png] **Petals of Sapphire**",
-                        "[Status 6982.png] **Petals of Sapphire**"
+                        "<:status_6982:832604202282909739> **Petals of Sapphire**",
+                        "<:status_6982:832604202282909739> **Petals of Sapphire**"
                     ]
                 },
                 "name": "Thorns After Dark",
                 "text": [
-                    "Boost to multiattack rate and critical hit rate based on number of [Status 6982.png] **Petals of Sapphire**.\n(Starts battle with 3 [Status 6982.png] **Petals of Sapphire** [Max: 5].)\n"
+                    "Boost to multiattack rate and critical hit rate based on number of <:status_6982:832604202282909739> **Petals of Sapphire**.\n(Starts battle with 3 <:status_6982:832604202282909739> **Petals of Sapphire** [Max: 5].)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -12210,7 +12210,7 @@
                 "duration": {},
                 "name": "True Dragon's Boon",
                 "text": [
-                    "Gain 1 [Status 67781.png] **Sprinkles** when targeted by a foe (Max: 5).\nIf Scathacha is below 25% HP: Consume [Status 6779.png] **True Dragon's Boon** and fully restore Fire allies' HP at end of turn (1 time)."
+                    "Gain 1 <:status_67781:832603247746351144> **Sprinkles** when targeted by a foe (Max: 5).\nIf Scathacha is below 25% HP: Consume <:status_6779:832603246295384065> **True Dragon's Boon** and fully restore Fire allies' HP at end of turn (1 time)."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -12393,14 +12393,14 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6790 2.png] **Feral Intuition**",
-                        "[Status 6790.png] **Savage Claw**",
-                        "[Status 6790 2.png] **Feral Intuition**"
+                        "<:status_6790_2:832603247113142282> **Feral Intuition**",
+                        "<:status_6790:832603311344713828> **Savage Claw**",
+                        "<:status_6790_2:832603247113142282> **Feral Intuition**"
                     ]
                 },
                 "name": "Heavenly Howl of Karm",
                 "text": [
-                    "When [Status 6790.png] **Savage Claw** is in effect: Activate Six-Claw Execution upon dodging.\nWhen [Status 6790 2.png] **Feral Intuition** is in effect: Activate Wolf's Howl upon dodging.\n([Status 6790.png] **Savage Claw** and [Status 6790 2.png] **Feral Intuition** effects can't be granted at the same time.)\n"
+                    "When <:status_6790:832603311344713828> **Savage Claw** is in effect: Activate Six-Claw Execution upon dodging.\nWhen <:status_6790_2:832603247113142282> **Feral Intuition** is in effect: Activate Wolf's Howl upon dodging.\n(<:status_6790:832603311344713828> **Savage Claw** and <:status_6790_2:832603247113142282> **Feral Intuition** effects can't be granted at the same time.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -12588,19 +12588,19 @@
                 "duration": {},
                 "name": "Insect Hashira",
                 "text": [
-                    "5% boost to dodge rate.\nBoost to attack specs and skill specs based on [Status 7016.png] **Dosage** lvl."
+                    "5% boost to dodge rate.\nBoost to attack specs and skill specs based on <:status_7016:832604282888257548> **Dosage** lvl."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7016.png] **Dosage**"
+                        "<:status_7016:832604282888257548> **Dosage**"
                     ]
                 },
                 "name": "Silent Anger",
                 "text": [
-                    "Raise [Status 7016.png] **Dosage** lvl by 1 when targeted by a foe."
+                    "Raise <:status_7016:832604282888257548> **Dosage** lvl by 1 when targeted by a foe."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -12683,13 +12683,13 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 3100.png] **Aquablossom**",
-                        "[Status 3100.png] **Aquablossom**"
+                        "<:status_3100:832603245053476874> **Aquablossom**",
+                        "<:status_3100:832603245053476874> **Aquablossom**"
                     ]
                 },
                 "name": "Lexicon of Warfare",
                 "text": [
-                    "While [Status 3100.png] **Aquablossom** is in effect: Guaranteed triple attacks and 50% Bonus Water DMG effect.\n(Consumes 30% of charge bar every turn to maintain [Status 3100.png] **Aquablossom** effect.)\n"
+                    "While <:status_3100:832603245053476874> **Aquablossom** is in effect: Guaranteed triple attacks and 50% Bonus Water DMG effect.\n(Consumes 30% of charge bar every turn to maintain <:status_3100:832603245053476874> **Aquablossom** effect.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -13566,12 +13566,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7012.png] **Kagura**"
+                        "<:status_7012:832604282233815040> **Kagura**"
                     ]
                 },
                 "name": "Hinokami Kagura",
                 "text": [
-                    "Supplemental DMG and boost to attack specs based on [Status 7012.png] **Kagura** lvl.\nRaise [Status 7012.png] **Kagura** lvl by 2 upon using skills.\nStarts battle with <:Status_Lethal_Attack_Dodged:832596749418889226> **Lethal Attack Dodged (1 time)**."
+                    "Supplemental DMG and boost to attack specs based on <:status_7012:832604282233815040> **Kagura** lvl.\nRaise <:status_7012:832604282233815040> **Kagura** lvl by 2 upon using skills.\nStarts battle with <:Status_Lethal_Attack_Dodged:832596749418889226> **Lethal Attack Dodged (1 time)**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -14087,7 +14087,7 @@
                 "duration": {},
                 "name": "Synergetic Summer",
                 "text": [
-                    "To caster and an ally with [Status 6268 3.png] **Doubles**: 20% boost to ATK, 20% boost to charge bar gain, 40% / 20% Armored effect, and 10% Uplift effect."
+                    "To caster and an ally with <:status_6268_3:832603245901774858> **Doubles**: 20% boost to ATK, 20% boost to charge bar gain, 40% / 20% Armored effect, and 10% Uplift effect."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -14159,7 +14159,7 @@
                 "duration": {},
                 "name": "Queen of Canines",
                 "text": [
-                    "Has a maximum charge bar limit of 200%.\nExtend the durations of <:Status_Summon_Garjana:832601502123950080> **Summon Garjana** and [Status 7063.png] **Pupper Squad, Go!** by 2 turns upon using charge attack."
+                    "Has a maximum charge bar limit of 200%.\nExtend the durations of <:Status_Summon_Garjana:832601502123950080> **Summon Garjana** and <:status_7063:832604358708822016> **Pupper Squad, Go!** by 2 turns upon using charge attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -14343,13 +14343,13 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6798.png] **Dragon Fruit**",
-                        "[Status 6798.png] **Dragon Fruit**"
+                        "<:status_6798:832604007066501160> **Dragon Fruit**",
+                        "<:status_6798:832604007066501160> **Dragon Fruit**"
                     ]
                 },
                 "name": "'Cause We're the Best!",
                 "text": [
-                    "Boost to ATK, DMG cap, and multiattack rate, and hit to DEF based on number of [Status 6798.png] **Dragon Fruit**.\n(Gain 1 [Status 6798.png] **Dragon Fruit** each turn.\n2 [Status 6798.png] **Dragon Fruit** at battle start.\n[Max: 5])"
+                    "Boost to ATK, DMG cap, and multiattack rate, and hit to DEF based on number of <:status_6798:832604007066501160> **Dragon Fruit**.\n(Gain 1 <:status_6798:832604007066501160> **Dragon Fruit** each turn.\n2 <:status_6798:832604007066501160> **Dragon Fruit** at battle start.\n[Max: 5])"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -14361,7 +14361,7 @@
                 },
                 "name": "Gyoo...",
                 "text": [
-                    "Upon taking damage: Lose 2 [Status 6798.png] **Dragon Fruit**.\nGain <:Status_AggroDownArrow:832575957197651978> **Hostility Down**."
+                    "Upon taking damage: Lose 2 <:status_6798:832604007066501160> **Dragon Fruit**.\nGain <:Status_AggroDownArrow:832575957197651978> **Hostility Down**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -14922,12 +14922,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6979.png] **Lone Wolf Trick**"
+                        "<:status_6979:832604201959817217> **Lone Wolf Trick**"
                     ]
                 },
                 "name": "Show Me the Candy",
                 "text": [
-                    "When Switching to Main Ally: Raise [Status 6979.png] **Lone Wolf Trick** lvl by 5.\n(Can't be reactivated.)\n"
+                    "When Switching to Main Ally: Raise <:status_6979:832604201959817217> **Lone Wolf Trick** lvl by 5.\n(Can't be reactivated.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -15101,7 +15101,7 @@
                 "duration": {},
                 "name": "Three Acts, Eight Sequences",
                 "text": [
-                    "3 [Status 1414 1.png] **Triple Shroud** to Yodarha at battle start and every 4 turns (Max: 3).\nOne-foe attacks consume 1 to deal guaranteed triple attacks.\n(When at 0: Can't one-foe attack.\n70% hit to DEF.\nSharp hit to hostility.)\n"
+                    "3 <:status_1414_1:832603244856737862> **Triple Shroud** to Yodarha at battle start and every 4 turns (Max: 3).\nOne-foe attacks consume 1 to deal guaranteed triple attacks.\n(When at 0: Can't one-foe attack.\n70% hit to DEF.\nSharp hit to hostility.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },

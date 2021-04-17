@@ -124,12 +124,12 @@
                         "<:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**"
                     ],
                     "Indefinite": [
-                        "[Status 6947.png] **Thunderswift**"
+                        "<:status_6947:832604144455254017> **Thunderswift**"
                     ]
                 },
                 "name": "Levin Barrage",
                 "text": [
-                    "450% Wind damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**.\nRaise [Status 6947.png] **Thunderswift** lvl by 3."
+                    "450% Wind damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**.\nRaise <:status_6947:832604144455254017> **Thunderswift** lvl by 3."
                 ]
             }
         ]
@@ -333,7 +333,7 @@
                 "duration": {},
                 "name": "Valley of the Damned",
                 "text": [
-                    "925% Dark damage to a foe (Damage cap: ~1,960,000) and;325% Light damage to a foe (Damage cap: ~500,000).\nConsume 3 [Status 69371.png] **Satiety** lvls.\n(Can only be used when [Status 69371.png] **Satiety** lvl is 3 or above.)\n"
+                    "925% Dark damage to a foe (Damage cap: ~1,960,000) and;325% Light damage to a foe (Damage cap: ~500,000).\nConsume 3 <:status_69371:832604145114546217> **Satiety** lvls.\n(Can only be used when <:status_69371:832604145114546217> **Satiety** lvl is 3 or above.)\n"
                 ]
             }
         ]
@@ -380,7 +380,7 @@
                 "duration": {},
                 "name": "Soaring Monkey: Walloping Wave",
                 "text": [
-                    "450% Water damage to a foe.\n2-turn cut to Land of Lotuses's cooldown.\n(400% Bonus Water damage to a foe with [Status 7113.png] **Mizuzaru** [Damage cap: ~635,000].)\n"
+                    "450% Water damage to a foe.\n2-turn cut to Land of Lotuses's cooldown.\n(400% Bonus Water damage to a foe with <:status_7113:832604359434305606> **Mizuzaru** [Damage cap: ~635,000].)\n"
                 ]
             }
         ]
@@ -450,12 +450,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6945.png] **Ram Rondo**"
+                        "<:status_6945:832604144481206372> **Ram Rondo**"
                     ]
                 },
                 "name": "Flock to the Future",
                 "text": [
-                    "450% Wind damage to a foe.\nGain [Status 6945.png] **Ram Rondo**.\n(Next First Initiation affects all allies.)\nEnd cooldown for First Initiation"
+                    "450% Wind damage to a foe.\nGain <:status_6945:832604144481206372> **Ram Rondo**.\n(Next First Initiation affects all allies.)\nEnd cooldown for First Initiation"
                 ]
             }
         ]
@@ -2408,7 +2408,7 @@
                 "duration": {},
                 "name": "Raging Blast Knuckle",
                 "text": [
-                    "Massive Light damage to a foe.\n100% Bonus Light damage based on [Status 7000.png] **Azure Fist** lvl (Max: 5 hits; Damage cap: ~100,000 per hit)."
+                    "Massive Light damage to a foe.\n100% Bonus Light damage based on <:status_7000:832604279939399682> **Azure Fist** lvl (Max: 5 hits; Damage cap: ~100,000 per hit)."
                 ]
             }
         ],
@@ -2606,7 +2606,7 @@
                 "duration": {},
                 "name": "Stille Weiss",
                 "text": [
-                    "450% Water damage to a foe.\nExtend the duration of [Status 7032.png] **Silvery Snow** on allies by 2 turns.\n(400% Bonus Water damage to foes with <:Status_7031:832575751722893392> **Whitefrost Whisper** [Damage cap: ~630,000].)\n"
+                    "450% Water damage to a foe.\nExtend the duration of <:status_7032:832604284875964448> **Silvery Snow** on allies by 2 turns.\n(400% Bonus Water damage to foes with <:Status_7031:832575751722893392> **Whitefrost Whisper** [Damage cap: ~630,000].)\n"
                 ]
             }
         ]
@@ -2963,7 +2963,7 @@
                 },
                 "name": "Grace of the Radiant",
                 "text": [
-                    "All allies gain a 4000-damage <:Status_Shield:832599448872943648> **Shield (4000)**.\nAll Wind allies gain <:Status_CriticalUpWind:832587864041586699> **100% / 30% Critical Hit Rate Up** and <:Status_Keen:832595932620783736> **Keen**.\nRaise Grimnir's [Status 67961.png] **Cyclone** lvl by 2."
+                    "All allies gain a 4000-damage <:Status_Shield:832599448872943648> **Shield (4000)**.\nAll Wind allies gain <:Status_CriticalUpWind:832587864041586699> **100% / 30% Critical Hit Rate Up** and <:Status_Keen:832595932620783736> **Keen**.\nRaise Grimnir's <:status_67961:832604008693628990> **Cyclone** lvl by 2."
                 ]
             }
         ]
@@ -3201,12 +3201,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6864.png] **Piece**"
+                        "<:status_6864:832604143871983646> **Piece**"
                     ]
                 },
                 "name": "Kill the City",
                 "text": [
-                    "450% Fire damage to a foe.\nGain 1 [Status 6864.png] **Piece**.\n(When at 3 [Status 6864.png] **Piece**: All additional effects activate.\nConsumes all <:Status_68643:832575202369863711> **Piece**.)\n"
+                    "450% Fire damage to a foe.\nGain 1 <:status_6864:832604143871983646> **Piece**.\n(When at 3 <:status_6864:832604143871983646> **Piece**: All additional effects activate.\nConsumes all <:Status_68643:832575202369863711> **Piece**.)\n"
                 ]
             }
         ]
@@ -3225,12 +3225,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6788.png] **War Funds**"
+                        "<:status_6788:832603246769340427> **War Funds**"
                     ]
                 },
                 "name": "Burst Removal",
                 "text": [
-                    "Massive Light damage to a foe.\nEnd cooldown for Ilsa's linked skills.\nGain 1 [Status 6788.png] **War Funds**."
+                    "Massive Light damage to a foe.\nEnd cooldown for Ilsa's linked skills.\nGain 1 <:status_6788:832603246769340427> **War Funds**."
                 ]
             }
         ],
@@ -3249,12 +3249,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7012.png] **Kagura**"
+                        "<:status_7012:832604282233815040> **Kagura**"
                     ]
                 },
                 "name": "Hinokami Kagura Dance",
                 "text": [
-                    "450% Water damage to a foe.\nRaise Tanjiro's [Status 7012.png] **Kagura** lvl by 1 (Max: 5).\n(When consuming 5 [Status 7012.png] **Kagura** lvls: Bonus 999,999 plain damage to foe.)\n"
+                    "450% Water damage to a foe.\nRaise Tanjiro's <:status_7012:832604282233815040> **Kagura** lvl by 1 (Max: 5).\n(When consuming 5 <:status_7012:832604282233815040> **Kagura** lvls: Bonus 999,999 plain damage to foe.)\n"
                 ]
             }
         ]
@@ -3362,12 +3362,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6976 1.png] **Dream Blade**"
+                        "<:status_6976_1:832604145336188949> **Dream Blade**"
                     ]
                 },
                 "name": "After 5\u2605:Metel' Blast",
                 "text": [
-                    "500% Water damage to a foe.\nWhen 5 <:Status_Icy_Blade1:832594543001206854> **Icy Blade** is consumed: All other Water allies gain 1 [Status 6976 1.png] **Dream Blade** (Max: 2)."
+                    "500% Water damage to a foe.\nWhen 5 <:Status_Icy_Blade1:832594543001206854> **Icy Blade** is consumed: All other Water allies gain 1 <:status_6976_1:832604145336188949> **Dream Blade** (Max: 2)."
                 ]
             }
         ],
@@ -3647,12 +3647,12 @@
                         "<:Status_FireResUp:832592782475788288> **Fire DMG Lowered**"
                     ],
                     "Indefinite": [
-                        "[Status 6956.png] **Rescue**"
+                        "<:status_6956:832604145063952384> **Rescue**"
                     ]
                 },
                 "name": "All-Out Butterfly",
                 "text": [
-                    "Big Water damage to a foe.\nRaise [Status 6956.png] **Rescue** lvl by 1.\n(All allies gain <:Status_FireResUp:832592782475788288> **Fire DMG Lowered** based on [Status 6956.png] **Rescue** lvl.)\n"
+                    "Big Water damage to a foe.\nRaise <:status_6956:832604145063952384> **Rescue** lvl by 1.\n(All allies gain <:Status_FireResUp:832592782475788288> **Fire DMG Lowered** based on <:status_6956:832604145063952384> **Rescue** lvl.)\n"
                 ]
             }
         ]
@@ -3966,12 +3966,12 @@
                 "duration": {
                     "3.5": [
                         "<:Status_WindAtkUp:832603015886143609> **25% Wind ATK Up**",
-                        "[Status Spirits' Shelter.png] **Spirits' Shelter**"
+                        "<:Status_Spirits_Shelter:832765040964272148> **Spirits' Shelter**"
                     ]
                 },
                 "name": "Aurora",
                 "text": [
-                    "Restore 10% of all allies' HP (Healing cap: 2500).\nAll allies gain <:Status_WindAtkUp:832603015886143609> **25% Wind ATK Up** and [Status Spirits' Shelter.png] **Spirits' Shelter**."
+                    "Restore 10% of all allies' HP (Healing cap: 2500).\nAll allies gain <:Status_WindAtkUp:832603015886143609> **25% Wind ATK Up** and <:Status_Spirits_Shelter:832765040964272148> **Spirits' Shelter**."
                 ]
             }
         ]
@@ -4121,7 +4121,7 @@
                 "duration": {},
                 "name": "Ninth Form: Rengoku",
                 "text": [
-                    "1250% Fire damage to a foe.\nEnd cooldown for First Form: Unknowing Fire.\n(Consumes [Status 7013.png] **Resolve** to activate.)\n"
+                    "1250% Fire damage to a foe.\nEnd cooldown for First Form: Unknowing Fire.\n(Consumes <:status_7013:832604282738049045> **Resolve** to activate.)\n"
                 ]
             }
         ]
@@ -4373,20 +4373,20 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6804.png] **Enforcer's Zeal**",
+                        "<:status_6804:832604007561691166> **Enforcer's Zeal**",
                         "<:Status_Skill_DMG_Cap_Up_Stack:832599898977075301> **20% Skill DMG Cap Up (Stackable / Max: 60%)**"
                     ]
                 },
                 "name": "Daybreak Sword",
                 "text": [
-                    "450% Water damage to a foe.\nReplenish [Status 6804.png] **Enforcer's Zeal** by 2.\nGain <:Status_Skill_DMG_Cap_Up_Stack:832599898977075301> **20% Skill DMG Cap Up (Stackable / Max: 60%)**."
+                    "450% Water damage to a foe.\nReplenish <:status_6804:832604007561691166> **Enforcer's Zeal** by 2.\nGain <:Status_Skill_DMG_Cap_Up_Stack:832599898977075301> **20% Skill DMG Cap Up (Stackable / Max: 60%)**."
                 ]
             },
             {
                 "duration": {},
                 "name": "Ready... Aim...:Radiant Order",
                 "text": [
-                    "1250% Water damage to a foe (Damage cap: ~2,900,000) and remove 3 buffs.\n(Consumes [Status 6805.png] **Ready...\nAim...**)"
+                    "1250% Water damage to a foe (Damage cap: ~2,900,000) and remove 3 buffs.\n(Consumes <:status_6805:832604007737327646> **Ready...\nAim...**)"
                 ]
             }
         ]
@@ -4434,7 +4434,7 @@
                 },
                 "name": "Lion's Maw",
                 "text": [
-                    "450% Earth damage to a foe.\n100% Bonus Earth damage to a foe based on [Status 6919.png] **Pride of One** lvl (Damage cap: ~130,000 per hit / Max: 5 hits).\nAll allies gain <:Status_Keen:832595932620783736> **Keen**."
+                    "450% Earth damage to a foe.\n100% Bonus Earth damage to a foe based on <:status_6919:832604144145268767> **Pride of One** lvl (Damage cap: ~130,000 per hit / Max: 5 hits).\nAll allies gain <:Status_Keen:832595932620783736> **Keen**."
                 ]
             }
         ],
@@ -4824,7 +4824,7 @@
                 "duration": {},
                 "name": "Drakenadem",
                 "text": [
-                    "1250% Water damage to a foe (Damage cap: ~2,160,000).\nRestore 20% of Vania and Malinda's HP (Healing cap: 1500).\nConsume 2 [Status 6798.png] **Dragon Fruit**.\n(Can only be used with 2 or more [Status 6798.png] **Dragon Fruit**)"
+                    "1250% Water damage to a foe (Damage cap: ~2,160,000).\nRestore 20% of Vania and Malinda's HP (Healing cap: 1500).\nConsume 2 <:status_6798:832604007066501160> **Dragon Fruit**.\n(Can only be used with 2 or more <:status_6798:832604007066501160> **Dragon Fruit**)"
                 ]
             }
         ],
@@ -5313,12 +5313,12 @@
                         "<:Status_Counter:832587321567477780> **Counters on Dodge (2 times)**"
                     ],
                     "Indefinite": [
-                        "[Status 7010.png] **Mikan Orange**"
+                        "<:status_7010:832604281596542998> **Mikan Orange**"
                     ]
                 },
                 "name": "Winter Winds, Rimy Conquest",
                 "text": [
-                    "450% Water damage to a foe.\nGain <:Status_Counter:832587321567477780> **Counters on Dodge (2 times)** and 1 [Status 7010.png] **Mikan Orange**."
+                    "450% Water damage to a foe.\nGain <:Status_Counter:832587321567477780> **Counters on Dodge (2 times)** and 1 <:status_7010:832604281596542998> **Mikan Orange**."
                 ]
             }
         ],
@@ -5694,12 +5694,12 @@
             {
                 "duration": {
                     "3.5": [
-                        "[Status 7008.png] **Gilded by Gaia**"
+                        "<:status_7008:832604280858476574> **Gilded by Gaia**"
                     ]
                 },
                 "name": "Gaia Dora",
                 "text": [
-                    "Massive Fire damage to a foe.\nSpecial buffs to all allies based on my Nemo Power!(All allies gain [Status 7008.png] **Gilded by Gaia**.\nBoost to effect based on [Status 7009 10.png] **Nemo Power**.)\n"
+                    "Massive Fire damage to a foe.\nSpecial buffs to all allies based on my Nemo Power!(All allies gain <:status_7008:832604280858476574> **Gilded by Gaia**.\nBoost to effect based on <:status_7009_10:832604281382371349> **Nemo Power**.)\n"
                 ]
             }
         ]
@@ -6047,7 +6047,7 @@
                 "duration": {},
                 "name": "Ultimate Colorful Special",
                 "text": [
-                    "450% Earth damage to a foe.\n( based on [Status 6912.png] **P-EN**.)\nConsumes all [Status 6912.png] **P-EN**."
+                    "450% Earth damage to a foe.\n( based on <:status_6912:832604144094806076> **P-EN**.)\nConsumes all <:status_6912:832604144094806076> **P-EN**."
                 ]
             }
         ],
@@ -6380,12 +6380,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6803.png] **Celestial Vision**"
+                        "<:status_6803:832604007218151504> **Celestial Vision**"
                     ]
                 },
                 "name": "Clairvoyant Bliss",
                 "text": [
-                    "Remove 1 buff from a foe.\nInflict [Status 6803.png] **Celestial Vision**, <:Status_DebuffResDown:832588130741125150> **15% Debuff Res.\nDown**, <:Status_LightAtkDown:832596749901234248> **30% Light ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **30% TA Down**."
+                    "Remove 1 buff from a foe.\nInflict <:status_6803:832604007218151504> **Celestial Vision**, <:Status_DebuffResDown:832588130741125150> **15% Debuff Res.\nDown**, <:Status_LightAtkDown:832596749901234248> **30% Light ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **30% TA Down**."
                 ]
             }
         ]
@@ -6395,12 +6395,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6856.png] **Allegiance**"
+                        "<:status_6856:832604143825846272> **Allegiance**"
                     ]
                 },
                 "name": "Infernal Ignition",
                 "text": [
-                    "450% Fire damage to a foe.\nGain [Status 6856.png] **Allegiance**.\n(Next Cloak of Flame affects all allies.)\n1-turn cut to Cloak of Flame's cooldown."
+                    "450% Fire damage to a foe.\nGain <:status_6856:832604143825846272> **Allegiance**.\n(Next Cloak of Flame affects all allies.)\n1-turn cut to Cloak of Flame's cooldown."
                 ]
             }
         ],
@@ -6437,12 +6437,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6979.png] **Lone Wolf Trick**"
+                        "<:status_6979:832604201959817217> **Lone Wolf Trick**"
                     ]
                 },
                 "name": "Hallowed Night Blast",
                 "text": [
-                    "Big Dark damage to a foe.\nRaise [Status 6979.png] **Lone Wolf Trick** lvl by 1 (Max: 5)."
+                    "Big Dark damage to a foe.\nRaise <:status_6979:832604201959817217> **Lone Wolf Trick** lvl by 1 (Max: 5)."
                 ]
             }
         ]
@@ -6657,12 +6657,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6982.png] **Petals of Sapphire**"
+                        "<:status_6982:832604202282909739> **Petals of Sapphire**"
                     ]
                 },
                 "name": "Phantom Rose",
                 "text": [
-                    "450% Water damage to a foe.\nRestore 5 [Status 6982.png] **Petals of Sapphire**."
+                    "450% Water damage to a foe.\nRestore 5 <:status_6982:832604202282909739> **Petals of Sapphire**."
                 ]
             }
         ],
@@ -6790,7 +6790,7 @@
                 "duration": {},
                 "name": "Windy",
                 "text": [
-                    "Inflict [Status 1241 31.png] **Chains of Binding** and <:Status_DoubleDown:832590867336003645> **100% DA Down** on a foe.\nAll other allies gain <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
+                    "Inflict <:status_1241_31:832603102263377990> **Chains of Binding** and <:Status_DoubleDown:832590867336003645> **100% DA Down** on a foe.\nAll other allies gain <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
                 ]
             }
         ]
@@ -7020,7 +7020,7 @@
                 },
                 "name": "Tathlum Flambe",
                 "text": [
-                    "Massive Fire damage to a foe.\nGain 1 [Status 67781.png] **Sprinkles**.\nAll allies gain <:Status_Jammed:832595932305424394> **Jammed**."
+                    "Massive Fire damage to a foe.\nGain 1 <:status_67781:832603247746351144> **Sprinkles**.\nAll allies gain <:Status_Jammed:832595932305424394> **Jammed**."
                 ]
             }
         ]
@@ -7150,13 +7150,13 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6790.png] **Savage Claw**",
-                        "[Status 6790 2.png] **Feral Intuition**"
+                        "<:status_6790:832603311344713828> **Savage Claw**",
+                        "<:status_6790_2:832603247113142282> **Feral Intuition**"
                     ]
                 },
                 "name": "Empty Hand, Enlightened Fist",
                 "text": [
-                    "450% Dark damage to a foe.\nGain <:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**.\n(When Seox has [Status 6790.png] **Savage Claw** or [Status 6790 2.png] **Feral Intuition**: 30% boost to C.A. damage and 10% boost to C.A. damage cap.)\n"
+                    "450% Dark damage to a foe.\nGain <:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**.\n(When Seox has <:status_6790:832603311344713828> **Savage Claw** or <:status_6790_2:832603247113142282> **Feral Intuition**: 30% boost to C.A. damage and 10% boost to C.A. damage cap.)\n"
                 ]
             }
         ]
@@ -7319,12 +7319,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 3100.png] **Aquablossom**"
+                        "<:status_3100:832603245053476874> **Aquablossom**"
                     ]
                 },
                 "name": "Florescent Gale",
                 "text": [
-                    "1250% Water damage to a foe (Damage cap: ~2,400,000).\nGain [Status 3100.png] **Aquablossom**.\n(Consumes [Status 6851.png] **Flourishing Prowess** instead of charge bar to activate.)\n"
+                    "1250% Water damage to a foe (Damage cap: ~2,400,000).\nGain <:status_3100:832603245053476874> **Aquablossom**.\n(Consumes <:status_6851:832604008844886036> **Flourishing Prowess** instead of charge bar to activate.)\n"
                 ]
             }
         ]
@@ -7454,24 +7454,24 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 4013.png] **Yonagi Rite**"
+                        "<:status_4013:832603245112197162> **Yonagi Rite**"
                     ]
                 },
                 "name": "Alabaster Dance: Tenka",
                 "text": [
-                    "450% Water damage to a foe.\nGain [Status 4013.png] **Yonagi Rite**."
+                    "450% Water damage to a foe.\nGain <:status_4013:832603245112197162> **Yonagi Rite**."
                 ]
             },
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 4013.png] **Yonagi Rite**",
+                        "<:status_4013:832603245112197162> **Yonagi Rite**",
                         "<:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**"
                     ]
                 },
                 "name": "After 5\u2605:Alabaster Dance: Houjou",
                 "text": [
-                    "500% Water damage to a foe.\nGain [Status 4013.png] **Yonagi Rite**.\nAll allies gain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**."
+                    "500% Water damage to a foe.\nGain <:status_4013:832603245112197162> **Yonagi Rite**.\nAll allies gain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**."
                 ]
             }
         ],
@@ -7568,7 +7568,7 @@
             {
                 "duration": {
                     "1.5": [
-                        "[Status 6952.png] **Fundoshi Fist**"
+                        "<:status_6952:832604144996712499> **Fundoshi Fist**"
                     ],
                     "5.5": [
                         "<:Status_Strength:832601501335289908> **Strength**"
@@ -7576,7 +7576,7 @@
                 },
                 "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
                 "text": [
-                    "500% Earth damage to a foe.\nGain <:Status_Strength:832601501335289908> **Strength** and [Status 6952.png] **Fundoshi Fist**."
+                    "500% Earth damage to a foe.\nGain <:Status_Strength:832601501335289908> **Strength** and <:status_6952:832604144996712499> **Fundoshi Fist**."
                 ]
             }
         ],
@@ -7817,12 +7817,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 7012.png] **Kagura**"
+                        "<:status_7012:832604282233815040> **Kagura**"
                     ]
                 },
                 "name": "Hinokami Kagura Dance",
                 "text": [
-                    "450% Water damage to a foe.\nRaise Tanjiro's [Status 7012.png] **Kagura** lvl by 1 (Max: 5).\n(When consuming 5 [Status 7012.png] **Kagura** lvls: Bonus 999,999 plain damage to foe.)\n"
+                    "450% Water damage to a foe.\nRaise Tanjiro's <:status_7012:832604282233815040> **Kagura** lvl by 1 (Max: 5).\n(When consuming 5 <:status_7012:832604282233815040> **Kagura** lvls: Bonus 999,999 plain damage to foe.)\n"
                 ]
             }
         ]
@@ -8271,12 +8271,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 4038.png] **Double Beat**"
+                        "<:status_4038:832603245666893834> **Double Beat**"
                     ]
                 },
                 "name": "After 5\u2605:Loewenbein: Jagd ++",
                 "text": [
-                    "500% Water damage to a foe.\nInflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**.\nGain [Status 4038.png] **Double Beat**.\n(Next Heroic Beat activates twice.)\n"
+                    "500% Water damage to a foe.\nInflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**.\nGain <:status_4038:832603245666893834> **Double Beat**.\n(Next Heroic Beat activates twice.)\n"
                 ]
             }
         ],
@@ -8351,7 +8351,7 @@
                 "duration": {},
                 "name": "Drakenadem",
                 "text": [
-                    "1250% Water damage to a foe (Damage cap: ~2,160,000).\nRestore 20% of Vania and Malinda's HP (Healing cap: 1500).\nConsume 2 [Status 6798.png] **Dragon Fruit**.\n(Can only be used with 2 or more [Status 6798.png] **Dragon Fruit**)"
+                    "1250% Water damage to a foe (Damage cap: ~2,160,000).\nRestore 20% of Vania and Malinda's HP (Healing cap: 1500).\nConsume 2 <:status_6798:832604007066501160> **Dragon Fruit**.\n(Can only be used with 2 or more <:status_6798:832604007066501160> **Dragon Fruit**)"
                 ]
             }
         ],
@@ -8698,12 +8698,12 @@
             {
                 "duration": {
                     "Indefinite": [
-                        "[Status 6979.png] **Lone Wolf Trick**"
+                        "<:status_6979:832604201959817217> **Lone Wolf Trick**"
                     ]
                 },
                 "name": "Hallowed Night Blast",
                 "text": [
-                    "Big Dark damage to a foe.\nRaise [Status 6979.png] **Lone Wolf Trick** lvl by 1 (Max: 5)."
+                    "Big Dark damage to a foe.\nRaise <:status_6979:832604201959817217> **Lone Wolf Trick** lvl by 1 (Max: 5)."
                 ]
             }
         ]
@@ -8843,7 +8843,7 @@
                 },
                 "name": "Swift Judgment",
                 "text": [
-                    "450% Wind damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **Bonus Wind DMG** based on number of [Status 1414 1.png] **Triple Shroud**."
+                    "450% Wind damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **Bonus Wind DMG** based on number of <:status_1414_1:832603244856737862> **Triple Shroud**."
                 ]
             }
         ]
