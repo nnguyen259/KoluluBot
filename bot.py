@@ -51,19 +51,18 @@ async def on_command_error(ctx, error):
     await ctx.send(f'Something went wrong.\nError: {error}')
 
 @bot.command(hidden=True)
-async def load(ctx, module):
-    bot.load_extension(f'cogs.{module}')
+async def load(ctx, module, prefix='cogs'):
+    bot.load_extension(f'{prefix}.{module}')
     await ctx.send(f'Module {module} loaded.')
 
 @bot.command(hidden=True)
-async def unload(ctx, module):
-    bot.unload_extension(f'cogs.{module}')
+async def unload(ctx, module, prefix='cogs'):
+    bot.unload_extension(f'{prefix}.{module}')
     await ctx.send(f'Module {module} unloaded.')
 
 @bot.command(hidden=True)
-async def reload(ctx, module):
-    bot.unload_extension(f'cogs.{module}')
-    bot.load_extension(f'cogs.{module}')
+async def reload(ctx, module, prefix='cogs'):
+    bot.reload_extension(f'{prefix}.{module}')
     await ctx.send(f'Module {module} reloaded.')
 
 @bot.command()

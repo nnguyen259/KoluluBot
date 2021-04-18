@@ -5,6 +5,9 @@ from discord.ext.commands.context import Context
 class Character(commands.Cog):
     def __init__(self, client):
         self.client = client
+        self.loadData()
+
+    def loadData(self):
         with open('data/characters.json', 'r') as charFile:
             self.chars = dict((k.lower(), v) for k, v in json.load(charFile).items())
         with open('data/emoji.json', 'r') as emojiFile:
@@ -24,6 +27,7 @@ class Character(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
+        await self.reload()
         print('Character module is ready.')
 
     @commands.group(aliases=['c', 'character'])
@@ -32,11 +36,17 @@ class Character(commands.Cog):
             args = ctx.message.content.split(' ')[1:]
             name = args[0]
             version = args[1] if len(args) > 1 else None
-            await self.info(ctx, name, version)
+            uncap = args[2] if len(args) > 2 else None
+            await self.info(ctx, name, version, uncap)
 
     @char.command()
-    async def info(self, ctx, name : str, version=None):
-        name, version = self.getCharVersion(ctx, name, version)
+    async def reload(self, ctx):
+        self.loadData()
+        await ctx.send('Data reloaded')
+
+    @char.command()
+    async def info(self, ctx, name : str, version=None, uncap='6'):
+        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -80,8 +90,8 @@ class Character(commands.Cog):
         mainEmbed.set_image(url=charVersion['image'])
         embedList.append(mainEmbed)
 
-        embedList.append(await self.ougi(ctx, name, version, noShow=True))
-        embedList.extend(await self.support(ctx, name, version, noShow=True))
+        embedList.append(await self.ougi(ctx, name, version, uncap, noShow=True))
+        embedList.extend(await self.support(ctx, name, version, uncap, noShow=True))
 
         paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
         paginator.add_reaction('⏮️', "first")
@@ -93,8 +103,8 @@ class Character(commands.Cog):
         await paginator.run(embedList)
 
     @char.command()
-    async def ougi(self, ctx, name :str, version=None, noShow=False):
-        name, version = self.getCharVersion(ctx, name, version)
+    async def ougi(self, ctx, name :str, version=None, uncap='6', noShow=False):
+        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -126,8 +136,8 @@ class Character(commands.Cog):
             await ctx.send(embed=ougiEmbed)
 
     @char.command()
-    async def support(self, ctx, name :str, version=None, noShow=False):
-        name, version = self.getCharVersion(ctx, name, version)
+    async def support(self, ctx, name :str, version=None, uncap='6', noShow=False):
+        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -156,11 +166,11 @@ class Character(commands.Cog):
             await paginator.run(embedList)
 
     @char.command()
-    async def emp(self, ctx, name : str, version=None):
+    async def emp(self, ctx, name : str, version=None, uncap='6'):
         from PIL import Image, ImageDraw, ImageFont
         import urllib.request, os
 
-        name, version = self.getCharVersion(ctx, name, version)
+        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -246,7 +256,7 @@ class Character(commands.Cog):
 
         if version:
             version = version.upper()
-        name, versionTemp = self.getCharVersion(ctx, name, version)
+        name, versionTemp, uncap = self.getCharVersion(ctx, name, version)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -284,10 +294,31 @@ class Character(commands.Cog):
                 else:
                     await ctx.send(f'Version *{version.title()}* not found for the character *{name.title()}*.')
 
-    def getCharVersion(self, ctx, name, version=None):
+    def getCharVersion(self, ctx, name, version='BASE', uncap='6'):
         name = name.lower()
+        if not uncap:
+            uncap = '6'
         if version:
+            if version == '6' or version.upper() == 'ULB':
+                version = 'BASE'
+                uncap = '6'
+            elif version == '5' or version.upper() == 'FLB':
+                version = 'BASE'
+                uncap = '5'
+            elif version == '4' or version.upper() == 'MLB':
+                version = 'BASE'
+                uncap = '4'
             version = version.upper()
+        else:
+            uncap = '6'
+
+        if uncap.upper() == 'MLB':
+            uncap = '4'
+        elif uncap.upper() == 'FLB':
+            uncap = '5'
+        elif uncap.upper() == 'ULB':
+            uncap = '6'
+
         if not name in self.chars:
             import sqlite3
             from contextlib import closing
@@ -307,12 +338,18 @@ class Character(commands.Cog):
                         name = result[0]
                         version = result[1].upper()
                     else:
-                        return None, version
+                        return None, version, uncap
 
         char = self.chars[name]
         if not version or version not in char:
             version = 'BASE'
-        return name, version
+        if uncap == '4' and (char[version]['max_evo'] == '5' or char[version]['max_evo'] == '6'):
+            if not version.endswith('_4'):
+                version += '_4'
+        elif uncap == '5' and char[version]['max_evo'] == '6':
+            if not version.endswith('_5'):
+                version += '_5'
+        return name, version, uncap
     
 
 def setup(client):
