@@ -11560,6 +11560,26 @@
 			}
 		]
 	},
+	"Nezha": {
+		"BASE": [
+			{
+				"duration": {},
+				"name": "Memories of the War",
+				"text": [
+					"Raise <:Status_7118_1:833665382589530132> **Divine Might** lvl by 1 upon using a buff skill or taking fire DMG (Max: 5).\n(When lvl is 5: Bonus Fire DMG effect.\nFlashfire Gale activates at end of turn.)"
+				],
+				"thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+			},
+			{
+				"duration": {},
+				"name": "Friends till the End",
+				"text": [
+					"When attacking, gain these effects in order based on number of Primal main allies:\nFire DMG reduction, Boost to charge bar gain, Boost to DEF."
+				],
+				"thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+			}
+		]
+	},
 	"Nicholas": {
 		"BASE": [
 			{
@@ -14453,6 +14473,26 @@
 					"Bonus Elemental DMG effect against foes with Poison effect."
 				],
 				"thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+			}
+		]
+	},
+	"Shion": {
+		"BASE": [
+			{
+				"duration": {},
+				"name": "Bonsai Style",
+				"text": [
+					"Hax a maximum charge bar limit of 200%.\n Gain effects in order based on number of katanas equipped:\n Boost to ATK, Boost to DEF, Boost to charge bar gain, Boost to C.A. specs, Boost to DMG cap."
+				],
+				"thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+			},
+			{
+				"duration": {},
+				"name": "Discovering the Past",
+				"text": [
+					"Upon chain burst activation:\n Boost to all allies' fire ATK based on number of chains.\n(Takes effect even when Shion is a sub ally.)"
+				],
+				"thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
 			}
 		]
 	},

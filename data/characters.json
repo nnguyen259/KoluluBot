@@ -15952,6 +15952,38 @@
 			"weapon": "Tughril"
 		}
 	},
+	"Nezha": {
+		"BASE": {
+			"5star": "No",
+			"atk": "11000",
+			"element": "Wind",
+			"gender": [
+				"Male"
+			],
+			"hp": "1000",
+			"id": "3040332000",
+			"image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040332000_02.png",
+			"jpname": "\u30ca\u30bf\u30af",
+			"max_evo": "4",
+			"name": "Nezha",
+			"profile": "\u200b",
+			"race": [
+				"Primal"
+			],
+			"rarity": "SSR",
+			"recruitment": "Premium Draw",
+			"series": [],
+			"specialties": [
+				"Spear"
+			],
+			"thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040332000_02.jpg",
+			"type": "Attack",
+			"va": [
+				"Daisuke Kishio"
+			],
+			"weapon": "Flamelance: Accendo"
+		}
+	},
 	"Nicholas": {
 		"BASE": {
 			"5star": "No",
@@ -20052,6 +20084,38 @@
 				"Saori Hayami"
 			],
 			"weapon": null
+		}
+	},
+	"Shion": {
+		"BASE": {
+			"5star": "No",
+			"atk": "11250",
+			"element": "Fire",
+			"gender": [
+				"Female"
+			],
+			"hp": "950",
+			"id": "3040333000",
+			"image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040333000_02.png",
+			"jpname": "\u30b7\u30aa\u30f3",
+			"max_evo": "4",
+			"name": "Shitori",
+			"profile": "\u200b",
+			"race": [
+				"Human"
+			],
+			"rarity": "SSR",
+			"recruitment": "Premium Draw",
+			"series": [],
+			"specialties": [
+				"Katana"
+			],
+			"thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040333000_02.jpg",
+			"type": "Balanced",
+			"va": [
+				"Shizuka Ishigami"
+			],
+			"weapon": "Bonsai Blade"
 		}
 	},
 	"Shitori": {

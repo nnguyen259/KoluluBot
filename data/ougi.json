@@ -6982,6 +6982,17 @@
 			}
 		]
 	},
+	"Nezha": {
+		"BASE": [
+			{
+				"duration": {},
+				"name": "Flamelance: Accendo",
+				"text": [
+					"Massive wind and fire DMG to a foe.\nEnd Tailwind Kindle's cooldown.\n(Boost to fire damage specs based on <:Status_7118_1:833665382589530132> **Divine Might** lvl.)"
+				]
+			}
+		]
+	},
 	"Nicholas": {
 		"BASE": [
 			{
@@ -8874,6 +8885,17 @@
 				"name": "Butterfly Dance: Caprice",
 				"text": [
 					"450% Wind damage to a foe.\n(30% boost to C.A. damage and 10% boost to C.A. damage cap against foes with <:Status_Poison:832598586335428660> **Poisoned**.)\nSlight chance to inflict <:Status_Death:832588130434547732> **Lethal Hit**."
+				]
+			}
+		]
+	},
+	"Shion": {
+		"BASE": [
+			{
+				"duration": {},
+				"name": "Thunderous Star Piercer",
+				"text": [
+					"Massive Fire damage to a foe.\n2-turn cut to Shion's skill cooldowns.\nBonus DMG based on number of katana-specialty allies in party (Damage cap: ?? / Max: 6 hits)."
 				]
 			}
 		]
