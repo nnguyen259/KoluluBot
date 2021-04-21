@@ -225,7 +225,7 @@
         ]
     },
     "Airi_Totoki": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -465,7 +465,7 @@
         ]
     },
     "Alec": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -641,7 +641,7 @@
         ]
     },
     "Alistair": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -835,7 +835,7 @@
         ]
     },
     "Almeida": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 10 turns9 turns ",
                 "duration": {
@@ -1113,7 +1113,7 @@
         ]
     },
     "Anastasia": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {
@@ -1329,7 +1329,7 @@
         ]
     },
     "Ange": {
-        "HALLOWEEN": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -1571,7 +1571,7 @@
         ]
     },
     "Anna": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {},
@@ -1908,7 +1908,7 @@
         ]
     },
     "Anzu_Futaba": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {
@@ -2186,7 +2186,7 @@
         ]
     },
     "Arisa": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {},
@@ -2273,7 +2273,7 @@
         ]
     },
     "Arthur": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -2485,7 +2485,7 @@
         ]
     },
     "Arusha": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -2530,7 +2530,7 @@
         ]
     },
     "Aster": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns4 turns ",
                 "duration": {
@@ -2675,7 +2675,7 @@
         ]
     },
     "Augusta": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {
@@ -2947,7 +2947,7 @@
         ]
     },
     "Bakura": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {},
@@ -2971,7 +2971,7 @@
         ]
     },
     "Balurga": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {},
@@ -3000,6 +3000,46 @@
         ]
     },
     "Baotorda": {
+        "BASE": [
+            {
+                "cooldown": " 4 turns3 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Valiant Shield",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "Gain [Status Bulwark.png] **Bulwark**. (Deals 40% less damage and doesn't deal multiattacks while in effect. Ends on recast. )"
+                ]
+            },
+            {
+                "cooldown": " 7 turns6 turns ",
+                "duration": {
+                    "3": [
+                        "[Status Repel.png] **Unchallenged**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Sacred Surge",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "400%-500% Light damage to all foes (Damage cap: ~655,000). Gain 1-hit [Status Repel.png] **Unchallenged**."
+                ]
+            },
+            {
+                "cooldown": " 6 turns ",
+                "duration": {
+                    "1": [
+                        "[Status Dmg Cut 60.png] **60% DMG Cut**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Noble Sacrifice",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "All allies gain [Status Dmg Cut 60.png] **60% DMG Cut**."
+                ]
+            }
+        ],
         "SR": [
             {
                 "cooldown": " 6 turns ",
@@ -3046,50 +3086,10 @@
                     "Gain [Status Counter.png] **Counters on Dodge (3 times)**."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 4 turns3 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Valiant Shield",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "Gain [Status Bulwark.png] **Bulwark**. (Deals 40% less damage and doesn't deal multiattacks while in effect. Ends on recast. )"
-                ]
-            },
-            {
-                "cooldown": " 7 turns6 turns ",
-                "duration": {
-                    "3": [
-                        "[Status Repel.png] **Unchallenged**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Sacred Surge",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "400%-500% Light damage to all foes (Damage cap: ~655,000). Gain 1-hit [Status Repel.png] **Unchallenged**."
-                ]
-            },
-            {
-                "cooldown": " 6 turns ",
-                "duration": {
-                    "1": [
-                        "[Status Dmg Cut 60.png] **60% DMG Cut**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Noble Sacrifice",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "All allies gain [Status Dmg Cut 60.png] **60% DMG Cut**."
-                ]
-            }
         ]
     },
     "Barawa": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 5 turns4 turns ",
                 "duration": {},
@@ -3523,7 +3523,7 @@
         ]
     },
     "Blazing_Teacher_Elmott": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -3613,7 +3613,7 @@
         ]
     },
     "Bridgette": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -3961,7 +3961,7 @@
         ]
     },
     "Cailana": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -4140,7 +4140,7 @@
         ]
     },
     "Cain": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -4218,7 +4218,7 @@
         ]
     },
     "Camieux": {
-        "EARTH": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {
@@ -4397,7 +4397,7 @@
         ]
     },
     "Carren": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -4485,7 +4485,7 @@
         ]
     },
     "Cassius": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -4756,7 +4756,7 @@
         ]
     },
     "Cecile": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 4 turns ",
                 "duration": {
@@ -4832,7 +4832,7 @@
         ]
     },
     "Ceylan": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -5183,7 +5183,7 @@
         ]
     },
     "Chloe": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -5297,7 +5297,7 @@
         ]
     },
     "Chun-Li": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -5529,7 +5529,7 @@
         ]
     },
     "Claudia": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -5771,7 +5771,7 @@
         ]
     },
     "Cordelia": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -5846,51 +5846,7 @@
         ]
     },
     "Cucouroux": {
-        "SR": [
-            {
-                "cooldown": " 5 turns4 turns ",
-                "duration": {
-                    "1": [
-                        "[Status DefenseUp.png] **Dodge All**"
-                    ],
-                    "3": [
-                        "[Status AggroDownArrow.png] **Hostility Down**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Take Cover",
-                "obtain": " Lvl 1\u21e7 Lvl 45 ",
-                "text": [
-                    "Gain [Status DefenseUp.png] **Dodge All** for 1 turn. At end of turn, gain [Status AggroDownArrow.png] **Hostility Down** for 3 turns. Effect enhanced."
-                ]
-            },
-            {
-                "cooldown": " 3 turns2 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "More Boom, More Fun!",
-                "obtain": " Lvl 1\u21e7 Lvl 65 ",
-                "text": [
-                    "Gain 1 [Status Powder Keg1.png] **Powder Keg** (Max: 5)."
-                ]
-            },
-            {
-                "cooldown": " 6 turns ",
-                "duration": {
-                    "3": [
-                        "[Status DoubleUp.png] **DA Up**",
-                        "[Status TripleUp.png] **TA Up**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Gatling Barrage",
-                "obtain": " Lvl 35 ",
-                "text": [
-                    "Gain [Status DoubleUp.png] **DA Up** and [Status TripleUp.png] **TA Up**. Boost to effects based on number of [Status Powder Keg1.png] **Powder Keg** stacks."
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -5934,10 +5890,54 @@
                     "Grant an ally [Status Assemble.png] **Assemble** and [Status Dodge.png] **50% Dodge Rate Up**."
                 ]
             }
+        ],
+        "SR": [
+            {
+                "cooldown": " 5 turns4 turns ",
+                "duration": {
+                    "1": [
+                        "[Status DefenseUp.png] **Dodge All**"
+                    ],
+                    "3": [
+                        "[Status AggroDownArrow.png] **Hostility Down**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Take Cover",
+                "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                "text": [
+                    "Gain [Status DefenseUp.png] **Dodge All** for 1 turn. At end of turn, gain [Status AggroDownArrow.png] **Hostility Down** for 3 turns. Effect enhanced."
+                ]
+            },
+            {
+                "cooldown": " 3 turns2 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "More Boom, More Fun!",
+                "obtain": " Lvl 1\u21e7 Lvl 65 ",
+                "text": [
+                    "Gain 1 [Status Powder Keg1.png] **Powder Keg** (Max: 5)."
+                ]
+            },
+            {
+                "cooldown": " 6 turns ",
+                "duration": {
+                    "3": [
+                        "[Status DoubleUp.png] **DA Up**",
+                        "[Status TripleUp.png] **TA Up**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Gatling Barrage",
+                "obtain": " Lvl 35 ",
+                "text": [
+                    "Gain [Status DoubleUp.png] **DA Up** and [Status TripleUp.png] **TA Up**. Boost to effects based on number of [Status Powder Keg1.png] **Powder Keg** stacks."
+                ]
+            }
         ]
     },
     "Cure_Black": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -5995,7 +5995,7 @@
         ]
     },
     "Cure_White": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -6053,7 +6053,7 @@
         ]
     },
     "Daetta": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns ",
                 "duration": {},
@@ -6126,7 +6126,7 @@
         ]
     },
     "Dante": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 11 turns10 turns ",
                 "duration": {
@@ -6223,6 +6223,55 @@
         ]
     },
     "Danua": {
+        "BASE": [
+            {
+                "cooldown": " 7 turns6 turns ",
+                "duration": {
+                    "180": [
+                        "[Status AttackDown.png] **25% ATK Down**",
+                        "[Status DoubleDown.png] **DA Down**",
+                        "[Status TripleDown.png] **TA Down**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Fused Doll",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "550% Light damage to all foes (Damage cap: ~700,000). Inflict [Status AttackDown.png] **25% ATK Down**, [Status DoubleDown.png] **DA Down**, and [Status TripleDown.png] **TA Down**."
+                ]
+            },
+            {
+                "cooldown": " 10 turns9 turns ",
+                "duration": {
+                    "2": [
+                        "[Status Blood Sacrifice.png] **Blood Sacrifice**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Twin Reaper",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Gain [Status Blood Sacrifice.png] **Blood Sacrifice**. (Extends effect duration by 1 turn upon being targeted by a Light ally's healing skill or buff skill. )"
+                ]
+            },
+            {
+                "cooldown": " 6 turns ",
+                "duration": {
+                    "3": [
+                        "[Status DoubleUp.png] **30% DA Up**",
+                        "[Status TripleUp.png] **15% TA Up**",
+                        "[Status DoubleUp.png] **40% DA Up**",
+                        "[Status TripleUp.png] **30% TA Up**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Halbmond",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "All allies gain [Status DoubleUp.png] **30% DA Up** and [Status TripleUp.png] **15% TA Up**. (Buff increased to [Status DoubleUp.png] **40% DA Up** and [Status TripleUp.png] **30% TA Up** against foes with Petrified effect. )"
+                ]
+            }
+        ],
         "HALLOWEEN": [
             {
                 "cooldown": " 7 turns6 turns ",
@@ -6302,55 +6351,6 @@
                 "obtain": " Lvl 35 ",
                 "text": [
                     "Dark damage to a foe. Restore caster's HP (Healing cap: 1000)."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 7 turns6 turns ",
-                "duration": {
-                    "180": [
-                        "[Status AttackDown.png] **25% ATK Down**",
-                        "[Status DoubleDown.png] **DA Down**",
-                        "[Status TripleDown.png] **TA Down**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Fused Doll",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "550% Light damage to all foes (Damage cap: ~700,000). Inflict [Status AttackDown.png] **25% ATK Down**, [Status DoubleDown.png] **DA Down**, and [Status TripleDown.png] **TA Down**."
-                ]
-            },
-            {
-                "cooldown": " 10 turns9 turns ",
-                "duration": {
-                    "2": [
-                        "[Status Blood Sacrifice.png] **Blood Sacrifice**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Twin Reaper",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Gain [Status Blood Sacrifice.png] **Blood Sacrifice**. (Extends effect duration by 1 turn upon being targeted by a Light ally's healing skill or buff skill. )"
-                ]
-            },
-            {
-                "cooldown": " 6 turns ",
-                "duration": {
-                    "3": [
-                        "[Status DoubleUp.png] **30% DA Up**",
-                        "[Status TripleUp.png] **15% TA Up**",
-                        "[Status DoubleUp.png] **40% DA Up**",
-                        "[Status TripleUp.png] **30% TA Up**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Halbmond",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "All allies gain [Status DoubleUp.png] **30% DA Up** and [Status TripleUp.png] **15% TA Up**. (Buff increased to [Status DoubleUp.png] **40% DA Up** and [Status TripleUp.png] **30% TA Up** against foes with Petrified effect. )"
                 ]
             }
         ],
@@ -6542,7 +6542,7 @@
         ]
     },
     "Deliford": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns6 turns ",
                 "duration": {
@@ -6749,7 +6749,7 @@
         ]
     },
     "Dorothy": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -6992,7 +6992,7 @@
         ]
     },
     "Drusilla": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -7079,7 +7079,7 @@
         ]
     },
     "Ejaeli": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -7129,7 +7129,7 @@
         ]
     },
     "Elize_Lutus": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {},
@@ -7167,7 +7167,7 @@
         ]
     },
     "Elmelaura": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -7195,7 +7195,7 @@
         ]
     },
     "Elmott": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {},
@@ -7280,7 +7280,7 @@
         ]
     },
     "Elta": {
-        "LIGHT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {
@@ -7364,7 +7364,7 @@
         ]
     },
     "Erica_Fontaine": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -7398,7 +7398,7 @@
         ]
     },
     "Erin": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -7442,7 +7442,7 @@
         ]
     },
     "Eso": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {},
@@ -7561,7 +7561,7 @@
         ]
     },
     "Eugen": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -7943,7 +7943,7 @@
         ]
     },
     "Ezecrain": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -8021,7 +8021,7 @@
         ]
     },
     "Farrah": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " Linked Skill:3 turns ",
                 "duration": {
@@ -8217,6 +8217,42 @@
         ]
     },
     "Feather": {
+        "BASE": [
+            {
+                "cooldown": " 5 turns4 turns ",
+                "duration": {
+                    "1": [
+                        "[Status Bonus Damage.png] **50% Bonus Light DMG (1 time)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Lightning Knuckle III",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "500% Light damage to a foe (Damage cap: ~630,000). Gain [Status Bonus Damage.png] **50% Bonus Light DMG (1 time)**."
+                ]
+            },
+            {
+                "cooldown": " 5 turns4 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Packing a Punch",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Instantly perform a normal attack without using up a turn."
+                ]
+            },
+            {
+                "cooldown": " 16 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Soulful Finisher",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Gain **Instant Charge**. End cooldown for other skills. Can use each damage skill up to 1 extra time this turn. (Requires [Status 7000.png] **Azure Fist** lvl 5. )"
+                ]
+            }
+        ],
         "HALLOWEEN": [
             {
                 "cooldown": " 8 turns7 turns ",
@@ -8329,42 +8365,6 @@
                 "obtain": " Lvl 35\u21e7 Lvl 90 ",
                 "text": [
                     "10-hit Light damage to random foes (Damage cap: ~46,000 per hit). Also gain **Instant Charge**."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 5 turns4 turns ",
-                "duration": {
-                    "1": [
-                        "[Status Bonus Damage.png] **50% Bonus Light DMG (1 time)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Lightning Knuckle III",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "500% Light damage to a foe (Damage cap: ~630,000). Gain [Status Bonus Damage.png] **50% Bonus Light DMG (1 time)**."
-                ]
-            },
-            {
-                "cooldown": " 5 turns4 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Packing a Punch",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Instantly perform a normal attack without using up a turn."
-                ]
-            },
-            {
-                "cooldown": " 16 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Soulful Finisher",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Gain **Instant Charge**. End cooldown for other skills. Can use each damage skill up to 1 extra time this turn. (Requires [Status 7000.png] **Azure Fist** lvl 5. )"
                 ]
             }
         ]
@@ -8559,6 +8559,51 @@
         ]
     },
     "Ferry": {
+        "BASE": [
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Vergiften",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "Light damage to all foes (Damage cap: 340,000). Damage increased to 250%-350%."
+                ]
+            },
+            {
+                "cooldown": " 6 turns ",
+                "duration": {
+                    "1": [
+                        "[Status Defiance.png] **60% C.A. DMG Up**",
+                        "[Status DamageCapUp.png] **10% DMG Cap Up**",
+                        "[Status DefenseDown.png] **20% DEF Down**",
+                        "[Status DamageCapUp.png] **15% DMG Cap Up**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Grausam",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "All allies gain [Status Defiance.png] **60% C.A. DMG Up** and [Status DamageCapUp.png] **10% DMG Cap Up**. Inflict [Status DefenseDown.png] **20% DEF Down** on all allies. Buff increased to [Status DamageCapUp.png] **15% DMG Cap Up**."
+                ]
+            },
+            {
+                "cooldown": " 12 turns ",
+                "duration": {
+                    "4": [
+                        "[Status TripleUp.png] **100% TA Up**",
+                        "[Status Bonus Damage.png] **30% Bonus Light DMG**",
+                        "[Status Shorted.png] **Shorted**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Hinrichten",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "All allies gain [Status TripleUp.png] **100% TA Up** and [Status Bonus Damage.png] **30% Bonus Light DMG**. Inflict [Status Shorted.png] **Shorted** on all allies. )"
+                ]
+            }
+        ],
         "GRAND": [
             {
                 "cooldown": " 7 turns6 turns ",
@@ -8690,51 +8735,6 @@
                 "obtain": " Lvl 35 ",
                 "text": [
                     "All allies gain [Status Uplift.png] **Charge Bar +10%** and [Status AttackUp.png] **ATK Up**."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Vergiften",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "Light damage to all foes (Damage cap: 340,000). Damage increased to 250%-350%."
-                ]
-            },
-            {
-                "cooldown": " 6 turns ",
-                "duration": {
-                    "1": [
-                        "[Status Defiance.png] **60% C.A. DMG Up**",
-                        "[Status DamageCapUp.png] **10% DMG Cap Up**",
-                        "[Status DefenseDown.png] **20% DEF Down**",
-                        "[Status DamageCapUp.png] **15% DMG Cap Up**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Grausam",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "All allies gain [Status Defiance.png] **60% C.A. DMG Up** and [Status DamageCapUp.png] **10% DMG Cap Up**. Inflict [Status DefenseDown.png] **20% DEF Down** on all allies. Buff increased to [Status DamageCapUp.png] **15% DMG Cap Up**."
-                ]
-            },
-            {
-                "cooldown": " 12 turns ",
-                "duration": {
-                    "4": [
-                        "[Status TripleUp.png] **100% TA Up**",
-                        "[Status Bonus Damage.png] **30% Bonus Light DMG**",
-                        "[Status Shorted.png] **Shorted**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Hinrichten",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "All allies gain [Status TripleUp.png] **100% TA Up** and [Status Bonus Damage.png] **30% Bonus Light DMG**. Inflict [Status Shorted.png] **Shorted** on all allies. )"
                 ]
             }
         ],
@@ -8945,7 +8945,7 @@
         ]
     },
     "Flesselles": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -9190,7 +9190,7 @@
         ]
     },
     "Freiheit": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 11 turns10 turns ",
                 "duration": {
@@ -9233,7 +9233,7 @@
         ]
     },
     "Friday": {
-        "SUMMER": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -9314,7 +9314,7 @@
         ]
     },
     "Galadar": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns6 turns ",
                 "duration": {
@@ -9393,7 +9393,7 @@
         ]
     },
     "Garma": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -9529,7 +9529,7 @@
         ]
     },
     "Gayne": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -9624,7 +9624,7 @@
         ]
     },
     "Gemini_Sunrise": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -9771,7 +9771,7 @@
         ]
     },
     "Goblin_Mage": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 8 turns ",
                 "duration": {},
@@ -10215,7 +10215,7 @@
         ]
     },
     "Halluel": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {},
@@ -10262,7 +10262,7 @@
         ]
     },
     "Haohmaru": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {
@@ -10304,7 +10304,7 @@
         ]
     },
     "Hazen": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -10564,7 +10564,7 @@
         ]
     },
     "Helnar": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {},
@@ -10645,6 +10645,48 @@
         ]
     },
     "Herja": {
+        "BASE": [
+            {
+                "cooldown": " 0 turns ",
+                "duration": {
+                    "Indefinite": [
+                        "[Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 50%)**",
+                        "[Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 50%)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Stalwart Sword",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "7-hit, 150% Earth damage to random foes (Damage cap: ~50,000 per hit). Gain [Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 50%)** and [Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 50%)**. (Consumes 3 [Status 68491.png] **Steadfast** lvls. )"
+                ]
+            },
+            {
+                "cooldown": " 5 turns4 turns ",
+                "duration": {
+                    "1": [
+                        "[Status Substitute.png] **Substitute**",
+                        "[Status Dmg Cut 50.png] **50% DMG Cut**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Preemptive Defense",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Gain [Status Substitute.png] **Substitute** and [Status Dmg Cut 50.png] **50% DMG Cut**. (Consumes 30% of charge bar. )"
+                ]
+            },
+            {
+                "cooldown": " 3 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Mercenary Instincts",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Restore caster's HP (Healing cap: 1500) and remove 1 debuff."
+                ]
+            }
+        ],
         "R": [
             {
                 "cooldown": " 5 turns ",
@@ -10720,48 +10762,6 @@
                 "obtain": " Lvl 35 ",
                 "text": [
                     "Gain [Status Defiance.png] **Salted Wound (1 time)**."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 0 turns ",
-                "duration": {
-                    "Indefinite": [
-                        "[Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 50%)**",
-                        "[Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 50%)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Stalwart Sword",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "7-hit, 150% Earth damage to random foes (Damage cap: ~50,000 per hit). Gain [Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 50%)** and [Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 50%)**. (Consumes 3 [Status 68491.png] **Steadfast** lvls. )"
-                ]
-            },
-            {
-                "cooldown": " 5 turns4 turns ",
-                "duration": {
-                    "1": [
-                        "[Status Substitute.png] **Substitute**",
-                        "[Status Dmg Cut 50.png] **50% DMG Cut**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Preemptive Defense",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Gain [Status Substitute.png] **Substitute** and [Status Dmg Cut 50.png] **50% DMG Cut**. (Consumes 30% of charge bar. )"
-                ]
-            },
-            {
-                "cooldown": " 3 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Mercenary Instincts",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Restore caster's HP (Healing cap: 1500) and remove 1 debuff."
                 ]
             }
         ]
@@ -10993,7 +10993,7 @@
         ]
     },
     "Inosuke": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " Linked Skill:3 turns ",
                 "duration": {
@@ -11036,7 +11036,7 @@
         ]
     },
     "Io": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -11181,7 +11181,7 @@
         ]
     },
     "Ippatsu": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {},
@@ -11401,7 +11401,7 @@
         ]
     },
     "Izuminokami_Kanesada": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -11445,7 +11445,7 @@
         ]
     },
     "J.J.": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 3 turns ",
                 "duration": {},
@@ -11530,7 +11530,7 @@
         ]
     },
     "Jamil": {
-        "DARK": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {
@@ -11623,7 +11623,7 @@
         ]
     },
     "Jasmine": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -11919,7 +11919,7 @@
         ]
     },
     "Jessica": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -12291,7 +12291,7 @@
         ]
     },
     "Joel": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -12365,7 +12365,7 @@
         ]
     },
     "Johann": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {},
@@ -12499,7 +12499,7 @@
         ]
     },
     "Joy": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -12635,7 +12635,7 @@
         ]
     },
     "Juri": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " Linked Skill:3 turns ",
                 "duration": {
@@ -12859,7 +12859,7 @@
         ]
     },
     "Kanako_Mimura": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -12897,7 +12897,7 @@
         ]
     },
     "Kaoru_Sakuraba": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -12936,7 +12936,7 @@
         ]
     },
     "Karin": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 13 turns12 turns ",
                 "duration": {
@@ -12974,7 +12974,7 @@
         ]
     },
     "Karteira": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -13041,7 +13041,7 @@
         ]
     },
     "Karva": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {},
@@ -13151,7 +13151,7 @@
         ]
     },
     "Katalina": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -13398,7 +13398,7 @@
         ]
     },
     "Keehar": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {},
@@ -13760,7 +13760,7 @@
         ]
     },
     "Koume_Shirasaka": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -13807,7 +13807,7 @@
         ]
     },
     "Krugne": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {},
@@ -14051,7 +14051,7 @@
         ]
     },
     "La_Coiffe": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -14128,6 +14128,56 @@
         ]
     },
     "Ladiva": {
+        "BASE": [
+            {
+                "cooldown": " 8 turns7 turns ",
+                "duration": {
+                    "1": [
+                        "[Status Grapple 1.png] **Grapple**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Love Grapple",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "Inflict [Status Grapple 1.png] **Grapple** on a foe."
+                ]
+            },
+            {
+                "cooldown": " 8 turns7 turns ",
+                "duration": {
+                    "1-2": [
+                        "[Status Stun 1.png] **Stunned**"
+                    ],
+                    "180": [
+                        "[Status DefenseDown.png] **25% DEF Down**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Magnificent Magnum Chop",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "500% Earth damage to a foe (Damage cap: ~700,000). Inflict [Status DefenseDown.png] **25% DEF Down**. (Against a foe with [Status Grapple.png] **Grapple**: Also inflict [Status Stun 1.png] **Stunned**. )"
+                ]
+            },
+            {
+                "cooldown": " 7 turns ",
+                "duration": {
+                    "3": [
+                        "[Status DoubleUp.png] **30% DA Up**",
+                        "[Status TripleUp.png] **15% TA Up**",
+                        "[Status Hype1.png] **Hype**",
+                        "[Status Adversity.png] **10% DMG Amplified**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Fanatical Fighting Soul",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "All allies gain [Status DoubleUp.png] **30% DA Up**, [Status TripleUp.png] **15% TA Up** and [Status Hype1.png] **Hype**. (When a foe has [Status Grapple.png] **Grapple**: All allies also gain [Status Adversity.png] **10% DMG Amplified**. )"
+                ]
+            }
+        ],
         "HOLIDAY": [
             {
                 "cooldown": " 7 turns6 turns ",
@@ -14222,56 +14272,6 @@
                 "obtain": " Lvl 35 ",
                 "text": [
                     "Earth damage to a foe. Inflict [Status Charm.png] **Charmed**."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 8 turns7 turns ",
-                "duration": {
-                    "1": [
-                        "[Status Grapple 1.png] **Grapple**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Love Grapple",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "Inflict [Status Grapple 1.png] **Grapple** on a foe."
-                ]
-            },
-            {
-                "cooldown": " 8 turns7 turns ",
-                "duration": {
-                    "1-2": [
-                        "[Status Stun 1.png] **Stunned**"
-                    ],
-                    "180": [
-                        "[Status DefenseDown.png] **25% DEF Down**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Magnificent Magnum Chop",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "500% Earth damage to a foe (Damage cap: ~700,000). Inflict [Status DefenseDown.png] **25% DEF Down**. (Against a foe with [Status Grapple.png] **Grapple**: Also inflict [Status Stun 1.png] **Stunned**. )"
-                ]
-            },
-            {
-                "cooldown": " 7 turns ",
-                "duration": {
-                    "3": [
-                        "[Status DoubleUp.png] **30% DA Up**",
-                        "[Status TripleUp.png] **15% TA Up**",
-                        "[Status Hype1.png] **Hype**",
-                        "[Status Adversity.png] **10% DMG Amplified**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Fanatical Fighting Soul",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "All allies gain [Status DoubleUp.png] **30% DA Up**, [Status TripleUp.png] **15% TA Up** and [Status Hype1.png] **Hype**. (When a foe has [Status Grapple.png] **Grapple**: All allies also gain [Status Adversity.png] **10% DMG Amplified**. )"
                 ]
             }
         ]
@@ -14375,7 +14375,7 @@
         ]
     },
     "Lady_Katapillar": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {},
@@ -14409,7 +14409,7 @@
         ]
     },
     "Laguna": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {},
@@ -14450,6 +14450,49 @@
         ]
     },
     "Lamretta": {
+        "BASE": [
+            {
+                "cooldown": " 0 turns ",
+                "duration": {
+                    "180": [
+                        "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)**",
+                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Saint Halo",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "6-hit, 125% Earth damage to a foe (Damage cap: ~100,000 per hit). Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**. (Consumes 1 [Status 70731.png] **Bon Vivant**. )"
+                ]
+            },
+            {
+                "cooldown": " 1 turn ",
+                "duration": {
+                    "1": [
+                        "[Status Substitute.png] **Substitute**",
+                        "[Status Counter DodgeDMG.png] **Counters on Dodge/DMG (5 times)**",
+                        "[Status Adversity.png] **30% DMG Amplified**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Asylum",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Gain [Status Substitute.png] **Substitute**, [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (5 times)**, and [Status Adversity.png] **30% DMG Amplified**. (Consumes 1 [Status 70731.png] **Bon Vivant**. )"
+                ]
+            },
+            {
+                "cooldown": " 0 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Rest in Psalm",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Restore 20% of all allies' HP (Healing cap: 1500) and remove 1 debuff. (Consumes 1 [Status 70731.png] **Bon Vivant**. )"
+                ]
+            }
+        ],
         "R": [
             {
                 "cooldown": " 0 turns /1 turn ",
@@ -14519,49 +14562,6 @@
                 "obtain": " Lvl 35 ",
                 "text": [
                     "Gain [Status TripleUp.png] **TA Up**."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 0 turns ",
-                "duration": {
-                    "180": [
-                        "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)**",
-                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Saint Halo",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "6-hit, 125% Earth damage to a foe (Damage cap: ~100,000 per hit). Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**. (Consumes 1 [Status 70731.png] **Bon Vivant**. )"
-                ]
-            },
-            {
-                "cooldown": " 1 turn ",
-                "duration": {
-                    "1": [
-                        "[Status Substitute.png] **Substitute**",
-                        "[Status Counter DodgeDMG.png] **Counters on Dodge/DMG (5 times)**",
-                        "[Status Adversity.png] **30% DMG Amplified**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Asylum",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Gain [Status Substitute.png] **Substitute**, [Status Counter DodgeDMG.png] **Counters on Dodge/DMG (5 times)**, and [Status Adversity.png] **30% DMG Amplified**. (Consumes 1 [Status 70731.png] **Bon Vivant**. )"
-                ]
-            },
-            {
-                "cooldown": " 0 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Rest in Psalm",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Restore 20% of all allies' HP (Healing cap: 1500) and remove 1 debuff. (Consumes 1 [Status 70731.png] **Bon Vivant**. )"
                 ]
             }
         ],
@@ -14808,7 +14808,7 @@
         ]
     },
     "Lecia": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -15080,7 +15080,7 @@
         ]
     },
     "Leona": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {
@@ -15221,7 +15221,7 @@
         ]
     },
     "Leonora": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {},
@@ -15588,7 +15588,7 @@
         ]
     },
     "Lina": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {
@@ -15680,7 +15680,7 @@
         ]
     },
     "Lowain": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {},
@@ -15882,6 +15882,42 @@
         ]
     },
     "Lucius": {
+        "BASE": [
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Whitefire Blade",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "400%-450% Dark damage to a foe (Damage cap: ~630,000). Bonus damage to foes with [Status Burned.png] **Burned** (Damage cap: ~260,000)."
+                ]
+            },
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "180": [
+                        "[Status DarkDEFDownStack.png] **10% Dark DEF Down (Stackable / Max: 30%)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Demon-Crush",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "250%-300% Dark damage to all foes (Damage cap: ~420,000). Inflict [Status DarkDEFDownStack.png] **10% Dark DEF Down (Stackable / Max: 30%)**."
+                ]
+            },
+            {
+                "cooldown": " 10 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Optimized Speed",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "600% Dark damage to a foe (Damage cap: ~800,000). Gain **Instant Charge**. End cooldown for other skills."
+                ]
+            }
+        ],
         "FIRE": [
             {
                 "cooldown": " 7 turns ",
@@ -15964,46 +16000,10 @@
                     "Dark damage to a foe (Damage cap: ~280,000). Bonus Fire damage to a [Status Burned.png] **Burned** foe. Damage increased."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Whitefire Blade",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "400%-450% Dark damage to a foe (Damage cap: ~630,000). Bonus damage to foes with [Status Burned.png] **Burned** (Damage cap: ~260,000)."
-                ]
-            },
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "180": [
-                        "[Status DarkDEFDownStack.png] **10% Dark DEF Down (Stackable / Max: 30%)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Demon-Crush",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "250%-300% Dark damage to all foes (Damage cap: ~420,000). Inflict [Status DarkDEFDownStack.png] **10% Dark DEF Down (Stackable / Max: 30%)**."
-                ]
-            },
-            {
-                "cooldown": " 10 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Optimized Speed",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "600% Dark damage to a foe (Damage cap: ~800,000). Gain **Instant Charge**. End cooldown for other skills."
-                ]
-            }
         ]
     },
     "Ludmila": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -16046,7 +16046,7 @@
         ]
     },
     "Luna": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns4 turns ",
                 "duration": {},
@@ -16080,35 +16080,7 @@
         ]
     },
     "Lunalu": {
-        "R": [
-            {
-                "cooldown": " 12 turns10 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Facsimile",
-                "obtain": " Lvl 1\u21e7 Lvl 45 ",
-                "text": [
-                    "Copy the last skill used by an ally. (Chance to fail. )"
-                ]
-            },
-            {
-                "cooldown": " 8 turns ",
-                "duration": {
-                    "3": [
-                        "[Status AttackUp.png] **20% ATK Up**",
-                        "[Status DefenseUp.png] **20% DEF Up**",
-                        "[Status Uplift.png] **Uplifted**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Fauxin Eye",
-                "obtain": " Lvl 25 ",
-                "text": [
-                    "The Fauxin Hungers(Gain [Status AttackUp.png] **20% ATK Up**, [Status DefenseUp.png] **20% DEF Up**, and [Status Uplift.png] **Uplifted**. )"
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {
@@ -16157,6 +16129,34 @@
                 ]
             }
         ],
+        "R": [
+            {
+                "cooldown": " 12 turns10 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Facsimile",
+                "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                "text": [
+                    "Copy the last skill used by an ally. (Chance to fail. )"
+                ]
+            },
+            {
+                "cooldown": " 8 turns ",
+                "duration": {
+                    "3": [
+                        "[Status AttackUp.png] **20% ATK Up**",
+                        "[Status DefenseUp.png] **20% DEF Up**",
+                        "[Status Uplift.png] **Uplifted**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Fauxin Eye",
+                "obtain": " Lvl 25 ",
+                "text": [
+                    "The Fauxin Hungers(Gain [Status AttackUp.png] **20% ATK Up**, [Status DefenseUp.png] **20% DEF Up**, and [Status Uplift.png] **Uplifted**. )"
+                ]
+            }
+        ],
         "SUMMER": [
             {
                 "cooldown": " 12 turns10 turns ",
@@ -16187,7 +16187,7 @@
         ]
     },
     "Lyria": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {},
@@ -16516,7 +16516,7 @@
         ]
     },
     "Malinda": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -16658,7 +16658,7 @@
         ]
     },
     "Malluel_(Summer)": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {},
@@ -16743,7 +16743,7 @@
         ]
     },
     "Mariah": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 8 turns ",
                 "duration": {},
@@ -16827,7 +16827,7 @@
         ]
     },
     "Mary": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -17111,7 +17111,7 @@
         ]
     },
     "Meg": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -17302,7 +17302,7 @@
         ]
     },
     "Meteon": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {
@@ -17534,7 +17534,7 @@
         ]
     },
     "Mika_Jougasaki": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -17577,7 +17577,7 @@
         ]
     },
     "Mikasa": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 10 turns9 turns ",
                 "duration": {},
@@ -17653,7 +17653,7 @@
         ]
     },
     "Miku_Maekawa": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -17700,7 +17700,7 @@
         ]
     },
     "Milla_Maxwell": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 3 turns2 turns ",
                 "duration": {
@@ -17742,7 +17742,7 @@
         ]
     },
     "Milleore": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -17832,7 +17832,7 @@
         ]
     },
     "Mimlemel": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -17999,7 +17999,7 @@
         ]
     },
     "Mina": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -18046,7 +18046,7 @@
         ]
     },
     "Minami_Nitta": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -18096,7 +18096,7 @@
         ]
     },
     "Mio_Honda": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -18143,7 +18143,7 @@
         ]
     },
     "Mireille": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -18195,7 +18195,7 @@
         ]
     },
     "Miria_Akagi": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 3 turns ",
                 "duration": {
@@ -18239,7 +18239,7 @@
         ]
     },
     "Mirin": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -18365,6 +18365,46 @@
         ]
     },
     "Mishra": {
+        "BASE": [
+            {
+                "cooldown": " 9 turns8 turns ",
+                "duration": {
+                    "Indefinite": [
+                        "[Status 7058.png] **Incursion Rune**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Incursion Rune",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "Grant a Light ally [Status 7058.png] **Incursion Rune**."
+                ]
+            },
+            {
+                "cooldown": " 9 turns8 turns ",
+                "duration": {
+                    "Indefinite": [
+                        "[Status 7059.png] **Fortification Rune**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Fortification Rune",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Grant a Light ally [Status 7059.png] **Fortification Rune**."
+                ]
+            },
+            {
+                "cooldown": " 8 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Recovery Rune",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Fully restore a Light ally's HP and remove all debuffs."
+                ]
+            }
+        ],
         "SR": [
             {
                 "cooldown": " 6 turns ",
@@ -18407,50 +18447,10 @@
                     "Water damage to a foe. Restore caster's HP (Healing cap: 1000)."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 9 turns8 turns ",
-                "duration": {
-                    "Indefinite": [
-                        "[Status 7058.png] **Incursion Rune**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Incursion Rune",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "Grant a Light ally [Status 7058.png] **Incursion Rune**."
-                ]
-            },
-            {
-                "cooldown": " 9 turns8 turns ",
-                "duration": {
-                    "Indefinite": [
-                        "[Status 7059.png] **Fortification Rune**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Fortification Rune",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Grant a Light ally [Status 7059.png] **Fortification Rune**."
-                ]
-            },
-            {
-                "cooldown": " 8 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Recovery Rune",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Fully restore a Light ally's HP and remove all debuffs."
-                ]
-            }
         ]
     },
     "Mizuki_Kawashima": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -18647,7 +18647,7 @@
         ]
     },
     "Mordred": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -18690,7 +18690,7 @@
         ]
     },
     "Morphe": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -18884,7 +18884,7 @@
         ]
     },
     "Naga": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {},
@@ -18928,7 +18928,7 @@
         ]
     },
     "Nakoruru": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -19603,7 +19603,7 @@
         ]
     },
     "Nene": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {
@@ -20125,7 +20125,7 @@
         ]
     },
     "Noa": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -20224,7 +20224,7 @@
         ]
     },
     "Norcel": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -20252,7 +20252,7 @@
         ]
     },
     "Novei": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {
@@ -20423,7 +20423,7 @@
         ]
     },
     "Orchis": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -20466,7 +20466,7 @@
         ]
     },
     "Owen": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -20512,7 +20512,7 @@
         ]
     },
     "Pamela": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {
@@ -20550,7 +20550,7 @@
         ]
     },
     "Paris": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -20598,7 +20598,7 @@
         ]
     },
     "Pavidus": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -20666,6 +20666,42 @@
         ]
     },
     "Pengy": {
+        "BASE": [
+            {
+                "cooldown": " Ready inReady in ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "P-EN Recharge",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "Restore 10 [Status 6912.png] **P-EN**. (Can't recast. )"
+                ]
+            },
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "5": [
+                        "[Status DEF Down 5.png] **35% DEF Down**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Peeegiii!",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "500% Earth damage to a foe (Damage cap: ~800,000). Inflict [Status DEF Down 5.png] **35% DEF Down**."
+                ]
+            },
+            {
+                "cooldown": " 0 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Pegi, Pegi, Pegi!",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Instantly perform a normal attack without using up a turn. (Consumes 2 [Status 6912.png] **P-EN**. )"
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "cooldown": " 5 turns ",
@@ -20750,42 +20786,6 @@
                 "obtain": " Lvl 35 ",
                 "text": [
                     "Random plain damage to a foe based on its max HP (Damage cap: 9,999,999). If attack fails, Pengy takes plain damage."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " Ready inReady in ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "P-EN Recharge",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "Restore 10 [Status 6912.png] **P-EN**. (Can't recast. )"
-                ]
-            },
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "5": [
-                        "[Status DEF Down 5.png] **35% DEF Down**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Peeegiii!",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "500% Earth damage to a foe (Damage cap: ~800,000). Inflict [Status DEF Down 5.png] **35% DEF Down**."
-                ]
-            },
-            {
-                "cooldown": " 0 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Pegi, Pegi, Pegi!",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Instantly perform a normal attack without using up a turn. (Consumes 2 [Status 6912.png] **P-EN**. )"
                 ]
             }
         ]
@@ -20973,29 +20973,7 @@
         ]
     },
     "Petra": {
-        "R": [
-            {
-                "cooldown": " 7 turns6 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Wind's Solace",
-                "obtain": " Lvl 1\u21e7 Lvl 45 ",
-                "text": [
-                    "Restore all allies' HP. Healing cap increased."
-                ]
-            },
-            {
-                "cooldown": " 5 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Gust",
-                "obtain": " Lvl 25 ",
-                "text": [
-                    "Small Wind damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -21041,10 +21019,32 @@
                     "All allies gain [Status WindAtkUp.png] **50% Wind ATK Up**, [Status FireAtkUp.png] **50% Fire ATK Up**, [Status EarthAtkUp.png] **50% Earth ATK Up**, and [Status WaterAtkUp.png] **50% Water ATK Up**."
                 ]
             }
+        ],
+        "R": [
+            {
+                "cooldown": " 7 turns6 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Wind's Solace",
+                "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                "text": [
+                    "Restore all allies' HP. Healing cap increased."
+                ]
+            },
+            {
+                "cooldown": " 5 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Gust",
+                "obtain": " Lvl 25 ",
+                "text": [
+                    "Small Wind damage to a foe."
+                ]
+            }
         ]
     },
     "Philosophia": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 5 turns4 turns ",
                 "duration": {},
@@ -21108,7 +21108,7 @@
         ]
     },
     "Phoebe_(Event)": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -21267,52 +21267,7 @@
         ]
     },
     "Predator": {
-        "SR": [
-            {
-                "cooldown": " 4 turns3 turns ",
-                "duration": {
-                    "5": [
-                        "[Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)**",
-                        "[Status DefenseDownStack.png] **DEF Down (Stackable)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Assault Shift",
-                "obtain": " Lvl 1\u21e7 Lvl 45 ",
-                "text": [
-                    "Gain [Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)**. Self-inflict [Status DefenseDownStack.png] **DEF Down (Stackable)**."
-                ]
-            },
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "1": [
-                        "[Status DefenseUp.png] **Dodge All**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Stealth Ring",
-                "obtain": " Lvl 1\u21e7 Lvl 65 ",
-                "text": [
-                    "Gain [Status DefenseUp.png] **Dodge All**."
-                ]
-            },
-            {
-                "cooldown": " 8 turns ",
-                "duration": {
-                    "1": [
-                        "[Status Defiance.png] **Salted Wound**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Kill Sight",
-                "obtain": " Lvl 35 ",
-                "text": [
-                    "Gain [Status Defiance.png] **Salted Wound**."
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -21367,10 +21322,55 @@
                     "Gain [Status Defiance.png] **Salted Wound (1 time)**, [Status AttackUp.png] **20% ATK Up**, and [Status CriticalUp.png] **50% / 50% Critical Hit Rate Up**. (When below 25% HP: Also gain [Status Dodge 1.png] **Dodge All (1 time)**. )"
                 ]
             }
+        ],
+        "SR": [
+            {
+                "cooldown": " 4 turns3 turns ",
+                "duration": {
+                    "5": [
+                        "[Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)**",
+                        "[Status DefenseDownStack.png] **DEF Down (Stackable)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Assault Shift",
+                "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                "text": [
+                    "Gain [Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)**. Self-inflict [Status DefenseDownStack.png] **DEF Down (Stackable)**."
+                ]
+            },
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "1": [
+                        "[Status DefenseUp.png] **Dodge All**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Stealth Ring",
+                "obtain": " Lvl 1\u21e7 Lvl 65 ",
+                "text": [
+                    "Gain [Status DefenseUp.png] **Dodge All**."
+                ]
+            },
+            {
+                "cooldown": " 8 turns ",
+                "duration": {
+                    "1": [
+                        "[Status Defiance.png] **Salted Wound**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Kill Sight",
+                "obtain": " Lvl 35 ",
+                "text": [
+                    "Gain [Status Defiance.png] **Salted Wound**."
+                ]
+            }
         ]
     },
     "Pun-Kin_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -21418,7 +21418,7 @@
         ]
     },
     "Rackam": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -21573,7 +21573,7 @@
         ]
     },
     "Randall": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 3 turns2 turns ",
                 "duration": {},
@@ -21637,7 +21637,7 @@
         ]
     },
     "Ranko_Kanzaki": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -21724,7 +21724,7 @@
         ]
     },
     "Rashid": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {},
@@ -21847,7 +21847,7 @@
         ]
     },
     "Redluck": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 3 turns2 turns ",
                 "duration": {
@@ -21943,7 +21943,7 @@
         ]
     },
     "Reinhardtzar": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {
@@ -22031,7 +22031,7 @@
         ]
     },
     "Renie": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -22078,7 +22078,7 @@
         ]
     },
     "Renie_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -22126,7 +22126,7 @@
         ]
     },
     "Richard": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 3 turns ",
                 "duration": {},
@@ -22186,7 +22186,7 @@
         ]
     },
     "Rika_Jougasaki": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -22230,7 +22230,7 @@
         ]
     },
     "Rin_Shibuya": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -22275,7 +22275,7 @@
         ]
     },
     "Risette": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -22327,7 +22327,7 @@
         ]
     },
     "Rita": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -22385,7 +22385,7 @@
         ]
     },
     "Robertina": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {
@@ -22636,6 +22636,51 @@
         ]
     },
     "Rosamia": {
+        "BASE": [
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "2": [
+                        "[Status Repel.png] **Unchallenged**"
+                    ],
+                    "4": [
+                        "[Status CursedMask.png] **Curse of the Mask**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Immovable Talisman III",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "Gain [Status Repel.png] **Unchallenged**. Self-inflict [Status CursedMask.png] **Curse of the Mask**."
+                ]
+            },
+            {
+                "cooldown": " 5 turns4 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Armorsmash Quad Talisman",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "250% Light damage to a foe (Damage cap: ~420,000). Inflict [Status DefenseDownStack.png] **8% DEF Down (Stackable / Max: 30%)**."
+                ]
+            },
+            {
+                "cooldown": " 11 turns ",
+                "duration": {
+                    "6": [
+                        "[Status DoubleUp.png] **100% DA Up**",
+                        "[Status TripleUp.png] **40% TA Up**",
+                        "[Status AggroUpArrow.png] **Hostility Up**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Groundhold Talisman",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Gain [Status DoubleUp.png] **100% DA Up**, [Status TripleUp.png] **40% TA Up** and sharp [Status AggroUpArrow.png] **Hostility Up**."
+                ]
+            }
+        ],
         "R": [
             {
                 "cooldown": " 7 turns ",
@@ -22720,51 +22765,6 @@
                 ]
             }
         ],
-        "SSR": [
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "2": [
-                        "[Status Repel.png] **Unchallenged**"
-                    ],
-                    "4": [
-                        "[Status CursedMask.png] **Curse of the Mask**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Immovable Talisman III",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "Gain [Status Repel.png] **Unchallenged**. Self-inflict [Status CursedMask.png] **Curse of the Mask**."
-                ]
-            },
-            {
-                "cooldown": " 5 turns4 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Armorsmash Quad Talisman",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "250% Light damage to a foe (Damage cap: ~420,000). Inflict [Status DefenseDownStack.png] **8% DEF Down (Stackable / Max: 30%)**."
-                ]
-            },
-            {
-                "cooldown": " 11 turns ",
-                "duration": {
-                    "6": [
-                        "[Status DoubleUp.png] **100% DA Up**",
-                        "[Status TripleUp.png] **40% TA Up**",
-                        "[Status AggroUpArrow.png] **Hostility Up**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Groundhold Talisman",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Gain [Status DoubleUp.png] **100% DA Up**, [Status TripleUp.png] **40% TA Up** and sharp [Status AggroUpArrow.png] **Hostility Up**."
-                ]
-            }
-        ],
         "YUKATA": [
             {
                 "cooldown": " 7 turns6 turns ",
@@ -22811,7 +22811,7 @@
         ]
     },
     "Rosetta": {
-        "GRAND": [
+        "BASE": [
             {
                 "cooldown": " 1 turn ",
                 "duration": {},
@@ -23010,7 +23010,7 @@
         ]
     },
     "Rosine": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 0 turns ",
                 "duration": {},
@@ -23075,7 +23075,7 @@
         ]
     },
     "Ryan": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns6 turns ",
                 "duration": {
@@ -23151,7 +23151,7 @@
         ]
     },
     "Ryu": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {},
@@ -23189,7 +23189,7 @@
         ]
     },
     "Sachiko_Koshimizu": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -23235,7 +23235,7 @@
         ]
     },
     "Sahli_Lao": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -23370,7 +23370,7 @@
         ]
     },
     "Sakura_Shinguji": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -23846,7 +23846,7 @@
         ]
     },
     "Sarya": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -24147,6 +24147,55 @@
         ]
     },
     "Sen": {
+        "BASE": [
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "Indefinite": [
+                        "[Status Dodge 1.png] **Dodge All (1 time)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Scratchnado",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "6-hit, 60% Wind damage to random foes (Damage cap: ~100,000). Gain [Status Dodge 1.png] **Dodge All (1 time)**."
+                ]
+            },
+            {
+                "cooldown": " 7 turns6 turns ",
+                "duration": {
+                    "Indefinite": [
+                        "[Status My Best Shot 2.png] **My Best Shot**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Here Goes",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Gain [Status My Best Shot 2.png] **My Best Shot**. (Ends upon taking damage 2 times. )"
+                ]
+            },
+            {
+                "cooldown": " 6 turns ",
+                "duration": {
+                    "180": [
+                        "[Status AttackDown.png] **25% ATK Down**",
+                        "[Status DoubleDown.png] **DA Down**",
+                        "[Status TripleDown.png] **TA Down**"
+                    ],
+                    "Indefinite": [
+                        "[Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Cattivating Charm",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Inflict [Status AttackDown.png] **25% ATK Down**, [Status DoubleDown.png] **DA Down**, and [Status TripleDown.png] **TA Down**. Raise [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl by 1."
+                ]
+            }
+        ],
         "HOLIDAY": [
             {
                 "cooldown": " 10 turns ",
@@ -24231,55 +24280,6 @@
                 "obtain": " Lvl 35 ",
                 "text": [
                     "Stop attacking and save up for a big attack. (Recast to release attack)(Gain [Status AttackUpStack.png] **Save Up**. If [Status AttackUpStack.png] **Save Up** is active, gain [Status AttackUp.png] **ATK Up** based on how many turns [Status AttackUpStack.png] **Save Up** has been active. )"
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "Indefinite": [
-                        "[Status Dodge 1.png] **Dodge All (1 time)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Scratchnado",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "6-hit, 60% Wind damage to random foes (Damage cap: ~100,000). Gain [Status Dodge 1.png] **Dodge All (1 time)**."
-                ]
-            },
-            {
-                "cooldown": " 7 turns6 turns ",
-                "duration": {
-                    "Indefinite": [
-                        "[Status My Best Shot 2.png] **My Best Shot**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Here Goes",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Gain [Status My Best Shot 2.png] **My Best Shot**. (Ends upon taking damage 2 times. )"
-                ]
-            },
-            {
-                "cooldown": " 6 turns ",
-                "duration": {
-                    "180": [
-                        "[Status AttackDown.png] **25% ATK Down**",
-                        "[Status DoubleDown.png] **DA Down**",
-                        "[Status TripleDown.png] **TA Down**"
-                    ],
-                    "Indefinite": [
-                        "[Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Cattivating Charm",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Inflict [Status AttackDown.png] **25% ATK Down**, [Status DoubleDown.png] **DA Down**, and [Status TripleDown.png] **TA Down**. Raise [Status Cat's-Paw Wind 1.png] **Cat's-Paw Wind** lvl by 1."
                 ]
             }
         ]
@@ -24555,7 +24555,7 @@
         ]
     },
     "Sevastien": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -24601,7 +24601,7 @@
         ]
     },
     "Sevilbarra": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -24681,7 +24681,7 @@
         ]
     },
     "Shao": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns4 turns ",
                 "duration": {},
@@ -24727,7 +24727,7 @@
         ]
     },
     "Shiki_Ichinose": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -25116,7 +25116,7 @@
         ]
     },
     "Sig": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -25361,7 +25361,7 @@
         ]
     },
     "Skull": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {},
@@ -25670,7 +25670,7 @@
         ]
     },
     "Sophie": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -25712,6 +25712,53 @@
         ]
     },
     "Soriz": {
+        "BASE": [
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "Indefinite": [
+                        "[Status DA Up Stack.png] **10% DA Up (Stackable / Max: 50%)**",
+                        "[Status TA Up Stack.png] **4% TA Up (Stackable / Max: 20%)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Tenacious Will",
+                "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 100 ",
+                "text": [
+                    "6-hit, 60%-80% Earth damage to a foe (Damage cap: ~80,000 per hit). Restore caster's HP (Healing cap: 5000). (5% boost to healing upon each cast [Max: 25%]. )Damage increased to 100% per hit. Also gain [Status DA Up Stack.png] **10% DA Up (Stackable / Max: 50%)** and [Status TA Up Stack.png] **4% TA Up (Stackable / Max: 20%)**."
+                ]
+            },
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "180": [
+                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Bravado Bullet",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "6-hit, 60%-80% Earth damage to a foe (Damage cap: ~80,000 per hit). Inflict [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**. (Hit number increases upon each cast [Max: 10 hits]. )"
+                ]
+            },
+            {
+                "cooldown": " 7 turns ",
+                "duration": {
+                    "2": [
+                        "[Status DefenseUp.png] **80% DEF Up**",
+                        "[Status Substitute.png] **No Touching My Ladies**",
+                        "[Status AttackUp.png] **ATK Up**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Macho Ultimatum",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "End cooldown for Tenacious Will and Bravado Bullet. Gain [Status DefenseUp.png] **80% DEF Up** and [Status Substitute.png] **No Touching My Ladies**. When there are female allies: Also gain [Status AttackUp.png] **ATK Up**. (I swear on my fists that you won't lay a finger on these beauties!)"
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "cooldown": " 12 turns ",
@@ -25799,57 +25846,10 @@
                     "Gain [Status AttackUpStack.png] **ATK Up (Stackable)**, granting 50% ATK at 4 stacks. Grants 62. 5% ATK at 6 stacks."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "Indefinite": [
-                        "[Status DA Up Stack.png] **10% DA Up (Stackable / Max: 50%)**",
-                        "[Status TA Up Stack.png] **4% TA Up (Stackable / Max: 20%)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Tenacious Will",
-                "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 100 ",
-                "text": [
-                    "6-hit, 60%-80% Earth damage to a foe (Damage cap: ~80,000 per hit). Restore caster's HP (Healing cap: 5000). (5% boost to healing upon each cast [Max: 25%]. )Damage increased to 100% per hit. Also gain [Status DA Up Stack.png] **10% DA Up (Stackable / Max: 50%)** and [Status TA Up Stack.png] **4% TA Up (Stackable / Max: 20%)**."
-                ]
-            },
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "180": [
-                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Bravado Bullet",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "6-hit, 60%-80% Earth damage to a foe (Damage cap: ~80,000 per hit). Inflict [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**. (Hit number increases upon each cast [Max: 10 hits]. )"
-                ]
-            },
-            {
-                "cooldown": " 7 turns ",
-                "duration": {
-                    "2": [
-                        "[Status DefenseUp.png] **80% DEF Up**",
-                        "[Status Substitute.png] **No Touching My Ladies**",
-                        "[Status AttackUp.png] **ATK Up**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Macho Ultimatum",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "End cooldown for Tenacious Will and Bravado Bullet. Gain [Status DefenseUp.png] **80% DEF Up** and [Status Substitute.png] **No Touching My Ladies**. When there are female allies: Also gain [Status AttackUp.png] **ATK Up**. (I swear on my fists that you won't lay a finger on these beauties!)"
-                ]
-            }
         ]
     },
     "Spinnah": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "cooldown": " 9 turns8 turns ",
                 "duration": {
@@ -25926,7 +25926,7 @@
         ]
     },
     "Stahn_Aileron": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 3 turns ",
                 "duration": {
@@ -25968,7 +25968,7 @@
         ]
     },
     "Stan": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -26069,7 +26069,7 @@
         ]
     },
     "Stumpeye": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -26208,7 +26208,7 @@
         ]
     },
     "Suframare": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -26278,6 +26278,42 @@
         ]
     },
     "Sutera": {
+        "BASE": [
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "Indefinite": [
+                        "[Status DamageCapUp.png] **10% DMG Cap Up (1 time)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Swift Gale Shot",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "300% Wind damage to all foes (Damage cap: ~440,000). All allies gain [Status DamageCapUp.png] **10% DMG Cap Up (1 time)**."
+                ]
+            },
+            {
+                "cooldown": " 7 turns6 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Comet Drive",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Up to 1800% Wind damage to a foe based on caster's charge bar. 1-turn cut to Wind allies' skill cooldowns. (Consumes all of charge bar. )"
+                ]
+            },
+            {
+                "cooldown": " 10 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Arcane Bow Flash",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "600% Wind damage to a foe (Damage cap: ~800,000). Gain **Instant Charge**. End cooldown for other skills"
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "cooldown": " 8 turns7 turns ",
@@ -26416,42 +26452,6 @@
                     "150%-200% Wind damage to all foes. Damage increased to 200%-300%"
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "Indefinite": [
-                        "[Status DamageCapUp.png] **10% DMG Cap Up (1 time)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Swift Gale Shot",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "300% Wind damage to all foes (Damage cap: ~440,000). All allies gain [Status DamageCapUp.png] **10% DMG Cap Up (1 time)**."
-                ]
-            },
-            {
-                "cooldown": " 7 turns6 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Comet Drive",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Up to 1800% Wind damage to a foe based on caster's charge bar. 1-turn cut to Wind allies' skill cooldowns. (Consumes all of charge bar. )"
-                ]
-            },
-            {
-                "cooldown": " 10 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Arcane Bow Flash",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "600% Wind damage to a foe (Damage cap: ~800,000). Gain **Instant Charge**. End cooldown for other skills"
-                ]
-            }
         ]
     },
     "Suzaku_Kururugi": {
@@ -26503,7 +26503,7 @@
         ]
     },
     "Syr": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {
@@ -26594,7 +26594,7 @@
         ]
     },
     "Tanjiro,_Nezuko,_Zenitsu,": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " Linked Skill:3 turns ",
                 "duration": {
@@ -26637,6 +26637,58 @@
         ]
     },
     "Tanya": {
+        "BASE": [
+            {
+                "cooldown": " 8 turns7 turns ",
+                "duration": {
+                    "180": [
+                        "[Status Poison.png] **Poisoned (20000)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Toxic Nails",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "6-hit 100% Dark damage to random foes (Damage cap: ~100,000 per hit). Inflict [Status Poison.png] **Poisoned (20000)** on all foes."
+                ]
+            },
+            {
+                "cooldown": " 9 turns8 turns ",
+                "duration": {
+                    "180": [
+                        "[Status AttackDownStack.png] **5% ATK Down (Stackable / Max: 40%)**",
+                        "[Status DefenseDownStack.png] **5% DEF Down (Stackable / Max: 40%)**"
+                    ],
+                    "Indefinite": [
+                        "[Status Knife Throw.png] **Knife Throw**",
+                        "[Status Knife 1.png] **Knife**",
+                        "[Status Knife Throw.png] **Knife Throw**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Nimble Throw",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "400% Dark damage to a foe (Damage cap: ~500,000). Inflict [Status AttackDownStack.png] **5% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **5% DEF Down (Stackable / Max: 40%)**. Gain [Status Knife Throw.png] **Knife Throw**, reactivating Nimble Throw at end of every turn by consuming [Status Knife 1.png] **Knife** while [Status Knife Throw.png] **Knife Throw** is in effect."
+                ]
+            },
+            {
+                "cooldown": " 6 turns ",
+                "duration": {
+                    "2": [
+                        "[Status Dodge.png] **50% Dodge Rate Up**",
+                        "[Status Uplift.png] **30% Charge Bar Gain Up**",
+                        "[Status AggroUpArrow.png] **Hostility Up**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Shadow Arts",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Gain [Status Dodge.png] **50% Dodge Rate Up**, [Status Uplift.png] **30% Charge Bar Gain Up** and [Status AggroUpArrow.png] **Hostility Up**."
+                ]
+            }
+        ],
         "R": [
             {
                 "cooldown": " 6 turns5 turns ",
@@ -26708,58 +26760,6 @@
                 ]
             }
         ],
-        "SSR": [
-            {
-                "cooldown": " 8 turns7 turns ",
-                "duration": {
-                    "180": [
-                        "[Status Poison.png] **Poisoned (20000)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Toxic Nails",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "6-hit 100% Dark damage to random foes (Damage cap: ~100,000 per hit). Inflict [Status Poison.png] **Poisoned (20000)** on all foes."
-                ]
-            },
-            {
-                "cooldown": " 9 turns8 turns ",
-                "duration": {
-                    "180": [
-                        "[Status AttackDownStack.png] **5% ATK Down (Stackable / Max: 40%)**",
-                        "[Status DefenseDownStack.png] **5% DEF Down (Stackable / Max: 40%)**"
-                    ],
-                    "Indefinite": [
-                        "[Status Knife Throw.png] **Knife Throw**",
-                        "[Status Knife 1.png] **Knife**",
-                        "[Status Knife Throw.png] **Knife Throw**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Nimble Throw",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "400% Dark damage to a foe (Damage cap: ~500,000). Inflict [Status AttackDownStack.png] **5% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **5% DEF Down (Stackable / Max: 40%)**. Gain [Status Knife Throw.png] **Knife Throw**, reactivating Nimble Throw at end of every turn by consuming [Status Knife 1.png] **Knife** while [Status Knife Throw.png] **Knife Throw** is in effect."
-                ]
-            },
-            {
-                "cooldown": " 6 turns ",
-                "duration": {
-                    "2": [
-                        "[Status Dodge.png] **50% Dodge Rate Up**",
-                        "[Status Uplift.png] **30% Charge Bar Gain Up**",
-                        "[Status AggroUpArrow.png] **Hostility Up**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Shadow Arts",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Gain [Status Dodge.png] **50% Dodge Rate Up**, [Status Uplift.png] **30% Charge Bar Gain Up** and [Status AggroUpArrow.png] **Hostility Up**."
-                ]
-            }
-        ],
         "SUMMER": [
             {
                 "cooldown": " 5 turns ",
@@ -26799,7 +26799,7 @@
         ]
     },
     "Tear_Grants": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {},
@@ -26837,7 +26837,7 @@
         ]
     },
     "Teena": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns ",
                 "duration": {},
@@ -26968,7 +26968,7 @@
         ]
     },
     "Teru_Tendo": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {},
@@ -27006,7 +27006,7 @@
         ]
     },
     "The_Lowain_Bros": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 2 turns ",
                 "duration": {
@@ -27051,7 +27051,7 @@
         ]
     },
     "Thelonim": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 10 turns9 turns ",
                 "duration": {},
@@ -27075,6 +27075,50 @@
         ]
     },
     "Therese": {
+        "BASE": [
+            {
+                "cooldown": " 10 turns9 turns ",
+                "duration": {
+                    "3": [
+                        "[Status Duel.png] **Duel**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Certamen",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "Gain [Status Duel.png] **Duel** (Boost to double attack rate and hostility / Sharp boost to dodge rate)."
+                ]
+            },
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "2": [
+                        "[Status TripleUp.png] **100% TA Up**",
+                        "[Status Bonus Damage.png] **80% Bonus Fire DMG**"
+                    ],
+                    "Indefinite": [
+                        "[Status Max HP Down Stack.png] **10% Max HP Lowered (Stackable)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Indicum",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Gain [Status TripleUp.png] **100% TA Up** and [Status Bonus Damage.png] **80% Bonus Fire DMG**. Self-inflict [Status Max HP Down Stack.png] **10% Max HP Lowered (Stackable)**."
+                ]
+            },
+            {
+                "cooldown": " 7 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Caerula Gladius",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Fire damage to a foe (Damage cap: ~700,000). Reset cooldowns for Therese's other skills."
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "cooldown": " 6 turns ",
@@ -27148,50 +27192,6 @@
                 "obtain": " Lvl 35 ",
                 "text": [
                     "350%-400% Fire damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 10 turns9 turns ",
-                "duration": {
-                    "3": [
-                        "[Status Duel.png] **Duel**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Certamen",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "Gain [Status Duel.png] **Duel** (Boost to double attack rate and hostility / Sharp boost to dodge rate)."
-                ]
-            },
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "2": [
-                        "[Status TripleUp.png] **100% TA Up**",
-                        "[Status Bonus Damage.png] **80% Bonus Fire DMG**"
-                    ],
-                    "Indefinite": [
-                        "[Status Max HP Down Stack.png] **10% Max HP Lowered (Stackable)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Indicum",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Gain [Status TripleUp.png] **100% TA Up** and [Status Bonus Damage.png] **80% Bonus Fire DMG**. Self-inflict [Status Max HP Down Stack.png] **10% Max HP Lowered (Stackable)**."
-                ]
-            },
-            {
-                "cooldown": " 7 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Caerula Gladius",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Fire damage to a foe (Damage cap: ~700,000). Reset cooldowns for Therese's other skills."
                 ]
             }
         ]
@@ -27519,7 +27519,7 @@
         ]
     },
     "Tsubasa_Kashiwagi": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 5 turns ",
                 "duration": {
@@ -27633,7 +27633,7 @@
         ]
     },
     "Tyre": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -27712,7 +27712,7 @@
         ]
     },
     "T\u014dru_Amuro": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -27751,7 +27751,7 @@
         ]
     },
     "Ulamnuran": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {
@@ -27794,7 +27794,7 @@
         ]
     },
     "Uzuki_Shimamura": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {
@@ -27909,6 +27909,53 @@
         ]
     },
     "Vane": {
+        "BASE": [
+            {
+                "cooldown": " 7 turns6 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Heroic Beat",
+                "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 90 ",
+                "text": [
+                    "400% Water damage to a foe (Damage cap: ~420,000). Restore caster's HP (Healing cap: 1500). Damage increased to 500%. Damage cap increased to ~500,000. Healing cap increased to 2500. Also remove 1 debuff from caster."
+                ]
+            },
+            {
+                "cooldown": " 4 turns3 turns ",
+                "duration": {
+                    "1": [
+                        "[Status DefenseUp.png] **100% DEF Up**",
+                        "[Status Substitute.png] **Substitute (All-Ally)**",
+                        "[Status Lethal Attack Dodged.png] **Lethal Attack Dodged (1 time)**"
+                    ],
+                    "8": [
+                        "[Status Jammed.png] **Jammed**",
+                        "[Status AggroUpArrow.png] **Hostility Up (Stackable)**",
+                        "[Status AggroUpArrow.png] **Hostility Up (Stackable)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "BreakthroughAt level 100:One for All",
+                "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
+                "text": [
+                    "Gain [Status Jammed.png] **Jammed** and [Status AggroUpArrow.png] **Hostility Up (Stackable)**. No longer gain [Status AggroUpArrow.png] **Hostility Up (Stackable)**. Also gain [Status DefenseUp.png] **100% DEF Up**, [Status Substitute.png] **Substitute (All-Ally)**, and [Status Lethal Attack Dodged.png] **Lethal Attack Dodged (1 time)**."
+                ]
+            },
+            {
+                "cooldown": " 15 turns ",
+                "duration": {
+                    "5": [
+                        "[Status Soul Eruption.png] **Soul Eruption**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Soul Eruption",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Fully restore caster's HP and remove all debuffs. Gain [Status Soul Eruption.png] **Soul Eruption**. (Can only be used when below 25% HP. Consumes all of charge bar. )"
+                ]
+            }
+        ],
         "DUO": [
             {
                 "cooldown": " 6 turns5 turns ",
@@ -28037,57 +28084,10 @@
                     "All allies gain [Status Repel.png] **30% Repel (3 times)**."
                 ]
             }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 7 turns6 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Heroic Beat",
-                "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 90 ",
-                "text": [
-                    "400% Water damage to a foe (Damage cap: ~420,000). Restore caster's HP (Healing cap: 1500). Damage increased to 500%. Damage cap increased to ~500,000. Healing cap increased to 2500. Also remove 1 debuff from caster."
-                ]
-            },
-            {
-                "cooldown": " 4 turns3 turns ",
-                "duration": {
-                    "1": [
-                        "[Status DefenseUp.png] **100% DEF Up**",
-                        "[Status Substitute.png] **Substitute (All-Ally)**",
-                        "[Status Lethal Attack Dodged.png] **Lethal Attack Dodged (1 time)**"
-                    ],
-                    "8": [
-                        "[Status Jammed.png] **Jammed**",
-                        "[Status AggroUpArrow.png] **Hostility Up (Stackable)**",
-                        "[Status AggroUpArrow.png] **Hostility Up (Stackable)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "BreakthroughAt level 100:One for All",
-                "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
-                "text": [
-                    "Gain [Status Jammed.png] **Jammed** and [Status AggroUpArrow.png] **Hostility Up (Stackable)**. No longer gain [Status AggroUpArrow.png] **Hostility Up (Stackable)**. Also gain [Status DefenseUp.png] **100% DEF Up**, [Status Substitute.png] **Substitute (All-Ally)**, and [Status Lethal Attack Dodged.png] **Lethal Attack Dodged (1 time)**."
-                ]
-            },
-            {
-                "cooldown": " 15 turns ",
-                "duration": {
-                    "5": [
-                        "[Status Soul Eruption.png] **Soul Eruption**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Soul Eruption",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Fully restore caster's HP and remove all debuffs. Gain [Status Soul Eruption.png] **Soul Eruption**. (Can only be used when below 25% HP. Consumes all of charge bar. )"
-                ]
-            }
         ]
     },
     "Vane_(Summer)": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " Linked Skill:4 turns ",
                 "duration": {
@@ -28279,7 +28279,7 @@
         ]
     },
     "Vanzza": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns6 turns ",
                 "duration": {
@@ -28488,7 +28488,7 @@
         ]
     },
     "Vaseraga_(Halloween)": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " Linked Skill:9 turns ",
                 "duration": {
@@ -28581,7 +28581,7 @@
         ]
     },
     "Vermeil": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -28657,7 +28657,7 @@
         ]
     },
     "Viceroy": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 4 turns3 turns ",
                 "duration": {
@@ -28760,6 +28760,74 @@
         ]
     },
     "Vira": {
+        "BASE": [
+            {
+                "cooldown": " 5 turns4 turns ",
+                "duration": {
+                    "180": [
+                        "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**",
+                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
+                    ],
+                    "Indefinite": [
+                        "[Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)**",
+                        "[Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 30%)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Layer Rise II",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)** on a foe. Gain [Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)** and [Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 30%)**."
+                ]
+            },
+            {
+                "cooldown": " 9 turns8 turns ",
+                "duration": {
+                    "1": [
+                        "[Status TripleUp.png] **Guaranteed TA**"
+                    ],
+                    "2": [
+                        "[Status TripleUp.png] **Guaranteed TA**"
+                    ],
+                    "Indefinite": [
+                        "[Status Veil.png] **Veil**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Evening Existence",
+                "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
+                "text": [
+                    "All allies gain [Status Veil.png] **Veil**. Vira gains [Status TripleUp.png] **Guaranteed TA**. [Status TripleUp.png] **Guaranteed TA**'s duration increased to 2 turns."
+                ]
+            },
+            {
+                "cooldown": " 6 turns ",
+                "duration": {
+                    "180": [
+                        "[Status LightAtkDown.png] **10% Light ATK Down**",
+                        "[Status DarkAtkDown.png] **10% Dark ATK Down**",
+                        "[Status LightResDown.png] **15% Light DEF Down**",
+                        "[Status DarkResDown.png] **15% Dark DEF Down**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Affection Oath",
+                "obtain": " Lvl 45\u21e7 Lvl 95 ",
+                "text": [
+                    "300%-400% Dark damage and Light damage to a foe (Damage cap: Dark ~630,000; Light ~300,000). Restore caster's HP based on 50% of damage dealt (Healing cap: 1500). Also inflict [Status LightAtkDown.png] **10% Light ATK Down**, [Status DarkAtkDown.png] **10% Dark ATK Down**, [Status LightResDown.png] **15% Light DEF Down**, and [Status DarkResDown.png] **15% Dark DEF Down**. Healing cap increased to 3000."
+                ]
+            },
+            {
+                "cooldown": " 13 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Luminiera Merge",
+                "obtain": " Lvl 90 ",
+                "text": [
+                    "Gain Light-element qualities. (Consumes 50% of charge bar. )"
+                ]
+            }
+        ],
         "DUO": [
             {
                 "cooldown": " 9 turns8 turns ",
@@ -28925,74 +28993,6 @@
                 ]
             }
         ],
-        "SSR": [
-            {
-                "cooldown": " 5 turns4 turns ",
-                "duration": {
-                    "180": [
-                        "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**",
-                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
-                    ],
-                    "Indefinite": [
-                        "[Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)**",
-                        "[Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 30%)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Layer Rise II",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)** on a foe. Gain [Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)** and [Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 30%)**."
-                ]
-            },
-            {
-                "cooldown": " 9 turns8 turns ",
-                "duration": {
-                    "1": [
-                        "[Status TripleUp.png] **Guaranteed TA**"
-                    ],
-                    "2": [
-                        "[Status TripleUp.png] **Guaranteed TA**"
-                    ],
-                    "Indefinite": [
-                        "[Status Veil.png] **Veil**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Evening Existence",
-                "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
-                "text": [
-                    "All allies gain [Status Veil.png] **Veil**. Vira gains [Status TripleUp.png] **Guaranteed TA**. [Status TripleUp.png] **Guaranteed TA**'s duration increased to 2 turns."
-                ]
-            },
-            {
-                "cooldown": " 6 turns ",
-                "duration": {
-                    "180": [
-                        "[Status LightAtkDown.png] **10% Light ATK Down**",
-                        "[Status DarkAtkDown.png] **10% Dark ATK Down**",
-                        "[Status LightResDown.png] **15% Light DEF Down**",
-                        "[Status DarkResDown.png] **15% Dark DEF Down**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Affection Oath",
-                "obtain": " Lvl 45\u21e7 Lvl 95 ",
-                "text": [
-                    "300%-400% Dark damage and Light damage to a foe (Damage cap: Dark ~630,000; Light ~300,000). Restore caster's HP based on 50% of damage dealt (Healing cap: 1500). Also inflict [Status LightAtkDown.png] **10% Light ATK Down**, [Status DarkAtkDown.png] **10% Dark ATK Down**, [Status LightResDown.png] **15% Light DEF Down**, and [Status DarkResDown.png] **15% Dark DEF Down**. Healing cap increased to 3000."
-                ]
-            },
-            {
-                "cooldown": " 13 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Luminiera Merge",
-                "obtain": " Lvl 90 ",
-                "text": [
-                    "Gain Light-element qualities. (Consumes 50% of charge bar. )"
-                ]
-            }
-        ],
         "SUMMER": [
             {
                 "cooldown": " 7 turns6 turns ",
@@ -29084,7 +29084,7 @@
         ]
     },
     "Volenna": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 5 turns4 turns ",
                 "duration": {},
@@ -29158,7 +29158,7 @@
         ]
     },
     "Walder": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -29336,7 +29336,7 @@
         ]
     },
     "Will": {
-        "R": [
+        "BASE": [
             {
                 "cooldown": " 8 turns7 turns ",
                 "duration": {
@@ -29405,7 +29405,7 @@
         ]
     },
     "Wulf": {
-        "DUO": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -29453,7 +29453,7 @@
         ]
     },
     "Yaia": {
-        "HOLIDAY": [
+        "BASE": [
             {
                 "cooldown": " 7 turns ",
                 "duration": {
@@ -29549,7 +29549,7 @@
         ]
     },
     "Yamanbagiri_Kunihiro": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -29706,33 +29706,7 @@
         ]
     },
     "Yodarha": {
-        "R": [
-            {
-                "cooldown": " 6 turns5 turns ",
-                "duration": {
-                    "180": [
-                        "[Status AttackDown.png] **15% ATK Down**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Sea Sage",
-                "obtain": " Lvl 1\u21e7 Lvl 45 ",
-                "text": [
-                    "Water damage to a foe. Inflict [Status AttackDown.png] **15% ATK Down**. Effect enhanced."
-                ]
-            },
-            {
-                "cooldown": " 5 turns ",
-                "duration": {},
-                "icon": "WIP",
-                "name": "Empty Myst",
-                "obtain": " Lvl 25 ",
-                "text": [
-                    "Inflict **Mode Bar Cut** on a foe in Overdrive."
-                ]
-            }
-        ],
-        "SSR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {},
@@ -29766,6 +29740,32 @@
                 "obtain": " Lvl 45 ",
                 "text": [
                     "Restore 3 [Status TripleShroud1.png] **Triple Shrouded**."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "cooldown": " 6 turns5 turns ",
+                "duration": {
+                    "180": [
+                        "[Status AttackDown.png] **15% ATK Down**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Sea Sage",
+                "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                "text": [
+                    "Water damage to a foe. Inflict [Status AttackDown.png] **15% ATK Down**. Effect enhanced."
+                ]
+            },
+            {
+                "cooldown": " 5 turns ",
+                "duration": {},
+                "icon": "WIP",
+                "name": "Empty Myst",
+                "obtain": " Lvl 25 ",
+                "text": [
+                    "Inflict **Mode Bar Cut** on a foe in Overdrive."
                 ]
             }
         ],
@@ -29818,7 +29818,7 @@
         ]
     },
     "You": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -29865,7 +29865,7 @@
         ]
     },
     "Young_Cat": {
-        "EVENT": [
+        "BASE": [
             {
                 "cooldown": " 12 turns10 turns ",
                 "duration": {},
@@ -30260,7 +30260,7 @@
         ]
     },
     "Yuri_Lowell": {
-        "SR": [
+        "BASE": [
             {
                 "cooldown": " 6 turns5 turns ",
                 "duration": {
@@ -30392,7 +30392,7 @@
         ]
     },
     "Zaja": {
-        "HALLOWEEN": [
+        "BASE": [
             {
                 "cooldown": " 7 turns6 turns ",
                 "duration": {},
@@ -30480,6 +30480,59 @@
         ]
     },
     "Zehek": {
+        "BASE": [
+            {
+                "cooldown": " 5 turns4 turns ",
+                "duration": {
+                    "180": [
+                        "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)**",
+                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**"
+                    ],
+                    "3": [
+                        "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)**",
+                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Blade of Evil's Seal",
+                "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                "text": [
+                    "4-hit, 100% Dark damage to a foe (Damage cap: ~80,000 per hit). Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**. Self-inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**. (When [Status 7057.png] **Magic Pulse** lvl is 5: Damage increased to 150% and damage cap increased to ~140,000 per hit. )"
+                ]
+            },
+            {
+                "cooldown": " 5 turns4 turns ",
+                "duration": {
+                    "3": [
+                        "[Status Blind.png] **Blinded**",
+                        "[Status Shorted.png] **Shorted**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Demonsbane",
+                "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                "text": [
+                    "Remove 2 buffs from a foe. Self-inflict debuffs in order based on number of buffs removed: [Status Blind.png] **Blinded**, [Status Shorted.png] **Shorted**."
+                ]
+            },
+            {
+                "cooldown": " 12 turns ",
+                "duration": {
+                    "180": [
+                        "[Status Gravity.png] **Gravity**"
+                    ],
+                    "5": [
+                        "[Status 7056.png] **Bestial**"
+                    ]
+                },
+                "icon": "WIP",
+                "name": "Connotation Bestial",
+                "obtain": " Lvl 45 ",
+                "text": [
+                    "Inflict [Status Gravity.png] **Gravity** on a foe. All allies gain [Status 7056.png] **Bestial**."
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "cooldown": " 7 turns6 turns ",
@@ -30542,59 +30595,6 @@
                 "obtain": " Lvl 25 ",
                 "text": [
                     "Medium Dark damage to a foe."
-                ]
-            }
-        ],
-        "SSR": [
-            {
-                "cooldown": " 5 turns4 turns ",
-                "duration": {
-                    "180": [
-                        "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)**",
-                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**"
-                    ],
-                    "3": [
-                        "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)**",
-                        "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Blade of Evil's Seal",
-                "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                "text": [
-                    "4-hit, 100% Dark damage to a foe (Damage cap: ~80,000 per hit). Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**. Self-inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**. (When [Status 7057.png] **Magic Pulse** lvl is 5: Damage increased to 150% and damage cap increased to ~140,000 per hit. )"
-                ]
-            },
-            {
-                "cooldown": " 5 turns4 turns ",
-                "duration": {
-                    "3": [
-                        "[Status Blind.png] **Blinded**",
-                        "[Status Shorted.png] **Shorted**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Demonsbane",
-                "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                "text": [
-                    "Remove 2 buffs from a foe. Self-inflict debuffs in order based on number of buffs removed: [Status Blind.png] **Blinded**, [Status Shorted.png] **Shorted**."
-                ]
-            },
-            {
-                "cooldown": " 12 turns ",
-                "duration": {
-                    "180": [
-                        "[Status Gravity.png] **Gravity**"
-                    ],
-                    "5": [
-                        "[Status 7056.png] **Bestial**"
-                    ]
-                },
-                "icon": "WIP",
-                "name": "Connotation Bestial",
-                "obtain": " Lvl 45 ",
-                "text": [
-                    "Inflict [Status Gravity.png] **Gravity** on a foe. All allies gain [Status 7056.png] **Bestial**."
                 ]
             }
         ]
