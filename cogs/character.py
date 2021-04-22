@@ -91,6 +91,7 @@ class Character(commands.Cog):
         embedList.append(mainEmbed)
 
         embedList.append(await self.ougi(ctx, name, version, uncap, noShow=True))
+        embedList.extend(await self.skill(ctx, name, version, uncap, noShow=True))
         embedList.extend(await self.support(ctx, name, version, uncap, noShow=True))
 
         paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
@@ -134,6 +135,38 @@ class Character(commands.Cog):
             return ougiEmbed
         else:
             await ctx.send(embed=ougiEmbed)
+
+    @char.command()
+    async def skill(self, ctx, name, version=None, uncap='6', noShow=False):
+        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
+        if not name:
+            await ctx.send('Character not found!')
+            return
+        charVersion = self.skills[name][version]
+
+        embedList = []
+        for skillList in charVersion:
+            if len(skillList) == 0: continue
+
+            skillEmbed = discord.Embed(title='Skill')
+            for skill in skillList:
+                skillEmbed.add_field(name=skill['name'], value='\n'.join(skill['text']), inline=False)
+                #skillEmbed.set_thumbnail(url=f'{skillList["thumbnail"]}')
+                skillEmbed.set_image(url=self.chars[name][version]['image'])
+                
+            embedList.append(skillEmbed)
+
+        if noShow:
+            return embedList
+        else:
+            paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
+            paginator.add_reaction('⏮️', "first")
+            paginator.add_reaction('⏪', "back")
+            paginator.add_reaction('🔐', "lock")
+            paginator.add_reaction('⏩', "next")
+            paginator.add_reaction('⏭️', "last")
+
+            await paginator.run(embedList)
 
     @char.command()
     async def support(self, ctx, name :str, version=None, uncap='6', noShow=False):
@@ -244,6 +277,40 @@ class Character(commands.Cog):
         shutil.rmtree('cache/emp/char', ignore_errors=True)
         await ctx.send('Removed charcter emp caches.')
 
+    @char.command()
+    async def art(self, ctx, name, version=None):
+        name, version, uncap = self.getCharVersion(ctx, name, version)
+        if not name:
+            await ctx.send('Character not found!')
+            return
+        charVersion = self.chars[name][version]
+        charId = charVersion['id']
+        maxVersion = 2
+        if charVersion['max_evo'] == '5':
+            maxVersion = 3
+        elif charVersion['max_evo'] == '6':
+            maxVersion = 4
+        embedList = []
+
+        for i in range(maxVersion):
+            embed = discord.Embed()
+            embed.set_image(url=f'http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/{charId}_0{i+1}.png')
+            embedList.append(embed)
+
+        paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
+        paginator.add_reaction('⏮️', "first")
+        paginator.add_reaction('⏪', "back")
+        paginator.add_reaction('🔐', "lock")
+        paginator.add_reaction('⏩', "next")
+        paginator.add_reaction('⏭️', "last")
+
+        await paginator.run(embedList)
+
+    @char.group()
+    async def search(self, ctx):
+        if ctx.invoked_subcommand is None:
+            await ctx.send('No search term specified.')
+
     @char.group()
     async def alias(self, ctx):
         if ctx.invoked_subcommand is None:
@@ -293,6 +360,55 @@ class Character(commands.Cog):
                         await ctx.send('Alias already existed.')
                 else:
                     await ctx.send(f'Version *{version.title()}* not found for the character *{name.title()}*.')
+
+    @alias.command()
+    async def remove(self, ctx, alias):
+        import sqlite3
+        from contextlib import closing
+        
+        connection = sqlite3.connect('db/kolulu.db')
+        with closing(connection) as db:
+            cursor = db.cursor()
+            statement = 'DELETE FROM alt_names WHERE server_id=? and alt_name=?'
+            statement2 = 'DELETE FROM aliases WHERE server_id=? and alias_name=?'
+
+            input = (ctx.guild.id, alias.lower())
+            cursor.execute(statement, input)
+            cursor.execute(statement2, input)
+            db.commit()
+        await ctx.send(f'Alias **{alias}** deleted.')
+
+    @alias.command()
+    async def list(self, ctx, name, version=None):
+        import sqlite3
+        from contextlib import closing
+
+        if version:
+            version = version.upper()
+        name, version, uncap = self.getCharVersion(ctx, name, version)
+        if not name:
+            await ctx.send('Character not found!')
+            return
+        
+        connection = sqlite3.connect('db/kolulu.db')
+        with closing(connection) as db:
+            if version == 'BASE':
+                statement = 'SELECT alt_name FROM alt_names WHERE server_id=? AND char_name=?'
+                input = (ctx.guild.id, name)
+            else:
+                statement = 'SELECT alias_name FROM aliases WHERE server_id=? AND char_name=? AND char_version=?'
+                input = (ctx.guild.id, name, version.lower())
+
+            cursor = db.cursor()
+            cursor.execute(statement, input)
+            results = cursor.fetchall()
+            if len(results) == 0:
+                await ctx.send(f'No alias found for character **{name.title()} ({version.title()})**')
+            else:
+                results = sorted(list(zip(*results))[0])
+                msg = f'Aliases for **{name.title()} ({version.title()})**:\n'
+                msg += '\n'.join(results)
+                await ctx.send(msg)
 
     def getCharVersion(self, ctx, name, version='BASE', uncap='6'):
         name = name.lower()
