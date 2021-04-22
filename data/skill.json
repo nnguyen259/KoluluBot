@@ -5185,6 +5185,54 @@
             [
                 {
                     "cooldown": " 6 turns5 turns ",
+                    "duration": {},
+                    "icon": "WIP",
+                    "name": "Differential",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "8-hit, 100% Dark damage to random foes (Damage cap: 65,000 per hit). Remove 1 buff from all foes."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {
+                        "180": [
+                            "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**",
+                            "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Ricordemeia",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "400% Dark damage to all foes (Damage cap: ~600,000). Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "5": [
+                            "[Status Heal.png] **Refresh**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Overclock",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "Gain [Status Heal.png] **Refresh**. End cooldown for other skills."
+                    ]
+                }
+            ],
+            []
+        ],
+        "EVENT": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
                     "duration": {
                         "2": [
                             "[Status Counter.png] **Counters on Dodge (2 times)**"
@@ -5227,54 +5275,6 @@
                     "obtain": " Lvl 35 ",
                     "text": [
                         "Gain [Status AttackUp.png] **30% ATK Up**. End cooldown for Integrate and Long Stride."
-                    ]
-                }
-            ],
-            []
-        ],
-        "EVENT_SSR": [
-            [
-                {
-                    "cooldown": " 6 turns5 turns ",
-                    "duration": {},
-                    "icon": "WIP",
-                    "name": "Differential",
-                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                    "text": [
-                        "8-hit, 100% Dark damage to random foes (Damage cap: 65,000 per hit). Remove 1 buff from all foes."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 7 turns6 turns ",
-                    "duration": {
-                        "180": [
-                            "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**",
-                            "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Ricordemeia",
-                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                    "text": [
-                        "400% Dark damage to all foes (Damage cap: ~600,000). Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 7 turns ",
-                    "duration": {
-                        "5": [
-                            "[Status Heal.png] **Refresh**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Overclock",
-                    "obtain": " Lvl 45 ",
-                    "text": [
-                        "Gain [Status Heal.png] **Refresh**. End cooldown for other skills."
                     ]
                 }
             ],
@@ -10003,7 +10003,7 @@
                     "name": "Die Umkehrung",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "Grant [Status Freigeist.png] **Freigeist** to another Dark ally. (When cast from 10th turn onward: Target also gains [Status Routine Step.png] **Tri-Slash** for 1 turn. )"
+                        "Grant [Status Freigeist.png] **Freigeist** to another Dark ally. (From 10th turn onward: Target also gains [Status Routine Step.png] **Tri-Slash** for 1 turn. )"
                     ]
                 }
             ],
@@ -13790,6 +13790,60 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "3": [
+                            "[Status Godsend Trigger.png] **Godsend Trigger**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Pflegeschuss",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "Earth damage to all foes (Damage cap: ~480,000). Restore 20% of all allies' HP (Healing cap: 800). Jessica gains [Status Godsend Trigger.png] **Godsend Trigger**."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {
+                        "3": [
+                            "[Status Feuerwerk.png] **Feuerwerk**",
+                            "[Status DebuffSuccessUp.png] **10% Debuff Success Boosted**",
+                            "[Status DmgUp.png] **Supplemental DMG**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Feuerwerk",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "All allies gain [Status Feuerwerk.png] **Feuerwerk** and [Status DebuffSuccessUp.png] **10% Debuff Success Boosted**. When [Status Fire Support.png] **Fire Support** lvl is 1 or higher: All allies also gain [Status DmgUp.png] **Supplemental DMG**."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "Indefinite": [
+                            "[Status Shield.png] **Shield**",
+                            "[Status Bonus Damage.png] **30% Bonus Earth DMG**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Aussenseiter",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "Grant an Earth ally a [Status Shield.png] **Shield** worth 70% of caster's max HP (Max: 4000) and [Status Bonus Damage.png] **30% Bonus Earth DMG**. (Bonus Earth DMG effect ends upon taking damage. )"
+                    ]
+                }
+            ],
+            []
+        ],
+        "EVENT": [
+            [
+                {
                     "cooldown": " 6 turns ",
                     "duration": {},
                     "icon": "WIP",
@@ -13934,60 +13988,6 @@
                     "obtain": " Lvl 35 ",
                     "text": [
                         "Fire damage to a foe and inflict [Status Charm.png] **Charmed**."
-                    ]
-                }
-            ],
-            []
-        ],
-        "YUKATA": [
-            [
-                {
-                    "cooldown": " 8 turns7 turns ",
-                    "duration": {
-                        "3": [
-                            "[Status Godsend Trigger.png] **Godsend Trigger**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Pflegeschuss",
-                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                    "text": [
-                        "Earth damage to all foes (Damage cap: ~480,000). Restore 20% of all allies' HP (Healing cap: 800). Jessica gains [Status Godsend Trigger.png] **Godsend Trigger**."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 7 turns6 turns ",
-                    "duration": {
-                        "3": [
-                            "[Status Feuerwerk.png] **Feuerwerk**",
-                            "[Status DebuffSuccessUp.png] **10% Debuff Success Boosted**",
-                            "[Status DmgUp.png] **Supplemental DMG**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Feuerwerk",
-                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                    "text": [
-                        "All allies gain [Status Feuerwerk.png] **Feuerwerk** and [Status DebuffSuccessUp.png] **10% Debuff Success Boosted**. When [Status Fire Support.png] **Fire Support** lvl is 1 or higher: All allies also gain [Status DmgUp.png] **Supplemental DMG**."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 7 turns ",
-                    "duration": {
-                        "Indefinite": [
-                            "[Status Shield.png] **Shield**",
-                            "[Status Bonus Damage.png] **30% Bonus Earth DMG**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Aussenseiter",
-                    "obtain": " Lvl 45 ",
-                    "text": [
-                        "Grant an Earth ally a [Status Shield.png] **Shield** worth 70% of caster's max HP (Max: 4000) and [Status Bonus Damage.png] **30% Bonus Earth DMG**. (Bonus Earth DMG effect ends upon taking damage. )"
                     ]
                 }
             ],
@@ -20024,6 +20024,59 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {
+                        "180": [
+                            "[Status DefenseDown.png] **15% DEF Down**",
+                            "[Status WindResDown.png] **20% Wind DEF Down**",
+                            "[Status DebuffResDown.png] **10% Debuff Res. Down**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Hull Breacher II",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "3-hit, 100%-150% Wind damage to a foe (Damage cap: ~210,000 per hit). Inflict [Status DefenseDown.png] **15% DEF Down**, [Status WindResDown.png] **20% Wind DEF Down**, and [Status DebuffResDown.png] **10% Debuff Res. Down**."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "Indefinite": [
+                            "[Status Dodge 1.png] **Dodge All (1 time)**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Mirage Dive",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "Gain [Status Dodge 1.png] **Dodge All (1 time)**. Instantly perform a normal attack without using up a turn."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 10 turns ",
+                    "duration": {
+                        "5": [
+                            "[Status Nitro Boost.png] **Nitro Boost**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Nitro Boost",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "Gain [Status Nitro Boost.png] **Nitro Boost**. (Consumes 2 [Status Comet 1.png] **Comet** lvls. )"
+                    ]
+                }
+            ],
+            []
+        ],
+        "EVENT": [
+            [
+                {
                     "cooldown": " 7 turns ",
                     "duration": {
                         "180": [
@@ -20072,59 +20125,6 @@
                     "obtain": " Lvl 35 ",
                     "text": [
                         "400% Wind damage to a foe. Inflict [Status AttackDown.png] **15% ATK Down** and [Status DoubleDown.png] **DA Down**."
-                    ]
-                }
-            ],
-            []
-        ],
-        "HOLIDAY": [
-            [
-                {
-                    "cooldown": " 7 turns6 turns ",
-                    "duration": {
-                        "180": [
-                            "[Status DefenseDown.png] **15% DEF Down**",
-                            "[Status WindResDown.png] **20% Wind DEF Down**",
-                            "[Status DebuffResDown.png] **10% Debuff Res. Down**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Hull Breacher II",
-                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                    "text": [
-                        "3-hit, 100%-150% Wind damage to a foe (Damage cap: ~210,000 per hit). Inflict [Status DefenseDown.png] **15% DEF Down**, [Status WindResDown.png] **20% Wind DEF Down**, and [Status DebuffResDown.png] **10% Debuff Res. Down**."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 8 turns7 turns ",
-                    "duration": {
-                        "Indefinite": [
-                            "[Status Dodge 1.png] **Dodge All (1 time)**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Mirage Dive",
-                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                    "text": [
-                        "Gain [Status Dodge 1.png] **Dodge All (1 time)**. Instantly perform a normal attack without using up a turn."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 10 turns ",
-                    "duration": {
-                        "5": [
-                            "[Status Nitro Boost.png] **Nitro Boost**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Nitro Boost",
-                    "obtain": " Lvl 45 ",
-                    "text": [
-                        "Gain [Status Nitro Boost.png] **Nitro Boost**. (Consumes 2 [Status Comet 1.png] **Comet** lvls. )"
                     ]
                 }
             ],
@@ -20638,6 +20638,55 @@
         "BASE": [
             [
                 {
+                    "cooldown": " - ",
+                    "duration": {},
+                    "icon": "WIP",
+                    "name": "Ocean Reveille",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "All Fire allies gain [Status Uplift.png] **Charge Bar +50%**. (Can't recast. )Effect increased to [Status Uplift.png] **Charge Bar +70%**."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " - ",
+                    "duration": {
+                        "1": [
+                            "[Status Defiance.png] **20% ATK Up (1 time)**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Beachside Bugle",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "All Fire allies gain [Status Defiance.png] **20% ATK Up (1 time)**. (Can't recast. )"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " - ",
+                    "duration": {
+                        "Indefinite": [
+                            "[Status Shield.png] **Shield (7000)**",
+                            "[Status Veil.png] **Veil**",
+                            "[Status Dispel Cancel.png] **Dispel Cancel**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Brazen Gleam",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "All Fire allies gain [Status Shield.png] **Shield (7000)**, [Status Veil.png] **Veil**, and [Status Dispel Cancel.png] **Dispel Cancel**. (Can't recast. )"
+                    ]
+                }
+            ],
+            []
+        ],
+        "DUO": [
+            [
+                {
                     "cooldown": " 6 turns5 turns ",
                     "duration": {
                         "3": [
@@ -20727,55 +20776,6 @@
                     "obtain": " Lvl 35 ",
                     "text": [
                         "Inflict [Status Lock.png] **Break Boosted (Time)** on a foe."
-                    ]
-                }
-            ],
-            []
-        ],
-        "SUMMER": [
-            [
-                {
-                    "cooldown": " - ",
-                    "duration": {},
-                    "icon": "WIP",
-                    "name": "Ocean Reveille",
-                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                    "text": [
-                        "All Fire allies gain [Status Uplift.png] **Charge Bar +50%**. (Can't recast. )Effect increased to [Status Uplift.png] **Charge Bar +70%**."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " - ",
-                    "duration": {
-                        "1": [
-                            "[Status Defiance.png] **20% ATK Up (1 time)**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Beachside Bugle",
-                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                    "text": [
-                        "All Fire allies gain [Status Defiance.png] **20% ATK Up (1 time)**. (Can't recast. )"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " - ",
-                    "duration": {
-                        "Indefinite": [
-                            "[Status Shield.png] **Shield (7000)**",
-                            "[Status Veil.png] **Veil**",
-                            "[Status Dispel Cancel.png] **Dispel Cancel**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Brazen Gleam",
-                    "obtain": " Lvl 45 ",
-                    "text": [
-                        "All Fire allies gain [Status Shield.png] **Shield (7000)**, [Status Veil.png] **Veil**, and [Status Dispel Cancel.png] **Dispel Cancel**. (Can't recast. )"
                     ]
                 }
             ],
@@ -22861,6 +22861,59 @@
                     "obtain": " Lvl 35 ",
                     "text": [
                         "Gain [Status TripleUp.png] **100% TA Up**. Self-inflict [Status DefenseDown.png] **DEF Down**."
+                    ]
+                }
+            ],
+            []
+        ]
+    },
+    "Nezha": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 10 turns9 turns ",
+                    "duration": {},
+                    "icon": "WIP",
+                    "name": "Flashfire Gale",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "600% Wind and 800% Fire damage to a foe (Damage cap: Wind ~630,000; Fire ~830,000). Gain [Status Uplift.png] **Charge Bar +30%**. Restore 20% of caster's HP (Healing cap: 3000)."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 10 turns9 turns ",
+                    "duration": {
+                        "3": [
+                            "[Status WindAtkUp.png] **70% Wind ATK Up**",
+                            "[Status FireAtkUp.png] **70% Fire ATK Up**",
+                            "[Status Fire Cut 20.png] **20% Fire Cut**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Tailwind Kindle",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "All allies gain [Status WindAtkUp.png] **70% Wind ATK Up**, [Status FireAtkUp.png] **70% Fire ATK Up**, and [Status Fire Cut 20.png] **20% Fire Cut**."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "180": [
+                            "[Status DefenseDown.png] **15% DEF Down**",
+                            "[Status WindResDown.png] **25% Wind DEF Down**",
+                            "[Status FireResDown.png] **25% Fire DEF Down**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Soar the Heavens",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "Inflict [Status DefenseDown.png] **15% DEF Down**, [Status WindResDown.png] **25% Wind DEF Down**, and [Status FireResDown.png] **25% Fire DEF Down** on all foes."
                     ]
                 }
             ],
@@ -28685,6 +28738,61 @@
             []
         ]
     },
+    "Shion": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "180": [
+                            "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)**",
+                            "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**"
+                        ],
+                        "Indefinite": [
+                            "[Status DA Up Stack.png] **15% DA Up (Stackable / Max: 60%)**",
+                            "[Status TA Up Stack.png] **5% TA Up (Stackable / Max: 20%)**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Tea Stalk Garden",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "400% Fire damage to a foe (Damage cap: ~630,000). Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 40%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 40%)**. Gain [Status DA Up Stack.png] **15% DA Up (Stackable / Max: 60%)** and [Status TA Up Stack.png] **5% TA Up (Stackable / Max: 20%)**."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 14 turns12 turns ",
+                    "duration": {},
+                    "icon": "WIP",
+                    "name": "Tempura Flurry",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "300% Fire damage to a foe (Damage cap: ~350,000). Gain [Status Uplift.png] **Charge Bar +20%**. (Number of activations increased based on number of katana-specialty allies in party [Max: 6]. )"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "2": [
+                            "[Status TripleUp.png] **Guaranteed TA**",
+                            "[Status Routine Step.png] **Double Strike**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Sushi Buffet",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "400% Fire damage to a foe (Damage cap: ~630,000). Gain [Status TripleUp.png] **Guaranteed TA**. (Consumes 50% of charge bar to also gain [Status Routine Step.png] **Double Strike**. )"
+                    ]
+                }
+            ],
+            []
+        ]
+    },
     "Shitori": {
         "BASE": [
             [
@@ -31016,52 +31124,6 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 6 turns ",
-                    "duration": {},
-                    "icon": "WIP",
-                    "name": "Light of Purification",
-                    "obtain": " Lvl 1\u21e7 Lvl 45 \u21ee Lvl 80 ",
-                    "text": [
-                        "Restore all allies' HP (Healing cap: 800). Healing cap increased to 1200 HP. Healing cap increased to 1500 HP. Also remove 1 debuff from all allies."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 7 turns ",
-                    "duration": {},
-                    "icon": "WIP",
-                    "name": "Non-Stop Fire",
-                    "obtain": " Lvl 1\u21e7 Lvl 65 \u21ee Lvl 90 ",
-                    "text": [
-                        "Fire damage to a foe. Bonus Dark damage against [Status Blind.png] **Blinded** foes. Damage increased. Also deal bonus Fire damage against [Status Burned.png] **Burned** foes."
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 7 turns ",
-                    "duration": {
-                        "180": [
-                            "[Status Burned.png] **Burned**"
-                        ],
-                        "3": [
-                            "[Status FireAtkUp.png] **Fire ATK Up**"
-                        ]
-                    },
-                    "icon": "WIP",
-                    "name": "Prism Flower Ring",
-                    "obtain": " Lvl 35 ",
-                    "text": [
-                        "Fire damage to a foe. Inflict [Status Burned.png] **Burned** on [Status Blind.png] **Blinded** foes. All allies gain [Status FireAtkUp.png] **Fire ATK Up**."
-                    ]
-                }
-            ],
-            []
-        ],
-        "SUMMER": [
-            [
-                {
                     "cooldown": " 8 turns7 turns ",
                     "duration": {
                         "Indefinite": [
@@ -31106,6 +31168,52 @@
                     "obtain": " Lvl 45 ",
                     "text": [
                         "500% Fire damage to a foe (Damage cap: ~720,000). Gain **Instant Charge**. End cooldown for Teena's other skills."
+                    ]
+                }
+            ],
+            []
+        ],
+        "SR": [
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {},
+                    "icon": "WIP",
+                    "name": "Light of Purification",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 \u21ee Lvl 80 ",
+                    "text": [
+                        "Restore all allies' HP (Healing cap: 800). Healing cap increased to 1200 HP. Healing cap increased to 1500 HP. Also remove 1 debuff from all allies."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": "WIP",
+                    "name": "Non-Stop Fire",
+                    "obtain": " Lvl 1\u21e7 Lvl 65 \u21ee Lvl 90 ",
+                    "text": [
+                        "Fire damage to a foe. Bonus Dark damage against [Status Blind.png] **Blinded** foes. Damage increased. Also deal bonus Fire damage against [Status Burned.png] **Burned** foes."
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "180": [
+                            "[Status Burned.png] **Burned**"
+                        ],
+                        "3": [
+                            "[Status FireAtkUp.png] **Fire ATK Up**"
+                        ]
+                    },
+                    "icon": "WIP",
+                    "name": "Prism Flower Ring",
+                    "obtain": " Lvl 35 ",
+                    "text": [
+                        "Fire damage to a foe. Inflict [Status Burned.png] **Burned** on [Status Blind.png] **Blinded** foes. All allies gain [Status FireAtkUp.png] **Fire ATK Up**."
                     ]
                 }
             ],
@@ -35809,7 +35917,7 @@
                     "name": "Resolution",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Superior element damage to a foe (Damage cap: ~630,000). (Boost to damage based on how low Zooey's HP is. )Gain [Status Jammed.png] **Jammed**. Effect enhanced."
+                        "300% superior element damage to a foe (Damage cap: ~630,000). (Boost to damage based on how low Zooey's HP is. )Gain [Status Jammed.png] **Jammed**. Effect enhanced."
                     ]
                 }
             ],
@@ -35835,12 +35943,18 @@
             [
                 {
                     "cooldown": " 6 turns ",
-                    "duration": {},
+                    "duration": {
+                        "180": [
+                            "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**",
+                            "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**",
+                            "[Status DebuffResDown.png] **10% Debuff Res. Down (Stack / Max: 30%)**"
+                        ]
+                    },
                     "icon": "WIP",
                     "name": "Thunder",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "Dark damage to all foes (Damage cap: ~470,000). Randomly inflict one of three debuffs:[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**,[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**, or[Status DebuffResDown.png] **10% Debuff Res. Down (Stack / Max: 30%)**."
+                        "300% Dark damage to all foes (Damage cap: ~470,000). Randomly inflict one of three debuffs:[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**,[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**, or[Status DebuffResDown.png] **10% Debuff Res. Down (Stack / Max: 30%)**."
                     ]
                 }
             ],
