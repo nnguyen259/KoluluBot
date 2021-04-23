@@ -54,7 +54,7 @@ class Character(commands.Cog):
 
         name = name.title()
         version = version.title()
-        
+
         embedList = []
 
         #Main embed
@@ -151,9 +151,9 @@ class Character(commands.Cog):
             skillEmbed = discord.Embed(title='Skill')
             for skill in skillList:
                 skillEmbed.add_field(name=skill['name'], value='\n'.join(skill['text']), inline=False)
-                #skillEmbed.set_thumbnail(url=f'{skillList["thumbnail"]}')
+                skillEmbed.set_thumbnail(url=f'{skill["icon"][-1]}')
                 skillEmbed.set_image(url=self.chars[name][version]['image'])
-                
+
             embedList.append(skillEmbed)
 
         if noShow:
@@ -365,7 +365,7 @@ class Character(commands.Cog):
     async def remove(self, ctx, alias):
         import sqlite3
         from contextlib import closing
-        
+
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
             cursor = db.cursor()
@@ -389,7 +389,7 @@ class Character(commands.Cog):
         if not name:
             await ctx.send('Character not found!')
             return
-        
+
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
             if version == 'BASE':
@@ -466,7 +466,7 @@ class Character(commands.Cog):
             if not version.endswith('_5'):
                 version += '_5'
         return name, version, uncap
-    
+
 
 def setup(client):
     client.add_cog(Character(client))

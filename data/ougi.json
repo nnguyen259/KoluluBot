@@ -2374,12 +2374,12 @@
             {
                 "duration": {
                     "180": [
-                        "\\<:Status_AttackDown:832581064211955722> **25% ATK Down**"
+                        "<:Status_AttackDown:832581064211955722> **25% ATK Down**"
                     ]
                 },
                 "name": "Dead-End Shot",
                 "text": [
-                    "Massive Earth damage to a foe.\nInflict \\<:Status_AttackDown:832581064211955722> **25% ATK Down**.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl."
+                    "Massive Earth damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **25% ATK Down**.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl."
                 ]
             }
         ],
@@ -2387,7 +2387,7 @@
             {
                 "duration": {
                     "180": [
-                        "\\<:Status_AttackDown:832581064211955722> **20% ATK Down**",
+                        "<:Status_AttackDown:832581064211955722> **20% ATK Down**",
                         "<:Status_Blind:832583965428678656> **Blinded**"
                     ],
                     "Indefinite": [
@@ -2396,13 +2396,13 @@
                 },
                 "name": "Acidrage Howl",
                 "text": [
-                    "450% Dark damage to a foe.\nInflict \\<:Status_AttackDown:832581064211955722> **20% ATK Down** and <:Status_Blind:832583965428678656> **Blinded**.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl.\nWhen <:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek** is consumed: 300% Bonus Dark damage (Damage cap: ~630,000)."
+                    "450% Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **20% ATK Down** and <:Status_Blind:832583965428678656> **Blinded**.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl.\nWhen <:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek** is consumed: 300% Bonus Dark damage (Damage cap: ~630,000)."
                 ]
             },
             {
                 "duration": {
                     "180": [
-                        "\\<:Status_AttackDown:832581064211955722> **20% ATK Down**",
+                        "<:Status_AttackDown:832581064211955722> **20% ATK Down**",
                         "<:Status_Blind:832583965428678656> **Blinded**"
                     ],
                     "Indefinite": [
@@ -2411,7 +2411,7 @@
                 },
                 "name": "After 5\u2605:Dead-End Fall",
                 "text": [
-                    "500% Dark damage to a foe.\nInflict \\<:Status_AttackDown:832581064211955722> **20% ATK Down** and <:Status_Blind:832583965428678656> **Blinded**.\n2-turn cut to Eustace's skill cooldowns.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl.\nWhen <:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek** is consumed: Bonus Dark damage based on <:Status_Loaded0:832596885654339635> **Loaded** lvl."
+                    "500% Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **20% ATK Down** and <:Status_Blind:832583965428678656> **Blinded**.\n2-turn cut to Eustace's skill cooldowns.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl.\nWhen <:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek** is consumed: Bonus Dark damage based on <:Status_Loaded0:832596885654339635> **Loaded** lvl."
                 ]
             }
         ],
@@ -8978,13 +8978,13 @@
             {
                 "duration": {
                     "180": [
-                        "\\<:Status_AttackDown:832581064211955722> **15% ATK Down**",
+                        "<:Status_AttackDown:832581064211955722> **15% ATK Down**",
                         "<:Status_DefenseDown:832588131140108339> **15% DEF Down**"
                     ]
                 },
                 "name": "After 5\u2605:Spatter ++",
                 "text": [
-                    "Massive Dark damage to a foe.\nInflict \\<:Status_AttackDown:832581064211955722> **15% ATK Down** and <:Status_DefenseDown:832588131140108339> **15% DEF Down**."
+                    "Massive Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **15% ATK Down** and <:Status_DefenseDown:832588131140108339> **15% DEF Down**."
                 ]
             }
         ]

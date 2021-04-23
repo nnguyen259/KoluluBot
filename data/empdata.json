@@ -3,6 +3,7 @@
     "atk" : 1,
     "def" : 2,
     "hp" : 3,
+    "transcendencehp" : 3,
     "Heal" : 4,
     "skilldmg" : 5,
     "modebar" : 6,
@@ -62,6 +63,7 @@
     "hostilityup" : 60,
     "hostilitydown" : 61,
     "supportskill" : 62,
+    "transcendencesupportskill" : 62,
     "healing" : 63,
     "Speciality_WPN_1_DMG_3" : 64,
     "Speciality_WPN_2_DMG_3" : 65,
@@ -90,5 +92,7 @@
     "Skill_DMG_Cap_2" : 88,
     "Heal_2" : 89,
     "CA_DMG_4" : 90,
-    "Debuff_Success_2" : 91
+    "Debuff_Success_2" : 91,
+    "counterattackdmg" : 93
+
 }
