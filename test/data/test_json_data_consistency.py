@@ -13,10 +13,8 @@ def test_entry_exist_across_all_jsons():
         assert character in supports, f'Character {character} not found in support skill'
         assert character in skills, f'Character {character} not found in skill'
         assert character in emps, f'Character {character} not found in emp'
-        print(f'Test Character {character} - PASSED')
         for version in characters[character]:
             assert version in ougis[character], f'Version {version} not found for character {character} in ougi'
             assert version in supports[character], f'Version {version} not found for character {character} in support skill'
             assert version in skills[character], f'Version {version} not found for character {character} in skill'
             assert version in emps[character], f'Version {version} not found for character {character} in emp'
-            print(f'Test version {version} of character {character} - PASSED')
