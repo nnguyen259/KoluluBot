@@ -295,7 +295,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -388,6 +388,31 @@
                 "hp",
                 "skilldmgcap",
                 "cadmgcap",
+                "supportskill"
+            ]
+        ]
+    },
+    "Alistair": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "wateratk",
+                "cadmg"
+            ],
+            [
+                "skilldmg",
+                "skilldmgcap",
+                "firedmg",
+                "healing",
                 "supportskill"
             ]
         ]
@@ -1003,7 +1028,53 @@
                 "crithit",
                 "skilldmg",
                 "skilldmgcap",
+                "hostilitydown",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "crithit",
+                "skilldmg",
+                "skilldmgcap",
                 "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "fireatk",
+                "skilldmg",
+                "skilldmgcap",
+                "skilldmgcap",
                 "supportskill"
             ]
         ]
@@ -1197,7 +1268,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -1826,6 +1897,56 @@
             ]
         ]
     },
+    "Bakura": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "lightdmg"
+            ],
+            [
+                "skilldmg",
+                "skilldmgcap",
+                "healing",
+                "healing",
+                "supportskill"
+            ]
+        ]
+    },
+    "Balurga": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "earthatk",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "crithit",
+                "oda",
+                "hostilityup",
+                "supportskill"
+            ]
+        ]
+    },
     "Baotorda": {
         "BASE": [
             [
@@ -1895,6 +2016,29 @@
                 "crithit",
                 "fireatk",
                 "hostilityup",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "winddmg"
+            ],
+            [
+                "atk",
+                "crithit",
+                "cadmg",
+                "cadmgcap",
                 "supportskill"
             ]
         ],
@@ -2183,6 +2327,29 @@
                 "darkdmg",
                 "supportskill"
             ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "wateratk",
+                "cadmg"
+            ],
+            [
+                "def",
+                "def",
+                "firedmg",
+                "hostilitydown",
+                "supportskill"
+            ]
         ]
     },
     "Cagliostro": {
@@ -2366,6 +2533,29 @@
             ],
             [
                 "atk",
+                "ta",
+                "ta",
+                "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "wateratk"
+            ],
+            [
+                "atk",
                 "wateratk",
                 "wateratk",
                 "chargebar",
@@ -2455,6 +2645,52 @@
     },
     "Camieux": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "waterdmg"
+            ],
+            [
+                "oda",
+                "oda",
+                "modebarcut",
+                "modebarcut",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "winddmg"
+            ],
+            [
+                "oda",
+                "modebarcut",
+                "modebarcut",
+                "hostilitydown",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
             [
                 "atk",
                 "def",
@@ -3000,6 +3236,29 @@
                 "windatk"
             ],
             [
+                "def",
+                "hp",
+                "chargebar",
+                "chargebar",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "windatk"
+            ],
+            [
                 "hp",
                 "chargebar",
                 "chargebar",
@@ -3296,6 +3555,29 @@
                 "darkdmg",
                 "supportskill"
             ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "def",
+                "hp",
+                "darkdmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "def",
+                "hp",
+                "stamina",
+                "darkdmg",
+                "supportskill"
+            ]
         ]
     },
     "Cucouroux": {
@@ -3413,6 +3695,29 @@
                 "darkdmg"
             ],
             [
+                "atk",
+                "atkupdefdown",
+                "enmity",
+                "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "darkdmg"
+            ],
+            [
                 "atkupdefdown",
                 "atkupdefdown",
                 "crithit",
@@ -3442,6 +3747,29 @@
                 "hp",
                 "ta",
                 "crithit",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "fireatk",
+                "wateratk",
+                "crithit",
+                "enmity",
                 "supportskill"
             ]
         ],
@@ -3687,6 +4015,29 @@
                 "def",
                 "def",
                 "hp",
+                "firedmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "oda",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "def",
+                "hp",
                 "lightdmg"
             ],
             [
@@ -3872,6 +4223,31 @@
             ]
         ]
     },
+    "Drusilla": {
+        "BASE": [
+            [
+                "def",
+                "def",
+                "debuffres",
+                "debuffres",
+                "dodge"
+            ],
+            [
+                "debuffres",
+                "debuffres",
+                "winddmg",
+                "winddmg",
+                "dodge"
+            ],
+            [
+                "hp",
+                "hp",
+                "hostilitydown",
+                "hostilitydown",
+                "supportskill"
+            ]
+        ]
+    },
     "Eahta": {
         "BASE": [
             [
@@ -3958,7 +4334,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -4003,6 +4379,31 @@
                 "da",
                 "skilldmgcap",
                 "debuffacc",
+                "supportskill"
+            ]
+        ]
+    },
+    "Elmelaura": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "fireatk",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "crithit",
+                "crithit",
                 "supportskill"
             ]
         ]
@@ -4155,6 +4556,29 @@
     },
     "Eso": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "da",
+                "da",
+                "ta",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -4541,6 +4965,29 @@
                 "supportskill"
             ]
         ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "crithit",
+                "crithit",
+                "oda",
+                "modebarcut",
+                "supportskill"
+            ]
+        ],
         "SR": [
             [
                 "atk",
@@ -4632,6 +5079,29 @@
                 "hp",
                 "crithit",
                 "enmity",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "ta",
                 "supportskill"
             ]
         ],
@@ -5104,6 +5574,31 @@
             ]
         ]
     },
+    "Flesselles": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "fireatk"
+            ],
+            [
+                "crithit",
+                "skilldmg",
+                "skilldmg",
+                "skilldmgcap",
+                "supportskill"
+            ]
+        ]
+    },
     "Florence": {
         "BASE": [
             [
@@ -5303,10 +5798,58 @@
                 "waterdmg"
             ],
             [
+                "hp",
+                "def",
+                "waterdmg",
+                "hostilityup",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "def",
+                "hp",
+                "waterdmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "waterdmg"
+            ],
+            [
                 "def",
                 "waterdmg",
                 "waterdmg",
                 "hostilityup",
+                "supportskill"
+            ]
+        ]
+    },
+    "Garma": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "waterdmg"
+            ],
+            [
+                "atk",
+                "crithit",
+                "atkbreak",
+                "dodge",
                 "supportskill"
             ]
         ]
@@ -5406,7 +5949,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -5885,6 +6428,29 @@
             [
                 "atk",
                 "def",
+                "def",
+                "hp",
+                "earthdmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "def",
+                "earthdmg",
+                "hostilityup",
+                "healing",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
                 "hp",
                 "debuffres",
                 "healing"
@@ -6025,7 +6591,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -6094,6 +6660,29 @@
                 "waterdmg",
                 "hostilityup",
                 "lock"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "earthatk",
+                "crithit",
+                "debuffacc",
+                "supportskill"
             ]
         ],
         "SR": [
@@ -6290,7 +6879,7 @@
                 "supportskill"
             ]
         ],
-        "GRAND_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -6400,10 +6989,56 @@
                 "crithit"
             ],
             [
+                "healing",
+                "healing",
+                "healing",
+                "healing",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
                 "hp",
                 "chargebar",
                 "healing",
                 "healing",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "crithit",
+                "fireatk",
+                "chargebar",
                 "supportskill"
             ]
         ]
@@ -6627,6 +7262,29 @@
     },
     "Jasmine": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "debuffres",
+                "healing"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "hostilitydown",
+                "healing",
+                "healing",
+                "healing",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -7003,6 +7661,29 @@
     },
     "Joel": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "wateratk",
+                "firedmg",
+                "debuffres",
+                "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -7385,6 +8066,29 @@
                 "windatk"
             ],
             [
+                "da",
+                "da",
+                "cadmgcap",
+                "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "windatk"
+            ],
+            [
                 "cadmg",
                 "chargebar",
                 "chargebar",
@@ -7395,6 +8099,29 @@
     },
     "Karva": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "winddmg"
+            ],
+            [
+                "atkupdefdown",
+                "atkupdefdown",
+                "crithit",
+                "crithit",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -7467,7 +8194,7 @@
                 "supportskill"
             ]
         ],
-        "GRAND_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -7851,6 +8578,29 @@
                 "windatk"
             ],
             [
+                "atk",
+                "def",
+                "earthdmg",
+                "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "windatk"
+            ],
+            [
                 "cadmg",
                 "cadmg",
                 "chargebar",
@@ -7957,6 +8707,29 @@
     },
     "La_Coiffe": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "earthatk"
+            ],
+            [
+                "def",
+                "debuffres",
+                "healing",
+                "healing",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -8196,6 +8969,29 @@
                 "lock"
             ]
         ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "winddmg"
+            ],
+            [
+                "atkupdefdown",
+                "atkupdefdown",
+                "crithit",
+                "crithit",
+                "supportskill"
+            ]
+        ],
         "SR": [
             [
                 "atk",
@@ -8381,6 +9177,29 @@
                 "ta",
                 "debuffres",
                 "healing",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "def",
+                "skilldmg",
+                "earthdmg",
                 "supportskill"
             ]
         ],
@@ -8571,6 +9390,31 @@
                 "stamina",
                 "debuffacc",
                 "dodge",
+                "supportskill"
+            ]
+        ]
+    },
+    "Leonora": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "windatk",
+                "cadmg"
+            ],
+            [
+                "da",
+                "dodge",
+                "dodge",
+                "hostilitydown",
                 "supportskill"
             ]
         ]
@@ -8848,7 +9692,7 @@
                 "supportskill"
             ]
         ],
-        "EVENT_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -8868,6 +9712,52 @@
                 "hp",
                 "firedmg",
                 "firedmg",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "darkatk"
+            ],
+            [
+                "ta",
+                "hostilityup",
+                "healing",
+                "healing",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "darkatk"
+            ],
+            [
+                "atk",
+                "crithit",
+                "hp",
+                "enmity",
                 "supportskill"
             ]
         ]
@@ -9085,6 +9975,52 @@
                 "ta",
                 "chargebar",
                 "chargebar",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "darkatk",
+                "cadmg"
+            ],
+            [
+                "crithit",
+                "skilldmgcap",
+                "debuffacc",
+                "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "darkatk",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "crithit",
+                "skilldmgcap",
+                "debuffacc",
                 "supportskill"
             ]
         ]
@@ -9460,6 +10396,29 @@
                 "supportskill"
             ]
         ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "fireatk",
+                "skilldmg",
+                "crithit",
+                "debuffacc",
+                "supportskill"
+            ]
+        ],
         "SR": [
             [
                 "atk",
@@ -9480,6 +10439,29 @@
                 "crithit",
                 "skilldmg",
                 "skilldmgcap",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "def",
+                "debuffacc",
+                "debuffacc",
                 "supportskill"
             ]
         ]
@@ -9865,7 +10847,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -10207,7 +11189,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -10976,6 +11958,31 @@
             ]
         ]
     },
+    "Nene": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "crithit",
+                "oda",
+                "hostilityup",
+                "hostilityup",
+                "supportskill"
+            ]
+        ]
+    },
     "New_Generations": {
         "BASE": [
             [
@@ -11358,6 +12365,31 @@
             ]
         ]
     },
+    "Norcel": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "earthatk",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "skilldmg",
+                "skilldmgcap",
+                "debuffacc",
+                "supportskill"
+            ]
+        ]
+    },
     "Novei": {
         "BASE": [
             [
@@ -11575,6 +12607,31 @@
                 "waterdmg",
                 "hostilityup",
                 "hostilityup",
+                "supportskill"
+            ]
+        ]
+    },
+    "Pavidus": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "def",
+                "hp",
+                "earthdmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "earthdmg"
+            ],
+            [
+                "def",
+                "defupatkdown",
+                "earthdmg",
+                "debuffres",
                 "supportskill"
             ]
         ]
@@ -11815,10 +12872,56 @@
                 "hostilitydown",
                 "supportskill"
             ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "debuffres",
+                "healing"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "skilldmg",
+                "hostilitydown",
+                "healing",
+                "healing",
+                "supportskill"
+            ]
         ]
     },
     "Philosophia": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "debuffres",
+                "healing"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "lightatk",
+                "cadmg"
+            ],
+            [
+                "hp",
+                "hostilitydown",
+                "healing",
+                "healing",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -11989,7 +13092,7 @@
                 "supportskill"
             ]
         ],
-        "GRAND_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -12084,6 +13187,29 @@
     },
     "Randall": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "crithit",
+                "cadmg",
+                "cadmg",
+                "chargebar",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -12370,6 +13496,29 @@
                 "crithit"
             ],
             [
+                "atk",
+                "def",
+                "da",
+                "dodge",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
                 "crithit",
                 "crithit",
                 "crithit",
@@ -12402,7 +13551,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -12450,7 +13599,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -12523,7 +13672,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -12715,6 +13864,29 @@
                 "supportskill"
             ]
         ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atkupdefdown",
+                "stamina",
+                "debuffacc",
+                "hostilityup",
+                "supportskill"
+            ]
+        ],
         "SR": [
             [
                 "atk",
@@ -12896,6 +14068,29 @@
                 "crithit"
             ],
             [
+                "healing",
+                "healing",
+                "hostilitydown",
+                "hostilitydown",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "debuffres",
+                "healing"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
                 "ta",
                 "ta",
                 "dodge",
@@ -12906,6 +14101,29 @@
     },
     "Ryan": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "atk",
+                "crithit",
+                "fireatk",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -13974,7 +15192,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -14623,6 +15841,29 @@
                 "supportskill"
             ]
         ],
+        "BASE_4": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "skilldmg",
+                "skilldmgcap",
+                "waterdmg",
+                "hostilityup",
+                "supportskill"
+            ]
+        ],
         "EVENT": [
             [
                 "atk",
@@ -14691,29 +15932,6 @@
                 "earthatk",
                 "supportskill"
             ]
-        ],
-        "SSR_4": [
-            [
-                "atk",
-                "def",
-                "da",
-                "crithit",
-                "cadmg"
-            ],
-            [
-                "atk",
-                "def",
-                "hp",
-                "da",
-                "crithit"
-            ],
-            [
-                "skilldmg",
-                "skilldmgcap",
-                "waterdmg",
-                "hostilityup",
-                "supportskill"
-            ]
         ]
     },
     "Spinnah": {
@@ -14738,6 +15956,29 @@
                 "ta",
                 "ta",
                 "lock"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "da",
+                "da",
+                "ta",
+                "ta",
+                "supportskill"
             ]
         ]
     },
@@ -14809,6 +16050,29 @@
                 "atk",
                 "da",
                 "oda",
+                "oda",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "windatk"
+            ],
+            [
+                "da",
+                "da",
+                "ta",
                 "oda",
                 "supportskill"
             ]
@@ -14889,6 +16153,29 @@
     },
     "Suframare": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "debuffres",
+                "healing"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "wateratk",
+                "cadmg"
+            ],
+            [
+                "defupatkdown",
+                "hostilitydown",
+                "healing",
+                "healing",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
             [
                 "atk",
                 "def",
@@ -15153,6 +16440,29 @@
                 "supportskill"
             ]
         ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "da",
+                "atkbreak",
+                "modebarcut",
+                "supportskill"
+            ]
+        ],
         "SR": [
             [
                 "atk",
@@ -15365,6 +16675,31 @@
                 "hp",
                 "crithit",
                 "crithit",
+                "supportskill"
+            ]
+        ]
+    },
+    "Thelonim": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "da",
+                "ta",
+                "windatk"
+            ],
+            [
+                "atk",
+                "crithit",
+                "skilldmg",
+                "skilldmgcap",
                 "supportskill"
             ]
         ]
@@ -15881,7 +17216,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -15929,7 +17264,7 @@
                 "supportskill"
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -16025,6 +17360,29 @@
                 "supportskill"
             ]
         ],
+        "BASE_4": [
+            [
+                "atk",
+                "def",
+                "def",
+                "hp",
+                "firedmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "hp",
+                "firedmg",
+                "cadmg",
+                "cadmgcap",
+                "supportskill"
+            ]
+        ],
         "DUO": [
             [
                 "atk",
@@ -16091,29 +17449,6 @@
                 "hp",
                 "enmity",
                 "debuffacc",
-                "supportskill"
-            ]
-        ],
-        "SSR_4": [
-            [
-                "atk",
-                "def",
-                "def",
-                "hp",
-                "firedmg"
-            ],
-            [
-                "atk",
-                "def",
-                "hp",
-                "da",
-                "crithit"
-            ],
-            [
-                "hp",
-                "firedmg",
-                "cadmg",
-                "cadmgcap",
                 "supportskill"
             ]
         ]
@@ -16239,6 +17574,29 @@
     },
     "Vanzza": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "waterdmg"
+            ],
+            [
+                "atk",
+                "atkupdefdown",
+                "skilldmg",
+                "skilldmgcap",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -16425,8 +17783,56 @@
             [
                 "atk",
                 "da",
+                "ta",
+                "lightatk",
+                "supportskill"
+            ]
+        ],
+        "SR": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "lightatk",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "da",
                 "da",
                 "dodge",
+                "supportskill"
+            ]
+        ]
+    },
+    "Viceroy": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "def",
+                "crithit",
+                "winddmg",
                 "supportskill"
             ]
         ]
@@ -16454,10 +17860,56 @@
                 "hostilityup",
                 "supportskill"
             ]
+        ],
+        "EVENT": [
+            [
+                "def",
+                "hp",
+                "hp",
+                "debuffres",
+                "debuffres"
+            ],
+            [
+                "def",
+                "hp",
+                "hp",
+                "debuffres",
+                "debuffres"
+            ],
+            [
+                "lightdmg",
+                "lightdmg",
+                "dodge",
+                "dodge",
+                "lock"
+            ]
         ]
     },
     "Vira": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "da",
+                "chargebar",
+                "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -16572,29 +18024,6 @@
                 "supportskill"
             ]
         ],
-        "SSR_4": [
-            [
-                "atk",
-                "def",
-                "da",
-                "crithit",
-                "cadmg"
-            ],
-            [
-                "atk",
-                "def",
-                "hp",
-                "da",
-                "crithit"
-            ],
-            [
-                "atk",
-                "da",
-                "chargebar",
-                "debuffacc",
-                "supportskill"
-            ]
-        ],
         "SUMMER": [
             [
                 "atk",
@@ -16665,6 +18094,29 @@
                 "healing",
                 "supportskill"
             ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "def",
+                "hp",
+                "waterdmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "def",
+                "hp",
+                "waterdmg",
+                "reflect",
+                "supportskill"
+            ]
         ]
     },
     "Walder": {
@@ -16691,7 +18143,7 @@
                 "supportskill"
             ]
         ],
-        "EVENT_4": [
+        "BASE_4": [
             [
                 "atk",
                 "def",
@@ -16713,10 +18165,102 @@
                 "earthatk",
                 "supportskill"
             ]
+        ],
+        "HOLIDAY": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "crithit",
+                "crithit",
+                "debuffres",
+                "hostilityup",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "waterdmg",
+                "debuffacc",
+                "debuffacc",
+                "modebar",
+                "supportskill"
+            ]
+        ],
+        "SUMMER": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "da",
+                "da",
+                "skilldmg",
+                "debuffacc",
+                "supportskill"
+            ]
         ]
     },
     "Will": {
         "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "skilldmg",
+                "debuffacc",
+                "oda",
+                "supportskill"
+            ]
+        ],
+        "SR": [
             [
                 "atk",
                 "def",
@@ -16981,6 +18525,29 @@
                 "supportskill"
             ]
         ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "debuffres"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "wateratk",
+                "cadmg"
+            ],
+            [
+                "chargebar",
+                "debuffacc",
+                "oda",
+                "modebarcut",
+                "supportskill"
+            ]
+        ],
         "WIND": [
             [
                 "atk",
@@ -17026,6 +18593,31 @@
                 "cadmg",
                 "cadmg",
                 "debuffacc",
+                "supportskill"
+            ]
+        ]
+    },
+    "Young_Cat": {
+        "BASE": [
+            [
+                "atk",
+                "def",
+                "debuffres",
+                "oda",
+                "modebar"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "debuffacc",
+                "hostilitydown",
                 "supportskill"
             ]
         ]
@@ -17385,6 +18977,29 @@
                 "da",
                 "ta",
                 "debuffacc",
+                "supportskill"
+            ]
+        ],
+        "R": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "atk",
+                "atk",
+                "da",
+                "ta",
                 "supportskill"
             ]
         ]

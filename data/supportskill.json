@@ -284,7 +284,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Lightning Blaze",
@@ -380,6 +380,18 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to multiattack rates when not debuffed."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Alistair": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance of a 1-turn cut to skill cooldown with every one-foe attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -967,6 +979,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Fire damage and inflict [Status Burned.png] **Burned** to all foes upon dodging."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Fickle Nightmare",
                 "text": [
                     "Slight chance to dodge all foe attacks."
@@ -978,6 +1000,16 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to skill DMG cap when HP is full"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Fire damage and [Status Burned.png] **Burned** effect to all foes upon dodging."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -1251,7 +1283,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Sleepy Dreams",
@@ -1854,6 +1886,30 @@
             }
         ]
     },
+    "Bakura": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance of a 1-turn cut to skill cooldown with every one-foe attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Balurga": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Gain Bonus Elemental DMG effect against foes in overdrive"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
     "Baotorda": {
         "BASE": [
             {
@@ -1915,6 +1971,16 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Chance to reuse Bluff with every one-foe attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to reset cooldown on Bluff with every one-foe attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -2208,6 +2274,16 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Extend I've Got Your Back! effect time."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
         ]
     },
     "Cagliostro": {
@@ -2374,6 +2450,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to boost ATK with every one-foe attack (Stackable)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Surfing Maneuvers",
                 "text": [
                     "Boost to multiattack rate based on [Status High-Tide 1.png] **High-Tide**'s lvl (High-Tide's lvl randomly changes at end of each turn)"
@@ -2493,6 +2579,26 @@
     },
     "Camieux": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Lessen damage taken from foes in overdrive."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to counter upon taking damage."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
             {
                 "duration": {
                     "3.5^t": [
@@ -3016,6 +3122,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "I get a one time boost to my vibes! \u2606=(\u309d\u03c9\uff65)"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
                 "name": "UV Is No Joke! \u2606=(\u309d\u03c9\uff65)",
                 "text": [
                     "When Sub Ally: Lessen Earth damage taken for main allies by 5%."
@@ -3346,6 +3462,16 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to counter upon taking DMG"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
         ]
     },
     "Cucouroux": {
@@ -3454,6 +3580,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to deal massive critical DMG"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Animal Costume",
                 "text": [
                     "Boost to DEF."
@@ -3493,6 +3629,24 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Chance to not consume [Status Black Cat Fancy 1.png] **Black Cat Fancy** upon one-foe attacks."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Offset Power",
+                "text": [
+                    "When [Status FrozenBlade.png] **Frozen Blade** is active:Self-inflict 10% of Dante's max HP as damage each turn. Massive boost to double attack rate."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to Fire and Water ATK."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -3726,6 +3880,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus DMG against a foe in overdrive."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Imperial Cuirass",
                 "text": [
                     "Chance to cut damage taken by 50%."
@@ -3910,6 +4074,26 @@
             }
         ]
     },
+    "Drusilla": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "I'm Scared...",
+                "text": [
+                    "Doesn't attack, but has high DEF."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to all allies' ATK and restore all allies' HP at turn start."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
     "Eahta": {
         "BASE": [
             {
@@ -3991,7 +4175,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Mnnnph!",
@@ -4037,6 +4221,18 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to Resurrection's success rate"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Elmelaura": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost all allies' ATK and restore all allies' HP at turn start."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -4176,6 +4372,16 @@
     },
     "Eso": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to boost ATK with every one-foe attack (Stackable)"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Sent to Save",
@@ -4580,6 +4786,16 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to deal massive critical DMG."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -4674,6 +4890,16 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Slight chance to withstand lethal DMG (Leaves 1 HP)"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to boost double attack rate with every one-foe attack (Stackable)"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -5187,6 +5413,18 @@
             }
         ]
     },
+    "Flesselles": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to reuse Here Boy! Ruff Ruff! with every one-foe attack."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
     "Florence": {
         "BASE": [
             {
@@ -5391,6 +5629,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance of 50% DMG Cut effect."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Draph Smith",
                 "text": [
                     "Boost to DEF."
@@ -5402,6 +5650,18 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Chance to lessen DMG"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Garma": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus elemental DMG against poisoned foes"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -5502,7 +5762,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Dancer Step",
@@ -6019,6 +6279,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to partially absorb damage taken"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Strong Body-Language",
                 "text": [
                     "Boost to Charge Attack damage upon substituting."
@@ -6162,7 +6432,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Pick-Up Line",
@@ -6216,6 +6486,16 @@
                     "20% boost to skill damage and 10% boost to skill damage cap for sabre-specialty Earth allies."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus earth DMG against a foe in overdrive"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
         "SR": [
@@ -6435,7 +6715,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "GRAND_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Crystal Veil",
@@ -6528,6 +6808,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Extend Ultracalifragilistic Ramen effect time."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "The Ramen Man",
                 "text": [
                     "Boost to debuff resistance."
@@ -6539,6 +6829,16 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to C. A. DMG while Addiction is in effect"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to reuse Bowl of the Heavens with every one-foe attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -6766,6 +7066,16 @@
     },
     "Jasmine": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to create a Green Potion at end of turn"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Knowledge of the Cure",
@@ -7125,6 +7435,16 @@
     "Joel": {
         "BASE": [
             {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Lessen fire DMG"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
                 "duration": {
                     "Indefinite^i": [
                         "[Status 6956.png] **Rescue**"
@@ -7478,6 +7798,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance of [Status partner.png] **Partnered Up** with every one-foe attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Mercantile Prowess",
                 "text": [
                     "Boost to dodge rate against foes under [Status partner.png] **Partnered Up**"
@@ -7496,6 +7826,16 @@
     },
     "Karva": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to withstand lethal DMG (Leaves 1 HP)"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "The Tough Get Going",
@@ -7569,7 +7909,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "GRAND_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "The Path of Duty",
@@ -7930,6 +8270,16 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance of a 1-turn cut to skill cooldowns with every one-foe attack."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Open Dice",
                 "text": [
                     "Buff to Krugne based on dice number rolled. (Dice is rolled at end of each turn. )"
@@ -8060,6 +8410,16 @@
     },
     "La_Coiffe": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost all allies' ATK and restore all allies' HP at turn start."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Beauty Takes Effort",
@@ -8281,6 +8641,24 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "I Feel the Happies",
+                "text": [
+                    "Ugghh, I feel like my head is gonna crack open. (Recovers 100 HP per stack of [Status AttackUpStack.png] **ATK Up (Stackable)** gained from Wheee! at the end of the turn. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Drink and feel better!"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -8487,6 +8865,24 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Silverwing Valkyrie",
+                "text": [
+                    "Charge bar fills up 5% faster."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to boost ATK with every one-foe attack (Stackable)"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "SUMMER": [
             {
                 "duration": {},
@@ -8682,6 +9078,18 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Slight chance of Dodge-and-Counter effect (1-hit)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Leonora": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to dodge and counter one-ally attacks"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -8971,7 +9379,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "EVENT_4": [
+        "BASE_4": [
             {
                 "duration": {
                     "Indefinite^i": [
@@ -8998,6 +9406,26 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to multiattack rate when Katalina is in the party"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to ATK when Katalina is in the party"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to ATK when Katalina is in the party"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -9210,6 +9638,26 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Chance to \"Ooh-ooh-aaahhh!\" upon drinking Handsome Gorilla DA"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to reuse Facsimile with every one-foe attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to reuse Facsimile with every one-foe attack"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -9638,6 +10086,16 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to give bounty with every one-foe attack."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -9652,6 +10110,16 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Slight chance to inflict [Status Bounty.png] **Bounty** with every one-foe attack."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to deal Plain DMG to all foes upon charge attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -10110,7 +10578,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Rosy Heart Full-Throttle",
@@ -10402,7 +10870,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Natural Charm",
@@ -11183,6 +11651,26 @@
             }
         ]
     },
+    "Nene": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Nerves of Steel",
+                "text": [
+                    "Boost to ATK based on how high hostility is."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to counter upon taking damage."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
     "New_Generations": {
         "BASE": [
             {
@@ -11570,6 +12058,18 @@
             }
         ]
     },
+    "Norcel": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Speed up charge bar for all other earth allies."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
     "Novei": {
         "BASE": [
             {
@@ -11769,6 +12269,18 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to DEF and hostility."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Pavidus": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to reuse Hide upon taking DMG"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -12000,10 +12512,30 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to withstand lethal DMG."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
         ]
     },
     "Philosophia": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to multiattack rate upon using healing skills"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Never-Ending Pursuit",
@@ -12171,7 +12703,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "GRAND_4": [
+        "BASE_4": [
             {
                 "duration": {
                     "180^s": [
@@ -12262,6 +12794,16 @@
     },
     "Randall": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to boost double attack rate with every one-foe attack (Stackable)."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Kickfighter's Creed",
@@ -12548,6 +13090,24 @@
     "Richard": {
         "BASE": [
             {
+                "duration": {},
+                "name": "Draw of Destiny",
+                "text": [
+                    "Very slight chance to deal massive critical damage."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Randomly gain boost to ATK or hit to DEF at turn start"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
                 "duration": {
                     "10^t": [
                         "[Status Chip Stack.png] **Chip Stack**"
@@ -12596,7 +13156,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "What a Cute Lil' Belly Button!",
@@ -12634,7 +13194,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Awaiting Battle",
@@ -12692,7 +13252,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Because I'm a Zombie",
@@ -12876,6 +13436,16 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to hostility while [Status Repel.png] **Unchallenged** is in effect"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -13034,6 +13604,24 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Rice Crackers",
+                "text": [
+                    "Makes crackers. (Gain 1 [Status Cracker 1.png] **Cracker** every turn [Max: 10]. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to gain 1 [Status Cracker 1.png] **Cracker** at end of turn."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "More Crackers",
                 "text": [
                     "Make a [Status Cracker 1.png] **Cracker** at end of turn. Boost to triple attack rate based on number of Crackers."
@@ -13060,6 +13648,16 @@
     },
     "Ryan": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to dodge and counter one-ally attacks."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Sharp Senses",
@@ -14125,7 +14723,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Over-the-Counter Access",
@@ -14805,6 +15403,39 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "BASE_4": [
+            {
+                "duration": {},
+                "name": "Burlier with Age",
+                "text": [
+                    "+10 boost to hostility. 20% boost to max HP. Boost to hostility increased to +30. Boost to max HP increased to 30%. Can use the same damage skill twice in a turn when Macho Ultimatum is used."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {
+                    "Indefinite^i": [
+                        "[Status Manliness 1.png] **Manliness**",
+                        "[Status Manliness 1.png] **Manliness**",
+                        "[Status Manliness 1.png] **Manliness**",
+                        "[Status Manliness 1.png] **Manliness**"
+                    ]
+                },
+                "name": "Reactive Muscles",
+                "text": [
+                    "[Status Manliness 1.png] **Manliness** lvl rises by 1 upon taking damage (Max: Lvl 10). (Supplement damage dealt based on [Status Manliness 1.png] **Manliness** lvl. )[Status Manliness 1.png] **Manliness** lvl also rises by 1 upon using damage skills. [Status Manliness 1.png] **Manliness** also boosts ATK, DEF, and damage cap."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to end cooldown for Bravado Bullet upon using a charge attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -14858,39 +15489,6 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
-        ],
-        "SSR_4": [
-            {
-                "duration": {},
-                "name": "Burlier with Age",
-                "text": [
-                    "+10 boost to hostility. 20% boost to max HP. Boost to hostility increased to +30. Boost to max HP increased to 30%. Can use the same damage skill twice in a turn when Macho Ultimatum is used."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "[Status Manliness 1.png] **Manliness**",
-                        "[Status Manliness 1.png] **Manliness**",
-                        "[Status Manliness 1.png] **Manliness**",
-                        "[Status Manliness 1.png] **Manliness**"
-                    ]
-                },
-                "name": "Reactive Muscles",
-                "text": [
-                    "[Status Manliness 1.png] **Manliness** lvl rises by 1 upon taking damage (Max: Lvl 10). (Supplement damage dealt based on [Status Manliness 1.png] **Manliness** lvl. )[Status Manliness 1.png] **Manliness** lvl also rises by 1 upon using damage skills. [Status Manliness 1.png] **Manliness** also boosts ATK, DEF, and damage cap."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Chance to end cooldown for Bravado Bullet upon using a charge attack"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
         ]
     },
     "Spinnah": {
@@ -14914,6 +15512,24 @@
                     "Raise [Status 7030.png] **Spin Blader** lvl by 1 upon triple attacks. (Hit to Spinnah's DEF and supplement damage based on lvl. )"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Spin Me a Storm",
+                "text": [
+                    "40% reduced ATK. Less likely to be targeted."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to resistance against charge-attack-sealing debuffs"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ]
     },
@@ -14986,6 +15602,16 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to multiattack rate when Aliza is in the party"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus elemental DMG for attacks against foes in overdrive"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -15067,6 +15693,16 @@
     },
     "Suframare": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to DEF upon using healing skills"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
             {
                 "duration": {},
                 "name": "Magic Parasol",
@@ -15348,6 +15984,16 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Dark DMG to all foes upon dodging"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -15526,6 +16172,18 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to charge bar at end of turn while [Status Super Robo Elsam.png] **Super Robo Elsam** is activated."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Thelonim": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance to end Thelonim's Magic's cooldown upon one-foe attacks."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -16116,7 +16774,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Circus Clown",
@@ -16154,7 +16812,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Perfect Smile",
@@ -16254,6 +16912,32 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "BASE_4": [
+            {
+                "duration": {},
+                "name": "Never Surrender!",
+                "text": [
+                    "30% boost to double attack rate and 30% boost to triple attack rate while Vane has [Status Jammed.png] **Jammed**."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "The Dragon Within",
+                "text": [
+                    "When a foe uses a special attack: Activate Heroic Beat. Extend Vane's buff durations by 1 turn. (Excludes 1-turn buffs. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to DEF when HP is below 50%"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "DUO": [
             {
                 "duration": {
@@ -16316,32 +17000,6 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Slight chance to withstand lethal DMG (Leaves 1 HP)"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
-        "SSR_4": [
-            {
-                "duration": {},
-                "name": "Never Surrender!",
-                "text": [
-                    "30% boost to double attack rate and 30% boost to triple attack rate while Vane has [Status Jammed.png] **Jammed**."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "The Dragon Within",
-                "text": [
-                    "When a foe uses a special attack: Activate Heroic Beat. Extend Vane's buff durations by 1 turn. (Excludes 1-turn buffs. )"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Boost to DEF when HP is below 50%"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -16485,6 +17143,16 @@
     },
     "Vanzza": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to dodge and counter one-ally attacks."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Martial Prowess",
@@ -16651,6 +17319,24 @@
                 "duration": {},
                 "name": "Ephemeral Flash",
                 "text": [
+                    "30% reduced DEF, but reduced chance to be targeted."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to dodge and counter one-ally attacks."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Ephemeral Flash",
+                "text": [
                     "Low DEF, but less likely to be targeted."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
@@ -16660,6 +17346,18 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Chance to dodge all attacks from foes."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Viceroy": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Extend Weapon Adjustment effect time."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -16695,10 +17393,54 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "EVENT": [
+            {
+                "duration": {},
+                "name": "Alone Time",
+                "text": [
+                    "Can't attack. Into Hiding effect to Vikala. 50% boost to C. A. DMG and 10% boost to C. A. DMG Cap for Dark allies."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Cheering From the Shadows, Internally",
+                "text": [
+                    "When Sub Ally: 5% boost to Dark allies' C. A. DMG."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            }
         ]
     },
     "Vira": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Katalina Katalina Katalina",
+                "text": [
+                    "When **Katalina** is a party member:15% boost to ATK and 1-turn cut to skill cooldowns."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Blade of Light",
+                "text": [
+                    "When Luminiera Merge is in effect: , and Uplift effect."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Slight chance to restore HP with every one-foe attack"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Katalina Katalina Katalina",
@@ -16816,32 +17558,6 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SSR_4": [
-            {
-                "duration": {},
-                "name": "Katalina Katalina Katalina",
-                "text": [
-                    "When **Katalina** is a party member:15% boost to ATK and 1-turn cut to skill cooldowns."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Blade of Light",
-                "text": [
-                    "When Luminiera Merge is in effect: , and Uplift effect."
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
-            },
-            {
-                "duration": {},
-                "name": "Extended Mastery Support Skill",
-                "text": [
-                    "Slight chance to restore HP with every one-foe attack"
-                ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
-            }
-        ],
         "SUMMER": [
             {
                 "duration": {},
@@ -16913,6 +17629,16 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Cut to damage taken when [Status Substitute.png] **Substitute** is active."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
         ]
     },
     "Walder": {
@@ -16934,7 +17660,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "EVENT_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Where's Walder?",
@@ -16951,10 +17677,50 @@
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
+        ],
+        "HOLIDAY": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Boost to earth ATK / Boost to light ATK"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus DMG against blinded foes"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Less DMG taken from blinded foes"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
         ]
     },
     "Will": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Convert turn-based damage dealt to a foe to heal all allies."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Monster Study Journal",
@@ -17217,6 +17983,16 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus elemental DMG for attacks against foes in overdrive"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
         "WIND": [
             {
                 "duration": {},
@@ -17259,6 +18035,34 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Boost to dodge rate against foes with [Status Foxflame 1.png] **Foxflame**"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ]
+    },
+    "Young_Cat": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Pet Me",
+                "text": [
+                    "Chance of mood improving upon being targeted by an ally's healing skill or buff skill. Mood worsens upon taking damage. (1-turn cut to skill cooldowns upon mood improving. )"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Mini Skyfarer",
+                "text": [
+                    "When Sub Ally: 5% boost to all allies' DEF. 5% chance to give [Status Uplift.png] **Charge Bar +10%** to all allies at end of turn."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Chance of mood improving at end of turn."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -17611,6 +18415,16 @@
                 "name": "Extended Mastery Support Skill",
                 "text": [
                     "Gain Bonus Elemental DMG effect when blinded"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Extended Mastery Support Skill",
+                "text": [
+                    "Bonus elemental DMG for one-foe attacks against blinded foes"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }

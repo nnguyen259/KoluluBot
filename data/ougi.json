@@ -178,7 +178,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Blaze of Thunder",
@@ -230,6 +230,17 @@
                 "name": "Mirror-Blade Helix",
                 "text": [
                     "450% Earth damage to a foe. Gain [Status Marked for Death Hildebrand.png] **Marked for Death**."
+                ]
+            }
+        ]
+    },
+    "Alistair": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "The Final Word",
+                "text": [
+                    "Big Water damage to a foe."
                 ]
             }
         ]
@@ -608,7 +619,25 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Cursed Blaze",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Raging Blaze",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Cursed Blaze",
                 "text": [
                     "Big Fire damage to a foe."
                 ]
@@ -781,7 +810,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {
                     "1.5^t": [
@@ -1074,7 +1103,7 @@
                 },
                 "name": "Minerva Thrust",
                 "text": [
-                    "Massive Fire damage to a foe. All allies gain [Status FireAtkUp.png] **15% Fire ATK Up** and [Status Armored.png] **70% / 30% Armored**."
+                    "450% Fire damage to a foe. All allies gain [Status FireAtkUp.png] **15% Fire ATK Up** and [Status Armored.png] **70% / 30% Armored**."
                 ]
             }
         ]
@@ -1198,6 +1227,28 @@
             }
         ]
     },
+    "Bakura": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Song of Silence",
+                "text": [
+                    "Big Dark damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                ]
+            }
+        ]
+    },
+    "Balurga": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Vulcan Bite",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ]
+    },
     "Baotorda": {
         "BASE": [
             {
@@ -1225,6 +1276,15 @@
                 "name": "Beyond Reasoning",
                 "text": [
                     "Big Fire damage to a foe"
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Abandon Reasoning",
+                "text": [
+                    "Big Fire damage to a foe."
                 ]
             }
         ],
@@ -1386,6 +1446,15 @@
                     "Big Light damage to a foe. Gain [Status Bonus Damage.png] **30% Bonus Light DMG**."
                 ]
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Bold Slash",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
         ]
     },
     "Cagliostro": {
@@ -1501,6 +1570,15 @@
     "Cailana": {
         "BASE": [
             {
+                "duration": {},
+                "name": "Rodeo Flip",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
                 "duration": {
                     "3.5^t": [
                         "[Status Surfer's Intuition.png] **Surfer's Intuition**"
@@ -1546,6 +1624,24 @@
     },
     "Camieux": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Exploding Shot",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Detonation Rounds",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ],
+        "SUMMER": [
             {
                 "duration": {},
                 "name": "Detonation Rounds",
@@ -1830,6 +1926,15 @@
     "Chloe": {
         "BASE": [
             {
+                "duration": {},
+                "name": "Makeover",
+                "text": [
+                    ""
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
                 "duration": {
                     "Indefinite^i": [
                         "[Status Turned Up.png] **Turned Up**"
@@ -2039,6 +2144,15 @@
                     "Big Light damage to a foe. Gain [Status Bonus Damage.png] **30% Bonus Light DMG**."
                 ]
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Piercing Lighting",
+                "text": [
+                    "Big Light damage to a foe."
+                ]
+            }
         ]
     },
     "Cucouroux": {
@@ -2091,6 +2205,15 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Grinding Bite",
+                "text": [
+                    "Big Light damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Giant Nibble",
                 "text": [
                     "Big Light damage to a foe."
@@ -2105,6 +2228,26 @@
                 "name": "Capricieux Avalanche",
                 "text": [
                     "Massive Earth damage to a foe (Boost to damage based on how high HP is). Additional effect when 1 [Status Black Cat Fancy 1.png] **Black Cat Fancy** is consumed: 500% Bonus Earth damage (Damage cap: ~630,000)."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Flames of Revelation",
+                "text": [
+                    "Big Fire damage to a foe. (Boost to charge attack damage as Dante's HP decreases. )"
+                ]
+            },
+            {
+                "duration": {
+                    "0.5^t": [
+                        "[Status AggroUpArrow.png] **Hostility Up**"
+                    ]
+                },
+                "name": "Frozen Blade only:Capricieux Grasse",
+                "text": [
+                    "Medium Water damage to a foe. Chance to gain [Status AggroUpArrow.png] **Hostility Up**."
                 ]
             }
         ],
@@ -2296,6 +2439,15 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Absolute Thrust",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "The Sterling Spear",
                 "text": [
                     "Big Dark damage to a foe."
@@ -2417,6 +2569,17 @@
             }
         ]
     },
+    "Drusilla": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Shopping Spree",
+                "text": [
+                    ""
+                ]
+            }
+        ]
+    },
     "Eahta": {
         "BASE": [
             {
@@ -2492,7 +2655,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Mahle Fantasia",
@@ -2520,6 +2683,17 @@
                 "name": "Scary-Go-Round",
                 "text": [
                     "Big Dark damage to a foe."
+                ]
+            }
+        ]
+    },
+    "Elmelaura": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Blur of Blades",
+                "text": [
+                    "Big Fire damage to a foe."
                 ]
             }
         ]
@@ -2598,6 +2772,15 @@
     },
     "Eso": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Axe Tornado",
+                "text": [
+                    "Big Wind damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Mystic Hurricane",
@@ -2710,7 +2893,7 @@
                 },
                 "name": "Taurus Blight",
                 "text": [
-                    "Massive Water damage to a foe. 100% Bonus Water damage based on number of [Status Starry Waters.png] **Starry Waters** (Damage cap: ~110,000 per hit / Max: 5 hits). Gain [Status TripleUp.png] **Guaranteed TA**."
+                    "450% Water damage to a foe. 100% Bonus Water damage based on number of [Status Starry Waters.png] **Starry Waters** (Damage cap: ~110,000 per hit / Max: 5 hits). Gain [Status TripleUp.png] **Guaranteed TA**."
                 ]
             }
         ]
@@ -2850,6 +3033,15 @@
                 ]
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Super Ultra Killing Slash!",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -2889,6 +3081,15 @@
                 "name": "Animus Strike",
                 "text": [
                     "Big Dark damage to a foe. Raise [Status Spirit Fist 1.png] **Spirit Fist** lvl by 2."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Belief Blow",
+                "text": [
+                    "Big Light damage to a foe."
                 ]
             }
         ],
@@ -3257,6 +3458,17 @@
             }
         ]
     },
+    "Flesselles": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Canine Fang",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ]
+    },
     "Florence": {
         "BASE": [
             {
@@ -3378,6 +3590,26 @@
                     "Big Earth damage to a foe."
                 ]
             }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Brutal Smash",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ]
+    },
+    "Garma": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Roiver Gevolt",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
         ]
     },
     "Gawain": {
@@ -3452,7 +3684,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Sublime Step",
@@ -3743,6 +3975,15 @@
                     "Big Wind damage to a foe."
                 ]
             }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Fist of Punishment",
+                "text": [
+                    "Big Wind damage to a foe."
+                ]
+            }
         ]
     },
     "Helel_ben_Shalem": {
@@ -3822,7 +4063,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Flaterie Sol",
@@ -3859,6 +4100,15 @@
                 "name": "Mercenary Blade",
                 "text": [
                     "450% Earth damage to a foe. When [Status 68491.png] **Steadfast** lvl is 5 or above: Activate Stalwart Sword without consuming [Status 68491.png] **Steadfast** lvl."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Blade Action",
+                "text": [
+                    "Big Earth damage to a foe."
                 ]
             }
         ],
@@ -3967,7 +4217,7 @@
                 ]
             }
         ],
-        "GRAND_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Crystal Gust",
@@ -4033,9 +4283,27 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Bamboo Burst",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Spicy-Hot Impact",
                 "text": [
                     "Big Fire damage to a foe. Restore all allies' HP ()"
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Bamboo Burst",
+                "text": [
+                    "Big Fire damage to a foe."
                 ]
             }
         ]
@@ -4171,6 +4439,15 @@
     },
     "Jasmine": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Earth Crash",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Forest Friends",
@@ -4387,6 +4664,15 @@
     "Joel": {
         "BASE": [
             {
+                "duration": {},
+                "name": "Hardwave Butterfly",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
                 "duration": {
                     "2.5^t": [
                         "[Status FireResUp.png] **Fire DMG Lowered**"
@@ -4564,6 +4850,15 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Invisible Hands",
+                "text": [
+                    "Big Wind damage to a foe. If foe has [Status partner.png] **Partnered Up**: Get up to 10,000 if successful."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Batter Up!",
                 "text": [
                     "Big Wind damage to a foe. Slight chance to hit 'em out of the park (Slight chance to inflict [Status Death.png] **Lethal Hit**)."
@@ -4573,6 +4868,15 @@
     },
     "Karva": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Raider Gateway",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Raider's Perfection",
@@ -4621,7 +4925,7 @@
                 ]
             }
         ],
-        "GRAND_4": [
+        "BASE_4": [
             {
                 "duration": {
                     "3.5^t": [
@@ -4836,6 +5140,15 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Revolving Dice",
+                "text": [
+                    "Big Wind damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Doomful Dice",
                 "text": [
                     "Big Wind damage to a foe. (Specs change based on dice numbers rolled. )Gain [Status Uplift.png] **Charge Bar +20%**."
@@ -4893,6 +5206,15 @@
     },
     "La_Coiffe": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Blooming Scissorwaltz",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Nature-Loving Scissors",
@@ -5018,6 +5340,15 @@
                 ]
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Everything Goes Boom!",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -5131,6 +5462,15 @@
                 "name": "Twilight Blade",
                 "text": [
                     "Massive Wind damage to a foe. Remove 1 buff from all foes."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Sunrise Blade",
+                "text": [
+                    "Big Wind damage to a foe."
                 ]
             }
         ],
@@ -5256,6 +5596,17 @@
             }
         ]
     },
+    "Leonora": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Izuna Leap",
+                "text": [
+                    "Big Wind damage to a foe."
+                ]
+            }
+        ]
+    },
     "Levi": {
         "BASE": [
             {
@@ -5321,7 +5672,7 @@
                 },
                 "name": "Frozen Vision",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
+                    "450% Water damage to a foe. All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
                 ]
             },
             {
@@ -5332,7 +5683,7 @@
                 },
                 "name": "After 5\u2605:Frozen Bloom",
                 "text": [
-                    "Massive Water damage to a foe. (50% boost to C. A. damage and 30% boost to C. A. damage cap against foes with [Status Glaciate 1.png] **Glaciate**. )All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
+                    "500% Water damage to a foe. (50% boost to C. A. damage and 30% boost to C. A. damage cap against foes with [Status Glaciate 1.png] **Glaciate**. )All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
                 ]
             }
         ],
@@ -5345,7 +5696,7 @@
                 },
                 "name": "Frozen Vision",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
+                    "450% Water damage to a foe. All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
                 ]
             },
             {
@@ -5356,7 +5707,7 @@
                 },
                 "name": "After 5\u2605:Frozen Bloom",
                 "text": [
-                    "Massive Water damage to a foe. (50% boost to C. A. damage and 30% boost to C. A. damage cap against foes with [Status Glaciate 1.png] **Glaciate**. )All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
+                    "500% Water damage to a foe. (50% boost to C. A. damage and 30% boost to C. A. damage cap against foes with [Status Glaciate 1.png] **Glaciate**. )All allies gain [Status WaterAtkUp.png] **25% Water ATK Up**."
                 ]
             }
         ],
@@ -5411,12 +5762,30 @@
                 ]
             }
         ],
-        "EVENT_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Totally Rad Strat-Meet",
                 "text": [
                     "Totally radical strategy meeting! While fighting. Cuz that\u2019s how awesome we are. Totally."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Super Battle Hero",
+                "text": [
+                    "Big Dark damage to a foe."
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Super Summer Fun",
+                "text": [
+                    "Big Dark damage to a foe."
                 ]
             }
         ]
@@ -5554,6 +5923,24 @@
                 "name": "Cataclysmic Storybook",
                 "text": [
                     "Gain 1 [Status Page 1.png] **Page** stack. All allies gain [Status Uplift.png] **Charge Bar +10%**."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Calamity Picture",
+                "text": [
+                    "Big Dark damage to a foe."
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Cataclysmic Illustration",
+                "text": [
+                    "Big dark damage to a foe. Gain 1 [Status BodyHeat.png] **Body Heat Boosted** stack."
                 ]
             }
         ]
@@ -5760,12 +6147,30 @@
                 ]
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Illuminate Star",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ],
         "SR": [
             {
                 "duration": {},
                 "name": "Twinkle Star",
                 "text": [
                     "Big fire damage to a foe."
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Illuminating Star",
+                "text": [
+                    "Big Fire damage to a foe."
                 ]
             }
         ]
@@ -6008,7 +6413,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Pounding Heart",
@@ -6196,7 +6601,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Triple Star",
@@ -6774,7 +7179,18 @@
                 },
                 "name": "Gaia Dora",
                 "text": [
-                    "Massive Fire damage to a foe. Special buffs to all allies based on my Nemo Power!(All allies gain [Status 7008.png] **Gilded by Gaia**. Boost to effect based on [Status 7009 10.png] **Nemo Power**. )"
+                    "450% Fire damage to a foe. Special buffs to all allies based on my Nemo Power!(All allies gain [Status 7008.png] **Gilded by Gaia**. Boost to effect based on [Status 7009 10.png] **Nemo Power**. )"
+                ]
+            }
+        ]
+    },
+    "Nene": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Sale Savvy",
+                "text": [
+                    "Big Earth damage to a foe."
                 ]
             }
         ]
@@ -7050,6 +7466,17 @@
             }
         ]
     },
+    "Norcel": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Oopsie\u00a0!",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ]
+    },
     "Novei": {
         "BASE": [
             {
@@ -7166,6 +7593,17 @@
                 "name": "Trionfo Canzone",
                 "text": [
                     "Big Earth damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                ]
+            }
+        ]
+    },
+    "Pavidus": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Salvation by Faith",
+                "text": [
+                    "Big Wind damage to a foe."
                 ]
             }
         ]
@@ -7300,10 +7738,28 @@
                     "Massive Wind damage to a foe. All Wind allies gain [Status CriticalUpWind.png] **??% / 20% Critical Hit Rate Up**."
                 ]
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Wind Cross",
+                "text": [
+                    "Big Wind damage to a single enemy."
+                ]
+            }
         ]
     },
     "Philosophia": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Krypton Pragma",
+                "text": [
+                    "Big Light damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Aufheben",
@@ -7354,7 +7810,7 @@
                 },
                 "name": "Elegant Ruby",
                 "text": [
-                    "Massive Water damage to a foe. All allies gain [Status Shield.png] **Shield (2000)**. Fully recover [Status White Veil.png] **White Veil**'s endurance."
+                    "450% Water damage to a foe. All allies gain [Status Shield.png] **Shield (2000)**. Fully recover [Status White Veil.png] **White Veil**'s endurance."
                 ]
             }
         ]
@@ -7422,7 +7878,7 @@
                 ]
             }
         ],
-        "GRAND_4": [
+        "BASE_4": [
             {
                 "duration": {
                     "3.5^t": [
@@ -7501,6 +7957,15 @@
     },
     "Randall": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Fierce Kick",
+                "text": [
+                    "Big Water damage to a foe. Gain [Status DoubleUp.png] **DA Up**."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Aerial Assault Kick",
@@ -7645,6 +8110,15 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Joker Blast",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "The Lady Smiles on You",
                 "text": [
                     "350% Dark damage to a foe. Random boost to C. A. specs."
@@ -7669,7 +8143,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Doki Doki Rhythm",
@@ -7703,7 +8177,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Iolite Blue",
@@ -7748,7 +8222,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Familial Insanity",
@@ -7857,6 +8331,15 @@
                 ]
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Imperial Talismancy: Strike",
+                "text": [
+                    "Big Light damage to a foe."
+                ]
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -7951,6 +8434,15 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Eat Up, Kids!",
+                "text": [
+                    "Big Fire damage to a foe. Gain 3 [Status Cracker 1.png] **Cracker**."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Biscuit Brulee",
                 "text": [
                     "Big Fire damage to a foe. End cooldown for Get Baking."
@@ -7960,6 +8452,15 @@
     },
     "Ryan": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Grommet Hatchet",
+                "text": [
+                    "Big Fire damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Bruiser Axe",
@@ -8154,7 +8655,7 @@
                 "duration": {},
                 "name": "Cor Fidelis",
                 "text": [
-                    "Massive Light damage to a foe. Remove all debuffs from Sara. (Tonitrua activates when not debuffed. )"
+                    "450% Light damage to a foe. Remove all debuffs from Sara. (Tonitrua activates when not debuffed. )"
                 ]
             }
         ],
@@ -8729,7 +9230,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {
                     "180^s": [
@@ -9153,6 +9654,33 @@
                 ]
             }
         ],
+        "BASE_4": [
+            {
+                "duration": {
+                    "5.5^t": [
+                        "[Status Strength.png] **Strength**"
+                    ]
+                },
+                "name": "Tectonic Rush",
+                "text": [
+                    "450% Earth damage to a foe. Gain [Status Strength.png] **Strength**."
+                ]
+            },
+            {
+                "duration": {
+                    "1.5^t": [
+                        "[Status 6952.png] **Fundoshi Fist**"
+                    ],
+                    "5.5^t": [
+                        "[Status Strength.png] **Strength**"
+                    ]
+                },
+                "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
+                "text": [
+                    "500% Earth damage to a foe. Gain [Status Strength.png] **Strength** and [Status 6952.png] **Fundoshi Fist**."
+                ]
+            }
+        ],
         "EVENT": [
             {
                 "duration": {},
@@ -9201,33 +9729,6 @@
                     "Massive Earth damage to a foe. Gain [Status DoubleUp.png] **DA Up**."
                 ]
             }
-        ],
-        "SSR_4": [
-            {
-                "duration": {
-                    "5.5^t": [
-                        "[Status Strength.png] **Strength**"
-                    ]
-                },
-                "name": "Tectonic Rush",
-                "text": [
-                    "450% Earth damage to a foe. Gain [Status Strength.png] **Strength**."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
-                        "[Status 6952.png] **Fundoshi Fist**"
-                    ],
-                    "5.5^t": [
-                        "[Status Strength.png] **Strength**"
-                    ]
-                },
-                "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
-                "text": [
-                    "500% Earth damage to a foe. Gain [Status Strength.png] **Strength** and [Status 6952.png] **Fundoshi Fist**."
-                ]
-            }
         ]
     },
     "Spinnah": {
@@ -9237,6 +9738,15 @@
                 "name": "Twisted Revolution",
                 "text": [
                     "350% Wind damage to a foe. Extend the duration of [Status 6163 2.png] **Spinning High** by ."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Twist and Cut",
+                "text": [
+                    "Big Wind damage to a foe. Extend the duration of [Status Spinning High.png] **Spinning High** by ."
                 ]
             }
         ]
@@ -9273,6 +9783,15 @@
                 "name": "Verite Courage",
                 "text": [
                     "Big Dark damage to a foe. (Boost to damage based on [Status Courage.png] **Courage** level. )"
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Virtus Veritas",
+                "text": [
+                    "Big Wind damage to a foe."
                 ]
             }
         ]
@@ -9313,13 +9832,22 @@
                 },
                 "name": "Hell's Angel",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status Double Blitz.png] **Double Blitz**. (Next Blitzkrieg activates twice. )"
+                    "450% Fire damage to a foe. Gain [Status Double Blitz.png] **Double Blitz**. (Next Blitzkrieg activates twice. )"
                 ]
             }
         ]
     },
     "Suframare": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Frost Watch",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
+        ],
+        "SUMMER": [
             {
                 "duration": {},
                 "name": "Freezing Summer",
@@ -9456,6 +9984,15 @@
                 ]
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Imminent Shadow",
+                "text": [
+                    "Big Dark damage to a foe."
+                ]
+            }
+        ],
         "SR": [
             {
                 "duration": {},
@@ -9574,6 +10111,17 @@
                 "name": "Gigantic Beefcake",
                 "text": [
                     "1000% Earth damage to a foe (Damage cap: ~2,527,500). (Can only be used when [Status Super Robo Elsam.png] **Super Robo Elsam** is active. )"
+                ]
+            }
+        ]
+    },
+    "Thelonim": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Meteor Gale",
+                "text": [
+                    "Big Wind damage to a foe."
                 ]
             }
         ]
@@ -10107,7 +10655,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Illusion Dance",
@@ -10141,7 +10689,7 @@
                 ]
             }
         ],
-        "SR_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Pink Lively",
@@ -10238,34 +10786,7 @@
                 ]
             }
         ],
-        "DUO": [
-            {
-                "duration": {},
-                "name": "Zwei Fluegel",
-                "text": [
-                    "Massive Fire damage to a foe. Activate Weiss Drachen."
-                ]
-            }
-        ],
-        "EVENT": [
-            {
-                "duration": {},
-                "name": "Loewenbein",
-                "text": [
-                    "Big Water damage to a foe."
-                ]
-            }
-        ],
-        "SR": [
-            {
-                "duration": {},
-                "name": "Loewenbein: Gold",
-                "text": [
-                    "Big Water damage to a foe."
-                ]
-            }
-        ],
-        "SSR_4": [
+        "BASE_4": [
             {
                 "duration": {
                     "180^s": [
@@ -10291,6 +10812,33 @@
                 "name": "After 5\u2605:Loewenbein: Jagd ++",
                 "text": [
                     "500% Water damage to a foe. Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status FireAtkDown.png] **10% Fire ATK Down**. Gain [Status 4038.png] **Double Beat**. (Next Heroic Beat activates twice. )"
+                ]
+            }
+        ],
+        "DUO": [
+            {
+                "duration": {},
+                "name": "Zwei Fluegel",
+                "text": [
+                    "Massive Fire damage to a foe. Activate Weiss Drachen."
+                ]
+            }
+        ],
+        "EVENT": [
+            {
+                "duration": {},
+                "name": "Loewenbein",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
+                "name": "Loewenbein: Gold",
+                "text": [
+                    "Big Water damage to a foe."
                 ]
             }
         ]
@@ -10374,6 +10922,15 @@
     },
     "Vanzza": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Fist of Ascension",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Riftmaker",
@@ -10481,9 +11038,29 @@
         "BASE": [
             {
                 "duration": {},
+                "name": "Salvator Rosa",
+                "text": [
+                    "Big Light damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
+            {
+                "duration": {},
                 "name": "Rising Rapier",
                 "text": [
                     "Big Light damage to a foe. Inflict [Status Blind.png] **Blinded**."
+                ]
+            }
+        ]
+    },
+    "Viceroy": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Vice Driver",
+                "text": [
+                    "Big Fire damage to a foe."
                 ]
             }
         ]
@@ -10501,10 +11078,42 @@
                     "500% Dark damage to a foe. Gain [Status Dodge 1.png] **Dodge All (1 time)**."
                 ]
             }
+        ],
+        "EVENT": [
+            {
+                "duration": {},
+                "name": "Everyone's Favorite Rat",
+                "text": [
+                    "Where. . . are my rat ears?(Nothing happens. )"
+                ]
+            }
         ]
     },
     "Vira": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Overpower",
+                "text": [
+                    "450% Dark damage to a foe."
+                ]
+            },
+            {
+                "duration": {},
+                "name": "After 5\u2605:Overpower ++",
+                "text": [
+                    "500% Dark damage to a foe."
+                ]
+            },
+            {
+                "duration": {},
+                "name": "Luminiera Merge:Affection Abyss",
+                "text": [
+                    "500% Dark damage to a foe (Damage cap: ~1,685,000) and; 250% Light damage to a foe (Damage cap: ~350,000). 1-turn cut to Vira's skill cooldowns."
+                ]
+            }
+        ],
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Overpower",
@@ -10567,29 +11176,6 @@
                 ]
             }
         ],
-        "SSR_4": [
-            {
-                "duration": {},
-                "name": "Overpower",
-                "text": [
-                    "450% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Overpower ++",
-                "text": [
-                    "500% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "Luminiera Merge:Affection Abyss",
-                "text": [
-                    "500% Dark damage to a foe (Damage cap: ~1,685,000) and; 250% Light damage to a foe (Damage cap: ~350,000). 1-turn cut to Vira's skill cooldowns."
-                ]
-            }
-        ],
         "SUMMER": [
             {
                 "duration": {
@@ -10622,6 +11208,15 @@
                     "Big Earth damage to a foe."
                 ]
             }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Destruction Slash",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
         ]
     },
     "Walder": {
@@ -10641,7 +11236,7 @@
                 ]
             }
         ],
-        "EVENT_4": [
+        "BASE_4": [
             {
                 "duration": {},
                 "name": "Ultimate Hundred Steelshot",
@@ -10656,10 +11251,46 @@
                     "400% Earth damage to a foe. Extend the duration of [Status I Am a Hero.png] **I Am a Hero** by 2 turns."
                 ]
             }
+        ],
+        "HOLIDAY": [
+            {
+                "duration": {},
+                "name": "Steelshot",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Steelshot",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
+        ],
+        "SUMMER": [
+            {
+                "duration": {},
+                "name": "Steelshot",
+                "text": [
+                    "Big Earth damage to a foe."
+                ]
+            }
         ]
     },
     "Will": {
         "BASE": [
+            {
+                "duration": {},
+                "name": "Spatter",
+                "text": [
+                    "Big Dark damage to a foe."
+                ]
+            }
+        ],
+        "SR": [
             {
                 "duration": {},
                 "name": "Spatter",
@@ -10898,6 +11529,15 @@
                 ]
             }
         ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Evil Bait",
+                "text": [
+                    "Big Water damage to a foe."
+                ]
+            }
+        ],
         "WIND": [
             {
                 "duration": {
@@ -10927,18 +11567,29 @@
             }
         ]
     },
+    "Young_Cat": {
+        "BASE": [
+            {
+                "duration": {},
+                "name": "Haymaker Cat Punch",
+                "text": [
+                    "200% elemental damage to a foe. Restore all allies' HP. ( when in a better mood. )"
+                ]
+            }
+        ]
+    },
     "Yuel": {
         "BASE": [
             {
                 "duration": {},
                 "name": "Rise of the Blood-Moon",
                 "text": [
-                    "Massive Fire damage to a foe."
+                    "450% Fire damage to a foe."
                 ]
             },
             {
                 "duration": {
-                    "3^t": [
+                    "3.5^t": [
                         "[Status DamageCapUp.png] **15% DMG Cap Up**"
                     ],
                     "Indefinite^i": [
@@ -10948,7 +11599,7 @@
                 },
                 "name": "After 5\u2605:Crimson Dance: Yugetsu",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status DamageCapUp.png] **15% DMG Cap Up**, [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)**, and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**."
+                    "500% Fire damage to a foe. Gain [Status DamageCapUp.png] **15% DMG Cap Up**, [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)**, and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ],
@@ -10957,12 +11608,12 @@
                 "duration": {},
                 "name": "Rise of the Blood-Moon",
                 "text": [
-                    "Massive Fire damage to a foe."
+                    "450% Fire damage to a foe."
                 ]
             },
             {
                 "duration": {
-                    "3^t": [
+                    "3.5^t": [
                         "[Status DamageCapUp.png] **15% DMG Cap Up**"
                     ],
                     "Indefinite^i": [
@@ -10972,7 +11623,7 @@
                 },
                 "name": "After 5\u2605:Crimson Dance: Yugetsu",
                 "text": [
-                    "Massive Fire damage to a foe. Gain [Status DamageCapUp.png] **15% DMG Cap Up**, [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)**, and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**."
+                    "500% Fire damage to a foe. Gain [Status DamageCapUp.png] **15% DMG Cap Up**, [Status Heal.png] **50% Healing Up (Stackable / Max: 100%)**, and [Status Heal.png] **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ],
@@ -11147,6 +11798,15 @@
             {
                 "duration": {},
                 "name": "Chaos Arcania",
+                "text": [
+                    "Big Dark damage to a foe."
+                ]
+            }
+        ],
+        "R": [
+            {
+                "duration": {},
+                "name": "Dark Blade",
                 "text": [
                     "Big Dark damage to a foe."
                 ]

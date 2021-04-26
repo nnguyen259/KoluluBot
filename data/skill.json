@@ -844,7 +844,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 5 turns ",
@@ -1104,6 +1104,46 @@
                     ]
                 }
             ],
+            []
+        ]
+    },
+    "Alistair": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/215_3.png"
+                    ],
+                    "name": "Q.E.D.",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        ""
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/216_1.png"
+                    ],
+                    "name": "Debate",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        ""
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -2935,6 +2975,64 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/4_1.png"
+                    ],
+                    "name": "Fire",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Fire damage to a foe (Damage cap: ~210,000). Damage increased to 250%."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status DefenseUp.png] **Dodge All**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/51_3.png"
+                    ],
+                    "name": "Nightmare Wish",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **Dodge All**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/4_1.png"
+                    ],
+                    "name": "Roast",
+                    "obtain": "  ",
+                    "text": [
+                        "3-hit 100% Fire damage to random foes (Damage cap: ~85,000 per hit)."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 6 turns ",
                     "duration": {
                         "180^s": [
@@ -3002,6 +3100,49 @@
                     ]
                 }
             ],
+            []
+        ],
+        "SUMMER": [
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/4_1.png"
+                    ],
+                    "name": "Fire",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Small Fire damage to a foe. Effect enhanced."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status DefenseUp.png] **Dodge All**",
+                            "[Status AttackUp.png] **ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/51_3.png"
+                    ],
+                    "name": "Pretty Please Nightmare",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **Dodge All** and [Status AttackUp.png] **ATK Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -3133,7 +3274,8 @@
                         ]
                     },
                     "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/37_3.png"
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/37_3.png",
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1455_3.png"
                     ],
                     "name": "Arm the Bastion",
                     "obtain": " Lvl 45\u21e7 Lvl 130 ",
@@ -3141,6 +3283,7 @@
                         "All allies gain [Status Dmg Cut 100.png] **100% DMG Cut** and [Status Fire Cut 100.png] **100% Fire Cut**. All allies also gain [Status Fire Switch.png] **Fire Switch**."
                     ],
                     "type": [
+                        "3",
                         "3"
                     ]
                 }
@@ -3229,7 +3372,8 @@
                         ]
                     },
                     "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/37_3.png"
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/37_3.png",
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1455_3.png"
                     ],
                     "name": "Arm the Bastion",
                     "obtain": " Lvl 45\u21e7 Lvl 130 ",
@@ -3237,6 +3381,7 @@
                         "All allies gain [Status Dmg Cut 100.png] **100% DMG Cut** and [Status Fire Cut 100.png] **100% Fire Cut**. All allies also gain [Status Fire Switch.png] **Fire Switch**."
                     ],
                     "type": [
+                        "3",
                         "3"
                     ]
                 }
@@ -3325,7 +3470,8 @@
                         ]
                     },
                     "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/37_3.png"
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/37_3.png",
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1455_3.png"
                     ],
                     "name": "Arm the Bastion",
                     "obtain": " Lvl 45\u21e7 Lvl 130 ",
@@ -3333,6 +3479,7 @@
                         "All allies gain [Status Dmg Cut 100.png] **100% DMG Cut** and [Status Fire Cut 100.png] **100% Fire Cut**. All allies also gain [Status Fire Switch.png] **Fire Switch**."
                     ],
                     "type": [
+                        "3",
                         "3"
                     ]
                 }
@@ -3586,7 +3733,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 9 turns8 turns ",
@@ -4974,7 +5121,7 @@
                     "cooldown": " 5 turns ",
                     "duration": {
                         "180^s": [
-                            "[Status DoubleDown.png] **DA Down**",
+                            "[Status DoubleDown.png] **100% DA Down**",
                             "[Status Blind.png] **Blinded**"
                         ]
                     },
@@ -4984,7 +5131,7 @@
                     "name": "Glare of Glafkos",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "Inflict [Status DoubleDown.png] **DA Down**, [Status Blind.png] **Blinded**, and [Status Gravity.png] **Delay** on all foes."
+                        "Inflict [Status DoubleDown.png] **100% DA Down**, [Status Blind.png] **Blinded**, and [Status Gravity.png] **Delay** on all foes."
                     ],
                     "type": [
                         "4"
@@ -5467,6 +5614,91 @@
             []
         ]
     },
+    "Bakura": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 4 turns3 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/281_1.png"
+                    ],
+                    "name": "Oblivion",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Dark damage to a foe (Damage cap: 420,000). Boost to damage with each cast. Damage resets to normal after 7 casts."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 3 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/281_2.png"
+                    ],
+                    "name": "Deliverance",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Restore an ally's HP (Healing cap: 300). Boost healing cap by 100 HP with each cast. Healing resets to normal after 7 casts."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [],
+            []
+        ]
+    },
+    "Balurga": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/10_1.png"
+                    ],
+                    "name": "Reckless Fire",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Earth damage to all foes (Boost to damage as HP decreases)Effect enhanced."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Defiance.png] **Defiance**",
+                            "[Status AttackUp.png] **ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/43_3.png"
+                    ],
+                    "name": "Savage Strike",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status Defiance.png] **Defiance** and [Status AttackUp.png] **ATK Up**"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ]
+    },
     "Baotorda": {
         "BASE": [
             [
@@ -5657,6 +5889,44 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/80_3.png"
+                    ],
+                    "name": "Deduce",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status AttackUpStack.png] **C.A. DMG Up (Stackable)**. Effect enhanced"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/49_1.png"
+                    ],
+                    "name": "Bluff",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Random Fire damage to a foe (Max: 100,000% [Damage cap: 10,000,000])."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ],
         "SR": [
@@ -6519,6 +6789,52 @@
                 }
             ],
             []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status Strength.png] **Strength (Party)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/14_3.png"
+                    ],
+                    "name": "I've Got Your Back!",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Grant one ally [Status Strength.png] **Strength (Party)**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status Strength.png] **Strength (Party)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/14_3.png"
+                    ],
+                    "name": "I've Got Your Back Till The End!",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Grant one ally [Status Strength.png] **Strength (Party)**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
         ]
     },
     "Cagliostro": {
@@ -7014,6 +7330,48 @@
                     "name": "Hang Ten",
                     "obtain": " Lvl 1\u21e7 Lvl 45 ",
                     "text": [
+                        "Gain [Status Bonus Damage.png] **30% Bonus Water DMG**. ."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Off the Lip",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Water damage to a foe. Inflict [Status WaterResDown.png] **10% Water DEF Down**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status Bonus Damage.png] **30% Bonus Water DMG**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/286_3.png"
+                    ],
+                    "name": "Hang Ten",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
                         "Gain [Status Bonus Damage.png] **30% Bonus Water DMG**."
                     ],
                     "type": [
@@ -7342,6 +7700,90 @@
     },
     "Camieux": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status Defiance.png] **30% C.A. DMG Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/144_3.png"
+                    ],
+                    "name": "Amplifier",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "All allies gain [Status Defiance.png] **30% C.A. DMG Up**. Effect enhanced"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Discharger",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status Overdrive Curbed.png] **Mode Bar Cut Boosted**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/34_3.png"
+                    ],
+                    "name": "Fret",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "All allies gain [Status Overdrive Curbed.png] **Mode Bar Cut Boosted**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Discharger",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SUMMER": [
             [
                 {
                     "cooldown": " 7 turns ",
@@ -8785,6 +9227,44 @@
             [
                 {
                     "cooldown": " 6 turns5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/197_3.png"
+                    ],
+                    "name": "Rockin' the Look",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status Hype1.png] **Hype**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 20 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/98_3.png"
+                    ],
+                    "name": "So Outta Here",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Switch positions with a sub party member."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SUMMER": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
                     "duration": {
                         "3^t": [
                             "[Status Hype1.png] **Hype**",
@@ -9764,6 +10244,53 @@
                 }
             ],
             []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status DefenseUp.png] **20% DEF Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/56_3.png"
+                    ],
+                    "name": "Shield Stance",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status Substitute.png] **Substitute**. Also gain [Status DefenseUp.png] **20% DEF Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status DefenseUp.png] **20% DEF Up**",
+                            "[Status AggroUpArrow.png] **Hostility Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/22_3.png"
+                    ],
+                    "name": "Heroic Oath",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **20% DEF Up** and [Status AggroUpArrow.png] **Hostility Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
         ]
     },
     "Cucouroux": {
@@ -10080,6 +10607,49 @@
                     "cooldown": " 8 turns ",
                     "duration": {},
                     "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Iron Gram",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "300%-350% Light damage to a foe. Damage increased to 350%-450%."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status AttackDown.png] **10% ATK Down**",
+                            "[Status DefenseDown.png] **10% DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/44_4.png"
+                    ],
+                    "name": "Full Break",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Inflict [Status AttackDown.png] **10% ATK Down** and [Status DefenseDown.png] **10% DEF Down**, and **Mode Bar Cut** on a foe."
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {},
+                    "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/21_1.png"
                     ],
                     "name": "Steel Gram",
@@ -10203,6 +10773,44 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/4_1.png"
+                    ],
+                    "name": "Ether Cast",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Fire damage to a foe. If [Status FrozenBlade.png] **Frozen Blade** is active: Also deal 100%-1000% bonus Water damage. Effect enhanced."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 1 turn ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/120_3.png"
+                    ],
+                    "name": "Unleash",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status FrozenBlade.png] **Frozen Blade**. (Effect is removed when skill is reused. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ],
         "SR": [
@@ -10882,6 +11490,49 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 8 turns6 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status DefenseUp.png] **DEF Up**",
+                            "[Status AttackDown.png] **ATK Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/31_3.png"
+                    ],
+                    "name": "Shield Defense",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **DEF Up**. Self-inflict [Status AttackDown.png] **ATK Down**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/33_1.png"
+                    ],
+                    "name": "Overlance",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "400% Water damage to a foe in Overdrive."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 9 turns7 turns ",
                     "duration": {
                         "5^t": [
@@ -11505,6 +12156,50 @@
             []
         ]
     },
+    "Drusilla": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "2^t": [
+                            "[Status Uplift.png] **Getting Ready**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/277_3.png"
+                    ],
+                    "name": "I'm Getting Ready!",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "I'll be ready in just a minute!(Gain [Status Uplift.png] **Getting Ready**. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/276_3.png"
+                    ],
+                    "name": "I'm a VIP!",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Let's go someplace extravagant!(Gain [Status VIP.png] **VIP**, making it more likely to buy expensive items with Shopping Spree. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ]
+    },
     "Eahta": {
         "BASE": [
             [
@@ -11748,7 +12443,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 5 turns ",
@@ -11876,6 +12571,50 @@
                     ]
                 }
             ],
+            []
+        ]
+    },
+    "Elmelaura": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {
+                        "4^t": [
+                            "[Status DefenseUp.png] **15% DEF Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
+                    ],
+                    "name": "Specially-Made Lunch",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Restore all allies' HP (Healing cap: 600). All allies gain [Status DefenseUp.png] **15% DEF Up**."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Huge Knife",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "250%-350% Fire damage to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -12260,6 +12999,49 @@
     },
     "Eso": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Hexor",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "200%-250% Wind damage to a foe. Damage increased to 250%-350%"
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status DoubleUp.png] **DA Up**",
+                            "[Status TripleUp.png] **TA Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/45_3.png"
+                    ],
+                    "name": "Strong Arm",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status DoubleUp.png] **DA Up** and [Status TripleUp.png] **TA Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -13389,6 +14171,48 @@
             ],
             []
         ],
+        "R": [
+            [
+                {
+                    "cooldown": " 6 turns4 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Repel.png] **20% Repel (3 times)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/48_3.png"
+                    ],
+                    "name": "Shield Bash",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status Repel.png] **20% Repel (3 times)**. Effect enhanced."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/33_1.png"
+                    ],
+                    "name": "Showtime!",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "400% Earth damage to a foe in Overdrive."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
         "SR": [
             [
                 {
@@ -13642,6 +14466,48 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Lightning Knuckle",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "150%-200% Light damage to a foe. Damage increased to 200%-300%."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 2 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status AttackUpStack.png] **ATK Up (Stackable)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/49_3.png"
+                    ],
+                    "name": "Fight Effect",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status AttackUpStack.png] **ATK Up (Stackable)**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ],
         "SR": [
@@ -14962,6 +15828,46 @@
             []
         ]
     },
+    "Flesselles": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/59_1.png"
+                    ],
+                    "name": "Fire Bow Barrage",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "100%-150% Fire damage to all foes. Damage increased to 150%-200%."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/173_3.png"
+                    ],
+                    "name": "Here boy! Ruff Ruff!",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Camaro the hound picks up an item."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ]
+    },
     "Florence": {
         "BASE": [
             [
@@ -15481,6 +16387,53 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 8 turns6 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status DefenseUp.png] **DEF Up**",
+                            "[Status AttackDown.png] **ATK Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/31_3.png"
+                    ],
+                    "name": "Defender",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **DEF Up**. Self-inflict [Status AttackDown.png] **ATK Down**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Dmg Cut 25.png] **25% DMG Cut**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/8_3.png"
+                    ],
+                    "name": "Svel",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "All allies gain [Status Dmg Cut 25.png] **25% DMG Cut**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 9 turns7 turns ",
                     "duration": {
                         "5^t": [
@@ -15544,6 +16497,55 @@
                     ]
                 }
             ],
+            []
+        ]
+    },
+    "Garma": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status Poison.png] **Poisoned**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/7_1.png"
+                    ],
+                    "name": "Foul Thrust",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Earth damage to a foe. Inflict [Status Poison.png] **Poisoned**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Defiance.png] **Salted Wound (1 time)**",
+                            "[Status AttackUp.png] **ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/43_3.png"
+                    ],
+                    "name": "Visera Decoup",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status Defiance.png] **Salted Wound (1 time)** and [Status AttackUp.png] **ATK Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -15832,7 +16834,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 5 turns ",
@@ -17134,6 +18136,52 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 5 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status DefenseUp.png] **DEF Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/50_2.png"
+                    ],
+                    "name": "Heal Self",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Restore HP (Healing cap: 1000). Gain [Status DefenseUp.png] **DEF Up**. Effect enhanced."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "4^t": [
+                            "[Status DefenseUp.png] **DEF Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/22_3.png"
+                    ],
+                    "name": "Protective Wind",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "All allies gain [Status DefenseUp.png] **DEF Up**"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 5 turns4 turns ",
                     "duration": {
                         "3^t": [
@@ -17538,7 +18586,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 5 turns ",
@@ -17725,6 +18773,52 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status AttackUp.png] **ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/14_3.png"
+                    ],
+                    "name": "Inspire",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "All allies gain [Status AttackUp.png] **ATK Up**. Effect enhanced."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status DefenseDown.png] **10% DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/11_1.png"
+                    ],
+                    "name": "Powderize",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Earth damage to a foe and inflict [Status DefenseDown.png] **10% DEF Down**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ],
         "SR": [
@@ -18283,7 +19377,7 @@
                 }
             ]
         ],
-        "GRAND_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 6 turns ",
@@ -18588,6 +19682,44 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/91_2.png"
+                    ],
+                    "name": "Soy Flavored Soft-Boiled Egg",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Restore all allies' HP ("
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/92_3.png"
+                    ],
+                    "name": "Ultracalifragilistic Ramen",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Random boost to all allies' ATK, DEF, multiattack rate, and charge bar."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "5^t": [
@@ -18642,6 +19774,44 @@
                     ]
                 }
             ],
+            []
+        ],
+        "SUMMER": [
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/91_3.png"
+                    ],
+                    "name": "Oozing Egg Yolks",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "All allies gain [Status Uplift.png] **Charge Bar +**. (Boost amount changes based on how cooked the egg is. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/92_3.png"
+                    ],
+                    "name": "Bowl of the Heavens",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Random effect. (Effect changes based on ramen deliciousness. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -19265,6 +20435,48 @@
     },
     "Jasmine": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
+                    ],
+                    "name": "Special Potion",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Restore all allies' HP (Healing cap: 500)."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status Heal.png] **Healing Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_3.png"
+                    ],
+                    "name": "Forest's Prayer",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "All allies gain [Status Heal.png] **Healing Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 6 turns ",
@@ -20298,6 +21510,53 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status WaterResDown.png] **10% Water DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Water Cutter",
+                    "obtain": " Lvl 1 ",
+                    "text": [
+                        "150%-200% Water damage to a foe. Inflict [Status WaterResDown.png] **10% Water DEF Down**. Damage increased to 200%-250%."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status Fire Cut 25.png] **25% Fire Cut**",
+                            "[Status Veil.png] **75% Debuff Res. Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/52_3.png"
+                    ],
+                    "name": "Aqua Veil",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status Fire Cut 25.png] **25% Fire Cut** and [Status Veil.png] **75% Debuff Res. Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 4 turns3 turns ",
                     "duration": {
                         "Indefinite^i": [
@@ -21286,6 +22545,51 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status DebuffResDown.png] **Debuff Res. Down**"
+                        ],
+                        "3^t": [
+                            "[Status WindAtkUp.png] **Wind ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/65_4.png"
+                    ],
+                    "name": "Flattery",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Inflict [Status DebuffResDown.png] **Debuff Res. Down** on a foe. All allies gain [Status WindAtkUp.png] **Wind ATK Up**."
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "The Punchline",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "to a foe and inflict [Status partner.png] **Partnered Up**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 7 turns6 turns ",
                     "duration": {},
                     "icon": [
@@ -21344,6 +22648,48 @@
     },
     "Karva": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 9 turns8 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/10_1.png"
+                    ],
+                    "name": "Brave Shot",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Big damage to a foe as total party's HP is lowered."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status Jammed.png] **Jammed (Party)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/14_3.png"
+                    ],
+                    "name": "Adversity",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status Jammed.png] **Jammed (Party)**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 6 turns5 turns ",
@@ -21568,7 +22914,7 @@
                 }
             ]
         ],
-        "GRAND_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -22632,6 +23978,44 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/13_4.png"
+                    ],
+                    "name": "Enhance Dice",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        ""
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/13_4.png"
+                    ],
+                    "name": "Weakness Dice",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        ""
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 1 turn0 turns ",
                     "duration": {},
                     "icon": [
@@ -22964,6 +24348,52 @@
     },
     "La_Coiffe": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "Indefinite^i": [
+                            "[Status Shield.png] **Shield (500)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
+                    ],
+                    "name": "Touch Up",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Restore an ally's HP (Healing cap: 500) and grant [Status Shield.png] **Shield (500)**."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Veil.png] **Immune**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/52_3.png"
+                    ],
+                    "name": "Highlights",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "All allies gain [Status Veil.png] **Immune**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -23646,6 +25076,53 @@
             ],
             []
         ],
+        "R": [
+            [
+                {
+                    "cooldown": " 0 turns /1 turn ",
+                    "duration": {
+                        "1^t": [
+                            "[Status AttackUpStack.png] **ATK Up (Stackable)**",
+                            "[Status Confused.png] **Headache**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/199_3.png"
+                    ],
+                    "name": "Wheee!",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Don't worry, just gooo with the flow!(Gain either [Status AttackUpStack.png] **ATK Up (Stackable)** or [Status Confused.png] **Headache**. )Effect enhanced."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Confused.png] **Headache**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/200_2.png"
+                    ],
+                    "name": "Ahh, That's Better!",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Whew, I feel great!(Removes [Status Confused.png] **Headache**. )"
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
         "SR": [
             [
                 {
@@ -24198,6 +25675,69 @@
                     "obtain": " Lvl 45 ",
                     "text": [
                         "Gain [Status IssueOrders.png] **Issue Orders**. Orders lvl rises by 1 depending on the type of skill an ally uses. Skill cooldown set to 1 turn. (Recast skill to end orders. )On recast: Skill cooldown set to 3 turns."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            []
+        ],
+        "SR": [
+            [
+                {
+                    "cooldown": " 6 turns4 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/16_1.png"
+                    ],
+                    "name": "Sonic Blade",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "200%-250% Wind damage to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status Repel.png] **50% Repel (3 times)**",
+                            "[Status Dodge.png] **Dodge Rate Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/48_3.png"
+                    ],
+                    "name": "Windflect",
+                    "obtain": " Lvl 15 ",
+                    "text": [
+                        "Gain [Status Repel.png] **50% Repel (3 times)** and [Status Dodge.png] **Dodge Rate Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status AttackUp.png] **15% ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/14_3.png"
+                    ],
+                    "name": "Airy Feather",
+                    "obtain": " Lvl 35 ",
+                    "text": [
+                        "All allies gain [Status AttackUp.png] **15% ATK Up**."
                     ],
                     "type": [
                         "3"
@@ -24770,6 +26310,51 @@
                     ]
                 }
             ],
+            []
+        ]
+    },
+    "Leonora": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/16_1.png"
+                    ],
+                    "name": "Shake It",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "5-hit Wind damage to a foe. Effect enhanced."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status DoubleUp.png] **DA Up**",
+                            "[Status AttackUp.png] **Skill DMG Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/24_3.png"
+                    ],
+                    "name": "Finisher: Kamaitachi",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status DoubleUp.png] **DA Up** and [Status AttackUp.png] **Skill DMG Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -25560,7 +27145,7 @@
             ],
             []
         ],
-        "EVENT_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 8 turns7 turns ",
@@ -25625,6 +27210,92 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 8 turns6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/35_3.png"
+                    ],
+                    "name": "Time to Paaar-tay",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Boost to ATK based on number of female party members."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/10_1.png"
+                    ],
+                    "name": "Tribute",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Dark damage to a foe. Restore 's HP (Healing cap: 1000 HP)."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SUMMER": [
+            [
+                {
+                    "cooldown": " 8 turns6 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status AttackUp.png] **10%-50% ATK Up**",
+                            "[Status Uplift.png] **Charge Bar Gain Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/35_3.png"
+                    ],
+                    "name": "Adventure",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status AttackUp.png] **10%-50% ATK Up** based on number of female party members and [Status Uplift.png] **Charge Bar Gain Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 3 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status Lowain.png] **ATK Up**",
+                            "[Status Lowain.png] **DEF Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/114_1.png"
+                    ],
+                    "name": "I Miss You",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Dark damage to a foe. (If Katalina is a main member: Either grant Katalina [Status Lowain.png] **ATK Up**, [Status Lowain.png] **DEF Up**, and [Status Uplift.png] **Charge Bar +50%**; or Lowain's HP is reduced to 1%. )"
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -26209,6 +27880,94 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 12 turns10 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/184_3.png"
+                    ],
+                    "name": "Facsimile",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Copy the last skill used by an ally. (Chance to fail. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 8 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status AttackUp.png] **20% ATK Up**",
+                            "[Status DefenseUp.png] **20% DEF Up**",
+                            "[Status Uplift.png] **Uplifted**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/85_3.png"
+                    ],
+                    "name": "Fauxin Eye",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "The Fauxin Hungers(Gain [Status AttackUp.png] **20% ATK Up**, [Status DefenseUp.png] **20% DEF Up**, and [Status Uplift.png] **Uplifted**. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SUMMER": [
+            [
+                {
+                    "cooldown": " 12 turns10 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/184_3.png"
+                    ],
+                    "name": "Facsimile",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Copy the last skill used by an ally. (Chance to fail. Higher [Status BodyHeat.png] **Body Heat Boosted** stacks boost success rate. Uses all [Status BodyHeat.png] **Body Heat Boosted** stacks. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 3 turns ",
+                    "duration": {
+                        "2^t": [
+                            "[Status Hype1.png] **Hype**",
+                            "[Status Collapse.png] **Charge Bar Gain Lowered**",
+                            "[Status Burned.png] **Burned**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/85_3.png"
+                    ],
+                    "name": "Whiteburn",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Is it just me, or is it getting hot in here?(Gain 1 [Status BodyHeat.png] **Body Heat Boosted** stack and [Status Hype1.png] **Hype**. Self-inflict 30% [Status Collapse.png] **Charge Bar Gain Lowered** and [Status Burned.png] **Burned**. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -27420,6 +29179,48 @@
             ],
             []
         ],
+        "R": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status AttackDown.png] **10% ATK Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/15_1.png"
+                    ],
+                    "name": "Shot Down",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Fire damage to a foe. Inflict [Status AttackDown.png] **10% ATK Down**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/32_1.png"
+                    ],
+                    "name": "Threat",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Fire damage to a foe. Inflict [Status Gravity.png] **Delay**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
         "SR": [
             [
                 {
@@ -27479,6 +29280,48 @@
                     ]
                 }
             ],
+            []
+        ],
+        "SUMMER": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status DefenseDown.png] **10% DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/11_1.png"
+                    ],
+                    "name": "Knock Over",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Fire damage to a foe. Inflict [Status DefenseDown.png] **10% DEF Down**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/32_1.png"
+                    ],
+                    "name": "Threat",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Fire damage to a foe. Inflict [Status Gravity.png] **Delay**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -28611,7 +30454,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -29526,7 +31369,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -32073,6 +33916,55 @@
             []
         ]
     },
+    "Nene": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 4 turns3 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status AggroUpArrow.png] **Hostility Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/195_3.png"
+                    ],
+                    "name": "I'm Watchin' You!",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Hey ugly! Looky here!(Nene gains [Status AggroUpArrow.png] **Hostility Up**. All other allies gain [Status AggroDownArrow.png] **Hostility Down**. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 3 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status AggroUpArrow.png] **Hostility Up**",
+                            "[Status AggroDownArrow.png] **Hostility Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/190_3.png"
+                    ],
+                    "name": "Did You Just See That!",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "It wasn't me! I didn't hit you, honest! It was her!(Transfer Nene's [Status AggroUpArrow.png] **Hostility Up** to an ally. Nene gains [Status AggroDownArrow.png] **Hostility Down**. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ]
+    },
     "New_Generations": {
         "BASE": [
             [
@@ -32606,7 +34498,7 @@
                         ]
                     },
                     "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1352_1.png"
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1360_1.png"
                     ],
                     "name": "Gigante Repulsion Slash",
                     "obtain": " Lvl 45 ",
@@ -32649,7 +34541,7 @@
                         ]
                     },
                     "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1361_3.png"
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1353_3.png"
                     ],
                     "name": "Area Repulsion Shield",
                     "obtain": " Lvl 45 ",
@@ -32666,7 +34558,7 @@
                     "cooldown": " - ",
                     "duration": {},
                     "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1350_3.png"
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1358_3.png"
                     ],
                     "name": "Gigante Order!",
                     "obtain": " Lvl 45 ",
@@ -33240,6 +35132,50 @@
                     ]
                 }
             ],
+            []
+        ]
+    },
+    "Norcel": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status AttackDown.png] **10% ATK Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/15_1.png"
+                    ],
+                    "name": "Wowzers",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Earth damage to a foe. Inflict [Status AttackDown.png] **10% ATK Down**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/24_3.png"
+                    ],
+                    "name": "Indefinite Book",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "1-turn cut to skill cooldowns for Earth allies. (Does not include the and the caster)."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -33830,6 +35766,46 @@
                     ]
                 }
             ],
+            []
+        ]
+    },
+    "Pavidus": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/51_3.png"
+                    ],
+                    "name": "Hide",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **Dodge All**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 10 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/125_3.png"
+                    ],
+                    "name": "Go Away!",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "They'll watch my back!(Self-inflict [Status DefenseDown.png] **DEF Down**. Gain [Status Counter.png] **Counters on Dodge (10 times)**. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -34498,10 +36474,86 @@
                 }
             ],
             []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
+                    ],
+                    "name": "Wind's Solace",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Restore all allies' HP. Healing cap increased."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/16_1.png"
+                    ],
+                    "name": "Gust",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Small Wind damage to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
         ]
     },
     "Philosophia": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 5 turns4 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
+                    ],
+                    "name": "Atrashia",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Restore an ally's HP (Healing cap: 750)."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
+                    ],
+                    "name": "Precollage",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Restore an ally's HP (Healing cap: 750)."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 8 turns7 turns ",
@@ -35107,7 +37159,7 @@
                 }
             ]
         ],
-        "GRAND_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 6 turns5 turns ",
@@ -35422,6 +37474,44 @@
     },
     "Randall": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 3 turns2 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/144_3.png"
+                    ],
+                    "name": "Kick It Up",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Time to charge it up and knock 'em out!(Gain [Status AttackUpStack.png] **C.A. DMG Up (Stackable)** and [Status AttackUpStack.png] **C.A. DMG Cap Up (Stackable)**. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/19_1.png"
+                    ],
+                    "name": "High Kick",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Water damage to a foe. Gain [Status Uplift.png] **Charge Bar +20%**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 8 turns7 turns ",
@@ -36219,6 +38309,44 @@
         "BASE": [
             [
                 {
+                    "cooldown": " 3 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/8_3.png"
+                    ],
+                    "name": "Resist Draw",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Random change to all allies' DEFEffect enhanced."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 3 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/14_3.png"
+                    ],
+                    "name": "Highs and Lows",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Random change to all allies' ATK"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
                     "cooldown": " 0 turns ",
                     "duration": {},
                     "icon": [
@@ -36340,7 +38468,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -36471,7 +38599,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -36696,7 +38824,7 @@
                 }
             ]
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 5 turns ",
@@ -37372,6 +39500,68 @@
             ],
             []
         ],
+        "R": [
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status DefenseDown.png] **10% DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/11_1.png"
+                    ],
+                    "name": "Armorbreak Talisman",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Light damage to a foe and inflict [Status DefenseDown.png] **10% DEF Down**. Effect enhanced."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 10 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Repel.png] **Unchallenged**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/29_3.png"
+                    ],
+                    "name": "Immovable Talisman",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain 1-hit [Status Repel.png] **Unchallenged**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/24_3.png"
+                    ],
+                    "name": "Two Load Talisman",
+                    "obtain": "  ",
+                    "text": [
+                        "Gain [Status DoubleUp.png] **100% DA Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            []
+        ],
         "SR": [
             [
                 {
@@ -37819,6 +40009,44 @@
             [
                 {
                     "cooldown": " 0 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/233_2.png"
+                    ],
+                    "name": "Snacktime",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Give crackers to an ally. (Uses 1 [Status Cracker 1.png] **Cracker** to restore an ally's HP [Healing cap: 250]). Healing cap increased to 300."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 1 turn ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/233_4.png"
+                    ],
+                    "name": "Snacktime",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Give crackers to a foe. (Inflict [Status Charm.png] **Charmed** on a foe. Uses all [Status Cracker 1.png] **Cracker**)."
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
+                    "cooldown": " 0 turns ",
                     "duration": {
                         "3^t": [
                             "[Status AttackUpStack.png] **ATK Up (Stackable)**",
@@ -37881,6 +40109,65 @@
     },
     "Ryan": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 8 turns6 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status AttackUp.png] **ATK Up**",
+                            "[Status DefenseDown.png] **DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/35_3.png"
+                    ],
+                    "name": "Heat Blitz",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status AttackUp.png] **ATK Up**. Self-inflict [Status DefenseDown.png] **DEF Down**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/4_1.png"
+                    ],
+                    "name": "Brute Force",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "100%-150% Fire damage to all foes."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Physical Strike",
+                    "obtain": "  ",
+                    "text": [
+                        "200%-300% Fire damage to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 5 turns ",
@@ -40913,7 +43200,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 6 turns5 turns4 turns ",
@@ -42819,6 +45106,75 @@
             ],
             []
         ],
+        "BASE_4": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "Indefinite^i": [
+                            "[Status DA Up Stack.png] **10% DA Up (Stackable / Max: 50%)**",
+                            "[Status TA Up Stack.png] **4% TA Up (Stackable / Max: 20%)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/620_1.png"
+                    ],
+                    "name": "Tenacious Will",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 100 ",
+                    "text": [
+                        "6-hit, 60%-80% Earth damage to a foe (Damage cap: ~80,000 per hit). Restore caster's HP (Healing cap: 5000). (5% boost to healing upon each cast [Max: 25%]. )Damage increased to 100% per hit. Also gain [Status DA Up Stack.png] **10% DA Up (Stackable / Max: 50%)** and [Status TA Up Stack.png] **4% TA Up (Stackable / Max: 20%)**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/621_1.png"
+                    ],
+                    "name": "Bravado Bullet",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "6-hit, 60%-80% Earth damage to a foe (Damage cap: ~80,000 per hit). Inflict [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**. (Hit number increases upon each cast [Max: 10 hits]. )"
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "2^t": [
+                            "[Status DefenseUp.png] **80% DEF Up**",
+                            "[Status Substitute.png] **No Touching My Ladies**",
+                            "[Status AttackUp.png] **ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/622_3.png"
+                    ],
+                    "name": "Macho Ultimatum",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "End cooldown for Tenacious Will and Bravado Bullet. Gain [Status DefenseUp.png] **80% DEF Up** and [Status Substitute.png] **No Touching My Ladies**. When there are female allies: Also gain [Status AttackUp.png] **ATK Up**. (I swear on my fists that you won't lay a finger on these beauties!)"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            []
+        ],
         "EVENT": [
             [
                 {
@@ -43013,75 +45369,6 @@
                 }
             ],
             []
-        ],
-        "SSR_4": [
-            [
-                {
-                    "cooldown": " 6 turns5 turns ",
-                    "duration": {
-                        "Indefinite^i": [
-                            "[Status DA Up Stack.png] **10% DA Up (Stackable / Max: 50%)**",
-                            "[Status TA Up Stack.png] **4% TA Up (Stackable / Max: 20%)**"
-                        ]
-                    },
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/620_1.png"
-                    ],
-                    "name": "Tenacious Will",
-                    "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 100 ",
-                    "text": [
-                        "6-hit, 60%-80% Earth damage to a foe (Damage cap: ~80,000 per hit). Restore caster's HP (Healing cap: 5000). (5% boost to healing upon each cast [Max: 25%]. )Damage increased to 100% per hit. Also gain [Status DA Up Stack.png] **10% DA Up (Stackable / Max: 50%)** and [Status TA Up Stack.png] **4% TA Up (Stackable / Max: 20%)**."
-                    ],
-                    "type": [
-                        "1"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 6 turns5 turns ",
-                    "duration": {
-                        "180^s": [
-                            "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
-                        ]
-                    },
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/621_1.png"
-                    ],
-                    "name": "Bravado Bullet",
-                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
-                    "text": [
-                        "6-hit, 60%-80% Earth damage to a foe (Damage cap: ~80,000 per hit). Inflict [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**. (Hit number increases upon each cast [Max: 10 hits]. )"
-                    ],
-                    "type": [
-                        "1"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 7 turns ",
-                    "duration": {
-                        "2^t": [
-                            "[Status DefenseUp.png] **80% DEF Up**",
-                            "[Status Substitute.png] **No Touching My Ladies**",
-                            "[Status AttackUp.png] **ATK Up**"
-                        ]
-                    },
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/622_3.png"
-                    ],
-                    "name": "Macho Ultimatum",
-                    "obtain": " Lvl 45 ",
-                    "text": [
-                        "End cooldown for Tenacious Will and Bravado Bullet. Gain [Status DefenseUp.png] **80% DEF Up** and [Status Substitute.png] **No Touching My Ladies**. When there are female allies: Also gain [Status AttackUp.png] **ATK Up**. (I swear on my fists that you won't lay a finger on these beauties!)"
-                    ],
-                    "type": [
-                        "3"
-                    ]
-                }
-            ],
-            []
         ]
     },
     "Spinnah": {
@@ -43146,6 +45433,56 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 9 turns8 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status Spinning High.png] **Spinning High**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/591_3.png"
+                    ],
+                    "name": "Spin Up",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status Spinning High.png] **Spinning High**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 4 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status DoubleUp.png] **50% DA Up**",
+                            "[Status TripleUp.png] **25% TA Up**"
+                        ],
+                        "Indefinite^i": [
+                            "[Status Max HP Down Stack.png] **10% Max HP Lowered (Stackable)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/45_3.png"
+                    ],
+                    "name": "Switch Up",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status DoubleUp.png] **50% DA Up** and [Status TripleUp.png] **25% TA Up**. Self-inflict [Status Max HP Down Stack.png] **10% Max HP Lowered (Stackable)**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -43333,6 +45670,44 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Riot Blade",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "200%-250% Wind damage to a foe. Damage increased to 250%-300%."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/33_1.png"
+                    ],
+                    "name": "Braver",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "400% Wind damage to foe in Overdrive."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -43545,6 +45920,60 @@
     },
     "Suframare": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
+                    ],
+                    "name": "Heal",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Restore all allies' HP. Healing cap increased to 1000."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/5_1.png"
+                    ],
+                    "name": "Freeze",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Small Water damage to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
+                    ],
+                    "name": "Heal Lesson",
+                    "obtain": "  ",
+                    "text": [
+                        "Restore an ally's HP (Healing cap: 750)."
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            []
+        ],
+        "SUMMER": [
             [
                 {
                     "cooldown": " 6 turns5 turns ",
@@ -44279,6 +46708,53 @@
             ],
             []
         ],
+        "R": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status DefenseUp.png] **Dodge All**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/51_3.png"
+                    ],
+                    "name": "Shadow Step",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **Dodge All**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Defiance.png] **Salted Wound (1 time)**",
+                            "[Status AttackUp.png] **ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/43_3.png"
+                    ],
+                    "name": "Backstab",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status Defiance.png] **Salted Wound (1 time)** and [Status AttackUp.png] **ATK Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
         "SR": [
             [
                 {
@@ -44843,6 +47319,46 @@
                     ]
                 }
             ],
+            []
+        ]
+    },
+    "Thelonim": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 10 turns9 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/130_4.png"
+                    ],
+                    "name": "Thelonim's Magic",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Mighty hero magic! (. )"
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/19_1.png"
+                    ],
+                    "name": "Harvest's Judgment",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "5-hit, 45% Wind damage to random foes."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -46671,7 +49187,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 7 turns ",
@@ -46807,7 +49323,7 @@
             ],
             []
         ],
-        "SR_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -47135,6 +49651,79 @@
             ],
             []
         ],
+        "BASE_4": [
+            [
+                {
+                    "cooldown": " 7 turns6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/230_1.png",
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1128_1.png"
+                    ],
+                    "name": "Heroic Beat",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 90 ",
+                    "text": [
+                        "400% Water damage to a foe (Damage cap: ~420,000). Restore caster's HP (Healing cap: 1500). Damage increased to 500%. Damage cap increased to ~500,000. Healing cap increased to 2500. Also remove 1 debuff from caster."
+                    ],
+                    "type": [
+                        "1",
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 4 turns3 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status DefenseUp.png] **100% DEF Up**",
+                            "[Status Substitute.png] **Substitute (All-Ally)**",
+                            "[Status Lethal Attack Dodged.png] **Lethal Attack Dodged (1 time)**"
+                        ],
+                        "8^t": [
+                            "[Status Jammed.png] **Jammed**",
+                            "[Status AggroUpArrow.png] **Hostility Up (Stackable)**",
+                            "[Status AggroUpArrow.png] **Hostility Up (Stackable)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/85_3.png",
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1129_3.png"
+                    ],
+                    "name": "BreakthroughAt level 100:One for All",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
+                    "text": [
+                        "Gain [Status Jammed.png] **Jammed** and [Status AggroUpArrow.png] **Hostility Up (Stackable)**. No longer gain [Status AggroUpArrow.png] **Hostility Up (Stackable)**. Also gain [Status DefenseUp.png] **100% DEF Up**, [Status Substitute.png] **Substitute (All-Ally)**, and [Status Lethal Attack Dodged.png] **Lethal Attack Dodged (1 time)**."
+                    ],
+                    "type": [
+                        "3",
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 15 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status Soul Eruption.png] **Soul Eruption**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/399_2.png"
+                    ],
+                    "name": "Soul Eruption",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "Fully restore caster's HP and remove all debuffs. Gain [Status Soul Eruption.png] **Soul Eruption**. (Can only be used when below 25% HP. Consumes all of charge bar. )"
+                    ],
+                    "type": [
+                        "2"
+                    ]
+                }
+            ],
+            []
+        ],
         "DUO": [
             [
                 {
@@ -47325,79 +49914,6 @@
                     ],
                     "type": [
                         "3"
-                    ]
-                }
-            ],
-            []
-        ],
-        "SSR_4": [
-            [
-                {
-                    "cooldown": " 7 turns6 turns ",
-                    "duration": {},
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/230_1.png",
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1128_1.png"
-                    ],
-                    "name": "Heroic Beat",
-                    "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 90 ",
-                    "text": [
-                        "400% Water damage to a foe (Damage cap: ~420,000). Restore caster's HP (Healing cap: 1500). Damage increased to 500%. Damage cap increased to ~500,000. Healing cap increased to 2500. Also remove 1 debuff from caster."
-                    ],
-                    "type": [
-                        "1",
-                        "1"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 4 turns3 turns ",
-                    "duration": {
-                        "1^t": [
-                            "[Status DefenseUp.png] **100% DEF Up**",
-                            "[Status Substitute.png] **Substitute (All-Ally)**",
-                            "[Status Lethal Attack Dodged.png] **Lethal Attack Dodged (1 time)**"
-                        ],
-                        "8^t": [
-                            "[Status Jammed.png] **Jammed**",
-                            "[Status AggroUpArrow.png] **Hostility Up (Stackable)**",
-                            "[Status AggroUpArrow.png] **Hostility Up (Stackable)**"
-                        ]
-                    },
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/85_3.png",
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1129_3.png"
-                    ],
-                    "name": "BreakthroughAt level 100:One for All",
-                    "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
-                    "text": [
-                        "Gain [Status Jammed.png] **Jammed** and [Status AggroUpArrow.png] **Hostility Up (Stackable)**. No longer gain [Status AggroUpArrow.png] **Hostility Up (Stackable)**. Also gain [Status DefenseUp.png] **100% DEF Up**, [Status Substitute.png] **Substitute (All-Ally)**, and [Status Lethal Attack Dodged.png] **Lethal Attack Dodged (1 time)**."
-                    ],
-                    "type": [
-                        "3",
-                        "3"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 15 turns ",
-                    "duration": {
-                        "5^t": [
-                            "[Status Soul Eruption.png] **Soul Eruption**"
-                        ]
-                    },
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/399_2.png"
-                    ],
-                    "name": "Soul Eruption",
-                    "obtain": " Lvl 45 ",
-                    "text": [
-                        "Fully restore caster's HP and remove all debuffs. Gain [Status Soul Eruption.png] **Soul Eruption**. (Can only be used when below 25% HP. Consumes all of charge bar. )"
-                    ],
-                    "type": [
-                        "2"
                     ]
                 }
             ],
@@ -47764,6 +50280,65 @@
     },
     "Vanzza": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 8 turns6 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status AttackUp.png] **30% ATK Up**",
+                            "[Status DefenseDown.png] **15% DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/35_3.png"
+                    ],
+                    "name": "Berzerk Strike",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status AttackUp.png] **30% ATK Up**. Self-inflict [Status DefenseDown.png] **15% DEF Down**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
+                    ],
+                    "name": "Blounder Breaking Shockwave",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "250%-350% Earth damage to a foe (Damage cap: ~200,000)."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/632_1.png"
+                    ],
+                    "name": "Tonfa Kick",
+                    "obtain": "  ",
+                    "text": [
+                        "Earth damage to all foes (Damage cap: ~180,000)."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 7 turns6 turns ",
@@ -48260,6 +50835,52 @@
             ],
             [
                 {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "Indefinite^i": [
+                            "[Status Bonus Damage.png] **60% Extra Superior Element DMG**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/221_3.png"
+                    ],
+                    "name": "Enchanted Foil II",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status Bonus Damage.png] **60% Extra Superior Element DMG**. (Ends upon taking damage. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status Bonus Damage.png] **50% Extra Superior Element DMG**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/221_3.png"
+                    ],
+                    "name": "Enchanted Foil",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status Bonus Damage.png] **50% Extra Superior Element DMG**. (Consumes 25% of charge bar. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "Indefinite^i": [
@@ -48300,6 +50921,54 @@
                     ]
                 }
             ],
+            []
+        ]
+    },
+    "Viceroy": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 4 turns3 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status AttackUpStack.png] **ATK Up (Stackable)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/49_3.png"
+                    ],
+                    "name": "Weapon Adjustment",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Grant one ally [Status AttackUpStack.png] **ATK Up (Stackable)**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 3 turns ",
+                    "duration": {
+                        "5^t": [
+                            "[Status DefenseUpStack.png] **DEF Up (Stackable)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/31_3.png"
+                    ],
+                    "name": "Armor Adjustment",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Grant one ally [Status DefenseUpStack.png] **DEF Up (Stackable)**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
@@ -48372,10 +51041,144 @@
                 }
             ],
             []
+        ],
+        "EVENT": [
+            [
+                {
+                    "cooldown": " 2 turns1 turn ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1354_3.png"
+                    ],
+                    "name": "Yincapacitated",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "D-don't mind me. . . (Nothing happens. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1355_3.png"
+                    ],
+                    "name": "Imagine Talking",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Ahh. . . There's just no way. . . (Nothing happens. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
         ]
     },
     "Vira": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 5 turns4 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**",
+                            "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
+                        ],
+                        "Indefinite^i": [
+                            "[Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)**",
+                            "[Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 30%)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1194_4.png"
+                    ],
+                    "name": "Layer Rise II",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)** on a foe. Gain [Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)** and [Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 30%)**."
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns8 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status TripleUp.png] **Guaranteed TA**"
+                        ],
+                        "2^t": [
+                            "[Status TripleUp.png] **Guaranteed TA**"
+                        ],
+                        "Indefinite^i": [
+                            "[Status Veil.png] **Veil**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/53_3.png"
+                    ],
+                    "name": "Evening Existence",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
+                    "text": [
+                        "All allies gain [Status Veil.png] **Veil**. Vira gains [Status TripleUp.png] **Guaranteed TA**. [Status TripleUp.png] **Guaranteed TA**'s duration increased to 2 turns."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status LightAtkDown.png] **10% Light ATK Down**",
+                            "[Status DarkAtkDown.png] **10% Dark ATK Down**",
+                            "[Status LightResDown.png] **15% Light DEF Down**",
+                            "[Status DarkResDown.png] **15% Dark DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/27_1.png"
+                    ],
+                    "name": "Affection Oath",
+                    "obtain": " Lvl 45\u21e7 Lvl 95 ",
+                    "text": [
+                        "300%-400% Dark damage and Light damage to a foe (Damage cap: Dark ~630,000; Light ~300,000). Restore caster's HP based on 50% of damage dealt (Healing cap: 1500). Also inflict [Status LightAtkDown.png] **10% Light ATK Down**, [Status DarkAtkDown.png] **10% Dark ATK Down**, [Status LightResDown.png] **15% Light DEF Down**, and [Status DarkResDown.png] **15% Dark DEF Down**. Healing cap increased to 3000."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 13 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/213_3.png"
+                    ],
+                    "name": "Luminiera Merge",
+                    "obtain": " Lvl 90 ",
+                    "text": [
+                        "Gain Light-element qualities. (Consumes 50% of charge bar. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ]
+        ],
+        "BASE_4": [
             [
                 {
                     "cooldown": " 5 turns4 turns ",
@@ -48724,102 +51527,6 @@
             ],
             []
         ],
-        "SSR_4": [
-            [
-                {
-                    "cooldown": " 5 turns4 turns ",
-                    "duration": {
-                        "180^s": [
-                            "[Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)**",
-                            "[Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)**"
-                        ],
-                        "Indefinite^i": [
-                            "[Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)**",
-                            "[Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 30%)**"
-                        ]
-                    },
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1194_4.png"
-                    ],
-                    "name": "Layer Rise II",
-                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
-                    "text": [
-                        "Inflict [Status AttackDownStack.png] **10% ATK Down (Stackable / Max: 30%)** and [Status DefenseDownStack.png] **10% DEF Down (Stackable / Max: 30%)** on a foe. Gain [Status AttackUpStack.png] **10% ATK Up (Stackable / Max: 30%)** and [Status DefenseUpStack.png] **10% DEF Up (Stackable / Max: 30%)**."
-                    ],
-                    "type": [
-                        "4"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 9 turns8 turns ",
-                    "duration": {
-                        "1^t": [
-                            "[Status TripleUp.png] **Guaranteed TA**"
-                        ],
-                        "2^t": [
-                            "[Status TripleUp.png] **Guaranteed TA**"
-                        ],
-                        "Indefinite^i": [
-                            "[Status Veil.png] **Veil**"
-                        ]
-                    },
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/53_3.png"
-                    ],
-                    "name": "Evening Existence",
-                    "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
-                    "text": [
-                        "All allies gain [Status Veil.png] **Veil**. Vira gains [Status TripleUp.png] **Guaranteed TA**. [Status TripleUp.png] **Guaranteed TA**'s duration increased to 2 turns."
-                    ],
-                    "type": [
-                        "3"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 6 turns ",
-                    "duration": {
-                        "180^s": [
-                            "[Status LightAtkDown.png] **10% Light ATK Down**",
-                            "[Status DarkAtkDown.png] **10% Dark ATK Down**",
-                            "[Status LightResDown.png] **15% Light DEF Down**",
-                            "[Status DarkResDown.png] **15% Dark DEF Down**"
-                        ]
-                    },
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/27_1.png"
-                    ],
-                    "name": "Affection Oath",
-                    "obtain": " Lvl 45\u21e7 Lvl 95 ",
-                    "text": [
-                        "300%-400% Dark damage and Light damage to a foe (Damage cap: Dark ~630,000; Light ~300,000). Restore caster's HP based on 50% of damage dealt (Healing cap: 1500). Also inflict [Status LightAtkDown.png] **10% Light ATK Down**, [Status DarkAtkDown.png] **10% Dark ATK Down**, [Status LightResDown.png] **15% Light DEF Down**, and [Status DarkResDown.png] **15% Dark DEF Down**. Healing cap increased to 3000."
-                    ],
-                    "type": [
-                        "1"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 13 turns ",
-                    "duration": {},
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/213_3.png"
-                    ],
-                    "name": "Luminiera Merge",
-                    "obtain": " Lvl 90 ",
-                    "text": [
-                        "Gain Light-element qualities. (Consumes 50% of charge bar. )"
-                    ],
-                    "type": [
-                        "3"
-                    ]
-                }
-            ]
-        ],
         "SUMMER": [
             [
                 {
@@ -49017,6 +51724,53 @@
                 }
             ],
             []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Repel.png] **Repel (3 times)**",
+                            "[Status Repel.png] **50% Repel (3 times)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/48_3.png"
+                    ],
+                    "name": "Shield Smite",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status Repel.png] **Repel (3 times)**. Buff increased to [Status Repel.png] **50% Repel (3 times)**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 10 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status Substitute.png] **Substitute**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/56_3.png"
+                    ],
+                    "name": "Substitute",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Gain [Status Substitute.png] **Substitute**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [],
+            []
         ]
     },
     "Walder": {
@@ -49158,7 +51912,7 @@
                 }
             ]
         ],
-        "EVENT_4": [
+        "BASE_4": [
             [
                 {
                     "cooldown": " 6 turns5 turns ",
@@ -49295,10 +52049,180 @@
                     ]
                 }
             ]
+        ],
+        "HOLIDAY": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status DefenseUp.png] **Dodge All**",
+                            "[Status AttackUp.png] **ATK Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/51_3.png"
+                    ],
+                    "name": "Ambush",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **Dodge All** and [Status AttackUp.png] **ATK Up**. Effect enhanced."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/9_1.png"
+                    ],
+                    "name": "Ornament Sphere",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Earth and Light damage to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/51_3.png"
+                    ],
+                    "name": "Camouflage",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **Dodge All**. Also gain [Status AttackUp.png] **ATK Up**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/40_1.png"
+                    ],
+                    "name": "Black Down",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Earth damage to a foe and inflict [Blind] **Blind**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SUMMER": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "1^t": [
+                            "[Status DefenseUp.png] **Dodge All**",
+                            "[Status DoubleUp.png] **DA Up**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/51_3.png"
+                    ],
+                    "name": "Sand Ambush: Sandbush!",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Gain [Status DefenseUp.png] **Dodge All** and [Status DoubleUp.png] **DA Up**. Effect enhanced."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status Blind.png] **Blinded**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/40_1.png"
+                    ],
+                    "name": "Lights Out!",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Earth damage to a foe and inflict [Status Blind.png] **Blinded**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
+            []
         ]
     },
     "Will": {
         "BASE": [
+            [
+                {
+                    "cooldown": " 8 turns7 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status Poison.png] **Poisoned (1000)**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/7_1.png"
+                    ],
+                    "name": "Jinx",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Dark damage to a foe. Inflict [Status Poison.png] **Poisoned (1000)**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/34_4.png"
+                    ],
+                    "name": "Atonement",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Inflict **Mode Bar Cut** on a foe in Overdrive."
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
+        "SR": [
             [
                 {
                     "cooldown": " 6 turns ",
@@ -50086,6 +53010,48 @@
             ],
             []
         ],
+        "R": [
+            [
+                {
+                    "cooldown": " 6 turns5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "[Status AttackDown.png] **15% ATK Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/15_1.png"
+                    ],
+                    "name": "Sea Sage",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Water damage to a foe. Inflict [Status AttackDown.png] **15% ATK Down**. Effect enhanced."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 5 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/34_4.png"
+                    ],
+                    "name": "Empty Myst",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Inflict **Mode Bar Cut** on a foe in Overdrive."
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [],
+            []
+        ],
         "WIND": [
             [
                 {
@@ -50225,6 +53191,52 @@
             []
         ]
     },
+    "Young_Cat": {
+        "BASE": [
+            [
+                {
+                    "cooldown": " 12 turns10 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/812_3.png"
+                    ],
+                    "name": "Meeyow!",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "All other allies gain [Status Uplift.png] **Charge Bar +5%**. (Boost increases when in a better mood. )"
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 9 turns ",
+                    "duration": {
+                        "3^t": [
+                            "[Status ATK Down 3.png] **30% ATK Down**",
+                            "[Status DEF Down 3.png] **30% DEF Down**",
+                            "[Status Charm 3.png] **Charmed**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/813_4.png"
+                    ],
+                    "name": "Reow?",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Inflict [Status ATK Down 3.png] **30% ATK Down**, [Status DEF Down 3.png] **30% DEF Down**, and [Status Charm 3.png] **Charmed** on a foe."
+                    ],
+                    "type": [
+                        "4"
+                    ]
+                }
+            ],
+            [],
+            []
+        ]
+    },
     "Yuel": {
         "BASE": [
             [
@@ -50261,7 +53273,7 @@
                             "[Status DA Up Stack.png] **20% DA Up (Stackable / Max: 60%)**",
                             "[Status TA Up Stack.png] **10% TA Up (Stackable / Max: 30%)**",
                             "[Status AttackUpStack.png] **20% ATK Up (Stackable / Max: 60%)**",
-                            "[Status Dodge Up Stack.png] **Dodge Rate Up (Stackable)**"
+                            "[Status Dodge Up Stack.png] **10% Dodge Rate Up (Stackable / Max: 30%)**"
                         ]
                     },
                     "icon": [
@@ -50271,7 +53283,7 @@
                     "name": "Eye of the Sparrow",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 95 ",
                     "text": [
-                        "4-hit, 100% Fire damage to a foe (Damage cap: ~150,000 per hit). Gain [Status DA Up Stack.png] **20% DA Up (Stackable / Max: 60%)** and [Status TA Up Stack.png] **10% TA Up (Stackable / Max: 30%)**. Also gain [Status AttackUpStack.png] **20% ATK Up (Stackable / Max: 60%)** and [Status Dodge Up Stack.png] **Dodge Rate Up (Stackable)**. (Activates twice against foes with [Status Foxflame 1.png] **Foxflame**. )"
+                        "4-hit, 100% Fire damage to a foe (Damage cap: ~150,000 per hit). Gain [Status DA Up Stack.png] **20% DA Up (Stackable / Max: 60%)** and [Status TA Up Stack.png] **10% TA Up (Stackable / Max: 30%)**. Also gain [Status AttackUpStack.png] **20% ATK Up (Stackable / Max: 60%)** and [Status Dodge Up Stack.png] **10% Dodge Rate Up (Stackable / Max: 30%)**. (Activates twice against foes with [Status Foxflame 1.png] **Foxflame**. )"
                     ],
                     "type": [
                         "1",
@@ -50354,7 +53366,7 @@
                             "[Status DA Up Stack.png] **20% DA Up (Stackable / Max: 60%)**",
                             "[Status TA Up Stack.png] **10% TA Up (Stackable / Max: 30%)**",
                             "[Status AttackUpStack.png] **20% ATK Up (Stackable / Max: 60%)**",
-                            "[Status Dodge Up Stack.png] **Dodge Rate Up (Stackable)**"
+                            "[Status Dodge Up Stack.png] **10% Dodge Rate Up (Stackable / Max: 30%)**"
                         ]
                     },
                     "icon": [
@@ -50364,7 +53376,7 @@
                     "name": "Eye of the Sparrow",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 95 ",
                     "text": [
-                        "4-hit, 100% Fire damage to a foe (Damage cap: ~150,000 per hit). Gain [Status DA Up Stack.png] **20% DA Up (Stackable / Max: 60%)** and [Status TA Up Stack.png] **10% TA Up (Stackable / Max: 30%)**. Also gain [Status AttackUpStack.png] **20% ATK Up (Stackable / Max: 60%)** and [Status Dodge Up Stack.png] **Dodge Rate Up (Stackable)**. (Activates twice against foes with [Status Foxflame 1.png] **Foxflame**. )"
+                        "4-hit, 100% Fire damage to a foe (Damage cap: ~150,000 per hit). Gain [Status DA Up Stack.png] **20% DA Up (Stackable / Max: 60%)** and [Status TA Up Stack.png] **10% TA Up (Stackable / Max: 30%)**. Also gain [Status AttackUpStack.png] **20% ATK Up (Stackable / Max: 60%)** and [Status Dodge Up Stack.png] **10% Dodge Rate Up (Stackable / Max: 30%)**. (Activates twice against foes with [Status Foxflame 1.png] **Foxflame**. )"
                     ],
                     "type": [
                         "1",
@@ -51255,7 +54267,7 @@
                         ]
                     },
                     "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1370_4.png"
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1370_3.png"
                     ],
                     "name": "Connotation Bestial",
                     "obtain": " Lvl 45 ",
@@ -51263,7 +54275,7 @@
                         "Inflict [Status Gravity.png] **Gravity** on a foe. All allies gain [Status 7056.png] **Bestial**."
                     ],
                     "type": [
-                        "4"
+                        "3"
                     ]
                 }
             ],
@@ -51332,6 +54344,44 @@
                     ]
                 }
             ],
+            []
+        ],
+        "R": [
+            [
+                {
+                    "cooldown": " 6 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/40_1.png"
+                    ],
+                    "name": "Dark Mist",
+                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "text": [
+                        "Dark damage to a foe and inflict [Status Blind.png] **Blinded**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 7 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1_1.png"
+                    ],
+                    "name": "Dark Energy",
+                    "obtain": " Lvl 25 ",
+                    "text": [
+                        "Medium Dark damage to a foe."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [],
             []
         ]
     },
