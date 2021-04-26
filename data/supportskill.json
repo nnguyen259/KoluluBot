@@ -2862,7 +2862,7 @@
                 "duration": {},
                 "name": "Infernal Heaven",
                 "text": [
-                    "50% boost to triple attack rate.\nInflict <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown (Stack / Max: 30%)** upon triple attack."
+                    "50% boost to triple attack rate.\nInflict <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down (Stack / Max: 30%)** upon triple attack."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -7480,7 +7480,7 @@
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
                 "text": [
-                    "Upon using healing skills, all allies gain <:Status_Veil:832602900122828840> **10% / 15% / 20% Debuff Res.\nUp**"
+                    "Upon using healing skills, all allies gain <:Status_Veil:832602900122828840> **10% / 15% / 20% Debuff Res.Up**"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
@@ -12673,12 +12673,12 @@
             {
                 "duration": {
                     "180^s": [
-                        "<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown (Stack)**"
+                        "<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down (Stack)**"
                     ]
                 },
                 "name": "Sleight of Hand",
                 "text": [
-                    "10% Bonus Fire DMG effect against foes with <:Status_Convulsion:832587063831560244> **Convulsion**.\nBonus Fire DMG effect against foes with <:Status_Convulsion:832587063831560244> **Convulsion** increased to 20%.\nUpon chain burst activation when foe has <:Status_Convulsion:832587063831560244> **Convulsion**: 400% Fire damage to all foes (Damage cap: ~500,000).\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown (Stack)**."
+                    "10% Bonus Fire DMG effect against foes with <:Status_Convulsion:832587063831560244> **Convulsion**.\nBonus Fire DMG effect against foes with <:Status_Convulsion:832587063831560244> **Convulsion** increased to 20%.\nUpon chain burst activation when foe has <:Status_Convulsion:832587063831560244> **Convulsion**: 400% Fire damage to all foes (Damage cap: ~500,000).\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down (Stack)**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -12707,12 +12707,12 @@
             {
                 "duration": {
                     "180^s": [
-                        "<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown (Stack)**"
+                        "<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down (Stack)**"
                     ]
                 },
                 "name": "Sleight of Hand",
                 "text": [
-                    "10% Bonus Fire DMG effect against foes with <:Status_Convulsion:832587063831560244> **Convulsion**.\nBonus Fire DMG effect against foes with <:Status_Convulsion:832587063831560244> **Convulsion** increased to 20%.\nUpon chain burst activation when foe has <:Status_Convulsion:832587063831560244> **Convulsion**: 400% Fire damage to all foes (Damage cap: ~500,000).\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown (Stack)**."
+                    "10% Bonus Fire DMG effect against foes with <:Status_Convulsion:832587063831560244> **Convulsion**.\nBonus Fire DMG effect against foes with <:Status_Convulsion:832587063831560244> **Convulsion** increased to 20%.\nUpon chain burst activation when foe has <:Status_Convulsion:832587063831560244> **Convulsion**: 400% Fire damage to all foes (Damage cap: ~500,000).\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down (Stack)**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },

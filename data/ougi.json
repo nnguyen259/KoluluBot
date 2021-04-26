@@ -81,24 +81,13 @@
             {
                 "duration": {
                     "3.5^t": [
-                        "<:Status_Bonus_Damage:832584447911264276> **20% Bonus Light DMG**"
-                    ]
-                },
-                "name": "Lord of Blitz",
-                "text": [
-                    "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Light DMG**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
                         "<:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG**"
                     ],
                     "Indefinite^i": [
                         "<:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment**"
                     ]
                 },
-                "name": "After 5\u2605:Levin Annihilation",
+                "name": "Levin Annihilation",
                 "text": [
                     "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG** and <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment** (Next use of Electron Blade activates twice)."
                 ]
@@ -114,20 +103,6 @@
                 "name": "Lord of Blitz",
                 "text": [
                     "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Light DMG**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment**"
-                    ]
-                },
-                "name": "After 5\u2605:Levin Annihilation",
-                "text": [
-                    "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG** and <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment** (Next use of Electron Blade activates twice)."
                 ]
             }
         ],
@@ -165,14 +140,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Blaze of Thunder",
-                "text": [
-                    "Big Fire damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Blaze of Thunder ++",
+                "name": "Blaze of Thunder ++",
                 "text": [
                     "Massive Fire damage to a foe.\nGain <:Status_SkillUp:832601206001500221> **Skill DMG Up (Stackable)**"
                 ]
@@ -184,13 +152,6 @@
                 "name": "Blaze of Thunder",
                 "text": [
                     "Big Fire damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Blaze of Thunder ++",
-                "text": [
-                    "Massive Fire damage to a foe.\nGain <:Status_SkillUp:832601206001500221> **Skill DMG Up (Stackable)**"
                 ]
             }
         ]
@@ -323,19 +284,12 @@
     "Altair": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Rune Engrave",
-                "text": [
-                    "Massive Water damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_CriticalUpWater:832587864280793139> **70% / 20% Critical Hit Rate Up**"
                     ]
                 },
-                "name": "After 5\u2605:Untergang Rune",
+                "name": "Untergang Rune",
                 "text": [
                     "Massive Water damage to a foe.\nAll Water allies gain <:Status_CriticalUpWater:832587864280793139> **70% / 20% Critical Hit Rate Up**."
                 ]
@@ -347,17 +301,6 @@
                 "name": "Rune Engrave",
                 "text": [
                     "Massive Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_CriticalUpWater:832587864280793139> **70% / 20% Critical Hit Rate Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Untergang Rune",
-                "text": [
-                    "Massive Water damage to a foe.\nAll Water allies gain <:Status_CriticalUpWater:832587864280793139> **70% / 20% Critical Hit Rate Up**."
                 ]
             }
         ]
@@ -366,13 +309,6 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Avantesia",
-                "text": [
-                    "450% Light damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
                 "name": "Half-God Half-Demon mode:Inhuman Rampage",
                 "text": [
                     "500% Light damage to a foe (Damage cap: ~1,685,000) and; 250% Dark damage to a foe (Damage cap: ~350,000).\n1-turn cut to Amira's skill cooldowns."
@@ -386,23 +322,9 @@
                 "text": [
                     "450% Light damage to a foe."
                 ]
-            },
-            {
-                "duration": {},
-                "name": "Half-God Half-Demon mode:Inhuman Rampage",
-                "text": [
-                    "500% Light damage to a foe (Damage cap: ~1,685,000) and; 250% Dark damage to a foe (Damage cap: ~350,000).\n1-turn cut to Amira's skill cooldowns."
-                ]
             }
         ],
         "PROMO": [
-            {
-                "duration": {},
-                "name": "Avantesia",
-                "text": [
-                    "Big Light damage to a foe."
-                ]
-            },
             {
                 "duration": {},
                 "name": "Half-God Half-Demon mode:Inhuman Rampage",
@@ -417,13 +339,6 @@
                 "name": "Avantesia",
                 "text": [
                     "Big Light damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "Half-God Half-Demon mode:Inhuman Rampage",
-                "text": [
-                    "Massive Light and Dark damage to a foe."
                 ]
             }
         ],
@@ -452,14 +367,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Gilded Heaven Strike",
-                "text": [
-                    "500% Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Infinite Monkey Hands: Baboon Blast",
+                "name": "Infinite Monkey Hands: Baboon Blast",
                 "text": [
                     "550% Wind damage to a foe and remove 1 buff."
                 ]
@@ -471,13 +379,6 @@
                 "name": "Gilded Heaven Strike",
                 "text": [
                     "500% Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Infinite Monkey Hands: Baboon Blast",
-                "text": [
-                    "550% Wind damage to a foe and remove 1 buff."
                 ]
             }
         ],
@@ -512,19 +413,12 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Fleur Tourbillon",
-                "text": [
-                    "Big Water damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "3.5^t": [
                         "<:Status_CriticalUp:832587322133970986> **??% / 30% Critical Hit Rate Up**"
                     ]
                 },
-                "name": "After 5\u2605:Bourgeon Flueri",
+                "name": "Bourgeon Flueri",
                 "text": [
                     "Massive Water damage to a foe.\nGain <:Status_CriticalUp:832587322133970986> **??% / 30% Critical Hit Rate Up**."
                 ]
@@ -537,36 +431,18 @@
                 "text": [
                     "Big Water damage to a foe."
                 ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **??% / 30% Critical Hit Rate Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Bourgeon Flueri",
-                "text": [
-                    "Massive Water damage to a foe.\nGain <:Status_CriticalUp:832587322133970986> **??% / 30% Critical Hit Rate Up**."
-                ]
             }
         ]
     },
     "Anila": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Gilded Heaven Strike",
-                "text": [
-                    "500% Fire damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_Shield:832599448872943648> **Shield (1000)**"
                     ]
                 },
-                "name": "After 5\u2605:Fury of the Ram",
+                "name": "Fury of the Ram",
                 "text": [
                     "550% Fire damage to a foe.\nAll allies gain <:Status_Shield:832599448872943648> **Shield (1000)**."
                 ]
@@ -578,17 +454,6 @@
                 "name": "Gilded Heaven Strike",
                 "text": [
                     "500% Fire damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Shield:832599448872943648> **Shield (1000)**"
-                    ]
-                },
-                "name": "After 5\u2605:Fury of the Ram",
-                "text": [
-                    "550% Fire damage to a foe.\nAll allies gain <:Status_Shield:832599448872943648> **Shield (1000)**."
                 ]
             }
         ],
@@ -658,25 +523,6 @@
     "Anre": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Astralance: Everto",
-                "text": [
-                    "450% Water damage to a foe.\nInflict **Mode Bar Cut**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_Strength:832601501335289908> **Strength**",
-                        "<:Status_Shield:832599448872943648> **Shield (2000)**"
-                    ]
-                },
-                "name": "After 5\u2605:Thousand-Spear Void",
-                "text": [
-                    "500% Water damage to a foe.\nInflict **Mode Bar Cut**.\nAll allies gain <:Status_Strength:832601501335289908> **Strength** and <:Status_Shield:832599448872943648> **Shield (2000)**."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_Drain:832590868321402890> **Drain**"
@@ -686,7 +532,7 @@
                         "<:Status_Shield:832599448872943648> **Shield (2000)**"
                     ]
                 },
-                "name": "After Stage 1 Transcendence:True Spear: Righteous Annihilation",
+                "name": "True Spear: Righteous Annihilation",
                 "text": [
                     "550% Water damage to a foe.\nInflict **Mode Bar Cut**.\nAll allies gain <:Status_Strength:832601501335289908> **Strength**, <:Status_Shield:832599448872943648> **Shield (2000)**, and <:Status_Drain:832590868321402890> **Drain**."
                 ]
@@ -699,68 +545,19 @@
                 "text": [
                     "450% Water damage to a foe.\nInflict **Mode Bar Cut**."
                 ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_Strength:832601501335289908> **Strength**",
-                        "<:Status_Shield:832599448872943648> **Shield (2000)**"
-                    ]
-                },
-                "name": "After 5\u2605:Thousand-Spear Void",
-                "text": [
-                    "500% Water damage to a foe.\nInflict **Mode Bar Cut**.\nAll allies gain <:Status_Strength:832601501335289908> **Strength** and <:Status_Shield:832599448872943648> **Shield (2000)**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Drain:832590868321402890> **Drain**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_Strength:832601501335289908> **Strength**",
-                        "<:Status_Shield:832599448872943648> **Shield (2000)**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:True Spear: Righteous Annihilation",
-                "text": [
-                    "550% Water damage to a foe.\nInflict **Mode Bar Cut**.\nAll allies gain <:Status_Strength:832601501335289908> **Strength**, <:Status_Shield:832599448872943648> **Shield (2000)**, and <:Status_Drain:832590868321402890> **Drain**."
-                ]
             }
         ],
         "BASE_5": [
             {
-                "duration": {},
-                "name": "Astralance: Everto",
-                "text": [
-                    "450% Water damage to a foe.\nInflict **Mode Bar Cut**."
-                ]
-            },
-            {
                 "duration": {
                     "3.5^t": [
                         "<:Status_Strength:832601501335289908> **Strength**",
                         "<:Status_Shield:832599448872943648> **Shield (2000)**"
                     ]
                 },
-                "name": "After 5\u2605:Thousand-Spear Void",
+                "name": "Thousand-Spear Void",
                 "text": [
                     "500% Water damage to a foe.\nInflict **Mode Bar Cut**.\nAll allies gain <:Status_Strength:832601501335289908> **Strength** and <:Status_Shield:832599448872943648> **Shield (2000)**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Drain:832590868321402890> **Drain**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_Strength:832601501335289908> **Strength**",
-                        "<:Status_Shield:832599448872943648> **Shield (2000)**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:True Spear: Righteous Annihilation",
-                "text": [
-                    "550% Water damage to a foe.\nInflict **Mode Bar Cut**.\nAll allies gain <:Status_Strength:832601501335289908> **Strength**, <:Status_Shield:832599448872943648> **Shield (2000)**, and <:Status_Drain:832590868321402890> **Drain**."
                 ]
             }
         ]
@@ -790,21 +587,10 @@
             {
                 "duration": {
                     "1.5^t": [
-                        "<:Status_DoubleUp:832590867734724618> **100% DA Up**"
-                    ]
-                },
-                "name": "Kirari's Got It!",
-                "text": [
-                    "Big Kirari Moroboshi to a foe.\nGain <:Status_DoubleUp:832590867734724618> **100% DA Up** if used after Spoil Me."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
                         "<:Status_TripleUp:832601877920350218> **100% TA Up**"
                     ]
                 },
-                "name": "After 5\u2605:Kirari's Got It! ++",
+                "name": "Kirari's Got It! ++",
                 "text": [
                     "Massive Kirari Moroboshi to a foe.\nGain <:Status_TripleUp:832601877920350218> **100% TA Up** if used after Spoil Me."
                 ]
@@ -820,17 +606,6 @@
                 "name": "Kirari's Got It!",
                 "text": [
                     "Big Kirari Moroboshi to a foe.\nGain <:Status_DoubleUp:832590867734724618> **100% DA Up** if used after Spoil Me."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
-                        "<:Status_TripleUp:832601877920350218> **100% TA Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Kirari's Got It! ++",
-                "text": [
-                    "Massive Kirari Moroboshi to a foe.\nGain <:Status_TripleUp:832601877920350218> **100% TA Up** if used after Spoil Me."
                 ]
             }
         ]
@@ -839,14 +614,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Heavens On Fire",
-                "text": [
-                    "450% Fire damage to a foe.\nExtend the duration of <:Status_Hype1:832594542321598505> **Hype** on Aoidos by 2 turns."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Heavens o' Misery",
+                "name": "Heavens o' Misery",
                 "text": [
                     "500% Fire damage to a foe.\nExtend the duration of <:Status_Hype1:832594542321598505> **Hype** on all Fire allies by 2 turns."
                 ]
@@ -858,13 +626,6 @@
                 "name": "Heavens On Fire",
                 "text": [
                     "450% Fire damage to a foe.\nExtend the duration of <:Status_Hype1:832594542321598505> **Hype** on Aoidos by 2 turns."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Heavens o' Misery",
-                "text": [
-                    "500% Fire damage to a foe.\nExtend the duration of <:Status_Hype1:832594542321598505> **Hype** on all Fire allies by 2 turns."
                 ]
             }
         ]
@@ -889,22 +650,11 @@
             {
                 "duration": {
                     "5.5^t": [
-                        "<:Status_WaterAtkUp:832603014598623233> **15% Water ATK Up**"
-                    ]
-                },
-                "name": "Daisuki Dattara Daijoubu!",
-                "text": [
-                    "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **15% Water ATK Up**.\nRestore 20% of all allies' HP (Healing cap: 500)."
-                ]
-            },
-            {
-                "duration": {
-                    "5.5^t": [
                         "<:Status_WaterAtkUp:832603014598623233> **15% Water ATK Up**",
                         "<:Status_FireResUp:832592782475788288> **20% Fire DMG Lowered**"
                     ]
                 },
-                "name": "After 5\u2605:Daisuki Dattara Daijoubu! ++",
+                "name": "Daisuki Dattara Daijoubu! ++",
                 "text": [
                     "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **15% Water ATK Up** and <:Status_FireResUp:832592782475788288> **20% Fire DMG Lowered**.\nRestore 20% of all allies' HP (Healing cap: 500)."
                 ]
@@ -920,18 +670,6 @@
                 "name": "Daisuki Dattara Daijoubu!",
                 "text": [
                     "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **15% Water ATK Up**.\nRestore 20% of all allies' HP (Healing cap: 500)."
-                ]
-            },
-            {
-                "duration": {
-                    "5.5^t": [
-                        "<:Status_WaterAtkUp:832603014598623233> **15% Water ATK Up**",
-                        "<:Status_FireResUp:832592782475788288> **20% Fire DMG Lowered**"
-                    ]
-                },
-                "name": "After 5\u2605:Daisuki Dattara Daijoubu! ++",
-                "text": [
-                    "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **15% Water ATK Up** and <:Status_FireResUp:832592782475788288> **20% Fire DMG Lowered**.\nRestore 20% of all allies' HP (Healing cap: 500)."
                 ]
             }
         ]
@@ -1009,14 +747,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Selene Legacy",
-                "text": [
-                    "Massive Earth damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Selene Timoria",
+                "name": "Selene Timoria",
                 "text": [
                     "Massive Earth damage to a foe.\nGaze into Crystal Ball and can reuse End Gaze.\nAll allies gain <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
                 ]
@@ -1028,13 +759,6 @@
                 "name": "Selene Legacy",
                 "text": [
                     "Massive Earth damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Selene Timoria",
-                "text": [
-                    "Massive Earth damage to a foe.\nGaze into Crystal Ball and can reuse End Gaze.\nAll allies gain <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
                 ]
             }
         ],
@@ -1123,17 +847,6 @@
         "BASE": [
             {
                 "duration": {
-                    "5.5^t": [
-                        "<:Status_Bonus_Damage:832584447911264276> **50% Bonus Earth DMG**"
-                    ]
-                },
-                "name": "Deadly Sin",
-                "text": [
-                    "Massive Earth damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **50% Bonus Earth DMG**."
-                ]
-            },
-            {
-                "duration": {
                     "1.5^t": [
                         "<:Status_TripleUp:832601877920350218> **Guaranteed TA**"
                     ],
@@ -1141,7 +854,7 @@
                         "<:Status_Bonus_Damage:832584447911264276> **50% Bonus Earth DMG**"
                     ]
                 },
-                "name": "After 5\u2605:Beat the Wall",
+                "name": "Beat the Wall",
                 "text": [
                     "Massive Earth damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **50% Bonus Earth DMG** and <:Status_TripleUp:832601877920350218> **Guaranteed TA**."
                 ]
@@ -1157,20 +870,6 @@
                 "name": "Deadly Sin",
                 "text": [
                     "Massive Earth damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **50% Bonus Earth DMG**."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
-                        "<:Status_TripleUp:832601877920350218> **Guaranteed TA**"
-                    ],
-                    "5.5^t": [
-                        "<:Status_Bonus_Damage:832584447911264276> **50% Bonus Earth DMG**"
-                    ]
-                },
-                "name": "After 5\u2605:Beat the Wall",
-                "text": [
-                    "Massive Earth damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **50% Bonus Earth DMG** and <:Status_TripleUp:832601877920350218> **Guaranteed TA**."
                 ]
             }
         ],
@@ -1367,19 +1066,12 @@
     "Black_Knight": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Obsidian Moonlight",
-                "text": [
-                    "Massive Dark damage to a foe.\nRemove 1 debuff from Black Knight."
-                ]
-            },
-            {
                 "duration": {
                     "Indefinite^i": [
                         "<:Status_Moonshade:832597121198063636> **Moonshade**"
                     ]
                 },
-                "name": "After 5\u2605:Sword of Delusion",
+                "name": "Sword of Delusion",
                 "text": [
                     "Massive Dark damage to a foe.\nRemove all debuffs from Black Knight.\nGain <:Status_Moonshade:832597121198063636> **Moonshade**.\n(Next Quadspell activates twice.)\n"
                 ]
@@ -1391,17 +1083,6 @@
                 "name": "Obsidian Moonlight",
                 "text": [
                     "Massive Dark damage to a foe.\nRemove 1 debuff from Black Knight."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Moonshade:832597121198063636> **Moonshade**"
-                    ]
-                },
-                "name": "After 5\u2605:Sword of Delusion",
-                "text": [
-                    "Massive Dark damage to a foe.\nRemove all debuffs from Black Knight.\nGain <:Status_Moonshade:832597121198063636> **Moonshade**.\n(Next Quadspell activates twice.)\n"
                 ]
             }
         ],
@@ -1463,24 +1144,13 @@
                 "duration": {
                     "3.5^t": [
                         "<:Status_EarthAtkUp:832591143799226398> **25% Earth ATK Up**"
-                    ]
-                },
-                "name": "Ars Magna",
-                "text": [
-                    "450% Earth damage to a foe.\nAll allies gain <:Status_EarthAtkUp:832591143799226398> **25% Earth ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_EarthAtkUp:832591143799226398> **25% Earth ATK Up**"
                     ],
                     "Indefinite^i": [
                         "<:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)**",
                         "<:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**"
                     ]
                 },
-                "name": "After 5\u2605:Ars Magna ++",
+                "name": "Ars Magna ++",
                 "text": [
                     "500% Earth damage to a foe.\nAll allies gain <:Status_EarthAtkUp:832591143799226398> **25% Earth ATK Up**.\nCagliostro also gains <:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)** and <:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
@@ -1496,21 +1166,6 @@
                 "name": "Ars Magna",
                 "text": [
                     "450% Earth damage to a foe.\nAll allies gain <:Status_EarthAtkUp:832591143799226398> **25% Earth ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_EarthAtkUp:832591143799226398> **25% Earth ATK Up**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)**",
-                        "<:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**"
-                    ]
-                },
-                "name": "After 5\u2605:Ars Magna ++",
-                "text": [
-                    "500% Earth damage to a foe.\nAll allies gain <:Status_EarthAtkUp:832591143799226398> **25% Earth ATK Up**.\nCagliostro also gains <:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)** and <:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ],
@@ -1839,14 +1494,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Noble Execution",
-                "text": [
-                    "450% Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Noble Execution ++",
+                "name": "Noble Execution ++",
                 "text": [
                     "500% Water damage to a foe.\n400% Bonus Water damage (Damage cap: ~635,000)."
                 ]
@@ -1858,13 +1506,6 @@
                 "name": "Noble Execution",
                 "text": [
                     "450% Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Noble Execution ++",
-                "text": [
-                    "500% Water damage to a foe.\n400% Bonus Water damage (Damage cap: ~635,000)."
                 ]
             }
         ],
@@ -1950,20 +1591,13 @@
     "Christina": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Empress Squall",
-                "text": [
-                    "450% Wind damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "1.5^t": [
                         "<:Status_TripleUp:832601877920350218> **Guaranteed TA**",
                         "<:Status_Bonus_Damage:832584447911264276> **50% Bonus Wind DMG**"
                     ]
                 },
-                "name": "After 5\u2605:Empress's Affection",
+                "name": "Empress's Affection",
                 "text": [
                     "500% Wind damage to a foe.\nGain <:Status_TripleUp:832601877920350218> **Guaranteed TA** and <:Status_Bonus_Damage:832584447911264276> **50% Bonus Wind DMG**."
                 ]
@@ -1975,18 +1609,6 @@
                 "name": "Empress Squall",
                 "text": [
                     "450% Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
-                        "<:Status_TripleUp:832601877920350218> **Guaranteed TA**",
-                        "<:Status_Bonus_Damage:832584447911264276> **50% Bonus Wind DMG**"
-                    ]
-                },
-                "name": "After 5\u2605:Empress's Affection",
-                "text": [
-                    "500% Wind damage to a foe.\nGain <:Status_TripleUp:832601877920350218> **Guaranteed TA** and <:Status_Bonus_Damage:832584447911264276> **50% Bonus Wind DMG**."
                 ]
             }
         ]
@@ -2007,12 +1629,12 @@
             {
                 "duration": {
                     "180^s": [
-                        "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                        "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                     ]
                 },
                 "name": "Alchemic Flare",
                 "text": [
-                    "Massive Fire damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**."
+                    "Massive Fire damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**."
                 ]
             }
         ],
@@ -2290,30 +1912,23 @@
             {
                 "duration": {
                     "180^s": [
-                        "<:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown (Stack / Max: 30%)**"
+                        "<:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down (Stack / Max: 30%)**"
                     ]
                 },
                 "name": "Grand Guignol",
                 "text": [
-                    "450% Fire damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown (Stack / Max: 30%)**."
+                    "450% Fire damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down (Stack / Max: 30%)**."
                 ]
             }
         ],
         "SR": [
-            {
-                "duration": {},
-                "name": "Innocent Stab",
-                "text": [
-                    "Big Dark damage to a foe."
-                ]
-            },
             {
                 "duration": {
                     "3.5^t": [
                         "<:Status_Sleep_3:832601206353952829> **Sleep**"
                     ]
                 },
-                "name": "After 5\u2605:Faith Athame",
+                "name": "Faith Athame",
                 "text": [
                     "Massive Dark damage to a foe.\nSlight chance to inflict <:Status_Sleep_3:832601206353952829> **Sleep**."
                 ]
@@ -2325,17 +1940,6 @@
                 "name": "Innocent Stab",
                 "text": [
                     "Big Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_Sleep_3:832601206353952829> **Sleep**"
-                    ]
-                },
-                "name": "After 5\u2605:Faith Athame",
-                "text": [
-                    "Massive Dark damage to a foe.\nSlight chance to inflict <:Status_Sleep_3:832601206353952829> **Sleep**."
                 ]
             }
         ],
@@ -2357,17 +1961,6 @@
         "BASE": [
             {
                 "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**"
-                    ]
-                },
-                "name": "Seventh Agony",
-                "text": [
-                    "550% Light damage to a foe.\nAll allies gain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**."
-                ]
-            },
-            {
-                "duration": {
                     "2.5^t": [
                         "<:Status_Armored:832577248602095656> **70% / 30% Armored**"
                     ],
@@ -2375,7 +1968,7 @@
                         "<:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**"
                     ]
                 },
-                "name": "After 5\u2605:Seventh Dispersion",
+                "name": "Seventh Dispersion",
                 "text": [
                     "600% Light damage to a foe.\nAll allies gain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)** and <:Status_Armored:832577248602095656> **70% / 30% Armored**."
                 ]
@@ -2391,20 +1984,6 @@
                 "name": "Seventh Agony",
                 "text": [
                     "550% Light damage to a foe.\nAll allies gain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Armored:832577248602095656> **70% / 30% Armored**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**"
-                    ]
-                },
-                "name": "After 5\u2605:Seventh Dispersion",
-                "text": [
-                    "600% Light damage to a foe.\nAll allies gain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)** and <:Status_Armored:832577248602095656> **70% / 30% Armored**."
                 ]
             }
         ],
@@ -2585,23 +2164,12 @@
             {
                 "duration": {
                     "2.5^t": [
-                        "<:Status_TripleUp:832601877920350218> **50% TA Up**"
-                    ]
-                },
-                "name": "Almighty Flurry",
-                "text": [
-                    "450% Earth damage to a foe.\nInflict <:Status_Death:832588130434547732> **Lethal Hit**.\nEahta gains <:Status_TripleUp:832601877920350218> **50% TA Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
                         "<:Status_DoubleUp:832590867734724618> **50% DA Up**",
                         "<:Status_TripleUp:832601877920350218> **50% TA Up**",
                         "<:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**"
                     ]
                 },
-                "name": "After 5\u2605:Almighty Passage",
+                "name": "Almighty Passage",
                 "text": [
                     "500% Earth damage to a foe.\nInflict <:Status_Death:832588130434547732> **Lethal Hit**.\nEahta gains <:Status_DoubleUp:832590867734724618> **50% DA Up** and <:Status_TripleUp:832601877920350218> **50% TA Up**.\nAll allies gain <:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**."
                 ]
@@ -2617,19 +2185,6 @@
                 "name": "Almighty Flurry",
                 "text": [
                     "450% Earth damage to a foe.\nInflict <:Status_Death:832588130434547732> **Lethal Hit**.\nEahta gains <:Status_TripleUp:832601877920350218> **50% TA Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_DoubleUp:832590867734724618> **50% DA Up**",
-                        "<:Status_TripleUp:832601877920350218> **50% TA Up**",
-                        "<:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Almighty Passage",
-                "text": [
-                    "500% Earth damage to a foe.\nInflict <:Status_Death:832588130434547732> **Lethal Hit**.\nEahta gains <:Status_DoubleUp:832590867734724618> **50% DA Up** and <:Status_TripleUp:832601877920350218> **50% TA Up**.\nAll allies gain <:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**."
                 ]
             }
         ]
@@ -2637,19 +2192,12 @@
     "Ejaeli": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Mahle Fantasia",
-                "text": [
-                    "Big Water damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "4.5^t": [
                         "<:Status_Oratorio:832597227490902046> **Oratorio**"
                     ]
                 },
-                "name": "After 5\u2605:Oratorio Azzurro",
+                "name": "Oratorio Azzurro",
                 "text": [
                     "Massive Water damage to a foe.\nGain <:Status_Oratorio:832597227490902046> **Oratorio** (ATK boost gradually decreases starting after 2 turns)."
                 ]
@@ -2661,17 +2209,6 @@
                 "name": "Mahle Fantasia",
                 "text": [
                     "Big Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "4.5^t": [
-                        "<:Status_Oratorio:832597227490902046> **Oratorio**"
-                    ]
-                },
-                "name": "After 5\u2605:Oratorio Azzurro",
-                "text": [
-                    "Massive Water damage to a foe.\nGain <:Status_Oratorio:832597227490902046> **Oratorio** (ATK boost gradually decreases starting after 2 turns)."
                 ]
             }
         ]
@@ -2822,19 +2359,12 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Die Antikenkanone",
-                "text": [
-                    "Big Earth damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_EarthResDown:832591143694106656> **10% Earth DEF Down**"
                     ]
                 },
-                "name": "After 5\u2605:Die Drachenkanone",
+                "name": "Die Drachenkanone",
                 "text": [
                     "Massive Earth damage to a foe.\nInflict <:Status_EarthResDown:832591143694106656> **10% Earth DEF Down**."
                 ]
@@ -2846,17 +2376,6 @@
                 "name": "Die Antikenkanone",
                 "text": [
                     "Big Earth damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_EarthResDown:832591143694106656> **10% Earth DEF Down**"
-                    ]
-                },
-                "name": "After 5\u2605:Die Drachenkanone",
-                "text": [
-                    "Massive Earth damage to a foe.\nInflict <:Status_EarthResDown:832591143694106656> **10% Earth DEF Down**."
                 ]
             }
         ],
@@ -2923,22 +2442,7 @@
                         "<:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek**"
                     ]
                 },
-                "name": "Acidrage Howl",
-                "text": [
-                    "450% Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **20% ATK Down** and <:Status_Blind:832583965428678656> **Blinded**.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl.\nWhen <:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek** is consumed: 300% Bonus Dark damage (Damage cap: ~630,000)."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_AttackDown:832581064211955722> **20% ATK Down**",
-                        "<:Status_Blind:832583965428678656> **Blinded**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek**"
-                    ]
-                },
-                "name": "After 5\u2605:Dead-End Fall",
+                "name": "Dead-End Fall",
                 "text": [
                     "500% Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **20% ATK Down** and <:Status_Blind:832583965428678656> **Blinded**.\n2-turn cut to Eustace's skill cooldowns.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl.\nWhen <:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek** is consumed: Bonus Dark damage based on <:Status_Loaded0:832596885654339635> **Loaded** lvl."
                 ]
@@ -2958,21 +2462,6 @@
                 "name": "Acidrage Howl",
                 "text": [
                     "450% Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **20% ATK Down** and <:Status_Blind:832583965428678656> **Blinded**.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl.\nWhen <:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek** is consumed: 300% Bonus Dark damage (Damage cap: ~630,000)."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_AttackDown:832581064211955722> **20% ATK Down**",
-                        "<:Status_Blind:832583965428678656> **Blinded**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek**"
-                    ]
-                },
-                "name": "After 5\u2605:Dead-End Fall",
-                "text": [
-                    "500% Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **20% ATK Down** and <:Status_Blind:832583965428678656> **Blinded**.\n2-turn cut to Eustace's skill cooldowns.\nReset <:Status_Loaded0:832596885654339635> **Loaded** lvl.\nWhen <:Status_Aubade_du_Flamek:832580994862678086> **Aubade du Flamek** is consumed: Bonus Dark damage based on <:Status_Loaded0:832596885654339635> **Loaded** lvl."
                 ]
             }
         ],
@@ -2995,12 +2484,12 @@
             {
                 "duration": {
                     "180^s": [
-                        "<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**"
+                        "<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**"
                     ]
                 },
                 "name": "Chain Vengeance",
                 "text": [
-                    "Big Light damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**."
+                    "Big Light damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**."
                 ]
             }
         ],
@@ -3096,14 +2585,7 @@
         "SR": [
             {
                 "duration": {},
-                "name": "Animus Strike",
-                "text": [
-                    "Big Light damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Fist Flash Lightning",
+                "name": "Fist Flash Lightning",
                 "text": [
                     "Massive Light damage to a foe.\nGain <:Status_AttackUpStack:832581064383791144> **ATK Up (Stackable)**."
                 ]
@@ -3115,13 +2597,6 @@
                 "name": "Animus Strike",
                 "text": [
                     "Big Light damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Fist Flash Lightning",
-                "text": [
-                    "Massive Light damage to a foe.\nGain <:Status_AttackUpStack:832581064383791144> **ATK Up (Stackable)**."
                 ]
             }
         ]
@@ -3166,25 +2641,6 @@
     "Feower": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Memento Mori",
-                "text": [
-                    "450% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_DoubleUp:832590867734724618> **35% DA Up**",
-                        "<:Status_TripleUp:832601877920350218> **35% TA Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Memento Vita",
-                "text": [
-                    "500% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nAll allies gain <:Status_DoubleUp:832590867734724618> **35% DA Up** and <:Status_TripleUp:832601877920350218> **35% TA Up**."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_DoubleUp:832590867734724618> **35% DA Up**",
@@ -3194,7 +2650,7 @@
                         "<:Status_Bonus_Damage:832584447911264276> **10% Bonus Water DMG**"
                     ]
                 },
-                "name": "After Stage 1 Transcendence:Mors Certa",
+                "name": "Mors Certa",
                 "text": [
                     "550% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nAll allies gain <:Status_DoubleUp:832590867734724618> **35% DA Up**, <:Status_TripleUp:832601877920350218> **35% TA Up**, and <:Status_Bonus_Damage:832584447911264276> **10% Bonus Water DMG**."
                 ]
@@ -3207,68 +2663,19 @@
                 "text": [
                     "450% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**."
                 ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_DoubleUp:832590867734724618> **35% DA Up**",
-                        "<:Status_TripleUp:832601877920350218> **35% TA Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Memento Vita",
-                "text": [
-                    "500% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nAll allies gain <:Status_DoubleUp:832590867734724618> **35% DA Up** and <:Status_TripleUp:832601877920350218> **35% TA Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_DoubleUp:832590867734724618> **35% DA Up**",
-                        "<:Status_TripleUp:832601877920350218> **35% TA Up**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_Bonus_Damage:832584447911264276> **10% Bonus Water DMG**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Mors Certa",
-                "text": [
-                    "550% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nAll allies gain <:Status_DoubleUp:832590867734724618> **35% DA Up**, <:Status_TripleUp:832601877920350218> **35% TA Up**, and <:Status_Bonus_Damage:832584447911264276> **10% Bonus Water DMG**."
-                ]
             }
         ],
         "BASE_5": [
             {
-                "duration": {},
-                "name": "Memento Mori",
-                "text": [
-                    "450% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_DoubleUp:832590867734724618> **35% DA Up**",
                         "<:Status_TripleUp:832601877920350218> **35% TA Up**"
                     ]
                 },
-                "name": "After 5\u2605:Memento Vita",
+                "name": "Memento Vita",
                 "text": [
                     "500% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nAll allies gain <:Status_DoubleUp:832590867734724618> **35% DA Up** and <:Status_TripleUp:832601877920350218> **35% TA Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_DoubleUp:832590867734724618> **35% DA Up**",
-                        "<:Status_TripleUp:832601877920350218> **35% TA Up**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_Bonus_Damage:832584447911264276> **10% Bonus Water DMG**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Mors Certa",
-                "text": [
-                    "550% Water damage to a foe.\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nAll allies gain <:Status_DoubleUp:832590867734724618> **35% DA Up**, <:Status_TripleUp:832601877920350218> **35% TA Up**, and <:Status_Bonus_Damage:832584447911264276> **10% Bonus Water DMG**."
                 ]
             }
         ]
@@ -3332,13 +2739,6 @@
     "Fif": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Big Bang",
-                "text": [
-                    "450% Light damage to a foe and remove 1 buff."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**",
@@ -3346,20 +2746,7 @@
                         "<:Status_TripleDown:832601877106393089> **TA Down**"
                     ]
                 },
-                "name": "After 5\u2605:True Big Bang",
-                "text": [
-                    "500% Light damage to a foe and remove 1 buff.\nInflict <:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **TA Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**",
-                        "<:Status_DoubleDown:832590867336003645> **100% DA Down**",
-                        "<:Status_TripleDown:832601877106393089> **TA Down**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Super-Duper Special Attack!",
+                "name": "Super-Duper Special Attack!",
                 "text": [
                     "550% Light damage to a foe and remove 1 buff.\nInflict <:Status_Gravity:832593788052177016> **Delay**, <:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **TA Down**."
                 ]
@@ -3372,43 +2759,10 @@
                 "text": [
                     "450% Light damage to a foe and remove 1 buff."
                 ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**",
-                        "<:Status_DoubleDown:832590867336003645> **100% DA Down**",
-                        "<:Status_TripleDown:832601877106393089> **TA Down**"
-                    ]
-                },
-                "name": "After 5\u2605:True Big Bang",
-                "text": [
-                    "500% Light damage to a foe and remove 1 buff.\nInflict <:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **TA Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**",
-                        "<:Status_DoubleDown:832590867336003645> **100% DA Down**",
-                        "<:Status_TripleDown:832601877106393089> **TA Down**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Super-Duper Special Attack!",
-                "text": [
-                    "550% Light damage to a foe and remove 1 buff.\nInflict <:Status_Gravity:832593788052177016> **Delay**, <:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **TA Down**."
-                ]
             }
         ],
         "BASE_5": [
             {
-                "duration": {},
-                "name": "Big Bang",
-                "text": [
-                    "450% Light damage to a foe and remove 1 buff."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**",
@@ -3416,22 +2770,9 @@
                         "<:Status_TripleDown:832601877106393089> **TA Down**"
                     ]
                 },
-                "name": "After 5\u2605:True Big Bang",
+                "name": "True Big Bang",
                 "text": [
                     "500% Light damage to a foe and remove 1 buff.\nInflict <:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **TA Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**",
-                        "<:Status_DoubleDown:832590867336003645> **100% DA Down**",
-                        "<:Status_TripleDown:832601877106393089> **TA Down**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Super-Duper Special Attack!",
-                "text": [
-                    "550% Light damage to a foe and remove 1 buff.\nInflict <:Status_Gravity:832593788052177016> **Delay**, <:Status_DarkAtkDown:832588129310867488> **30% Dark ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **TA Down**."
                 ]
             }
         ]
@@ -3615,19 +2956,12 @@
     "Gawain": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Flash Flurry",
-                "text": [
-                    "450% Wind damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "Indefinite^i": [
                         "<:Status_Shield:832599448872943648> **Shield (1500)**"
                     ]
                 },
-                "name": "After 5\u2605:Flashstorm Destruction",
+                "name": "Flashstorm Destruction",
                 "text": [
                     "500% Wind damage to a foe.\nAll allies gain <:Status_Shield:832599448872943648> **Shield (1500)**."
                 ]
@@ -3639,17 +2973,6 @@
                 "name": "Flash Flurry",
                 "text": [
                     "450% Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Shield:832599448872943648> **Shield (1500)**"
-                    ]
-                },
-                "name": "After 5\u2605:Flashstorm Destruction",
-                "text": [
-                    "500% Wind damage to a foe.\nAll allies gain <:Status_Shield:832599448872943648> **Shield (1500)**."
                 ]
             }
         ],
@@ -3666,19 +2989,12 @@
     "Gayne": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Sublime Step",
-                "text": [
-                    "Big Earth damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "Indefinite^i": [
                         "<:Status_Encore:832592395873943552> **Encore**"
                     ]
                 },
-                "name": "After 5\u2605:Blade Carousel",
+                "name": "Blade Carousel",
                 "text": [
                     "Massive Earth damage to a foe.\nGain <:Status_Encore:832592395873943552> **Encore** (Next use of Sword Dance activates twice)."
                 ]
@@ -3690,17 +3006,6 @@
                 "name": "Sublime Step",
                 "text": [
                     "Big Earth damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Encore:832592395873943552> **Encore**"
-                    ]
-                },
-                "name": "After 5\u2605:Blade Carousel",
-                "text": [
-                    "Massive Earth damage to a foe.\nGain <:Status_Encore:832592395873943552> **Encore** (Next use of Sword Dance activates twice)."
                 ]
             }
         ]
@@ -3736,22 +3041,11 @@
             {
                 "duration": {
                     "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **30% / 30% Critical Hit Rate Up**"
-                    ]
-                },
-                "name": "Fist of the Red Lotus",
-                "text": [
-                    "Massive Fire damage to a foe.\nGain <:Status_CriticalUp:832587322133970986> **30% / 30% Critical Hit Rate Up**.\nConsume all <:Status_Eternal_Rage_1:832592396570329108> **Eternal Rage** stacks."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
                         "<:Status_CriticalUp:832587322133970986> **30% / 30% Critical Hit Rate Up**",
                         "<:Status_Armored:832577248602095656> **Armored**"
                     ]
                 },
-                "name": "After 5\u2605:Fist of Hair-Raising Fury",
+                "name": "Fist of Hair-Raising Fury",
                 "text": [
                     "Massive Fire damage to a foe.\nGain <:Status_CriticalUp:832587322133970986> **30% / 30% Critical Hit Rate Up** and <:Status_Armored:832577248602095656> **Armored**.\nConsume all <:Status_Eternal_Rage_1:832592396570329108> **Eternal Rage** stacks."
                 ]
@@ -3767,18 +3061,6 @@
                 "name": "Fist of the Red Lotus",
                 "text": [
                     "Massive Fire damage to a foe.\nGain <:Status_CriticalUp:832587322133970986> **30% / 30% Critical Hit Rate Up**.\nConsume all <:Status_Eternal_Rage_1:832592396570329108> **Eternal Rage** stacks."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **30% / 30% Critical Hit Rate Up**",
-                        "<:Status_Armored:832577248602095656> **Armored**"
-                    ]
-                },
-                "name": "After 5\u2605:Fist of Hair-Raising Fury",
-                "text": [
-                    "Massive Fire damage to a foe.\nGain <:Status_CriticalUp:832587322133970986> **30% / 30% Critical Hit Rate Up** and <:Status_Armored:832577248602095656> **Armored**.\nConsume all <:Status_Eternal_Rage_1:832592396570329108> **Eternal Rage** stacks."
                 ]
             }
         ],
@@ -3887,19 +3169,12 @@
     "Hallessena": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Insane Style",
-                "text": [
-                    "Massive Earth damage to a foe.\n(Boost to C.A. specs based on <:Status_Divine_Death_Saw_of_Death:832588556357992489> **Divine Death Saw of Death** lvl.)\n"
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_HypeUp:832594542644953178> **High Tension**"
                     ]
                 },
-                "name": "After 5\u2605:Psycho's Path",
+                "name": "Psycho's Path",
                 "text": [
                     "Massive Earth damage to a foe.\n(Boost to C.A. specs based on <:Status_Divine_Death_Saw_of_Death:832588556357992489> **Divine Death Saw of Death** lvl.)\nCrazy is as crazy does! (Gain <:Status_HypeUp:832594542644953178> **High Tension**.\nEnds upon taking damage.)\n"
                 ]
@@ -3911,17 +3186,6 @@
                 "name": "Insane Style",
                 "text": [
                     "Massive Earth damage to a foe.\n(Boost to C.A. specs based on <:Status_Divine_Death_Saw_of_Death:832588556357992489> **Divine Death Saw of Death** lvl.)\n"
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_HypeUp:832594542644953178> **High Tension**"
-                    ]
-                },
-                "name": "After 5\u2605:Psycho's Path",
-                "text": [
-                    "Massive Earth damage to a foe.\n(Boost to C.A. specs based on <:Status_Divine_Death_Saw_of_Death:832588556357992489> **Divine Death Saw of Death** lvl.)\nCrazy is as crazy does! (Gain <:Status_HypeUp:832594542644953178> **High Tension**.\nEnds upon taking damage.)\n"
                 ]
             }
         ],
@@ -4045,19 +3309,12 @@
     "Helnar": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Flaterie Sol",
-                "text": [
-                    "Big Wind damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_AttackUp:832581064555364362> **ATK Up**"
                     ]
                 },
-                "name": "After 5\u2605:Danza de Espadas",
+                "name": "Danza de Espadas",
                 "text": [
                     "Massive Wind damage to a foe.\nGain <:Status_AttackUp:832581064555364362> **ATK Up** (10% boost to ATK for each female party member)."
                 ]
@@ -4069,17 +3326,6 @@
                 "name": "Flaterie Sol",
                 "text": [
                     "Big Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_AttackUp:832581064555364362> **ATK Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Danza de Espadas",
-                "text": [
-                    "Massive Wind damage to a foe.\nGain <:Status_AttackUp:832581064555364362> **ATK Up** (10% boost to ATK for each female party member)."
                 ]
             }
         ],
@@ -4204,14 +3450,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Crystal Gust",
-                "text": [
-                    "450% Light damage to a foe.\n(Boost to C.A. damage and C.A. damage cap based on <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl.)\n based on <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl.\nConsumes all <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Elemental Evolution",
+                "name": "Elemental Evolution",
                 "text": [
                     "500% Light damage to a foe.\n(Boost to C.A. damage and C.A. damage cap based on <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl.)\n based on <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl.\nConsumes 1 <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl."
                 ]
@@ -4224,26 +3463,12 @@
                 "text": [
                     "450% Light damage to a foe.\n(Boost to C.A. damage and C.A. damage cap based on <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl.)\n based on <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl.\nConsumes all <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl."
                 ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Elemental Evolution",
-                "text": [
-                    "500% Light damage to a foe.\n(Boost to C.A. damage and C.A. damage cap based on <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl.)\n based on <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl.\nConsumes 1 <:Status_Mystic_Vortex_1:832597121596784720> **Mystic Vortex** lvl."
-                ]
             }
         ],
         "SR": [
             {
                 "duration": {},
-                "name": "Elemental Gust",
-                "text": [
-                    "Big Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Alluring Gust",
+                "name": "Alluring Gust",
                 "text": [
                     "Massive Water damage to a foe.\nInflict <:Status_Elemental_Wound:832591144809529364> **Elemental Wound**."
                 ]
@@ -4255,13 +3480,6 @@
                 "name": "Elemental Gust",
                 "text": [
                     "Big Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Alluring Gust",
-                "text": [
-                    "Massive Water damage to a foe.\nInflict <:Status_Elemental_Wound:832591144809529364> **Elemental Wound**."
                 ]
             }
         ],
@@ -4326,19 +3544,12 @@
     "Izmir": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Lyod Blast",
-                "text": [
-                    "450% Water damage to a foe.\nConsumes all <:Status_Icy_Blade1:832594543001206854> **Icy Blade**."
-                ]
-            },
-            {
                 "duration": {
                     "Indefinite^i": [
                         "<:status_6976_1:832604145336188949> **Dream Blade**"
                     ]
                 },
-                "name": "After 5\u2605:Metel' Blast",
+                "name": "Metel' Blast",
                 "text": [
                     "500% Water damage to a foe.\nWhen 5 <:Status_Icy_Blade1:832594543001206854> **Icy Blade** is consumed: All other Water allies gain 1 <:status_6976_1:832604145336188949> **Dream Blade** (Max: 2)."
                 ]
@@ -4350,17 +3561,6 @@
                 "name": "Lyod Blast",
                 "text": [
                     "450% Water damage to a foe.\nConsumes all <:Status_Icy_Blade1:832594543001206854> **Icy Blade**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:status_6976_1:832604145336188949> **Dream Blade**"
-                    ]
-                },
-                "name": "After 5\u2605:Metel' Blast",
-                "text": [
-                    "500% Water damage to a foe.\nWhen 5 <:Status_Icy_Blade1:832594543001206854> **Icy Blade** is consumed: All other Water allies gain 1 <:status_6976_1:832604145336188949> **Dream Blade** (Max: 2)."
                 ]
             }
         ],
@@ -4460,20 +3660,13 @@
     "Jeanne_d'Arc": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Holy Spear Marte",
-                "text": [
-                    "Massive Light damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_LightAtkUp:832596750144503828> **20% Light ATK Up**",
                         "<:Status_Dark_Cut_20:832587991124803604> **20% Dark Cut**"
                     ]
                 },
-                "name": "After 5\u2605:Holy Spear Marte ++",
+                "name": "Holy Spear Marte ++",
                 "text": [
                     "Massive Light damage to a foe.\nAll allies gain <:Status_LightAtkUp:832596750144503828> **20% Light ATK Up** and <:Status_Dark_Cut_20:832587991124803604> **20% Dark Cut**."
                 ]
@@ -4485,18 +3678,6 @@
                 "name": "Holy Spear Marte",
                 "text": [
                     "Massive Light damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_LightAtkUp:832596750144503828> **20% Light ATK Up**",
-                        "<:Status_Dark_Cut_20:832587991124803604> **20% Dark Cut**"
-                    ]
-                },
-                "name": "After 5\u2605:Holy Spear Marte ++",
-                "text": [
-                    "Massive Light damage to a foe.\nAll allies gain <:Status_LightAtkUp:832596750144503828> **20% Light ATK Up** and <:Status_Dark_Cut_20:832587991124803604> **20% Dark Cut**."
                 ]
             }
         ],
@@ -4903,23 +4084,11 @@
                 "duration": {
                     "3.5^t": [
                         "<:Status_WaterAtkUp:832603014598623233> **30% Water ATK Up**",
-                        "<:Status_DoubleUp:832590867734724618> **30% DA Up**"
-                    ]
-                },
-                "name": "Blades of Diamond",
-                "text": [
-                    "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **30% Water ATK Up** and <:Status_DoubleUp:832590867734724618> **30% DA Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_WaterAtkUp:832603014598623233> **30% Water ATK Up**",
                         "<:Status_DoubleUp:832590867734724618> **30% DA Up**",
                         "<:Status_TripleUp:832601877920350218> **20% TA Up**"
                     ]
                 },
-                "name": "After 5\u2605:Blades of Frost II",
+                "name": "Blades of Frost II",
                 "text": [
                     "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **30% Water ATK Up**, <:Status_DoubleUp:832590867734724618> **30% DA Up**, and <:Status_TripleUp:832601877920350218> **20% TA Up**."
                 ]
@@ -4937,19 +4106,6 @@
                 "text": [
                     "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **30% Water ATK Up** and <:Status_DoubleUp:832590867734724618> **30% DA Up**."
                 ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_WaterAtkUp:832603014598623233> **30% Water ATK Up**",
-                        "<:Status_DoubleUp:832590867734724618> **30% DA Up**",
-                        "<:Status_TripleUp:832601877920350218> **20% TA Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Blades of Frost II",
-                "text": [
-                    "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **30% Water ATK Up**, <:Status_DoubleUp:832590867734724618> **30% DA Up**, and <:Status_TripleUp:832601877920350218> **20% TA Up**."
-                ]
             }
         ],
         "PROMO": [
@@ -4963,19 +4119,12 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Blades of Frost",
-                "text": [
-                    "Big Water damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_WaterAtkUp:832603014598623233> **20% Water ATK Up**"
                     ]
                 },
-                "name": "After 5\u2605:Realm of Ice",
+                "name": "Realm of Ice",
                 "text": [
                     "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **20% Water ATK Up**."
                 ]
@@ -4987,17 +4136,6 @@
                 "name": "Blades of Frost",
                 "text": [
                     "Big Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_WaterAtkUp:832603014598623233> **20% Water ATK Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Realm of Ice",
-                "text": [
-                    "Massive Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **20% Water ATK Up**."
                 ]
             }
         ],
@@ -5257,14 +4395,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Forbidden Lover",
-                "text": [
-                    "450% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Death March",
+                "name": "Death March",
                 "text": [
                     "500% Dark damage to a foe.\n400% Bonus Dark damage against a <:Status_Poison:832598586335428660> **Poisoned** foe (Damage cap: ~630,000)."
                 ]
@@ -5276,13 +4407,6 @@
                 "name": "Forbidden Lover",
                 "text": [
                     "450% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Death March",
-                "text": [
-                    "500% Dark damage to a foe.\n400% Bonus Dark damage against a <:Status_Poison:832598586335428660> **Poisoned** foe (Damage cap: ~630,000)."
                 ]
             }
         ],
@@ -5375,19 +4499,12 @@
     "Lancelot": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Weissfluegel",
-                "text": [
-                    "450% Water damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "Indefinite^i": [
                         "<:Status_DoubleImpulse:832590867553583114> **Double Impulse**"
                     ]
                 },
-                "name": "After 5\u2605:Weissfluegel ++",
+                "name": "Weissfluegel ++",
                 "text": [
                     "500% Water damage to a foe.\nGain <:Status_DoubleImpulse:832590867553583114> **Double Impulse**.\n(Next use of Blade Impulse activates twice.)\n"
                 ]
@@ -5399,17 +4516,6 @@
                 "name": "Weissfluegel",
                 "text": [
                     "450% Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_DoubleImpulse:832590867553583114> **Double Impulse**"
-                    ]
-                },
-                "name": "After 5\u2605:Weissfluegel ++",
-                "text": [
-                    "500% Water damage to a foe.\nGain <:Status_DoubleImpulse:832590867553583114> **Double Impulse**.\n(Next use of Blade Impulse activates twice.)\n"
                 ]
             }
         ],
@@ -5519,19 +4625,12 @@
     "Lennah": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Le Jardin de Fleurs",
-                "text": [
-                    "Massive Wind damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "Indefinite^i": [
                         "<:Status_Spirit_Blossom_1:832601388579815486> **Spirit Blossom**"
                     ]
                 },
-                "name": "After 5\u2605:L'Enfer des Fleurs",
+                "name": "L'Enfer des Fleurs",
                 "text": [
                     "Massive Wind damage to a foe.\nInflict <:Status_Spirit_Blossom_1:832601388579815486> **Spirit Blossom** (Max lvl: 2)."
                 ]
@@ -5543,17 +4642,6 @@
                 "name": "Le Jardin de Fleurs",
                 "text": [
                     "Massive Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Spirit_Blossom_1:832601388579815486> **Spirit Blossom**"
-                    ]
-                },
-                "name": "After 5\u2605:L'Enfer des Fleurs",
-                "text": [
-                    "Massive Wind damage to a foe.\nInflict <:Status_Spirit_Blossom_1:832601388579815486> **Spirit Blossom** (Max lvl: 2)."
                 ]
             }
         ]
@@ -5670,18 +4758,7 @@
                         "<:Status_WaterAtkUp:832603014598623233> **25% Water ATK Up**"
                     ]
                 },
-                "name": "Frozen Vision",
-                "text": [
-                    "450% Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **25% Water ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_WaterAtkUp:832603014598623233> **25% Water ATK Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Frozen Bloom",
+                "name": "Frozen Bloom",
                 "text": [
                     "500% Water damage to a foe.\n(50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with <:Status_Glaciate_1:832593603942547467> **Glaciate**.)\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **25% Water ATK Up**."
                 ]
@@ -5697,17 +4774,6 @@
                 "name": "Frozen Vision",
                 "text": [
                     "450% Water damage to a foe.\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **25% Water ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_WaterAtkUp:832603014598623233> **25% Water ATK Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Frozen Bloom",
-                "text": [
-                    "500% Water damage to a foe.\n(50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with <:Status_Glaciate_1:832593603942547467> **Glaciate**.)\nAll allies gain <:Status_WaterAtkUp:832603014598623233> **25% Water ATK Up**."
                 ]
             }
         ],
@@ -5762,15 +4828,7 @@
                 ]
             }
         ],
-        "BASE_4": [
-            {
-                "duration": {},
-                "name": "Totally Rad Strat-Meet",
-                "text": [
-                    "Totally radical strategy meeting! While fighting.\nCuz that\u2019s how awesome we are.\nTotally."
-                ]
-            }
-        ],
+        "BASE_4": [],
         "R": [
             {
                 "duration": {},
@@ -5855,19 +4913,12 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Swordsweep",
-                "text": [
-                    "Big Dark damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_Burned:832584524088082433> **Burned (2000)**"
                     ]
                 },
-                "name": "After 5\u2605:Swordsweep ++",
+                "name": "Swordsweep ++",
                 "text": [
                     "Massive Dark damage to a foe.\nInflict <:Status_Burned:832584524088082433> **Burned (2000)**.\nInflict <:Status_Death:832588130434547732> **Lethal Hit**."
                 ]
@@ -5879,17 +4930,6 @@
                 "name": "Swordsweep",
                 "text": [
                     "Big Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_Burned:832584524088082433> **Burned (2000)**"
-                    ]
-                },
-                "name": "After 5\u2605:Swordsweep ++",
-                "text": [
-                    "Massive Dark damage to a foe.\nInflict <:Status_Burned:832584524088082433> **Burned (2000)**.\nInflict <:Status_Death:832588130434547732> **Lethal Hit**."
                 ]
             }
         ]
@@ -5975,13 +5015,6 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Meteor Storm",
-                "text": [
-                    "Massive Fire damage to a foe.\nInflict <:Status_FireResDown:832592559896395780> **10% Fire DEF Down** on all foes."
-                ]
-            },
-            {
-                "duration": {},
                 "name": "Morax Summoned:Massive Meteor Storm",
                 "text": [
                     "Massive Fire damage to a foe.\nDeal 300% bonus Fire damage to all foes (Damage cap: ~300,000).\nInflict <:Status_FireResDown:832592559896395780> **10% Fire DEF Down** on all foes."
@@ -5994,13 +5027,6 @@
                 "name": "Meteor Storm",
                 "text": [
                     "Massive Fire damage to a foe.\nInflict <:Status_FireResDown:832592559896395780> **10% Fire DEF Down** on all foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "Morax Summoned:Massive Meteor Storm",
-                "text": [
-                    "Massive Fire damage to a foe.\nDeal 300% bonus Fire damage to all foes (Damage cap: ~300,000).\nInflict <:Status_FireResDown:832592559896395780> **10% Fire DEF Down** on all foes."
                 ]
             }
         ],
@@ -6018,14 +5044,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Gilded Heaven Strike",
-                "text": [
-                    "500% Earth damage to a foe.\nAll allies gain 5 stacks of <:Status_DrumBeats1:832590971669446677> **Drum Beat**."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Infowlible Insight",
+                "name": "Infowlible Insight",
                 "text": [
                     "550% Earth damage to a foe.\nAll allies gain 5 stacks of <:Status_DrumBeats1:832590971669446677> **Drum Beat**.\nExtend <:Status_ZealOfTheFeather:832603102963302440> **Zeal of the Feather**'s duration on all allies by 2 turns."
                 ]
@@ -6037,13 +5056,6 @@
                 "name": "Gilded Heaven Strike",
                 "text": [
                     "500% Earth damage to a foe.\nAll allies gain 5 stacks of <:Status_DrumBeats1:832590971669446677> **Drum Beat**."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Infowlible Insight",
-                "text": [
-                    "550% Earth damage to a foe.\nAll allies gain 5 stacks of <:Status_DrumBeats1:832590971669446677> **Drum Beat**.\nExtend <:Status_ZealOfTheFeather:832603102963302440> **Zeal of the Feather**'s duration on all allies by 2 turns."
                 ]
             }
         ],
@@ -6252,21 +5264,10 @@
             {
                 "duration": {
                     "1.5^t": [
-                        "<:Status_TripleUp:832601877920350218> **Guaranteed TA**"
-                    ]
-                },
-                "name": "Areus Prosbole",
-                "text": [
-                    "450% Earth damage to a foe.\nGain <:Status_TripleUp:832601877920350218> **Guaranteed TA**."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
                         "<:Status_HealUp:832593788878585896> **Recovery Cap Boosted (1000)**"
                     ]
                 },
-                "name": "After 5\u2605:Akua Lanakila",
+                "name": "Akua Lanakila",
                 "text": [
                     "500% Earth damage to a foe.\nActivate Impelliteri.\nGain <:Status_HealUp:832593788878585896> **Recovery Cap Boosted (1000)**."
                 ]
@@ -6282,17 +5283,6 @@
                 "name": "Areus Prosbole",
                 "text": [
                     "450% Earth damage to a foe.\nGain <:Status_TripleUp:832601877920350218> **Guaranteed TA**."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
-                        "<:Status_HealUp:832593788878585896> **Recovery Cap Boosted (1000)**"
-                    ]
-                },
-                "name": "After 5\u2605:Akua Lanakila",
-                "text": [
-                    "500% Earth damage to a foe.\nActivate Impelliteri.\nGain <:Status_HealUp:832593788878585896> **Recovery Cap Boosted (1000)**."
                 ]
             }
         ]
@@ -6310,14 +5300,7 @@
         "EVENT": [
             {
                 "duration": {},
-                "name": "Sonic Meteorite",
-                "text": [
-                    "Big Wind damage to a foe.\n1-turn cut to skill cooldowns."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Sonic Meteorite ++",
+                "name": "Sonic Meteorite ++",
                 "text": [
                     "Massive Wind damage to a foe.\n2-turn cut to skill cooldowns.\nReset <:Status_Acceleration_1:832575956211204104> **Acceleration** lvl."
                 ]
@@ -6330,13 +5313,6 @@
                 "text": [
                     "Big Wind damage to a foe.\n1-turn cut to skill cooldowns."
                 ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Sonic Meteorite ++",
-                "text": [
-                    "Massive Wind damage to a foe.\n2-turn cut to skill cooldowns.\nReset <:Status_Acceleration_1:832575956211204104> **Acceleration** lvl."
-                ]
             }
         ]
     },
@@ -6344,14 +5320,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Rapid Pulverize",
-                "text": [
-                    "Massive Wind damage to a foe.\nGain 1 <:Status_Aetherial_Shaft_1:832575956995801088> **Aetherial Shaft** stack.\n(Next skill activates twice upon use.)\n"
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Gleaming Pulverize",
+                "name": "Gleaming Pulverize",
                 "text": [
                     "Massive Wind damage to a foe.\nGain 2 <:Status_Aetherial_Shaft_1:832575956995801088> **Aetherial Shaft** stacks.\n(Next skill activates twice upon use.)\n"
                 ]
@@ -6363,13 +5332,6 @@
                 "name": "Rapid Pulverize",
                 "text": [
                     "Massive Wind damage to a foe.\nGain 1 <:Status_Aetherial_Shaft_1:832575956995801088> **Aetherial Shaft** stack.\n(Next skill activates twice upon use.)\n"
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Gleaming Pulverize",
-                "text": [
-                    "Massive Wind damage to a foe.\nGain 2 <:Status_Aetherial_Shaft_1:832575956995801088> **Aetherial Shaft** stacks.\n(Next skill activates twice upon use.)\n"
                 ]
             }
         ],
@@ -6395,19 +5357,12 @@
     "Mika_Jougasaki": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Pounding Heart",
-                "text": [
-                    "Big Dark damage to a foe.\nBonus Fire damage to <:Status_Burned:832584524088082433> **Burned** foes."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_Charm:832585566574215168> **Charmed**"
                     ]
                 },
-                "name": "After 5\u2605:Glorious Heart",
+                "name": "Glorious Heart",
                 "text": [
                     "Massive Dark damage to a foe.\nInflict <:Status_Charm:832585566574215168> **Charmed**.\nBonus Fire damage to <:Status_Burned:832584524088082433> **Burned** foes."
                 ]
@@ -6419,17 +5374,6 @@
                 "name": "Pounding Heart",
                 "text": [
                     "Big Dark damage to a foe.\nBonus Fire damage to <:Status_Burned:832584524088082433> **Burned** foes."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_Charm:832585566574215168> **Charmed**"
-                    ]
-                },
-                "name": "After 5\u2605:Glorious Heart",
-                "text": [
-                    "Massive Dark damage to a foe.\nInflict <:Status_Charm:832585566574215168> **Charmed**.\nBonus Fire damage to <:Status_Burned:832584524088082433> **Burned** foes."
                 ]
             }
         ]
@@ -6588,14 +5532,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Triple Star",
-                "text": [
-                    "Big Fire damage to a foe.\nBonus Dark damage to <:Status_Blind:832583965428678656> **Blinded** foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Six Star",
+                "name": "Six Star",
                 "text": [
                     "Massive Fire damage to a foe.\nBonus Dark damage to <:Status_Blind:832583965428678656> **Blinded** foes.\nBonus Light damage to <:Status_Charm:832585566574215168> **Charmed** foes."
                 ]
@@ -6607,13 +5544,6 @@
                 "name": "Triple Star",
                 "text": [
                     "Big Fire damage to a foe.\nBonus Dark damage to <:Status_Blind:832583965428678656> **Blinded** foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Six Star",
-                "text": [
-                    "Massive Fire damage to a foe.\nBonus Dark damage to <:Status_Blind:832583965428678656> **Blinded** foes.\nBonus Light damage to <:Status_Charm:832585566574215168> **Charmed** foes."
                 ]
             }
         ]
@@ -6680,29 +5610,7 @@
                         "<:Status_WindResDown:832603016032813088> **10% Wind DEF Down**"
                     ]
                 },
-                "name": "100% Charge BarCrosscut",
-                "text": [
-                    "350% Wind damage to a foe.\nInflict <:Status_WindResDown:832603016032813088> **10% Wind DEF Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_WindResDown:832603016032813088> **10% Wind DEF Down**"
-                    ]
-                },
-                "name": "200% Charge BarCrosscut",
-                "text": [
-                    "700% Wind damage to a foe (Damage cap: ~3,264,000).\n10-hit, 100% Bonus Wind damage (Damage cap: ~16,000 per hit).\nInflict <:Status_WindResDown:832603016032813088> **10% Wind DEF Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_WindResDown:832603016032813088> **10% Wind DEF Down**"
-                    ]
-                },
-                "name": "After 5\u2605:100% Charge BarMoonlight Blossoms",
+                "name": "100% Charge BarMoonlight Blossoms",
                 "text": [
                     "400% Wind damage to a foe.\nInflict <:Status_WindResDown:832603016032813088> **10% Wind DEF Down**.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%**."
                 ]
@@ -6713,7 +5621,7 @@
                         "<:Status_WindResDown:832603016032813088> **10% Wind DEF Down**"
                     ]
                 },
-                "name": "After 5\u2605:200% Charge BarMoonlight Blossoms",
+                "name": "200% Charge BarMoonlight Blossoms",
                 "text": [
                     "800% Wind damage to a foe.\n10-hit, 100% Bonus Wind damage (Damage cap: ~16,000 per hit).\nInflict <:Status_WindResDown:832603016032813088> **10% Wind DEF Down**.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%**."
                 ]
@@ -6740,28 +5648,6 @@
                 "name": "200% Charge BarCrosscut",
                 "text": [
                     "700% Wind damage to a foe (Damage cap: ~3,264,000).\n10-hit, 100% Bonus Wind damage (Damage cap: ~16,000 per hit).\nInflict <:Status_WindResDown:832603016032813088> **10% Wind DEF Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_WindResDown:832603016032813088> **10% Wind DEF Down**"
-                    ]
-                },
-                "name": "After 5\u2605:100% Charge BarMoonlight Blossoms",
-                "text": [
-                    "400% Wind damage to a foe.\nInflict <:Status_WindResDown:832603016032813088> **10% Wind DEF Down**.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_WindResDown:832603016032813088> **10% Wind DEF Down**"
-                    ]
-                },
-                "name": "After 5\u2605:200% Charge BarMoonlight Blossoms",
-                "text": [
-                    "800% Wind damage to a foe.\n10-hit, 100% Bonus Wind damage (Damage cap: ~16,000 per hit).\nInflict <:Status_WindResDown:832603016032813088> **10% Wind DEF Down**.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%**."
                 ]
             }
         ]
@@ -6947,19 +5833,12 @@
         ],
         "EVENT": [
             {
-                "duration": {},
-                "name": "Ibur Athibar",
-                "text": [
-                    "Big Fire damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_FireResDown:832592559896395780> **10% Fire DEF Down**"
                     ]
                 },
-                "name": "After 5\u2605:Gae Assail",
+                "name": "Gae Assail",
                 "text": [
                     "Massive Fire damage to a foe.\nInflict <:Status_FireResDown:832592559896395780> **10% Fire DEF Down**."
                 ]
@@ -6971,17 +5850,6 @@
                 "name": "Ibur Athibar",
                 "text": [
                     "Big Fire damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_FireResDown:832592559896395780> **10% Fire DEF Down**"
-                    ]
-                },
-                "name": "After 5\u2605:Gae Assail",
-                "text": [
-                    "Massive Fire damage to a foe.\nInflict <:Status_FireResDown:832592559896395780> **10% Fire DEF Down**."
                 ]
             }
         ],
@@ -7012,28 +5880,6 @@
         "BASE": [
             {
                 "duration": {
-                    "Indefinite^i": [
-                        "<:Status_AttackUpStack:832581064383791144> **15% ATK Up (Stackable / Max: 50%)**"
-                    ]
-                },
-                "name": "Dawnfly stance:Dawnfly Dance",
-                "text": [
-                    "450% Dark damage to a foe.\nGain <:Status_AttackUpStack:832581064383791144> **15% ATK Up (Stackable / Max: 50%)**."
-                ]
-            },
-            {
-                "duration": {
-                    "3^t": [
-                        "<:Status_DefenseDown:832588131140108339> **20% DEF Down**"
-                    ]
-                },
-                "name": "Freeflutter stance:Freeflutter Dance",
-                "text": [
-                    "450% Dark damage to a foe.\nRemove <:Status_DefenseDown:832588131140108339> **20% DEF Down** from Narmaya."
-                ]
-            },
-            {
-                "duration": {
                     "3.5^t": [
                         "<:Status_DarkAtkUp:832588129894006794> **30% Dark ATK Up**"
                     ],
@@ -7041,7 +5887,7 @@
                         "<:Status_AttackUpStack:832581064383791144> **15% ATK Up (Stackable / Max: 50%)**"
                     ]
                 },
-                "name": "After 5\u2605 - Dawnfly stance:Dawnfly Dance II",
+                "name": "Dawnfly stance:Dawnfly Dance II",
                 "text": [
                     "500% Dark damage to a foe.\nGain <:Status_AttackUpStack:832581064383791144> **15% ATK Up (Stackable / Max: 50%)** and <:Status_DarkAtkUp:832588129894006794> **30% Dark ATK Up**."
                 ]
@@ -7055,7 +5901,7 @@
                         "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**"
                     ]
                 },
-                "name": "After 5\u2605 - Freeflutter stance:Freeflutter Dance II",
+                "name": "Freeflutter stance:Freeflutter Dance II",
                 "text": [
                     "500% Dark damage to a foe.\nRemove <:Status_DefenseDown:832588131140108339> **20% DEF Down** from Narmaya.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**."
                 ]
@@ -7082,34 +5928,6 @@
                 "name": "Freeflutter stance:Freeflutter Dance",
                 "text": [
                     "450% Dark damage to a foe.\nRemove <:Status_DefenseDown:832588131140108339> **20% DEF Down** from Narmaya."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_DarkAtkUp:832588129894006794> **30% Dark ATK Up**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_AttackUpStack:832581064383791144> **15% ATK Up (Stackable / Max: 50%)**"
-                    ]
-                },
-                "name": "After 5\u2605 - Dawnfly stance:Dawnfly Dance II",
-                "text": [
-                    "500% Dark damage to a foe.\nGain <:Status_AttackUpStack:832581064383791144> **15% ATK Up (Stackable / Max: 50%)** and <:Status_DarkAtkUp:832588129894006794> **30% Dark ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3^t": [
-                        "<:Status_DefenseDown:832588131140108339> **20% DEF Down**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**"
-                    ]
-                },
-                "name": "After 5\u2605 - Freeflutter stance:Freeflutter Dance II",
-                "text": [
-                    "500% Dark damage to a foe.\nRemove <:Status_DefenseDown:832588131140108339> **20% DEF Down** from Narmaya.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**."
                 ]
             }
         ],
@@ -7209,19 +6027,12 @@
     "Nezahualpilli": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Sol Ruptura",
-                "text": [
-                    "Massive Wind damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%**."
-                ]
-            },
-            {
                 "duration": {
                     "3.5^t": [
                         "<:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**"
                     ]
                 },
-                "name": "After 5\u2605:Sol Ruptura ++",
+                "name": "Sol Ruptura ++",
                 "text": [
                     "Massive Wind damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%** and <:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**."
                 ]
@@ -7233,17 +6044,6 @@
                 "name": "Sol Ruptura",
                 "text": [
                     "Massive Wind damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**"
-                    ]
-                },
-                "name": "After 5\u2605:Sol Ruptura ++",
-                "text": [
-                    "Massive Wind damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%** and <:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**."
                 ]
             }
         ],
@@ -7358,24 +6158,13 @@
                 "duration": {
                     "180^s": [
                         "<:Status_Charm:832585566574215168> **Charmed**"
-                    ]
-                },
-                "name": "Nebulosa Frojd",
-                "text": [
-                    "450% Wind damage to a foe.\n100% bonus Wind damage to all foes (Damage cap: ~200,000).\nInflict <:Status_Charm:832585566574215168> **Charmed** on all foes."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_Charm:832585566574215168> **Charmed**"
                     ],
                     "3^t": [
                         "<:Status_Harmonics:832593788328345673> **Harmonics**",
                         "<:Status_Sharping:832599449083052042> **Sharping**"
                     ]
                 },
-                "name": "After 5\u2605:Vintergatan Svala",
+                "name": "Vintergatan Svala",
                 "text": [
                     "500% Wind damage to a foe.\n100% bonus Wind damage to all foes (Damage cap: ~200,000).\nInflict <:Status_Charm:832585566574215168> **Charmed** on all foes.\nExtend the duration of <:Status_Harmonics:832593788328345673> **Harmonics** and <:Status_Sharping:832599449083052042> **Sharping** on all allies by 3 turns."
                 ]
@@ -7391,21 +6180,6 @@
                 "name": "Nebulosa Frojd",
                 "text": [
                     "450% Wind damage to a foe.\n100% bonus Wind damage to all foes (Damage cap: ~200,000).\nInflict <:Status_Charm:832585566574215168> **Charmed** on all foes."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_Charm:832585566574215168> **Charmed**"
-                    ],
-                    "3^t": [
-                        "<:Status_Harmonics:832593788328345673> **Harmonics**",
-                        "<:Status_Sharping:832599449083052042> **Sharping**"
-                    ]
-                },
-                "name": "After 5\u2605:Vintergatan Svala",
-                "text": [
-                    "500% Wind damage to a foe.\n100% bonus Wind damage to all foes (Damage cap: ~200,000).\nInflict <:Status_Charm:832585566574215168> **Charmed** on all foes.\nExtend the duration of <:Status_Harmonics:832593788328345673> **Harmonics** and <:Status_Sharping:832599449083052042> **Sharping** on all allies by 3 turns."
                 ]
             }
         ]
@@ -7427,21 +6201,14 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Divine Flood",
-                "text": [
-                    "Big Light damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
-                        "<:Status_Veil:832602900122828840> **90% Debuff Res.\nUp**"
+                        "<:Status_Veil:832602900122828840> **90% Debuff Res.Up**"
                     ]
                 },
-                "name": "After 5\u2605:Sacred Arc",
+                "name": "Sacred Arc",
                 "text": [
-                    "Massive Light damage to a foe.\nGain <:Status_Veil:832602900122828840> **90% Debuff Res.\nUp**."
+                    "Massive Light damage to a foe.\nGain <:Status_Veil:832602900122828840> **90% Debuff Res.Up**."
                 ]
             }
         ],
@@ -7451,17 +6218,6 @@
                 "name": "Divine Flood",
                 "text": [
                     "Big Light damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Veil:832602900122828840> **90% Debuff Res.\nUp**"
-                    ]
-                },
-                "name": "After 5\u2605:Sacred Arc",
-                "text": [
-                    "Massive Light damage to a foe.\nGain <:Status_Veil:832602900122828840> **90% Debuff Res.\nUp**."
                 ]
             }
         ]
@@ -7523,14 +6279,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Endbringer",
-                "text": [
-                    "450% Dark damage to a foe.\nFully recover <:Status_Puppet_Strings:832599001366528061> **Puppet Strings**' shield endurance."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Verdict Bringer",
+                "name": "Verdict Bringer",
                 "text": [
                     "500% Dark damage to a foe.\nFully recover <:Status_Puppet_Strings:832599001366528061> **Puppet Strings**' shield endurance.\nEnd cooldown for Oblivion."
                 ]
@@ -7542,13 +6291,6 @@
                 "name": "Endbringer",
                 "text": [
                     "450% Dark damage to a foe.\nFully recover <:Status_Puppet_Strings:832599001366528061> **Puppet Strings**' shield endurance."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Verdict Bringer",
-                "text": [
-                    "500% Dark damage to a foe.\nFully recover <:Status_Puppet_Strings:832599001366528061> **Puppet Strings**' shield endurance.\nEnd cooldown for Oblivion."
                 ]
             }
         ]
@@ -7655,19 +6397,12 @@
     "Percival": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Lohenwolf",
-                "text": [
-                    "450% Fire damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "Indefinite^i": [
                         "<:Status_Anzuenden:832577022139301898> **Anzuenden**"
                     ]
                 },
-                "name": "After 5\u2605:Lohenwolf ++",
+                "name": "Lohenwolf ++",
                 "text": [
                     "500% Fire damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%** and <:Status_Anzuenden:832577022139301898> **Anzuenden**.\n(Next use of Zerreissen activates twice.)\n"
                 ]
@@ -7679,17 +6414,6 @@
                 "name": "Lohenwolf",
                 "text": [
                     "450% Fire damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Anzuenden:832577022139301898> **Anzuenden**"
-                    ]
-                },
-                "name": "After 5\u2605:Lohenwolf ++",
-                "text": [
-                    "500% Fire damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +20%** and <:Status_Anzuenden:832577022139301898> **Anzuenden**.\n(Next use of Zerreissen activates twice.)\n"
                 ]
             }
         ],
@@ -7856,23 +6580,11 @@
                 "duration": {
                     "3.5^t": [
                         "<:Status_FireAtkUp:832592559683010590> **30% Fire ATK Up**",
-                        "<:Status_DoubleUp:832590867734724618> **30% DA Up**"
-                    ]
-                },
-                "name": "Demolishing Drive",
-                "text": [
-                    "Massive Fire damage to a foe.\nAll allies gain <:Status_FireAtkUp:832592559683010590> **30% Fire ATK Up** and <:Status_DoubleUp:832590867734724618> **30% DA Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_FireAtkUp:832592559683010590> **30% Fire ATK Up**",
                         "<:Status_DoubleUp:832590867734724618> **30% DA Up**",
                         "<:Status_CriticalUp:832587322133970986> **80% / 20% Critical Hit Rate Up**"
                     ]
                 },
-                "name": "After 5\u2605:Naval Strike",
+                "name": "Naval Strike",
                 "text": [
                     "Massive Fire damage to a foe.\nAll allies gain <:Status_FireAtkUp:832592559683010590> **30% Fire ATK Up**, <:Status_DoubleUp:832590867734724618> **30% DA Up**, and <:Status_CriticalUp:832587322133970986> **80% / 20% Critical Hit Rate Up**."
                 ]
@@ -7890,19 +6602,6 @@
                 "text": [
                     "Massive Fire damage to a foe.\nAll allies gain <:Status_FireAtkUp:832592559683010590> **30% Fire ATK Up** and <:Status_DoubleUp:832590867734724618> **30% DA Up**."
                 ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_FireAtkUp:832592559683010590> **30% Fire ATK Up**",
-                        "<:Status_DoubleUp:832590867734724618> **30% DA Up**",
-                        "<:Status_CriticalUp:832587322133970986> **80% / 20% Critical Hit Rate Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Naval Strike",
-                "text": [
-                    "Massive Fire damage to a foe.\nAll allies gain <:Status_FireAtkUp:832592559683010590> **30% Fire ATK Up**, <:Status_DoubleUp:832590867734724618> **30% DA Up**, and <:Status_CriticalUp:832587322133970986> **80% / 20% Critical Hit Rate Up**."
-                ]
             }
         ],
         "HOLIDAY": [
@@ -7916,19 +6615,12 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Piercing Punishment",
-                "text": [
-                    "Big Fire damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_WindAtkDown:832603015650344991> **Wind ATK Down**"
                     ]
                 },
-                "name": "After 5\u2605:Piercing Firestorm",
+                "name": "Piercing Firestorm",
                 "text": [
                     "Massive Fire damage to a foe.\nInflict <:Status_WindAtkDown:832603015650344991> **Wind ATK Down**."
                 ]
@@ -7940,17 +6632,6 @@
                 "name": "Piercing Punishment",
                 "text": [
                     "Big Fire damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_WindAtkDown:832603015650344991> **Wind ATK Down**"
-                    ]
-                },
-                "name": "After 5\u2605:Piercing Firestorm",
-                "text": [
-                    "Massive Fire damage to a foe.\nInflict <:Status_WindAtkDown:832603015650344991> **Wind ATK Down**."
                 ]
             }
         ]
@@ -8033,7 +6714,7 @@
             {
                 "duration": {
                     "180^s": [
-                        "<:Status_DebuffResDown:832588130741125150> **15% Debuff Res.\nDown**",
+                        "<:Status_DebuffResDown:832588130741125150> **15% Debuff Res.Down**",
                         "<:Status_LightAtkDown:832596749901234248> **30% Light ATK Down**",
                         "<:Status_DoubleDown:832590867336003645> **100% DA Down**",
                         "<:Status_TripleDown:832601877106393089> **30% TA Down**"
@@ -8044,7 +6725,7 @@
                 },
                 "name": "Clairvoyant Bliss",
                 "text": [
-                    "Remove 1 buff from a foe.\nInflict <:status_6803:832604007218151504> **Celestial Vision**, <:Status_DebuffResDown:832588130741125150> **15% Debuff Res.\nDown**, <:Status_LightAtkDown:832596749901234248> **30% Light ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **30% TA Down**."
+                    "Remove 1 buff from a foe.\nInflict <:status_6803:832604007218151504> **Celestial Vision**, <:Status_DebuffResDown:832588130741125150> **15% Debuff Res.Down**, <:Status_LightAtkDown:832596749901234248> **30% Light ATK Down**, <:Status_DoubleDown:832590867336003645> **100% DA Down**, and <:Status_TripleDown:832601877106393089> **30% TA Down**."
                 ]
             }
         ]
@@ -8130,14 +6811,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Doki Doki Rhythm",
-                "text": [
-                    "Big Fire damage to a foe.\nBonus Dark damage to <:Status_Blind:832583965428678656> **Blinded** foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Super Love",
+                "name": "Super Love",
                 "text": [
                     "Massive Fire damage to a foe.\nBonus Dark damage to <:Status_Blind:832583965428678656> **Blinded** foes.\nAll allies gain <:Status_DoubleUp:832590867734724618> **DA Up**."
                 ]
@@ -8149,13 +6823,6 @@
                 "name": "Doki Doki Rhythm",
                 "text": [
                     "Big Fire damage to a foe.\nBonus Dark damage to <:Status_Blind:832583965428678656> **Blinded** foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Super Love",
-                "text": [
-                    "Massive Fire damage to a foe.\nBonus Dark damage to <:Status_Blind:832583965428678656> **Blinded** foes.\nAll allies gain <:Status_DoubleUp:832590867734724618> **DA Up**."
                 ]
             }
         ]
@@ -8164,14 +6831,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Iolite Blue",
-                "text": [
-                    "Big Water damage to a foe.\nBonus Light damage to <:Status_Charm:832585566574215168> **Charmed** foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Heaven on Earth",
+                "name": "Heaven on Earth",
                 "text": [
                     "Massive Water damage to a foe.\nBonus Light damage to <:Status_Charm:832585566574215168> **Charmed** foes.\nBonus Fire damage if enemy has <:Status_Burned:832584524088082433> **Burned**."
                 ]
@@ -8183,13 +6843,6 @@
                 "name": "Iolite Blue",
                 "text": [
                     "Big Water damage to a foe.\nBonus Light damage to <:Status_Charm:832585566574215168> **Charmed** foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Heaven on Earth",
-                "text": [
-                    "Massive Water damage to a foe.\nBonus Light damage to <:Status_Charm:832585566574215168> **Charmed** foes.\nBonus Fire damage if enemy has <:Status_Burned:832584524088082433> **Burned**."
                 ]
             }
         ]
@@ -8209,14 +6862,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Familial Insanity",
-                "text": [
-                    "Big Dark damage to a foe"
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Schrecken Fist",
+                "name": "Schrecken Fist",
                 "text": [
                     "Massive Dark damage to a foe.\n300,000 bonus plain damage for each ally and foe with <:Status_Zombie:832603102958845972> **Zombified** (Max: 6)."
                 ]
@@ -8228,13 +6874,6 @@
                 "name": "Familial Insanity",
                 "text": [
                     "Big Dark damage to a foe"
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Schrecken Fist",
-                "text": [
-                    "Massive Dark damage to a foe.\n300,000 bonus plain damage for each ally and foe with <:Status_Zombie:832603102958845972> **Zombified** (Max: 6)."
                 ]
             }
         ]
@@ -8273,19 +6912,12 @@
     "Romeo": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Alba di Verona",
-                "text": [
-                    "450% Water damage to a foe.\n(When 1 <:Status_Spirit1:832601389255229440> **Spirit** is consumed: Also deal 300% Bonus Water damage [Damage cap: ~630,000].)\n"
-                ]
-            },
-            {
                 "duration": {
                     "Indefinite^i": [
                         "<:Status_Skill_DMG_Cap_Up_Stack:832599898977075301> **10% Skill DMG Cap Up (Stackable / Max: 30%)**"
                     ]
                 },
-                "name": "After 5\u2605:Sole di Verona",
+                "name": "Sole di Verona",
                 "text": [
                     "500% Water damage to a foe.\nGain <:Status_Skill_DMG_Cap_Up_Stack:832599898977075301> **10% Skill DMG Cap Up (Stackable / Max: 30%)**.\nActivate Lama Acuta."
                 ]
@@ -8297,17 +6929,6 @@
                 "name": "Alba di Verona",
                 "text": [
                     "450% Water damage to a foe.\n(When 1 <:Status_Spirit1:832601389255229440> **Spirit** is consumed: Also deal 300% Bonus Water damage [Damage cap: ~630,000].)\n"
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Skill_DMG_Cap_Up_Stack:832599898977075301> **10% Skill DMG Cap Up (Stackable / Max: 30%)**"
-                    ]
-                },
-                "name": "After 5\u2605:Sole di Verona",
-                "text": [
-                    "500% Water damage to a foe.\nGain <:Status_Skill_DMG_Cap_Up_Stack:832599898977075301> **10% Skill DMG Cap Up (Stackable / Max: 30%)**.\nActivate Lama Acuta."
                 ]
             }
         ],
@@ -8555,17 +7176,6 @@
         "EVENT": [
             {
                 "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Bell_of_War_1:832583804191375420> **Bell of War**"
-                    ]
-                },
-                "name": "Ain Soph Aur",
-                "text": [
-                    "Massive Light damage to a foe.\nInflict <:Status_Bell_of_War_1:832583804191375420> **Bell of War**.\nAlso gain <:Status_White_Wing:832603015701594163> **White Wing**."
-                ]
-            },
-            {
-                "duration": {
                     "2.5^t": [
                         "<:Status_LightAtkUp:832596750144503828> **40% Light ATK Up**",
                         "<:Status_Bonus_Damage:832584447911264276> **40% Bonus Light DMG**"
@@ -8591,22 +7201,6 @@
                 "name": "Ain Soph Aur",
                 "text": [
                     "Massive Light damage to a foe.\nInflict <:Status_Bell_of_War_1:832583804191375420> **Bell of War**.\nAlso gain <:Status_White_Wing:832603015701594163> **White Wing**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_LightAtkUp:832596750144503828> **40% Light ATK Up**",
-                        "<:Status_Bonus_Damage:832584447911264276> **40% Bonus Light DMG**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Bell_of_War_1:832583804191375420> **Bell of War**",
-                        "<:Status_Edens_Exile:832591144487485511> **Eden's Exile**"
-                    ]
-                },
-                "name": "If White WingNext charge attack changes to Paradise Lost (Can't be removed) is active:Paradise Lost",
-                "text": [
-                    "Massive Light damage to a foe.\nInflict <:Status_Bell_of_War_1:832583804191375420> **Bell of War**.\nConsume <:Status_White_Wing:832603015701594163> **White Wing**.\nGain <:Status_LightAtkUp:832596750144503828> **40% Light ATK Up**, <:Status_Bonus_Damage:832584447911264276> **40% Bonus Light DMG**, and <:Status_Edens_Exile:832591144487485511> **Eden's Exile**."
                 ]
             }
         ],
@@ -8675,24 +7269,13 @@
                 "duration": {
                     "3.5^t": [
                         "<:Status_LightAtkUp:832596750144503828> **25% Light ATK Up**"
-                    ]
-                },
-                "name": "Innocent Desire",
-                "text": [
-                    "Massive Light damage to a foe.\nAll allies gain <:Status_LightAtkUp:832596750144503828> **25% Light ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_LightAtkUp:832596750144503828> **25% Light ATK Up**"
                     ],
                     "Indefinite^i": [
                         "<:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)**",
                         "<:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**"
                     ]
                 },
-                "name": "After 5\u2605:Eternal Desire",
+                "name": "Eternal Desire",
                 "text": [
                     "Massive Light damage to a foe.\nAll allies gain <:Status_LightAtkUp:832596750144503828> **25% Light ATK Up**.\nGain <:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)** and <:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
@@ -8708,21 +7291,6 @@
                 "name": "Innocent Desire",
                 "text": [
                     "Massive Light damage to a foe.\nAll allies gain <:Status_LightAtkUp:832596750144503828> **25% Light ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_LightAtkUp:832596750144503828> **25% Light ATK Up**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)**",
-                        "<:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**"
-                    ]
-                },
-                "name": "After 5\u2605:Eternal Desire",
-                "text": [
-                    "Massive Light damage to a foe.\nAll allies gain <:Status_LightAtkUp:832596750144503828> **25% Light ATK Up**.\nGain <:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)** and <:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ],
@@ -8787,18 +7355,7 @@
                         "<:Status_Dragons_Fury:832590868011417641> **Dragon's Fury**"
                     ]
                 },
-                "name": "Cloich Tabaill",
-                "text": [
-                    "Massive Wind damage to a foe.\nGain <:Status_Dragons_Fury:832590868011417641> **Dragon's Fury**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Dragons_Fury:832590868011417641> **Dragon's Fury**"
-                    ]
-                },
-                "name": "After 5\u2605:Lia Talma",
+                "name": "Lia Talma",
                 "text": [
                     "Massive Wind damage to a foe.\nGain <:Status_Dragons_Fury:832590868011417641> **Dragon's Fury**.\nEnd Power Seeker's cooldown."
                 ]
@@ -8814,17 +7371,6 @@
                 "name": "Cloich Tabaill",
                 "text": [
                     "Massive Wind damage to a foe.\nGain <:Status_Dragons_Fury:832590868011417641> **Dragon's Fury**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Dragons_Fury:832590868011417641> **Dragon's Fury**"
-                    ]
-                },
-                "name": "After 5\u2605:Lia Talma",
-                "text": [
-                    "Massive Wind damage to a foe.\nGain <:Status_Dragons_Fury:832590868011417641> **Dragon's Fury**.\nEnd Power Seeker's cooldown."
                 ]
             }
         ],
@@ -8858,19 +7404,12 @@
         ],
         "EVENT": [
             {
-                "duration": {},
-                "name": "Regame Fantasia",
-                "text": [
-                    "Big Wind damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_Heal:832593788375400470> **Refresh**"
                     ]
                 },
-                "name": "After 5\u2605:Regame Fantasia ++",
+                "name": "Regame Fantasia ++",
                 "text": [
                     "Massive Wind damage to a foe.\nAll allies gain <:Status_Heal:832593788375400470> **Refresh**."
                 ]
@@ -8882,17 +7421,6 @@
                 "name": "Regame Fantasia",
                 "text": [
                     "Big Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Heal:832593788375400470> **Refresh**"
-                    ]
-                },
-                "name": "After 5\u2605:Regame Fantasia ++",
-                "text": [
-                    "Massive Wind damage to a foe.\nAll allies gain <:Status_Heal:832593788375400470> **Refresh**."
                 ]
             }
         ]
@@ -8935,22 +7463,11 @@
             {
                 "duration": {
                     "2.5^t": [
-                        "<:Status_AttackUp:832581064555364362> **30% ATK Up**"
-                    ]
-                },
-                "name": "Diez Mil Espadas",
-                "text": [
-                    "Massive Wind damage to a foe.\nAll allies gain <:Status_AttackUp:832581064555364362> **30% ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
                         "<:Status_AttackUp:832581064555364362> **30% ATK Up**",
                         "<:Status_Repel:832599166844403743> **Unchallenged (1 time)**"
                     ]
                 },
-                "name": "After 5\u2605:Cien Mil Espadas",
+                "name": "Cien Mil Espadas",
                 "text": [
                     "Massive Wind damage to a foe.\nAll allies gain <:Status_AttackUp:832581064555364362> **30% ATK Up**.\nSeofon gains <:Status_Repel:832599166844403743> **Unchallenged (1 time)**."
                 ]
@@ -8966,18 +7483,6 @@
                 "name": "Diez Mil Espadas",
                 "text": [
                     "Massive Wind damage to a foe.\nAll allies gain <:Status_AttackUp:832581064555364362> **30% ATK Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_AttackUp:832581064555364362> **30% ATK Up**",
-                        "<:Status_Repel:832599166844403743> **Unchallenged (1 time)**"
-                    ]
-                },
-                "name": "After 5\u2605:Cien Mil Espadas",
-                "text": [
-                    "Massive Wind damage to a foe.\nAll allies gain <:Status_AttackUp:832581064555364362> **30% ATK Up**.\nSeofon gains <:Status_Repel:832599166844403743> **Unchallenged (1 time)**."
                 ]
             }
         ]
@@ -8987,34 +7492,11 @@
             {
                 "duration": {
                     "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**"
-                    ]
-                },
-                "name": "Void Claws: Terminus",
-                "text": [
-                    "450% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
                         "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**",
                         "<:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**"
                     ]
                 },
-                "name": "After 5\u2605:Three Thousand and One Talons",
-                "text": [
-                    "500% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)** and <:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**",
-                        "<:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Essence of a Demonic Asura",
+                "name": "Essence of a Demonic Asura",
                 "text": [
                     "550% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)** and <:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**.\nRaise <:Status_Heavenly_Howl:832594035705249832> **Heavenly Howl** lvl by 2."
                 ]
@@ -9031,66 +7513,19 @@
                 "text": [
                     "450% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**."
                 ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**",
-                        "<:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**"
-                    ]
-                },
-                "name": "After 5\u2605:Three Thousand and One Talons",
-                "text": [
-                    "500% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)** and <:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**",
-                        "<:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Essence of a Demonic Asura",
-                "text": [
-                    "550% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)** and <:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**.\nRaise <:Status_Heavenly_Howl:832594035705249832> **Heavenly Howl** lvl by 2."
-                ]
             }
         ],
         "BASE_5": [
             {
                 "duration": {
                     "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**"
-                    ]
-                },
-                "name": "Void Claws: Terminus",
-                "text": [
-                    "450% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
                         "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**",
                         "<:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**"
                     ]
                 },
-                "name": "After 5\u2605:Three Thousand and One Talons",
+                "name": "Three Thousand and One Talons",
                 "text": [
                     "500% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)** and <:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)**",
-                        "<:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Essence of a Demonic Asura",
-                "text": [
-                    "550% Dark damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (2 times)** and <:Status_Dodge_1:832590866371182602> **Dodge All (1 time)**.\nRaise <:Status_Heavenly_Howl:832594035705249832> **Heavenly Howl** lvl by 2."
                 ]
             }
         ],
@@ -9112,19 +7547,12 @@
     "Seruel": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Redbranch Cycle",
-                "text": [
-                    "450% Light damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_CriticalUpLight:832587863928733696> **70% / 20% Critical Hit Rate Up**"
                     ]
                 },
-                "name": "After 5\u2605:Redbranch Cycle ++",
+                "name": "Redbranch Cycle ++",
                 "text": [
                     "500% Light damage to a foe.\nAll Light allies gain <:Status_CriticalUpLight:832587863928733696> **70% / 20% Critical Hit Rate Up**."
                 ]
@@ -9136,17 +7564,6 @@
                 "name": "Redbranch Cycle",
                 "text": [
                     "450% Light damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_CriticalUpLight:832587863928733696> **70% / 20% Critical Hit Rate Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Redbranch Cycle ++",
-                "text": [
-                    "500% Light damage to a foe.\nAll Light allies gain <:Status_CriticalUpLight:832587863928733696> **70% / 20% Critical Hit Rate Up**."
                 ]
             }
         ],
@@ -9207,24 +7624,13 @@
             {
                 "duration": {
                     "180^s": [
-                        "<:Status_Poison:832598586335428660> **Poisoned (2000)**"
-                    ]
-                },
-                "name": "Undead Murk",
-                "text": [
-                    "Big Dark damage to a foe.\nInflict <:Status_Poison:832598586335428660> **Poisoned (2000)**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
                         "<:Status_Poison:832598586335428660> **Poisoned (25000)**"
                     ],
                     "3.5^t": [
                         "<:Status_Strength:832601501335289908> **Strength**"
                     ]
                 },
-                "name": "After 5\u2605:Beguiling Indigo",
+                "name": "Beguiling Indigo",
                 "text": [
                     "Massive Dark damage to a foe.\nInflict <:Status_Poison:832598586335428660> **Poisoned (25000)**.\nAll allies gain <:Status_Strength:832601501335289908> **Strength**."
                 ]
@@ -9240,20 +7646,6 @@
                 "name": "Undead Murk",
                 "text": [
                     "Big Dark damage to a foe.\nInflict <:Status_Poison:832598586335428660> **Poisoned (2000)**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_Poison:832598586335428660> **Poisoned (25000)**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_Strength:832601501335289908> **Strength**"
-                    ]
-                },
-                "name": "After 5\u2605:Beguiling Indigo",
-                "text": [
-                    "Massive Dark damage to a foe.\nInflict <:Status_Poison:832598586335428660> **Poisoned (25000)**.\nAll allies gain <:Status_Strength:832601501335289908> **Strength**."
                 ]
             }
         ]
@@ -9346,14 +7738,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Schwarze Faenge",
-                "text": [
-                    "450% Earth damage to a foe.\nBonus Earth damage to foe in Break mode."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Schwarze Faenge ++",
+                "name": "Schwarze Faenge ++",
                 "text": [
                     "500% Earth damage to a foe.\n400% Bonus Earth damage (Damage cap: ~635,000)."
                 ]
@@ -9365,13 +7750,6 @@
                 "name": "Schwarze Faenge",
                 "text": [
                     "450% Earth damage to a foe.\nBonus Earth damage to foe in Break mode."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Schwarze Faenge ++",
-                "text": [
-                    "500% Earth damage to a foe.\n400% Bonus Earth damage (Damage cap: ~635,000)."
                 ]
             }
         ],
@@ -9421,19 +7799,12 @@
     "Silva": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Funeral Bullet",
-                "text": [
-                    "Massive Water damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_Dodge:832590866341298236> **20% Dodge Rate Up**"
                     ]
                 },
-                "name": "After 5\u2605:Burying Bullet",
+                "name": "Burying Bullet",
                 "text": [
                     "Massive Water damage to a foe.\nGain <:Status_Dodge:832590866341298236> **20% Dodge Rate Up**.\n2-turn cut to Silva's skill cooldowns."
                 ]
@@ -9445,17 +7816,6 @@
                 "name": "Funeral Bullet",
                 "text": [
                     "Massive Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Dodge:832590866341298236> **20% Dodge Rate Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Burying Bullet",
-                "text": [
-                    "Massive Water damage to a foe.\nGain <:Status_Dodge:832590866341298236> **20% Dodge Rate Up**.\n2-turn cut to Silva's skill cooldowns."
                 ]
             }
         ],
@@ -9503,22 +7863,11 @@
             {
                 "duration": {
                     "Indefinite^i": [
-                        "<:status_4013:832603245112197162> **Yonagi Rite**"
-                    ]
-                },
-                "name": "Alabaster Dance: Tenka",
-                "text": [
-                    "450% Water damage to a foe.\nGain <:status_4013:832603245112197162> **Yonagi Rite**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
                         "<:status_4013:832603245112197162> **Yonagi Rite**",
                         "<:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**"
                     ]
                 },
-                "name": "After 5\u2605:Alabaster Dance: Houjou",
+                "name": "Alabaster Dance: Houjou",
                 "text": [
                     "500% Water damage to a foe.\nGain <:status_4013:832603245112197162> **Yonagi Rite**.\nAll allies gain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**."
                 ]
@@ -9534,18 +7883,6 @@
                 "name": "Alabaster Dance: Tenka",
                 "text": [
                     "450% Water damage to a foe.\nGain <:status_4013:832603245112197162> **Yonagi Rite**."
-                ]
-            },
-            {
-                "duration": {
-                    "Indefinite^i": [
-                        "<:status_4013:832603245112197162> **Yonagi Rite**",
-                        "<:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**"
-                    ]
-                },
-                "name": "After 5\u2605:Alabaster Dance: Houjou",
-                "text": [
-                    "500% Water damage to a foe.\nGain <:status_4013:832603245112197162> **Yonagi Rite**.\nAll allies gain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**."
                 ]
             }
         ],
@@ -9599,14 +7936,14 @@
                 "duration": {
                     "5^t": [
                         "<:Status_LightAtkUp:832596750144503828> **20% Light ATK Up**",
-                        "<:Status_Veil:832602900122828840> **15% Debuff Res.\nUp**",
+                        "<:Status_Veil:832602900122828840> **15% Debuff Res.Up**",
                         "<:Status_DarkResUp:832588129953120297> **20% Dark DMG Lowered**",
                         "<:Status_Light_of_Life:832596750048428112> **Light of Life**"
                     ]
                 },
                 "name": "Segen Lied",
                 "text": [
-                    "All allies gain <:Status_LightAtkUp:832596750144503828> **20% Light ATK Up**, <:Status_Veil:832602900122828840> **15% Debuff Res.\nUp**, and <:Status_DarkResUp:832588129953120297> **20% Dark DMG Lowered**.\nSophia gains <:Status_Light_of_Life:832596750048428112> **Light of Life**: Next Heilung affects all allies."
+                    "All allies gain <:Status_LightAtkUp:832596750144503828> **20% Light ATK Up**, <:Status_Veil:832602900122828840> **15% Debuff Res.Up**, and <:Status_DarkResUp:832588129953120297> **20% Dark DMG Lowered**.\nSophia gains <:Status_Light_of_Life:832596750048428112> **Light of Life**: Next Heilung affects all allies."
                 ]
             }
         ]
@@ -9630,17 +7967,6 @@
         "BASE": [
             {
                 "duration": {
-                    "5.5^t": [
-                        "<:Status_Strength:832601501335289908> **Strength**"
-                    ]
-                },
-                "name": "Tectonic Rush",
-                "text": [
-                    "450% Earth damage to a foe.\nGain <:Status_Strength:832601501335289908> **Strength**."
-                ]
-            },
-            {
-                "duration": {
                     "1.5^t": [
                         "<:status_6952:832604144996712499> **Fundoshi Fist**"
                     ],
@@ -9648,7 +7974,7 @@
                         "<:Status_Strength:832601501335289908> **Strength**"
                     ]
                 },
-                "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
+                "name": "Way of the Fundoshi Fist: Pulverize",
                 "text": [
                     "500% Earth damage to a foe.\nGain <:Status_Strength:832601501335289908> **Strength** and <:status_6952:832604144996712499> **Fundoshi Fist**."
                 ]
@@ -9665,20 +7991,6 @@
                 "text": [
                     "450% Earth damage to a foe.\nGain <:Status_Strength:832601501335289908> **Strength**."
                 ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
-                        "<:status_6952:832604144996712499> **Fundoshi Fist**"
-                    ],
-                    "5.5^t": [
-                        "<:Status_Strength:832601501335289908> **Strength**"
-                    ]
-                },
-                "name": "After 5\u2605:Way of the Fundoshi Fist: Pulverize",
-                "text": [
-                    "500% Earth damage to a foe.\nGain <:Status_Strength:832601501335289908> **Strength** and <:status_6952:832604144996712499> **Fundoshi Fist**."
-                ]
             }
         ],
         "EVENT": [
@@ -9692,19 +8004,12 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Punch the Stars",
-                "text": [
-                    "Big Earth damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "3^t": [
                         "<:Status_DoubleUp:832590867734724618> **DA Up**"
                     ]
                 },
-                "name": "After 5\u2605:Punch the Stars ++",
+                "name": "Punch the Stars ++",
                 "text": [
                     "Massive Earth damage to a foe.\nGain <:Status_DoubleUp:832590867734724618> **DA Up**."
                 ]
@@ -9716,17 +8021,6 @@
                 "name": "Punch the Stars",
                 "text": [
                     "Big Earth damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "3^t": [
-                        "<:Status_DoubleUp:832590867734724618> **DA Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Punch the Stars ++",
-                "text": [
-                    "Massive Earth damage to a foe.\nGain <:Status_DoubleUp:832590867734724618> **DA Up**."
                 ]
             }
         ]
@@ -9892,14 +8186,7 @@
         "SR": [
             {
                 "duration": {},
-                "name": "Triple Wind Strike",
-                "text": [
-                    "Big Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Triple Wind Strike ++",
+                "name": "Triple Wind Strike ++",
                 "text": [
                     "Massive Wind damage to a foe.\nRestore Sutera's HP (Healing cap: 800)."
                 ]
@@ -9911,13 +8198,6 @@
                 "name": "Triple Wind Strike",
                 "text": [
                     "Big Wind damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Triple Wind Strike ++",
-                "text": [
-                    "Massive Wind damage to a foe.\nRestore Sutera's HP (Healing cap: 800)."
                 ]
             }
         ]
@@ -10045,19 +8325,12 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Ultimate Fire Rage",
-                "text": [
-                    "Big Fire damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_Blind:832583965428678656> **Blinded**"
                     ]
                 },
-                "name": "After 5\u2605:Inexhaustible Fire Rage",
+                "name": "Inexhaustible Fire Rage",
                 "text": [
                     "Massive Fire damage to a foe.\nInflict <:Status_Blind:832583965428678656> **Blinded**."
                 ]
@@ -10069,17 +8342,6 @@
                 "name": "Ultimate Fire Rage",
                 "text": [
                     "Big Fire damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_Blind:832583965428678656> **Blinded**"
-                    ]
-                },
-                "name": "After 5\u2605:Inexhaustible Fire Rage",
-                "text": [
-                    "Massive Fire damage to a foe.\nInflict <:Status_Blind:832583965428678656> **Blinded**."
                 ]
             }
         ],
@@ -10158,51 +8420,19 @@
     "Threo": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Axe form:Astro Divergence",
-                "text": [
-                    "450% Earth damage to a foe.\nSwap to Sword form."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "Sword form:Meteor Thrust",
-                "text": [
-                    "450% Earth damage to a foe.\nDeal 999,999 bonus plain damage.\nSwap to Axe form."
-                ]
-            },
-            {
                 "duration": {
                     "3.5^t": [
                         "<:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**"
                     ]
                 },
-                "name": "After 5\u2605 - Axe form:Astro Destruction",
-                "text": [
-                    "500% Earth damage to a foe.\nGain <:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**.\nSwap to Sword form."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605 - Sword form:Annihilation Nova",
-                "text": [
-                    "500% Earth damage to a foe.\nDeal 1,999,998 bonus plain damage.\nSwap to Axe form."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence - Axe form:Origin Breaker",
+                "name": "Axe form:Origin Breaker",
                 "text": [
                     "550% Earth damage to a foe and remove 1 buff.\nGain <:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**.\nSwap to Sword form."
                 ]
             },
             {
                 "duration": {},
-                "name": "After Stage 1 Transcendence - Sword form:Regression to Zero",
+                "name": "Sword form:Regression to Zero",
                 "text": [
                     "550% Earth damage to a foe.\nDeal 2,999,997 bonus plain damage.\nSwap to Axe form."
                 ]
@@ -10222,93 +8452,25 @@
                 "text": [
                     "450% Earth damage to a foe.\nDeal 999,999 bonus plain damage.\nSwap to Axe form."
                 ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**"
-                    ]
-                },
-                "name": "After 5\u2605 - Axe form:Astro Destruction",
-                "text": [
-                    "500% Earth damage to a foe.\nGain <:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**.\nSwap to Sword form."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605 - Sword form:Annihilation Nova",
-                "text": [
-                    "500% Earth damage to a foe.\nDeal 1,999,998 bonus plain damage.\nSwap to Axe form."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence - Axe form:Origin Breaker",
-                "text": [
-                    "550% Earth damage to a foe and remove 1 buff.\nGain <:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**.\nSwap to Sword form."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After Stage 1 Transcendence - Sword form:Regression to Zero",
-                "text": [
-                    "550% Earth damage to a foe.\nDeal 2,999,997 bonus plain damage.\nSwap to Axe form."
-                ]
             }
         ],
         "BASE_5": [
             {
-                "duration": {},
-                "name": "Axe form:Astro Divergence",
-                "text": [
-                    "450% Earth damage to a foe.\nSwap to Sword form."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "Sword form:Meteor Thrust",
-                "text": [
-                    "450% Earth damage to a foe.\nDeal 999,999 bonus plain damage.\nSwap to Axe form."
-                ]
-            },
-            {
                 "duration": {
                     "3.5^t": [
                         "<:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**"
                     ]
                 },
-                "name": "After 5\u2605 - Axe form:Astro Destruction",
+                "name": "Axe form:Astro Destruction",
                 "text": [
                     "500% Earth damage to a foe.\nGain <:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**.\nSwap to Sword form."
                 ]
             },
             {
                 "duration": {},
-                "name": "After 5\u2605 - Sword form:Annihilation Nova",
+                "name": "Sword form:Annihilation Nova",
                 "text": [
                     "500% Earth damage to a foe.\nDeal 1,999,998 bonus plain damage.\nSwap to Axe form."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence - Axe form:Origin Breaker",
-                "text": [
-                    "550% Earth damage to a foe and remove 1 buff.\nGain <:Status_EarthAtkUp:832591143799226398> **20% Earth ATK Up**.\nSwap to Sword form."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After Stage 1 Transcendence - Sword form:Regression to Zero",
-                "text": [
-                    "550% Earth damage to a foe.\nDeal 2,999,997 bonus plain damage.\nSwap to Axe form."
                 ]
             }
         ]
@@ -10319,23 +8481,12 @@
                 "duration": {
                     "1.5^t": [
                         "<:Status_TripleUp:832601877920350218> **100% TA Up**"
-                    ]
-                },
-                "name": "Aerial Blitz",
-                "text": [
-                    "450% Wind damage to a foe.\nGain <:Status_TripleUp:832601877920350218> **100% TA Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
-                        "<:Status_TripleUp:832601877920350218> **100% TA Up**"
                     ],
                     "Indefinite^i": [
                         "<:Status_Typhoon_Crest_1:832601980966666250> **Typhoon Crest**"
                     ]
                 },
-                "name": "After 5\u2605:Tempest",
+                "name": "Tempest",
                 "text": [
                     "500% Wind damage to a foe.\nGain <:Status_TripleUp:832601877920350218> **100% TA Up** and <:Status_Typhoon_Crest_1:832601980966666250> **Typhoon Crest**."
                 ]
@@ -10351,20 +8502,6 @@
                 "name": "Aerial Blitz",
                 "text": [
                     "450% Wind damage to a foe.\nGain <:Status_TripleUp:832601877920350218> **100% TA Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "1.5^t": [
-                        "<:Status_TripleUp:832601877920350218> **100% TA Up**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Typhoon_Crest_1:832601980966666250> **Typhoon Crest**"
-                    ]
-                },
-                "name": "After 5\u2605:Tempest",
-                "text": [
-                    "500% Wind damage to a foe.\nGain <:Status_TripleUp:832601877920350218> **100% TA Up** and <:Status_Typhoon_Crest_1:832601980966666250> **Typhoon Crest**."
                 ]
             }
         ]
@@ -10374,24 +8511,13 @@
             {
                 "duration": {
                     "180^s": [
-                        "<:Status_Blind:832583965428678656> **Blinded**"
-                    ]
-                },
-                "name": "Danza Macabra",
-                "text": [
-                    "Massive Fire damage to a foe.\nInflict <:Status_Blind:832583965428678656> **Blinded**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
                         "<:Status_Red_Spider_Lily:832599166739152977> **Red Spider Lily**"
                     ],
                     "3.5^t": [
                         "<:Status_Skill_DMG_Cap_Up:832599898687668276> **20% Skill DMG Cap Up**"
                     ]
                 },
-                "name": "After 5\u2605:Danza Cremazione",
+                "name": "Danza Cremazione",
                 "text": [
                     "Massive Fire damage to a foe.\nInflict <:Status_Red_Spider_Lily:832599166739152977> **Red Spider Lily**.\nAll allies gain <:Status_Skill_DMG_Cap_Up:832599898687668276> **20% Skill DMG Cap Up**."
                 ]
@@ -10407,20 +8533,6 @@
                 "name": "Danza Macabra",
                 "text": [
                     "Massive Fire damage to a foe.\nInflict <:Status_Blind:832583965428678656> **Blinded**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_Red_Spider_Lily:832599166739152977> **Red Spider Lily**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_Skill_DMG_Cap_Up:832599898687668276> **20% Skill DMG Cap Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Danza Cremazione",
-                "text": [
-                    "Massive Fire damage to a foe.\nInflict <:Status_Red_Spider_Lily:832599166739152977> **Red Spider Lily**.\nAll allies gain <:Status_Skill_DMG_Cap_Up:832599898687668276> **20% Skill DMG Cap Up**."
                 ]
             }
         ]
@@ -10458,20 +8570,6 @@
                     "2.5^t": [
                         "<:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**"
                     ],
-                    "60^s": [
-                        "<:Status_Paralysis:832598585161941033> **Paralyzed**"
-                    ]
-                },
-                "name": "Astral Howser",
-                "text": [
-                    "450% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed**.)\n"
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**"
-                    ],
                     "3.5^t": [
                         "<:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**"
                     ],
@@ -10479,24 +8577,7 @@
                         "<:Status_Paralysis:832598585161941033> **Paralyzed**"
                     ]
                 },
-                "name": "After 5\u2605:Asteroid Jaeger",
-                "text": [
-                    "500% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed**.)\nAll allies gain <:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**"
-                    ],
-                    "60^s": [
-                        "<:Status_Paralysis:832598585161941033> **Paralyzed**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Stellar Termination",
+                "name": "Stellar Termination",
                 "text": [
                     "550% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed** and deals damage twice.)\nAll allies gain <:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**.\nEnd cooldown for Clincher."
                 ]
@@ -10516,40 +8597,6 @@
                 "text": [
                     "450% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed**.)\n"
                 ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**"
-                    ],
-                    "60^s": [
-                        "<:Status_Paralysis:832598585161941033> **Paralyzed**"
-                    ]
-                },
-                "name": "After 5\u2605:Asteroid Jaeger",
-                "text": [
-                    "500% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed**.)\nAll allies gain <:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**"
-                    ],
-                    "60^s": [
-                        "<:Status_Paralysis:832598585161941033> **Paralyzed**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Stellar Termination",
-                "text": [
-                    "550% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed** and deals damage twice.)\nAll allies gain <:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**.\nEnd cooldown for Clincher."
-                ]
             }
         ],
         "BASE_5": [
@@ -10558,20 +8605,6 @@
                     "2.5^t": [
                         "<:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**"
                     ],
-                    "60^s": [
-                        "<:Status_Paralysis:832598585161941033> **Paralyzed**"
-                    ]
-                },
-                "name": "Astral Howser",
-                "text": [
-                    "450% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed**.)\n"
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**"
-                    ],
                     "3.5^t": [
                         "<:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**"
                     ],
@@ -10579,26 +8612,9 @@
                         "<:Status_Paralysis:832598585161941033> **Paralyzed**"
                     ]
                 },
-                "name": "After 5\u2605:Asteroid Jaeger",
+                "name": "Asteroid Jaeger",
                 "text": [
                     "500% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed**.)\nAll allies gain <:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**"
-                    ],
-                    "60^s": [
-                        "<:Status_Paralysis:832598585161941033> **Paralyzed**"
-                    ]
-                },
-                "name": "After Stage 1 Transcendence:Stellar Termination",
-                "text": [
-                    "550% Light damage to a foe.\nGain <:Status_Bring_the_Thunder:832584448338952223> **Bring the Thunder**.\n(Next use of Clincher inflicts <:Status_Paralysis:832598585161941033> **Paralyzed** and deals damage twice.)\nAll allies gain <:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**.\nEnd cooldown for Clincher."
                 ]
             }
         ]
@@ -10642,14 +8658,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Illusion Dance",
-                "text": [
-                    "Big Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Theater of Illusion",
+                "name": "Theater of Illusion",
                 "text": [
                     "Massive Water damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**."
                 ]
@@ -10661,13 +8670,6 @@
                 "name": "Illusion Dance",
                 "text": [
                     "Big Water damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Theater of Illusion",
-                "text": [
-                    "Massive Water damage to a foe.\nGain <:Status_Mirror_Image:832597008539058187> **Mirror Image (1 time)**."
                 ]
             }
         ]
@@ -10676,14 +8678,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Pink Lively",
-                "text": [
-                    "Big Light damage to a foe.\nBonus Water damage to <:Status_Blind:832583965428678656> **Blinded** foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Fullbloom Starsmile",
+                "name": "Fullbloom Starsmile",
                 "text": [
                     "Massive Light damage to a foe.\nBonus Water damage to <:Status_Blind:832583965428678656> **Blinded** foes.\nBonus Fire damage to <:Status_Burned:832584524088082433> **Burned** foes."
                 ]
@@ -10695,13 +8690,6 @@
                 "name": "Pink Lively",
                 "text": [
                     "Big Light damage to a foe.\nBonus Water damage to <:Status_Blind:832583965428678656> **Blinded** foes."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Fullbloom Starsmile",
-                "text": [
-                    "Massive Light damage to a foe.\nBonus Water damage to <:Status_Blind:832583965428678656> **Blinded** foes.\nBonus Fire damage to <:Status_Burned:832584524088082433> **Burned** foes."
                 ]
             }
         ]
@@ -10714,18 +8702,7 @@
                         "<:Status_Loyalty_Eternal_0:832596886501195806> **Loyalty Eternal**"
                     ]
                 },
-                "name": "Gilded Heaven Strike",
-                "text": [
-                    "500% Water damage to a foe.\nAll allies gain 1 <:Status_Loyalty_Eternal_0:832596886501195806> **Loyalty Eternal** stack.\n(Effect enhanced for each stack.)\n"
-                ]
-            },
-            {
-                "duration": {
-                    "5.5^t": [
-                        "<:Status_Loyalty_Eternal_0:832596886501195806> **Loyalty Eternal**"
-                    ]
-                },
-                "name": "After 5\u2605: Dogged Innocence",
+                "name": " Dogged Innocence",
                 "text": [
                     "550% Water damage to a foe and remove 1 buff.\nAll allies gain 1 <:Status_Loyalty_Eternal_0:832596886501195806> **Loyalty Eternal** stack.\n(Effect enhanced for each stack.)\n"
                 ]
@@ -10741,17 +8718,6 @@
                 "name": "Gilded Heaven Strike",
                 "text": [
                     "500% Water damage to a foe.\nAll allies gain 1 <:Status_Loyalty_Eternal_0:832596886501195806> **Loyalty Eternal** stack.\n(Effect enhanced for each stack.)\n"
-                ]
-            },
-            {
-                "duration": {
-                    "5.5^t": [
-                        "<:Status_Loyalty_Eternal_0:832596886501195806> **Loyalty Eternal**"
-                    ]
-                },
-                "name": "After 5\u2605: Dogged Innocence",
-                "text": [
-                    "550% Water damage to a foe and remove 1 buff.\nAll allies gain 1 <:Status_Loyalty_Eternal_0:832596886501195806> **Loyalty Eternal** stack.\n(Effect enhanced for each stack.)\n"
                 ]
             }
         ]
@@ -10763,24 +8729,12 @@
                     "180^s": [
                         "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**",
                         "<:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**"
-                    ]
-                },
-                "name": "Loewenbein: Jagd",
-                "text": [
-                    "450% Water damage to a foe.\nInflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**",
-                        "<:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**"
                     ],
                     "Indefinite^i": [
                         "<:status_4038:832603245666893834> **Double Beat**"
                     ]
                 },
-                "name": "After 5\u2605:Loewenbein: Jagd ++",
+                "name": "Loewenbein: Jagd ++",
                 "text": [
                     "500% Water damage to a foe.\nInflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**.\nGain <:status_4038:832603245666893834> **Double Beat**.\n(Next Heroic Beat activates twice.)\n"
                 ]
@@ -10797,21 +8751,6 @@
                 "name": "Loewenbein: Jagd",
                 "text": [
                     "450% Water damage to a foe.\nInflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**",
-                        "<:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**"
-                    ],
-                    "Indefinite^i": [
-                        "<:status_4038:832603245666893834> **Double Beat**"
-                    ]
-                },
-                "name": "After 5\u2605:Loewenbein: Jagd ++",
-                "text": [
-                    "500% Water damage to a foe.\nInflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_FireAtkDown:832592559666626590> **10% Fire ATK Down**.\nGain <:status_4038:832603245666893834> **Double Beat**.\n(Next Heroic Beat activates twice.)\n"
                 ]
             }
         ],
@@ -10868,14 +8807,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Purification by Blood",
-                "text": [
-                    "Massive Dark damage to a foe.\n(50% boost to C.A. damage against foes with <:Status_Charm:832585566574215168> **Charmed**.)\n"
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605: Bloody Absorption",
+                "name": " Bloody Absorption",
                 "text": [
                     "Massive Dark damage to a foe.\n(50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with <:Status_Charm:832585566574215168> **Charmed**.)\nGain 2 <:Status_Vampyr_Drop_1:832602899699335199> **Vampyr Drop** (Max: 2)."
                 ]
@@ -10887,13 +8819,6 @@
                 "name": "Purification by Blood",
                 "text": [
                     "Massive Dark damage to a foe.\n(50% boost to C.A. damage against foes with <:Status_Charm:832585566574215168> **Charmed**.)\n"
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605: Bloody Absorption",
-                "text": [
-                    "Massive Dark damage to a foe.\n(50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with <:Status_Charm:832585566574215168> **Charmed**.)\nGain 2 <:Status_Vampyr_Drop_1:832602899699335199> **Vampyr Drop** (Max: 2)."
                 ]
             }
         ],
@@ -10943,19 +8868,12 @@
     "Vaseraga": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Bloody Moon",
-                "text": [
-                    "Massive Dark damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_Aubade_Grynoth:832580995059679232> **Aubade Grynoth**"
                     ]
                 },
-                "name": "After 5\u2605:Carnage Moon",
+                "name": "Carnage Moon",
                 "text": [
                     "Massive Dark damage to a foe.\nGain <:Status_Aubade_Grynoth:832580995059679232> **Aubade Grynoth**."
                 ]
@@ -10967,17 +8885,6 @@
                 "name": "Bloody Moon",
                 "text": [
                     "Massive Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_Aubade_Grynoth:832580995059679232> **Aubade Grynoth**"
-                    ]
-                },
-                "name": "After 5\u2605:Carnage Moon",
-                "text": [
-                    "Massive Dark damage to a foe.\nGain <:Status_Aubade_Grynoth:832580995059679232> **Aubade Grynoth**."
                 ]
             }
         ],
@@ -11093,14 +9000,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Overpower",
-                "text": [
-                    "450% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Overpower ++",
+                "name": "Overpower ++",
                 "text": [
                     "500% Dark damage to a foe."
                 ]
@@ -11119,20 +9019,6 @@
                 "name": "Overpower",
                 "text": [
                     "450% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Overpower ++",
-                "text": [
-                    "500% Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "Luminiera Merge:Affection Abyss",
-                "text": [
-                    "500% Dark damage to a foe (Damage cap: ~1,685,000) and; 250% Light damage to a foe (Damage cap: ~350,000).\n1-turn cut to Vira's skill cooldowns."
                 ]
             }
         ],
@@ -11223,14 +9109,7 @@
         "BASE": [
             {
                 "duration": {},
-                "name": "Ultimate Hundred Steelshot",
-                "text": [
-                    "350% Earth damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Ultimate Million Steelshot",
+                "name": "Ultimate Million Steelshot",
                 "text": [
                     "400% Earth damage to a foe.\nExtend the duration of <:Status_I_Am_a_Hero:832594542757937222> **I Am a Hero** by 2 turns."
                 ]
@@ -11242,13 +9121,6 @@
                 "name": "Ultimate Hundred Steelshot",
                 "text": [
                     "350% Earth damage to a foe."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605:Ultimate Million Steelshot",
-                "text": [
-                    "400% Earth damage to a foe.\nExtend the duration of <:Status_I_Am_a_Hero:832594542757937222> **I Am a Hero** by 2 turns."
                 ]
             }
         ],
@@ -11292,20 +9164,13 @@
         ],
         "SR": [
             {
-                "duration": {},
-                "name": "Spatter",
-                "text": [
-                    "Big Dark damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "180^s": [
                         "<:Status_AttackDown:832581064211955722> **15% ATK Down**",
                         "<:Status_DefenseDown:832588131140108339> **15% DEF Down**"
                     ]
                 },
-                "name": "After 5\u2605:Spatter ++",
+                "name": "Spatter ++",
                 "text": [
                     "Massive Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **15% ATK Down** and <:Status_DefenseDown:832588131140108339> **15% DEF Down**."
                 ]
@@ -11317,18 +9182,6 @@
                 "name": "Spatter",
                 "text": [
                     "Big Dark damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "180^s": [
-                        "<:Status_AttackDown:832581064211955722> **15% ATK Down**",
-                        "<:Status_DefenseDown:832588131140108339> **15% DEF Down**"
-                    ]
-                },
-                "name": "After 5\u2605:Spatter ++",
-                "text": [
-                    "Massive Dark damage to a foe.\nInflict <:Status_AttackDown:832581064211955722> **15% ATK Down** and <:Status_DefenseDown:832588131140108339> **15% DEF Down**."
                 ]
             }
         ]
@@ -11365,18 +9218,6 @@
         "SR": [
             {
                 "duration": {
-                    "3.5^t": [
-                        "<:Status_AttackUp:832581064555364362> **50% ATK Up**",
-                        "<:Status_DefenseUp:832588447800885249> **50% DEF Up**"
-                    ]
-                },
-                "name": "Yaia Fried Rice!",
-                "text": [
-                    "Let's all dig in!(Restore all other allies' HP [Healing cap: 2000] and grant <:Status_AttackUp:832581064555364362> **50% ATK Up** and <:Status_DefenseUp:832588447800885249> **50% DEF Up**.)\n"
-                ]
-            },
-            {
-                "duration": {
                     "0.5^t": [
                         "<:Status_Defiance:832588448593346600> **30% C.B. DMG Up**",
                         "<:Status_CB_DMG_Cap_Up:832585053149855744> **20% C.B. DMG Cap Up**"
@@ -11386,7 +9227,7 @@
                         "<:Status_DefenseUp:832588447800885249> **50% DEF Up**"
                     ]
                 },
-                "name": "After 5\u2605:Smile",
+                "name": "Smile",
                 "text": [
                     "I know you can do it!(Restore all other allies' HP [Healing cap: 2500] and grant <:Status_AttackUp:832581064555364362> **50% ATK Up**, <:Status_DefenseUp:832588447800885249> **50% DEF Up**, <:Status_Defiance:832588448593346600> **30% C.B. DMG Up** and <:Status_CB_DMG_Cap_Up:832585053149855744> **20% C.B. DMG Cap Up**.)\n"
                 ]
@@ -11403,22 +9244,6 @@
                 "name": "Yaia Fried Rice!",
                 "text": [
                     "Let's all dig in!(Restore all other allies' HP [Healing cap: 2000] and grant <:Status_AttackUp:832581064555364362> **50% ATK Up** and <:Status_DefenseUp:832588447800885249> **50% DEF Up**.)\n"
-                ]
-            },
-            {
-                "duration": {
-                    "0.5^t": [
-                        "<:Status_Defiance:832588448593346600> **30% C.B. DMG Up**",
-                        "<:Status_CB_DMG_Cap_Up:832585053149855744> **20% C.B. DMG Cap Up**"
-                    ],
-                    "3.5^t": [
-                        "<:Status_AttackUp:832581064555364362> **50% ATK Up**",
-                        "<:Status_DefenseUp:832588447800885249> **50% DEF Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Smile",
-                "text": [
-                    "I know you can do it!(Restore all other allies' HP [Healing cap: 2500] and grant <:Status_AttackUp:832581064555364362> **50% ATK Up**, <:Status_DefenseUp:832588447800885249> **50% DEF Up**, <:Status_Defiance:832588448593346600> **30% C.B. DMG Up** and <:Status_CB_DMG_Cap_Up:832585053149855744> **20% C.B. DMG Cap Up**.)\n"
                 ]
             }
         ]
@@ -11452,33 +9277,19 @@
     "Yngwie": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Normal mode:Red Hot Guardian",
-                "text": [
-                    "450% Water damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +50%**.\nSwitch into Tough Guy mode."
-                ]
-            },
-            {
                 "duration": {
                     "2.5^t": [
                         "<:Status_TripleUp:832601877920350218> **Guaranteed TA**"
                     ]
                 },
-                "name": "After 5\u2605 - Normal mode:Red Hot Guardian ++",
+                "name": "Normal mode:Red Hot Guardian ++",
                 "text": [
                     "500% Water damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +50%** and <:Status_TripleUp:832601877920350218> **Guaranteed TA**.\nSwitch into Tough Guy mode."
                 ]
             },
             {
                 "duration": {},
-                "name": "Tough Guy mode:Full Metal Sights",
-                "text": [
-                    "500% Water damage to a foe.\nEnd Tough Guy mode."
-                ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605 - Tough Guy mode:Full Metal Cannon",
+                "name": "Tough Guy mode:Full Metal Cannon",
                 "text": [
                     "900% Water damage to a foe.\nEnd Tough Guy mode."
                 ]
@@ -11493,30 +9304,12 @@
                 ]
             },
             {
-                "duration": {
-                    "2.5^t": [
-                        "<:Status_TripleUp:832601877920350218> **Guaranteed TA**"
-                    ]
-                },
-                "name": "After 5\u2605 - Normal mode:Red Hot Guardian ++",
-                "text": [
-                    "500% Water damage to a foe.\nGain <:Status_Uplift:832602899460521994> **Charge Bar +50%** and <:Status_TripleUp:832601877920350218> **Guaranteed TA**.\nSwitch into Tough Guy mode."
-                ]
-            },
-            {
                 "duration": {},
                 "name": "Tough Guy mode:Full Metal Sights",
                 "text": [
                     "500% Water damage to a foe.\nEnd Tough Guy mode."
                 ]
-            },
-            {
-                "duration": {},
-                "name": "After 5\u2605 - Tough Guy mode:Full Metal Cannon",
-                "text": [
-                    "900% Water damage to a foe.\nEnd Tough Guy mode."
-                ]
-            }
+            }        
         ]
     },
     "Yodarha": {
@@ -11581,13 +9374,6 @@
     "Yuel": {
         "BASE": [
             {
-                "duration": {},
-                "name": "Rise of the Blood-Moon",
-                "text": [
-                    "450% Fire damage to a foe."
-                ]
-            },
-            {
                 "duration": {
                     "3.5^t": [
                         "<:Status_DamageCapUp:832587990952837160> **15% DMG Cap Up**"
@@ -11597,7 +9383,7 @@
                         "<:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**"
                     ]
                 },
-                "name": "After 5\u2605:Crimson Dance: Yugetsu",
+                "name": "Crimson Dance: Yugetsu",
                 "text": [
                     "500% Fire damage to a foe.\nGain <:Status_DamageCapUp:832587990952837160> **15% DMG Cap Up**, <:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)**, and <:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
@@ -11609,21 +9395,6 @@
                 "name": "Rise of the Blood-Moon",
                 "text": [
                     "450% Fire damage to a foe."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_DamageCapUp:832587990952837160> **15% DMG Cap Up**"
-                    ],
-                    "Indefinite^i": [
-                        "<:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)**",
-                        "<:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**"
-                    ]
-                },
-                "name": "After 5\u2605:Crimson Dance: Yugetsu",
-                "text": [
-                    "500% Fire damage to a foe.\nGain <:Status_DamageCapUp:832587990952837160> **15% DMG Cap Up**, <:Status_Heal:832593788375400470> **50% Healing Up (Stackable / Max: 100%)**, and <:Status_Heal:832593788375400470> **50% Healing Cap Up (Stackable / Max: 100%)**."
                 ]
             }
         ],
@@ -11821,18 +9592,7 @@
                         "<:Status_CriticalUp:832587322133970986> **70% / 20% Critical Hit Rate Up**"
                     ]
                 },
-                "name": "Resolute Strike",
-                "text": [
-                    "450% Fire damage to a foe.\nGain <:Status_CriticalUp:832587322133970986> **70% / 20% Critical Hit Rate Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **70% / 20% Critical Hit Rate Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Sirius Roar",
+                "name": "Sirius Roar",
                 "text": [
                     "500% Fire damage to a foe.\n(50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with <:Status_Arvess_Fermare_1:832577339417952306> **Arvess Fermare**.)\n Gain <:Status_CriticalUp:832587322133970986> **70% / 20% Critical Hit Rate Up**."
                 ]
@@ -11848,17 +9608,6 @@
                 "name": "Resolute Strike",
                 "text": [
                     "450% Fire damage to a foe.\nGain <:Status_CriticalUp:832587322133970986> **70% / 20% Critical Hit Rate Up**."
-                ]
-            },
-            {
-                "duration": {
-                    "3.5^t": [
-                        "<:Status_CriticalUp:832587322133970986> **70% / 20% Critical Hit Rate Up**"
-                    ]
-                },
-                "name": "After 5\u2605:Sirius Roar",
-                "text": [
-                    "500% Fire damage to a foe.\n(50% boost to C.A. damage and 30% boost to C.A. damage cap against foes with <:Status_Arvess_Fermare_1:832577339417952306> **Arvess Fermare**.)\n Gain <:Status_CriticalUp:832587322133970986> **70% / 20% Critical Hit Rate Up**."
                 ]
             }
         ],
@@ -12005,22 +9754,11 @@
             {
                 "duration": {
                     "5.5^t": [
-                        "<:Status_DarkAtkUp:832588129894006794> **15% Dark ATK Up**"
-                    ]
-                },
-                "name": "Sore wa Bokutachi no Kiseki",
-                "text": [
-                    "Massive Dark damage to a foe.\nAll allies gain <:Status_DarkAtkUp:832588129894006794> **15% Dark ATK Up**.\nRestore all allies' HP (Healing cap: 500)."
-                ]
-            },
-            {
-                "duration": {
-                    "5.5^t": [
                         "<:Status_DarkAtkUp:832588129894006794> **15% Dark ATK Up**",
                         "<:Status_Heal:832593788375400470> **Refresh**"
                     ]
                 },
-                "name": "After 5\u2605:Donna Toki mo Zutto",
+                "name": "Donna Toki mo Zutto",
                 "text": [
                     "Massive Dark damage to a foe.\nAll allies gain <:Status_DarkAtkUp:832588129894006794> **15% Dark ATK Up** and <:Status_Heal:832593788375400470> **Refresh**.\nRestore all allies' HP (Healing cap: 500)."
                 ]
@@ -12036,18 +9774,6 @@
                 "name": "Sore wa Bokutachi no Kiseki",
                 "text": [
                     "Massive Dark damage to a foe.\nAll allies gain <:Status_DarkAtkUp:832588129894006794> **15% Dark ATK Up**.\nRestore all allies' HP (Healing cap: 500)."
-                ]
-            },
-            {
-                "duration": {
-                    "5.5^t": [
-                        "<:Status_DarkAtkUp:832588129894006794> **15% Dark ATK Up**",
-                        "<:Status_Heal:832593788375400470> **Refresh**"
-                    ]
-                },
-                "name": "After 5\u2605:Donna Toki mo Zutto",
-                "text": [
-                    "Massive Dark damage to a foe.\nAll allies gain <:Status_DarkAtkUp:832588129894006794> **15% Dark ATK Up** and <:Status_Heal:832593788375400470> **Refresh**.\nRestore all allies' HP (Healing cap: 500)."
                 ]
             }
         ]

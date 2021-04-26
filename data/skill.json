@@ -1412,7 +1412,7 @@
                     "cooldown": " 10 turns9 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **20% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **20% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -1421,7 +1421,7 @@
                     "name": "Drill Bit",
                     "obtain": " Lvl 1\u21e7 Lvl 45 ",
                     "text": [
-                        "Earth damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **20% Debuff Res.\nDown**."
+                        "Earth damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **20% Debuff Res.Down**."
                     ],
                     "type": [
                         "5"
@@ -2112,11 +2112,11 @@
                     "duration": {
                         "2^t": [
                             "<:Status_DefenseDown:832588131140108339> **25% DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **25% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **25% Debuff Res.Down**"
                         ],
                         "3^t": [
                             "<:Status_DefenseDown:832588131140108339> **30% DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **30% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **30% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -2125,7 +2125,7 @@
                     "name": "Unborn, Undying",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Fully restore all allies' HP.\nRestore all parties' HP (Healing cap: 1000).\nInflict <:Status_DefenseDown:832588131140108339> **30% DEF Down** and <:Status_DebuffResDown:832588130741125150> **30% Debuff Res.\nDown** on all allies.\nDebuffs reduced to <:Status_DefenseDown:832588131140108339> **25% DEF Down** and <:Status_DebuffResDown:832588130741125150> **25% Debuff Res.\nDown** for 2 turns."
+                        "Fully restore all allies' HP.\nRestore all parties' HP (Healing cap: 1000).\nInflict <:Status_DefenseDown:832588131140108339> **30% DEF Down** and <:Status_DebuffResDown:832588130741125150> **30% Debuff Res.Down** on all allies.\nDebuffs reduced to <:Status_DefenseDown:832588131140108339> **25% DEF Down** and <:Status_DebuffResDown:832588130741125150> **25% Debuff Res.Down** for 2 turns."
                     ],
                     "type": [
                         "2"
@@ -2217,11 +2217,11 @@
                     "duration": {
                         "2^t": [
                             "<:Status_DefenseDown:832588131140108339> **25% DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **25% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **25% Debuff Res.Down**"
                         ],
                         "3^t": [
                             "<:Status_DefenseDown:832588131140108339> **30% DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **30% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **30% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -2230,7 +2230,7 @@
                     "name": "Unborn, Undying",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Fully restore all allies' HP.\nRestore all parties' HP (Healing cap: 1000).\nInflict <:Status_DefenseDown:832588131140108339> **30% DEF Down** and <:Status_DebuffResDown:832588130741125150> **30% Debuff Res.\nDown** on all allies.\nDebuffs reduced to <:Status_DefenseDown:832588131140108339> **25% DEF Down** and <:Status_DebuffResDown:832588130741125150> **25% Debuff Res.\nDown** for 2 turns."
+                        "Fully restore all allies' HP.\nRestore all parties' HP (Healing cap: 1000).\nInflict <:Status_DefenseDown:832588131140108339> **30% DEF Down** and <:Status_DebuffResDown:832588130741125150> **30% Debuff Res.Down** on all allies.\nDebuffs reduced to <:Status_DefenseDown:832588131140108339> **25% DEF Down** and <:Status_DebuffResDown:832588130741125150> **25% Debuff Res.Down** for 2 turns."
                     ],
                     "type": [
                         "2"
@@ -2860,9 +2860,9 @@
                     "duration": {
                         "3^t": [
                             "<:Status_Uplift:832602899460521994> **10% Charge Bar Gain Up**",
-                            "<:Status_Veil:832602900122828840> **10% Debuff Res.\nUp**",
+                            "<:Status_Veil:832602900122828840> **10% Debuff Res.Up**",
                             "<:Status_Uplift:832602899460521994> **20% Charge Bar Gain Up**",
-                            "<:Status_Veil:832602900122828840> **20% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **20% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -2871,7 +2871,7 @@
                     "name": "Hidden Tiger, Crouching Dragon",
                     "obtain": " Lvl 1\u21e7 Lvl 65 ",
                     "text": [
-                        "All allies gain <:Status_Uplift:832602899460521994> **10% Charge Bar Gain Up** and <:Status_Veil:832602900122828840> **10% Debuff Res.\nUp**.\nBuffs increased to <:Status_Uplift:832602899460521994> **20% Charge Bar Gain Up** and <:Status_Veil:832602900122828840> **20% Debuff Res.\nUp**."
+                        "All allies gain <:Status_Uplift:832602899460521994> **10% Charge Bar Gain Up** and <:Status_Veil:832602900122828840> **10% Debuff Res.Up**.\nBuffs increased to <:Status_Uplift:832602899460521994> **20% Charge Bar Gain Up** and <:Status_Veil:832602900122828840> **20% Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -7893,7 +7893,7 @@
                     "cooldown": " 6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**"
                         ]
                     },
                     "icon": [
@@ -7902,7 +7902,7 @@
                     "name": "All Sensation",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "400% Wind damage to all foes (Damage cap: ~420,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**."
+                        "400% Wind damage to all foes (Damage cap: ~420,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**."
                     ],
                     "type": [
                         "1"
@@ -7938,7 +7938,7 @@
                     "cooldown": " 5 turns4 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown (Stack / Max: 30%)**",
+                            "<:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down (Stack / Max: 30%)**",
                             "<:Status_DefenseDownStack:832588193722400818> **5% DEF Down (Stackable / Max: 30%)**"
                         ]
                     },
@@ -7948,7 +7948,7 @@
                     "name": "Stacking Sensation",
                     "obtain": " Lvl 1\u21e7 Lvl 65 ",
                     "text": [
-                        "Inflict <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown (Stack / Max: 30%)** and <:Status_DefenseDownStack:832588193722400818> **5% DEF Down (Stackable / Max: 30%)** on a foe."
+                        "Inflict <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down (Stack / Max: 30%)** and <:Status_DefenseDownStack:832588193722400818> **5% DEF Down (Stackable / Max: 30%)** on a foe."
                     ],
                     "type": [
                         "4"
@@ -8594,7 +8594,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -8603,7 +8603,7 @@
                     "name": "Disillusion",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "3-hit Dark damage to a foe (Damage cap: ~610,000 total).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**."
+                        "3-hit Dark damage to a foe (Damage cap: ~610,000 total).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**."
                     ],
                     "type": [
                         "1"
@@ -8671,7 +8671,7 @@
                     "cooldown": " 8 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -8680,7 +8680,7 @@
                     "name": "Lexicon",
                     "obtain": " Lvl 35 ",
                     "text": [
-                        "Light damage to a foe.\n(Bonus effects change according to foe's mode)Normal: Inflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**.\nOverdrive: Inflict **Mode Bar Cut**.\nBreak: Inflict <:Status_Lock:834401528559042570> **Break Boosted (Time)**."
+                        "Light damage to a foe.\n(Bonus effects change according to foe's mode)Normal: Inflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**.\nOverdrive: Inflict **Mode Bar Cut**.\nBreak: Inflict <:Status_Lock:834401528559042570> **Break Boosted (Time)**."
                     ],
                     "type": [
                         "1"
@@ -9335,8 +9335,8 @@
                     "cooldown": " 8 turns7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**",
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**"
                         ],
                         "Indefinite^i": [
                             "<:Status_6936_1:832575202763735040> **Raise**"
@@ -9349,7 +9349,7 @@
                     "name": "Second Deal",
                     "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 95 ",
                     "text": [
-                        "2-hit, 150% Wind damage to a foe (Damage cap: ~310,000 per hit).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**.\nDamage increased to 200%.\nDebuff upgraded to <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**.\nWhen 3 <:Status_6936_1:832575202763735040> **Raise** are consumed: End cooldown for caster's skills."
+                        "2-hit, 150% Wind damage to a foe (Damage cap: ~310,000 per hit).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**.\nDamage increased to 200%.\nDebuff upgraded to <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**.\nWhen 3 <:Status_6936_1:832575202763735040> **Raise** are consumed: End cooldown for caster's skills."
                     ],
                     "type": [
                         "4",
@@ -9405,8 +9405,8 @@
                     "cooldown": " 8 turns7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**",
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**"
                         ],
                         "Indefinite^i": [
                             "<:Status_6936_1:832575202763735040> **Raise**"
@@ -9419,7 +9419,7 @@
                     "name": "Second Deal",
                     "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 95 ",
                     "text": [
-                        "2-hit, 150% Wind damage to a foe (Damage cap: ~310,000 per hit).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**.\nDamage increased to 200%.\nDebuff upgraded to <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**.\nWhen 3 <:Status_6936_1:832575202763735040> **Raise** are consumed: End cooldown for caster's skills."
+                        "2-hit, 150% Wind damage to a foe (Damage cap: ~310,000 per hit).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**.\nDamage increased to 200%.\nDebuff upgraded to <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**.\nWhen 3 <:Status_6936_1:832575202763735040> **Raise** are consumed: End cooldown for caster's skills."
                     ],
                     "type": [
                         "4",
@@ -12018,7 +12018,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**",
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**",
                             "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**"
                         ]
                     },
@@ -12028,7 +12028,7 @@
                     "name": "Violaceus",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "400% Fire damage to all foes (Damage cap: ~400,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)** and <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**."
+                        "400% Fire damage to all foes (Damage cap: ~400,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)** and <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**."
                     ],
                     "type": [
                         "1"
@@ -12091,7 +12091,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **20% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **20% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -12100,7 +12100,7 @@
                     "name": "Fair Trick",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "500% Water damage to all foes (Damage cap: ~400,000).\nWhen <:Status_Switcheroo_Attack:832601668931551272> **That's How I Roll** is in effect:Inflict <:Status_DebuffResDown:832588130741125150> **20% Debuff Res.\nDown** and <:Status_Gravity:832593788052177016> **Delay**.\nWhen <:Status_Switcheroo_Defense:832601669149523998> **Bursting Bubbles** is in effect:Restore 10% of all allies' HP (Healing cap: 1500).\nAll allies gain <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
+                        "500% Water damage to all foes (Damage cap: ~400,000).\nWhen <:Status_Switcheroo_Attack:832601668931551272> **That's How I Roll** is in effect:Inflict <:Status_DebuffResDown:832588130741125150> **20% Debuff Res.Down** and <:Status_Gravity:832593788052177016> **Delay**.\nWhen <:Status_Switcheroo_Defense:832601669149523998> **Bursting Bubbles** is in effect:Restore 10% of all allies' HP (Healing cap: 1500).\nAll allies gain <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
                     ],
                     "type": [
                         "1"
@@ -15435,7 +15435,7 @@
                     "cooldown": " 7 turns6 turns5 turns ",
                     "duration": {
                         "3^t": [
-                            "<:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **100% Debuff Res.Up**"
                         ],
                         "Indefinite^i": [
                             "<:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**"
@@ -15448,7 +15448,7 @@
                     "name": "Blessing of Light",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 85 \u21ef Lvl 130 ",
                     "text": [
-                        "Remove all debuffs from all allies.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**.\nAll allies also gain <:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**."
+                        "Remove all debuffs from all allies.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.Up**.\nAll allies also gain <:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**."
                     ],
                     "type": [
                         "2",
@@ -15529,7 +15529,7 @@
                     "cooldown": " 7 turns6 turns5 turns ",
                     "duration": {
                         "3^t": [
-                            "<:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **100% Debuff Res.Up**"
                         ],
                         "Indefinite^i": [
                             "<:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**"
@@ -15542,7 +15542,7 @@
                     "name": "Blessing of Light",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 85 \u21ef Lvl 130 ",
                     "text": [
-                        "Remove all debuffs from all allies.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**.\nAll allies also gain <:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**."
+                        "Remove all debuffs from all allies.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.Up**.\nAll allies also gain <:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**."
                     ],
                     "type": [
                         "2",
@@ -15623,7 +15623,7 @@
                     "cooldown": " 7 turns6 turns5 turns ",
                     "duration": {
                         "3^t": [
-                            "<:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **100% Debuff Res.Up**"
                         ],
                         "Indefinite^i": [
                             "<:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**"
@@ -15636,7 +15636,7 @@
                     "name": "Blessing of Light",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 85 \u21ef Lvl 130 ",
                     "text": [
-                        "Remove all debuffs from all allies.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**.\nAll allies also gain <:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**."
+                        "Remove all debuffs from all allies.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.Up**.\nAll allies also gain <:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**."
                     ],
                     "type": [
                         "2",
@@ -16611,7 +16611,7 @@
                     "name": "Noblesse Oblige",
                     "obtain": " Lvl 45\u21e7 Lvl 100 ",
                     "text": [
-                        "All allies gain <:Status_Dmg_Cut_60:834391731583451168> **60% DMG Cut**.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**.\nBuff increased to <:Status_Dmg_Cut_70:834391731369148459> **70% DMG Cut**."
+                        "All allies gain <:Status_Dmg_Cut_60:834391731583451168> **60% DMG Cut**.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.Up**.\nBuff increased to <:Status_Dmg_Cut_70:834391731369148459> **70% DMG Cut**."
                     ],
                     "type": [
                         "3"
@@ -16681,7 +16681,7 @@
                     "name": "Noblesse Oblige",
                     "obtain": " Lvl 45\u21e7 Lvl 100 ",
                     "text": [
-                        "All allies gain <:Status_Dmg_Cut_60:834391731583451168> **60% DMG Cut**.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**.\nBuff increased to <:Status_Dmg_Cut_70:834391731369148459> **70% DMG Cut**."
+                        "All allies gain <:Status_Dmg_Cut_60:834391731583451168> **60% DMG Cut**.\nAll allies also gain <:Status_Veil:832602900122828840> **100% Debuff Res.Up**.\nBuff increased to <:Status_Dmg_Cut_70:834391731369148459> **70% DMG Cut**."
                     ],
                     "type": [
                         "3"
@@ -17289,7 +17289,7 @@
                     "cooldown": " 8 turns7 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -17298,7 +17298,7 @@
                     "name": "I Can Help Too!",
                     "obtain": " Lvl 1\u21e7 Lvl 65 ",
                     "text": [
-                        "Inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown** on all foes."
+                        "Inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down** on all foes."
                     ],
                     "type": [
                         "4"
@@ -19518,7 +19518,7 @@
                     "duration": {
                         "3^t": [
                             "<:Status_Armored:832577248602095656> **Armored**",
-                            "<:Status_Veil:832602900122828840> **Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -19527,7 +19527,7 @@
                     "name": "Stargaze",
                     "obtain": " Lvl 80 ",
                     "text": [
-                        "Remove <:Status_Confusion_Barrier:834389758485463041> **Confusion Barrier** from all foes.\nAll allies gain <:Status_Armored:832577248602095656> **Armored** and <:Status_Veil:832602900122828840> **Debuff Res.\nUp**."
+                        "Remove <:Status_Confusion_Barrier:834389758485463041> **Confusion Barrier** from all foes.\nAll allies gain <:Status_Armored:832577248602095656> **Armored** and <:Status_Veil:832602900122828840> **Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -19593,7 +19593,7 @@
                     "duration": {
                         "3^t": [
                             "<:Status_Armored:832577248602095656> **Armored**",
-                            "<:Status_Veil:832602900122828840> **Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -19602,7 +19602,7 @@
                     "name": "Stargaze",
                     "obtain": " Lvl 80 ",
                     "text": [
-                        "Remove <:Status_Confusion_Barrier:834389758485463041> **Confusion Barrier** from all foes.\nAll allies gain <:Status_Armored:832577248602095656> **Armored** and <:Status_Veil:832602900122828840> **Debuff Res.\nUp**."
+                        "Remove <:Status_Confusion_Barrier:834389758485463041> **Confusion Barrier** from all foes.\nAll allies gain <:Status_Armored:832577248602095656> **Armored** and <:Status_Veil:832602900122828840> **Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -20196,7 +20196,7 @@
                     "name": "Eco Rising",
                     "obtain": " Lvl 1\u21e7 Lvl 65 ",
                     "text": [
-                        "All allies gain 15% <:Status_Veil:832602900122828840> **Debuff Res.\nUp (Stack)** (Max: 60%).\nBuff increased to 20% <:Status_Veil:832602900122828840> **Debuff Res.\nUp (Stack)** (Max: 80%)."
+                        "All allies gain 15% <:Status_Veil:832602900122828840> **Debuff Res.Up (Stack)** (Max: 60%).\nBuff increased to 20% <:Status_Veil:832602900122828840> **Debuff Res.Up (Stack)** (Max: 80%)."
                     ],
                     "type": [
                         "3"
@@ -20499,7 +20499,7 @@
                     "cooldown": " 9 turns8 turns ",
                     "duration": {
                         "3^t": [
-                            "<:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **100% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -20508,7 +20508,7 @@
                     "name": "Resist Potion",
                     "obtain": " Lvl 1\u21e7 Lvl 65 ",
                     "text": [
-                        "All allies gain <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**."
+                        "All allies gain <:Status_Veil:832602900122828840> **100% Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -21535,7 +21535,7 @@
                     "duration": {
                         "3^t": [
                             "<:Status_Fire_Cut_25:834392499661176853> **25% Fire Cut**",
-                            "<:Status_Veil:832602900122828840> **75% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **75% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -21544,7 +21544,7 @@
                     "name": "Aqua Veil",
                     "obtain": " Lvl 25 ",
                     "text": [
-                        "Gain <:Status_Fire_Cut_25:834392499661176853> **25% Fire Cut** and <:Status_Veil:832602900122828840> **75% Debuff Res.\nUp**."
+                        "Gain <:Status_Fire_Cut_25:834392499661176853> **25% Fire Cut** and <:Status_Veil:832602900122828840> **75% Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -22548,7 +22548,7 @@
                     "cooldown": " 8 turns7 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**"
                         ],
                         "3^t": [
                             "<:Status_WindAtkUp:832603015886143609> **Wind ATK Up**"
@@ -22560,7 +22560,7 @@
                     "name": "Flattery",
                     "obtain": " Lvl 1\u21e7 Lvl 45 ",
                     "text": [
-                        "Inflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown** on a foe.\nAll allies gain <:Status_WindAtkUp:832603015886143609> **Wind ATK Up**."
+                        "Inflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down** on a foe.\nAll allies gain <:Status_WindAtkUp:832603015886143609> **Wind ATK Up**."
                     ],
                     "type": [
                         "4"
@@ -24442,7 +24442,7 @@
                     "duration": {
                         "3^t": [
                             "<:Status_Shield:832599448872943648> **Shield (1000)**",
-                            "<:Status_Veil:832602900122828840> **50% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **50% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -24451,7 +24451,7 @@
                     "name": "Brise de Fleurs",
                     "obtain": " Lvl 35 ",
                     "text": [
-                        "All allies gain <:Status_Shield:832599448872943648> **Shield (1000)** and <:Status_Veil:832602900122828840> **50% Debuff Res.\nUp**."
+                        "All allies gain <:Status_Shield:832599448872943648> **Shield (1000)** and <:Status_Veil:832602900122828840> **50% Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -24974,7 +24974,7 @@
                             "<:Status_AttackUp:832581064555364362> **ATK Up**",
                             "<:Status_DefenseUp:832588447800885249> **DEF Up**",
                             "<:Status_DebuffSuccessUp:832588130745319448> **Debuff Success Boosted**",
-                            "<:Status_Veil:832602900122828840> **Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -24983,7 +24983,7 @@
                     "name": "Omar's Wisdom",
                     "obtain": " Lvl 1\u21e7 Lvl 65 ",
                     "text": [
-                        "All allies gain <:Status_AttackUp:832581064555364362> **ATK Up**, <:Status_DefenseUp:832588447800885249> **DEF Up**, <:Status_DebuffSuccessUp:832588130745319448> **Debuff Success Boosted** and <:Status_Veil:832602900122828840> **Debuff Res.\nUp**.\n<:Status_Omars_Odyssey_1:832597227201363998> **Omar's Odyssey** stacks consumed."
+                        "All allies gain <:Status_AttackUp:832581064555364362> **ATK Up**, <:Status_DefenseUp:832588447800885249> **DEF Up**, <:Status_DebuffSuccessUp:832588130745319448> **Debuff Success Boosted** and <:Status_Veil:832602900122828840> **Debuff Res.Up**.\n<:Status_Omars_Odyssey_1:832597227201363998> **Omar's Odyssey** stacks consumed."
                     ],
                     "type": [
                         "3"
@@ -27351,7 +27351,7 @@
                             "<:Status_Bonus_Damage:832584447911264276> **90% Bonus Light DMG**",
                             "<:Status_TripleUp:832601877920350218> **Guaranteed TA**",
                             "<:Status_Dark_Cut_100:834390038380150805> **100% Dark Cut**",
-                            "<:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **100% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -27360,7 +27360,7 @@
                     "name": "Awakenings",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "Gain <:Status_Bonus_Damage:832584447911264276> **90% Bonus Light DMG**, <:Status_TripleUp:832601877920350218> **Guaranteed TA**, <:Status_Dark_Cut_100:834390038380150805> **100% Dark Cut**, and <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**."
+                        "Gain <:Status_Bonus_Damage:832584447911264276> **90% Bonus Light DMG**, <:Status_TripleUp:832601877920350218> **Guaranteed TA**, <:Status_Dark_Cut_100:834390038380150805> **100% Dark Cut**, and <:Status_Veil:832602900122828840> **100% Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -27425,7 +27425,7 @@
                             "<:Status_Bonus_Damage:832584447911264276> **90% Bonus Water DMG**",
                             "<:Status_TripleUp:832601877920350218> **Guaranteed TA**",
                             "<:Status_Fire_Cut_70:834392593714118658> **70% Fire Cut**",
-                            "<:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **100% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -27434,7 +27434,7 @@
                     "name": "Without You",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "Grant a Water ally <:Status_Bonus_Damage:832584447911264276> **90% Bonus Water DMG**, <:Status_TripleUp:832601877920350218> **Guaranteed TA**, <:Status_Fire_Cut_70:834392593714118658> **70% Fire Cut**, and <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**."
+                        "Grant a Water ally <:Status_Bonus_Damage:832584447911264276> **90% Bonus Water DMG**, <:Status_TripleUp:832601877920350218> **Guaranteed TA**, <:Status_Fire_Cut_70:834392593714118658> **70% Fire Cut**, and <:Status_Veil:832602900122828840> **100% Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -28041,7 +28041,7 @@
                     "duration": {
                         "3^t": [
                             "<:Status_DefenseUp:832588447800885249> **30% DEF Up**",
-                            "<:Status_Veil:832602900122828840> **30% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **30% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -28050,7 +28050,7 @@
                     "name": "Enduring Earth",
                     "obtain": " Lvl 35 ",
                     "text": [
-                        "All allies gain <:Status_DefenseUp:832588447800885249> **30% DEF Up** and <:Status_Veil:832602900122828840> **30% Debuff Res.\nUp**."
+                        "All allies gain <:Status_DefenseUp:832588447800885249> **30% DEF Up** and <:Status_Veil:832602900122828840> **30% Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -29908,7 +29908,7 @@
                         "180^s": [
                             "<:Status_DefenseDown:832588131140108339> **15% DEF Down**",
                             "<:Status_WindResDown:832603016032813088> **20% Wind DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -29917,7 +29917,7 @@
                     "name": "Hull Breacher II",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "3-hit, 100%-150% Wind damage to a foe (Damage cap: ~210,000 per hit).\nInflict <:Status_DefenseDown:832588131140108339> **15% DEF Down**, <:Status_WindResDown:832603016032813088> **20% Wind DEF Down**, and <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**."
+                        "3-hit, 100%-150% Wind damage to a foe (Damage cap: ~210,000 per hit).\nInflict <:Status_DefenseDown:832588131140108339> **15% DEF Down**, <:Status_WindResDown:832603016032813088> **20% Wind DEF Down**, and <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**."
                     ],
                     "type": [
                         "1"
@@ -29975,7 +29975,7 @@
                     "duration": {
                         "180^s": [
                             "<:Status_DefenseDown:832588131140108339> **10% DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown**",
+                            "<:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down**",
                             "<:Status_DefenseDown:832588131140108339> **15% DEF Down**"
                         ]
                     },
@@ -29985,7 +29985,7 @@
                     "name": "Hull Breacher",
                     "obtain": " Lvl 1\u21e7 Lvl 45 ",
                     "text": [
-                        "150% Wind damage to a foe.\nInflict <:Status_DefenseDown:832588131140108339> **10% DEF Down** and <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown**.\nDebuff increased to <:Status_DefenseDown:832588131140108339> **15% DEF Down**.\n<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown** increased."
+                        "150% Wind damage to a foe.\nInflict <:Status_DefenseDown:832588131140108339> **10% DEF Down** and <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down**.\nDebuff increased to <:Status_DefenseDown:832588131140108339> **15% DEF Down**.\n<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down** increased."
                     ],
                     "type": [
                         "1"
@@ -30046,7 +30046,7 @@
                     "duration": {
                         "180^s": [
                             "<:Status_DefenseDown:832588131140108339> **10% DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown**",
+                            "<:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down**",
                             "<:Status_DefenseDown:832588131140108339> **15% DEF Down**"
                         ]
                     },
@@ -30056,7 +30056,7 @@
                     "name": "Hull Breacher",
                     "obtain": " Lvl 1\u21e7 Lvl 45 ",
                     "text": [
-                        "150% Wind damage to a foe.\nInflict <:Status_DefenseDown:832588131140108339> **10% DEF Down** and <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.\nDown**.\nDebuff increased to <:Status_DefenseDown:832588131140108339> **15% DEF Down**.\n<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown** increased."
+                        "150% Wind damage to a foe.\nInflict <:Status_DefenseDown:832588131140108339> **10% DEF Down** and <:Status_DebuffResDown:832588130741125150> **5% Debuff Res.Down**.\nDebuff increased to <:Status_DefenseDown:832588131140108339> **15% DEF Down**.\n<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down** increased."
                     ],
                     "type": [
                         "1"
@@ -34708,7 +34708,7 @@
                     "duration": {
                         "4^t": [
                             "<:Status_DoubleUp:832590867734724618> **35% DA Up**",
-                            "<:Status_Veil:832602900122828840> **70% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **70% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -34718,7 +34718,7 @@
                     "name": "Full Acceleration /Gloria",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "Nina: Gain <:Status_DoubleUp:832590867734724618> **35% DA Up** and <:Status_Veil:832602900122828840> **70% Debuff Res.\nUp**.\nDragon: Restore 55% of caster's HP (Healing cap: 3000).\nEnd cooldown for other skills."
+                        "Nina: Gain <:Status_DoubleUp:832590867734724618> **35% DA Up** and <:Status_Veil:832602900122828840> **70% Debuff Res.Up**.\nDragon: Restore 55% of caster's HP (Healing cap: 3000).\nEnd cooldown for other skills."
                     ],
                     "type": [
                         "3",
@@ -35020,7 +35020,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -35029,7 +35029,7 @@
                     "name": "Radiation Bolt",
                     "obtain": " Lvl 1\u21e7 Lvl 65 \u21ee Lvl 80 ",
                     "text": [
-                        "Light damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**Damage and debuff effect increased.\nDamage and debuff effect further increased."
+                        "Light damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**Damage and debuff effect increased.\nDamage and debuff effect further increased."
                     ],
                     "type": [
                         "1"
@@ -35093,7 +35093,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -35102,7 +35102,7 @@
                     "name": "Radiation Bolt",
                     "obtain": " Lvl 1\u21e7 Lvl 65 \u21ee Lvl 80 ",
                     "text": [
-                        "Light damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**Damage and debuff effect increased.\nDamage and debuff effect further increased."
+                        "Light damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**Damage and debuff effect increased.\nDamage and debuff effect further increased."
                     ],
                     "type": [
                         "1"
@@ -38541,7 +38541,7 @@
                     "duration": {
                         "180^s": [
                             "<:Status_Blind:832583965428678656> **Blinded**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -38550,7 +38550,7 @@
                     "name": "\u00c9toile Prism",
                     "obtain": " Lvl 1\u21e7 Lvl 45 \u21ee Lvl 90 ",
                     "text": [
-                        "Water damage.\nInflict <:Status_Blind:832583965428678656> **Blinded** on a foe.\nDamage increased.\nAlso inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown** if or is in the party."
+                        "Water damage.\nInflict <:Status_Blind:832583965428678656> **Blinded** on a foe.\nDamage increased.\nAlso inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down** if or is in the party."
                     ],
                     "type": [
                         "1"
@@ -38606,7 +38606,7 @@
                     "duration": {
                         "180^s": [
                             "<:Status_Blind:832583965428678656> **Blinded**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -38615,7 +38615,7 @@
                     "name": "\u00c9toile Prism",
                     "obtain": " Lvl 1\u21e7 Lvl 45 \u21ee Lvl 90 ",
                     "text": [
-                        "Water damage.\nInflict <:Status_Blind:832583965428678656> **Blinded** on a foe.\nDamage increased.\nAlso inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown** if or is in the party."
+                        "Water damage.\nInflict <:Status_Blind:832583965428678656> **Blinded** on a foe.\nDamage increased.\nAlso inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down** if or is in the party."
                     ],
                     "type": [
                         "1"
@@ -41456,7 +41456,7 @@
                     "cooldown": " 8 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -41465,7 +41465,7 @@
                     "name": "Revelations",
                     "obtain": " Lvl 35 ",
                     "text": [
-                        "Fire damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.\nDown**."
+                        "Fire damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**."
                     ],
                     "type": [
                         "1"
@@ -41882,7 +41882,7 @@
                     "cooldown": " 5 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -41891,7 +41891,7 @@
                     "name": "Svortza",
                     "obtain": " Lvl 1\u21e7 Lvl 45 ",
                     "text": [
-                        "Small Wind damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**.\nDamage increased."
+                        "Small Wind damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**.\nDamage increased."
                     ],
                     "type": [
                         "1"
@@ -41945,7 +41945,7 @@
                     "cooldown": " 5 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -41954,7 +41954,7 @@
                     "name": "Svortza",
                     "obtain": " Lvl 1\u21e7 Lvl 45 ",
                     "text": [
-                        "Small Wind damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**.\nDamage increased."
+                        "Small Wind damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**.\nDamage increased."
                     ],
                     "type": [
                         "1"
@@ -43160,7 +43160,7 @@
                             "<:Status_Poison:832598586335428660> **Poisoned (2000)**",
                             "<:Status_Blind:832583965428678656> **Blinded**",
                             "<:Status_Poison:832598586335428660> **Poisoned (25000)**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -43169,7 +43169,7 @@
                     "name": "Immunodeficiency",
                     "obtain": " Lvl 1\u21e7 Lvl 65 \u21ee Lvl 90 ",
                     "text": [
-                        "Inflict <:Status_Poison:832598586335428660> **Poisoned (2000)** and <:Status_Blind:832583965428678656> **Blinded** on a foe.\nDebuff success rate increased to 90%.\n<:Status_Poison:832598586335428660> **Poisoned (25000)** damage increased to 25,000.\nAlso inflict <:Status_ATK_Down_4:834386310021644308> **20% ATK Down**, <:Status_DEF_Down_4:834390039806869574> **20% DEF Down**, and <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**."
+                        "Inflict <:Status_Poison:832598586335428660> **Poisoned (2000)** and <:Status_Blind:832583965428678656> **Blinded** on a foe.\nDebuff success rate increased to 90%.\n<:Status_Poison:832598586335428660> **Poisoned (25000)** damage increased to 25,000.\nAlso inflict <:Status_ATK_Down_4:834386310021644308> **20% ATK Down**, <:Status_DEF_Down_4:834390039806869574> **20% DEF Down**, and <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**."
                     ],
                     "type": [
                         "4"
@@ -43226,7 +43226,7 @@
                             "<:Status_Poison:832598586335428660> **Poisoned (2000)**",
                             "<:Status_Blind:832583965428678656> **Blinded**",
                             "<:Status_Poison:832598586335428660> **Poisoned (25000)**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ]
                     },
                     "icon": [
@@ -43235,7 +43235,7 @@
                     "name": "Immunodeficiency",
                     "obtain": " Lvl 1\u21e7 Lvl 65 \u21ee Lvl 90 ",
                     "text": [
-                        "Inflict <:Status_Poison:832598586335428660> **Poisoned (2000)** and <:Status_Blind:832583965428678656> **Blinded** on a foe.\nDebuff success rate increased to 90%.\n<:Status_Poison:832598586335428660> **Poisoned (25000)** damage increased to 25,000.\nAlso inflict <:Status_ATK_Down_4:834386310021644308> **20% ATK Down**, <:Status_DEF_Down_4:834390039806869574> **20% DEF Down**, and <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**."
+                        "Inflict <:Status_Poison:832598586335428660> **Poisoned (2000)** and <:Status_Blind:832583965428678656> **Blinded** on a foe.\nDebuff success rate increased to 90%.\n<:Status_Poison:832598586335428660> **Poisoned (25000)** damage increased to 25,000.\nAlso inflict <:Status_ATK_Down_4:834386310021644308> **20% ATK Down**, <:Status_DEF_Down_4:834390039806869574> **20% DEF Down**, and <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**."
                     ],
                     "type": [
                         "4"
@@ -44595,7 +44595,7 @@
                         "180^s": [
                             "<:Status_AttackDown:832581064211955722> **25% ATK Down**",
                             "<:Status_DefenseDown:832588131140108339> **25% DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **20% Debuff Res.\nDown**",
+                            "<:Status_DebuffResDown:832588130741125150> **20% Debuff Res.Down**",
                             "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 20%)**",
                             "<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 20%)**"
                         ]
@@ -44607,7 +44607,7 @@
                     "name": "Sixth Dance: Bizen",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
                     "text": [
-                        "Inflict <:Status_AttackDown:832581064211955722> **25% ATK Down** and <:Status_DefenseDown:832588131140108339> **25% DEF Down** on all foes.\nAlso inflict <:Status_DebuffResDown:832588130741125150> **20% Debuff Res.\nDown**.\n(From 2nd cast onward:Also inflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 20%)** and <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 20%)**.)\n"
+                        "Inflict <:Status_AttackDown:832581064211955722> **25% ATK Down** and <:Status_DefenseDown:832588131140108339> **25% DEF Down** on all foes.\nAlso inflict <:Status_DebuffResDown:832588130741125150> **20% Debuff Res.Down**.\n(From 2nd cast onward:Also inflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 20%)** and <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 20%)**.)\n"
                     ],
                     "type": [
                         "4",
@@ -44671,7 +44671,7 @@
                         "180^s": [
                             "<:Status_AttackDown:832581064211955722> **25% ATK Down**",
                             "<:Status_DefenseDown:832588131140108339> **25% DEF Down**",
-                            "<:Status_DebuffResDown:832588130741125150> **20% Debuff Res.\nDown**",
+                            "<:Status_DebuffResDown:832588130741125150> **20% Debuff Res.Down**",
                             "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 20%)**",
                             "<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 20%)**"
                         ]
@@ -44683,7 +44683,7 @@
                     "name": "Sixth Dance: Bizen",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 100 ",
                     "text": [
-                        "Inflict <:Status_AttackDown:832581064211955722> **25% ATK Down** and <:Status_DefenseDown:832588131140108339> **25% DEF Down** on all foes.\nAlso inflict <:Status_DebuffResDown:832588130741125150> **20% Debuff Res.\nDown**.\n(From 2nd cast onward:Also inflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 20%)** and <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 20%)**.)\n"
+                        "Inflict <:Status_AttackDown:832581064211955722> **25% ATK Down** and <:Status_DefenseDown:832588131140108339> **25% DEF Down** on all foes.\nAlso inflict <:Status_DebuffResDown:832588130741125150> **20% Debuff Res.Down**.\n(From 2nd cast onward:Also inflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 20%)** and <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 20%)**.)\n"
                     ],
                     "type": [
                         "4",
@@ -46393,7 +46393,7 @@
                     "duration": {
                         "1^t": [
                             "<:Status_Substitute:832601501934288916> **Substitute**",
-                            "<:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **100% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -46402,7 +46402,7 @@
                     "name": "Blaze Luminous",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "Gain <:Status_Substitute:832601501934288916> **Substitute** and <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**."
+                        "Gain <:Status_Substitute:832601501934288916> **Substitute** and <:Status_Veil:832602900122828840> **100% Debuff Res.Up**."
                     ],
                     "type": [
                         "3"
@@ -48657,7 +48657,7 @@
                     "cooldown": " 8 turns7 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**",
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**",
                             "<:Status_Poison:832598586335428660> **Poisoned**",
                             "<:Status_Burned:832584524088082433> **Burned**",
                             "<:Status_Putrefy:834402938204979240> **Putrefied**",
@@ -48680,7 +48680,7 @@
                     "name": "Depravity",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "Inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**, <:Status_Poison:832598586335428660> **Poisoned**, <:Status_Burned:832584524088082433> **Burned**, <:Status_Putrefy:834402938204979240> **Putrefied**, <:Status_Blind:832583965428678656> **Blinded**, <:Status_Charm:832585566574215168> **Charmed**, <:Status_Zombie:832603102958845972> **Zombified**, <:Status_Sleep_3:832601206353952829> **Sleep**, <:Status_Paralyzed_3:834402844928770068> **Paralyzed**, <:Status_AttackDown:832581064211955722> **25% ATK Down**, <:Status_DefenseDown:832588131140108339> **25% DEF Down**, <:Status_DoubleDown:832590867336003645> **DA Down**, <:Status_TripleDown:832601877106393089> **TA Down**, and <:Status_Death:832588130434547732> **Lethal Hit** on all foes."
+                        "Inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**, <:Status_Poison:832598586335428660> **Poisoned**, <:Status_Burned:832584524088082433> **Burned**, <:Status_Putrefy:834402938204979240> **Putrefied**, <:Status_Blind:832583965428678656> **Blinded**, <:Status_Charm:832585566574215168> **Charmed**, <:Status_Zombie:832603102958845972> **Zombified**, <:Status_Sleep_3:832601206353952829> **Sleep**, <:Status_Paralyzed_3:834402844928770068> **Paralyzed**, <:Status_AttackDown:832581064211955722> **25% ATK Down**, <:Status_DefenseDown:832588131140108339> **25% DEF Down**, <:Status_DoubleDown:832590867336003645> **DA Down**, <:Status_TripleDown:832601877106393089> **TA Down**, and <:Status_Death:832588130434547732> **Lethal Hit** on all foes."
                     ],
                     "type": [
                         "4"
@@ -48762,7 +48762,7 @@
                     "cooldown": " 8 turns7 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**",
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**",
                             "<:Status_Poison:832598586335428660> **Poisoned**",
                             "<:Status_Burned:832584524088082433> **Burned**",
                             "<:Status_Putrefy:834402938204979240> **Putrefied**",
@@ -48785,7 +48785,7 @@
                     "name": "Depravity",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "Inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**, <:Status_Poison:832598586335428660> **Poisoned**, <:Status_Burned:832584524088082433> **Burned**, <:Status_Putrefy:834402938204979240> **Putrefied**, <:Status_Blind:832583965428678656> **Blinded**, <:Status_Charm:832585566574215168> **Charmed**, <:Status_Zombie:832603102958845972> **Zombified**, <:Status_Sleep_3:832601206353952829> **Sleep**, <:Status_Paralyzed_3:834402844928770068> **Paralyzed**, <:Status_AttackDown:832581064211955722> **25% ATK Down**, <:Status_DefenseDown:832588131140108339> **25% DEF Down**, <:Status_DoubleDown:832590867336003645> **DA Down**, <:Status_TripleDown:832601877106393089> **TA Down**, and <:Status_Death:832588130434547732> **Lethal Hit** on all foes."
+                        "Inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**, <:Status_Poison:832598586335428660> **Poisoned**, <:Status_Burned:832584524088082433> **Burned**, <:Status_Putrefy:834402938204979240> **Putrefied**, <:Status_Blind:832583965428678656> **Blinded**, <:Status_Charm:832585566574215168> **Charmed**, <:Status_Zombie:832603102958845972> **Zombified**, <:Status_Sleep_3:832601206353952829> **Sleep**, <:Status_Paralyzed_3:834402844928770068> **Paralyzed**, <:Status_AttackDown:832581064211955722> **25% ATK Down**, <:Status_DefenseDown:832588131140108339> **25% DEF Down**, <:Status_DoubleDown:832590867336003645> **DA Down**, <:Status_TripleDown:832601877106393089> **TA Down**, and <:Status_Death:832588130434547732> **Lethal Hit** on all foes."
                     ],
                     "type": [
                         "4"
@@ -48867,7 +48867,7 @@
                     "cooldown": " 8 turns7 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**",
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**",
                             "<:Status_Poison:832598586335428660> **Poisoned**",
                             "<:Status_Burned:832584524088082433> **Burned**",
                             "<:Status_Putrefy:834402938204979240> **Putrefied**",
@@ -48890,7 +48890,7 @@
                     "name": "Depravity",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "Inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**, <:Status_Poison:832598586335428660> **Poisoned**, <:Status_Burned:832584524088082433> **Burned**, <:Status_Putrefy:834402938204979240> **Putrefied**, <:Status_Blind:832583965428678656> **Blinded**, <:Status_Charm:832585566574215168> **Charmed**, <:Status_Zombie:832603102958845972> **Zombified**, <:Status_Sleep_3:832601206353952829> **Sleep**, <:Status_Paralyzed_3:834402844928770068> **Paralyzed**, <:Status_AttackDown:832581064211955722> **25% ATK Down**, <:Status_DefenseDown:832588131140108339> **25% DEF Down**, <:Status_DoubleDown:832590867336003645> **DA Down**, <:Status_TripleDown:832601877106393089> **TA Down**, and <:Status_Death:832588130434547732> **Lethal Hit** on all foes."
+                        "Inflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**, <:Status_Poison:832598586335428660> **Poisoned**, <:Status_Burned:832584524088082433> **Burned**, <:Status_Putrefy:834402938204979240> **Putrefied**, <:Status_Blind:832583965428678656> **Blinded**, <:Status_Charm:832585566574215168> **Charmed**, <:Status_Zombie:832603102958845972> **Zombified**, <:Status_Sleep_3:832601206353952829> **Sleep**, <:Status_Paralyzed_3:834402844928770068> **Paralyzed**, <:Status_AttackDown:832581064211955722> **25% ATK Down**, <:Status_DefenseDown:832588131140108339> **25% DEF Down**, <:Status_DoubleDown:832590867336003645> **DA Down**, <:Status_TripleDown:832601877106393089> **TA Down**, and <:Status_Death:832588130434547732> **Lethal Hit** on all foes."
                     ],
                     "type": [
                         "4"
@@ -49402,7 +49402,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**",
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**",
                             "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**",
                             "<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**"
                         ]
@@ -49413,7 +49413,7 @@
                     "name": "Okami",
                     "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 100 ",
                     "text": [
-                        "300% Water damage to all foes (Damage cap: ~440,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**.\nDamage increased to 500%.\nDamage cap increased to ~700,000.\nAlso inflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**."
+                        "300% Water damage to all foes (Damage cap: ~440,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**.\nDamage increased to 500%.\nDamage cap increased to ~700,000.\nAlso inflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**."
                     ],
                     "type": [
                         "1"
@@ -49492,7 +49492,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**",
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**",
                             "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**",
                             "<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**"
                         ]
@@ -49503,7 +49503,7 @@
                     "name": "Okami",
                     "obtain": " Lvl 1\u21e7 Lvl 55 \u21ee Lvl 100 ",
                     "text": [
-                        "300% Water damage to all foes (Damage cap: ~440,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**.\nDamage increased to 500%.\nDamage cap increased to ~700,000.\nAlso inflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**."
+                        "300% Water damage to all foes (Damage cap: ~440,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**.\nDamage increased to 500%.\nDamage cap increased to ~700,000.\nAlso inflict <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)** and <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**."
                     ],
                     "type": [
                         "1"
@@ -52228,7 +52228,7 @@
                     "cooldown": " 6 turns ",
                     "duration": {
                         "3^t": [
-                            "<:Status_Veil:832602900122828840> **15% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **15% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -52237,7 +52237,7 @@
                     "name": "Console",
                     "obtain": " Lvl 1\u21e7 Lvl 45 \u21ee Lvl 80 ",
                     "text": [
-                        "Restore 100 + 15% of all allies' HP (Healing cap: 800).\nHealing increased to 200 + 20% HP.\nHealing cap increased to 1200.\nHealing cap further increased to 1500.\nAll allies also gain <:Status_Veil:832602900122828840> **15% Debuff Res.\nUp** and <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
+                        "Restore 100 + 15% of all allies' HP (Healing cap: 800).\nHealing increased to 200 + 20% HP.\nHealing cap increased to 1200.\nHealing cap further increased to 1500.\nAll allies also gain <:Status_Veil:832602900122828840> **15% Debuff Res.Up** and <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
                     ],
                     "type": [
                         "2"
@@ -52291,7 +52291,7 @@
                     "cooldown": " 6 turns ",
                     "duration": {
                         "3^t": [
-                            "<:Status_Veil:832602900122828840> **15% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **15% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -52300,7 +52300,7 @@
                     "name": "Console",
                     "obtain": " Lvl 1\u21e7 Lvl 45 \u21ee Lvl 80 ",
                     "text": [
-                        "Restore 100 + 15% of all allies' HP (Healing cap: 800).\nHealing increased to 200 + 20% HP.\nHealing cap increased to 1200.\nHealing cap further increased to 1500.\nAll allies also gain <:Status_Veil:832602900122828840> **15% Debuff Res.\nUp** and <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
+                        "Restore 100 + 15% of all allies' HP (Healing cap: 800).\nHealing increased to 200 + 20% HP.\nHealing cap increased to 1200.\nHealing cap further increased to 1500.\nAll allies also gain <:Status_Veil:832602900122828840> **15% Debuff Res.Up** and <:Status_Uplift:832602899460521994> **Charge Bar +10%**."
                     ],
                     "type": [
                         "2"
@@ -52448,7 +52448,7 @@
                     "cooldown": " 8 turns7 turns ",
                     "duration": {
                         "2^t": [
-                            "<:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**"
+                            "<:Status_Veil:832602900122828840> **100% Debuff Res.Up**"
                         ]
                     },
                     "icon": [
@@ -52457,7 +52457,7 @@
                     "name": "Rice Puddin'",
                     "obtain": " Lvl 1\u21e7 Lvl 65 ",
                     "text": [
-                        "Look what I made!(Restore 10% of all allies' HP [Healing cap: 1000].\nAll allies gain <:Status_Veil:832602900122828840> **100% Debuff Res.\nUp**.)\n"
+                        "Look what I made!(Restore 10% of all allies' HP [Healing cap: 1000].\nAll allies gain <:Status_Veil:832602900122828840> **100% Debuff Res.Up**.)\n"
                     ],
                     "type": [
                         "2"
@@ -54562,7 +54562,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**"
                         ],
                         "2^t": [
                             "<:Status_Accuracy_Lowered_2:834386454578593813> **Accuracy Lowered**"
@@ -54574,7 +54574,7 @@
                     "name": "Shining Star",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "350-400% Dark damage to a foe (Damage cap: ~500,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)** and <:Status_Accuracy_Lowered_2:834386454578593813> **Accuracy Lowered**.\nEffect enhanced."
+                        "350-400% Dark damage to a foe (Damage cap: ~500,000).\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)** and <:Status_Accuracy_Lowered_2:834386454578593813> **Accuracy Lowered**.\nEffect enhanced."
                     ],
                     "type": [
                         "1"
@@ -54761,7 +54761,7 @@
                     "cooldown": " 7 turns6 turns ",
                     "duration": {
                         "180^s": [
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down**"
                         ],
                         "4^t": [
                             "<:Status_Arvess_Fermare_4:834387209632874517> **Arvess Fermare**"
@@ -54777,7 +54777,7 @@
                     "name": "Rhymes",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Gain <:Status_AttackUp:832581064555364362> **ATK Up**.\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown** and <:Status_Arvess_Fermare_4:834387209632874517> **Arvess Fermare** on a foe.\nBuff increased to <:Status_AttackUp:832581064555364362> **40% ATK Up**."
+                        "Gain <:Status_AttackUp:832581064555364362> **ATK Up**.\nInflict <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down** and <:Status_Arvess_Fermare_4:834387209632874517> **Arvess Fermare** on a foe.\nBuff increased to <:Status_AttackUp:832581064555364362> **40% ATK Up**."
                     ],
                     "type": [
                         "3"
@@ -55025,7 +55025,7 @@
                         "180^s": [
                             "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**",
                             "<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**"
                         ]
                     },
                     "icon": [
@@ -55034,7 +55034,7 @@
                     "name": "Thunder",
                     "obtain": " Lvl 35 ",
                     "text": [
-                        "Fire damage to all foes (Damage cap: ~480,000).\nRandomly inflict one of three debuffs:<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**,<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**, or<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**."
+                        "Fire damage to all foes (Damage cap: ~480,000).\nRandomly inflict one of three debuffs:<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**,<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**, or<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**."
                     ],
                     "type": [
                         "1"
@@ -55096,7 +55096,7 @@
                         "180^s": [
                             "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**",
                             "<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**"
                         ]
                     },
                     "icon": [
@@ -55105,7 +55105,7 @@
                     "name": "Thunder",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "300% Dark damage to all foes (Damage cap: ~470,000).\nRandomly inflict one of three debuffs:<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**,<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**, or<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**."
+                        "300% Dark damage to all foes (Damage cap: ~470,000).\nRandomly inflict one of three debuffs:<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**,<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 30%)**, or<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**."
                     ],
                     "type": [
                         "1"
@@ -55167,7 +55167,7 @@
                         "180^s": [
                             "<:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**",
                             "<:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 25%)**",
-                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**"
+                            "<:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**"
                         ]
                     },
                     "icon": [
@@ -55176,7 +55176,7 @@
                     "name": "Thunder",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "300%-350% Light damage to all foes (Damage cap: ~470,000).\nRandomly inflict one of three debuffs: <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**, <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 25%)**, or <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.\nDown (Stack / Max: 30%)**."
+                        "300%-350% Light damage to all foes (Damage cap: ~470,000).\nRandomly inflict one of three debuffs: <:Status_AttackDownStack:832581064017969162> **10% ATK Down (Stackable / Max: 30%)**, <:Status_DefenseDownStack:832588193722400818> **10% DEF Down (Stackable / Max: 25%)**, or <:Status_DebuffResDown:832588130741125150> **10% Debuff Res.Down (Stack / Max: 30%)**."
                     ],
                     "type": [
                         "1"
