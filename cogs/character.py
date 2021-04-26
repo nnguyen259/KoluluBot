@@ -121,10 +121,13 @@ class Character(commands.Cog):
                         for ougiDurationText in ougiList["duration"][ougiDuration]:
                                 duration+= f'{ougiDurationText} and '
                         duration = duration[:-4]
-                        if ougiDuration != "Indefinite":
-                            duration += f': {ougiDuration} turns.\n'
+                        duration += f': {ougiDuration}.\n'
+                        duration = duration.replace('^s', ' seconds')
+                        duration = duration.replace('^i', '')
+                        if ougiDuration == '1^t':
+                            duration = duration.replace('^t', ' turn')
                         else:
-                            duration += f': {ougiDuration}.\n'
+                            duration = duration.replace('^t', ' turns')
                     ougiEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
 
         ougiEmbed.title="Charge Attack"
@@ -153,6 +156,22 @@ class Character(commands.Cog):
                 skillEmbed.add_field(name=skill['name'], value='\n'.join(skill['text']), inline=False)
                 skillEmbed.set_thumbnail(url=f'{skill["icon"][-1]}')
                 skillEmbed.set_image(url=self.chars[name][version]['image'])
+
+                if skill['duration']:
+                    duration = ''
+                    for skillDuration in skill['duration']:
+                        for skillDurationText in skill["duration"][skillDuration]:
+                                duration+= f'{skillDurationText} and '
+                        duration = duration[:-4]
+                        duration += f': {skillDuration}.\n'
+                        duration = duration.replace('^s', ' seconds')
+                        duration = duration.replace('^i', '')
+                        if skillDuration == '1^t':
+                            duration = duration.replace('^t', ' turn')
+                        else:
+                            duration = duration.replace('^t', ' turns')
+                    skillEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
+
 
             embedList.append(skillEmbed)
 
@@ -184,6 +203,20 @@ class Character(commands.Cog):
                 supportEmbed.description= f'{supportText}'
                 supportEmbed.set_thumbnail(url=f'{supportList["thumbnail"]}')
                 supportEmbed.set_image(url=self.chars[name][version]['image'])
+                if supportList["duration"]:
+                    duration = ''
+                    for supportDuration in supportList["duration"]:
+                        for supportDurationText in supportList["duration"][supportDuration]:
+                                duration+= f'{supportDurationText} and '
+                        duration = duration[:-4]
+                        duration += f': {supportDuration}.\n'
+                        duration = duration.replace('^s', ' seconds')
+                        duration = duration.replace('^i', '')
+                        if supportDuration == '1^t':
+                            duration = duration.replace('^t', ' turn')
+                        else:
+                            duration = duration.replace('^t', ' turns')
+                    supportEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
                 embedList.append(supportEmbed)
 
         if noShow:
