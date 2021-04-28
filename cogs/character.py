@@ -28,7 +28,6 @@ class Character(commands.Cog):
     @commands.Cog.listener()
     async def on_ready(self):
         await self.reload()
-        print('Character module is ready.')
 
     @commands.group(aliases=['c', 'character'])
     async def char(self, ctx : Context):
@@ -46,10 +45,13 @@ class Character(commands.Cog):
 
     @char.command()
     async def info(self, ctx, name : str, version=None, uncap='6'):
-        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
+        if noVersion:
+            await self.sendDefault(ctx, name)
+        await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.chars[name][version]
 
         name = name.title()
@@ -58,7 +60,7 @@ class Character(commands.Cog):
         embedList = []
 
         #Main embed
-        title = f'{self.emojis["Rarity"][charVersion["rarity"]]} '
+        title = f'{self.emojis["Rarity"][charVersion["rarity"].upper()]} '
         for series in charVersion['series']:
             title += f'{self.emojis["Series"][series]} '
         if (version != 'Base'):
@@ -93,6 +95,7 @@ class Character(commands.Cog):
         embedList.append(await self.ougi(ctx, name, version, uncap, noShow=True))
         embedList.extend(await self.skill(ctx, name, version, uncap, noShow=True))
         embedList.extend(await self.support(ctx, name, version, uncap, noShow=True))
+        embedList.append(await self.emp(ctx, name, version, uncap, noShow=True))
 
         paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
         paginator.add_reaction('⏮️', "first")
@@ -105,10 +108,13 @@ class Character(commands.Cog):
 
     @char.command()
     async def ougi(self, ctx, name :str, version=None, uncap='6', noShow=False):
-        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
+        if noVersion:
+            await self.sendDefault(ctx, name)
+        await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.ougis[name][version]
 
         ougiEmbed = discord.Embed()
@@ -141,10 +147,13 @@ class Character(commands.Cog):
 
     @char.command()
     async def skill(self, ctx, name, version=None, uncap='6', noShow=False):
-        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
+        if noVersion:
+            await self.sendDefault(ctx, name)
+        await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.skills[name][version]
 
         embedList = []
@@ -189,10 +198,13 @@ class Character(commands.Cog):
 
     @char.command()
     async def support(self, ctx, name :str, version=None, uncap='6', noShow=False):
-        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
+        if noVersion:
+            await self.sendDefault(ctx, name)
+        await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.supportSkills[name][version]
 
         embedList = []
@@ -232,14 +244,17 @@ class Character(commands.Cog):
             await paginator.run(embedList)
 
     @char.command()
-    async def emp(self, ctx, name : str, version=None, uncap='6'):
+    async def emp(self, ctx, name : str, version=None, uncap='6', noShow=False):
         from PIL import Image, ImageDraw, ImageFont
         import urllib.request, os
 
-        name, version, uncap = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
+        if noVersion:
+            await self.sendDefault(ctx, name)
+        await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.emps[name][version]
 
         try:
@@ -301,7 +316,9 @@ class Character(commands.Cog):
         embed.title = '__Extended Mastery Perks__'
         embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
         embed.set_image(url="attachment://emp.png")
-
+        
+        if noShow:
+            return embed
         await ctx.send(file=file, embed=embed)
 
     @char.command(hidden=True)
@@ -312,10 +329,12 @@ class Character(commands.Cog):
 
     @char.command()
     async def art(self, ctx, name, version=None):
-        name, version, uncap = self.getCharVersion(ctx, name, version)
+        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, None)
         if not name:
             await ctx.send('Character not found!')
             return
+        if noVersion:
+            await self.sendDefault(ctx, name)
         charVersion = self.chars[name][version]
         charId = charVersion['id']
         maxVersion = 2
@@ -354,12 +373,12 @@ class Character(commands.Cog):
         import sqlite3
         from contextlib import closing
 
-        if version:
-            version = version.upper()
-        name, versionTemp, uncap = self.getCharVersion(ctx, name, version)
+        name, versionTemp, uncap, noVersion = self.getCharVersion(ctx, name, version)
         if not name:
             await ctx.send('Character not found!')
             return
+        if noVersion:
+            await self.sendDefault(ctx, name)
         alias = alias.lower()
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
@@ -416,12 +435,12 @@ class Character(commands.Cog):
         import sqlite3
         from contextlib import closing
 
-        if version:
-            version = version.upper()
-        name, version, uncap = self.getCharVersion(ctx, name, version)
+        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, None)
         if not name:
             await ctx.send('Character not found!')
             return
+        if noVersion:
+            await self.sendDefault(ctx, name)
 
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
@@ -443,23 +462,24 @@ class Character(commands.Cog):
                 msg += '\n'.join(results)
                 await ctx.send(msg)
 
-    def getCharVersion(self, ctx, name, version='BASE', uncap='6'):
+    def getCharVersion(self, ctx, name, version, uncap):
+        uncaps = {'4', '5', '6', 'MLB', 'FLB', 'ULB'}
+        noVersion = False
+
         name = name.lower()
         if not uncap:
             uncap = '6'
         if version:
-            if version == '6' or version.upper() == 'ULB':
-                version = 'BASE'
-                uncap = '6'
-            elif version == '5' or version.upper() == 'FLB':
-                version = 'BASE'
-                uncap = '5'
-            elif version == '4' or version.upper() == 'MLB':
-                version = 'BASE'
-                uncap = '4'
             version = version.upper()
-        else:
-            uncap = '6'
+            if version in uncaps:
+                noVersion = True
+                if version in {'4', 'MLB'}:
+                    uncap = '4'
+                elif version in {'5', 'FLB'}:
+                    uncap = '5'
+                else:
+                    uncap = '6'
+                version = 'BASE'
 
         if uncap.upper() == 'MLB':
             uncap = '4'
@@ -487,19 +507,36 @@ class Character(commands.Cog):
                         name = result[0]
                         version = result[1].upper()
                     else:
-                        return None, version, uncap
+                        return None, version, uncap, noVersion
 
         char = self.chars[name]
         if not version or version not in char:
             version = 'BASE'
+            noVersion = True
         if uncap == '4' and (char[version]['max_evo'] == '5' or char[version]['max_evo'] == '6'):
             if not version.endswith('_4'):
                 version += '_4'
         elif uncap == '5' and char[version]['max_evo'] == '6':
             if not version.endswith('_5'):
                 version += '_5'
-        return name, version, uncap
+        return name, version, uncap, noVersion
 
+    async def sendDefault(self, ctx, name):
+        versions = ', '.join((ver.title() for ver in self.chars[name] if '_' not in ver))
+        await ctx.send(f'Version not specified or not found for character **{name.title()}**, using the default version. \nValid versions for character **{name.title()}: {versions}**')
+
+    async def sendUncap(self, ctx, name, version, uncap):
+        charVersion = self.chars[name][version]
+        maxUncap = int(charVersion["max_evo"])
+        currentUncap = int(uncap)
+
+        if maxUncap < 5 or currentUncap > maxUncap: return
+
+        if maxUncap == currentUncap:
+            msg = f'Showing the highest uncap for character **{name.title()} ({version.title()})**. For lower uncap add 5 or 4 to the end of the command.'
+        else:
+            msg = f'Showing the {currentUncap}* uncap for character **{name.title()} ({version.title()})**.'
+        await ctx.send(msg)
 
 def setup(client):
     client.add_cog(Character(client))

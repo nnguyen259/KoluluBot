@@ -14,6 +14,8 @@ def test_entry_exist_across_all_jsons():
         assert character in skills, f'Character {character} not found in skill'
         assert character in emps, f'Character {character} not found in emp'
         for version in characters[character]:
+            if '_' in version:
+                assert version[:-2] in characters[character], f'Version {version} exists without base for character {character}'
             assert version in ougis[character], f'Version {version} not found for character {character} in ougi'
             assert version in supports[character], f'Version {version} not found for character {character} in support skill'
             assert version in skills[character], f'Version {version} not found for character {character} in skill'
