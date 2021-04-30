@@ -95,7 +95,8 @@ class Character(commands.Cog):
         embedList.append(await self.ougi(ctx, name, version, uncap, noShow=True))
         embedList.extend(await self.skill(ctx, name, version, uncap, noShow=True))
         embedList.extend(await self.support(ctx, name, version, uncap, noShow=True))
-        embedList.append(await self.emp(ctx, name, version, uncap, noShow=True))
+        #TODO: Look into ImgurAPI for this
+        # embedList.append(await self.emp(ctx, name, version, uncap, noShow=True))
 
         paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
         paginator.add_reaction('⏮️', "first")
@@ -114,7 +115,8 @@ class Character(commands.Cog):
             return
         if noVersion:
             await self.sendDefault(ctx, name)
-        await self.sendUncap(ctx, name, version, uncap)
+        if not noShow:
+            await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.ougis[name][version]
 
         ougiEmbed = discord.Embed()
@@ -153,7 +155,8 @@ class Character(commands.Cog):
             return
         if noVersion:
             await self.sendDefault(ctx, name)
-        await self.sendUncap(ctx, name, version, uncap)
+        if not noShow:
+            await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.skills[name][version]
 
         embedList = []
@@ -204,7 +207,8 @@ class Character(commands.Cog):
             return
         if noVersion:
             await self.sendDefault(ctx, name)
-        await self.sendUncap(ctx, name, version, uncap)
+        if not noShow:
+            await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.supportSkills[name][version]
 
         embedList = []
@@ -254,7 +258,8 @@ class Character(commands.Cog):
             return
         if noVersion:
             await self.sendDefault(ctx, name)
-        await self.sendUncap(ctx, name, version, uncap)
+        if not noShow:
+            await self.sendUncap(ctx, name, version, uncap)
         charVersion = self.emps[name][version]
 
         try:
