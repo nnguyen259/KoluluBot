@@ -3,7 +3,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "3^t": [
                             "<:Status_6917:834407515248263168> **Bobo, Over Here!**"
@@ -15,7 +15,7 @@
                     "name": "Bobo, Over Here!",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Gain <:Status_6917:834407515248263168> **Bobo, Over Here!**()"
+                        "Gain <:Status_6917:834407515248263168> **Bobo, Over Here!**\n (Bobo will provide aid in various ways while in effect.)\n **Bobo, Over Here!:**\n **Upon taking damage**: Restore 20% of Abby's HP (Healing cap: 2000).\n**When debuffed at turn start**: Remove 1 debuff from Abby.\n**When foe uses a special attack**: Grant Abby <:Status_Shield:832599448872943648> **Shield** (3000).\n"
                     ],
                     "type": [
                         "3"
@@ -24,7 +24,7 @@
             ],
             [
                 {
-                    "cooldown": " 14 turns13 turns ",
+                    "cooldown": "13 turns ",
                     "duration": {
                         "6^t": [
                             "<:Status_AttackUp:832581064555364362> **100% ATK Up**",
@@ -144,7 +144,6 @@
                             "<:Status_Substitute:832601501934288916> **Substitute**"
                         ],
                         "3^t": [
-                            "<:Status_DefenseUp:832588447800885249> **DEF Up**",
                             "<:Status_Counter:832587321567477780> **Counters on DMG (3 times)**",
                             "<:Status_DefenseUp:832588447800885249> **40% DEF Up**"
                         ]
@@ -155,7 +154,7 @@
                     "name": "Fortitude",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Gain <:Status_Substitute:832601501934288916> **Substitute**, <:Status_DefenseUp:832588447800885249> **DEF Up**, and <:Status_Counter:832587321567477780> **Counters on DMG (3 times)**.\nBuff increased to <:Status_DefenseUp:832588447800885249> **40% DEF Up**."
+                        "Gain <:Status_Substitute:832601501934288916> **Substitute**, <:Status_DefenseUp:832588447800885249> **40% DEF Up**, and <:Status_Counter:832587321567477780> **Counters on DMG (3 times)**.\n"
                     ],
                     "type": [
                         "3"
@@ -176,7 +175,7 @@
                     "name": "Turn the Tables",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "Fire damage to a foe based on how low Agielba's HP is (Damage cap: ~680,000).\nGain <:Status_Jammed:832595932305424394> **Jammed**.\nDamage increased to 300%-800%"
+                        " 300%-800% Fire damage to a foe based on how low Agielba's HP is (Damage cap: ~680,000).\nGain <:Status_Jammed:832595932305424394> **Jammed**."
                     ],
                     "type": [
                         "1"
@@ -211,7 +210,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 6 turns5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/725_1.png"
@@ -228,7 +227,7 @@
             ],
             [
                 {
-                    "cooldown": " 8 turns7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_FireAtkDown:832592559666626590> **20% Fire ATK Down**"
@@ -252,7 +251,7 @@
             ],
             [
                 {
-                    "cooldown": " 6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "3^t": [
                             "<:Status_Strength:832601501335289908> **Strength**",
@@ -277,7 +276,7 @@
         "VALENTINE": [
             [
                 {
-                    "cooldown": " 8 turns7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1387_1.png"
@@ -285,7 +284,7 @@
                     "name": "Gestober",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "500% Light damage to a foe (Damage cap: ~635,000).\nAll allies gain <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** and a .\n(Gain additional buffs based on Aglovale's number of <:Status_Aurora_Crest:832580994745630741> **Aurora Crest**.)\n"
+                        "500% Light damage to a foe (Damage cap: ~635,000).\nAll allies gain <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** and a random buff.\n(Gain additional buffs based on Aglovale's number of <:Status_Aurora_Crest:832580994745630741> **Aurora Crest**.)\n Randomly provides one of the following effects for 3 turns:\n <:Status_Strength:832601501335289908> **Strength**.\n<:Status_Revitalize:832599167606980638> **Revitalize**.\n<:Status_Dark_Cut_20:832587991124803604> **20% Dark Cut**.\n<:Status_DebuffSuccessUp:832588130745319448> **Debuff Success Boosted**.\n<:Status_Veil:832602900122828840> **Veil**.\n<:Status_Uplift:832602899460521994> **Charge Bar +20%**.\n Each <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** grants an additional buff when the skill is activated.\n All buffs are granted when Aglovale has 5 <:Status_Aurora_Crest:832580994745630741> **Aurora Crest**."
                     ],
                     "type": [
                         "1"
@@ -294,7 +293,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_AttackDownStack:832581064017969162> **5% ATK Down (Stackable / Max: 40%)**",
@@ -316,7 +315,7 @@
             ],
             [
                 {
-                    "cooldown": " 10 turns ",
+                    "cooldown": "10 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1389_1.png"
@@ -645,6 +644,68 @@
                     ]
                 }
             ]
+        ],
+        "DARK": [
+            [
+                {
+                    "cooldown": "5 turns ",
+                    "duration": {
+                        "180^s": [
+                            "<:Status_7129_1:838040523960877066> **Thunderstruck**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1465_1.png"
+                    ],
+                    "name": "Electron Storm",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "400% Dark damage to all foes (Damage cap: ~635,000).\nRaise foes' <:Status_7129_1:838040523960877066> **Thunderstruck** lvl by 1 (Max: 10).\nInflict <:Status_Gravity:832593788052177016> **Delay**."
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": "7 turns",
+                    "duration": {
+                        "180^s": [
+                            "<:Status_DarkResDown:834390039550623774> **25% Dark DEF Down**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1466_1.png"
+                    ],
+                    "name": "Lightning Rage",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "6-hit, 150% Dark damage to a foe (Damage cap: ~180,000 per hit).\nInflict <:Status_DarkResDown:834390039550623774> **25% Dark DEF Down**.\n (**When the foe's <:Status_7129_1:838040523960877066> Thunderstruck lvl is 5 or above**: Hit number increases to 12.)"
+                    ],
+                    "type": [
+                        "1"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": " 10 turns ",
+                    "duration": {},
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1467_1.png"
+                    ],
+                    "name": "Impulse Raid",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "600% Dark damage to a foe (Damage cap: ~800,000).\nGain Instant Charge.\nEnd cooldown for other skills."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            []
         ],
         "EVENT": [
             [
@@ -33491,6 +33552,81 @@
                     ]
                 }
             ]
+        ],
+        "GRAND": [
+            [
+                {
+                    "cooldown": "Linked Skill: 6 turns",
+                    "duration": {
+                        "4^t": [
+                            "<:Status_Butterfly:834389295543353404> **Butterfly Effect**",
+                            "<:Status_7122:838031432470364170> **Piercing Sight**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1460_3.png"
+                    ],
+                    "name": "Effervescent Hibiscus",
+                    "obtain": " Lvl 1\u21e7 Lvl 55 ",
+                    "text": [
+                        "Gain <:Status_Butterfly:834389295543353404> **Butterfly Effect** and <:Status_7122:838031432470364170> **Piercing Sight**.\n<:Status_Butterfly:834389295543353404> **Butterfly Effect**: Deals 100% bonus superior element DMG for one-foe one-ally attacks.\n<:Status_7122:838031432470364170> **Piercing Sight**: Elemental DMG dealt will be treated as superior to the target's element."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": "Linked Skill: 6 turns",
+                    "duration": {
+                        "1^t": [
+                            "<:Status_Substitute:832601501934288916> **Substitute (All-Ally)**"
+                        ],
+                        "5^t": [
+                            "<:Status_Counter_DodgeDMG:832587064579063858> **Counters on Dodge/DMG (5 times)**",
+                            "<:Status_Repel:832599166844403743> **50% Repel**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1461_3.png"
+                    ],
+                    "name": "Isolated Idling",
+                    "obtain": " Lvl 1\u21e7 Lvl 75 ",
+                    "text": [
+                        "Gain <:Status_Substitute:832601501934288916> **Substitute (All-Ally)**, <:Status_Counter_DodgeDMG:832587064579063858> **Counters on Dodge/DMG (5 times)**, and <:Status_Repel:832599166844403743> **50% Repel**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            [
+                {
+                    "cooldown": "6 turns",
+                    "duration": {
+                        "1^t": [
+                            "<:Status_Falling_Mist:834392210152620063> **Falling Mist**"
+                        ],
+                        "3^t": [
+                          "<:Status_CriticalUp:832587322133970986> **100%/20% Critical Hit Rate Up**",
+                          "<:Status_Keen:832595932620783736> **Keen**"
+                        ]
+                    },
+                    "icon": [
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/1462_3.png"
+                    ],
+                    "name": "Dance of Pink Petals",
+                    "obtain": " Lvl 45 ",
+                    "text": [
+                        "Gain <:Status_Falling_Mist:834392210152620063> **Falling Mist**, <:Status_CriticalUp:832587322133970986> **100%/20% Critical Hit Rate Up**, and <:Status_Keen:832595932620783736> **Keen**."
+                    ],
+                    "type": [
+                        "3"
+                    ]
+                }
+            ],
+            []
         ],
         "HOLIDAY": [
             [

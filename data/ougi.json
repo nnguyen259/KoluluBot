@@ -29,7 +29,7 @@
                 },
                 "name": "Final Dawn",
                 "text": [
-                    "Massive Fire damage to a foe.\nGain <:Status_Armored:832577248602095656> **100% / 80% Armored** for ."
+                    "Massive Fire damage to a foe.\nGain <:Status_Armored:832577248602095656> **100% / 80% Armored**."
                 ]
             }
         ]
@@ -103,6 +103,19 @@
                 "name": "Lord of Blitz",
                 "text": [
                     "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Light DMG**."
+                ]
+            }
+        ],
+        "DARK": [
+            {
+                "duration": {
+                    "3.5^t": [
+                        "<:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG**"
+                    ]
+                },
+                "name": "Lord of Blitz",
+                "text": [
+                    "450% Dark damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG**.\nEnd cooldown for Electron Storm."
                 ]
             }
         ],
@@ -5931,6 +5944,19 @@
                 ]
             }
         ],
+        "GRAND": [
+            {
+                "duration": {
+                    "1.5^t": [
+                        "<:Status_Routine_Step:834403944415100928> **Double Strike**"
+                    ]
+                },
+                "name": "Butterfly Effect: Dragonsbane",
+                "text": [
+                    "1250% Wind damage to a foe (Damage cap: ~2,900,000).\n2-turn cut to Narmaya's skill cooldowns.\n Gain <:Status_Routine_Step:834403944415100928> **Double Strike**."
+                ]
+            }
+        ],
         "HOLIDAY": [
             {
                 "duration": {
@@ -9309,7 +9335,7 @@
                 "text": [
                     "500% Water damage to a foe.\nEnd Tough Guy mode."
                 ]
-            }        
+            }
         ]
     },
     "Yodarha": {

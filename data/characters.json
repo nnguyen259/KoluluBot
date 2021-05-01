@@ -12,7 +12,7 @@
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040284000_02.png",
             "jpname": "\u30a2\u30d3\u30fc",
             "max_evo": "4",
-            "name": "Abby",
+            "name": "Abby (SSR)",
             "profile": "There once was a lumberjack who had a giant axe. She was friends with a bear who had a giant heart. The lumberjack was very strong, and she could drive away anything that threatened to tear her and the bear apart. But little did she know that friendships do not crack from without so often as they crumble from within...",
             "race": [
                 "Human"
@@ -42,7 +42,7 @@
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3030011000_02.png",
             "jpname": "\u30a2\u30d3\u30fc",
             "max_evo": "4",
-            "name": "Abby",
+            "name": "Abby (Promo)",
             "profile": "This young girl travels with a gigantic bear named Bobo. Their adventures together created a special bond and they are now inseparable.",
             "race": [
                 "Human"
@@ -137,7 +137,7 @@
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040322000_02.png",
             "jpname": "\u30a2\u30b0\u30ed\u30f4\u30a1\u30eb",
             "max_evo": "4",
-            "name": "Aglovale",
+            "name": "Aglovale (Valentine)",
             "profile": "The ruler of a mighty kingdom stands among a sea of gifts from his many admirers. Delighted by these sparkling tokens of their adoration and affection, his expression brims with confidence and pride.",
             "race": [
                 "Human"
@@ -286,6 +286,36 @@
                 "Hikaru Midorikawa"
             ],
             "weapon": "Hauteclaire"
+        },
+        "DARK": {
+            "5star": "No",
+            "atk": "11,275",
+            "element": "Dark",
+            "gender": [
+                "Male"
+            ],
+            "hp": "945",
+            "id": "3030177000",
+            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040334000_02.png",
+            "jpname": "\u30a2\u30eb\u30d9\u30fc\u30eb",
+            "max_evo": "4",
+            "name": "Albert (Dark)",
+            "profile": "The Thunderswift Lord never stops battling. He firmly believes the journey he's been on thus far is tied to a glorious future. His burning ambitions scatter dark clouds, bringing sunshine to his homeland.",
+            "race": [
+                "Human"
+            ],
+            "rarity": "SSR",
+            "recruitment": "Premium Draw",
+            "series": [],
+            "specialties": [
+                "Sabre"
+            ],
+            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040334000_02.jpg",
+            "type": "Attack",
+            "va": [
+                "Hikaru Midorikawa"
+            ],
+            "weapon":"Schwarz Lightning"
         },
         "EVENT": {
             "5star": "No",
@@ -15626,6 +15656,38 @@
                 "Mao Ichimichi"
             ],
             "weapon": "Venustas"
+        },
+        "GRAND": {
+            "5star": "No",
+            "atk": "11,830",
+            "element": "Wind",
+            "gender": [
+                "Female"
+            ],
+            "hp": "1,000",
+            "id": "3040335000",
+            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040335000_02.png",
+            "jpname": "\u30ca\u30eb\u30e1\u30a2",
+            "max_evo": "4",
+            "name": "Narmaya (Grand)",
+            "profile": "This sword master returns to her roots in an attempt to break through the wall that hinders her progress. Each restored memory of her past encounters becomes a stepping stone, allowing her to ascend to greater heights.",
+            "race": [
+                "Draph"
+            ],
+            "rarity": "SSR",
+            "recruitment": "Premium Gala",
+            "series": [
+                "grand"
+            ],
+            "specialties": [
+                "Katana"
+            ],
+            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040335000_02.jpg",
+            "type": "Attack",
+            "va": [
+                "Mao Ichimichi"
+            ],
+            "weapon": "Evanescence"
         },
         "HOLIDAY": {
             "5star": "No",

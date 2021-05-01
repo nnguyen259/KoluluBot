@@ -224,6 +224,29 @@
                 "supportskill"
             ]
         ],
+        "DARK": [
+            [
+                "atk",
+                "def",
+                "da",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "da",
+                "crithit"
+            ],
+            [
+                "ta",
+                "ta",
+                "skilldmg",
+                "skilldmgcap",
+                "lock"
+            ]
+        ],
         "EVENT": [
             [
                 "atk",
@@ -11813,6 +11836,29 @@
                 "reflect",
                 "hostilitydown",
                 "supportskill"
+            ]
+        ],
+        "GRAND": [
+            [
+                "atk",
+                "def",
+                "crithit",
+                "crithit",
+                "cadmg"
+            ],
+            [
+                "atk",
+                "def",
+                "hp",
+                "crithit",
+                "earthdmg"
+            ],
+            [
+                "atk",
+                "enmity",
+                "stamina",
+                "cadmgcap",
+                "lock"
             ]
         ],
         "HOLIDAY": [
