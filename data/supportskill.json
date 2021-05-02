@@ -5,7 +5,7 @@
                 "duration": {},
                 "name": "Eat My Axe!",
                 "text": [
-                    "When Abby has <:Status_Strength:832601501335289908> **Strength** before attacking: 30% boost to C.A. damage, 10% boost to C.A. damage cap, and refresh effect (Healing cap: 500)."
+                    "**When Abby has <:Status_Strength:832601501335289908>** **Strength** **before attacking:** 30% boost to C.A. damage, 10% boost to C.A. damage cap, and refresh effect (Healing cap: 500)."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -13,7 +13,7 @@
                 "duration": {},
                 "name": "Split 'Em in Two!",
                 "text": [
-                    "Big boost to all allies' ATK based on how high Abby's HP is."
+                    "Big boost to all allies' ATK based on how high Abby's HP is.\n100% : 15%\n95%: ~12.7%\n90%: ~10.6%\n85%: ~8.8%\n80%: ~7.2%\n75%: ~5.8%\n70%: ~4.7%\n65%: ~3.7%\n60%: ~2.8%\n55%: ~2.1%\n50%: ~1.5%\n<50%: 0%"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -63,7 +63,7 @@
                 "duration": {},
                 "name": "Dynast's Mien",
                 "text": [
-                    "based on Aglovale's number of <:Status_Deluge_Crest:832588448954187776> **Deluge Crest**."
+                    "Boost to Water ATK based on Aglovale's number of <:Status_Deluge_Crest:832588448954187776> **Deluge Crest**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -93,7 +93,7 @@
                 "duration": {},
                 "name": "King's Strike",
                 "text": [
-                    "Gain these effects in order based on number of <:Status_Aurora_Crest:832580994745630741> **Aurora Crest**:30% boost to ATK, 100% boost to DEF, guaranteed double attacks, supplement damage dealt (Damage cap: 10,000), 30% boost to skill damage cap."
+                    "**Gain these effects in order based on number of <:Status_Aurora_Crest:832580994745630741>** **Aurora Crest**:30% boost to ATK, 100% boost to DEF, guaranteed double attacks, supplement damage dealt (Damage cap: 10,000), 30% boost to skill damage cap."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             },
@@ -105,7 +105,7 @@
                 },
                 "name": "Lord of Frost Agleam",
                 "text": [
-                    "Upon chain burst activation: All allies gain <:Status_Aurora_Crest_1:832580994358837319> **Aurora Crest**.\n(Takes effect even when Aglovale is a sub ally.)\n"
+                    "**Upon chain burst activation**: All allies gain <:Status_Aurora_Crest_1:832580994358837319> **Aurora Crest**.\n(Takes effect even when Aglovale is a sub ally.)\n"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
@@ -222,6 +222,24 @@
                     "Chance to attack even when Albert has <:Status_Paralysis:832598585161941033> **Electrified**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "DARK": [
+            {
+                "duration": {},
+                "name": "Levin Lord",
+                "text": [
+                    "Immune to <:Status_Paralysis:832598585161941033> **Paralyzed**.\nBoost to multiattack rate based on foe's <:Status_7129_1:838040523960877066> **Thunderstruck** lvl.(**When lvl is 5 or above**: Chance to deal quadruple attacks.)"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Electrifying Feats",
+                "text": [
+                    "Boost to Dark allies' skill specs based on foe's <:Status_7129_1:838040523960877066> **Thunderstruck** lvl.(Takes effect even when Albert is a sub ally.)"
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ],
         "EVENT": [
@@ -11488,6 +11506,24 @@
                     "Boost to critical hit rate against foes with <:Status_4002_11:832574900349698090> **Kaleidoscope**."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+            }
+        ],
+        "GRAND": [
+            {
+                "duration": {},
+                "name": "No Matter What It Takes",
+                "text": [
+                    "No charge bar gain upon normal attacks, amplify normal attack damage by 20%, guaranteed triple attacks, and buffs can't be removed."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+            },
+            {
+                "duration": {},
+                "name": "Draped in Butterflies",
+                "text": [
+                    "**For Wind allies' critical hits**: 3% boost to damage cap and 10% Bonus Wind DMG effect."
+                ],
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
             }
         ],
         "HOLIDAY": [
