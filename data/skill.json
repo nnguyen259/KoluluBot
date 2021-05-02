@@ -33651,10 +33651,26 @@
                     "name": "Effervescent Hibiscus",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Gain <:Status_Butterfly:834389295543353404> **Butterfly Effect** and <:Status_7122:838031432470364170> **Piercing Sight**.\n<:Status_Butterfly:834389295543353404> **Butterfly Effect**: Deals 100% bonus superior element DMG for one-foe one-ally attacks.\n<:Status_7122:838031432470364170> **Piercing Sight**: Elemental DMG dealt will be treated as superior to the target's element."
+                        "Gain <:Status_Butterfly:834389295543353404> **Butterfly Effect** and <:Status_7122:838031432470364170> **Piercing Sight**.\n"
                     ],
                     "type": [
                         "3"
+                    ],
+                    "data":[
+                        {
+                            "inLine" : true,
+                            "title" : "<:Status_Butterfly:834389295543353404> Butterfly Effect",
+                            "text": [
+                              "Deals 100% bonus superior element DMG for one-foe one-ally attacks."
+                            ]
+                        },
+                        {
+                            "inLine" : true,
+                            "title" : "<:Status_7122:838031432470364170> Piercing Sight",
+                            "text" : [
+                                "Elemental DMG dealt will be treated as superior to the target's element."
+                            ]
+                        }
                     ]
                 }
             ],

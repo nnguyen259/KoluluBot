@@ -163,9 +163,9 @@ class Character(commands.Cog):
         for skillList in charVersion:
             if len(skillList) == 0: continue
 
-            skillEmbed = discord.Embed(title='Skill')
             for skill in skillList:
-                skillEmbed.add_field(name=skill['name'], value='\n'.join(skill['text']), inline=False)
+                skillEmbed = discord.Embed(title=f'{skill["name"]}')
+                skillEmbed.add_field(name=f'Cooldown: {skill["cooldown"]}', value='\n'.join(skill['text']), inline=False)
                 skillEmbed.set_thumbnail(url=f'{skill["icon"][-1]}')
                 skillEmbed.set_image(url=self.chars[name][version]['image'])
 
@@ -325,7 +325,7 @@ class Character(commands.Cog):
         embed.title = '__Extended Mastery Perks__'
         embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
         embed.set_image(url="attachment://emp.png")
-        
+
         if noShow:
             return embed
         await ctx.send(file=file, embed=embed)
