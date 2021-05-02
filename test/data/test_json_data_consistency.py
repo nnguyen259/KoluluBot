@@ -1,7 +1,8 @@
 def test_entry_exist_across_all_jsons():
     import json
-    with open('data/characters.json', 'r') as charFile, open('data/ougi.json', 'r') as ougiFile, open('data/supportskill.json', 'r') as supportFile, \
-        open('data/skill.json', 'r') as skillFile, open('data/emp.json', 'r') as empFile:
+    with open('data/characters.json', 'r', encoding='utf-8') as charFile, open('data/ougi.json', 'r', encoding='utf-8') as ougiFile, \
+         open('data/supportskill.json', 'r', encoding='utf-8') as supportFile, open('data/skill.json', 'r', encoding='utf-8') as skillFile, \
+         open('data/emp.json', 'r', encoding='utf-8') as empFile:
         characters = json.load(charFile)
         ougis = json.load(ougiFile)
         supports = json.load(supportFile)

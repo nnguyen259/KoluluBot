@@ -8,21 +8,21 @@ class Character(commands.Cog):
         self.loadData()
 
     def loadData(self):
-        with open('data/characters.json', 'r') as charFile:
+        with open('data/characters.json', 'r', encoding='utf-8') as charFile:
             self.chars = dict((k.lower(), v) for k, v in json.load(charFile).items())
-        with open('data/emoji.json', 'r') as emojiFile:
+        with open('data/emoji.json', 'r', encoding='utf-8') as emojiFile:
             self.emojis = json.load(emojiFile)
-        with open('data/ougi.json', 'r') as ougiFile:
+        with open('data/ougi.json', 'r', encoding='utf-8') as ougiFile:
             self.ougis = dict((k.lower(), v) for k, v in json.load(ougiFile).items())
-        with open('data/skill.json', 'r') as skillFile:
+        with open('data/skill.json', 'r', encoding='utf-8') as skillFile:
             self.skills = dict((k.lower(), v) for k, v in json.load(skillFile).items())
-        with open('data/supportskill.json', 'r') as supportSkillFile:
+        with open('data/supportskill.json', 'r', encoding='utf-8') as supportSkillFile:
             self.supportSkills = dict((k.lower(), v) for k, v in json.load(supportSkillFile).items())
-        with open('data/emp.json', 'r') as empFile:
+        with open('data/emp.json', 'r', encoding='utf-8') as empFile:
             self.emps = dict((k.lower(), v) for k, v in json.load(empFile).items())
-        with open('data/empdata.json', 'r') as empDataFile:
+        with open('data/empdata.json', 'r', encoding='utf-8') as empDataFile:
             self.empData = json.load(empDataFile)
-        with open('data/empdomaindata.json', 'r') as empDomainDataFile:
+        with open('data/empdomaindata.json', 'r', encoding='utf-8') as empDomainDataFile:
             self.empDomainData = json.load(empDomainDataFile)
 
     @commands.Cog.listener()
