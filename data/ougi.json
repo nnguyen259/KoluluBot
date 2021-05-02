@@ -2493,7 +2493,7 @@
         ]
     },
     "Ezecrain": {
-        "BASE": [
+        "EVENT": [
             {
                 "duration": {
                     "180^s": [
@@ -2506,7 +2506,7 @@
                 ]
             }
         ],
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Chain Entrapment",

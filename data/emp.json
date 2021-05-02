@@ -4894,7 +4894,7 @@
         ]
     },
     "Ezecrain": {
-        "BASE": [
+        "EVENT": [
             [
                 "atk",
                 "def",
@@ -4917,7 +4917,7 @@
                 "supportskill"
             ]
         ],
-        "SR": [
+        "BASE": [
             [
                 "atk",
                 "def",

@@ -184,6 +184,11 @@ class Character(commands.Cog):
                             duration = duration.replace('^t', ' turns')
                     skillEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
 
+                if "data" in skill:
+                    data = skill["data"]
+                    for details in data:
+                        skillEmbed.add_field(name=details['title'], value="\n".join(details['text']), inline=details['inLine'])
+
 
             embedList.append(skillEmbed)
 
@@ -214,26 +219,25 @@ class Character(commands.Cog):
         embedList = []
         for supportList in charVersion:
             supportEmbed = discord.Embed()
-            supportEmbed.title =f'{supportList["name"]}:'
-            for supportText in supportList["text"]:
-                supportEmbed.description= f'{supportText}'
-                supportEmbed.set_thumbnail(url=f'{supportList["thumbnail"]}')
-                supportEmbed.set_image(url=self.chars[name][version]['image'])
-                if supportList["duration"]:
-                    duration = ''
-                    for supportDuration in supportList["duration"]:
-                        for supportDurationText in supportList["duration"][supportDuration]:
-                                duration+= f'{supportDurationText} and '
-                        duration = duration[:-4]
-                        duration += f': {supportDuration}.\n'
-                        duration = duration.replace('^s', ' seconds')
-                        duration = duration.replace('^i', '')
-                        if supportDuration == '1^t':
-                            duration = duration.replace('^t', ' turn')
-                        else:
-                            duration = duration.replace('^t', ' turns')
-                    supportEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
-                embedList.append(supportEmbed)
+            supportEmbed.title = f'{supportList["name"]}:'
+            supportEmbed.description = "\n".join(supportList['text'])
+            supportEmbed.set_thumbnail(url=f'{supportList["thumbnail"]}')
+            supportEmbed.set_image(url=self.chars[name][version]['image'])
+            if supportList["duration"]:
+                duration = ''
+                for supportDuration in supportList["duration"]:
+                    for supportDurationText in supportList["duration"][supportDuration]:
+                            duration+= f'{supportDurationText} and '
+                    duration = duration[:-4]
+                    duration += f': {supportDuration}.\n'
+                    duration = duration.replace('^s', ' seconds')
+                    duration = duration.replace('^i', '')
+                    if supportDuration == '1^t':
+                        duration = duration.replace('^t', ' turn')
+                    else:
+                        duration = duration.replace('^t', ' turns')
+                supportEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
+            embedList.append(supportEmbed)
 
         if noShow:
             return embedList

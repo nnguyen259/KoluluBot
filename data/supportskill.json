@@ -4722,7 +4722,7 @@
         ]
     },
     "Ezecrain": {
-        "BASE": [
+        "EVENT": [
             {
                 "duration": {},
                 "name": "Binding Chains",
@@ -4748,7 +4748,7 @@
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
         ],
-        "SR": [
+        "BASE": [
             {
                 "duration": {},
                 "name": "Unabashed",

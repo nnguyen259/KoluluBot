@@ -6470,7 +6470,7 @@
         }
     },
     "Ezecrain": {
-        "BASE": {
+        "EVENT": {
             "5star": "No",
             "atk": "5,900",
             "element": "Light",
@@ -6500,7 +6500,7 @@
             ],
             "weapon": null
         },
-        "SR": {
+        "BASE": {
             "5star": "No",
             "atk": "6,250",
             "element": "Fire",

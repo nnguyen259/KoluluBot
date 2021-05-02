@@ -13980,7 +13980,7 @@
         ]
     },
     "Ezecrain": {
-        "BASE": [
+        "EVENT": [
             [
                 {
                     "cooldown": " 6 turns5 turns ",
@@ -14042,10 +14042,10 @@
             ],
             []
         ],
-        "SR": [
+        "BASE": [
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_Poison:832598586335428660> **Poisoned**"
@@ -14055,9 +14055,10 @@
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/7_1.png"
                     ],
                     "name": "Flame Scorpion",
-                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "obtain": "Lvl 1",
                     "text": [
-                        "Fire damage to a foe.\nInflict <:Status_Poison:832598586335428660> **Poisoned**.\nEffect enhanced."
+                        "Fire damage to a foe.",
+                        "Inflict <:Status_Poison:832598586335428660> **Poisoned**."
                     ],
                     "type": [
                         "1"
@@ -14066,15 +14067,16 @@
             ],
             [
                 {
-                    "cooldown": " 9 turns ",
+                    "cooldown": "9 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/10_1.png"
                     ],
                     "name": "Red Slide",
-                    "obtain": " Lvl 1\u21e7 Lvl 65 ",
+                    "obtain": "Lvl 1",
                     "text": [
-                        "Fire damage to a foe.\nRestore caster's HP.\nEffect enhanced."
+                        "Fire damage to a foe.",
+                        "Restore caster's HP."
                     ],
                     "type": [
                         "1"
@@ -14083,18 +14085,98 @@
             ],
             [
                 {
-                    "cooldown": " 5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/490_3.png"
                     ],
                     "name": "Amethyst",
-                    "obtain": " Lvl 35 ",
+                    "obtain": "Lvl 35",
                     "text": [
-                        ""
+                        "Random Effects"
                     ],
                     "type": [
                         "3"
+                    ],
+                    "data":[
+                        {
+                            "inLine" : true,
+                            "title" : "Effects",
+                            "text": [
+                                "Small Fire Damage to a foe",
+                                "Medium Fire Damage to a foe",
+                                "Large Fire Damage to a foe",
+                                "Inflict <:Status_Gravity:832593788052177016> Delay on a foe",
+                                "Raise a foe's <:Status_Bounty:832584448377094154> Bounty by 2",
+                                "Gain <:Status_Substitute:832601501934288916> Substitute",
+                                "Gain <:Status_DefenseUp:832588447800885249> Dodge All",
+                                "Gain <:Status_AttackUp:832581064555364362> ATK Up",
+                                "Reset all cooldowns (self)",
+                                "Inflict <:Status_Poison:832598586335428660> Poisoned on all",
+                                "Inflict <:Status_Burned:832584524088082433> Burned on all",
+                                "Inflict <:Status_Putrefy:834402938204979240> Putrefied on all",
+                                "Inflict <:Status_Blind:832583965428678656> Blinded on all"
+                            ]
+                        },
+                        {
+                            "inLine" : true,
+                            "title" : "Probability",
+                            "text" : [
+                                "19.5%",
+                                "16%",
+                                "Extremely Rare",
+                                "6%",
+                                "1%",
+                                "10.5%",
+                                "11%",
+                                "4.5%",
+                                "Extremely Rare",
+                                "10%",
+                                "1%",
+                                "1%",
+                                "2.5%"
+                            ]
+                        },
+                        {
+                            "inLine" : true,
+                            "title" : "\u200b",
+                            "text" : [
+                                "\u200b"
+                            ]
+                        },
+                        {
+                            "inLine" : true,
+                            "title" : "Effects",
+                            "text": [
+                                "<:Status_DoubleUp:832590867734724618> DATA Up (All)",
+                                "<:Status_AttackUp:832581064555364362>/<:Status_DefenseUp:832588447800885249> ATK/DEF Up (All)",
+                                "<:Status_Dmg_Cut_50:834391731478331392> 50% DMG Cut (Allies)",
+                                "AOE Heal (Small)",
+                                "AOE Heal (50% max HP)",
+                                "<:Status_Uplift:832602899460521994> CB+100% (Allies)",
+                                "Clear Debuffs/<:Status_Veil:832602900122828840>Veil (All)"
+                            ]
+                        },
+                        {
+                            "inLine" : true,
+                            "title" : "Probability",
+                            "text" : [
+                                "Extremely Rare",
+                                "Extremely Rare",
+                                "6.5%",
+                                "9.5%",
+                                "0.5%",
+                                "0.5%",
+                                "1%"
+                            ]
+                        },
+                        {
+                            "inLine" : true,
+                            "title" : "\u200b",
+                            "text" : [
+                                "\u200b"
+                            ]
+                        }
                     ]
                 }
             ],
