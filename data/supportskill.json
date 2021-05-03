@@ -409,7 +409,9 @@
                 "duration": {},
                 "name": "Levin Lord",
                 "text": [
-                    "Immune to <:Status_Paralysis:832598585161941033> **Paralyzed**.\nBoost to multiattack rate based on foe's <:Status_7129:838784405120090122> **Thunderstruck** lvl.**When <:Status_7129_5:838783419604664391> **Thunderstruck** lvl is 5  or above**: Chance to deal quadruple attacks."
+                    "Immune to <:Status_Paralysis:832598585161941033> **Paralyzed**.",
+                    "Boost to multiattack rate based on foe's <:Status_7129:838784405120090122> **Thunderstruck** lvl.",
+                    "**When <:Status_7129_5:838783419604664391> **Thunderstruck** lvl is 5  or above**: Chance to deal quadruple attacks."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
                 "data":[
@@ -511,51 +513,29 @@
                 "duration": {},
                 "name": "Thunderswift Lord's Torching",
                 "text": [
-                    "Deal 2-hit damage to random foes from the second hit of each normal attack.\nSupplemental damage from third hit (Damage cap: 50,000).\n50% Bonus Wind DMG effect to fourth hit."
+                    "Bonus effects to the 2nd, 3rd and 4th hit of normal attacks."
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
                 "data": [
                   {
-                      "inLine" : true,
-                      "title" : "Normal Attack",
+                      "inLine" : false,
+                      "title" : "From 2nd hit onwards",
                       "text": [
-                        "1st Hit",
-                        "\u200b",
-                        "\u200b",
-                        "2nd Hit",
-                        "\u200b",
-                        "\u200b",
-                        "3rd Hit",
-                        "\u200b",
-                        "\u200b",
-                        "\u200b",
-                        "4th Hit"
+                        "Normal attack does 2 hits of 50% damage to random targets."
                       ]
                   },
                   {
-                      "inLine" : true,
-                      "title" : "Effect",
+                      "inLine" : false,
+                      "title" : "From 3rd hit onwards",
                       "text": [
-                        "Normal attack",
-                        "\u200b",
-                        "\u200b",
-                        "+ 2-hit damage to random foes",
-                        "\u200b",
-                        "+ Supplemental damage for each hit",
-                        "\u200b",
-                        "+ 50% Bonus Wind DMG effect for each hit"
+                        "Normal attack also gains <:Status_DmgUp:832590865767727175> **Supplemental Damage** (Max: 50,000)."
                       ]
                   },
                   {
-                      "inLine" : true,
-                      "title" : "Notes",
+                      "inLine" : false,
+                      "title" : "On 4th hit",
                       "text": [
-                        "No changes",
-                        "\u200b",
-                        "\u200b",
-                        "\u200b",
-                        "\u200b",
-                        "50% normal attack damage per hit"
+                        "Normal attack also gains <:Status_Bonus_Damage:832584447911264276> **50% Bonus Wind DMG**."
                       ]
                   },
                   {
@@ -575,7 +555,8 @@
                 },
                 "name": "Burning Saber",
                 "text": [
-                    "Multiattacks raise <:status_6947:832604144455254017> **Thunderswift** lvl based on number of hits (Max: 10).\n(Boost to multiattack rate based on Thunderswift lvl.\nAt 7 or above: Chance to deal quadruple attacks.)\n"
+                    "Multiattacks raise <:status_6947:832604144455254017> **Thunderswift** lvl based on number of hits (Max: 10).",
+                    "(Boost to multiattack rate based on Thunderswift lvl.\nAt 7 or above: Chance to deal quadruple attacks.)"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
                 "data":[
