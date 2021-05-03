@@ -14165,7 +14165,7 @@
         "EVENT": [
             [
                 {
-                    "cooldown": " 6 turns5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_DoubleDown:832590867336003645> **DA Down**"
@@ -14175,9 +14175,11 @@
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/489_1.png"
                     ],
                     "name": "Chain Graze",
-                    "obtain": " Lvl 1\u21e7 Lvl 45 ",
+                    "obtain": " Lvl 1",
                     "text": [
-                        "Light damage to a foe.\nInflict <:Status_DoubleDown:832590867336003645> **DA Down**.\n(Damage enhanced when foe has <:Status_Blind:832583965428678656> **Blinded**.)\n"
+                        "Light damage to a foe.",
+                        "Inflict <:Status_DoubleDown:832590867336003645> **DA Down**.",
+                        "(Damage enhanced when foe has <:Status_Blind:832583965428678656> **Blinded**.)"
                     ],
                     "type": [
                         "1"
@@ -14186,7 +14188,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_Blind:832583965428678656> **Blinded**"
@@ -14196,9 +14198,11 @@
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/12_1.png"
                     ],
                     "name": "Leuchten",
-                    "obtain": " Lvl 1\u21e7 Lvl 65 ",
+                    "obtain": " Lvl 1",
                     "text": [
-                        "Light damage to a foe.\nInflict <:Status_Blind:832583965428678656> **Blinded**.\n(Damage enhanced when foe has <:Status_DoubleDown:832590867336003645> **DA Down**.)\nEffect enhanced."
+                        "Light damage to a foe.",
+                        "Inflict <:Status_Blind:832583965428678656> **Blinded**.",
+                        "(Damage enhanced when foe has <:Status_DoubleDown:832590867336003645> **DA Down**.)"
                     ],
                     "type": [
                         "1"
@@ -14207,7 +14211,7 @@
             ],
             [
                 {
-                    "cooldown": " 6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/490_3.png"
@@ -14215,10 +14219,24 @@
                     "name": "Way of the Amethyst",
                     "obtain": " Lvl 35 ",
                     "text": [
-                        ""
+                        "Random effects to all allies."
                     ],
                     "type": [
                         "3"
+                    ],
+                    "data": [
+                        {
+                            "title": "Effects",
+                            "inLine": true,
+                            "text": [
+                                "**[Party]** AOE Heal (500) / <:Status_Heal:832593788375400470> **Refresh**",
+                                "**[Party]** <:Status_AttackUp:832581064555364362> / <:Status_DefenseUp:832588447800885249> **20% ATK/DEF Up**",
+                                "**[Party]** <:Status_DoubleUp:832590867734724618> / <:Status_TripleUp:832601877920350218> **5% DATA Up**",
+                                "**[Rare]** **[Party]** Remove 1 debuff / <:Status_Veil:832602900122828840> **Veil**",
+                                "**[Rare]** **[Party]** <:Status_Uplift:832602899460521994> **Charge Bar +100%**",
+                                "**[Rare]** **[Party]** <:Status_Bonus_Damage:832584447911264276> **100% Bonus Light DMG**, <:Status_TripleUp:832601877920350218> **TA Up**, <:Status_CriticalUp:832587322133970986>** Crititcal Hit Rate Up**"
+                            ]
+                        }
                     ]
                 }
             ],
@@ -14285,19 +14303,19 @@
                             "inLine" : true,
                             "title" : "Effects",
                             "text": [
-                                "Small Fire Damage to a foe",
-                                "Medium Fire Damage to a foe",
-                                "Large Fire Damage to a foe",
-                                "Inflict <:Status_Gravity:832593788052177016> Delay on a foe",
-                                "Raise a foe's <:Status_Bounty:832584448377094154> Bounty by 2",
-                                "Gain <:Status_Substitute:832601501934288916> Substitute",
-                                "Gain <:Status_DefenseUp:832588447800885249> Dodge All",
-                                "Gain <:Status_AttackUp:832581064555364362> ATK Up",
-                                "Reset all cooldowns (self)",
-                                "Inflict <:Status_Poison:832598586335428660> Poisoned on all",
-                                "Inflict <:Status_Burned:832584524088082433> Burned on all",
-                                "Inflict <:Status_Putrefy:834402938204979240> Putrefied on all",
-                                "Inflict <:Status_Blind:832583965428678656> Blinded on all"
+                                "**[Foe]** Small Fire Damage",
+                                "**[Foe]** Medium Fire Damage",
+                                "**[Foe]** Large Fire Damage",
+                                "**[Foe]** <:Status_Gravity:832593788052177016> **Delay**",
+                                "**[Foe]** Raise <:Status_Bounty:832584448377094154> **Bounty** by 2",
+                                "**[Self]** <:Status_Substitute:832601501934288916> **Substitute**",
+                                "**[Self]** <:Status_DefenseUp:832588447800885249> **Dodge All**",
+                                "**[Self]** <:Status_AttackUp:832581064555364362> **ATK Up**",
+                                "**[Self]** Reset all cooldowns",
+                                "**[All]** <:Status_Poison:832598586335428660> **Poisoned**",
+                                "**[All]** <:Status_Burned:832584524088082433> **Burned**",
+                                "**[All]** <:Status_Putrefy:834402938204979240> **Putrefied**",
+                                "**[All]** <:Status_Blind:832583965428678656> **Blinded**"
                             ]
                         },
                         {
@@ -14320,7 +14338,7 @@
                             ]
                         },
                         {
-                            "inLine" : true,
+                            "inLine" : false,
                             "title" : "\u200b",
                             "text" : [
                                 "\u200b"
@@ -14330,13 +14348,13 @@
                             "inLine" : true,
                             "title" : "Effects",
                             "text": [
-                                "<:Status_DoubleUp:832590867734724618> DATA Up (All)",
-                                "<:Status_AttackUp:832581064555364362>/<:Status_DefenseUp:832588447800885249> ATK/DEF Up (All)",
-                                "<:Status_Dmg_Cut_50:834391731478331392> 50% DMG Cut (Allies)",
-                                "AOE Heal (Small)",
-                                "AOE Heal (50% max HP)",
-                                "<:Status_Uplift:832602899460521994> CB+100% (Allies)",
-                                "Clear Debuffs/<:Status_Veil:832602900122828840>Veil (All)"
+                                "**[All]** <:Status_DoubleUp:832590867734724618> **DATA Up**",
+                                "**[All]** <:Status_AttackUp:832581064555364362>/<:Status_DefenseUp:832588447800885249> **ATK/DEF Up** (All)",
+                                "**[Party]** <:Status_Dmg_Cut_50:834391731478331392> **50% DMG Cut**",
+                                "**[Party]** AOE Heal (Small)",
+                                "**[Party]** AOE Heal (50% max HP)",
+                                "**[Party]** <:Status_Uplift:832602899460521994> **Charge Bar +100%**",
+                                "**[Party]** Clear Debuffs/<:Status_Veil:832602900122828840>**Veil**"
                             ]
                         },
                         {
@@ -14350,13 +14368,6 @@
                                 "0.5%",
                                 "0.5%",
                                 "1%"
-                            ]
-                        },
-                        {
-                            "inLine" : true,
-                            "title" : "\u200b",
-                            "text" : [
-                                "\u200b"
                             ]
                         }
                     ]

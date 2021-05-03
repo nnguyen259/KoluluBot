@@ -2511,7 +2511,8 @@
                 },
                 "name": "Chain Vengeance",
                 "text": [
-                    "Big Light damage to a foe.\nInflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**."
+                    "Big Light damage to a foe.",
+                    "Inflict <:Status_DebuffResDown:832588130741125150> **Debuff Res.Down**."
                 ]
             }
         ],
