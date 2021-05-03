@@ -89,7 +89,16 @@
                 },
                 "name": "Levin Annihilation",
                 "text": [
-                    "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG** and <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment** (Next use of Electron Blade activates twice)."
+                    "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG** and <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment**."
+                ],
+                "data": [
+                  {
+                      "inLine" : true,
+                      "title" : " <:Status_Lightnings_Judgment:832596750170062879> Lightning's Judgment:",
+                      "text": [
+                        "\u2022 **Effect**: Next **Electron Blade** activates twice (Can't be removed)"
+                      ]
+                  }
                 ]
             }
         ],

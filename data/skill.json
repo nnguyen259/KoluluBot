@@ -15,11 +15,42 @@
                     "name": "Bobo, Over Here!",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Gain <:Status_6917:834407515248263168> **Bobo, Over Here!**\n (Bobo will provide aid in various ways while in effect.)\n **Bobo, Over Here!:**\n **Upon taking damage**: Restore 20% of Abby's HP (Healing cap: 2000).\n**When debuffed at turn start**: Remove 1 debuff from Abby.\n**When foe uses a special attack**: Grant Abby <:Status_Shield:832599448872943648> **Shield** (3000).\n"
+                        "Gain <:Status_6917:834407515248263168> **Bobo, Over Here!**\n (Bobo will provide aid in various ways while in effect.)"
                     ],
                     "type": [
                         "3"
-                    ]
+                    ],
+                    "data":[
+                      {
+                          "inLine" : false,
+                          "title" : "Certain conditions trigger an effect while <:Status_6917:834407515248263168> Bobo, Over Here! is active:",
+                          "text": [
+                            "\u200b"
+                          ]
+                      },
+                      {
+                          "inLine" : true,
+                          "title" : "Condition",
+                          "text": [
+                            "Upon taking damage",
+                            "\u200b",
+                            "\nWhen debuffed at turn start",
+                            "\u200b",
+                            "When foe uses a special attack"
+                          ]
+                      },
+                      {
+                          "inLine" : true,
+                          "title" : "Effect",
+                          "text": [
+                            "Restore 20% of Abby's HP (Healing cap: 2000).",
+                            "\u200b",
+                            "Remove 1 debuff from Abby.",
+                            "\u200b",
+                            "Grant Abby <:Status_Shield:832599448872943648> **Shield (3000)**."
+                          ]
+                      }
+                  ]
                 }
             ],
             [
@@ -73,7 +104,7 @@
         "PROMO": [
             [
                 {
-                    "cooldown": " 5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
@@ -90,7 +121,7 @@
             ],
             [
                 {
-                    "cooldown": " 8 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "2^t": [
                             "<:Status_Counter:832587321567477780> **Counters on Dodge (3 times)**",
@@ -112,7 +143,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {
                         "2^t": [
                             "<:Status_AttackUp:832581064555364362> **100% ATK Up**"
@@ -138,7 +169,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "1^t": [
                             "<:Status_Substitute:832601501934288916> **Substitute**"
@@ -163,7 +194,7 @@
             ],
             [
                 {
-                    "cooldown": " 5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {
                         "3^t": [
                             "<:Status_Jammed:832595932305424394> **Jammed**"
@@ -184,7 +215,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {
                         "2^t": [
                             "<:Status_Drain:832590868321402890> **Drain**"
@@ -268,7 +299,42 @@
                     ],
                     "type": [
                         "3"
-                    ]
+                    ],
+                    "data":[
+                      {
+                          "inLine" : false,
+                          "title" : "Grants cumulative effects based on the number of Aglovale's <:Status_Deluge_Crest:832588448954187776> upon casting Schneetreiben:",
+                          "text": [
+                            "\u200b"
+                          ]
+                      },
+                      {
+                          "inLine" : true,
+                          "title" : "Status",
+                          "text": [
+                            "<:Status_Deluge_Crest_1:832588449214365746>",
+                            "\u200b",
+                            "<:Status_Deluge_Crest_2:838416956913614878>",
+                            "\u200b",
+                            "<:Status_Deluge_Crest_3:838416957086367825>",
+                            "\u200b",
+                            "<:Status_Deluge_Crest_4:838416957228580864>",
+                            "\u200b",
+                            "<:Status_Deluge_Crest_5:838416957157802045>"
+                          ]
+                      },
+                      {
+                          "inLine" : true,
+                          "title" : "Effect",
+                          "text": [
+                            "Also gain <:Status_DefenseUp:832588447800885249> **50% DEF Up**",
+                            "Also gain <:Status_Revitalize:832599167606980638> **Revitalize (Healing Cap: 1000)**",
+                            "Also gain <:Status_Veil:832602900122828840> **Veil**.",
+                            "Also gain <:Status_Fire_Cut_90:838419294987354122> **90% Fire Cut**",
+                            "Also gain <:Status_Dispel_Cancel:834391730295537694> **Dispel Cancel**"
+                          ]
+                      }
+                  ]
                 }
             ],
             []
@@ -284,11 +350,27 @@
                     "name": "Gestober",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "500% Light damage to a foe (Damage cap: ~635,000).\nAll allies gain <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** and a random buff.\n(Gain additional buffs based on Aglovale's number of <:Status_Aurora_Crest:832580994745630741> **Aurora Crest**.)\n Randomly provides one of the following effects for 3 turns:\n <:Status_Strength:832601501335289908> **Strength**.\n<:Status_Revitalize:832599167606980638> **Revitalize**.\n<:Status_Dark_Cut_20:832587991124803604> **20% Dark Cut**.\n<:Status_DebuffSuccessUp:832588130745319448> **Debuff Success Boosted**.\n<:Status_Veil:832602900122828840> **Veil**.\n<:Status_Uplift:832602899460521994> **Charge Bar +20%**.\n Each <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** grants an additional buff when the skill is activated.\n All buffs are granted when Aglovale has 5 <:Status_Aurora_Crest:832580994745630741> **Aurora Crest**."
+                        "500% Light damage to a foe (Damage cap: ~635,000).\nAll allies gain <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** and a random buff.\n(Gain additional buffs based on Aglovale's number of <:Status_Aurora_Crest:832580994745630741> **Aurora Crest**.)"
                     ],
                     "type": [
                         "1"
-                    ]
+                    ],
+                    "data": [
+                      {
+                          "inLine" : false,
+                          "title" : "Randomly provides one of the following effects for 3 turns:",
+                          "text": [
+                            "\u2022 <:Status_Strength:832601501335289908> **Strength**.",
+                            "\u2022 <:Status_Revitalize:832599167606980638> **Revitalize**.",
+                            "\u2022 <:Status_Dark_Cut_20:832587991124803604> **20% Dark Cut**.",
+                            "\u2022 <:Status_DebuffSuccessUp:832588130745319448> **Debuff Success Boosted**.",
+                            "\u2022 <:Status_Veil:832602900122828840> **Veil**.",
+                            "\u2022 <:Status_Uplift:832602899460521994> **Charge Bar +20%**.",
+                            "Each <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** grants an additional buff when the skill is activated.",
+                            "All buffs are granted when Aglovale has 5 <:Status_Aurora_Crest:832580994745630741> **Aurora Crests**."
+                          ]
+                      }
+                  ]
                 }
             ],
             [
@@ -337,7 +419,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 6 turns5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_Charm:832585566574215168> **Charmed**"
@@ -353,12 +435,22 @@
                     ],
                     "type": [
                         "1"
+                    ],
+                    "data": [
+                      {
+                          "inLine" : false,
+                          "title" : "<:Status_BodyHeat:832583966225203211> **Body Heat Boosted**",
+                          "text": [
+                            "\u2022 Stacks up to 3 times, granting Attack UP, Double Attack UP, and Defense DOWN.",
+                            "\u2022 Body Heat does not reset from using charge attack until the end of the turn. Take caution when setting off boss special attacks triggers with a charge attack chain."
+                          ]
+                      }
                     ]
                 }
             ],
             [
                 {
-                    "cooldown": " 8 turns7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/3_2.png"
@@ -375,7 +467,7 @@
             ],
             [
                 {
-                    "cooldown": " 4 turns ",
+                    "cooldown": "4 turns",
                     "duration": {
                         "2^t": [
                             "<:Status_AttackUp:832581064555364362> **ATK Up**",
@@ -402,7 +494,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 14 turns12 turns ",
+                    "cooldown": "12 turns",
                     "duration": {
                         "8^t": [
                             "<:Status_SunTouched_Paradise:832601601038221352> **Sun-Touched Paradise**"
@@ -418,12 +510,24 @@
                     ],
                     "type": [
                         "5"
+                    ],
+                    "data": [
+                      {
+                          "inLine" : false,
+                          "title" : "<:Status_SunTouched_Paradise:832601601038221352> **Sun-Touched Paradise** confers the following effects to all allies and foes:",
+                          "text": [
+                            "\u2022 Can deal critical hits regardless of element",
+                            "\u2022 20% ATK Up",
+                            "\u2022 25% DEF Down",
+                            "\u2022 Casting Sun-Touched Paradise changes the battle background."
+                          ]
+                      }
                     ]
                 }
             ],
             [
                 {
-                    "cooldown": " 14 turns12 turns ",
+                    "cooldown": "12 turns",
                     "duration": {
                         "4^t": [
                             "<:Status_TripleUp:832601877920350218> **100% TA Up**",
@@ -446,7 +550,7 @@
             ],
             [
                 {
-                    "cooldown": " 12 turns ",
+                    "cooldown": "12 turns",
                     "duration": {
                         "4^t": [
                             "<:Status_ATK_Down_4:834386310021644308> **25% ATK Down**",
@@ -468,6 +572,32 @@
                     ],
                     "type": [
                         "1"
+                    ],
+                    "data": [
+                      {
+                          "inLine" : true,
+                          "title" : "<:Status_Immaculate_Sunlight_Local:834397626312163368> **Immaculate Sunlight**",
+                          "text": [
+                            "\u2022 **Effect**: HP is lowered on every turn (Can't be removed)",
+                            "\u2022 **Strength**: 5% of max HP (Damage cap: 500,000)",
+                            "\u2022 **Base Accuracy**: 200%"
+                          ]
+                      },
+                      {
+                          "inLine" : true,
+                          "title" : "<:Status_Immaculate_Sunlight:834397787928002580> **Immaculate Sunlight**",
+                          "text": [
+                            "\u2022 **Effect**: HP is lowered on every turn (Can't be removed)",
+                            "\u2022 **Strength**: 5% of max HP (Damage cap: 800)"
+                          ]
+                      },
+                      {
+                          "inLine" : false,
+                          "title" : "<:Status_DeathsGrace:834390039622451200> Death's Grace does not convert the turn-based damage from <:Status_Immaculate_Sunlight:834397787928002580> Immaculate Sunlight.",
+                          "text": [
+                            "\u200b"
+                          ]
+                      }
                     ]
                 }
             ],
@@ -478,7 +608,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 5 turns4 turns ",
+                    "cooldown": "4 turn ",
                     "duration": {
                         "180^s": [
                             "<:Status_LightResDown:832596750580842527> **10% Light DEF Down**"
@@ -490,7 +620,7 @@
                     "name": "Impulse Slash",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "100% Light and Fire damage to a foe (Damage cap: Light ~700,000; Fire ~250,000).\nInflict <:Status_LightResDown:832596750580842527> **10% Light DEF Down**.\nDamage increased to 125%."
+                        "125% Light and Fire damage to a foe (Damage cap: Light ~700,000; Fire ~250,000).\nInflict <:Status_LightResDown:832596750580842527> **10% Light DEF Down**."
                     ],
                     "type": [
                         "1"
@@ -499,7 +629,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "1^t": [
                             "<:Status_TripleUp:832601877920350218> **Guaranteed TA**"
@@ -511,7 +641,7 @@
                     "name": "Electron Blade",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 90 ",
                     "text": [
-                        "90% Light damage to all foes (Damage cap: ~600,000).\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nDamage increased to 100%.\nDamage further increased to 150%.\nConsume <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment**: Also gain <:Status_TripleUp:832601877920350218> **Guaranteed TA**."
+                        "150% Light damage to all foes (Damage cap: ~600,000).\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nConsume <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment**: Also gain <:Status_TripleUp:832601877920350218> **Guaranteed TA**."
                     ],
                     "type": [
                         "1"
@@ -520,11 +650,15 @@
             ],
             [
                 {
-                    "cooldown": " 10 turns8 turns ",
+                    "cooldown": "8 turns",
                     "duration": {
                         "1^t": [
                             "<:Status_Paralysis:832598585161941033> **Electrified**",
                             "<:Status_Double_Strike_Timer:834391847161954304> **Readying Skill (Double Strike)**"
+                        ],
+                        "Until used":[
+                            "<:Status_SkillUp:832601206001500221> **1000% Skill DMG Up (Stackable)**",
+                            "<:Status_Skill_DMG_Cap_Up:832599898687668276> **50% Skill DMG Cap Up (1 time)**"
                         ]
                     },
                     "icon": [
@@ -534,11 +668,27 @@
                     "name": "Lightning Burst",
                     "obtain": " Lvl 45\u21e7 Lvl 100 ",
                     "text": [
-                        "Gain <:Status_SkillUp:832601206001500221> **1000% Skill DMG Up (Stackable)** and <:Status_Paralysis:832598585161941033> **Electrified**.\nAlso gain <:Status_Skill_DMG_Cap_Up:832599898687668276> **50% Skill DMG Cap Up (1 time)** and <:Status_Double_Strike_Timer:834391847161954304> **Readying Skill (Double Strike)**."
+                        "Gain <:Status_SkillUp:832601206001500221> **1000% Skill DMG Up (Stackable)**, <:Status_Skill_DMG_Cap_Up:832599898687668276> **50% Skill DMG Cap Up (1 time)**, <:Status_Paralysis:832598585161941033> **Electrified** and <:Status_Double_Strike_Timer:834391847161954304> **Readying Skill (Double Strike)**."
                     ],
                     "type": [
                         "3",
                         "3"
+                    ],
+                    "data": [
+                      {
+                          "inLine" : true,
+                          "title" : " <:Status_Paralysis:832598585161941033> Electrified:",
+                          "text": [
+                            "\u2022 **Effect**: Can't take any action (Can't be removed)."
+                          ]
+                      },
+                      {
+                          "inLine" : true,
+                          "title" : "<:Status_Double_Strike_Timer:834391847161954304> Readying Skill (Double Strike):",
+                          "text": [
+                            "\u2022 **Effect**: Gains Double Strike effect on next turn (Can't be removed)."
+                          ]
+                      }
                     ]
                 }
             ],
@@ -563,7 +713,7 @@
         "BASE_4": [
             [
                 {
-                    "cooldown": " 5 turns4 turns ",
+                    "cooldown": "4 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_LightResDown:832596750580842527> **10% Light DEF Down**"
@@ -575,7 +725,7 @@
                     "name": "Impulse Slash",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "100% Light and Fire damage to a foe (Damage cap: Light ~700,000; Fire ~250,000).\nInflict <:Status_LightResDown:832596750580842527> **10% Light DEF Down**.\nDamage increased to 125%."
+                        "125% Light and Fire damage to a foe (Damage cap: Light ~700,000; Fire ~250,000).\nInflict <:Status_LightResDown:832596750580842527> **10% Light DEF Down**."
                     ],
                     "type": [
                         "1"
@@ -584,19 +734,15 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
-                    "duration": {
-                        "1^t": [
-                            "<:Status_TripleUp:832601877920350218> **Guaranteed TA**"
-                        ]
-                    },
+                    "cooldown": "6 turns",
+                    "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/32_1.png"
                     ],
                     "name": "Electron Blade",
                     "obtain": " Lvl 1\u21e7 Lvl 75 \u21ee Lvl 90 ",
                     "text": [
-                        "90% Light damage to all foes (Damage cap: ~600,000).\nInflict <:Status_Gravity:832593788052177016> **Delay**.\nDamage increased to 100%.\nDamage further increased to 150%.\nConsume <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment**: Also gain <:Status_TripleUp:832601877920350218> **Guaranteed TA**."
+                        "100% Light damage to all foes (Damage cap: ~600,000).\nInflict <:Status_Gravity:832593788052177016> **Delay**."
                     ],
                     "type": [
                         "1"
@@ -605,42 +751,35 @@
             ],
             [
                 {
-                    "cooldown": " 10 turns8 turns ",
+                    "cooldown": "10 turns",
                     "duration": {
                         "1^t": [
-                            "<:Status_Paralysis:832598585161941033> **Electrified**",
-                            "<:Status_Double_Strike_Timer:834391847161954304> **Readying Skill (Double Strike)**"
+                            "<:Status_Paralysis:832598585161941033> **Electrified**"
+                        ],
+                        "Until used":[
+                            "<:Status_SkillUp:832601206001500221> **1000% Skill DMG Up (Stackable)**"
                         ]
                     },
                     "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/38_3.png",
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/814_3.png"
+                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/38_3.png"
                     ],
                     "name": "Lightning Burst",
                     "obtain": " Lvl 45\u21e7 Lvl 100 ",
                     "text": [
-                        "Gain <:Status_SkillUp:832601206001500221> **1000% Skill DMG Up (Stackable)** and <:Status_Paralysis:832598585161941033> **Electrified**.\nAlso gain <:Status_Skill_DMG_Cap_Up:832599898687668276> **50% Skill DMG Cap Up (1 time)** and <:Status_Double_Strike_Timer:834391847161954304> **Readying Skill (Double Strike)**."
+                        "Gain <:Status_SkillUp:832601206001500221> **1000% Skill DMG Up (Stackable)** and <:Status_Paralysis:832598585161941033> **Electrified**."
                     ],
                     "type": [
                         "3",
                         "3"
-                    ]
-                }
-            ],
-            [
-                {
-                    "cooldown": " 12 turns ",
-                    "duration": {},
-                    "icon": [
-                        "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/815_3.png"
                     ],
-                    "name": "Thunder Raid",
-                    "obtain": " Lvl 95 ",
-                    "text": [
-                        "Gain **Instant Charge**.\nEnd other skills' cooldown."
-                    ],
-                    "type": [
-                        "3"
+                    "data": [
+                      {
+                          "inLine" : true,
+                          "title" : " <:Status_Paralysis:832598585161941033> Electrified:",
+                          "text": [
+                            "\u2022 **Effect**: Can't take any action (Can't be removed)."
+                          ]
+                      }
                     ]
                 }
             ]
@@ -660,10 +799,44 @@
                     "name": "Electron Storm",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "400% Dark damage to all foes (Damage cap: ~635,000).\nRaise foes' <:Status_7129_1:838040523960877066> **Thunderstruck** lvl by 1 (Max: 10).\nInflict <:Status_Gravity:832593788052177016> **Delay**."
+                        "400% Dark damage to all foes (Damage cap: ~635,000).\nRaise foes' <:Status_7129:838784405120090122> **Thunderstruck** lvl by 1 (Max: 10).\nInflict <:Status_Gravity:832593788052177016> **Delay**."
                     ],
                     "type": [
                         "1"
+                    ],
+                    "data":[
+                      {
+                          "inLine" : true,
+                          "title" : "Reduces the multiattack rate of foes afflicted with <:Status_7129:838784405120090122> Thunderstruck",
+                          "text": [
+                            "<:Status_7129:838784405120090122> **Thunderstruck** lvl can also be raised by other parties in a raid.",
+                            "```",
+                            "╔═════╦════════════════╗",
+                            "║ Lvl ║ DA and TA Down ║",
+                            "╠═════╬════════════════╣",
+                            "║  1  ║       2%       ║",
+                            "╠═════╬════════════════╣",
+                            "║  2  ║       4%       ║",
+                            "╠═════╬════════════════╣",
+                            "║  3  ║       6%       ║",
+                            "╠═════╬════════════════╣",
+                            "║  4  ║       8%       ║",
+                            "╠═════╬════════════════╣",
+                            "║  5  ║       10%      ║",
+                            "╠═════╬════════════════╣",
+                            "║  6  ║       12%      ║",
+                            "╠═════╬════════════════╣",
+                            "║  7  ║       14%      ║",
+                            "╠═════╬════════════════╣",
+                            "║  8  ║       16%      ║",
+                            "╠═════╬════════════════╣",
+                            "║  9  ║       18%      ║",
+                            "╠═════╬════════════════╣",
+                            "║  10 ║       20%      ║",
+                            "╚═════╩════════════════╝",
+                            "```"
+                          ]
+                      }
                     ]
                 }
             ],
@@ -681,7 +854,7 @@
                     "name": "Lightning Rage",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "6-hit, 150% Dark damage to a foe (Damage cap: ~180,000 per hit).\nInflict <:Status_DarkResDown:834390039550623774> **25% Dark DEF Down**.\n (**When the foe's <:Status_7129_1:838040523960877066> Thunderstruck lvl is 5 or above**: Hit number increases to 12.)"
+                        "6-hit, 150% Dark damage to a foe (Damage cap: ~180,000 per hit).\nInflict <:Status_DarkResDown:834390039550623774> **25% Dark DEF Down**.\n **When the foe's <:Status_7129_5:838783419604664391> Thunderstruck lvl is 5 or above**: Hit number increases to 12."
                     ],
                     "type": [
                         "1"
@@ -710,7 +883,7 @@
         "EVENT": [
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "3^t": [
                             "<:Status_AttackUp:832581064555364362> **30% ATK Up**",
@@ -732,7 +905,7 @@
             ],
             [
                 {
-                    "cooldown": " 8 turns7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/342_1.png"
@@ -749,7 +922,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/32_1.png"
@@ -769,7 +942,7 @@
         "SUMMER": [
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_WindResDown:832603016032813088> **25% Wind DEF Down**"
@@ -790,7 +963,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "3^t": [
                             "<:Status_CriticalUp:832587322133970986> **100% / 50% Critical Hit Rate Up**",
@@ -812,7 +985,7 @@
             ],
             [
                 {
-                    "cooldown": " 10 turns ",
+                    "cooldown": "10 turns",
                     "duration": {
                         "1^t": [
                             "<:Status_Paralysis:832598585161941033> **Electrified**"
@@ -832,6 +1005,15 @@
                     ],
                     "type": [
                         "3"
+                    ],
+                    "data": [
+                      {
+                          "inLine" : true,
+                          "title" : " <:Status_Paralysis:832598585161941033> Electrified:",
+                          "text": [
+                            "\u2022 **Effect**: Can't take any action (Can't be removed)."
+                          ]
+                      }
                     ]
                 }
             ],

@@ -13,9 +13,46 @@
                 "duration": {},
                 "name": "Split 'Em in Two!",
                 "text": [
-                    "Big boost to all allies' ATK based on how high Abby's HP is.\n100% : 15%\n95%: ~12.7%\n90%: ~10.6%\n85%: ~8.8%\n80%: ~7.2%\n75%: ~5.8%\n70%: ~4.7%\n65%: ~3.7%\n60%: ~2.8%\n55%: ~2.1%\n50%: ~1.5%\n<50%: 0%"
+                    "Big boost to all allies' ATK based on how high Abby's HP is."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : false,
+                      "title" : "\u200b",
+                      "text": [
+                        "```",
+                        "╔═══════════╦══════════════╗",
+                        "║ Abby's HP ║ Party ATK up ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    100%   ║      15%     ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    95%    ║    ~12.7%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    90%    ║    ~10.6%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    85%    ║     ~8.8%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    80%    ║     ~7.2%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    75%    ║     ~5.8%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    70%    ║     ~4.7%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    65%    ║     ~3.7%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    60%    ║     ~2.8%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    55%    ║     ~2.1%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    50%    ║     ~1.5%    ║",
+                        "╠═══════════╬══════════════╣",
+                        "║    <50%   ║      0%      ║",
+                        "╚═══════════╩══════════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             }
         ],
         "PROMO": [
@@ -53,7 +90,26 @@
                 "text": [
                     "Slight chance to counter upon taking damage."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png",
+                "data":[
+                  {
+                      "inLine" : false,
+                      "title" : "\u200b",
+                      "text": [
+                        "```",
+                        "╔══════╦════════╦═════════════╗",
+                        "║ Rank ║ Chance ║ Counter DMG ║",
+                        "╠══════╬════════╬═════════════╣",
+                        "║  1   ║   5%   ║             ║",
+                        "╠══════╬════════╣             ║",
+                        "║  2   ║   8%   ║     100%    ║",
+                        "╠══════╬════════╣             ║",
+                        "║  3   ║   10%  ║             ║",
+                        "╚══════╩════════╩═════════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             }
         ]
     },
@@ -65,7 +121,46 @@
                 "text": [
                     "Boost to Water ATK based on Aglovale's number of <:Status_Deluge_Crest:832588448954187776> **Deluge Crest**."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : false,
+                      "title" : "\u200b",
+                      "text": [
+                        "\u200b"
+                      ]
+                  },
+                  {
+                      "inLine" : true,
+                      "title" : "Status",
+                      "text": [
+                        "<:Status_Deluge_Crest_1:832588449214365746>",
+                        "\u200b",
+                        "<:Status_Deluge_Crest_2:838416956913614878>",
+                        "\u200b",
+                        "<:Status_Deluge_Crest_3:838416957086367825>",
+                        "\u200b",
+                        "<:Status_Deluge_Crest_4:838416957228580864>",
+                        "\u200b",
+                        "<:Status_Deluge_Crest_5:838416957157802045>"
+                      ]
+                  },
+                  {
+                      "inLine" : true,
+                      "title" : "Water ATK Up",
+                      "text": [
+                        "10% <:Status_WaterAtkUp:832603014598623233>",
+                        "\u200b",
+                        "20% <:Status_WaterAtkUp:832603014598623233>",
+                        "\u200b",
+                        "30% <:Status_WaterAtkUp:832603014598623233>",
+                        "\u200b",
+                        "40% <:Status_WaterAtkUp:832603014598623233>",
+                        "\u200b",
+                        "50% <:Status_WaterAtkUp:832603014598623233>"
+                      ]
+                  }
+                ]
             },
             {
                 "duration": {
@@ -77,7 +172,43 @@
                 "text": [
                     "All allies gain <:Status_WaterAtkUp:832603014598623233> **Water ATK Up** upon chain burst activation.\n(Effect enhanced based on number of chains.)\n(Takes effect even when Aglovale is a sub ally.)\n"
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : false,
+                      "title" : "\u200b",
+                      "text": [
+                        "Strength of <:Status_WaterAtkUp:832603014598623233> Water ATK Up depends on the number of charge attacks in the chain burst.",
+                        "Aglovale doesn't have to be part of the chain burst to activate this support skill."
+                      ]
+                  },
+                  {
+                      "inLine" : true,
+                      "title" : "Chain burst",
+                      "text": [
+                        "2",
+                        "\u200b",
+                        "3",
+                        "\u200b",
+                        "4",
+                        "\u200b",
+                        "5+"
+                      ]
+                  },
+                  {
+                      "inLine" : true,
+                      "title" : "Effect",
+                      "text": [
+                        "All allies gain 10% <:Status_WaterAtkUp:832603014598623233>",
+                        "\u200b",
+                        "All allies gain 15% <:Status_WaterAtkUp:832603014598623233>",
+                        "\u200b",
+                        "All allies gain 30% <:Status_WaterAtkUp:832603014598623233>",
+                        "\u200b",
+                        "All allies gain 35% <:Status_WaterAtkUp:832603014598623233>"
+                      ]
+                  }
+                ]
             },
             {
                 "duration": {},
@@ -159,7 +290,18 @@
                 "text": [
                     "When Switching to Main Ally: Fire allies gain <:Status_Blessed_Radiance:832583965403250718> **Blessed Radiance**.\n(Can't be reactivated.)\n"
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : false,
+                      "title" : "<:Status_Blessed_Radiance:832583965403250718> Blessed Radiance:",
+                      "text": [
+                        "\u2022 **Effect**: DEF is boosted / Damage dealt by one-foe attacks is partially absorbed to HP (Can't be removed)",
+                        "\u2022 **Strength**: 50% DEF Up / 25% of DMG dealt (Healing cap: 800)"
+                      ]
+                  }
+                ]
+
             },
             {
                 "duration": {},
@@ -195,7 +337,26 @@
                 "text": [
                     "Chance to attack even when Albert has <:Status_Paralysis:832598585161941033> **Electrified**."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png",
+                "data":[
+                  {
+                      "inLine" : false,
+                      "title" : "Does not allow skill cooldown to progress normally after the attack phase, even if Albert attacks.",
+                      "text": [
+                        "```",
+                        "╔══════╦════════╗",
+                        "║ Rank ║ Chance ║",
+                        "╠══════╬════════╣",
+                        "║   1  ║   ?%   ║",
+                        "╠══════╬════════╣",
+                        "║   2  ║   ?%   ║",
+                        "╠══════╬════════╣",
+                        "║   3  ║  100%  ║",
+                        "╚══════╩════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             }
         ],
         "BASE_4": [
@@ -221,7 +382,26 @@
                 "text": [
                     "Chance to attack even when Albert has <:Status_Paralysis:832598585161941033> **Electrified**."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png",
+                "data":[
+                  {
+                      "inLine" : false,
+                      "title" : "Does not allow skill cooldown to progress normally after the attack phase, even if Albert attacks.",
+                      "text": [
+                        "```",
+                        "╔══════╦════════╗",
+                        "║ Rank ║ Chance ║",
+                        "╠══════╬════════╣",
+                        "║   1  ║   ?%   ║",
+                        "╠══════╬════════╣",
+                        "║   2  ║   ?%   ║",
+                        "╠══════╬════════╣",
+                        "║   3  ║  100%  ║",
+                        "╚══════╩════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             }
         ],
         "DARK": [
@@ -229,9 +409,42 @@
                 "duration": {},
                 "name": "Levin Lord",
                 "text": [
-                    "Immune to <:Status_Paralysis:832598585161941033> **Paralyzed**.\nBoost to multiattack rate based on foe's <:Status_7129_1:838040523960877066> **Thunderstruck** lvl.(**When lvl is 5 or above**: Chance to deal quadruple attacks.)"
+                    "Immune to <:Status_Paralysis:832598585161941033> **Paralyzed**.\nBoost to multiattack rate based on foe's <:Status_7129:838784405120090122> **Thunderstruck** lvl.**When <:Status_7129_5:838783419604664391> **Thunderstruck** lvl is 5  or above**: Chance to deal quadruple attacks."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : true,
+                      "title" : "<:Status_7129:838784405120090122> Thunderstruck lvl can also be raised by other parties in a raid.",
+                      "text": [
+                        "```",
+                        "╔═════╦═════════╦════════╦════════╗",
+                        "║ Lvl ║  DA Up  ║  TA Up ║  QA Up ║",
+                        "╠═════╬═════════╬════════╬════════╣",
+                        "║  1  ║   10%   ║   5%   ║        ║",
+                        "╠═════╬═════════╬════════╣        ║",
+                        "║  2  ║   20%   ║   10%  ║        ║",
+                        "╠═════╬═════════╬════════╣   -    ║",
+                        "║  3  ║   30%   ║   15%  ║        ║",
+                        "╠═════╬═════════╬════════╣        ║",
+                        "║  4  ║   40%   ║   20%  ║        ║",
+                        "╠═════╬═════════╬════════╬════════╣",
+                        "║  5  ║   50%   ║   25%  ║        ║",
+                        "╠═════╬═════════╬════════╣        ║",
+                        "║  6  ║   60%   ║   30%  ║        ║",
+                        "╠═════╬═════════╬════════╣        ║",
+                        "║  7  ║   70%   ║   35%  ║        ║",
+                        "╠═════╬═════════╬════════╣  30%   ║",
+                        "║  8  ║   80%   ║   40%  ║        ║",
+                        "╠═════╬═════════╬════════╣        ║",
+                        "║  9  ║   90%   ║   45%  ║        ║",
+                        "╠═════╬═════════╬════════╣        ║",
+                        "║  10 ║  100%   ║   50%  ║        ║",
+                        "╚═════╩═════════╩════════╩════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             },
             {
                 "duration": {},
@@ -239,7 +452,40 @@
                 "text": [
                     "Boost to Dark allies' skill specs based on foe's <:Status_7129_1:838040523960877066> **Thunderstruck** lvl.(Takes effect even when Albert is a sub ally.)"
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : true,
+                      "title" : "<:Status_7129:838784405120090122> Thunderstruck lvl can also be raised by other parties in a raid.",
+                      "text": [
+                        "```",
+                        "╔═════╦══════════════╦══════════════╗",
+                        "║ Lvl ║ Skill DMG Up ║ Skill Cap Up ║",
+                        "╠═════╬══════════════╬══════════════╣",
+                        "║  1  ║      5%      ║              ║",
+                        "╠═════╬══════════════╣              ║",
+                        "║  2  ║      10%     ║              ║",
+                        "╠═════╬══════════════╣      1%      ║",
+                        "║  3  ║      15%     ║              ║",
+                        "╠═════╬══════════════╣              ║",
+                        "║  4  ║      20%     ║              ║",
+                        "╠═════╬══════════════╬══════════════╣",
+                        "║  5  ║      25%     ║              ║",
+                        "╠═════╬══════════════╣              ║",
+                        "║  6  ║      30%     ║              ║",
+                        "╠═════╬══════════════╣              ║",
+                        "║  7  ║      35%     ║              ║",
+                        "╠═════╬══════════════╣      5%      ║",
+                        "║  8  ║      40%     ║              ║",
+                        "╠═════╬══════════════╣              ║",
+                        "║  9  ║      45%     ║              ║",
+                        "╠═════╬══════════════╣              ║",
+                        "║  10 ║      50%     ║              ║",
+                        "╚═════╩══════════════╩══════════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             }
         ],
         "EVENT": [
@@ -267,7 +513,59 @@
                 "text": [
                     "Deal 2-hit damage to random foes from the second hit of each normal attack.\nSupplemental damage from third hit (Damage cap: 50,000).\n50% Bonus Wind DMG effect to fourth hit."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data": [
+                  {
+                      "inLine" : true,
+                      "title" : "Normal Attack",
+                      "text": [
+                        "1st Hit",
+                        "\u200b",
+                        "\u200b",
+                        "2nd Hit",
+                        "\u200b",
+                        "\u200b",
+                        "3rd Hit",
+                        "\u200b",
+                        "\u200b",
+                        "\u200b",
+                        "4th Hit"
+                      ]
+                  },
+                  {
+                      "inLine" : true,
+                      "title" : "Effect",
+                      "text": [
+                        "Normal attack",
+                        "\u200b",
+                        "\u200b",
+                        "+ 2-hit damage to random foes",
+                        "\u200b",
+                        "+ Supplemental damage for each hit",
+                        "\u200b",
+                        "+ 50% Bonus Wind DMG effect for each hit"
+                      ]
+                  },
+                  {
+                      "inLine" : true,
+                      "title" : "Notes",
+                      "text": [
+                        "No changes",
+                        "\u200b",
+                        "\u200b",
+                        "\u200b",
+                        "\u200b",
+                        "50% normal attack damage per hit"
+                      ]
+                  },
+                  {
+                      "inLine" : false,
+                      "title" : "Albert's 2-hit damage is counted as 2 separate damage instances.",
+                      "text": [
+                        "\u2022 Effects such as <:Status_Bonus_Damage:832584447911264276> **Bonus Wind DMG**, <:Status_DmgUp:832590865767727175> **Supplemental DMG**, and <:Status_Keen:832595932620783736> **Keen** are applied to each damage instance."
+                      ]
+                  }
+                ]
             },
             {
                 "duration": {
@@ -279,7 +577,44 @@
                 "text": [
                     "Multiattacks raise <:status_6947:832604144455254017> **Thunderswift** lvl based on number of hits (Max: 10).\n(Boost to multiattack rate based on Thunderswift lvl.\nAt 7 or above: Chance to deal quadruple attacks.)\n"
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : true,
+                      "title" : "Raises <:status_6947:832604144455254017> **Thunderswift** lvl based on the multiattack. Single attacks do not raise Thunderswift lvl.",
+                      "text": [
+                        "\u2022 Double attack: +1",
+                        "\u2022 Triple attack: +2 ",
+                        "\u2022 Quadruple attack: +3 ",
+                        "At <:status_6947:832604144455254017> **Thunderswift** lvl 7 and above, also boosts quadruple attack rate based on lvl.",
+                        "```",
+                        "╔═════╦═══════╦═══════╦════════╗",
+                        "║ Lvl ║ DA Up ║ TA Up ║  QA Up ║",
+                        "╠═════╬═══════╬═══════╬════════╣",
+                        "║  1  ║       ║   4%  ║        ║",
+                        "╠═════╣       ╠═══════╣        ║",
+                        "║  2  ║       ║   8%  ║        ║",
+                        "╠═════╣   8%  ╠═══════╣        ║",
+                        "║  3  ║       ║  12%  ║        ║",
+                        "╠═════╣       ╠═══════╣    -   ║",
+                        "║  4  ║       ║  16%  ║        ║",
+                        "╠═════╬═══════╬═══════╣        ║",
+                        "║  5  ║       ║  20%  ║        ║",
+                        "╠═════╣       ╠═══════╣        ║",
+                        "║  6  ║       ║  24%  ║        ║",
+                        "╠═════╣       ╠═══════╬════════╣",
+                        "║  7  ║       ║  28%  ║  6.25% ║",
+                        "╠═════╣  40%  ╠═══════╬════════╣",
+                        "║  8  ║       ║  32%  ║  12.5% ║",
+                        "╠═════╣       ╠═══════╬════════╣",
+                        "║  9  ║       ║  36%  ║ 18.75% ║",
+                        "╠═════╣       ╠═══════╬════════╣",
+                        "║  10 ║       ║  40%  ║   25%  ║",
+                        "╚═════╩═══════╩═══════╩════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             }
         ]
     },

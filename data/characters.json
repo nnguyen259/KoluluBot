@@ -229,17 +229,17 @@
     "Albert": {
         "BASE": {
             "5star": "Yes",
-            "atk": "4,800",
+            "atk": "6080 (+600)",
             "element": "Light",
             "gender": [
                 "Male"
             ],
-            "hp": "1,280",
+            "hp": "1520",
             "id": "3040045000",
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040045000_03.png",
             "jpname": "\u30a2\u30eb\u30d9\u30fc\u30eb",
             "max_evo": "5",
-            "name": "Albert",
+            "name": "Albert 5\u2605",
             "profile": "This knight is determined to find his friend who has been twisted and consumed by power. He moves like the lightning he controls; appearing with a flash and a roar that turns plains thick with enemies into plains thick with ash.",
             "race": [
                 "Human"
@@ -266,10 +266,10 @@
             ],
             "hp": "1,280",
             "id": "3040045000",
-            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040045000_03.png",
+            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040045000_02.png",
             "jpname": "\u30a2\u30eb\u30d9\u30fc\u30eb",
             "max_evo": "5",
-            "name": "Albert",
+            "name": "Albert 4\u2605",
             "profile": "This knight is determined to find his friend who has been twisted and consumed by power. He moves like the lightning he controls; appearing with a flash and a roar that turns plains thick with enemies into plains thick with ash.",
             "race": [
                 "Human"
@@ -280,7 +280,7 @@
             "specialties": [
                 "Sabre"
             ],
-            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040045000_03.jpg",
+            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3040045000_02.jpg",
             "type": "Attack",
             "va": [
                 "Hikaru Midorikawa"
@@ -329,7 +329,7 @@
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3030177000_02.png",
             "jpname": "\u30a2\u30eb\u30d9\u30fc\u30eb",
             "max_evo": "4",
-            "name": "Albert",
+            "name": "Albert (Event)",
             "profile": "Upon reuniting with his old companions, this knight continues his search for a friend still lost. He clutches his thunder sword that will light his path as he seeks atonement for sins from a dark and distant past.",
             "race": [
                 "Human"
@@ -359,7 +359,7 @@
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040290000_02.png",
             "jpname": "\u30a2\u30eb\u30d9\u30fc\u30eb",
             "max_evo": "4",
-            "name": "Albert",
+            "name": "Albert (Summer)",
             "profile": "The savior of Levin takes a vacation to discover how tourism can revitalize his homeland. All it takes is one fireworks display to convince Albert it has the power to reinvigorate a kingdom. This is the know-how Levin has been waiting for.",
             "race": [
                 "Human"
