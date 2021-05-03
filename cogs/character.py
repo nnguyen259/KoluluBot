@@ -379,6 +379,7 @@ class Character(commands.Cog):
             await ctx.send('No search term specified.')
 
     @char.group()
+    @commands.guild_only()
     async def alias(self, ctx):
         if ctx.invoked_subcommand is None:
             await ctx.send('Alias command not found!')
@@ -477,7 +478,7 @@ class Character(commands.Cog):
                 msg += '\n'.join(results)
                 await ctx.send(msg)
 
-    def getCharVersion(self, ctx, name, version, uncap):
+    def getCharVersion(self, ctx, name, version, uncap='6'):
         uncaps = {'4', '5', '6', 'MLB', 'FLB', 'ULB'}
         noVersion = False
 
