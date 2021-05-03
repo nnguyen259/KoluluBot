@@ -120,25 +120,26 @@ class Character(commands.Cog):
         for ougiList in charVersion:
             for ougiText in ougiList["text"]:
                 ougiEmbed.add_field(name=f'**{ougiList["name"]}**:', value=f'{ougiText} \n', inline=False)
-                if ougiList["duration"]:
-                    duration = ''
-                    for ougiDuration in ougiList["duration"]:
-                        for ougiDurationText in ougiList["duration"][ougiDuration]:
-                                duration+= f'{ougiDurationText} and '
-                        duration = duration[:-4]
-                        duration += f': {ougiDuration}.\n'
-                        duration = duration.replace('^s', ' seconds')
-                        duration = duration.replace('^i', '')
-                        if ougiDuration == '1^t':
-                            duration = duration.replace('^t', ' turn')
-                        else:
-                            duration = duration.replace('^t', ' turns')
-                    ougiEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
 
             if "data" in ougiList:
                 data = ougiList["data"]
                 for details in data:
                     ougiEmbed.add_field(name=details['title'], value="\n".join(details['text']), inline=details['inLine'])
+
+            if ougiList["duration"]:
+                duration = ''
+                for ougiDuration in ougiList["duration"]:
+                    for ougiDurationText in ougiList["duration"][ougiDuration]:
+                            duration+= f'{ougiDurationText} and '
+                    duration = duration[:-4]
+                    duration += f': {ougiDuration}.\n'
+                    duration = duration.replace('^s', ' seconds')
+                    duration = duration.replace('^i', '')
+                    if ougiDuration == '1^t':
+                        duration = duration.replace('^t', ' turn')
+                    else:
+                        duration = duration.replace('^t', ' turns')
+                ougiEmbed.add_field(name='Durations', value=f'{duration}\n', inline=False)
 
         ougiEmbed.title="Charge Attack"
         ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
@@ -171,6 +172,11 @@ class Character(commands.Cog):
                 skillEmbed.set_thumbnail(url=f'{skill["icon"][-1]}')
                 skillEmbed.set_image(url=self.chars[name][version]['image'])
 
+                if "data" in skill:
+                    data = skill["data"]
+                    for details in data:
+                        skillEmbed.add_field(name=details['title'], value="\n".join(details['text']), inline=details['inLine'])
+
                 if skill['duration']:
                     duration = ''
                     for skillDuration in skill['duration']:
@@ -184,13 +190,7 @@ class Character(commands.Cog):
                             duration = duration.replace('^t', ' turn')
                         else:
                             duration = duration.replace('^t', ' turns')
-                    skillEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
-
-                if "data" in skill:
-                    data = skill["data"]
-                    for details in data:
-                        skillEmbed.add_field(name=details['title'], value="\n".join(details['text']), inline=details['inLine'])
-
+                    skillEmbed.add_field(name='Durations', value=f'{duration}\n', inline=False)
 
             embedList.append(skillEmbed)
 
@@ -225,6 +225,12 @@ class Character(commands.Cog):
             supportEmbed.description = "\n".join(supportList['text'])
             supportEmbed.set_thumbnail(url=f'{supportList["thumbnail"]}')
             supportEmbed.set_image(url=self.chars[name][version]['image'])
+                
+            if "data" in supportList:
+                data = supportList["data"]
+                for details in data:
+                    supportEmbed.add_field(name=details['title'], value="\n".join(details['text']), inline=details['inLine'])
+
             if supportList["duration"]:
                 duration = ''
                 for supportDuration in supportList["duration"]:
@@ -238,11 +244,7 @@ class Character(commands.Cog):
                         duration = duration.replace('^t', ' turn')
                     else:
                         duration = duration.replace('^t', ' turns')
-                supportEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
-            if "data" in supportList:
-                data = supportList["data"]
-                for details in data:
-                    supportEmbed.add_field(name=details['title'], value="\n".join(details['text']), inline=details['inLine'])
+                supportEmbed.add_field(name='Durations', value=f'{duration}\n', inline=False)
             embedList.append(supportEmbed)
 
         if noShow:
