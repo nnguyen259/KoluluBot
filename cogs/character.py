@@ -63,10 +63,7 @@ class Character(commands.Cog):
         title = f'{self.emojis["Rarity"][charVersion["rarity"].upper()]} '
         for series in charVersion['series']:
             title += f'{self.emojis["Series"][series]} '
-        if (version != 'Base'):
-            title +=f'**{charVersion["name"]} ({version})**'
-        else:
-            title +=f'**{charVersion["name"]}**'
+        title +=f'**{charVersion["name"]}**'
         description = f'**JP**: {charVersion["jpname"]}\n'
         description += f'**VA**: {", ".join(charVersion["va"])}'
 
@@ -137,6 +134,11 @@ class Character(commands.Cog):
                         else:
                             duration = duration.replace('^t', ' turns')
                     ougiEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
+
+            if "data" in ougiList:
+                data = ougiList["data"]
+                for details in data:
+                    ougiEmbed.add_field(name=details['title'], value="\n".join(details['text']), inline=details['inLine'])
 
         ougiEmbed.title="Charge Attack"
         ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
@@ -237,6 +239,10 @@ class Character(commands.Cog):
                     else:
                         duration = duration.replace('^t', ' turns')
                 supportEmbed.add_field(name='\u200b', value=f'{duration}\n', inline=False)
+            if "data" in supportList:
+                data = supportList["data"]
+                for details in data:
+                    supportEmbed.add_field(name=details['title'], value="\n".join(details['text']), inline=details['inLine'])
             embedList.append(supportEmbed)
 
         if noShow:
@@ -476,7 +482,7 @@ class Character(commands.Cog):
         noVersion = False
 
         name = name.lower()
-        if not uncap:
+        if not uncap or uncap not in uncaps:
             uncap = '6'
         if version:
             version = version.upper()
