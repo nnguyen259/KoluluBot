@@ -4761,7 +4761,18 @@
                 "duration": {},
                 "name": "Extended Mastery Support Skill",
                 "text": [
-                    "Chance to reuse Amethyst with every one-foe attack"
+                    "Chance to reuse Amethyst with every one-foe attack",
+                    "```",
+                    "╔══════╦══════╗",
+                    "║ Rank ║   %  ║",
+                    "╠══════╬══════╣",
+                    "║   1  ║  ?%  ║",
+                    "╠══════╬══════╣",
+                    "║   2  ║  ?%  ║",
+                    "╠══════╬══════╣",
+                    "║   3  ║ ~10% ║",
+                    "╚══════╩══════╝",
+                    "```"
                 ],
                 "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
             }
