@@ -541,19 +541,26 @@ class Character(commands.Cog):
 
     async def sendDefault(self, ctx, name):
         versions = ', '.join((ver.title() for ver in self.chars[name] if '_' not in ver))
-        await ctx.send(f'Version not specified or not found for character **{name.title()}**, using the default version. \nValid versions for character **{name.title()}: {versions}**')
+        charName = self.chars[name]['BASE']['name']
+        charName = charName.rsplit(' ')[0] if charName.endswith(')') or charName.endswith('\u2605') else charName
+        await ctx.send(f'Version not specified or not found for character **{charName}**, using the default version. \nValid versions for character **{charName}: {versions}**')
 
     async def sendUncap(self, ctx, name, version, uncap):
         charVersion = self.chars[name][version]
+        charName = charVersion['name']
+        charName = charName.rsplit(' ')[0] if charName.endswith(')') or charName.endswith('\u2605') else charName
         maxUncap = int(charVersion["max_evo"])
         currentUncap = int(uncap)
 
-        if maxUncap < 5 or currentUncap > maxUncap: return
+        if currentUncap > maxUncap:
+            currentUncap = maxUncap
+
+        if maxUncap < 5: return
 
         if maxUncap == currentUncap:
-            msg = f'Showing the highest uncap for character **{name.title()} ({version.title()})**. For lower uncap add 5 or 4 to the end of the command.'
+            msg = f'Showing the highest uncap for character **{charName}**. For lower uncap add 5 or 4 to the end of the command.'
         else:
-            msg = f'Showing the {currentUncap}* uncap for character **{name.title()} ({version.title()})**.'
+            msg = f'Showing the {currentUncap}* uncap for character **{charName}**.'
         await ctx.send(msg)
 
 def setup(client):
