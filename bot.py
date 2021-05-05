@@ -16,15 +16,19 @@ handler.setLevel(logging.INFO)
 logger.addHandler(handler)
 
 load_dotenv()
+defaultPrefix = os.getenv("prefix")
 
 if not os.path.exists('db/kolulu.db'):
     connection = sqlite3.connect('db/kolulu.db')
     with closing(connection) as db:
-        for file in os.listdir('sql'):
-            if file.endswith('.sql'):
-                with open(f'sql/{file}', 'r') as script:
-                    db.cursor().executescript(script.read())
-                db.commit()
+        try:
+            for file in os.listdir('sql'):
+                if file.endswith('.sql'):
+                    with open(f'sql/{file}', 'r') as script:
+                        db.cursor().executescript(script.read())
+                    db.commit()
+        except Exception:
+            pass
 
 if os.getenv("sql"):
     connection = sqlite3.connect('db/kolulu.db')
@@ -37,7 +41,18 @@ if os.getenv("sql"):
         except Exception:
             pass
 
-bot = commands.Bot("!gbf ")
+checkPrefix = 'SELECT prefix FROM prefixes WHERE server_id = 0'
+connection = sqlite3.connect('db/kolulu.db')
+with closing(connection) as db:
+    cursor = db.cursor()
+    cursor.execute(checkPrefix)
+    result = cursor.fetchone()
+    if not result:
+        statement = 'INSERT INTO prefixes VALUES(0, ?)'
+        cursor.execute(statement, (defaultPrefix,))
+        db.commit()
+
+bot = commands.Bot(command_prefix=defaultPrefix)
 modules = ['character', 'prefix']
 
 @bot.event

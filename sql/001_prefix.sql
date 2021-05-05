@@ -3,5 +3,3 @@ CREATE TABLE prefixes (
     prefix TEXT NOT NULL,
     PRIMARY KEY (server_id, prefix)
 );
-
-INSERT INTO prefixes VALUES (0, '!gbf ');
