@@ -5,7 +5,8 @@
                 "duration": {},
                 "name": "Raging Axe Slash",
                 "text": [
-                    "450% Fire damage to a foe.\nExtend Raging Arm DX's buff durations by 2 turns."
+                    "450% Fire damage to a foe.",
+                    "Extend Raging Arm DX's buff durations by 2 turns."
                 ]
             }
         ],
@@ -29,7 +30,8 @@
                 },
                 "name": "Final Dawn",
                 "text": [
-                    "Massive Fire damage to a foe.\nGain <:Status_Armored:832577248602095656> **100% / 80% Armored**."
+                    "Massive Fire damage to a foe.",
+                    "Gain <:Status_Armored:832577248602095656> **100% / 80% Armored**."
                 ]
             }
         ]
@@ -40,7 +42,9 @@
                 "duration": {},
                 "name": "Silberne Welt",
                 "text": [
-                    "450% Water damage to a foe.\n(20% boost to C.A. specs when affected by <:Status_WaterAtkUp:832603014598623233> **Water ATK Up**.)\nRestore 20% of Aglovale's HP (Healing cap: 2000)."
+                    "450% Water damage to a foe.",
+                    "(20% boost to C.A. specs when affected by <:Status_WaterAtkUp:832603014598623233> **Water ATK Up**.)",
+                    "Restore 20% of Aglovale's HP (Healing cap: 2000)."
                 ]
             }
         ],
@@ -49,7 +53,8 @@
                 "duration": {},
                 "name": "Gefrorene Welt",
                 "text": [
-                    "450% Light damage to a foe.\n1-turn cut to Aglovale's skill cooldowns.\n100% Bonus Light damage to a foe for each <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** (Damage cap: ~120,000 per hit / Max: 5 hits)."
+                    "450% Light damage to a foe.",
+                    "1-turn cut to Aglovale's skill cooldowns.\n100% Bonus Light damage to a foe for each <:Status_Aurora_Crest:832580994745630741> **Aurora Crest** (Damage cap: ~120,000 per hit / Max: 5 hits)."
                 ]
             }
         ]
@@ -60,7 +65,8 @@
                 "duration": {},
                 "name": "Airi Slash",
                 "text": [
-                    "Big Earth damage to a foe.\nBoost to damage based on how high <:Status_BodyHeat:832583966225203211> **Body Heat Boosted** is (Resets <:Status_BodyHeat:832583966225203211> **Body Heat Boosted**)."
+                    "Big Earth damage to a foe.",
+                    "Boost to damage based on how high <:Status_BodyHeat:832583966225203211> **Body Heat Boosted** is (Resets <:Status_BodyHeat:832583966225203211> **Body Heat Boosted**)."
                 ]
             }
         ]
@@ -71,7 +77,8 @@
                 "duration": {},
                 "name": "Benedictio Solis",
                 "text": [
-                    "Massive Fire damage to a foe.\n(50% boost to C.A. damage and 20% boost to C.A. damage cap when the field effect <:Status_SunTouched_Paradise:832601601038221352> **Sun-Touched Paradise** is active.)\n"
+                    "Massive Fire damage to a foe.",
+                    "(50% boost to C.A. damage and 20% boost to C.A. damage cap when the field effect <:Status_SunTouched_Paradise:832601601038221352> **Sun-Touched Paradise** is active.)\n"
                 ]
             }
         ]
@@ -89,7 +96,8 @@
                 },
                 "name": "Levin Annihilation",
                 "text": [
-                    "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG** and <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment**."
+                    "Massive Light damage to a foe.",
+                    "Gain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG** and <:Status_Lightnings_Judgment:832596750170062879> **Lightning's Judgment**."
                 ],
                 "data": [
                   {
@@ -111,7 +119,8 @@
                 },
                 "name": "Lord of Blitz",
                 "text": [
-                    "Massive Light damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Light DMG**."
+                    "Massive Light damage to a foe.",
+                    "Gain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Light DMG**."
                 ]
             }
         ],
@@ -124,7 +133,9 @@
                 },
                 "name": "Lord of Blitz",
                 "text": [
-                    "450% Dark damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG**.\nEnd cooldown for Electron Storm."
+                    "450% Dark damage to a foe.",
+                    "Gain <:Status_Bonus_Damage:832584447911264276> **30% Bonus Light DMG**.",
+                    "End cooldown for Electron Storm."
                 ]
             }
         ],
@@ -153,7 +164,8 @@
                 },
                 "name": "Levin Barrage",
                 "text": [
-                    "450% Wind damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**.\nRaise <:status_6947:832604144455254017> **Thunderswift** lvl by 3."
+                    "450% Wind damage to a foe.\nGain <:Status_Bonus_Damage:832584447911264276> **20% Bonus Wind DMG**.",
+                    "Raise <:status_6947:832604144455254017> **Thunderswift** lvl by 3."
                 ]
             }
         ]
@@ -164,7 +176,8 @@
                 "duration": {},
                 "name": "Blaze of Thunder ++",
                 "text": [
-                    "Massive Fire damage to a foe.\nGain <:Status_SkillUp:832601206001500221> **Skill DMG Up (Stackable)**"
+                    "Massive Fire damage to a foe",
+                    "Gain <:Status_SkillUp:832601206001500221> **Skill DMG Up (Stackable)**"
                 ]
             }
         ],
@@ -184,7 +197,8 @@
                 "duration": {},
                 "name": "Swordsweep",
                 "text": [
-                    "Massive Earth damage to a foe.\nGain <:Status_Celerity:832585566033149992> **Celerity** and <:Status_Velocity:832602900470562836> **Velocity**."
+                    "Massive Earth damage to a foe.",
+                    "Gain <:Status_Celerity:832585566033149992> **Celerity** and <:Status_Velocity:832602900470562836> **Velocity**."
                 ]
             }
         ]
@@ -199,7 +213,8 @@
                 },
                 "name": "Mirror-Blade Helix",
                 "text": [
-                    "450% Earth damage to a foe and remove 1 buff.\nDeploy 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**."
+                    "450% Earth damage to a foe and remove 1 buff.",
+                    "Deploy 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**."
                 ]
             }
         ],
@@ -212,7 +227,19 @@
                 },
                 "name": "Mirror-Blade Helix",
                 "text": [
-                    "450% Earth damage to a foe.\nGain <:Status_Marked_for_Death_Hildebra:832597007754854410> **Marked for Death**."
+                    "450% Earth damage to a foe",
+                    "Gain <:Status_Marked_for_Death_Hildebra:832597007754854410> **Marked for Death**."
+                ],
+                "data": [
+                  {
+                      "inLine" : true,
+                      "title" : "<:Status_Marked_for_Death_Hildebra:832597007754854410> Marked for Death:",
+                      "text": [
+                        "\u2022 **Effect**: Cast **Hildebrand** twice, once on the turn of the charge attack, and once on the next turn.",
+                        "\u2022 Has the same effect as a regular usage of the skill, granting <:Status_MirrorBlade_Barrier:834402579919274005> **Mirror-Blade** Barrier to all allies and deploying 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**.",
+                        "\u2022 Activates even if Hildebrand is on cooldown, and does not put it on cooldown if it's not already."
+                      ]
+                  }
                 ]
             }
         ]

@@ -97,15 +97,15 @@
                       "title" : "\u200b",
                       "text": [
                         "```",
-                        "╔══════╦════════╦═════════════╗",
-                        "║ Rank ║ Chance ║ Counter DMG ║",
-                        "╠══════╬════════╬═════════════╣",
-                        "║  1   ║   5%   ║             ║",
-                        "╠══════╬════════╣             ║",
-                        "║  2   ║   8%   ║     100%    ║",
-                        "╠══════╬════════╣             ║",
-                        "║  3   ║   10%  ║             ║",
-                        "╚══════╩════════╩═════════════╝",
+                        "╔══════╦════════╦═══════════╗",
+                        "║ Rank ║ Chance ║Counter DMG║",
+                        "╠══════╬════════╬═══════════╣",
+                        "║  1   ║   5%   ║           ║",
+                        "╠══════╬════════╣           ║",
+                        "║  2   ║   8%   ║    100%   ║",
+                        "╠══════╬════════╣           ║",
+                        "║  3   ║   10%  ║           ║",
+                        "╚══════╩════════╩═══════════╝",
                         "```"
                       ]
                   }
@@ -653,7 +653,26 @@
                 "text": [
                     "Slight chance of Dodge-and-Counter effect (1-hit)."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/410_3.png",
+                "data":[
+                  {
+                      "inLine" : true,
+                      "title" : "\u200b",
+                      "text": [
+                        "```",
+                        "╔══════╦════════╦═══════════╗",
+                        "║ Rank ║ Chance ║Counter DMG║",
+                        "╠══════╬════════╬═══════════╣",
+                        "║   1  ║   5%   ║           ║",
+                        "╠══════╬════════╣           ║",
+                        "║   2  ║   8%   ║    100%   ║",
+                        "╠══════╬════════╣           ║",
+                        "║   3  ║   10%  ║           ║",
+                        "╚══════╩════════╩═══════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             }
         ]
     },
@@ -669,7 +688,20 @@
                 "text": [
                     "Boost to ATK, DEF, and charge attack specs based on number of <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** (Max: 5)."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : true,
+                      "title" : "\u200b",
+                      "text": [
+                        "\u2022 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**: 10% ATK Up, 10% DEF Up, 20% C.A DMG Up, 10% C.A DMG Cap Up.",
+                        "\u2022 2 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**: 20% ATK Up, 20% DEF Up, 30% C.A DMG Up, 15% C.A DMG Cap Up.",
+                        "\u2022 3 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**: 30% ATK Up, 30% DEF Up, 40% C.A DMG Up, 20% C.A DMG Cap Up.",
+                        "\u2022 4 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**: 40% ATK Up, 40% DEF Up, 50% C.A DMG Up, 25% C.A DMG Cap Up.",
+                        "\u2022 5 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**: 50% ATK Up, 50% DEF Up, 60% C.A DMG Up, 30% C.A DMG Cap Up."
+                      ]
+                  }
+                ]
             },
             {
                 "duration": {},
@@ -677,7 +709,20 @@
                 "text": [
                     "Increase all allies' 'Boost to Earth ATK' effect by an additional 30%."
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : true,
+                      "title" : "\u200b",
+                      "text": [
+                        "\u2022 <:Status_EarthAtkUp:832591143799226398> Earth ATK Up and certain types of buffs are applicable for this support skill.",
+                        "    \u2022 Not all buffs that boost Earth ATK are applicable.",
+                        "    \u2022 Earth ATK Up (Stackable) is not applicable.",
+                        "\u2022 Only increases Earth ATK once, even if an ally has multiple buffs that qualify.",
+                        "\u2022 Similar support skills do not stack. Only the highest boost takes effect."
+                      ]
+                  }
+                ]
             },
             {
                 "duration": {},
@@ -693,13 +738,38 @@
                 "duration": {},
                 "name": "Mirror-Blade Radiance",
                 "text": [
-                    "Boost to ATK and DEF based on number of <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** deployed.\n(Starts battle with 3 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** [Max: 5].)\n(When 3 or more <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** are deployed: Restore 10% of max HP each turn [Healing cap: 1000].)\n"
+                    "Boost to ATK and DEF based on number of <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** deployed.",
+                    "(Starts battle with 3 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** [Max: 5].)",
+                    "(When 3 or more <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** are deployed: Restore 10% of max HP each turn [Healing cap: 1000].)"
                 ],
-                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png"
+                "thumbnail": "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/55_3.png",
+                "data":[
+                  {
+                      "inLine" : true,
+                      "title" : "\u200b",
+                      "text": [
+                        "```",
+                        "╔═════╦════════╦════════╗",
+                        "║ Lvl ║ ATK Up ║ DEF Up ║",
+                        "╠═════╬════════╬════════╣",
+                        "║  1  ║        ║   10%  ║",
+                        "╠═════╣        ╠════════╣",
+                        "║  2  ║   10%  ║   20%  ║",
+                        "╠═════╣        ╠════════╣",
+                        "║  3  ║        ║   30%  ║",
+                        "╠═════╬════════╬════════╣",
+                        "║  4  ║   40%  ║   40%  ║",
+                        "╠═════╬════════╬════════╣",
+                        "║  5  ║   50%  ║   50%  ║",
+                        "╚═════╩════════╩════════╝",
+                        "```"
+                      ]
+                  }
+                ]
             },
             {
                 "duration": {
-                    "Up^t": [
+                    "Up to 3^t": [
                         "<:Status_Uncrossable_Waters:832602432100892712> **Uncrossable Waters**"
                     ]
                 },

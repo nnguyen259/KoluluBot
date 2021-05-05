@@ -1024,7 +1024,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {
                         "5^t": [
                             "<:Status_LightAtkUp:832596750144503828> **35% Light ATK Up**"
@@ -1036,7 +1036,8 @@
                     "name": "Flamebound",
                     "obtain": " Lvl 1\u21e7 Lvl 45 \u21ee Lvl 80 ",
                     "text": [
-                        "200%-300% Fire damage to a foe (Damage cap: ~400,000).\nDamage increased to 300%-400%.\nDamage further increased to 350%-450%.\nAlso gain <:Status_LightAtkUp:832596750144503828> **35% Light ATK Up**."
+                        "350%-450% Fire damage to a foe (Damage cap: ~400,000).",
+                        "Gain <:Status_LightAtkUp:832596750144503828> **35% Light ATK Up**."
                     ],
                     "type": [
                         "4"
@@ -1045,7 +1046,7 @@
             ],
             [
                 {
-                    "cooldown": " 6 turns5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {
                         "3^t": [
                             "<:Status_Defiance:832588448593346600> **25% C.A. DMG Up**"
@@ -1057,7 +1058,8 @@
                     "name": "Timberlight",
                     "obtain": " Lvl 1\u21e7 Lvl 65 \u21ee Lvl 90 ",
                     "text": [
-                        "150%-250% Light damage to a foe (Damage cap: ~380,000).\nDamage increased to 250%-350%.\nDamage further increased to 300%-400%.\nAlso gain <:Status_Defiance:832588448593346600> **25% C.A. DMG Up**."
+                        "300%-400% Light damage to a foe (Damage cap: ~380,000).",
+                        "Gain <:Status_Defiance:832588448593346600> **25% C.A. DMG Up**."
                     ],
                     "type": [
                         "1"
@@ -1066,7 +1068,7 @@
             ],
             [
                 {
-                    "cooldown": " 1 turn ",
+                    "cooldown": "1 turn",
                     "duration": {
                         "1^t": [
                             "<:Status_Burned:832584524088082433> **Overheated**"
@@ -1078,7 +1080,8 @@
                     "name": "Fireflow",
                     "obtain": " Lvl 35 ",
                     "text": [
-                        "Gain <:Status_SkillUp:832601206001500221> **35% Skill DMG Up (Stackable)** (Max: 210%).\nSelf-inflict <:Status_Burned:832584524088082433> **Overheated** for 1 turn."
+                        "Gain <:Status_SkillUp:832601206001500221> **35% Skill DMG Up (Stackable)** (Max: 210%).",
+                        "Self-inflict <:Status_Burned:832584524088082433> **Overheated** for 1 turn."
                     ],
                     "type": [
                         "3"
@@ -1090,19 +1093,15 @@
         "BASE_4": [
             [
                 {
-                    "cooldown": " 5 turns ",
-                    "duration": {
-                        "5^t": [
-                            "<:Status_LightAtkUp:832596750144503828> **35% Light ATK Up**"
-                        ]
-                    },
+                    "cooldown": "5 turns",
+                    "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/4_4.png"
                     ],
                     "name": "Flamebound",
                     "obtain": " Lvl 1\u21e7 Lvl 45 \u21ee Lvl 80 ",
                     "text": [
-                        "200%-300% Fire damage to a foe (Damage cap: ~400,000).\nDamage increased to 300%-400%.\nDamage further increased to 350%-450%.\nAlso gain <:Status_LightAtkUp:832596750144503828> **35% Light ATK Up**."
+                        "200%-300% Fire damage to a foe (Damage cap: ~400,000)."
                     ],
                     "type": [
                         "4"
@@ -1111,19 +1110,15 @@
             ],
             [
                 {
-                    "cooldown": " 6 turns5 turns ",
-                    "duration": {
-                        "3^t": [
-                            "<:Status_Defiance:832588448593346600> **25% C.A. DMG Up**"
-                        ]
-                    },
+                    "cooldown": "6 turns",
+                    "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/454_1.png"
                     ],
                     "name": "Timberlight",
                     "obtain": " Lvl 1\u21e7 Lvl 65 \u21ee Lvl 90 ",
                     "text": [
-                        "150%-250% Light damage to a foe (Damage cap: ~380,000).\nDamage increased to 250%-350%.\nDamage further increased to 300%-400%.\nAlso gain <:Status_Defiance:832588448593346600> **25% C.A. DMG Up**."
+                        "250%-350% Light damage to a foe (Damage cap: ~380,000)."
                     ],
                     "type": [
                         "1"
@@ -1132,7 +1127,7 @@
             ],
             [
                 {
-                    "cooldown": " 1 turn ",
+                    "cooldown": "1 turn",
                     "duration": {
                         "1^t": [
                             "<:Status_Burned:832584524088082433> **Overheated**"
@@ -1144,7 +1139,8 @@
                     "name": "Fireflow",
                     "obtain": " Lvl 35 ",
                     "text": [
-                        "Gain <:Status_SkillUp:832601206001500221> **35% Skill DMG Up (Stackable)** (Max: 210%).\nSelf-inflict <:Status_Burned:832584524088082433> **Overheated** for 1 turn."
+                        "Gain <:Status_SkillUp:832601206001500221> **35% Skill DMG Up (Stackable)** (Max: 210%).",
+                        "Self-inflict <:Status_Burned:832584524088082433> **Overheated** for 1 turn."
                     ],
                     "type": [
                         "3"
@@ -1158,7 +1154,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 6 turns5 turns ",
+                    "cooldown": "5 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/17_1.png"
@@ -1166,7 +1162,7 @@
                     "name": "Order",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "350%-400% Earth damage to a foe (Damage cap: ~630,000).\nDamage increased to 400%-500%."
+                        "400%-500% Earth damage to a foe (Damage cap: ~630,000)."
                     ],
                     "type": [
                         "1"
@@ -1175,7 +1171,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/21_1.png"
@@ -1183,7 +1179,7 @@
                     "name": "Discord",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "150%-250% Earth damage to all foes (Damage cap: ~630,000).\nDamage increased to 250%-350%."
+                        "250%-350% Earth damage to all foes (Damage cap: ~630,000)."
                     ],
                     "type": [
                         "1"
@@ -1192,7 +1188,7 @@
             ],
             [
                 {
-                    "cooldown": " 6 turns ",
+                    "cooldown": "6 turns ",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/18_3.png"
@@ -1214,7 +1210,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "1^t": [
                             "<:Status_Dmg_Cut_70:834391731369148459> **70% DMG Cut**"
@@ -1235,7 +1231,7 @@
             ],
             [
                 {
-                    "cooldown": " 14 turns12 turns ",
+                    "cooldown": "12 turns",
                     "duration": {
                         "Indefinite^i": [
                             "<:Status_Veil:832602900122828840> **Veil**",
@@ -1248,7 +1244,8 @@
                     "name": "Nibelung Silt",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "250% Earth damage to all foes (Damage cap: ~630,000).\nAll allies gain <:Status_Veil:832602900122828840> **Veil** and <:Status_Repel:832599166844403743> **Unchallenged (1 time)**."
+                        "250% Earth damage to all foes (Damage cap: ~630,000).",
+                        "All allies gain <:Status_Veil:832602900122828840> **Veil** and <:Status_Repel:832599166844403743> **Unchallenged (1 time)**."
                     ],
                     "type": [
                         "1"
@@ -1257,7 +1254,7 @@
             ],
             [
                 {
-                    "cooldown": " 7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {
                         "Indefinite^i": [
                             "<:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**"
@@ -1269,7 +1266,8 @@
                     "name": "Lagulf",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "6-hit, 150% Earth damage to random foes (Damage cap: ~200,000 per hit).\nDeploy 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**."
+                        "6-hit, 150% Earth damage to random foes (Damage cap: ~200,000 per hit).",
+                        "Deploy 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**."
                     ],
                     "type": [
                         "1"
@@ -1281,9 +1279,9 @@
         "SUMMER": [
             [
                 {
-                    "cooldown": " 8 turns7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {
-                        "Up^t": [
+                        "Up to 3^t": [
                             "<:Status_Uncrossable_Waters:832602432100892712> **Uncrossable Waters**"
                         ]
                     },
@@ -1293,7 +1291,10 @@
                     "name": "Uncrossable Waters",
                     "obtain": " Lvl 1\u21e7 Lvl 55 ",
                     "text": [
-                        "Remove all debuffs from Alexiel.\nGain <:Status_Uncrossable_Waters:832602432100892712> **Uncrossable Waters**.\n(Consumes 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** every turn.\nEnds when no <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** are deployed / Max: 3 turns)"
+                        "Remove all debuffs from Alexiel.",
+                        "Gain <:Status_Uncrossable_Waters:832602432100892712> **Uncrossable Waters**.",
+                        "Consumes 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** every turn.",
+                        "Ends when no <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** are deployed / Max: 3 turns"
                     ],
                     "type": [
                         "3"
@@ -1302,7 +1303,7 @@
             ],
             [
                 {
-                    "cooldown": " 8 turns7 turns ",
+                    "cooldown": "7 turns",
                     "duration": {
                         "Indefinite^i": [
                             "<:Status_MirrorBlade_Barrier:834402579919274005> **Mirror-Blade Barrier**",
@@ -1315,16 +1316,28 @@
                     "name": "Hildebrand",
                     "obtain": " Lvl 1\u21e7 Lvl 75 ",
                     "text": [
-                        "400% Earth damage to all foes (Damage cap: ~630,000).\nAll allies gain <:Status_MirrorBlade_Barrier:834402579919274005> **Mirror-Blade Barrier** (Stackable / Max: 5).\nDeploy 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**."
+                        "400% Earth damage to all foes (Damage cap: ~630,000).",
+                        "All allies gain <:Status_MirrorBlade_Barrier:834402579919274005> **Mirror-Blade Barrier** (Stackable / Max: 5).",
+                        "Deploy 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade**."
                     ],
                     "type": [
                         "1"
+                    ],
+                    "data": [
+                      {
+                          "inLine" : true,
+                          "title" : "<:Status_MirrorBlade_Barrier:834402579919274005> Mirror-Blade Barrier:",
+                          "text": [
+                            "\u2022 **Effect**: DEF is boosted (Stackable / Can't be removed).",
+                            "\u2022 **Strength**: 9% (Max: 45%)."
+                          ]
+                      }
                     ]
                 }
             ],
             [
                 {
-                    "cooldown": " 6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {
                         "180^s": [
                             "<:Status_WaterAtkDown:832603014111690764> **20% Water ATK Down**",
@@ -1340,7 +1353,8 @@
                     "name": "Nibelung Sand",
                     "obtain": " Lvl 45 ",
                     "text": [
-                        "Inflict <:Status_WaterAtkDown:832603014111690764> **20% Water ATK Down** and <:Status_Gravity:832593788052177016> **Gravity** on all foes.\nWhen 1 <:Status_MirrorBlade_1:832597121181810708> **Mirror-Blade** is consumed: Also inflict <:Status_Accuracy_Lowered_2:834386454578593813> **Accuracy Lowered**."
+                        "Inflict <:Status_WaterAtkDown:832603014111690764> **20% Water ATK Down** and <:Status_Gravity:832593788052177016> **Gravity** on all foes.",
+                        "**When 1 <:Status_MirrorBlade_1:832597121181810708> Mirror-Blade is consumed**: Also inflict <:Status_Accuracy_Lowered_2:834386454578593813> **Accuracy Lowered**."
                     ],
                     "type": [
                         "4"
@@ -1354,7 +1368,7 @@
         "BASE": [
             [
                 {
-                    "cooldown": " 7 turns6 turns ",
+                    "cooldown": "6 turns",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/215_3.png"
@@ -1362,16 +1376,60 @@
                     "name": "Q.E.D.",
                     "obtain": " Lvl 1\u21e7 Lvl 45 ",
                     "text": [
-                        ""
+                        "f"
                     ],
                     "type": [
                         "3"
+                    ],
+                    "data": [
+                      {
+                          "inLine" : false,
+                          "title" : "The effect of Q.E.D. is determined by the value produced by the modulo operation (turns passed) mod 4. In other words, divide the number of turns passed by 4 and use the remainder. This means the value produced will always be 1, 2, 3, or 0:",
+                          "text": [
+                            "\u2022 In quests with multiple battles, if a battle ends without pressing Attack, the number of turns does not progress.",
+                            "\u2022 Effects become stronger as more turns pass, capping at 17+ turns (or 5 loops). All results affect all allies and buffs last for 3 turns."
+                          ]
+                      },
+                      {
+                        "inLine" : true,
+                        "title" : "Remainder",
+                        "text": [
+                          "1",
+                          "2",
+                          "3",
+                          "0"
+                        ]
+                      },
+                      {
+                        "inLine" : true,
+                        "title" : "Effect",
+                        "text": [
+                          "<:Status_AttackUp:832581064555364362> ATK Up",
+                          "<:Status_Defiance:832588448593346600> C.A. DMG Up",
+                          "<:Status_Defiance:832588448593346600> C.B. DMG Up",
+                          "2",
+                          "3",
+                          "0"
+                        ]
+                      },
+                      {
+                        "inLine" : true,
+                        "title" : "Strength",
+                        "text": [
+                          "5%, 10%, 15%, 15%, 20%",
+                          "<:Status_Defiance:832588448593346600> C.A. DMG Up",
+                          "<:Status_Defiance:832588448593346600> C.B. DMG Up",
+                          "2",
+                          "3",
+                          "0"
+                        ]
+                      }
                     ]
                 }
             ],
             [
                 {
-                    "cooldown": " 7 turns ",
+                    "cooldown": "7 turns ",
                     "duration": {},
                     "icon": [
                         "http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/icon/ability/m/216_1.png"
@@ -1379,7 +1437,7 @@
                     "name": "Debate",
                     "obtain": " Lvl 25 ",
                     "text": [
-                        ""
+                        "f"
                     ],
                     "type": [
                         "1"

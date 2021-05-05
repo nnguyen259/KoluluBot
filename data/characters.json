@@ -383,17 +383,17 @@
     "Alec": {
         "BASE": {
             "5star": "Yes",
-            "atk": "7,500",
+            "atk": "8,400 +(480)",
             "element": "Fire",
             "gender": [
                 "Male"
             ],
-            "hp": "900",
+            "hp": "1010",
             "id": "3030003000",
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3030003000_03.png",
             "jpname": "\u30a2\u30ec\u30af",
             "max_evo": "5",
-            "name": "Alec",
+            "name": "Alec [5\u2605]",
             "profile": "This boy's thunderous power and fiery intensity come naturally. These abilities have twisted his worldview, but not his sense of right and wrong.",
             "race": [
                 "Human"
@@ -420,10 +420,10 @@
             ],
             "hp": "900",
             "id": "3030003000",
-            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3030003000_03.png",
+            "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3030003000_02.png",
             "jpname": "\u30a2\u30ec\u30af",
             "max_evo": "5",
-            "name": "Alec",
+            "name": "Alec [4\u2605]",
             "profile": "This boy's thunderous power and fiery intensity come naturally. These abilities have twisted his worldview, but not his sense of right and wrong.",
             "race": [
                 "Human"
@@ -434,7 +434,7 @@
             "specialties": [
                 "Melee"
             ],
-            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3030003000_03.jpg",
+            "thumbnail": "http://game-a1.granbluefantasy.jp/assets_en/img/sp/assets/npc/m/3030003000_02.jpg",
             "type": "Attack",
             "va": [
                 "Megumi Han"
@@ -488,7 +488,7 @@
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040158000_02.png",
             "jpname": "\u30d6\u30ed\u30fc\u30c7\u30a3\u30a2",
             "max_evo": "4",
-            "name": "Alexiel",
+            "name": "Alexiel (Grand)",
             "profile": "Once a defender of the god-realm, a chance meeting with the primarch of earth led her to become his disciple. She protects the weak and reviles evil. And with her mirror-blades, she brings righteousness and justice to them both.",
             "race": [
                 "Primal"
@@ -521,7 +521,7 @@
             "image": "http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/detail/3040232000_02.png",
             "jpname": "\u30d6\u30ed\u30fc\u30c7\u30a3\u30a2",
             "max_evo": "4",
-            "name": "Alexiel",
+            "name": "Alexiel (Summer)",
             "profile": "Drawn to the azure seas, alabaster sands, and scorching sun, this noble defender of the god-realm descends upon the sandy beach. Slipping on a meticulously chosen piece of swimwear, the divine beauty is ready to revel in her summer reprieve.",
             "race": [
                 "Primal"
