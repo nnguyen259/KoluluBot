@@ -26,8 +26,19 @@ if not os.path.exists('db/kolulu.db'):
                     db.cursor().executescript(script.read())
                 db.commit()
 
-bot = commands.Bot(os.getenv('prefix'))
-modules = ['character']
+if os.getenv("sql"):
+    connection = sqlite3.connect('db/kolulu.db')
+    with closing(connection) as db:
+        try:
+            scriptFile = f'sql/upgrades/{os.getenv("sql")}.sql'
+            with open(scriptFile) as script:
+                db.cursor().executescript(script.read())
+            db.commit()
+        except Exception:
+            pass
+
+bot = commands.Bot("!gbf ")
+modules = ['character', 'prefix']
 
 @bot.event
 async def on_ready():
