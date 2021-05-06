@@ -1,3 +1,4 @@
+import os, io
 import discord, json, DiscordUtils
 from discord.ext import commands
 from discord.ext.commands.context import Context
@@ -5,25 +6,66 @@ from discord.ext.commands.context import Context
 class Character(commands.Cog):
     def __init__(self, client):
         self.client = client
+        self.dataPath = os.getenv("data")
         self.loadData()
 
     def loadData(self):
-        with open('data/characters.json', 'r', encoding='utf-8') as charFile:
-            self.chars = dict((k.lower(), v) for k, v in json.load(charFile).items())
-        with open('data/emoji.json', 'r', encoding='utf-8') as emojiFile:
-            self.emojis = json.load(emojiFile)
-        with open('data/ougi.json', 'r', encoding='utf-8') as ougiFile:
-            self.ougis = dict((k.lower(), v) for k, v in json.load(ougiFile).items())
-        with open('data/skill.json', 'r', encoding='utf-8') as skillFile:
-            self.skills = dict((k.lower(), v) for k, v in json.load(skillFile).items())
-        with open('data/supportskill.json', 'r', encoding='utf-8') as supportSkillFile:
-            self.supportSkills = dict((k.lower(), v) for k, v in json.load(supportSkillFile).items())
-        with open('data/emp.json', 'r', encoding='utf-8') as empFile:
-            self.emps = dict((k.lower(), v) for k, v in json.load(empFile).items())
-        with open('data/empdata.json', 'r', encoding='utf-8') as empDataFile:
-            self.empData = json.load(empDataFile)
-        with open('data/empdomaindata.json', 'r', encoding='utf-8') as empDomainDataFile:
-            self.empDomainData = json.load(empDomainDataFile)
+        from urllib.request import urlopen
+        try:
+            data = urlopen(f'{self.dataPath}/characters.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'characters.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.chars = dict((k.lower(), v) for k, v in json.load(data).items())
+
+        try:
+            data = urlopen(f'{self.dataPath}/emoji.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'emoji.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.emojis = json.load(data)
+
+        try:
+            data = urlopen(f'{self.dataPath}/ougi.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'ougi.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.ougis = dict((k.lower(), v) for k, v in json.load(data).items())
+
+        try:
+            data = urlopen(f'{self.dataPath}/skill.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'skill.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.skills = dict((k.lower(), v) for k, v in json.load(data).items())
+
+        try:
+            data = urlopen(f'{self.dataPath}/supportskill.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'supportskill.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.supportSkills = dict((k.lower(), v) for k, v in json.load(data).items())
+
+        try:
+            data = urlopen(f'{self.dataPath}/emp.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'emp.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.emps = dict((k.lower(), v) for k, v in json.load(data).items())
+
+        try:
+            data = urlopen(f'{self.dataPath}/empdata.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'empdata.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.empData = json.load(data)
+
+        try:
+            data = urlopen(f'{self.dataPath}/empdomaindata.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'empdomaindata.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.empDomainData = json.load(data)
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -32,10 +74,14 @@ class Character(commands.Cog):
     @commands.group(aliases=['c', 'character'])
     async def char(self, ctx : Context):
         if ctx.invoked_subcommand is None:
+            offset = 0
             args = ctx.message.content.split(' ')[1:]
             name = args[0]
-            version = args[1] if len(args) > 1 else None
-            uncap = args[2] if len(args) > 2 else None
+            if name in ['c', 'char', 'character']:
+                name = args[1]
+                offset = 1
+            version = args[1 + offset] if len(args) > 1 + offset else None
+            uncap = args[2 + offset] if len(args) > 2 + offset else None
             await self.info(ctx, name, version, uncap)
 
     @char.command()
