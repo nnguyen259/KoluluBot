@@ -168,8 +168,10 @@ class Character(commands.Cog):
 
         ougiEmbed = discord.Embed()
         for ougiList in charVersion:
+            value=''
             for ougiText in ougiList["text"]:
-                ougiEmbed.add_field(name=f'**{ougiList["name"]}**:', value=f'{ougiText} \n', inline=False)
+                value+= ougiText +"\n"
+            ougiEmbed.add_field(name=f'**{ougiList["name"]}**:', value=value, inline=False)
 
             if "data" in ougiList:
                 data = ougiList["data"]
@@ -279,7 +281,7 @@ class Character(commands.Cog):
             supportEmbed.description = "\n".join(supportList['text'])
             supportEmbed.set_thumbnail(url=f'{supportList["thumbnail"]}')
             supportEmbed.set_image(url=self.chars[name][version]['image'])
-                
+
             if "data" in supportList:
                 data = supportList["data"]
                 for details in data:
