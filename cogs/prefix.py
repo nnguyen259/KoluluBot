@@ -25,7 +25,11 @@ class Prefix(commands.Cog):
             await ctx.send('Prefix command not found!')
 
     @prefix.command()
-    async def add(self, ctx, prefixName):
+    async def add(self, ctx, *, prefixName):
+        prefixPartNum = len(prefixName.split(' '))
+        if prefixPartNum > 2 or (prefixPartNum == 2 and not prefixName.endswith(' ')):
+            await ctx.send(f'Invalid prefix name `{prefixName}`.')
+            return
         guildId = ctx.guild.id
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
