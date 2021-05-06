@@ -15,9 +15,8 @@
 name: Build and Deploy to Google Compute Engine
 
 on:
-  push:
-    branches:
-    - master
+  release:
+    types: [published]
 
 env:
   PROJECT_ID: ${{ secrets.GCE_PROJECT }}
@@ -62,3 +61,5 @@ jobs:
           --zone "$GCE_INSTANCE_ZONE" \
           --container-image "gcr.io/$PROJECT_ID/$GCE_INSTANCE-image:$GITHUB_SHA" \
           --container-env DISCORD_TOKEN=$DISCORD_TOKEN
+          --container-mount-host-path mount-path=/kolulu/logs,host-path=/kolulu/logs,mode=rw
+          --container-mount-host-path mount-path=/kolulu/db,host-path=/kolulu/db,mode=rw
