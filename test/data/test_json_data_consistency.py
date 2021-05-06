@@ -1,13 +1,13 @@
 def test_entry_exist_across_all_jsons():
     import json
-    with open('data/characters.json', 'r', encoding='utf-8') as charFile, open('data/ougi.json', 'r', encoding='utf-8') as ougiFile, \
-         open('data/supportskill.json', 'r', encoding='utf-8') as supportFile, open('data/skill.json', 'r', encoding='utf-8') as skillFile, \
-         open('data/emp.json', 'r', encoding='utf-8') as empFile:
-        characters = json.load(charFile)
-        ougis = json.load(ougiFile)
-        supports = json.load(supportFile)
-        skills = json.load(skillFile)
-        emps = json.load(empFile)
+    from urllib.request import urlopen
+    dataPath = "https://raw.githubusercontent.com/nnguyen259/KoluluData/master"
+    
+    characters = json.load(urlopen(f'{dataPath}/characters.json'))
+    ougis = json.load(urlopen(f'{dataPath}/ougi.json'))
+    supports = json.load(urlopen(f'{dataPath}/supportskill.json'))
+    skills = json.load(urlopen(f'{dataPath}/skill.json'))
+    emps = json.load(urlopen(f'{dataPath}/emp.json'))
     
     for character in characters:
         assert character in ougis, f'Character {character} not found in ougi'

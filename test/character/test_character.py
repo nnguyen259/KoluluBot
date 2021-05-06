@@ -1,7 +1,9 @@
 from cogs.character import Character
 from discord.ext import commands
+import os
 
 class TestCharacter():
+    os.environ['data'] = "https://raw.githubusercontent.com/nnguyen259/KoluluData/master"
     testClass = Character(commands.Bot)
 
     def test_get_char_version(self):
