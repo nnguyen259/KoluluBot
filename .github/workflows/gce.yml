@@ -16,7 +16,7 @@ name: Build and Deploy to Google Compute Engine
 
 on:
   release:
-    types: [published]
+    types: [published, edited]
 
 env:
   PROJECT_ID: ${{ secrets.GCE_PROJECT }}
