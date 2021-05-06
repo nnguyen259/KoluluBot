@@ -141,7 +141,10 @@ class Character(commands.Cog):
         #TODO: Look into ImgurAPI for this
         # embedList.append(await self.emp(ctx, name, version, uncap, noShow=True))
 
-        paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
+        for embed in embedList:
+            index = embedList.index(embed)
+            embed.set_footer(text=f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki', icon_url='https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png')
+        paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=False)
         paginator.add_reaction('⏮️', "first")
         paginator.add_reaction('⏪', "back")
         paginator.add_reaction('🔐', "lock")
@@ -194,6 +197,7 @@ class Character(commands.Cog):
         if noShow:
             return ougiEmbed
         else:
+            ougiEmbed.set_footer(text=f'Data obtained from GBF Wiki', icon_url='https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png')
             await ctx.send(embed=ougiEmbed)
 
     @char.command()
@@ -243,7 +247,10 @@ class Character(commands.Cog):
         if noShow:
             return embedList
         else:
-            paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
+            for embed in embedList:
+                index = embedList.index(embed)
+                embed.set_footer(text=f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki', icon_url='https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png')
+            paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=False)
             paginator.add_reaction('⏮️', "first")
             paginator.add_reaction('⏪', "back")
             paginator.add_reaction('🔐', "lock")
@@ -296,7 +303,10 @@ class Character(commands.Cog):
         if noShow:
             return embedList
         else:
-            paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
+            for embed in embedList:
+                index = embedList.index(embed)
+                embed.set_footer(text=f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki', icon_url='https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png')
+            paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=False)
             paginator.add_reaction('⏮️', "first")
             paginator.add_reaction('⏪', "back")
             paginator.add_reaction('🔐', "lock")
@@ -379,6 +389,7 @@ class Character(commands.Cog):
         embed.title = '__Extended Mastery Perks__'
         embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
         embed.set_image(url="attachment://emp.png")
+        embed.set_footer(text=f'Data obtained from GBF Wiki', icon_url='https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png')
 
         if noShow:
             return embed
