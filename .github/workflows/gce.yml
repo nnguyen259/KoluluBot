@@ -61,5 +61,5 @@ jobs:
           --zone "$GCE_INSTANCE_ZONE" \
           --container-image "gcr.io/$PROJECT_ID/$GCE_INSTANCE-image:$GITHUB_SHA" \
           --container-env DISCORD_TOKEN=$DISCORD_TOKEN \
-          --container-mount-host-path mount-path=/kolulu/logs,host-path=~/kolulu/logs,mode=rw \
-          --container-mount-host-path mount-path=/kolulu/db,host-path=~/kolulu/db,mode=rw
+          --container-mount-host-path mount-path=/kolulu/logs,host-path=/var/tmp/kolulu/logs,mode=rw \
+          --container-mount-host-path mount-path=/kolulu/db,host-path=/var/tmp/kolulu/db,mode=rw
