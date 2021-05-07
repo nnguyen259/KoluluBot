@@ -2,15 +2,16 @@ import os, io
 import discord, json, DiscordUtils
 from discord.ext import commands
 from discord.ext.commands.context import Context
+from urllib.request import urlopen
 
 class Character(commands.Cog):
     def __init__(self, client):
         self.client = client
         self.dataPath = os.getenv("data")
+        self.font = urlopen('https://github.com/google/fonts/raw/main/ufl/ubuntu/Ubuntu-Medium.ttf')
         self.loadData()
 
     def loadData(self):
-        from urllib.request import urlopen
         try:
             data = urlopen(f'{self.dataPath}/characters.json')
         except Exception:
@@ -360,7 +361,7 @@ class Character(commands.Cog):
                                 os.makedirs('cache/emp/image/domain', exist_ok=True)
                                 cellImage= Image.new("RGBA", (520, 104))
                                 domainText = ImageDraw.Draw(cellImage)
-                                font = ImageFont.truetype("data/Ubuntu-medium.ttf", 50)
+                                font = ImageFont.truetype(self.font, 50)
                                 domainText.text((258,52), "Domain of the Evoker", anchor= "mm", font=font)
                                 cellImage.save(f'cache/emp/image/domain/{id}.png')
                                 rowImage.paste(cellImage, (104*j, 0))
