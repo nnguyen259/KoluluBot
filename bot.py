@@ -53,7 +53,7 @@ with closing(connection) as db:
         db.commit()
 
 bot = commands.Bot(command_prefix=defaultPrefix)
-modules = ['character', 'prefix', 'admin']
+modules = ['charhelper', 'character', 'prefix', 'admin']
 
 @bot.event
 async def on_ready():
