@@ -1,5 +1,5 @@
-import os, io
-import discord, json, DiscordUtils
+import os
+import discord, DiscordUtils
 from discord.ext import commands
 from discord.ext.commands.context import Context
 from urllib.request import urlopen
@@ -17,7 +17,12 @@ class Character(commands.Cog):
         await self.reload()
 
     @commands.group(aliases=['c', 'character'])
+    @commands.guild_only()
     async def char(self, ctx : Context):
+        """Information on characters
+
+        When no subcommand is provided, the info command is used.
+        """        
         if ctx.invoked_subcommand is None:
             offset = 0
             args = ctx.message.content.split(' ')[1:]
@@ -29,13 +34,28 @@ class Character(commands.Cog):
             uncap = args[2 + offset] if len(args) > 2 + offset else None
             await self.info(ctx, name, version, uncap)
 
-    @char.command()
+    @char.command(hidden=True)
+    @commands.is_owner()
     async def reload(self, ctx):
+        """Reload the data for the bot
+
+        Data is stored at https://github.com/nnguyen259/KoluluData
+        """        
         self.helper.loadData()
         await ctx.send('Data reloaded')
 
     @char.command()
     async def info(self, ctx, name : str, version=None, uncap='6'):
+        """Complete information on a character
+
+        name: Character Name.
+        version: The specific version for the character.
+        uncap: The uncap level for the version.
+
+        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
+        
+        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
+        """        
         name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
@@ -71,6 +91,16 @@ class Character(commands.Cog):
 
     @char.command()
     async def ougi(self, ctx, name :str, version=None, uncap='6'):
+        """Information on Charge Attacks/Ougi
+
+        name: Character Name.
+        version: The specific version for the character.
+        uncap: The uncap level for the version.
+
+        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
+        
+        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
+        """        
         name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
@@ -91,6 +121,16 @@ class Character(commands.Cog):
 
     @char.command()
     async def skill(self, ctx, name, version=None, uncap='6'):
+        """Information on Skills
+
+        name: Character Name.
+        version: The specific version for the character.
+        uncap: The uncap level for the version.
+
+        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
+        
+        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
+        """        
         name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
@@ -119,7 +159,17 @@ class Character(commands.Cog):
         await paginator.run(embedList)
 
     @char.command()
-    async def support(self, ctx, name :str, version=None, uncap='6', noShow=False):
+    async def support(self, ctx, name :str, version=None, uncap='6'):
+        """Information on Support Skills and EMP Skills
+
+        name: Character Name.
+        version: The specific version for the character.
+        uncap: The uncap level for the version.
+
+        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
+        
+        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
+        """        
         name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
@@ -148,9 +198,17 @@ class Character(commands.Cog):
         await paginator.run(embedList)
 
     @char.command()
-    async def emp(self, ctx, name : str, version=None, uncap='6', noShow=False):
-        
+    async def emp(self, ctx, name : str, version=None, uncap='6'):
+        """Information on the EMP Table
 
+        name: Character Name.
+        version: The specific version for the character.
+        uncap: The uncap level for the version.
+
+        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
+        
+        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
+        """        
         name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
@@ -170,6 +228,7 @@ class Character(commands.Cog):
         await ctx.send(file=file, embed=embed)
 
     @char.command(hidden=True)
+    @commands.is_owner()
     async def refresh(self, ctx):
         import shutil
         shutil.rmtree('cache/emp/char', ignore_errors=True)
@@ -177,6 +236,13 @@ class Character(commands.Cog):
 
     @char.command()
     async def art(self, ctx, name, version=None):
+        """Display the artworks for the character
+
+        name: Character Name.
+        version: The specific version for the character.
+
+        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
+        """        
         name, version, _, noVersion = self.getCharVersion(ctx, name, version, None)
         if not name:
             await ctx.send('Character not found!')
@@ -208,7 +274,7 @@ class Character(commands.Cog):
 
         await paginator.run(embedList)
 
-    @char.group()
+    @char.group(hidden=True)
     async def search(self, ctx):
         if ctx.invoked_subcommand is None:
             await ctx.send('No search term specified.')
@@ -216,11 +282,31 @@ class Character(commands.Cog):
     @char.group()
     @commands.guild_only()
     async def alias(self, ctx):
+        """Manage and view aliases
+
+        Aliases work on a per server basis (i.e Each server keeps its own list of aliases).
+
+        There are 2 types of aliases: Alternate Name and Version Alias.
+        Alternate Name can be used in place of the character's actual name (i.e Six instead of Seox)
+        Version Alias replaces both the name and the version of a character (i.e SKolulu for Summer Kolulu)
+
+        Both versions of aliases will work in place a name and/or version is used, including when adding a new alias.
+        """        
         if ctx.invoked_subcommand is None:
             await ctx.send('Alias command not found!')
 
     @alias.command()
     async def add(self, ctx, alias, name, version=None):
+        """Add a new alias
+
+        alias: The name of the alias to be added
+        name: The character to have the alias applied to
+        version: The version of the character to have the alias applied to
+
+        Version is an optional argument. If no version is specified, an Alternate Name is created, otherwise a new Version Alias is created.
+
+        An error is raised if an invalid version is provided.
+        """        
         import sqlite3
         from contextlib import closing
 
@@ -264,6 +350,10 @@ class Character(commands.Cog):
 
     @alias.command()
     async def remove(self, ctx, alias):
+        """Remove an alias
+
+        alias: The name of the alias to be removed
+        """     
         import sqlite3
         from contextlib import closing
 
@@ -281,6 +371,13 @@ class Character(commands.Cog):
 
     @alias.command()
     async def list(self, ctx, name, version=None):
+        """List alias(es) for the character
+
+        name: The character to have their aliases listed
+        version: The version of the character
+
+        Version is an optional argument. If no version is provided or the provided version is invalid, all the Alternate Names for the character will be listed. Otherwise, all the Version Aliases for the character version will be listed.
+        """        
         import sqlite3
         from contextlib import closing
 

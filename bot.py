@@ -1,3 +1,4 @@
+from helper.help import KoluluHelpCommand
 import logging
 import os
 import sqlite3
@@ -52,7 +53,7 @@ with closing(connection) as db:
         cursor.execute(statement, (defaultPrefix,))
         db.commit()
 
-bot = commands.Bot(command_prefix=defaultPrefix)
+bot = commands.Bot(command_prefix=defaultPrefix, help_command=KoluluHelpCommand())
 modules = ['charhelper', 'character', 'prefix', 'admin']
 
 @bot.event
@@ -77,26 +78,33 @@ async def on_command_error(ctx, error):
     await ctx.send(f'Something went wrong.\nError: {error}')
 
 @bot.command(hidden=True)
+@commands.is_owner()
 async def load(ctx, module, prefix='cogs'):
     bot.load_extension(f'{prefix}.{module}')
     await ctx.send(f'Module {module} loaded.')
 
 @bot.command(hidden=True)
+@commands.is_owner()
 async def unload(ctx, module, prefix='cogs'):
     bot.unload_extension(f'{prefix}.{module}')
     await ctx.send(f'Module {module} unloaded.')
 
 @bot.command(hidden=True)
+@commands.is_owner()
 async def reload(ctx, module, prefix='cogs'):
     bot.reload_extension(f'{prefix}.{module}')
     await ctx.send(f'Module {module} reloaded.')
 
 @bot.command()
-async def feedback(ctx, *, msg):
+async def feedback(ctx, *, message):
+    """Send feedback to the developer
+
+    message: The feedback message
+    """    
     connection = sqlite3.connect('db/kolulu.db')
     with closing(connection) as db:
         statement = 'INSERT INTO feedback (user_id, feedback) VALUES (?, ?)'
-        db.cursor().execute(statement, (ctx.author.id, msg))
+        db.cursor().execute(statement, (ctx.author.id, message))
         db.commit()
 
     await ctx.send(f'Feedback received!')

@@ -1,18 +1,19 @@
 import os
-from sqlite3.dbapi2 import connect
-import discord, json, sqlite3
+import discord, sqlite3
 from discord.ext import commands
 from contextlib import closing
-
-defaultPrefix = os.getenv("prefix")
 
 class Prefix(commands.Cog):
     def __init__(self, client):
         self.client = client
         self.client.command_prefix = self.loadPrefix
+        self.defaultPrefix = os.getenv("prefix")
 
     def loadPrefix(self, client, message):
-        guildId = message.guild.id
+        try:
+            guildId = message.guild.id
+        except Exception:
+            return self.defaultPrefix
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
             try:
@@ -22,19 +23,37 @@ class Prefix(commands.Cog):
                 results = cursor.fetchall()
                 results = list(zip(*results))[0]
                 results = sorted(results, key=len, reverse=True)
-                results.insert(0,defaultPrefix)
+                results.insert(0, self.defaultPrefix)
             except:
                 results = []
-                results.insert(0,defaultPrefix)
+                results.insert(0, self.defaultPrefix)
             return results
 
     @commands.group()
+    @commands.guild_only()
     async def prefix(self, ctx):
+        """Manage and view prefixes
+
+        The default prefix for KoluluBot is !gbf. This prefix will always work.
+
+        Any additional prefix works on a per server basis (each server has its own prefix list). Multiple prefixes can be active on a server at any given time.
+
+        When adding or removing prefix, the prefix has to be enclosed within a pair of quotation mark ("). The prefix is also allowed up to ONE trailing whitespace added to the end.
+        """        
         if ctx.invoked_subcommand is None:
             await ctx.send('Prefix command not found!')
 
     @prefix.command()
+    @commands.check_any(commands.is_owner(), commands.has_guild_permissions(administrator=True), commands.has_guild_permissions(manage_guild=True),
+                        commands.has_guild_permissions(manage_channels=True), commands.has_guild_permissions(manage_roles=True),
+                        commands.has_guild_permissions(manage_permissions=True))
     async def add(self, ctx, *, prefixName):
+        """Add a new prefix to the server
+
+        prefixName: The name of the prefix
+
+        Prefix name must not contain the space character.
+        """        
         if not (prefixName.startswith("\"") and prefixName.endswith("\"")):
             await ctx.send(f'Invalid prefix. Please put the prefix between quotation marks.')
             return
@@ -60,6 +79,7 @@ class Prefix(commands.Cog):
 
     @prefix.command()
     async def list(self, ctx):
+        """View a list of prefixes for the server"""        
         guildId = ctx.guild.id
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
@@ -70,18 +90,25 @@ class Prefix(commands.Cog):
                 results = cursor.fetchall()
                 results = list(zip(*results))[0]
                 results = sorted(results, key=len, reverse=True)
-                results.insert(0,defaultPrefix)
+                results.insert(0, self.defaultPrefix)
             except:
                 results = []
-                results.insert(0,defaultPrefix)
+                results.insert(0, self.defaultPrefix)
             await ctx.send(f'List of current prefixes: `{"`, `".join(results)}`')
 
     @prefix.command()
-    async def remove(self, ctx, *, prefixName: str):
+    @commands.check_any(commands.is_owner(), commands.has_guild_permissions(administrator=True), commands.has_guild_permissions(manage_guild=True),
+                        commands.has_guild_permissions(manage_channels=True), commands.has_guild_permissions(manage_roles=True),
+                        commands.has_guild_permissions(manage_permissions=True))
+    async def remove(self, ctx, *, prefixName):
+        """Remove a prefix for the server
+
+        prefixName: The prefix to be removed.
+        """        
         if not (prefixName.startswith("\"") and prefixName.endswith("\"")):
             await ctx.send(f'Invalid prefix. Please put the prefix between quotation marks.')
             return
-        prefixName=prefixName[1:len(prefixName)-1]
+        prefixName=prefixName[1:-1]
         guildId = ctx.guild.id
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
