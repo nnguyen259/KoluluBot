@@ -36,7 +36,7 @@ class Prefix(commands.Cog):
             try:
                 statement = 'INSERT INTO prefixes VALUES (?, ?)'
                 cursor = db.cursor()
-                cursor.execute(statement, (guildId, prefixName))
+                cursor.execute(statement, (guildId, f'{prefixName} '))
                 db.commit()
                 await ctx.send(f'Prefix **{prefixName}** added')
             except Exception:
@@ -61,7 +61,7 @@ class Prefix(commands.Cog):
         with closing(connection) as db:
             statement = 'DELETE FROM prefixes WHERE server_id = ? and prefix = ?'
             cursor = db.cursor()
-            cursor.execute(statement, (guildId, prefixName))
+            cursor.execute(statement, (guildId, f'{prefixName} '))
             db.commit()
         await ctx.send(f'Prefix **{prefixName}** deleted.')
 
