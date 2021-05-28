@@ -1,7 +1,12 @@
+import os
 from sqlite3.dbapi2 import connect
 import discord, json, sqlite3
 from discord.ext import commands
 from contextlib import closing
+from dotenv import load_dotenv
+
+load_dotenv()
+defaultPrefix = os.getenv("prefix")
 
 class Prefix(commands.Cog):
     def __init__(self, client):
@@ -12,11 +17,17 @@ class Prefix(commands.Cog):
         guildId = message.guild.id
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
-            statement = 'SELECT prefix FROM prefixes WHERE server_id = 0 OR server_id = ?'
-            cursor = db.cursor()
-            cursor.execute(statement, (guildId,))
-            results = cursor.fetchall()
-            results = list(zip(*results))[0]
+            try:
+                statement = 'SELECT prefix FROM prefixes WHERE server_id = ?'
+                cursor = db.cursor()
+                cursor.execute(statement, (guildId,))
+                results = cursor.fetchall()
+                results = list(zip(*results))[0]
+                results = sorted(results, key=len, reverse=True)
+                results.insert(0,defaultPrefix)
+            except:
+                results = []
+                results.insert(0,defaultPrefix)
             return results
 
     @commands.group()
@@ -26,6 +37,10 @@ class Prefix(commands.Cog):
 
     @prefix.command()
     async def add(self, ctx, *, prefixName):
+        if not (prefixName.startswith("\"") and prefixName.endswith("\"")):
+            await ctx.send(f'Invalid prefix. Please put the prefix between quotation marks.')
+            return
+        prefixName=prefixName[1:len(prefixName)-1]
         prefixPartNum = len(prefixName.split(' '))
         if prefixPartNum > 2 or (prefixPartNum == 2 and not prefixName.endswith(' ')):
             await ctx.send(f'Invalid prefix name `{prefixName}`.')
@@ -36,9 +51,9 @@ class Prefix(commands.Cog):
             try:
                 statement = 'INSERT INTO prefixes VALUES (?, ?)'
                 cursor = db.cursor()
-                cursor.execute(statement, (guildId, f'{prefixName} '))
+                cursor.execute(statement, (guildId, f'{prefixName}'))
                 db.commit()
-                await ctx.send(f'Prefix **{prefixName}** added')
+                await ctx.send(f'Prefix `{prefixName}`  added')
             except Exception:
                 await ctx.send('Prefix already existed')
 
@@ -47,23 +62,33 @@ class Prefix(commands.Cog):
         guildId = ctx.guild.id
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
-            statement = 'SELECT prefix FROM prefixes WHERE server_id = 0 or server_id = ?'
-            cursor = db.cursor()
-            cursor.execute(statement, (guildId,))
-            results = cursor.fetchall()
-            results = list(zip(*results))[0]
-            await ctx.send(f'List of current prefixes: {", ".join(results)}')
+            try:
+                statement = 'SELECT prefix FROM prefixes WHERE server_id = ?'
+                cursor = db.cursor()
+                cursor.execute(statement, (guildId,))
+                results = cursor.fetchall()
+                results = list(zip(*results))[0]
+                results = sorted(results, key=len, reverse=True)
+                results.insert(0,defaultPrefix)
+            except:
+                results = []
+                results.insert(0,defaultPrefix)
+            await ctx.send(f'List of current prefixes: `{"`, `".join(results)}`')
 
     @prefix.command()
-    async def remove(self, ctx, prefixName):
+    async def remove(self, ctx, *, prefixName: str):
+        if not (prefixName.startswith("\"") and prefixName.endswith("\"")):
+            await ctx.send(f'Invalid prefix. Please put the prefix between quotation marks.')
+            return
+        prefixName=prefixName[1:len(prefixName)-1]
         guildId = ctx.guild.id
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
             statement = 'DELETE FROM prefixes WHERE server_id = ? and prefix = ?'
             cursor = db.cursor()
-            cursor.execute(statement, (guildId, f'{prefixName} '))
+            cursor.execute(statement, (guildId, f'{prefixName}'))
             db.commit()
-        await ctx.send(f'Prefix **{prefixName}** deleted.')
+        await ctx.send(f'Prefix `{prefixName}` deleted.')
 
 def setup(client):
     client.add_cog(Prefix(client))
