@@ -39,6 +39,9 @@ class Prefix(commands.Cog):
             await ctx.send(f'Invalid prefix. Please put the prefix between quotation marks.')
             return
         prefixName=prefixName[1:-1]
+        if (prefixName.startswith("<") and prefixName.endswith(">") and len(prefixName)>2):
+            await ctx.send(f'Invalid prefix name `{prefixName}`.')
+            return
         prefixPartNum = len(prefixName.split(' '))
         if prefixPartNum > 2 or (prefixPartNum == 2 and not prefixName.endswith(' ')):
             await ctx.send(f'Invalid prefix name `{prefixName}`.')
