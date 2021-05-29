@@ -3,9 +3,7 @@ from sqlite3.dbapi2 import connect
 import discord, json, sqlite3
 from discord.ext import commands
 from contextlib import closing
-from dotenv import load_dotenv
 
-load_dotenv()
 defaultPrefix = os.getenv("prefix")
 
 class Prefix(commands.Cog):
@@ -40,7 +38,7 @@ class Prefix(commands.Cog):
         if not (prefixName.startswith("\"") and prefixName.endswith("\"")):
             await ctx.send(f'Invalid prefix. Please put the prefix between quotation marks.')
             return
-        prefixName=prefixName[1:len(prefixName)-1]
+        prefixName=prefixName[1:-1]
         prefixPartNum = len(prefixName.split(' '))
         if prefixPartNum > 2 or (prefixPartNum == 2 and not prefixName.endswith(' ')):
             await ctx.send(f'Invalid prefix name `{prefixName}`.')
@@ -51,7 +49,7 @@ class Prefix(commands.Cog):
             try:
                 statement = 'INSERT INTO prefixes VALUES (?, ?)'
                 cursor = db.cursor()
-                cursor.execute(statement, (guildId, f'{prefixName}'))
+                cursor.execute(statement, (guildId, prefixName))
                 db.commit()
                 await ctx.send(f'Prefix `{prefixName}`  added')
             except Exception:
@@ -86,7 +84,7 @@ class Prefix(commands.Cog):
         with closing(connection) as db:
             statement = 'DELETE FROM prefixes WHERE server_id = ? and prefix = ?'
             cursor = db.cursor()
-            cursor.execute(statement, (guildId, f'{prefixName}'))
+            cursor.execute(statement, (guildId, prefixName))
             db.commit()
         await ctx.send(f'Prefix `{prefixName}` deleted.')
 
