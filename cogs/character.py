@@ -56,7 +56,7 @@ class Character(commands.Cog):
         
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
-        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -101,7 +101,7 @@ class Character(commands.Cog):
         
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
-        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -131,7 +131,7 @@ class Character(commands.Cog):
         
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
-        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -170,7 +170,7 @@ class Character(commands.Cog):
         
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
-        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -209,7 +209,7 @@ class Character(commands.Cog):
         
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
-        name, version, uncap, noVersion = self.getCharVersion(ctx, name, version, uncap)
+        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -243,7 +243,7 @@ class Character(commands.Cog):
 
         When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
         """        
-        name, version, _, noVersion = self.getCharVersion(ctx, name, version, None)
+        name, version, _, noVersion, _ = self.getCharVersion(ctx, name, version, None)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -310,15 +310,23 @@ class Character(commands.Cog):
         import sqlite3
         from contextlib import closing
 
-        name, versionTemp, _, _ = self.getCharVersion(ctx, name, version)
+        name, versionTemp, _, _, redirect = self.getCharVersion(ctx, name, version)
         if not name:
             await ctx.send('Character not found!')
             return
         alias = alias.lower()
+        if alias in self.helper.chars:
+            await ctx.send('Cannot use character name as alias!')
+            return
+        if alias in self.helper.altNames or alias in self.helper.aliases:
+            await ctx.send('Alias already existed!')
+            return
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
             cursor = db.cursor()
             char = self.helper.chars[name]
+            if redirect:
+                version = versionTemp
             if versionTemp == 'BASE' and not version:
                 try:
                     statement = 'INSERT INTO alt_names VALUES(?, ?, ?)'
@@ -353,9 +361,21 @@ class Character(commands.Cog):
         """Remove an alias
 
         alias: The name of the alias to be removed
+
+        If the alias belongs to the default set provided by the bot, it is considered protected and cannot be removed.
         """     
         import sqlite3
         from contextlib import closing
+
+        alias = alias.lower()
+
+        if alias in self.helper.chars:
+            await ctx.send('Character name is not an alias.')
+            return
+
+        if alias in self.helper.altNames or alias in self.helper.aliases:
+            await ctx.send('Cannot delete alias. Alias belongs to a protected set.')
+            return
 
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
@@ -363,7 +383,7 @@ class Character(commands.Cog):
             statement = 'DELETE FROM alt_names WHERE server_id=? and alt_name=?'
             statement2 = 'DELETE FROM aliases WHERE server_id=? and alias_name=?'
 
-            input = (ctx.guild.id, alias.lower())
+            input = (ctx.guild.id, alias)
             cursor.execute(statement, input)
             cursor.execute(statement2, input)
             db.commit()
@@ -381,7 +401,7 @@ class Character(commands.Cog):
         import sqlite3
         from contextlib import closing
 
-        name, version, _, noVersion = self.getCharVersion(ctx, name, version, None)
+        name, version, _, noVersion, _ = self.getCharVersion(ctx, name, version, None)
         if not name:
             await ctx.send('Character not found!')
             return
@@ -389,7 +409,11 @@ class Character(commands.Cog):
             msg = self.sendDefault(ctx, name)
             if msg:
                 await ctx.send(msg)
-
+            
+            defaultAliases = [k.lower() for k in self.helper.altNames if self.helper.altNames[k].lower() == name]
+        else:
+            defaultAliases = [k.lower() for k, v in self.helper.aliases.items() if v['character'].lower() == name and v['version'] == version]
+        
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
             if version == 'BASE':
@@ -402,17 +426,21 @@ class Character(commands.Cog):
             cursor = db.cursor()
             cursor.execute(statement, input)
             results = cursor.fetchall()
-            if len(results) == 0:
+            
+            if len(results) + len(defaultAliases) == 0:
                 await ctx.send(f'No alias found for character **{name.title()} ({version.title()})**')
             else:
-                results = sorted(list(zip(*results))[0])
+                if len(results):
+                    results = sorted(list(zip(*results))[0])
+                defaultAliases.extend(results)
                 msg = f'Aliases for **{name.title()} ({version.title()})**:\n'
-                msg += '\n'.join(results)
+                msg += '\n'.join(defaultAliases)
                 await ctx.send(msg)
 
     def getCharVersion(self, ctx, name, version, uncap='6'):
         uncaps = {'4', '5', '6', 'MLB', 'FLB', 'ULB'}
         noVersion = False
+        redirect = False
 
         name = name.lower()
         if not uncap or uncap not in uncaps:
@@ -437,37 +465,57 @@ class Character(commands.Cog):
             uncap = '6'
 
         if not name in self.helper.chars:
-            import sqlite3
-            from contextlib import closing
-            connection = sqlite3.connect('db/kolulu.db')
-            with closing(connection) as db:
-                cursor = db.cursor()
-                fetchAltName = 'SELECT char_name FROM alt_names WHERE server_id=? AND alt_name=?'
-                cursor.execute(fetchAltName, (ctx.guild.id, name))
-                result = cursor.fetchone()
-                if result:
-                    name = result[0]
-                else:
-                    fetchAlias = 'SELECT char_name, char_version FROM aliases WHERE server_id=? AND alias_name=?'
-                    cursor.execute(fetchAlias, (ctx.guild.id, name))
+            # Check default alt names
+            if name in self.helper.altNames:
+                name = self.helper.altNames[name].lower()
+            # Check default aliases
+            elif name in self.helper.aliases:
+                version = self.helper.aliases[name]['version']
+                name = self.helper.aliases[name]['character'].lower()
+            # Get from db otherwise
+            else:
+                import sqlite3
+                from contextlib import closing
+                connection = sqlite3.connect('db/kolulu.db')
+                with closing(connection) as db:
+                    cursor = db.cursor()
+                    fetchAltName = 'SELECT char_name FROM alt_names WHERE server_id=? AND alt_name=?'
+                    cursor.execute(fetchAltName, (ctx.guild.id, name))
                     result = cursor.fetchone()
                     if result:
                         name = result[0]
-                        version = result[1].upper()
                     else:
-                        return None, version, uncap, noVersion
+                        fetchAlias = 'SELECT char_name, char_version FROM aliases WHERE server_id=? AND alias_name=?'
+                        cursor.execute(fetchAlias, (ctx.guild.id, name))
+                        result = cursor.fetchone()
+                        if result:
+                            name = result[0]
+                            version = result[1].upper()
+                        else:
+                            return None, version, uncap, noVersion, redirect
 
         char = self.helper.chars[name]
-        if not version or version not in char:
+        if not version:
             version = 'BASE'
             noVersion = True
+        if version not in char:
+            if version in self.helper.versions[name]:
+                tempData = self.helper.versions[name][version]
+                if 'character' in tempData:
+                    name = tempData['character'].lower()
+                version = tempData['version']
+                char = self.helper.chars[name]
+                redirect = True
+            else:
+                version = 'BASE'
+                noVersion = True
         if uncap == '4' and (char[version]['max_evo'] == '5' or char[version]['max_evo'] == '6'):
             if not version.endswith('_4'):
                 version += '_4'
         elif uncap == '5' and char[version]['max_evo'] == '6':
             if not version.endswith('_5'):
                 version += '_5'
-        return name, version, uncap, noVersion
+        return name, version, uncap, noVersion, redirect
 
     def sendDefault(self, ctx, name):
         versions = [version.title() for version in self.helper.chars[name] if '_' not in version]
