@@ -66,6 +66,27 @@ class CharHelper(commands.Cog):
                 data = io.StringIO(dataFile.read())
         self.empDomainData = json.load(data)
 
+        try:
+            data = urlopen(f'{self.dataPath}/altname.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'altname.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.altNames = dict((k.lower(), v) for k, v in json.load(data).items())
+
+        try:
+            data = urlopen(f'{self.dataPath}/alias.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'alias.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.aliases = dict((k.lower(), v) for k, v in json.load(data).items())
+
+        try:
+            data = urlopen(f'{self.dataPath}/version.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'version.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.versions = dict((k.lower(), v) for k, v in json.load(data).items())
+
     def getInfo(self, name, version):
         charVersion = self.chars[name][version]
         
