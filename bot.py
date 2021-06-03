@@ -35,7 +35,7 @@ if os.getenv("sql"):
     connection = sqlite3.connect('db/kolulu.db')
     with closing(connection) as db:
         try:
-            scriptFile = f'sql/upgrades/{os.getenv("sql")}.sql'
+            scriptFile = f'sql/{os.getenv("sql")}.sql'
             with open(scriptFile) as script:
                 db.cursor().executescript(script.read())
             db.commit()
@@ -68,13 +68,13 @@ async def on_command_error(ctx, error):
     msg = "".join(traceback.format_exception(type(error), error, error.__traceback__))
     logger.error(msg)
     logger.error(f'Error caused by user {ctx.author} running the command {ctx.message.content}')
-    try:
-        connection = sqlite3.connect('db/kolulu.db')
-        guildId = ctx.guild.id
-        with closing(connection) as db:
-            statement = 'INSERT INTO errors (user_id, stacktrace, command) VALUES (?, ?, ?)'
-            db.cursor().execute(statement, (ctx.author.id, msg, ctx.message.content))
-            db.commit()
+    connection = sqlite3.connect('db/kolulu.db')
+    with closing(connection) as db:
+        statement = 'INSERT INTO errors (user_id, stacktrace, command) VALUES (?, ?, ?)'
+        db.cursor().execute(statement, (ctx.author.id, msg, ctx.message.content))
+        db.commit()
+        try:
+            guildId = ctx.guild.id
             statement = 'SELECT silent FROM silence WHERE server_id = ?'
             cursor = db.cursor()
             cursor.execute(statement, (guildId,))
@@ -82,8 +82,8 @@ async def on_command_error(ctx, error):
             if result[0]==0:
                 await ctx.send(f'Error: {error}')
             db.commit()
-    except:
-        await ctx.send(f'Error: {error}')
+        except:
+            await ctx.send(f'Error: {error}')
 
 @bot.command(hidden=True)
 @commands.is_owner()
