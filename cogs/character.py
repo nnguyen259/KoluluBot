@@ -22,6 +22,12 @@ class Character(commands.Cog):
         """Information on characters
 
         When no subcommand is provided, the info command is used.
+        When the character cannot be found, the bot will look for alternatives in this ordre:
+        - Default alternative name list
+        - Default alias list
+        - Server specific alternative name list
+        - Server specific alias list
+        - Fuzzymatching name
         """        
         if ctx.invoked_subcommand is None:
             offset = 0
@@ -57,9 +63,6 @@ class Character(commands.Cog):
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if not name:
-            await ctx.send('Character not found!')
-            return
         if noVersion:
             msg = self.sendDefault(ctx, name)
             if msg:
@@ -102,9 +105,6 @@ class Character(commands.Cog):
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if not name:
-            await ctx.send('Character not found!')
-            return
         if noVersion:
             msg = self.sendDefault(ctx, name)
             if msg:
@@ -132,9 +132,6 @@ class Character(commands.Cog):
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if not name:
-            await ctx.send('Character not found!')
-            return
         if noVersion:
             msg = self.sendDefault(ctx, name)
             if msg:
@@ -171,9 +168,6 @@ class Character(commands.Cog):
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if not name:
-            await ctx.send('Character not found!')
-            return
         if noVersion:
             msg = self.sendDefault(ctx, name)
             if msg:
@@ -210,9 +204,6 @@ class Character(commands.Cog):
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if not name:
-            await ctx.send('Character not found!')
-            return
         if noVersion:
             msg = self.sendDefault(ctx, name)
             if msg:
@@ -244,14 +235,11 @@ class Character(commands.Cog):
         When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
         """        
         name, version, _, noVersion, _ = self.getCharVersion(ctx, name, version, None)
-        if not name:
-            await ctx.send('Character not found!')
-            return
         if noVersion:
             msg = self.sendDefault(ctx, name)
             if msg:
                 await ctx.send(msg)
-        charVersion = self.chars[name][version]
+        charVersion = self.helper.chars[name][version]
         charId = charVersion['id']
         maxVersion = 2
         if charVersion['max_evo'] == '5':
@@ -311,9 +299,6 @@ class Character(commands.Cog):
         from contextlib import closing
 
         name, versionTemp, _, _, redirect = self.getCharVersion(ctx, name, version)
-        if not name:
-            await ctx.send('Character not found!')
-            return
         alias = alias.lower()
         if alias in self.helper.chars:
             await ctx.send('Cannot use character name as alias!')
@@ -402,9 +387,6 @@ class Character(commands.Cog):
         from contextlib import closing
 
         name, version, _, noVersion, _ = self.getCharVersion(ctx, name, version, None)
-        if not name:
-            await ctx.send('Character not found!')
-            return
         if noVersion:
             msg = self.sendDefault(ctx, name)
             if msg:
@@ -492,7 +474,13 @@ class Character(commands.Cog):
                             name = result[0]
                             version = result[1].upper()
                         else:
-                            return None, version, uncap, noVersion, redirect
+                            from fuzzywuzzy import process, fuzz
+                            names = process.extractBests(name, self.helper.chars.keys(), scorer=fuzz.partial_ratio)
+                            names = [name for name, score in names if score == names[0][1]]
+                            tempNames = [n for n in names if n[0] == name[0]]
+                            if len(tempNames):
+                                names = tempNames
+                            name = names[0]
 
         char = self.helper.chars[name]
         if not version:
