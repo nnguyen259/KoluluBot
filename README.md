@@ -25,3 +25,5 @@ For a list of commands and their usages, use `!gbf help`.
 - Support for summons and weapons
 - Support for grid building
 - ...
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X14VAZ8)
