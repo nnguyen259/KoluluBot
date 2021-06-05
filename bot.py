@@ -35,7 +35,7 @@ if os.getenv("sql"):
     connection = sqlite3.connect('db/kolulu.db')
     with closing(connection) as db:
         try:
-            scriptFile = f'sql/upgrades/{os.getenv("sql")}.sql'
+            scriptFile = f'sql/{os.getenv("sql")}.sql'
             with open(scriptFile) as script:
                 db.cursor().executescript(script.read())
             db.commit()
@@ -68,14 +68,22 @@ async def on_command_error(ctx, error):
     msg = "".join(traceback.format_exception(type(error), error, error.__traceback__))
     logger.error(msg)
     logger.error(f'Error caused by user {ctx.author} running the command {ctx.message.content}')
-
     connection = sqlite3.connect('db/kolulu.db')
     with closing(connection) as db:
         statement = 'INSERT INTO errors (user_id, stacktrace, command) VALUES (?, ?, ?)'
         db.cursor().execute(statement, (ctx.author.id, msg, ctx.message.content))
         db.commit()
-
-    await ctx.send(f'Something went wrong.\nError: {error}')
+        try:
+            guildId = ctx.guild.id
+            statement = 'SELECT silent FROM silence WHERE server_id = ?'
+            cursor = db.cursor()
+            cursor.execute(statement, (guildId,))
+            result = cursor.fetchone()
+            if result[0]==0:
+                await ctx.send(f'Error: {error}')
+            db.commit()
+        except:
+            await ctx.send(f'Error: {error}')
 
 @bot.command(hidden=True)
 @commands.is_owner()
@@ -100,7 +108,7 @@ async def feedback(ctx, *, message):
     """Send feedback to the developer
 
     message: The feedback message
-    """    
+    """
     connection = sqlite3.connect('db/kolulu.db')
     with closing(connection) as db:
         statement = 'INSERT INTO feedback (user_id, feedback) VALUES (?, ?)'
@@ -108,5 +116,33 @@ async def feedback(ctx, *, message):
         db.commit()
 
     await ctx.send(f'Feedback received!')
+@bot.command()
+@commands.guild_only()
+@commands.has_permissions(administrator=True)
+async def silent(ctx):
+    guildId = ctx.guild.id
+    connection = sqlite3.connect('db/kolulu.db')
+    with closing(connection) as db:
+        statement = 'SELECT silent FROM silence WHERE server_id = ?'
+        cursor = db.cursor()
+        cursor.execute(statement, (guildId,))
+        result = cursor.fetchone()
+        if result is None:
+            statement = 'INSERT INTO silence (server_id, silent) VALUES (?, ?)'
+            db.cursor().execute(statement, (guildId, 1))
+            db.commit()
+            await ctx.send(f'Error message turned **off**!')
+        else:
+            statement = 'UPDATE silence SET silent = ? WHERE server_id =?'
+            cursor = db.cursor()
+            cursor.execute(statement, (1-result[0], guildId))
+            db.commit()
+            if (1-result[0]==1):
+                await ctx.send(f'Error message turned **off**!')
+            else:
+                await ctx.send(f'Error message turned **on**!')
+
+
+
 
 bot.run(os.getenv('DISCORD_TOKEN'))

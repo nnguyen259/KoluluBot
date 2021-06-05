@@ -89,7 +89,7 @@ class CharHelper(commands.Cog):
 
     def getInfo(self, name, version):
         charVersion = self.chars[name][version]
-        
+
         title = f'{self.emojis["Rarity"][charVersion["rarity"].upper()]} '
         for series in charVersion['series']:
             title += f'{self.emojis["Series"][series]} '
@@ -155,7 +155,7 @@ class CharHelper(commands.Cog):
         ougiEmbed.set_image(url=self.chars[name][version]['image'])
 
         return ougiEmbed
-    
+
     def getSkill(self, name, version):
         charVersion = self.skills[name][version]
 
@@ -191,7 +191,7 @@ class CharHelper(commands.Cog):
 
             embedList.append(skillEmbed)
         return embedList
-    
+
     def getSupport(self, name, version):
         charVersion = self.supportSkills[name][version]
 
@@ -289,6 +289,10 @@ class CharHelper(commands.Cog):
         embed = discord.Embed()
         embed.title = '__Extended Mastery Perks__'
         embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
+        charVersion = self.supportSkills[name][version]
+        for supportList in charVersion:
+            if supportList["name"] == "Extended Mastery Support Skill" or supportList["name"] == "Transcendence Extended Mastery Support Skill" or supportList["name"] == "Domain Bonus Ability":
+                embed.add_field(name=f'{supportList["name"]}: ' , value="\n".join(supportList['text']), inline=False)
         embed.set_image(url="attachment://emp.png")
         embed.set_footer(text=f'Data obtained from GBF Wiki', icon_url='https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png')
 
