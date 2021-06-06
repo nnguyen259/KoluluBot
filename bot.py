@@ -141,6 +141,14 @@ async def silent(ctx):
                 await ctx.send(f'Error message turned **off**!')
             else:
                 await ctx.send(f'Error message turned **on**!')
+@bot.command()
+async def invite(ctx):
+    member= ctx.author
+    channel= member.dm_channel
+    if channel is None:
+        channel= await member.create_dm()
+    await channel.send("https://discord.com/api/oauth2/authorize?client_id=827690753727397908&permissions=371776&scope=bot")
+    await ctx.send("Invite link sent! Please check your DMs.")
 
 
 
