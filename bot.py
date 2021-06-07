@@ -120,6 +120,10 @@ async def feedback(ctx, *, message):
 @commands.guild_only()
 @commands.has_permissions(administrator=True)
 async def silent(ctx):
+    """Turns on/off error messages.
+
+    Error messages are turned on by default. Only server admins can use this command.
+    """
     guildId = ctx.guild.id
     connection = sqlite3.connect('db/kolulu.db')
     with closing(connection) as db:
@@ -143,6 +147,8 @@ async def silent(ctx):
                 await ctx.send(f'Error message turned **on**!')
 @bot.command()
 async def invite(ctx):
+    """Sends a DM containing my invite link!
+    """
     member= ctx.author
     channel= member.dm_channel
     if channel is None:
