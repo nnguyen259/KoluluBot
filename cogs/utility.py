@@ -45,9 +45,7 @@ class Utility(commands.Cog):
         channel= member.dm_channel
         if channel is None:
             channel= await member.create_dm()
-        await channel.send("https://discord.com/api/oauth2/authorize?client_id=827690753727397908&permissions=371776&scope=bot")
-        await channel.send("If you need further help, please join the support server here!")
-        await channel.send("https://discord.gg/yATu8Z2A6R")
+        await channel.send("Invite link: https://discord.com/api/oauth2/authorize?client_id=827690753727397908&permissions=371776&scope=bot\nIf you need further help, please join the support server here!\nhttps://discord.gg/yATu8Z2A6R")
         await ctx.send("Invite link sent! Please check your DMs.")
 def setup(client):
     client.add_cog(Utility(client))
