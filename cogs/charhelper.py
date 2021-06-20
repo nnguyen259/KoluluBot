@@ -89,6 +89,7 @@ class CharHelper(commands.Cog):
 
     def getInfo(self, name, version):
         charVersion = self.chars[name][version]
+        charName = charVersion["original"].replace('_', ' ')
 
         title = f'{self.emojis["Rarity"][charVersion["rarity"].upper()]} '
         for series in charVersion['series']:
@@ -109,12 +110,14 @@ class CharHelper(commands.Cog):
         information += f'\n{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* {self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
 
         profile = f'{charVersion["profile"]}'
+        wikiLink = f'{charVersion["link"]}'
 
         embed = discord.Embed()
         embed.title = title
         embed.description = description
         embed.add_field(name='Basic Info.', value=information, inline=False)
         embed.add_field(name='Profile', value=profile, inline=False)
+        embed.add_field(name='Wiki Link:', value=f'[{charName}]({wikiLink})', inline=False)
         embed.set_thumbnail(url=charVersion['thumbnail'])
         embed.set_image(url=charVersion['image'])
 
