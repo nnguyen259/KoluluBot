@@ -511,7 +511,7 @@ class Character(commands.Cog):
         if len(versions) == 0: return ""
         versionText = ', '.join(versions)
         charName = self.helper.chars[name]['BASE']['name']
-        charName = charName.rsplit(' ')[0] if charName.endswith(')') or charName.endswith('\u2605') else charName
+        charName = charName.rsplit(' ')[0] if charName.endswith('\u2605') else charName
         return f'Using the default version for character **{charName}**.\nOther valid versions: **{versionText}**'
 
     def getUncapMessage(self, name, version, uncap):
