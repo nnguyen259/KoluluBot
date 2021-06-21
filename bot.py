@@ -54,7 +54,7 @@ with closing(connection) as db:
         db.commit()
 
 bot = commands.Bot(command_prefix=defaultPrefix, help_command=KoluluHelpCommand())
-modules = ['charhelper', 'character', 'prefix', 'admin']
+modules = ['charhelper', 'character', 'prefix', 'admin', 'utility']
 
 @bot.event
 async def on_ready():
@@ -116,33 +116,6 @@ async def feedback(ctx, *, message):
         db.commit()
 
     await ctx.send(f'Feedback received!')
-@bot.command()
-@commands.guild_only()
-@commands.has_permissions(administrator=True)
-async def silent(ctx):
-    guildId = ctx.guild.id
-    connection = sqlite3.connect('db/kolulu.db')
-    with closing(connection) as db:
-        statement = 'SELECT silent FROM silence WHERE server_id = ?'
-        cursor = db.cursor()
-        cursor.execute(statement, (guildId,))
-        result = cursor.fetchone()
-        if result is None:
-            statement = 'INSERT INTO silence (server_id, silent) VALUES (?, ?)'
-            db.cursor().execute(statement, (guildId, 1))
-            db.commit()
-            await ctx.send(f'Error message turned **off**!')
-        else:
-            statement = 'UPDATE silence SET silent = ? WHERE server_id =?'
-            cursor = db.cursor()
-            cursor.execute(statement, (1-result[0], guildId))
-            db.commit()
-            if (1-result[0]==1):
-                await ctx.send(f'Error message turned **off**!')
-            else:
-                await ctx.send(f'Error message turned **on**!')
-
-
 
 
 bot.run(os.getenv('DISCORD_TOKEN'))
