@@ -517,7 +517,7 @@ class Character(commands.Cog):
     def getUncapMessage(self, name, version, uncap):
         charVersion = self.helper.chars[name][version]
         charName = charVersion['name']
-        charName = charName.rsplit(' ')[0] if charName.endswith(')') or charName.endswith('\u2605]') else charName
+        charName = charName.rsplit(' ', 1)[0] if charName.endswith('\u2605]') else charName
         maxUncap = int(charVersion["max_evo"])
         currentUncap = int(uncap)
 
