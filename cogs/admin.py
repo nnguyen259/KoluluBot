@@ -1,5 +1,5 @@
 import io
-import discord, sqlite3
+import discord, DiscordUtils, sqlite3
 from discord.ext import commands, tasks
 from contextlib import closing
 
@@ -19,8 +19,36 @@ class Admin(commands.Cog):
 
     @admin.command()
     async def guildlist(self, ctx):
-        guilds = [guild.name for guild in self.client.guilds if not guild.name.startswith('Kolulu')]
-        await ctx.send('\n'.join(guilds))
+        guildEmbedList = []
+        emojiList = ['🔟', '1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣']
+        i=0
+        guildEmbed = discord.Embed()
+
+        for guild in self.client.guilds:
+            if not guild.name.startswith('Kolulu'):
+                i+=1
+                guildEmbed.add_field(name=f'{emojiList[i%10]} {guild.name}', value='\u200b', inline=False)
+                if i%10==0:
+                    guildEmbedList.append(guildEmbed)
+                    guildEmbed = discord.Embed()
+
+        if i%10!=0:
+            guildEmbedList.append(guildEmbed)
+
+        for embed in guildEmbedList:
+            embed.title=f'Kolulu server list: {len(self.client.guilds)} total servers'
+            index = guildEmbedList.index(embed)
+            footerText = f'({index+1}/{len(guildEmbedList)})'
+            embed.set_footer(text=footerText)
+
+        paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=False)
+        paginator.add_reaction('⏮️', "first")
+        paginator.add_reaction('⏪', "back")
+        paginator.add_reaction('🔐', "lock")
+        paginator.add_reaction('⏩', "next")
+        paginator.add_reaction('⏭️', "last")
+
+        await paginator.run(guildEmbedList)
 
     @admin.command()
     async def log(self, ctx, recent=0):
