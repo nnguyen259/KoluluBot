@@ -21,18 +21,18 @@ class Admin(commands.Cog):
     async def guildlist(self, ctx):
         guildEmbedList = []
         emojiList = ['🔟', '1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣']
-        i=0
+        i = 0
         guildEmbed = discord.Embed()
 
         for guild in self.client.guilds:
             if not guild.name.startswith('Kolulu'):
                 i+=1
                 guildEmbed.add_field(name=f'{emojiList[i%10]} {guild.name}', value='\u200b', inline=False)
-                if i%10==0:
+                if i%10 == 0:
                     guildEmbedList.append(guildEmbed)
                     guildEmbed = discord.Embed()
 
-        if i%10!=0:
+        if i%10 != 0:
             guildEmbedList.append(guildEmbed)
 
         for embed in guildEmbedList:
