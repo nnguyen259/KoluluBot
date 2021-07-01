@@ -53,13 +53,20 @@ with closing(connection) as db:
         cursor.execute(statement, (defaultPrefix,))
         db.commit()
 
-bot = commands.Bot(command_prefix=defaultPrefix, help_command=KoluluHelpCommand())
-modules = ['charhelper', 'character', 'prefix', 'admin']
+bot = commands.Bot(command_prefix=defaultPrefix)
+modules = ['character', 'prefix']
+moduleDetails = {
+    'character' : ['view', 'helper', 'character']
+}
 
 @bot.event
 async def on_ready():
     for module in modules:
-        bot.load_extension(f'cogs.{module}')
+        if module in moduleDetails:
+            for detail in moduleDetails[module]:
+                bot.load_extension(f'cogs.{module}.{detail}')
+        else:
+            bot.load_extension(f'cogs.{module}')
     print('Bot is ready.')
 
 @bot.event
@@ -87,20 +94,32 @@ async def on_command_error(ctx, error):
 
 @bot.command(hidden=True)
 @commands.is_owner()
-async def load(ctx, module, prefix='cogs'):
-    bot.load_extension(f'{prefix}.{module}')
+async def load(ctx, module):
+    if module in moduleDetails:
+        for detail in moduleDetails[module]:
+            bot.load_extension(f'cogs.{module}.{detail}')
+    else:
+        bot.load_extension(f'cogs.{module}')
     await ctx.send(f'Module {module} loaded.')
 
 @bot.command(hidden=True)
 @commands.is_owner()
-async def unload(ctx, module, prefix='cogs'):
-    bot.unload_extension(f'{prefix}.{module}')
+async def unload(ctx, module):
+    if module in moduleDetails:
+        for detail in moduleDetails[module]:
+            bot.unload_extension(f'cogs.{module}.{detail}')
+    else:
+        bot.unload_extension(f'cogs.{module}')
     await ctx.send(f'Module {module} unloaded.')
 
 @bot.command(hidden=True)
 @commands.is_owner()
-async def reload(ctx, module, prefix='cogs'):
-    bot.reload_extension(f'{prefix}.{module}')
+async def reload(ctx, module):
+    if module in moduleDetails:
+        for detail in moduleDetails[module]:
+            bot.reload_extension(f'cogs.{module}.{detail}')
+    else:
+        bot.reload_extension(f'cogs.{module}')
     await ctx.send(f'Module {module} reloaded.')
 
 @bot.command()

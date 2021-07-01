@@ -7,6 +7,7 @@ class CharHelper(commands.Cog):
         self.client = client
         self.dataPath = os.getenv("data")
         self.font = urlopen('https://github.com/google/fonts/raw/main/ufl/ubuntu/Ubuntu-Medium.ttf')
+        self.icon_url = 'https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png'
         self.loadData()
 
     def loadData(self):
@@ -87,8 +88,10 @@ class CharHelper(commands.Cog):
                 data = io.StringIO(dataFile.read())
         self.versions = dict((k.lower(), v) for k, v in json.load(data).items())
 
-    def getInfo(self, name, version):
+    def getInfo(self, name, version, uncap):
         charVersion = self.chars[name][version]
+        msg = self.getUncapMessage(name, version, uncap)
+        embedList = list()
 
         title = f'{self.emojis["Rarity"][charVersion["rarity"].upper()]} '
         for series in charVersion['series']:
@@ -118,10 +121,21 @@ class CharHelper(commands.Cog):
         embed.set_thumbnail(url=charVersion['thumbnail'])
         embed.set_image(url=charVersion['image'])
 
-        return embed
+        embedList.append(embed)
 
-    def getOugi(self, name, version):
+        for embed in embedList:
+            index = embedList.index(embed)
+            footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
+            if msg:
+                footerText += f'\n{msg}'
+            embed.set_footer(text=footerText, icon_url=self.icon_url)
+
+        return embedList
+
+    def getOugi(self, name, version, uncap):
         charVersion = self.ougis[name][version]
+        msg = self.getUncapMessage(name, version, uncap)
+        embedList = list()
 
         ougiEmbed = discord.Embed()
         for ougiList in charVersion:
@@ -154,10 +168,20 @@ class CharHelper(commands.Cog):
         ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
         ougiEmbed.set_image(url=self.chars[name][version]['image'])
 
-        return ougiEmbed
+        embedList.append(ougiEmbed)
 
-    def getSkill(self, name, version):
+        for embed in embedList:
+            index = embedList.index(embed)
+            footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
+            if msg:
+                footerText += f'\n{msg}'
+            embed.set_footer(text=footerText, icon_url=self.icon_url)
+
+        return embedList
+
+    def getSkill(self, name, version, uncap):
         charVersion = self.skills[name][version]
+        msg = self.getUncapMessage(name, version, uncap)
 
         embedList = []
         for skillList in charVersion:
@@ -190,10 +214,19 @@ class CharHelper(commands.Cog):
                     skillEmbed.add_field(name='Durations', value=f'{duration}\n', inline=False)
 
             embedList.append(skillEmbed)
+
+        for embed in embedList:
+            index = embedList.index(embed)
+            footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
+            if msg:
+                footerText += f'\n{msg}'
+            embed.set_footer(text=footerText, icon_url=self.icon_url)
+
         return embedList
 
-    def getSupport(self, name, version):
+    def getSupport(self, name, version, uncap):
         charVersion = self.supportSkills[name][version]
+        msg = self.getUncapMessage(name, version, uncap)
 
         embedList = []
         for supportList in charVersion:
@@ -223,13 +256,23 @@ class CharHelper(commands.Cog):
                         duration = duration.replace('^t', ' turns')
                 supportEmbed.add_field(name='Durations', value=f'{duration}\n', inline=False)
             embedList.append(supportEmbed)
+
+        for embed in embedList:
+            index = embedList.index(embed)
+            footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
+            if msg:
+                footerText += f'\n{msg}'
+            embed.set_footer(text=footerText, icon_url=self.icon_url)
+
         return embedList
 
-    def getEmp(self, name, version):
+    def getEmp(self, name, version, uncap):
         from PIL import Image, ImageDraw, ImageFont
         import urllib.request, os
 
         charVersion = self.emps[name][version]
+        msg = self.getUncapMessage(name, version, uncap)
+        embedList = list()
 
         try:
             file = discord.File(f'cache/emp/char/{name}/{version}.png', filename='emp.png')
@@ -295,8 +338,59 @@ class CharHelper(commands.Cog):
                 embed.add_field(name=f'{supportList["name"]}: ' , value="\n".join(supportList['text']), inline=False)
         embed.set_image(url="attachment://emp.png")
         embed.set_footer(text=f'Data obtained from GBF Wiki', icon_url='https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png')
+        embedList.append(embed)
 
-        return embed, file
+        for embed in embedList:
+            footerText = f'Data obtained from GBF Wiki'
+            if msg:
+                footerText += f'\n{msg}'
+            embed.set_footer(text=footerText, icon_url=self.icon_url)
+
+        return embedList, file
+
+    def getArt(self, name, version):
+        charVersion = self.chars[name][version]
+        charId = charVersion['id']
+        maxVersion = 2
+        if charVersion['max_evo'] == '5':
+            maxVersion = 3
+        elif charVersion['max_evo'] == '6':
+            maxVersion = 4
+        embedList = []
+
+        for i in range(maxVersion):
+            embed = discord.Embed()
+            embed.set_image(url=f'http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/{charId}_0{i+1}.png')
+            embedList.append(embed)
+
+        for embed in embedList:
+            index = embedList.index(embed)
+            footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
+            embed.set_footer(text=footerText, icon_url=self.icon_url)
+
+        return embedList
+
+    def getWikiKey(self, name, version):
+        charVersion = self.chars[name][version]
+        return charVersion['original']
+
+    def getUncapMessage(self, name, version, uncap):
+        charVersion = self.chars[name][version]
+        charName = charVersion['name']
+        charName = charName.rsplit(' ')[0] if charName.endswith(')') or charName.endswith('\u2605') else charName
+        maxUncap = int(charVersion["max_evo"])
+        currentUncap = int(uncap)
+
+        if currentUncap > maxUncap:
+            currentUncap = maxUncap
+
+        if maxUncap < 5: return ''
+
+        if maxUncap == currentUncap:
+            msg = f'Showing the highest uncap for character {charName}.\nFor lower uncap add 5 or 4 to the end of the command.'
+        else:
+            msg = f'Showing the {currentUncap}* uncap for character {charName}.'
+        return msg
 
 def setup(client):
     client.add_cog(CharHelper(client))

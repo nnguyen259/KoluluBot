@@ -1,16 +1,16 @@
+from cogs.character.helper import CharHelper
+from cogs.character.view import CharView
 import os
 import discord, DiscordUtils
 from discord.ext import commands
 from discord.ext.commands.context import Context
-from urllib.request import urlopen
 
 class Character(commands.Cog):
     def __init__(self, client):
         self.client = client
         self.dataPath = os.getenv("data")
-        self.font = urlopen('https://github.com/google/fonts/raw/main/ufl/ubuntu/Ubuntu-Medium.ttf')
-        self.icon_url = 'https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png'
-        self.helper = client.get_cog('CharHelper')
+        self.helper : CharHelper = client.get_cog('CharHelper')
+        self.viewClass : CharView = client.get_cog('CharView')
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -51,7 +51,7 @@ class Character(commands.Cog):
         await ctx.send('Data reloaded')
 
     @char.command()
-    async def info(self, ctx, name : str, version=None, uncap='6'):
+    async def info(self, ctx : Context, name : str, version=None, uncap='6'):
         """Complete information on a character
 
         name: Character Name.
@@ -63,160 +63,24 @@ class Character(commands.Cog):
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
         """        
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
+        msg = ''
         if noVersion:
             msg = self.sendDefault(ctx, name)
-            if msg:
-                await ctx.send(msg)
-        msg = self.getUncapMessage(name, version, uncap)
-        mainEmbed = self.helper.getInfo(name, version)
-        embedList = []
-        embedList.append(mainEmbed)
-        embedList.append(self.helper.getOugi(name, version))
-        embedList.extend(self.helper.getSkill(name, version))
-        embedList.extend(self.helper.getSupport(name, version))
-        #TODO: Look into ImgurAPI for this
-        # embedList.append(await self.emp(ctx, name, version, uncap, noShow=True))
-
-        for embed in embedList:
-            index = embedList.index(embed)
-            footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
-            if msg:
-                footerText += f'\n{msg}'
-            embed.set_footer(text=footerText, icon_url=self.icon_url)
-        paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=False)
-        paginator.add_reaction('⏮️', "first")
-        paginator.add_reaction('⏪', "back")
-        paginator.add_reaction('🔐', "lock")
-        paginator.add_reaction('⏩', "next")
-        paginator.add_reaction('⏭️', "last")
-
-        await paginator.run(embedList)
-
-    @char.command()
-    async def ougi(self, ctx, name :str, version=None, uncap='6'):
-        """Information on Charge Attacks/Ougi
-
-        name: Character Name.
-        version: The specific version for the character.
-        uncap: The uncap level for the version.
-
-        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
+        bioEmbeds = self.helper.getInfo(name, version, uncap)
+        ougiEmbeds = self.helper.getOugi(name, version, uncap)
+        skillEmbeds = self.helper.getSkill(name, version, uncap)
+        supportEmbeds = self.helper.getSupport(name, version, uncap)
+        empEmbeds, file = self.helper.getEmp(name, version, uncap)
+        artEmbeds = self.helper.getArt(name, version)
         
-        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
-        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if noVersion:
-            msg = self.sendDefault(ctx, name)
-            if msg:
-                await ctx.send(msg)
-        msg = self.getUncapMessage(name, version, uncap)
+        view = self.viewClass.CharacterView(self.client)
+        view.setWikiLink(self.helper.getWikiKey(name, version))
+        view.setUser(ctx.author.id)
+        view.setEmbeds(bioEmbeds, ougiEmbeds, skillEmbeds, supportEmbeds, empEmbeds, artEmbeds)
 
-        ougiEmbed = self.helper.getOugi(name, version)
-
-        footerText = f'Data obtained from GBF Wiki'
-        if msg:
-            footerText += f'\n{msg}'
-        ougiEmbed.set_footer(text=footerText, icon_url=self.icon_url)
-        await ctx.send(embed=ougiEmbed)
-
-    @char.command()
-    async def skill(self, ctx, name, version=None, uncap='6'):
-        """Information on Skills
-
-        name: Character Name.
-        version: The specific version for the character.
-        uncap: The uncap level for the version.
-
-        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        
-        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
-        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if noVersion:
-            msg = self.sendDefault(ctx, name)
-            if msg:
-                await ctx.send(msg)
-        msg = self.getUncapMessage(name, version, uncap)
-
-        embedList = self.helper.getSkill(name, version)
-
-        for embed in embedList:
-            index = embedList.index(embed)
-            footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
-            if msg:
-                footerText += f'\n{msg}'
-            embed.set_footer(text=footerText, icon_url=self.icon_url)
-        paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=False)
-        paginator.add_reaction('⏮️', "first")
-        paginator.add_reaction('⏪', "back")
-        paginator.add_reaction('🔐', "lock")
-        paginator.add_reaction('⏩', "next")
-        paginator.add_reaction('⏭️', "last")
-
-        await paginator.run(embedList)
-
-    @char.command()
-    async def support(self, ctx, name :str, version=None, uncap='6'):
-        """Information on Support Skills and EMP Skills
-
-        name: Character Name.
-        version: The specific version for the character.
-        uncap: The uncap level for the version.
-
-        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        
-        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
-        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if noVersion:
-            msg = self.sendDefault(ctx, name)
-            if msg:
-                await ctx.send(msg)
-        msg = self.getUncapMessage(name, version, uncap)
-
-        embedList = self.helper.getSupport(name, version)
-
-        for embed in embedList:
-            index = embedList.index(embed)
-            footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
-            if msg:
-                footerText += f'\n{msg}'
-            embed.set_footer(text=footerText, icon_url=self.icon_url)
-        paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=False)
-        paginator.add_reaction('⏮️', "first")
-        paginator.add_reaction('⏪', "back")
-        paginator.add_reaction('🔐', "lock")
-        paginator.add_reaction('⏩', "next")
-        paginator.add_reaction('⏭️', "last")
-
-        await paginator.run(embedList)
-
-    @char.command()
-    async def emp(self, ctx, name : str, version=None, uncap='6'):
-        """Information on the EMP Table
-
-        name: Character Name.
-        version: The specific version for the character.
-        uncap: The uncap level for the version.
-
-        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        
-        Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
-        name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
-        if noVersion:
-            msg = self.sendDefault(ctx, name)
-            if msg:
-                await ctx.send(msg)
-        msg = self.getUncapMessage(name, version, uncap)
-        
-        embed, file = self.helper.getEmp(name, version)
-        footerText = f'Data obtained from GBF Wiki'
-        if msg:
-            footerText += f'\n{msg}'
-        embed.set_footer(text=footerText, icon_url=self.icon_url)
-
-        await ctx.send(file=file, embed=embed)
+        message = await ctx.send(msg, embed=bioEmbeds[0], view=view, file=file)
+        view.setAttachment(message.attachments[0].url)
+        await message.edit(attachments=[])
 
     @char.command(hidden=True)
     @commands.is_owner()
@@ -224,43 +88,6 @@ class Character(commands.Cog):
         import shutil
         shutil.rmtree('cache/emp/char', ignore_errors=True)
         await ctx.send('Removed charcter emp caches.')
-
-    @char.command()
-    async def art(self, ctx, name, version=None):
-        """Display the artworks for the character
-
-        name: Character Name.
-        version: The specific version for the character.
-
-        When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        """        
-        name, version, _, noVersion, _ = self.getCharVersion(ctx, name, version, None)
-        if noVersion:
-            msg = self.sendDefault(ctx, name)
-            if msg:
-                await ctx.send(msg)
-        charVersion = self.helper.chars[name][version]
-        charId = charVersion['id']
-        maxVersion = 2
-        if charVersion['max_evo'] == '5':
-            maxVersion = 3
-        elif charVersion['max_evo'] == '6':
-            maxVersion = 4
-        embedList = []
-
-        for i in range(maxVersion):
-            embed = discord.Embed()
-            embed.set_image(url=f'http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/{charId}_0{i+1}.png')
-            embedList.append(embed)
-
-        paginator = DiscordUtils.Pagination.CustomEmbedPaginator(ctx, timeout=60, remove_reactions=True, auto_footer=True)
-        paginator.add_reaction('⏮️', "first")
-        paginator.add_reaction('⏪', "back")
-        paginator.add_reaction('🔐', "lock")
-        paginator.add_reaction('⏩', "next")
-        paginator.add_reaction('⏭️', "last")
-
-        await paginator.run(embedList)
 
     @char.group(hidden=True)
     async def search(self, ctx):
