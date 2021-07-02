@@ -2,13 +2,14 @@ import os
 import discord, DiscordUtils
 from discord.ext import commands
 from urllib.request import urlopen
+from cogs.summonhelper import SummonHelper
 
 class Summon(commands.Cog):
     def __init__(self, client):
         self.client = client
         self.dataPath = os.getenv("data")
         self.icon_url = 'https://cdn.discordapp.com/attachments/828230402875457546/839701583515222026/321247751830634496.png'
-        self.helper = client.get_cog('SummonHelper')
+        self.helper : SummonHelper = client.get_cog('SummonHelper')
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -36,7 +37,7 @@ class Summon(commands.Cog):
 
     @summon.command()
     async def info(self, ctx, *, name):
-        embedList = self.helper.get(name)
+        embedList = self.helper.get(self.getSummonName(name))
         for embed in embedList:
             index = embedList.index(embed)
             footerText = f'({index+1}/{len(embedList)})\nData obtained from GBF Wiki'
@@ -50,6 +51,20 @@ class Summon(commands.Cog):
         paginator.add_reaction('⏭️', "last")
 
         await paginator.run(embedList)
+
+    def getSummonName(self, name : str):
+        name = name.lower()
+        if name in self.helper.summons:
+            return name
+        
+        from fuzzywuzzy import process, fuzz
+        names = process.extractBests(name, self.helper.summons.keys(), scorer=fuzz.partial_ratio, limit=20)
+        names = [name for name, score in names if score == names[0][1]]
+        tempNames = [n for n in names if n[0] == name[0]]
+        if len(tempNames):
+            names = tempNames
+        print(names[0])
+        return names[0]        
 
 def setup(client):
     client.add_cog(Summon(client))
