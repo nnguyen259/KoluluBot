@@ -20,18 +20,18 @@ class Summon(commands.Cog):
     async def summon(self, ctx):
         if ctx.invoked_subcommand is None:
             args = ctx.message.content.split(' ')[1:]
-            name = args[0]
+            name = "_".join(args[0:])
             if name in ['s', 'summon']:
-                name = args[1]
+                name = "_".join(args[1:])
             await self.info(ctx, name=name)
-    
+
     @summon.command(hidden=True)
     @commands.is_owner()
     async def reload(self, ctx):
         """Reload the data for the bot
 
         Data is stored at https://github.com/nnguyen259/KoluluData
-        """        
+        """
         self.helper.loadData()
         await ctx.send('Data reloaded')
 
@@ -56,15 +56,14 @@ class Summon(commands.Cog):
         name = name.lower()
         if name in self.helper.summons:
             return name
-        
+
         from fuzzywuzzy import process, fuzz
-        names = process.extractBests(name, self.helper.summons.keys(), scorer=fuzz.partial_ratio, limit=20)
+        names = process.extractBests(name, self.helper.summons.keys(), scorer=fuzz.ratio, limit=20)
         names = [name for name, score in names if score == names[0][1]]
         tempNames = [n for n in names if n[0] == name[0]]
         if len(tempNames):
             names = tempNames
-        print(names[0])
-        return names[0]        
+        return names[0]
 
 def setup(client):
     client.add_cog(Summon(client))
