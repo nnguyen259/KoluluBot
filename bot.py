@@ -85,6 +85,12 @@ async def on_command_error(ctx, error):
         except:
             await ctx.send(f'Error: {error}')
 
+@bot.event
+async def on_guild_join(guild):
+        server = await bot.fetch_guild(831807081723199519)
+        channel = bot.get_channel(836796622003765288)
+        await channel.send(f'I joined a new server: {guild.name}')
+
 @bot.command(hidden=True)
 @commands.is_owner()
 async def load(ctx, module, prefix='cogs'):
