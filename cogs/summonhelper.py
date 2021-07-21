@@ -85,7 +85,7 @@ class SummonHelper(commands.Cog):
             embed.add_field(name=callTitle, value=version["call"], inline=False)
 
             if summon['comboable'] != 'Yes':
-                embed.add_field(name='\u200b', value='**Cannot be included in other players\' combo call**', inline=False)
+                embed.add_field(name='\u200b', value='**Cannot be included in other players\' combo call.**', inline=False)
 
             if version["duration_call"]:
                 duration = ''
