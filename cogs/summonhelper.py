@@ -34,6 +34,7 @@ class SummonHelper(commands.Cog):
         summon = self.summons[name]
         versions = summon['versions']
         id = summon['id']
+        wikiLink= summon["link"]
         embedList = []
 
         mainEmbed = discord.Embed()
@@ -48,6 +49,7 @@ class SummonHelper(commands.Cog):
         mainEmbed.set_image(url=imageUrl)
         mainEmbed.set_thumbnail(url=thumbnailUrl)
         mainEmbed.colour= int(self.embedColor[summon["element"].title()], 16)
+        mainEmbed.add_field(name='Wiki Link:', value=f'[{summon["name"]}]({wikiLink})', inline=False)
         embedList.append(mainEmbed)
 
         for version in versions:
