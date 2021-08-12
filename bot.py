@@ -58,10 +58,10 @@ modules = ['charhelper', 'character', 'prefix', 'admin', 'utility']
 
 @bot.event
 async def on_ready():
-    activity = discord.Game(name="!gbf help", type=3)
-    await bot.change_presence(status=discord.Status.idle, activity=activity)
     for module in modules:
         bot.load_extension(f'cogs.{module}')
+    activity = discord.Game(name="!gbf help", type=3)
+    await bot.change_presence(status=discord.Status.idle, activity=activity)
     print('Bot is ready.')
 
 @bot.event
