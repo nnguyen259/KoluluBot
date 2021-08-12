@@ -58,6 +58,8 @@ modules = ['charhelper', 'character', 'prefix', 'admin', 'utility']
 
 @bot.event
 async def on_ready():
+    activity = discord.Game(name="!gbf help", type=3)
+    await bot.change_presence(status=discord.Status.idle, activity=activity)
     for module in modules:
         bot.load_extension(f'cogs.{module}')
     print('Bot is ready.')
@@ -90,6 +92,11 @@ async def on_guild_join(guild):
         server = await bot.fetch_guild(831807081723199519)
         channel = bot.get_channel(836796622003765288)
         await channel.send(f'I joined a new server: {guild.name}')
+
+@bot.event
+async def on_message(message):
+    if bot.user.mentioned_in(message):
+        await message.channel.send(f'Hi, {message.author.display_name}! Please use `!gbf help` to get the list of commands <:NierLove:809541622257680444>')
 
 @bot.command(hidden=True)
 @commands.is_owner()
