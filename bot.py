@@ -97,6 +97,7 @@ async def on_guild_join(guild):
 async def on_message(message):
     if bot.user.mentioned_in(message):
         await message.channel.send(f'Hi, {message.author.display_name}! Please use `!gbf help` to get the list of commands <:NierLove:809541622257680444>')
+    await bot.process_commands(message)
 
 @bot.command(hidden=True)
 @commands.is_owner()
