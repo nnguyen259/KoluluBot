@@ -28,7 +28,7 @@ class Character(commands.Cog):
         - Server specific alternative name list
         - Server specific alias list
         - Fuzzymatching name
-        """        
+        """
         if ctx.invoked_subcommand is None:
             offset = 0
             args = ctx.message.content.split(' ')[1:]
@@ -46,7 +46,7 @@ class Character(commands.Cog):
         """Reload the data for the bot
 
         Data is stored at https://github.com/nnguyen259/KoluluData
-        """        
+        """
         self.helper.loadData()
         await ctx.send('Data reloaded')
 
@@ -59,9 +59,9 @@ class Character(commands.Cog):
         uncap: The uncap level for the version.
 
         When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        
+
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
+        """
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if noVersion:
             msg = self.sendDefault(ctx, name)
@@ -101,9 +101,9 @@ class Character(commands.Cog):
         uncap: The uncap level for the version.
 
         When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        
+
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
+        """
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if noVersion:
             msg = self.sendDefault(ctx, name)
@@ -128,9 +128,9 @@ class Character(commands.Cog):
         uncap: The uncap level for the version.
 
         When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        
+
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
+        """
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if noVersion:
             msg = self.sendDefault(ctx, name)
@@ -164,9 +164,9 @@ class Character(commands.Cog):
         uncap: The uncap level for the version.
 
         When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        
+
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
+        """
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if noVersion:
             msg = self.sendDefault(ctx, name)
@@ -200,16 +200,16 @@ class Character(commands.Cog):
         uncap: The uncap level for the version.
 
         When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        
+
         Valid inputs for uncap include: MLB, FLB, ULB, 4, 5, 6. When no uncap level is specified, the highest uncap level is used.
-        """        
+        """
         name, version, uncap, noVersion, _ = self.getCharVersion(ctx, name, version, uncap)
         if noVersion:
             msg = self.sendDefault(ctx, name)
             if msg:
                 await ctx.send(msg)
         msg = self.getUncapMessage(name, version, uncap)
-        
+
         embed, file = self.helper.getEmp(name, version)
         footerText = f'Data obtained from GBF Wiki'
         if msg:
@@ -233,7 +233,7 @@ class Character(commands.Cog):
         version: The specific version for the character.
 
         When no version is specified or the specified version is invalid, the bot defaults to the first release version of the highest rarity. This does not always match up with the naming used by GBF Wiki.
-        """        
+        """
         name, version, _, noVersion, _ = self.getCharVersion(ctx, name, version, None)
         if noVersion:
             msg = self.sendDefault(ctx, name)
@@ -279,7 +279,7 @@ class Character(commands.Cog):
         Version Alias replaces both the name and the version of a character (i.e SKolulu for Summer Kolulu)
 
         Both versions of aliases will work in place a name and/or version is used, including when adding a new alias.
-        """        
+        """
         if ctx.invoked_subcommand is None:
             await ctx.send('Alias command not found!')
 
@@ -294,7 +294,7 @@ class Character(commands.Cog):
         Version is an optional argument. If no version is specified, an Alternate Name is created, otherwise a new Version Alias is created.
 
         An error is raised if an invalid version is provided.
-        """        
+        """
         import sqlite3
         from contextlib import closing
 
@@ -348,7 +348,7 @@ class Character(commands.Cog):
         alias: The name of the alias to be removed
 
         If the alias belongs to the default set provided by the bot, it is considered protected and cannot be removed.
-        """     
+        """
         import sqlite3
         from contextlib import closing
 
@@ -382,7 +382,7 @@ class Character(commands.Cog):
         version: The version of the character
 
         Version is an optional argument. If no version is provided or the provided version is invalid, all the Alternate Names for the character will be listed. Otherwise, all the Version Aliases for the character version will be listed.
-        """        
+        """
         import sqlite3
         from contextlib import closing
 
@@ -391,11 +391,11 @@ class Character(commands.Cog):
             msg = self.sendDefault(ctx, name)
             if msg:
                 await ctx.send(msg)
-            
+
             defaultAliases = [k.lower() for k in self.helper.altNames if self.helper.altNames[k].lower() == name]
         else:
             defaultAliases = [k.lower() for k, v in self.helper.aliases.items() if v['character'].lower() == name and v['version'] == version]
-        
+
         connection = sqlite3.connect('db/kolulu.db')
         with closing(connection) as db:
             if version == 'BASE':
@@ -408,7 +408,7 @@ class Character(commands.Cog):
             cursor = db.cursor()
             cursor.execute(statement, input)
             results = cursor.fetchall()
-            
+
             if len(results) + len(defaultAliases) == 0:
                 await ctx.send(f'No alias found for character **{name.title()} ({version.title()})**')
             else:
@@ -511,13 +511,13 @@ class Character(commands.Cog):
         if len(versions) == 0: return ""
         versionText = ', '.join(versions)
         charName = self.helper.chars[name]['BASE']['name']
-        charName = charName.rsplit(' ')[0] if charName.endswith(')') or charName.endswith('\u2605') else charName
+        charName = charName.rsplit(' ')[0] if charName.endswith('\u2605') else charName
         return f'Using the default version for character **{charName}**.\nOther valid versions: **{versionText}**'
 
     def getUncapMessage(self, name, version, uncap):
         charVersion = self.helper.chars[name][version]
         charName = charVersion['name']
-        charName = charName.rsplit(' ')[0] if charName.endswith(')') or charName.endswith('\u2605') else charName
+        charName = charName.rsplit(' ', 1)[0] if charName.endswith('\u2605]') else charName
         maxUncap = int(charVersion["max_evo"])
         currentUncap = int(uncap)
 
@@ -529,7 +529,7 @@ class Character(commands.Cog):
         if maxUncap == currentUncap:
             msg = f'Showing the highest uncap for character {charName}.\nFor lower uncap add 5 or 4 to the end of the command.'
         else:
-            msg = f'Showing the {currentUncap}* uncap for character {charName}.'
+            msg = f'Showing the {currentUncap}\u2605 uncap for character {charName}.'
         return msg
 
 def setup(client):
