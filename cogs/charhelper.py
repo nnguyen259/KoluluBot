@@ -87,8 +87,16 @@ class CharHelper(commands.Cog):
                 data = io.StringIO(dataFile.read())
         self.versions = dict((k.lower(), v) for k, v in json.load(data).items())
 
+        try:
+            data = urlopen(f'{self.dataPath}/embedcolor.json')
+        except Exception:
+            with open(os.path.join(self.dataPath, 'embedcolor.json'), 'r', encoding='utf-8') as dataFile:
+                data = io.StringIO(dataFile.read())
+        self.embedColor = json.load(data)
+
     def getInfo(self, name, version):
         charVersion = self.chars[name][version]
+        charName = charVersion["original"].replace('_', ' ')
 
         title = f'{self.emojis["Rarity"][charVersion["rarity"].upper()]} '
         for series in charVersion['series']:
@@ -109,12 +117,15 @@ class CharHelper(commands.Cog):
         information += f'\n{self.emojis["Stat"]["Hp"]} *{charVersion["hp"]}* {self.emojis["Stat"]["Atk"]} *{charVersion["atk"]}*'
 
         profile = f'{charVersion["profile"]}'
+        wikiLink = f'{charVersion["link"]}'
 
         embed = discord.Embed()
         embed.title = title
         embed.description = description
+        embed.colour= int(self.embedColor[charVersion["element"]], 16)
         embed.add_field(name='Basic Info.', value=information, inline=False)
         embed.add_field(name='Profile', value=profile, inline=False)
+        embed.add_field(name='Wiki Link:', value=f'[{charName}]({wikiLink})', inline=False)
         embed.set_thumbnail(url=charVersion['thumbnail'])
         embed.set_image(url=charVersion['image'])
 
@@ -122,6 +133,7 @@ class CharHelper(commands.Cog):
 
     def getOugi(self, name, version):
         charVersion = self.ougis[name][version]
+        charColor = self.chars[name][version]
 
         ougiEmbed = discord.Embed()
         for ougiList in charVersion:
@@ -151,6 +163,7 @@ class CharHelper(commands.Cog):
                 ougiEmbed.add_field(name='Durations', value=f'{duration}\n', inline=False)
 
         ougiEmbed.title="Charge Attack"
+        ougiEmbed.colour= int(self.embedColor[charColor["element"]], 16)
         ougiEmbed.set_thumbnail(url='https://cdn.discordapp.com/attachments/828230361321963530/830390392565923900/download.png')
         ougiEmbed.set_image(url=self.chars[name][version]['image'])
 
@@ -158,13 +171,14 @@ class CharHelper(commands.Cog):
 
     def getSkill(self, name, version):
         charVersion = self.skills[name][version]
-
+        charColor = self.chars[name][version]
         embedList = []
         for skillList in charVersion:
             if len(skillList) == 0: continue
 
             for skill in skillList:
                 skillEmbed = discord.Embed(title=f'{skill["name"]}')
+                skillEmbed.colour= int(self.embedColor[charColor["element"]], 16)
                 skillEmbed.add_field(name=f'Cooldown: {skill["cooldown"]}', value='\n'.join(skill['text']), inline=False)
                 skillEmbed.set_thumbnail(url=f'{skill["icon"][-1]}')
                 skillEmbed.set_image(url=self.chars[name][version]['image'])
@@ -194,11 +208,13 @@ class CharHelper(commands.Cog):
 
     def getSupport(self, name, version):
         charVersion = self.supportSkills[name][version]
+        charColor = self.chars[name][version]
 
         embedList = []
         for supportList in charVersion:
             supportEmbed = discord.Embed()
             supportEmbed.title = f'{supportList["name"]}:'
+            supportEmbed.colour= int(self.embedColor[charColor["element"]], 16)
             supportEmbed.description = "\n".join(supportList['text'])
             supportEmbed.set_thumbnail(url=f'{supportList["thumbnail"]}')
             supportEmbed.set_image(url=self.chars[name][version]['image'])
@@ -230,6 +246,7 @@ class CharHelper(commands.Cog):
         import urllib.request, os
 
         charVersion = self.emps[name][version]
+        charColor = self.chars[name][version]
 
         try:
             file = discord.File(f'cache/emp/char/{name}/{version}.png', filename='emp.png')
@@ -288,6 +305,7 @@ class CharHelper(commands.Cog):
 
         embed = discord.Embed()
         embed.title = '__Extended Mastery Perks__'
+        embed.colour= int(self.embedColor[charColor["element"]], 16)
         embed.set_thumbnail(url=self.chars[name][version]['thumbnail'])
         charVersion = self.supportSkills[name][version]
         for supportList in charVersion:

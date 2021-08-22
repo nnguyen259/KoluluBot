@@ -54,12 +54,14 @@ with closing(connection) as db:
         db.commit()
 
 bot = commands.Bot(command_prefix=defaultPrefix, help_command=KoluluHelpCommand())
-modules = ['charhelper', 'character', 'prefix', 'admin']
+modules = ['charhelper', 'character', 'prefix', 'admin', 'utility']
 
 @bot.event
 async def on_ready():
     for module in modules:
         bot.load_extension(f'cogs.{module}')
+    activity = discord.Game(name="!gbf help", type=3)
+    await bot.change_presence(status=discord.Status.idle, activity=activity)
     print('Bot is ready.')
 
 @bot.event
@@ -84,6 +86,19 @@ async def on_command_error(ctx, error):
             db.commit()
         except:
             await ctx.send(f'Error: {error}')
+
+@bot.event
+async def on_guild_join(guild):
+        server = await bot.fetch_guild(831807081723199519)
+        channel = bot.get_channel(836796622003765288)
+        await channel.send(f'I joined a new server: {guild.name}')
+
+@bot.event
+async def on_message(message):
+    if bot.user.mentioned_in(message):
+        await message.channel.send(f'Hi, {message.author.display_name}! Please use `!gbf help` to get the list of commands <:NierLove:809541622257680444>')
+        return
+    await bot.process_commands(message)
 
 @bot.command(hidden=True)
 @commands.is_owner()
@@ -116,33 +131,6 @@ async def feedback(ctx, *, message):
         db.commit()
 
     await ctx.send(f'Feedback received!')
-@bot.command()
-@commands.guild_only()
-@commands.has_permissions(administrator=True)
-async def silent(ctx):
-    guildId = ctx.guild.id
-    connection = sqlite3.connect('db/kolulu.db')
-    with closing(connection) as db:
-        statement = 'SELECT silent FROM silence WHERE server_id = ?'
-        cursor = db.cursor()
-        cursor.execute(statement, (guildId,))
-        result = cursor.fetchone()
-        if result is None:
-            statement = 'INSERT INTO silence (server_id, silent) VALUES (?, ?)'
-            db.cursor().execute(statement, (guildId, 1))
-            db.commit()
-            await ctx.send(f'Error message turned **off**!')
-        else:
-            statement = 'UPDATE silence SET silent = ? WHERE server_id =?'
-            cursor = db.cursor()
-            cursor.execute(statement, (1-result[0], guildId))
-            db.commit()
-            if (1-result[0]==1):
-                await ctx.send(f'Error message turned **off**!')
-            else:
-                await ctx.send(f'Error message turned **on**!')
-
-
 
 
 bot.run(os.getenv('DISCORD_TOKEN'))
